@@ -1,8 +1,8 @@
 # Code Validation Pipeline — AslMarkets.Web
 
 Run steps in order. A step may not be skipped. Do not mark a task complete
-until all steps pass. Steps marked *(after scaffold)* activate once the Next.js
-scaffold ROADMAP item is implemented.
+until all steps pass. Steps marked *(after …)* activate once that ROADMAP item is
+implemented.
 
 ---
 
@@ -17,7 +17,7 @@ pnpm typecheck
 
 Zero errors required.
 
-### 2. Lint *(after scaffold)*
+### 2. Lint
 
 ```bash
 pnpm lint
@@ -27,7 +27,7 @@ pnpm lint
 Zero warnings. Fix the root cause. If suppression is truly necessary, add a comment
 explaining why and reference the `code-checklist.yml` rule it conflicts with.
 
-### 3. Format Check *(after scaffold)*
+### 3. Format Check
 
 ```bash
 pnpm format:check
@@ -71,7 +71,7 @@ pnpm test:ledger-concurrency
 Required when anything in `lib/services/ledger/` or `lib/db/schema.ts` changes. Runs against
 a real Postgres (`DATABASE_URL_TEST`, a Neon dev branch or local Docker).
 
-### 8. E2E Tests (critical paths only) *(after scaffold)*
+### 8. E2E Tests (critical paths only) *(after Playwright setup)*
 
 ```bash
 pnpm test:e2e
@@ -81,7 +81,7 @@ pnpm test:e2e
 Critical paths: browse stats → player page; sign in → trade → see position; admin resolve →
 payout visible.
 
-### 9. Build *(after scaffold)*
+### 9. Build
 
 ```bash
 pnpm build

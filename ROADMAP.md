@@ -13,7 +13,8 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| approved | Project scaffold | Next.js 15 + pnpm into the existing repo; keep `src/lib/market/` and `scripts/export-stats/` as-is <!-- updated: 2026-10-07 --> |
+| draft | Playwright E2E setup | `pnpm test:e2e` is referenced by `Harness/code-validation.md` but not installed. Needs real pages to test first |
+| draft | Pre-commit hooks | Locked decision says lint/format run pre-commit. Typecheck + lint + format:check on staged files |
 | draft | CI pipeline | GitHub Actions: typecheck → lint → test → stats:test → stats freshness → build |
 | draft | Tailwind v4 setup + design tokens | Race colors from CLAUDE.md Domain Rules as tokens; type scale; dark mode |
 | draft | Shared types + error model | `Result<T,E>`, `ActionResult`, branded IDs (`MarketId`, `UserId`), error codes incl. ledger errors |
@@ -24,6 +25,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 ### Archive
 
+- [implemented 2026-10-07] Project scaffold — Next.js 15.5 App Router + React 19, TypeScript 5.9 strict, ESLint 9 flat config with layer-boundary rules, Prettier, Vitest + Testing Library (jsdom). Root layout, placeholder home page, `SiteFooter` with the fan-project, play-money, and Liquipedia notices
 - [implemented 2026-10-06] LMSR pricing engine — `src/lib/market/lmsr.ts`, 22 tests incl. max-loss bound under random trading
 - [implemented 2026-10-06] Stats export pipeline — `scripts/export-stats/`, layout contract + cross-tab validation, 20 tests
 

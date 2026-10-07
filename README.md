@@ -9,19 +9,22 @@ Start with [CLAUDE.md](CLAUDE.md) (decisions, domain rules, docs map) and [ROADM
 
 | Piece | Where | Check |
 |---|---|---|
+| Next.js 15 app shell | `src/app/`, `src/components/` | `pnpm dev`, `pnpm build` |
 | LMSR pricing engine | `src/lib/market/lmsr.ts` | `pnpm test` |
 | Stats pipeline (Liquipedia → JSON) | `scripts/liquipedia/`, `scripts/export-stats/` | `pnpm stats:test` |
 | Exported stats | `data/generated/` | `pnpm stats:export` |
 | Agent harness + specs | `Harness/`, `Docs/` | — |
 
-The Next.js app isn't scaffolded yet. That's the first Foundation item on the roadmap.
+The Next.js app is scaffolded (`src/app/`): a root layout and a placeholder home page. Stats pages and
+markets come next; see the roadmap.
 
 ## Setup
 
 ```bash
 pnpm install
 # Python 3.12+ on PATH (standard library only)
-pnpm typecheck && pnpm test && pnpm stats:test
+pnpm dev                      # http://localhost:3000
+pnpm typecheck && pnpm lint && pnpm format:check && pnpm test && pnpm stats:test && pnpm build
 ```
 
 ## Updating stats

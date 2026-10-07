@@ -6,7 +6,13 @@
   "type": "module",
   "packageManager": "pnpm@10.18.0",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "typecheck": "tsc --noEmit",
+    "lint": "eslint . --max-warnings 0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "vitest run",
     "test:watch": "vitest",
     "stats:export": "python scripts/liquipedia/parse_seasons.py --quiet && python scripts/export-stats/export_stats.py data/source data/generated",
@@ -14,8 +20,24 @@
     "stats:fetch": "python scripts/liquipedia/fetch_seasons.py && python scripts/liquipedia/parse_seasons.py --quiet && python scripts/liquipedia/fetch_players.py && python scripts/liquipedia/parse_seasons.py --quiet"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
     "@types/node": "^26.6.4",
-    "typescript": "^7.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "15.5.27",
+    "eslint-config-prettier": "^10.1.8",
+    "jsdom": "^30.1.2",
+    "prettier": "^3.9.9",
+    "typescript": "^5.9.3",
     "vitest": "^5.0.3"
+  },
+  "dependencies": {
+    "next": "15.5.27",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   }
 }

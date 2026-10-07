@@ -14,3 +14,7 @@ Thumbs.db
 # Excel lock/temp files
 ~$*.xlsx
 .~lock.*
+tsconfig.tsbuildinfo
+
+# Next.js
+next-env.d.ts

@@ -147,6 +147,11 @@ placements from series results; use the tables only as a cross-check.
 `hero`/`herO`, even two spellings in one group. Newer pages also omit races. Identity and race
 come from the player page each name resolves to, not from the name as written.
 
+**[2026-10-07] Tooling versions are pinned by Next.js 15, not by "latest"** — the repo had
+TypeScript 7 and would have taken ESLint 10, but `typescript-eslint` supports TypeScript below
+6.1 and `eslint-config-next@15` supports ESLint up to 9. TypeScript is pinned to 5.9 and ESLint
+to 9. Don't bump either without checking those two peer ranges, or until Next.js itself moves.
+
 ---
 
 ## ROADMAP Status Lifecycle
@@ -175,8 +180,12 @@ draft → approved → in-progress → implemented
 | Command | What it does |
 |---|---|
 | `pnpm install` | Install JS deps |
+| `pnpm dev` | Run the site locally at http://localhost:3000 |
+| `pnpm build` / `pnpm start` | Production build, then serve it |
 | `pnpm typecheck` | `tsc --noEmit` |
-| `pnpm test` | Vitest (LMSR engine today; app tests later) |
+| `pnpm lint` | ESLint, zero warnings allowed. Enforces the layer boundaries in `Harness/architecture.md` |
+| `pnpm format` / `pnpm format:check` | Prettier write / check (code and config only; docs and data are ignored) |
+| `pnpm test` | Vitest: LMSR engine and component tests (jsdom + Testing Library) |
 | `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

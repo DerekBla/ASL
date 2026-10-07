@@ -21,7 +21,7 @@
 
 export type Quantities = readonly number[];
 
-export interface Quote {
+export type Quote = {
   outcome: number;
   /** Signed shares: positive = buy, negative = sell. */
   shares: number;
@@ -31,7 +31,7 @@ export interface Quote {
   avgPrice: number;
   priceBefore: number;
   priceAfter: number;
-}
+};
 
 const MICRO = 1e6;
 /** Beyond this |shares / b| the closed-form log1p path can overflow; use the direct difference. */
@@ -161,11 +161,13 @@ export function quoteSpend(b: number, q: Quantities, i: number, spend: number): 
  * q_i = b * ln(p_i), so C(q0) = 0. The prior is normalized; every entry must be > 0.
  */
 export function initialQuantities(b: number, prior: readonly number[]): number[] {
-  if (!Number.isFinite(b) || b <= 0) throw new RangeError(`b must be a positive finite number, got ${b}`);
+  if (!Number.isFinite(b) || b <= 0)
+    throw new RangeError(`b must be a positive finite number, got ${b}`);
   if (prior.length < 2) throw new RangeError("a market needs at least 2 outcomes");
   let total = 0;
   for (const p of prior) {
-    if (!Number.isFinite(p) || p <= 0) throw new RangeError("prior probabilities must be finite and > 0");
+    if (!Number.isFinite(p) || p <= 0)
+      throw new RangeError("prior probabilities must be finite and > 0");
     total += p;
   }
   return prior.map((p) => b * Math.log(p / total));
@@ -179,7 +181,8 @@ export function clampPrior(prior: readonly number[], minProb = 0.02): number[] {
   const n = prior.length;
   let total = 0;
   for (const p of prior) {
-    if (!Number.isFinite(p) || p < 0) throw new RangeError("prior probabilities must be finite and >= 0");
+    if (!Number.isFinite(p) || p < 0)
+      throw new RangeError("prior probabilities must be finite and >= 0");
     total += p;
   }
   if (total <= 0) throw new RangeError("prior must have positive total mass");
@@ -189,11 +192,13 @@ export function clampPrior(prior: readonly number[], minProb = 0.02): number[] {
 
 /** Worst-case market-maker loss in credits for a market opened at `prior`: b * ln(1 / p_min). */
 export function maxLoss(b: number, prior: readonly number[]): number {
-  if (!Number.isFinite(b) || b <= 0) throw new RangeError(`b must be a positive finite number, got ${b}`);
+  if (!Number.isFinite(b) || b <= 0)
+    throw new RangeError(`b must be a positive finite number, got ${b}`);
   let total = 0;
   let min = Infinity;
   for (const p of prior) {
-    if (!Number.isFinite(p) || p <= 0) throw new RangeError("prior probabilities must be finite and > 0");
+    if (!Number.isFinite(p) || p <= 0)
+      throw new RangeError("prior probabilities must be finite and > 0");
     total += p;
     if (p < min) min = p;
   }
@@ -202,7 +207,8 @@ export function maxLoss(b: number, prior: readonly number[]): number {
 
 /** Worst-case loss for a uniform start over n outcomes: b * ln(n). */
 export function maxLossUniform(b: number, n: number): number {
-  if (!Number.isFinite(b) || b <= 0) throw new RangeError(`b must be a positive finite number, got ${b}`);
+  if (!Number.isFinite(b) || b <= 0)
+    throw new RangeError(`b must be a positive finite number, got ${b}`);
   if (!Number.isInteger(n) || n < 2) throw new RangeError("n must be an integer >= 2");
   return b * Math.log(n);
 }

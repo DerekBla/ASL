@@ -1,0 +1,16 @@
+# Generated or fetched data
+data/
+pnpm-lock.yaml
+next-env.d.ts
+.next/
+out/
+coverage/
+
+# Hand-written prose and agent harness: not reformatted
+Docs/
+Harness/
+*.md
+
+# Python tooling and local agent files
+scripts/
+.claude/

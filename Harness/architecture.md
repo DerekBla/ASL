@@ -130,7 +130,7 @@ If any check fails, restructure rather than proceed.
 
 ---
 
-## Directory Skeleton (for reference — do not scaffold until approved)
+## Directory Skeleton (create folders only when a feature needs them)
 
 ```
 src/
@@ -141,7 +141,7 @@ src/
   features/
     stats/  markets/  portfolio/  leaderboard/  admin/
       components/  hooks/  actions/  queries/  store/  types.ts  index.ts
-  components/           # Shared stateless UI (RaceBadge, PlacementBadge, DataTable…)
+  components/           # EXISTS: SiteFooter. Shared stateless UI (RaceBadge, PlacementBadge, DataTable…)
   lib/
     market/             # EXISTS: lmsr.ts (+ settlement math later). Pure.
     db/                 # schema.ts, client.ts (pool + http)
@@ -153,10 +153,10 @@ src/
     stores/
     types/
     utils/
-    config/             # env.ts (Zod)
+    config/             # EXISTS: site.ts. env.ts (Zod) later
   test/
     factories/
-    setup.ts
+    setup.ts            # EXISTS: jest-dom matchers + cleanup
 scripts/
   liquipedia/           # EXISTS: fetch + parse Liquipedia season pages, tests
   export-stats/         # EXISTS: export_stats.py + tests
