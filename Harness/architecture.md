@@ -148,10 +148,10 @@ src/
     services/
       ledger/           # The only credit-writing code
       markets-read/
-      stats/            # JSON loaders with Zod
+      stats/            # EXISTS: schemas.ts, parse.ts, index.ts (loaders)
     queries/            # query-keys.ts
     stores/
-    types/
+    types/              # EXISTS: race.ts
     utils/
     config/             # EXISTS: site.ts. env.ts (Zod) later
   test/

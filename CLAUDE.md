@@ -91,7 +91,7 @@ Full module map, dependency rules, and data-flow patterns:
 | `Docs/feature-map/` | Engineering units: what can be built and what it depends on |
 | `Docs/product-specs/` | What to build and why — human-authored, non-technical |
 | `Docs/ui-specs/` | Component and feature design packages: states, copy, interactions |
-| `Docs/foundation-specs/` | Core protocols: LMSR engine, credit ledger, stats data contract |
+| `Docs/foundation-specs/` | Core protocols: LMSR engine, credit ledger, stats data contract, design tokens |
 | `Docs/integration-specs/` | Concrete third-party SDK and API implementations (Neon/Drizzle, Clerk) |
 | `Docs/integration-specs/references/` | Lookup catalogs for external systems |
 | `Docs/feature-specs/` | UI states, flows, view-model contracts, and routing |

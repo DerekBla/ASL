@@ -1,9 +1,10 @@
 # Foundation Spec: Stats Data Contract
 
-**Status**: implemented (export, schema version 2) · draft (TypeScript loader)
+**Status**: implemented (export and TypeScript loader, schema version 2)
 **Last updated**: 2026-10-07
 **Producer**: `scripts/export-stats/export_stats.py` (see `Docs/tooling-specs/export-stats.md`)
-**Consumer**: `src/lib/services/stats/` (to build — Zod schemas mirror this file)
+**Consumer**: `src/lib/services/stats/` — `schemas.ts` mirrors this file with strict Zod objects, so a field
+added or renamed by the exporter fails the build until the schema and this file are updated
 
 ## Source of truth
 
@@ -87,8 +88,8 @@ type RaceStats = {
   overall: { race: Race; championships: number; runnerUps: number; finalsAppearances: number;
     titleShare: number | null; participantSeasons: number; participantShare: number | null }[];
   participantsBySeason: { season: number; T: number; Z: number; P: number; unknown: number; total: number }[];
-  finalsBySeason: { season: number; champion: string; championRace: Race | null;
-    runnerUp: string; runnerUpRace: Race | null; score: string | null }[];
+  finalsBySeason: { season: number; champion: string | null; championRace: Race | null;
+    runnerUp: string | null; runnerUpRace: Race | null; score: string | null }[];
   seriesByMatchup: { allStages: Matchups; playoffs: Matchups; finals: Matchups };
 };
 ```
@@ -110,6 +111,29 @@ Ratios are 0–1 numbers.
   players in different placement tiers counts as one game won by the better-placed player.
   Label it that way in the UI. The algorithm is `compute_elo` in the exporter.
 - **Race stats count series, not games**: a best-of-seven final is one series.
+
+## Reading the data in the app
+
+Only `src/lib/services/stats/` reads `data/generated/` (data-1). It is server-only: the JSON
+is bundled at build time, validated once, and cached. Pages call it from Server Components:
+
+```ts
+import { getSeason, getPlacementsForSeason, findPlayer } from "@/lib/services/stats";
+```
+
+| Function | Returns |
+|---|---|
+| `getManifest()` | Schema version, source revisions, counts |
+| `getSeasons()` · `getSeason(n)` · `getLatestCompleteSeason()` | Seasons, S1 first |
+| `getPlayers()` · `getPlayer(name)` · `findPlayer(nameOrAlias)` | Players; `findPlayer` matches aliases and ignores case |
+| `getPlacements()` · `getPlacementsForPlayer(name)` · `getPlacementsForSeason(n)` | Placements |
+| `getSeries()` · `getSeriesForSeason(n)` | Every group and playoff series |
+| `getElo()` · `getEloForPlayer(name)` | ELO table |
+| `getPlayerStats()` · `getStatsForPlayer(name)` | Career stats |
+| `getRaceStats()` · `getValidationNotes()` | Race stats; exporter notes |
+
+A mismatch with the contract throws `StatsDataError` and fails the build. That is deliberate:
+the data is static, so there is no runtime state a page could recover into.
 
 ## Validation codes
 

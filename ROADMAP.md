@@ -16,15 +16,15 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | draft | Playwright E2E setup | `pnpm test:e2e` is referenced by `Harness/code-validation.md` but not installed. Needs real pages to test first |
 | draft | Pre-commit hooks | Locked decision says lint/format run pre-commit. Typecheck + lint + format:check on staged files |
 | draft | CI pipeline | GitHub Actions: typecheck → lint → test → stats:test → stats freshness → build |
-| draft | Tailwind v4 setup + design tokens | Race colors from CLAUDE.md Domain Rules as tokens; type scale; dark mode |
 | draft | Shared types + error model | `Result<T,E>`, `ActionResult`, branded IDs (`MarketId`, `UserId`), error codes incl. ledger errors |
-| draft | Stats data loader | `src/lib/stats/`: Zod schemas for every `data/generated/*.json`, typed loaders for RSC. Spec: `Docs/foundation-specs/stats-data.md` |
 | draft | Database: Neon + Drizzle schema & migrations | Tables from `Docs/foundation-specs/ledger.md`; `drizzle-kit` migrations; seed script |
 | draft | Ledger service | `lib/services/ledger`: `executeTrade`, `resolveMarket`, `voidMarket`, `grantCredits` — each one transaction; concurrency test |
 | draft | Auth — Clerk + Discord/Google | Product spec: `Docs/product-specs/auth.md`. Lazy user + account provisioning on first authed action |
 
 ### Archive
 
+- [implemented 2026-10-07] Tailwind v4 setup + design tokens — approved by Derek 2026-10-07. `src/app/globals.css`: race color tokens (guarded by a test), light/dark surface colors by system setting, type scale. Spec: `Docs/foundation-specs/design-tokens.md`
+- [implemented 2026-10-07] Stats data loader — approved by Derek 2026-10-07. `src/lib/services/stats/` (the architecture's location, not `src/lib/stats/`): strict Zod schemas for all nine generated files, cached typed loaders, refuses an unknown schema version. The home page reads its figures through it
 - [implemented 2026-10-07] Project scaffold — Next.js 15.5 App Router + React 19, TypeScript 5.9 strict, ESLint 9 flat config with layer-boundary rules, Prettier, Vitest + Testing Library (jsdom). Root layout, placeholder home page, `SiteFooter` with the fan-project, play-money, and Liquipedia notices
 - [implemented 2026-10-06] LMSR pricing engine — `src/lib/market/lmsr.ts`, 22 tests incl. max-loss bound under random trading
 - [implemented 2026-10-06] Stats export pipeline — `scripts/export-stats/`, layout contract + cross-tab validation, 20 tests
@@ -88,5 +88,5 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 |---|---|---|
 | draft | Component library baseline | Button, Input, Modal, Toast, DataTable, RaceBadge, PlacementBadge, PriceChip — see `Docs/components/` |
 | draft | Price history chart | Per-outcome price over time on market detail |
-| draft | Dark mode support | Tailwind `dark:` variant + system preference; race tokens need dark variants |
+| draft | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> |
 | draft | Skeleton components | One skeleton per async surface before Suspense fallback |

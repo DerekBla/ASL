@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. See Docs/foundation-specs/design-tokens.md.
+ *
+ * Race colors are fixed by CLAUDE.md Domain Rules. Use the utilities they generate
+ * (bg-race-terran-pale, text-race-zerg-dark, ...) and never the hex values. Pale is for
+ * player and data cells, dark is for section headers only.
+ */
+@theme {
+  --color-race-terran-pale: #eaf3fb;
+  --color-race-terran-dark: #3a6ea8;
+  --color-race-zerg-pale: #f0eaf9;
+  --color-race-zerg-dark: #6b4fa0;
+  --color-race-protoss-pale: #e6f4ec;
+  --color-race-protoss-dark: #3d7a52;
+
+  /* Text on a race color: dark ink on pale, white on dark, in both light and dark mode. */
+  --color-race-ink: #1a1f2b;
+  --color-race-on-dark: #ffffff;
+
+  --font-sans: ui-sans-serif, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+  /* Type scale. Numbers in tables use text-data with tabular figures. */
+  --text-display: 2.25rem;
+  --text-display--line-height: 2.5rem;
+  --text-display--font-weight: 700;
+  --text-title: 1.5rem;
+  --text-title--line-height: 2rem;
+  --text-title--font-weight: 650;
+  --text-heading: 1.125rem;
+  --text-heading--line-height: 1.75rem;
+  --text-heading--font-weight: 600;
+  --text-body: 1rem;
+  --text-body--line-height: 1.5rem;
+  --text-data: 0.875rem;
+  --text-data--line-height: 1.25rem;
+  --text-caption: 0.8125rem;
+  --text-caption--line-height: 1.125rem;
+}
+
+/* Surface colors follow the system light/dark setting. No JavaScript theme switching. */
+:root {
+  --surface: #ffffff;
+  --surface-muted: #f4f6f9;
+  --ink: #1a1f2b;
+  --ink-muted: #566072;
+  --line: #d9dee7;
+  --accent: #2b5fa8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --surface: #12151b;
+    --surface-muted: #1b2029;
+    --ink: #e8ebf1;
+    --ink-muted: #a3acbb;
+    --line: #2c3340;
+    --accent: #8db8f0;
+  }
+}
+
+@theme inline {
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+}
+
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply bg-surface font-sans text-body text-ink antialiased;
+  }
+
+  h1 {
+    @apply text-display;
+  }
+
+  h2 {
+    @apply text-title;
+  }
+
+  h3 {
+    @apply text-heading;
+  }
+
+  a {
+    @apply text-accent underline underline-offset-2;
+  }
+
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent;
+  }
+}
