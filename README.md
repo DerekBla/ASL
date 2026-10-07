@@ -44,29 +44,41 @@ git add data && git commit
 
 ## Turning markets on
 
-Markets need a database (Neon) and sign-in (Clerk). Without them the site runs as a stats site
-and the market pages say "Markets are warming up".
+Markets need a database (Neon), sign-in (Clerk) and a host (Vercel). Without them the site
+runs as a stats site and the market pages say "Markets are warming up". Neon and Clerk are
+added through Vercel's marketplace, which creates both accounts and sets all the keys.
 
-1. **Neon** (neon.tech, free): create a project. From *Connect*, copy the pooled connection
-   string into `DATABASE_URL` and the direct one into `DATABASE_URL_UNPOOLED`. Under
-   *Branches*, create a branch called `test` and put its connection string in
-   `DATABASE_URL_TEST` (the concurrency test wipes that branch, so never point it at the main one).
-2. **Clerk** (clerk.com, free): create an application named StarCoins with only **Google** and
-   **Discord** sign-in (turn off email and password). Copy `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
-   and `CLERK_SECRET_KEY`.
-3. Copy `.env.example` to `.env.local` and fill in those five values. `.env.local` is never committed.
-4. Create the tables, then check the ledger against real Postgres:
-   ```bash
-   corepack pnpm db:migrate
-   corepack pnpm test:ledger-concurrency
-   ```
-5. `corepack pnpm dev`, open http://localhost:3000, sign in. You get 100 minerals. Your player
-   id is at the bottom of `/portfolio`. Make yourself an admin:
-   ```bash
-   corepack pnpm db:make-admin <your-player-id>
-   ```
-6. Open `/admin`, click **Fill in: ASL S22 Grand Final**, check the details, and create the
-   market. After the final, resolve it from `/admin` with the winner.
+**Steps only Derek can do** (logins and legal terms need a person), in a terminal in this folder:
 
-For other people to trade, the site has to be deployed (Vercel, ROADMAP: CI pipeline) with the
-same five values set there, and the Clerk app switched to a production instance for that domain.
+```bash
+npx vercel login                    # opens the browser
+npx vercel link                     # create a project called starcoins
+npx vercel integration add neon     # accept the terms; creates the database
+npx vercel integration add clerk    # accept the terms; creates the sign-in app
+```
+
+In the Clerk dashboard (open it from the Vercel project's Integrations tab): under
+*User & authentication → SSO connections* turn on **Google** and **Discord**, and under
+*Email, phone, username* turn off email and password sign-in.
+
+**Steps an agent can then do:**
+
+```bash
+npx vercel env pull .env.local      # the keys, for local scripts
+corepack pnpm db:migrate            # tables + house account
+npx vercel deploy --prod            # publish
+```
+
+**Last step:** Derek signs in on the live site (100 minerals), copies the player id from the
+bottom of `/portfolio`, and runs (or asks an agent to run):
+
+```bash
+corepack pnpm db:go-live <player-id>   # makes him admin and opens the ASL S22 final market
+```
+
+After the final, resolve the market from `/admin` with the winner.
+
+Notes: `pnpm test:ledger-concurrency` wipes the database it points at, so give it a separate
+Neon branch in `DATABASE_URL_TEST`, never the live one. A Clerk development instance works on
+the `*.vercel.app` address and shows a small "development mode" badge; a production instance
+needs a custom domain.

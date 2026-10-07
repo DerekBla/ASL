@@ -209,6 +209,7 @@ draft → approved → in-progress → implemented
 | `pnpm db:generate` | Write a migration from `src/lib/db/schema.ts` into `drizzle/` (review the SQL) |
 | `pnpm db:migrate` | Apply migrations to `DATABASE_URL_UNPOOLED` and create the house account |
 | `pnpm db:make-admin <id>` | Make a signed-in user an admin (their id is on `/portfolio`) |
+| `pnpm db:go-live <id>` | Make that user admin and open the ASL S22 final market (idempotent) |
 | `pnpm test:ledger-concurrency` | 50 simultaneous trades against `DATABASE_URL_TEST` (wipes that branch) |
 | `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |

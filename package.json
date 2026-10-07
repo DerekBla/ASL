@@ -21,7 +21,8 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/db/migrate.ts",
     "db:make-admin": "tsx scripts/db/make-admin.ts",
-    "test:ledger-concurrency": "vitest run src/lib/services/ledger/__tests__/concurrency.test.ts"
+    "test:ledger-concurrency": "vitest run src/lib/services/ledger/__tests__/concurrency.test.ts",
+    "db:go-live": "tsx scripts/db/go-live.ts"
   },
   "devDependencies": {
     "@electric-sql/pglite": "0.5.8",

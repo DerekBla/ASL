@@ -28,3 +28,11 @@ describe("s22FinalPreset", () => {
     expect(preset.prior).toEqual(eloPrior("Rush", "Soulkey"));
   });
 });
+
+describe("eloWinProbability", () => {
+  it("is 50% for equal ratings and about 76% for a 200-point edge", async () => {
+    const { eloWinProbability } = await import("@/lib/market/priors");
+    expect(eloWinProbability(1800, 1800)).toBe(0.5);
+    expect(eloWinProbability(2000, 1800)).toBeCloseTo(0.7597, 4);
+  });
+});
