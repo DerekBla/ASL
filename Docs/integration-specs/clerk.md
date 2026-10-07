@@ -20,7 +20,7 @@ Lazy, in our database, on the first authenticated **write** (trade) or portfolio
 ```
 ensureUser(clerkUserId):
   INSERT INTO users (id, display_name) VALUES ($1, $2) ON CONFLICT (id) DO NOTHING
-  if inserted: create account + ledger.grantCredits(1000, 'signup_grant')   -- same transaction
+  if inserted: create account + ledger.grantCredits(SIGNUP_GRANT_CREDITS /* 100 */, 'signup_grant')   -- same transaction
 ```
 
 Idempotent by primary key, so concurrent first requests can't double-grant. A Clerk

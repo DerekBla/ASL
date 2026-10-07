@@ -33,7 +33,7 @@ account in under 30 seconds, with no passwords to manage.
 - [ ] A returning user can explicitly sign in if their session has expired.
 - [ ] A signed-in user can sign out from anywhere in the app.
 - [ ] Protected routes redirect unauthenticated users to sign in, then return them to their original destination after.
-- [ ] First sign-in creates a user, an account, and a 1,000-credit signup grant exactly once (idempotent).
+- [ ] First sign-in creates a user, an account, and a 100-mineral signup grant exactly once (idempotent).
 - [ ] Auth state is consistent between RSC (server) and client components — no flash of unauthenticated content.
 
 ## User Stories

@@ -158,7 +158,7 @@ house absorbs the difference, `status = 'voided'`. Used for cancelled matches an
 
 ### `grantCredits({ userId, amount, reason })`
 
-`signup_grant` (1,000 credits on account creation) and `periodic_grant` (optional weekly
+`signup_grant` (100 credits, shown as 100 minerals, on account creation) and `periodic_grant` (optional weekly
 top-up). Grants come from the house account, so conservation holds.
 
 ---
@@ -179,8 +179,8 @@ PGlite is fine for functional tests, but it doesn't exercise row-lock contention
 
 | Setting | Default | Why |
 |---|---|---|
-| Signup grant | 1,000 credits | Enough for ~10 meaningful bets |
-| `b` binary market | 100 | Spending 50 credits moves a 50/50 market to ~70% (b=150: ~64%) |
-| `b` multi market (season winner) | 150 | 16+ outcomes need more depth |
-| House max loss | `b · ln(1/p_min)` | ~69 credits for a 50/50 binary at b=100 |
+| Signup grant | 100 credits ("100 minerals" in the UI) | Set by Derek 2026-10-07. Enough for ~10 meaningful trades |
+| `b` binary market | 10 | Spending 5 credits moves a 50/50 market to ~70% (b=15: ~64%). Sized to a 100-credit balance |
+| `b` multi market (season winner) | 15 | 16+ outcomes need more depth |
+| House max loss | `b · ln(1/p_min)` | ~6.9 credits for a 50/50 binary at b=10 |
 | Prior floor | 2% per outcome (`clampPrior`) | Caps subsidy for long shots |

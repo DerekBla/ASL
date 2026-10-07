@@ -30,7 +30,7 @@ probabilities, and climb a leaderboard of the sharpest predictors.
 
 ## Success Criteria
 
-- [ ] New users get 1,000 credits on first sign-in and can trade within a minute.
+- [ ] New users get 100 minerals on first sign-in and can trade within a minute.
 - [ ] A trade shows its exact cost and the price impact before confirming.
 - [ ] Prices update for other viewers within ~10 seconds of a trade.
 - [ ] Every resolved market pays out exactly 1 credit per winning share; ledger invariants hold.
@@ -59,14 +59,15 @@ probabilities, and climb a leaderboard of the sharpest predictors.
 | Decision | Choice | Reason |
 |---|---|---|
 | Market maker | LMSR | Always-on liquidity with few users; bounded house loss |
-| Currency | Credits, play money only | Legal simplicity; it's for fun |
-| Starting balance | 1,000 credits | Enough for ~10 meaningful trades |
+| Currency | Minerals ("credits" in code), play money only | Legal simplicity; it's for fun. StarCraft flavor |
+| Starting balance | 100 minerals | Set by Derek 2026-10-07. Liquidity (`b`) is sized so ~10 trades are meaningful |
 | Opening prices | ELO-derived or manual, floored at 5% | Sensible start; caps subsidy |
 | Resolution | Manual by admin, with a note | Simple and auditable |
 
 ## Open Questions
 
-- [ ] Weekly credit top-up for broke users, or a one-time "bankruptcy reset"? — owner: Derek
+- [ ] Weekly mineral top-up for broke users, or a one-time "bankruptcy reset"? More pressing with a
+  100-mineral start — owner: Derek
 - [ ] Leaderboard per season, all-time, or both? — owner: Derek
 - [ ] Do markets close at broadcast start or at match start? — owner: Derek
 - [ ] Minimum account age to appear on the leaderboard (anti-alt)? — owner: Derek

@@ -53,6 +53,11 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
 
   Swapped or inconsistent race colors are a recurring bug. Use the tokens, never literals.
 - **Placement labels** use an en-dash: `9th–12th`, `23rd–28th`. The exporter normalizes hyphens.
+- **Minerals** are the play-money currency's name in everything users see (Derek, 2026-10-07):
+  "100 minerals", never "credits" in UI copy. Code, schema, and the ledger spec keep the word
+  *credits* for the same unit (1 mineral = 1 credit). Every new account gets **100 minerals**,
+  once (`SIGNUP_GRANT_CREDITS = 100`). Market liquidity is sized to that balance: `b = 10` for a
+  binary market (see `Docs/foundation-specs/ledger.md` Defaults).
 - **Prize money** is stored in KRW (`₩`), from Liquipedia's per-placement payouts. No USD values
   are stored; if the UI shows USD it is an approximation and labeled as such.
 - **Player identity**: canonical handles follow Liquipedia's current spelling. Confirmed by

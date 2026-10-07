@@ -70,7 +70,7 @@ Status markers:
   └─ Net worth ranking (balance + positions at current prices)
 
 [Sign In]  [SPEC]
-  └─ Discord / Google via Clerk  →  return to origin page (+1,000 credits first time)
+  └─ Discord / Google via Clerk  →  return to origin page (+100 minerals first time)
 
 ── Admin (is_admin only) ─────────────────────────────────────────
 

@@ -10,9 +10,9 @@ describe("SiteFooter", () => {
     expect(screen.getByText(/not affiliated/i)).toBeInTheDocument();
   });
 
-  it("says credits are play money with no monetary value", () => {
+  it("says minerals are play money with no monetary value", () => {
     render(<SiteFooter />);
-    expect(screen.getByText(/play-money credits only/i)).toBeInTheDocument();
+    expect(screen.getByText(/play-money minerals only/i)).toBeInTheDocument();
     expect(screen.getByText(/no monetary value/i)).toBeInTheDocument();
   });
 
