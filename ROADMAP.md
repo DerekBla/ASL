@@ -35,10 +35,11 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Resolve exporter validation warnings | 14 warnings on first export (identity case variants, Jaedong race in tracker, Best prize = 4, Snow vs SnOw in Season Overview, S21 tracker vs placements). Derek decides each; fixes go in the xlsx. Triage: `Docs/reports/2026-10-07-stats-validation.md` <!-- updated: 2026-10-07 --> |
-| draft | S21 final results | Workbook still shows S21 in progress (tracker last updated 2026-04-26; season end date 2026-05-24) |
-| draft | Player identity map | `data/player-aliases.json`: confirmed alias → canonical player. Exporter applies it and reports unmapped variants |
-| draft | Compute derived stats in the pipeline | Recompute ELO, career stats, and race stats from placements in code so corrections propagate; diff against workbook values before switching over |
+| in-progress | Resolve exporter validation warnings | 14 warnings on first export (identity case variants, Jaedong race in tracker, Best prize = 4, Snow vs SnOw in Season Overview, S21 tracker vs placements). Derek decides each; fixes go in the xlsx. Triage + resolution: `Docs/reports/2026-10-07-stats-validation.md`. 13 of 14 cleared on branch `stats-curator-triage`; open: Best's prize total, S5 has 27 players <!-- updated: 2026-10-07 --> |
+| in-progress | S21 final results | Entered from Liquipedia on branch `stats-curator-triage` (soma def. Flash 4–3). Season Overview, Placements, and tracker are final; ELO / Player Stats / Race Stats still cover S1–S20 <!-- updated: 2026-10-07 --> |
+| draft | Player identity map | `data/player-aliases.json`: confirmed alias → canonical player. Exporter applies it and reports unmapped variants. Confirmed aliases so far are listed in CLAUDE.md Domain Rules and already merged in the workbook <!-- updated: 2026-10-07 --> |
+| draft | Exporter: write LF line endings | On Windows the exporter writes CRLF; git normalizes it, but a byte-level CI freshness check would fail. Open outputs with `newline="\n"` |
+| draft | Compute derived stats in the pipeline | Recompute ELO, career stats, and race stats from placements in code so corrections propagate; diff against workbook values before switching over. Notes 2026-10-07: Race Stats aggregates don't reproduce from placements and are stale after the race corrections; ELO was recomputed once by `scripts/workbook-fixes/apply_2026_10_07_decisions.py` (`compute_elo`), which is the starting point; all three tabs need extending to S21 (clears the soma `CHAMPIONSHIP_MISMATCH`) <!-- updated: 2026-10-07 --> |
 
 ---
 

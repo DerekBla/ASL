@@ -1,10 +1,10 @@
 {
   "counts": {
-    "elo": 90,
-    "liveTracker": 26,
-    "placements": 572,
-    "playerStats": 90,
-    "players": 90,
+    "elo": 86,
+    "liveTracker": 28,
+    "placements": 575,
+    "playerStats": 86,
+    "players": 86,
     "raceStats.championshipsByEra": 4,
     "raceStats.finalsBySeason": 20,
     "raceStats.grandFinalsByMatchup": 6,
@@ -20,12 +20,12 @@
   "ignoredSheets": [],
   "schemaVersion": 1,
   "seasons": {
-    "complete": 20,
+    "complete": 21,
     "count": 21
   },
   "source": {
     "file": "ASL_Complete_S1_S21.xlsx",
-    "sha256": "37524c86dfe0277e8e25333afc6610151b60dffb468a585b5c3c7dce89236e0d"
+    "sha256": "acc70eed3b16fa82546163e737a9e7c5a5c6a4f8d012cb7cced27ec6279167c8"
   },
-  "warnings": 14
+  "warnings": 1
 }

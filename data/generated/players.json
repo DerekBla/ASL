@@ -13,7 +13,7 @@
   },
   {
     "player": "Ample",
-    "race": "Z"
+    "race": "T"
   },
   {
     "player": "BarrackS",
@@ -22,10 +22,6 @@
   {
     "player": "beast",
     "race": "Z"
-  },
-  {
-    "player": "BeSt",
-    "race": "P"
   },
   {
     "player": "Best",
@@ -64,14 +60,6 @@
     "race": "Z"
   },
   {
-    "player": "Effort",
-    "race": "Z"
-  },
-  {
-    "player": "effOrt",
-    "race": "Z"
-  },
-  {
     "player": "firebathero",
     "race": "T"
   },
@@ -100,7 +88,7 @@
     "race": "Z"
   },
   {
-    "player": "hero",
+    "player": "herO",
     "race": "Z"
   },
   {
@@ -116,19 +104,11 @@
     "race": "T"
   },
   {
-    "player": "huro",
-    "race": "Z"
-  },
-  {
     "player": "Hyuk",
     "race": "T"
   },
   {
     "player": "HyuN",
-    "race": "Z"
-  },
-  {
-    "player": "Hyun",
     "race": "Z"
   },
   {
@@ -281,7 +261,7 @@
   },
   {
     "player": "Shine",
-    "race": "T"
+    "race": "Z"
   },
   {
     "player": "Shuttle",
@@ -313,7 +293,7 @@
   },
   {
     "player": "Speed",
-    "race": "Z"
+    "race": "T"
   },
   {
     "player": "Ss1nz",
@@ -321,7 +301,7 @@
   },
   {
     "player": "sSak",
-    "race": "Z"
+    "race": "T"
   },
   {
     "player": "Stork",
@@ -338,6 +318,10 @@
   {
     "player": "Tinkle",
     "race": "Z"
+  },
+  {
+    "player": "tulbo",
+    "race": "P"
   },
   {
     "player": "TY",

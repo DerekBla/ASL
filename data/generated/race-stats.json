@@ -60,7 +60,7 @@
       "champion": "Flash",
       "championRace": "T",
       "runnerUp": "Shine",
-      "runnerUpRace": "T",
+      "runnerUpRace": "Z",
       "score": {
         "loser": 1,
         "winner": 3
@@ -70,7 +70,7 @@
     {
       "champion": "Flash",
       "championRace": "T",
-      "runnerUp": "hero",
+      "runnerUp": "herO",
       "runnerUpRace": "Z",
       "score": {
         "loser": 3,
@@ -81,7 +81,7 @@
     {
       "champion": "Rain",
       "championRace": "P",
-      "runnerUp": "Snow",
+      "runnerUp": "SnOw",
       "runnerUpRace": "P",
       "score": {
         "loser": 3,
@@ -114,7 +114,7 @@
     {
       "champion": "Flash",
       "championRace": "T",
-      "runnerUp": "Snow",
+      "runnerUp": "SnOw",
       "runnerUpRace": "P",
       "score": {
         "loser": 2,
@@ -213,7 +213,7 @@
     {
       "champion": "Soulkey",
       "championRace": "Z",
-      "runnerUp": "hero",
+      "runnerUp": "herO",
       "runnerUpRace": "Z",
       "score": {
         "loser": 3,

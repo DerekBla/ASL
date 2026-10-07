@@ -162,3 +162,62 @@ one planned in CI, would see every file as changed, though. Fix: open output fil
 2. Confirmed identities go into the "Player identity map" roadmap item.
 3. If BeSt/Best or EffOrt variants merge, ELO and Player Stats need recomputing. That's a
    reason to prioritize "Compute derived stats in the pipeline".
+
+---
+
+## Resolution — applied 2026-10-07 (branch `stats-curator-triage`)
+
+Derek's decisions, applied to the workbook by `scripts/workbook-fixes/apply_2026_10_07_decisions.py`
+(scripted at Derek's request). Result: **86 players, 575 placements, 21 complete seasons,
+1 warning** (was 90 / 572 / 20 complete / 14 warnings). `stats:test` 20/20.
+
+### Decisions
+
+| Question | Decision |
+|---|---|
+| Canonical spellings | Liquipedia's current handles: `SnOw`, `herO`, `Best`, `EffOrt`, `HyuN`, `tulbo`. `Jaedong` stays (Liquipedia's `JD` is an alias) |
+| Same player? | Yes for all: Snow/SnOw, hero/herO, BeSt/Best, EffOrt/Effort/effOrt, HyuN/Hyun. Yoon Soo-chul = tulbo = huro |
+| EffOrt S5 | `9th–12th`; the `23rd–28th` entry was dropped |
+| Races | sSak, Ample, Speed are Terran; Shine is Zerg; tulbo is Protoss; Jaedong is Zerg — all seasons |
+| S21 | Final results from the Liquipedia "ASL Season 21" page Derek supplied |
+
+### What changed in the workbook
+
+- **Player Placements**: four duplicate rows merged away (90 → 86 players). Race fixed for
+  sSak, Ample, Speed, Shine, tulbo. S21 column is final for all 28 players (soma 1st, Flash
+  2nd, Leta and Light 3rd, herO / tulbo / Jaedong / SnOw 5th–8th, Bisu 9th–12th, BarrackS
+  13th–16th; the other 18 were already right). Played and Best recomputed.
+- **Season Overview**: S21 winner soma (Z), runner-up Flash (T), prize pool ₩78,000,000
+  (≈ $51,303; the sheet had ₩30,000,000). S3 runner-up Shine's race T → Z. Snow → SnOw.
+- **S21 Live Tracker**: rebuilt as final standings, 28 rows (Leta and Light were missing),
+  notes rewritten from the bracket. Prizes for 1st–4th are from Liquipedia; Ro16/Ro24 are the
+  sheet's own figures; **5th–8th = ₩2,000,000 is inferred** — it is the only value that makes
+  the 28 payouts sum to the ₩78M pool.
+- **Player Stats**: rebuilt from placements (S1–S20). Counts were verified to reproduce
+  exactly beforehand. Prize totals are carried over and summed for merged players.
+- **ELO Ratings**: recomputed for **every** player — see below.
+- **Race Stats**: only the champion reference table (names, Shine's race). See below.
+
+### Judgement calls to review
+
+1. **ELO was recomputed for all 86 players, not just the merged ones.** ELO is sequential and
+   zero-sum, so merged careers can't be patched in. The workbook's original algorithm could
+   not be reproduced exactly; the closest documented variant is used (start 1500, K=32,
+   each season every pair in different placement tiers is one game, updated in placement
+   order, same-tier pairs skipped). Players who were not merged moved by a median of 8.2
+   points, at most 33.6 (Stork). Top five now: SnOw 2110.2, EffOrt 2031.5, Flash 2021.6,
+   BarrackS 1986.6, Soulkey 1969.1.
+2. **Row order**: merged players keep the first row's position; `tulbo` sits where `huro` was.
+   Player Placements is no longer strictly alphabetical.
+3. **Formatting**: saving from Python dropped the workbook's threaded-comments part and
+   rewrote the Race Stats chart. Open the file in Excel and check the chart and cell colours.
+
+### Still open
+
+| Item | Detail |
+|---|---|
+| Best's prize total | Player Stats `Est. Prize (KRW)` for Best is now **blank**. The old BeSt row had ₩8,150,000 (S1–S12) and the old Best row had `4`. Needs the real S1–S20 total |
+| EffOrt's prize total | ₩42,200,000 = the three old rows summed. Overstated by the dropped S5 `23rd–28th` payout (at most ₩500,000) |
+| S5 has 27 players | Dropping the duplicate EffOrt entry leaves one S5 slot unaccounted for. Someone who finished 23rd–28th in S5 is missing from the workbook |
+| `CHAMPIONSHIP_MISMATCH` soma | The one remaining warning, and it is accurate: Player Stats / ELO / Race Stats still cover S1–S20, so soma shows 1 title there and 2 in Season Overview. Clears when those tabs are extended to S21 |
+| Race Stats aggregates are stale | Participant counts, overall runner-ups, finals head-to-head, playoff and all-stage matchup tables were **not** changed. They did not reproduce from placements even before the corrections (e.g. sheet: 173 Zerg / 144 Protoss participant-seasons; placements gave 188 / 127), and five players' races have now changed. Needs a recompute — ROADMAP "Compute derived stats in the pipeline" |

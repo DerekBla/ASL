@@ -183,7 +183,7 @@
       "worst": 22
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 2
   },
   {
@@ -194,7 +194,7 @@
       "worst": 28
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 4
   },
   {
@@ -205,7 +205,7 @@
       "worst": 22
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 5
   },
   {
@@ -216,7 +216,7 @@
       "worst": 22
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 8
   },
   {
@@ -227,7 +227,7 @@
       "worst": 22
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 9
   },
   {
@@ -238,7 +238,7 @@
       "worst": 22
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 15
   },
   {
@@ -249,7 +249,7 @@
       "worst": 12
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 16
   },
   {
@@ -260,7 +260,7 @@
       "worst": 22
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 20
   },
   {
@@ -271,7 +271,7 @@
       "worst": 16
     },
     "player": "Ample",
-    "race": "Z",
+    "race": "T",
     "season": 21
   },
   {
@@ -419,10 +419,10 @@
   },
   {
     "placement": {
-      "best": null,
-      "label": "In progress",
-      "status": "in_progress",
-      "worst": null
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
     },
     "player": "BarrackS",
     "race": "T",
@@ -435,7 +435,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 1
   },
@@ -446,7 +446,7 @@
       "status": "final",
       "worst": 3
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 2
   },
@@ -457,7 +457,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 3
   },
@@ -468,7 +468,7 @@
       "status": "final",
       "worst": 22
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 4
   },
@@ -479,7 +479,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 5
   },
@@ -490,7 +490,7 @@
       "status": "final",
       "worst": 28
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 6
   },
@@ -501,7 +501,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 7
   },
@@ -512,7 +512,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 8
   },
@@ -523,7 +523,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 9
   },
@@ -534,7 +534,7 @@
       "status": "final",
       "worst": 22
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 10
   },
@@ -545,7 +545,7 @@
       "status": "final",
       "worst": 22
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 11
   },
@@ -556,7 +556,7 @@
       "status": "final",
       "worst": 28
     },
-    "player": "BeSt",
+    "player": "Best",
     "race": "P",
     "season": 12
   },
@@ -848,10 +848,10 @@
   },
   {
     "placement": {
-      "best": null,
-      "label": "In progress",
-      "status": "in_progress",
-      "worst": null
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
     },
     "player": "Bisu",
     "race": "P",
@@ -1035,10 +1035,10 @@
   },
   {
     "placement": {
-      "best": 23,
-      "label": "23rd–28th",
+      "best": 9,
+      "label": "9th–12th",
       "status": "final",
-      "worst": 28
+      "worst": 12
     },
     "player": "EffOrt",
     "race": "Z",
@@ -1079,14 +1079,14 @@
   },
   {
     "placement": {
-      "best": 9,
-      "label": "9th–12th",
+      "best": 5,
+      "label": "5th–8th",
       "status": "final",
-      "worst": 12
+      "worst": 8
     },
-    "player": "Effort",
+    "player": "EffOrt",
     "race": "Z",
-    "season": 5
+    "season": 20
   },
   {
     "placement": {
@@ -1189,10 +1189,10 @@
   },
   {
     "placement": {
-      "best": null,
-      "label": "In progress",
-      "status": "in_progress",
-      "worst": null
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
     },
     "player": "Flash",
     "race": "T",
@@ -1464,6 +1464,17 @@
   },
   {
     "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "HyuN",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
       "best": 17,
       "label": "17th–22nd",
       "status": "final",
@@ -1527,17 +1538,6 @@
     "player": "Hyuk",
     "race": "T",
     "season": 12
-  },
-  {
-    "placement": {
-      "best": 9,
-      "label": "9th–12th",
-      "status": "final",
-      "worst": 12
-    },
-    "player": "Hyun",
-    "race": "Z",
-    "season": 3
   },
   {
     "placement": {
@@ -1717,10 +1717,10 @@
   },
   {
     "placement": {
-      "best": null,
-      "label": "In progress",
-      "status": "in_progress",
-      "worst": null
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
     },
     "player": "Jaedong",
     "race": "Z",
@@ -2278,6 +2278,17 @@
   },
   {
     "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Leta",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
       "best": 9,
       "label": "9th–12th",
       "status": "final",
@@ -2484,6 +2495,17 @@
     "player": "Light",
     "race": "T",
     "season": 20
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 21
   },
   {
     "placement": {
@@ -4264,7 +4286,7 @@
       "worst": 2
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 3
   },
   {
@@ -4275,7 +4297,7 @@
       "worst": 16
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 4
   },
   {
@@ -4286,7 +4308,7 @@
       "worst": 12
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 5
   },
   {
@@ -4297,7 +4319,7 @@
       "worst": 16
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 6
   },
   {
@@ -4308,7 +4330,7 @@
       "worst": 28
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 10
   },
   {
@@ -4319,7 +4341,7 @@
       "worst": 22
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 11
   },
   {
@@ -4330,7 +4352,7 @@
       "worst": 22
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 12
   },
   {
@@ -4341,7 +4363,7 @@
       "worst": 8
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 14
   },
   {
@@ -4352,7 +4374,7 @@
       "worst": 12
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 15
   },
   {
@@ -4363,7 +4385,7 @@
       "worst": 22
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 17
   },
   {
@@ -4374,7 +4396,7 @@
       "worst": 22
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 18
   },
   {
@@ -4385,7 +4407,7 @@
       "worst": 22
     },
     "player": "Shine",
-    "race": "T",
+    "race": "Z",
     "season": 21
   },
   {
@@ -4742,10 +4764,10 @@
   },
   {
     "placement": {
-      "best": null,
-      "label": "In progress",
-      "status": "in_progress",
-      "worst": null
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
     },
     "player": "SnOw",
     "race": "P",
@@ -4990,7 +5012,7 @@
       "worst": 28
     },
     "player": "Speed",
-    "race": "Z",
+    "race": "T",
     "season": 17
   },
   {
@@ -5001,7 +5023,7 @@
       "worst": 12
     },
     "player": "Speed",
-    "race": "Z",
+    "race": "T",
     "season": 18
   },
   {
@@ -5012,7 +5034,7 @@
       "worst": 12
     },
     "player": "Speed",
-    "race": "Z",
+    "race": "T",
     "season": 19
   },
   {
@@ -5023,7 +5045,7 @@
       "worst": 16
     },
     "player": "Speed",
-    "race": "Z",
+    "race": "T",
     "season": 20
   },
   {
@@ -5034,7 +5056,7 @@
       "worst": 22
     },
     "player": "Speed",
-    "race": "Z",
+    "race": "T",
     "season": 21
   },
   {
@@ -5600,17 +5622,6 @@
   },
   {
     "placement": {
-      "best": 5,
-      "label": "5th–8th",
-      "status": "final",
-      "worst": 8
-    },
-    "player": "effOrt",
-    "race": "Z",
-    "season": 20
-  },
-  {
-    "placement": {
       "best": 23,
       "label": "23rd–28th",
       "status": "final",
@@ -5770,7 +5781,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 1
   },
@@ -5781,7 +5792,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 2
   },
@@ -5792,7 +5803,7 @@
       "status": "final",
       "worst": 16
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 3
   },
@@ -5803,7 +5814,7 @@
       "status": "final",
       "worst": 2
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 4
   },
@@ -5814,7 +5825,7 @@
       "status": "final",
       "worst": 3
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 5
   },
@@ -5825,7 +5836,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 11
   },
@@ -5836,7 +5847,7 @@
       "status": "final",
       "worst": 3
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 12
   },
@@ -5847,7 +5858,7 @@
       "status": "final",
       "worst": 16
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 13
   },
@@ -5858,7 +5869,7 @@
       "status": "final",
       "worst": 4
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 14
   },
@@ -5869,7 +5880,7 @@
       "status": "final",
       "worst": 3
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 15
   },
@@ -5880,7 +5891,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 16
   },
@@ -5891,7 +5902,7 @@
       "status": "final",
       "worst": 2
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 17
   },
@@ -5902,7 +5913,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 18
   },
@@ -5913,7 +5924,7 @@
       "status": "final",
       "worst": 16
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 19
   },
@@ -5924,9 +5935,20 @@
       "status": "final",
       "worst": 28
     },
-    "player": "hero",
+    "player": "herO",
     "race": "Z",
     "season": 20
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "herO",
+    "race": "Z",
+    "season": 21
   },
   {
     "placement": {
@@ -5935,8 +5957,8 @@
       "status": "final",
       "worst": 22
     },
-    "player": "huro",
-    "race": "Z",
+    "player": "tulbo",
+    "race": "P",
     "season": 9
   },
   {
@@ -5946,8 +5968,8 @@
       "status": "final",
       "worst": 28
     },
-    "player": "huro",
-    "race": "Z",
+    "player": "tulbo",
+    "race": "P",
     "season": 18
   },
   {
@@ -5957,9 +5979,20 @@
       "status": "final",
       "worst": 28
     },
-    "player": "huro",
-    "race": "Z",
+    "player": "tulbo",
+    "race": "P",
     "season": 19
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "tulbo",
+    "race": "P",
+    "season": 21
   },
   {
     "placement": {
@@ -6013,7 +6046,7 @@
       "worst": 8
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 1
   },
   {
@@ -6024,7 +6057,7 @@
       "worst": 8
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 3
   },
   {
@@ -6035,7 +6068,7 @@
       "worst": 16
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 4
   },
   {
@@ -6046,7 +6079,7 @@
       "worst": 16
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 5
   },
   {
@@ -6057,7 +6090,7 @@
       "worst": 28
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 6
   },
   {
@@ -6068,7 +6101,7 @@
       "worst": 22
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 11
   },
   {
@@ -6079,7 +6112,7 @@
       "worst": 22
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 12
   },
   {
@@ -6090,7 +6123,7 @@
       "worst": 28
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 13
   },
   {
@@ -6101,7 +6134,7 @@
       "worst": 16
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 14
   },
   {
@@ -6112,7 +6145,7 @@
       "worst": 16
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 15
   },
   {
@@ -6123,7 +6156,7 @@
       "worst": 22
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 17
   },
   {
@@ -6134,7 +6167,7 @@
       "worst": 22
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 18
   },
   {
@@ -6145,7 +6178,7 @@
       "worst": 22
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 19
   },
   {
@@ -6156,7 +6189,7 @@
       "worst": 22
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 20
   },
   {
@@ -6167,7 +6200,7 @@
       "worst": 12
     },
     "player": "sSak",
-    "race": "Z",
+    "race": "T",
     "season": 21
   },
   {
@@ -6282,10 +6315,10 @@
   },
   {
     "placement": {
-      "best": null,
-      "label": "In progress",
-      "status": "in_progress",
-      "worst": null
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
     },
     "player": "soma",
     "race": "Z",

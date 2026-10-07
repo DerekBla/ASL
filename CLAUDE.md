@@ -54,9 +54,13 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   Swapped or inconsistent race colors are a recurring bug. Use the tokens, never literals.
 - **Placement labels** use an en-dash: `9th–12th`, `23rd–28th`. The exporter normalizes hyphens.
 - **Prize money** is stored in KRW (`₩`); USD values are approximations and labeled as such.
-- **Player identity**: `SnOw` is the canonical spelling (Jang Yoon-chul). `hero` is Zerg.
-  Case variants in the workbook (`BeSt`/`Best`, `EffOrt`/`Effort`/`effOrt`, `HyuN`/`Hyun`) are
-  flagged by the exporter and **must not be merged without Derek's confirmation**.
+- **Player identity**: canonical handles follow Liquipedia's current spelling. Confirmed by
+  Derek on 2026-10-07 (alias → canonical): `Snow` → `SnOw` (Jang Yoon-chul), `hero` → `herO`
+  (Zerg), `BeSt` → `Best`, `Effort`/`effOrt` → `EffOrt`, `Hyun` → `HyuN`,
+  `huro`/`Yoon Soo-chul` → `tulbo` (Protoss), `JD` → `Jaedong` (Zerg). Any **new** case
+  variant the exporter flags **must not be merged without Derek's confirmation**.
+- **Races confirmed by Derek** (the workbook had these wrong): `sSak`, `Ample`, `Speed` are
+  Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg.
 - **ELO** in the workbook is placement-based (start 1500, K=32, pairwise by placement tier), not
   match-based. Label it that way in the UI.
 - **Branding**: unofficial fan project. No ASL/SOOP/AfreecaTV logos or trade dress. Footer
@@ -112,6 +116,16 @@ maps `TBD` / `?` / `-` to `null`. Any new name column must use it too.
 `name.lower()` alone, so `BeSt`/`Best` swapped between runs (Python randomizes set order per
 process). Always give sorts a total order (`(name.lower(), name)`). Determinism tests must run
 the exporter in separate processes with different `PYTHONHASHSEED`s. Same-process runs hide this.
+
+**[2026-10-07] Saving the workbook from Python is lossy** — an openpyxl load/save drops the
+threaded-comments part and several drawing parts and rewrites the Race Stats chart. Scripted
+workbook edits need Derek's say-so, go in `scripts/workbook-fixes/` as a dated one-off, and the
+result must be opened in Excel to check. Prefer Derek editing in Excel for small changes.
+
+**[2026-10-07] Race Stats aggregates don't derive from Player Placements** — participant
+counts, finals head-to-head, and matchup totals on that tab could not be reproduced from the
+rest of the workbook (even before corrections). Don't "fix" single numbers there; recompute
+the tab in the pipeline. Player Stats counts and Placements Played/Best do reproduce exactly.
 
 ---
 

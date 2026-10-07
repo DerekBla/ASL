@@ -1,58 +1,6 @@
 [
   {
-    "code": "PLAYER_CASE_VARIANTS",
-    "message": "Possible duplicate identity (case variants): ['BeSt', 'Best']"
-  },
-  {
-    "code": "PLAYER_CASE_VARIANTS",
-    "message": "Possible duplicate identity (case variants): ['EffOrt', 'Effort', 'effOrt']"
-  },
-  {
-    "code": "PLAYER_CASE_VARIANTS",
-    "message": "Possible duplicate identity (case variants): ['herO', 'hero']"
-  },
-  {
-    "code": "PLAYER_CASE_VARIANTS",
-    "message": "Possible duplicate identity (case variants): ['HyuN', 'Hyun']"
-  },
-  {
-    "code": "PLAYER_CASE_VARIANTS",
-    "message": "Possible duplicate identity (case variants): ['SnOw', 'Snow']"
-  },
-  {
-    "code": "RACE_CONFLICT",
-    "message": "Jaedong has different races across tabs: {'placements': 'Z', 'elo': 'Z', 'playerStats': 'Z', 'liveTracker': 'T'}"
-  },
-  {
-    "code": "UNKNOWN_PLAYER",
-    "message": "Season 5 runnerUp 'Snow' is not a row in Player Placements"
-  },
-  {
-    "code": "UNKNOWN_PLAYER",
-    "message": "Season 8 runnerUp 'Snow' is not a row in Player Placements"
-  },
-  {
-    "code": "UNKNOWN_PLAYER",
-    "message": "Live tracker player 'Yoon Soo-chul' is not a row in Player Placements"
-  },
-  {
-    "code": "UNKNOWN_PLAYER",
-    "message": "Live tracker player 'herO' is not a row in Player Placements"
-  },
-  {
-    "code": "FINALS_MISMATCH",
-    "message": "S5: Season Overview runner-up 'Snow' vs placements 2nd ['SnOw']"
-  },
-  {
-    "code": "FINALS_MISMATCH",
-    "message": "S8: Season Overview runner-up 'Snow' vs placements 2nd ['SnOw']"
-  },
-  {
-    "code": "SUSPECT_VALUE",
-    "message": "Best: Est. Prize (KRW) is 4; looks like a missing scale (expected millions)"
-  },
-  {
-    "code": "LIVE_STATUS_MISMATCH",
-    "message": "In-progress players differ: placements=['BarrackS', 'Bisu', 'Flash', 'Jaedong', 'SnOw', 'soma'] tracker=['BarrackS', 'Bisu', 'Flash', 'Jaedong', 'SnOw', 'Yoon Soo-chul', 'herO', 'soma']"
+    "code": "CHAMPIONSHIP_MISMATCH",
+    "message": "soma: Player Stats championships=1 but Season Overview lists 2"
   }
 ]
