@@ -1,6 +1,6 @@
 /** Site-wide constants. No environment access here; env parsing lives in env.ts (later). */
 
-export const SITE_NAME = "ASL Markets";
+export const SITE_NAME = "StarCoins";
 
 export const SITE_DESCRIPTION =
   "Fan-made stats and a play-money prediction market for the ASL (StarCraft: Brood War).";

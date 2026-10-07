@@ -1,4 +1,4 @@
-# AslMarkets.Web
+# StarCoins
 
 Fan-made stats site and **play-money** prediction market for the ASL (StarCraft: Brood War).
 Unofficial; not affiliated with the league or its broadcaster.

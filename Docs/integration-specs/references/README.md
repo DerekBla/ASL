@@ -1,4 +1,4 @@
-# Integration References — AslMarkets.Web
+# Integration References — StarCoins
 
 > Lookup catalogs for external systems. Files here are **read-only for agents** —
 > they are curated by humans and capture stable facts about external APIs: endpoint

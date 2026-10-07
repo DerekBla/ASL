@@ -1,4 +1,4 @@
-# Reports — AslMarkets.Web
+# Reports — StarCoins
 
 > **Generated output only.** Do not hand-author files in this folder. Reports are
 > produced by agents or automation scripts. If a report is wrong, re-run the

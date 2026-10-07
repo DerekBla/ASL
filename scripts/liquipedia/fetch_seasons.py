@@ -20,7 +20,7 @@ import urllib.request
 from pathlib import Path
 
 API = "https://liquipedia.net/starcraft/api.php"
-USER_AGENT = "AslMarketsFanSite/0.1 (https://github.com/DerekBla/ASL; fan stats project)"
+USER_AGENT = "StarCoinsFanSite/0.1 (https://github.com/DerekBla/ASL; fan stats project)"
 OUT = Path(__file__).resolve().parents[2] / "data" / "source" / "liquipedia"
 
 TITLES = {

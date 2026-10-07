@@ -1,4 +1,4 @@
-# UI Specs — AslMarkets.Web
+# UI Specs — StarCoins
 
 > **Component and feature design packages.** UI specs sit between product specs
 > (the *why*) and feature specs (the engineering *how*). They describe visual

@@ -1,4 +1,4 @@
-# AslMarkets.Web — ROADMAP
+# StarCoins — ROADMAP
 
 Status lifecycle: `draft` → `approved` → `in-progress` → `implemented`
 
@@ -13,13 +13,13 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Playwright E2E setup | `pnpm test:e2e` is referenced by `Harness/code-validation.md` but not installed. Needs real pages to test first |
-| draft | Pre-commit hooks | Locked decision says lint/format run pre-commit. Typecheck + lint + format:check on staged files |
-| draft | CI pipeline | GitHub Actions: typecheck → lint → test → stats:test → stats freshness → build |
-| draft | Shared types + error model | `Result<T,E>`, `ActionResult`, branded IDs (`MarketId`, `UserId`), error codes incl. ledger errors |
-| draft | Database: Neon + Drizzle schema & migrations | Tables from `Docs/foundation-specs/ledger.md`; `drizzle-kit` migrations; seed script |
-| draft | Ledger service | `lib/services/ledger`: `executeTrade`, `resolveMarket`, `voidMarket`, `grantCredits` — each one transaction; concurrency test |
-| draft | Auth — Clerk + Discord/Google | Product spec: `Docs/product-specs/auth.md`. Lazy user + account provisioning on first authed action |
+| approved | Playwright E2E setup | `pnpm test:e2e` is referenced by `Harness/code-validation.md` but not installed. Needs real pages to test first <!-- approved by Derek 2026-10-07 --> |
+| approved | Pre-commit hooks | Locked decision says lint/format run pre-commit. Typecheck + lint + format:check on staged files <!-- approved by Derek 2026-10-07 --> |
+| approved | CI pipeline | GitHub Actions: typecheck → lint → test → stats:test → stats freshness → build <!-- approved by Derek 2026-10-07 --> |
+| approved | Shared types + error model | `Result<T,E>`, `ActionResult`, branded IDs (`MarketId`, `UserId`), error codes incl. ledger errors <!-- approved by Derek 2026-10-07 --> |
+| approved | Database: Neon + Drizzle schema & migrations | Tables from `Docs/foundation-specs/ledger.md`; `drizzle-kit` migrations; seed script <!-- approved by Derek 2026-10-07 --> |
+| approved | Ledger service | `lib/services/ledger`: `executeTrade`, `resolveMarket`, `voidMarket`, `grantCredits` — each one transaction; concurrency test <!-- approved by Derek 2026-10-07 --> |
+| approved | Auth — Clerk + Discord/Google | Product spec: `Docs/product-specs/auth.md`. Lazy user + account provisioning on first authed action <!-- approved by Derek 2026-10-07 --> |
 
 ### Archive
 
@@ -38,8 +38,8 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | Status | Item | Notes |
 |---|---|---|
 | draft | Workbook-era player questions | `Byun`, `Jo Il-jang`, `Kim Myung-woon` were workbook rows in S10–S11 that match no Liquipedia player. Nothing is missing from the site's data; this is only a question of whether Derek knows who they were <!-- updated: 2026-10-07 --> |
-| draft | In-progress season support | The pipeline assumes finished seasons. S22 needs partial placements, a live status, and a refresh routine |
-| draft | Game-level stats | Series are parsed; individual maps (winner per map, map win rates by matchup) are in the wikitext but not exported |
+| approved | In-progress season support | The pipeline assumes finished seasons. S22 needs partial placements, a live status, and a refresh routine <!-- approved by Derek 2026-10-07 --> |
+| approved | Game-level stats | Series are parsed; individual maps (winner per map, map win rates by matchup) are in the wikitext but not exported <!-- approved by Derek 2026-10-07 --> |
 | draft | Remove the old workbook | `data/source/ASL_Complete_S1_S21.xlsx` and `scripts/workbook-fixes/` are reference only. Delete once Derek no longer wants them |
 
 ### Archive
@@ -59,11 +59,11 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Markets: list + market detail with trade panel | Product spec: `Docs/product-specs/markets.md` |
-| draft | First market: ASL S22 Grand Final | Derek 2026-10-07: the first market is the S22 final, Rush (T) vs Soulkey (Z), 2026-10-17 at Lotte World Ice Rink. Needs Neon + Clerk accounts, then the DB schema, ledger, auth, and market pages. Closes at match start; resolves from the result <!-- updated: 2026-10-07 --> |
-| draft | Portfolio | Positions, open P/L at current prices, trade history, ledger |
-| draft | Leaderboard | Net worth = balance + positions marked to market |
-| draft | Admin: create / close / resolve / void markets | Clerk role-gated; ELO-derived priors optional |
+| approved | Markets: list + market detail with trade panel | Product spec: `Docs/product-specs/markets.md` <!-- approved by Derek 2026-10-07 --> |
+| approved | First market: ASL S22 Grand Final | Derek 2026-10-07: the first market is the S22 final, Rush (T) vs Soulkey (Z), 2026-10-17 at Lotte World Ice Rink. Needs Neon + Clerk accounts, then the DB schema, ledger, auth, and market pages. Closes at match start; resolves from the result <!-- updated: 2026-10-07 --> <!-- approved by Derek 2026-10-07 --> |
+| approved | Portfolio | Positions, open P/L at current prices, trade history, ledger <!-- approved by Derek 2026-10-07 --> |
+| approved | Leaderboard | Net worth = balance + positions marked to market <!-- approved by Derek 2026-10-07 --> |
+| approved | Admin: create / close / resolve / void markets | Clerk role-gated; ELO-derived priors optional <!-- approved by Derek 2026-10-07 --> |
 
 ### Archive
 
@@ -80,8 +80,8 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Clerk integration | Spec: `Docs/integration-specs/clerk.md` |
-| draft | Neon + Drizzle integration | Spec: `Docs/integration-specs/neon-drizzle.md` |
+| approved | Clerk integration | Spec: `Docs/integration-specs/clerk.md` <!-- approved by Derek 2026-10-07 --> |
+| approved | Neon + Drizzle integration | Spec: `Docs/integration-specs/neon-drizzle.md` <!-- approved by Derek 2026-10-07 --> |
 
 ---
 
@@ -92,6 +92,6 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | Status | Item | Notes |
 |---|---|---|
 | in-progress | Component library baseline | Built 2026-10-07: Button (primary, secondary), DataTable, RaceBadge, PlacementBadge, SiteHeader. Remaining, with markets: Input, Modal, Toast, PriceChip, more Button variants — see `Docs/components/` <!-- updated: 2026-10-07 --> |
-| draft | Price history chart | Per-outcome price over time on market detail |
-| draft | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> |
-| draft | Skeleton components | One skeleton per async surface before Suspense fallback |
+| approved | Price history chart | Per-outcome price over time on market detail <!-- approved by Derek 2026-10-07 --> |
+| approved | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> <!-- approved by Derek 2026-10-07 --> |
+| approved | Skeleton components | One skeleton per async surface before Suspense fallback <!-- approved by Derek 2026-10-07 --> |

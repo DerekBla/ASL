@@ -1,4 +1,4 @@
-# Ledger Writes — AslMarkets.Web
+# Ledger Writes — StarCoins
 
 Read `Docs/foundation-specs/ledger.md` first. This guideline is the "how" for code inside
 `lib/services/ledger/`.

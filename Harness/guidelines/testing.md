@@ -1,4 +1,4 @@
-# Testing — AslMarkets.Web
+# Testing — StarCoins
 
 ## What to Test Where
 

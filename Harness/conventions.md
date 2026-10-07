@@ -1,4 +1,4 @@
-# Conventions — AslMarkets.Web
+# Conventions — StarCoins
 
 ## Naming
 

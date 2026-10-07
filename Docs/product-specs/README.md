@@ -1,4 +1,4 @@
-# Product Specs — AslMarkets.Web
+# Product Specs — StarCoins
 
 > **What to build and why.** Product specs are written by humans (product owners,
 > designers, stakeholders). Agents read them but do not author them. Agents write

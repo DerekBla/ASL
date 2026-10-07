@@ -8,7 +8,7 @@
 
 ## Problem
 
-AslMarkets.Web lets fans trade play-money credits on ASL outcomes. Trading needs an
+StarCoins lets fans trade play-money credits on ASL outcomes. Trading needs an
 identity: balances, positions, and leaderboard ranks belong to someone. The stats half
 of the site needs no account at all. The BW community lives on Discord, so asking fans
 to create yet another password is unnecessary friction.

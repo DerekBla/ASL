@@ -1,4 +1,4 @@
-# Feature Specs — AslMarkets.Web
+# Feature Specs — StarCoins
 
 > **Engineering how**: UI states, data flows, view-model contracts, Server Action
 > interfaces, and routing for each buildable feature. Feature specs bridge the

@@ -1,4 +1,4 @@
-# Experience Graph — AslMarkets.Web
+# Experience Graph — StarCoins
 
 > **Product lens**: every surface a user can reach and how those surfaces connect.
 > This is the authoritative map for product decisions. Engineering uses it to

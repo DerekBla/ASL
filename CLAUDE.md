@@ -1,4 +1,7 @@
-# AslMarkets.Web
+# StarCoins
+
+> Renamed from "ASL Markets" by Derek on 2026-10-07. The folder (`AslMarkets.Web`) and the
+> GitHub repo (`DerekBla/ASL`) keep their old names for now; everything users see says StarCoins.
 
 
 ## Key thoughts

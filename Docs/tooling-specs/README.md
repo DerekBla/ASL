@@ -1,4 +1,4 @@
-# Tooling Specs — AslMarkets.Web
+# Tooling Specs — StarCoins
 
 > Specs for agent-facing tooling: scripts, code generators, CLI helpers, and
 > automation that agents use during development. Tooling specs describe what a

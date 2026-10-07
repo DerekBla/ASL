@@ -1,4 +1,4 @@
-# State Management — AslMarkets.Web
+# State Management — StarCoins
 
 ## The Core Rule
 

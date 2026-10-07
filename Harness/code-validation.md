@@ -1,4 +1,4 @@
-# Code Validation Pipeline — AslMarkets.Web
+# Code Validation Pipeline — StarCoins
 
 Run steps in order. A step may not be skipped. Do not mark a task complete
 until all steps pass. Steps marked *(after …)* activate once that ROADMAP item is

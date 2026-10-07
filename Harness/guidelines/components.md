@@ -1,4 +1,4 @@
-# Component Guidelines — AslMarkets.Web
+# Component Guidelines — StarCoins
 
 ## RSC vs Client Boundary
 

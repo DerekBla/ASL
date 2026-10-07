@@ -1,4 +1,4 @@
-# Stats Pipeline — AslMarkets.Web
+# Stats Pipeline — StarCoins
 
 ## Flow
 

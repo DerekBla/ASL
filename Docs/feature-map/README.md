@@ -1,4 +1,4 @@
-# Feature Map — AslMarkets.Web
+# Feature Map — StarCoins
 
 > **Engineering lens**: every buildable unit, its dependencies, and its status.
 > Where the experience-graph describes what users see, the feature map describes

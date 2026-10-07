@@ -1,4 +1,4 @@
-# Architecture — AslMarkets.Web
+# Architecture — StarCoins
 
 ## Layer Map
 
