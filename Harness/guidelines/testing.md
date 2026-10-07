@@ -6,7 +6,7 @@
 |---|---|---|
 | Pure utilities (`lib/utils/`, `lib/market/`) | Vitest | All branches and edge cases; property-style tests for LMSR invariants |
 | Ledger service (`lib/services/ledger/`) | Vitest + PGlite (functional) / real Postgres (concurrency) | Every operation, every rejection code, idempotent replay, invariants after each test |
-| Stats exporter (`scripts/export-stats/`) | Python `unittest` | Parsers, validators, real-workbook integration, layout-change failures |
+| Stats pipeline (`scripts/liquipedia/`, `scripts/export-stats/`) | Python `unittest` | Wikitext parsing, group standings, ELO, real-source integration, determinism, freshness |
 | Stats loader (`lib/services/stats/`) | Vitest | Zod schemas accept current `data/generated/`, reject a bumped `schemaVersion` |
 | React components | Vitest + Testing Library | Behavior from the user's perspective |
 | Server Actions | Vitest | Input validation, return shapes, error paths |
@@ -131,10 +131,10 @@ Set `retry: false` in test QueryClients — retries hide failures.
 
 ## Python (exporter)
 
-- Tests live in `scripts/export-stats/tests/`. Run `pnpm stats:test`.
-- Integration tests run against the real workbook when present and are skipped otherwise.
-- To test layout-change handling, load the real workbook, mutate a copy in a temp dir, and
-  assert `LayoutError`. Never write to `data/source/`.
+- Tests live in `scripts/liquipedia/tests/` and `scripts/export-stats/tests/`. Run `pnpm stats:test`.
+- Integration tests run against the committed Liquipedia source and are skipped when it is absent.
+- Tests never touch the network. To test failure handling, copy `results.json` to a temp dir,
+  break it there, and assert on the exit code and validation output.
 
 ## Coverage
 

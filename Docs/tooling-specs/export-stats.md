@@ -1,74 +1,66 @@
-# Tooling Spec: Stats Exporter
+# Tooling Spec: Stats Pipeline
 
 **Status**: implemented
-**Invocation**: `pnpm stats:export` (wraps `python scripts/export-stats/export_stats.py <xlsx> <out_dir> [--strict]`)
-**Location**: `scripts/export-stats/export_stats.py` · tests: `scripts/export-stats/tests/`
+**Invocation**: `pnpm stats:fetch` (network) · `pnpm stats:export` (offline) · `pnpm stats:test`
+**Location**: `scripts/liquipedia/` and `scripts/export-stats/`, each with a `tests/` folder
 
 ## Purpose
 
-Turns Derek's Excel workbook into the typed JSON the site reads (contract:
-`Docs/foundation-specs/stats-data.md`). It enforces the workbook layout so edits can't silently
-shift columns into the wrong fields, and it cross-checks tabs so data problems surface before
-they're published.
+Turns Liquipedia's ASL season pages into the typed JSON the site reads (contract:
+`Docs/foundation-specs/stats-data.md`). Fetching is separate from building, so the build is
+offline, repeatable, and reviewable as a diff.
 
-## Interface
+## Stages
 
-```bash
-python scripts/export-stats/export_stats.py data/source/ASL_Complete_S1_S21.xlsx data/generated
-python scripts/export-stats/export_stats.py <xlsx> <out_dir> --strict   # exit 2 if any warnings
+```
+Liquipedia API ──fetch_seasons.py──► data/source/liquipedia/sNN.wiki, index.json
+               ──fetch_players.py──► data/source/liquipedia/players.json
+sNN.wiki + players.json ──parse_seasons.py──► results.json, identities.json
+results.json + overrides.json ──export_stats.py──► data/generated/*.json
 ```
 
-| Argument | Required | Description |
+| Command | Runs | Network |
 |---|---|---|
-| `xlsx` | yes | Path to the workbook |
-| `out_dir` | yes | Output folder (created if missing) |
-| `--strict` | no | Treat validation warnings as failure |
+| `pnpm stats:fetch` | fetch seasons → parse → fetch players → parse | yes |
+| `pnpm stats:export` | parse → export | no |
+| `pnpm stats:test` | parser tests, then exporter tests | no |
 
-Exit codes: `0` ok · `1` layout error (nothing trustworthy written) · `2` warnings under `--strict`.
+`export_stats.py <source_dir> <out_dir> [--strict]` exits `0` ok, `1` unusable input, `2` when
+`--strict` is set and a problem code is present (see the contract for codes).
 
-Requirements: Python 3.12+, `pip install openpyxl`.
-
-## Output
-
-`manifest.json`, `seasons.json`, `players.json`, `placements.json`, `elo.json`,
-`player-stats.json`, `race-stats.json`, `live-tracker.json`, `validation.json`.
+Requirements: Python 3.12+, standard library only.
 
 ## How it works
 
-1. **Layout contract**: each table is a `Table(sheet, header_row, first_col, columns)` entry.
-   Headers must match exactly (whitespace-normalized) or the run fails with `LAYOUT ERROR`.
-   Race Stats is ten separately declared tables.
-2. **Typed parsing per column**: ints (rejects fractions, strips `₩` and commas), ratios
-   (`"40.0%"` → `0.4`), W-L records (`"44% (4-5)"`), placements (hyphen or en-dash, singles,
-   `In Prog`), race codes, and names (`TBD` → null).
-3. **Validation** (warnings, never corrections):
+1. **Fetch** (`fetch_seasons.py`, `fetch_players.py`): MediaWiki API, one request every 3
+   seconds with an identifying User-Agent, per Liquipedia's API terms. Page titles for the 21
+   seasons are listed in `TITLES`. `index.json` records the revision of each page.
+2. **Parse** (`parse_seasons.py`): reads group tables, match lists, the bracket, and the prize
+   table from the wikitext. Handles both page styles (`SoloOpponent` through S11, `1Opponent`
+   after). Group standings are computed from series results: win–loss record, then
+   head-to-head, then the tiebreaker group. The pages' own standings and prize tables are a
+   cross-check only; disagreements go into each season's `notes`.
+3. **Identity**: two names are one person when they differ only by case or resolve to the same
+   Liquipedia player page (`players.json`). The canonical spelling is Derek's confirmed one
+   (`CONFIRMED` in the parser), else the player page's handle, else the latest spelling used.
+4. **Export** (`export_stats.py`): applies `overrides.json`, assigns one race per player,
+   computes placements, prize totals, career stats, ELO, race stats, and the series list, and
+   writes deterministic JSON.
 
-| Code | Checks |
-|---|---|
-| `PLAYER_CASE_VARIANTS` | Same name differing only by case across any tab |
-| `RACE_CONFLICT` | One player, different races across tabs |
-| `UNKNOWN_PLAYER` | Finalist or tracker player missing from Player Placements |
-| `FINALS_MISMATCH` | Season Overview winner/runner-up vs placements 1st/2nd |
-| `CHAMPIONSHIP_MISMATCH` | Player Stats titles vs Season Overview winners |
-| `SUSPECT_VALUE` | Prize values that look unscaled (< ₩100,000) |
-| `LIVE_STATUS_MISMATCH` | In-progress players in placements vs live tracker |
+## Constraints
 
-## First run (2026-10-06): 14 warnings
+- Never hand-edit `data/generated/` or `results.json`. Fix the parser, or add an override.
+- `overrides.json` is Derek's file. Agents propose entries; they don't add them unprompted.
+- Keep sorts total-ordered (`name_key`) so output never depends on hash order.
+- A new page style on Liquipedia shows up as `PARSE_PROBLEM` or `PLAYER_COUNT`. Fix the parser
+  and add a test; don't patch the data.
 
-| Warning | Detail |
-|---|---|
-| Case variants | `BeSt`/`Best`, `EffOrt`/`Effort`/`effOrt`, `herO`/`hero`, `HyuN`/`Hyun`, `SnOw`/`Snow` |
-| Race conflict | Jaedong is `T` in S21 Live Tracker, `Z` everywhere else |
-| Unknown player | `Snow` as S5/S8 runner-up in Season Overview (placements use `SnOw`); `Yoon Soo-chul` and `herO` in tracker only |
-| Finals mismatch | S5, S8 (`Snow` vs `SnOw`) |
-| Suspect value | `Best` Est. Prize (KRW) = 4 |
-| Live status | Tracker has `herO` and `Yoon Soo-chul` in Ro16; placements S21 column doesn't mark them In Prog |
+## Adding a season
 
-Not flagged by code, but noticed during review: tracker row for `sSak` has the note "lost to
-sSak"; S21 data was last updated 2026-04-26 and the season ended 2026-05-24.
+1. Add the page title to `TITLES` in `fetch_seasons.py`.
+2. `pnpm stats:fetch`, then `pnpm stats:export`.
+3. Check `validation.json`, review the diff, run `pnpm stats:test`, commit source and
+   generated files together.
 
-## Agent Usage Notes
-
-- Use the `stats-curator` persona for triage. Never fix by editing JSON.
-- When a `LAYOUT ERROR` appears after a deliberate workbook change, update `LAYOUT` in the
-  same commit as the xlsx and re-run the tests.
+While a season is in progress its page has no final, so the exporter reports `FINALS_MISSING`
+and partial placements. In-progress seasons are not supported yet (ROADMAP).

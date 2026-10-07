@@ -22,8 +22,8 @@
   },
   {
     "file": "stats-pipeline.md",
-    "purpose": "How the xlsx becomes data/generated/*.json, what agents may and may not change, handling LAYOUT ERRORs, adding tables, and new-season procedure.",
-    "readWhen": "Running or changing the exporter, triaging validation warnings, adding a stats table, or when the workbook layout changes."
+    "purpose": "How Liquipedia season pages become data/generated/*.json, what agents may and may not change, overrides, and new-season procedure.",
+    "readWhen": "Running or changing the stats scripts, triaging validation notes, adding a stats output, or adding a season."
   },
   {
     "file": "testing.md",

@@ -76,10 +76,10 @@ features/markets/
 - Prices are probabilities in `[0, 1]`. UI shows them as percentages.
 - Only `lib/market/` does LMSR arithmetic.
 
-## Python (scripts/export-stats)
+## Python (scripts/liquipedia, scripts/export-stats)
 
 - Python 3.12+, type hints on every function, `from __future__ import annotations`.
-- Standard library + `openpyxl` only. No pandas.
+- Standard library only. No pandas, no requests.
 - Fail loudly (`LayoutError`) on structural surprises; warn (`validation.json`) on data
   surprises.
 - JSON output: `ensure_ascii=False`, `sort_keys=True`, 2-space indent, trailing newline.

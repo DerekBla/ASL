@@ -1,31 +1,155 @@
 {
   "counts": {
-    "elo": 86,
-    "liveTracker": 28,
-    "placements": 575,
-    "playerStats": 86,
-    "players": 86,
-    "raceStats.championshipsByEra": 4,
-    "raceStats.finalsBySeason": 20,
-    "raceStats.grandFinalsByMatchup": 6,
-    "raceStats.matchupsAllStages": 3,
-    "raceStats.matchupsAllStagesMirror": 3,
-    "raceStats.matrixAllStages": 3,
-    "raceStats.overall": 3,
-    "raceStats.participantsBySeason": 20,
-    "raceStats.playoffMatrixS13toS20": 3,
-    "raceStats.playoffSeriesS13toS20": 6,
-    "seasons": 21
+    "elo": 85,
+    "placements": 576,
+    "player-stats": 85,
+    "players": 85,
+    "seasons": 21,
+    "series": 1189,
+    "validation": 9
   },
-  "ignoredSheets": [],
-  "schemaVersion": 1,
+  "elo": {
+    "basis": "placement",
+    "k": 32,
+    "start": 1500.0
+  },
+  "schemaVersion": 2,
   "seasons": {
     "complete": 21,
     "count": 21
   },
   "source": {
-    "file": "ASL_Complete_S1_S21.xlsx",
-    "sha256": "acc70eed3b16fa82546163e737a9e7c5a5c6a4f8d012cb7cced27ec6279167c8"
+    "kind": "liquipedia",
+    "license": "CC-BY-SA 3.0",
+    "pages": [
+      {
+        "revid": 538334,
+        "season": 1,
+        "title": "AfreecaTV/StarCraft League Brood War/1",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Brood_War/1"
+      },
+      {
+        "revid": 538335,
+        "season": 2,
+        "title": "AfreecaTV/StarCraft League Brood War/2",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Brood_War/2"
+      },
+      {
+        "revid": 538336,
+        "season": 3,
+        "title": "AfreecaTV/StarCraft League Brood War/3",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Brood_War/3"
+      },
+      {
+        "revid": 538337,
+        "season": 4,
+        "title": "AfreecaTV/StarCraft League Remastered/4",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/4"
+      },
+      {
+        "revid": 538331,
+        "season": 5,
+        "title": "AfreecaTV/StarCraft League Remastered/5",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/5"
+      },
+      {
+        "revid": 538330,
+        "season": 6,
+        "title": "AfreecaTV/StarCraft League Remastered/6",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/6"
+      },
+      {
+        "revid": 538332,
+        "season": 7,
+        "title": "AfreecaTV/StarCraft League Remastered/7",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/7"
+      },
+      {
+        "revid": 538328,
+        "season": 8,
+        "title": "AfreecaTV/StarCraft League Remastered/8",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/8"
+      },
+      {
+        "revid": 538327,
+        "season": 9,
+        "title": "AfreecaTV/StarCraft League Remastered/9",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/9"
+      },
+      {
+        "revid": 538326,
+        "season": 10,
+        "title": "AfreecaTV/StarCraft League Remastered/10",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/10"
+      },
+      {
+        "revid": 539985,
+        "season": 11,
+        "title": "AfreecaTV/StarCraft League Remastered/11",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/11"
+      },
+      {
+        "revid": 538324,
+        "season": 12,
+        "title": "AfreecaTV/StarCraft League Remastered/12",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/12"
+      },
+      {
+        "revid": 526854,
+        "season": 13,
+        "title": "AfreecaTV/StarCraft League Remastered/13",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/13"
+      },
+      {
+        "revid": 533807,
+        "season": 14,
+        "title": "AfreecaTV/StarCraft League Remastered/14",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/14"
+      },
+      {
+        "revid": 536559,
+        "season": 15,
+        "title": "AfreecaTV/StarCraft League Remastered/15",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/15"
+      },
+      {
+        "revid": 536560,
+        "season": 16,
+        "title": "AfreecaTV/StarCraft League Remastered/16",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/16"
+      },
+      {
+        "revid": 536558,
+        "season": 17,
+        "title": "AfreecaTV/StarCraft League Remastered/17",
+        "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/17"
+      },
+      {
+        "revid": 538323,
+        "season": 18,
+        "title": "SOOP/StarCraft League/2024/AUTUMN",
+        "url": "https://liquipedia.net/starcraft/SOOP/StarCraft_League/2024/AUTUMN"
+      },
+      {
+        "revid": 538318,
+        "season": 19,
+        "title": "ASL/19",
+        "url": "https://liquipedia.net/starcraft/ASL/19"
+      },
+      {
+        "revid": 538319,
+        "season": 20,
+        "title": "ASL/20",
+        "url": "https://liquipedia.net/starcraft/ASL/20"
+      },
+      {
+        "revid": 538320,
+        "season": 21,
+        "title": "ASL/21",
+        "url": "https://liquipedia.net/starcraft/ASL/21"
+      }
+    ],
+    "wikitextSha256": "bf39ab7a643cbf5292c1f4851a84d3d1b7e75f04d247820dc1ae0f7c18c8d0fc"
   },
-  "warnings": 1
+  "warnings": 9
 }

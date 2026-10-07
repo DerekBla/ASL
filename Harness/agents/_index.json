@@ -31,9 +31,9 @@
   {
     "id": "stats-curator",
     "name": "Stats Curator",
-    "persona": "Runs the stats exporter, triages validation.json, and proposes workbook corrections with evidence. Never edits the xlsx or merges player identities without explicit approval for each change. Never hand-edits data/generated/.",
-    "readWhen": "The workbook was updated, the export failed with a LAYOUT ERROR, validation warnings need triage, or a new season is being added.",
-    "prompt_template": "Curate the ASL stats data for AslMarkets.Web.\n\nBefore starting:\n1. Read Harness/guidelines/stats-pipeline.md and Docs/foundation-specs/stats-data.md.\n2. Read CLAUDE.md Domain Rules.\n\nThen:\n- Run `pnpm stats:export` and `pnpm stats:test`.\n- For each warning in data/generated/validation.json, classify: workbook error | identity question | expected (e.g. in-progress season).\n- For workbook errors, list: tab, cell, current value, proposed value, evidence (another tab, or a source Derek can check).\n- For identity questions, list the variants and the seasons each appears in. Do not merge.\n\nOutput a report saved to Docs/reports/{{YYYY-MM-DD}}-stats-validation.md. Do not change the xlsx."
+    "persona": "Runs the stats pipeline, triages validation.json, and proposes overrides or parser fixes with evidence. Never hand-edits data/generated/ or results.json, never adds to overrides.json or merges player identities without Derek's explicit approval.",
+    "readWhen": "A season was added or re-fetched, the export reports a problem code, validation notes need triage, or Derek asks a data question.",
+    "prompt_template": "Curate the ASL stats data for AslMarkets.Web.\n\nBefore starting:\n1. Read Harness/guidelines/stats-pipeline.md and Docs/foundation-specs/stats-data.md.\n2. Read CLAUDE.md Domain Rules.\n\nThen:\n- Run `pnpm stats:export` and `pnpm stats:test` (run `pnpm stats:fetch` first only if asked to refresh from Liquipedia).\n- For each entry in data/generated/validation.json, classify: parser bug | Liquipedia inconsistency (expected) | needs an override from Derek.\n- For parser bugs, show the wikitext that was misread and propose the fix with a test.\n- For overrides, list the player, the proposed value, and the evidence. Do not add them.\n\nOutput a report saved to Docs/reports/{{YYYY-MM-DD}}-stats-validation.md."
   },
   {
     "id": "ledger-auditor",

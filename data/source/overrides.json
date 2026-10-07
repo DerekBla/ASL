@@ -1,0 +1,7 @@
+{
+  "_comment": "Derek's corrections, applied by scripts/export-stats/export_stats.py on top of the Liquipedia results. names: name as Liquipedia writes it -> name to show. races: player -> T, Z or P, for players whose race Liquipedia does not give (or gives wrongly).",
+  "names": {
+    "ivOry 인치호": "ivOry"
+  },
+  "races": {}
+}

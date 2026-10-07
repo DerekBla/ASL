@@ -10,7 +10,7 @@ Start with [CLAUDE.md](CLAUDE.md) (decisions, domain rules, docs map) and [ROADM
 | Piece | Where | Check |
 |---|---|---|
 | LMSR pricing engine | `src/lib/market/lmsr.ts` | `pnpm test` |
-| Stats exporter (xlsx → JSON) | `scripts/export-stats/` | `pnpm stats:test` |
+| Stats pipeline (Liquipedia → JSON) | `scripts/liquipedia/`, `scripts/export-stats/` | `pnpm stats:test` |
 | Exported stats | `data/generated/` | `pnpm stats:export` |
 | Agent harness + specs | `Harness/`, `Docs/` | — |
 
@@ -20,13 +20,14 @@ The Next.js app isn't scaffolded yet. That's the first Foundation item on the ro
 
 ```bash
 pnpm install
-pip install openpyxl          # Python 3.12+
+# Python 3.12+ on PATH (standard library only)
 pnpm typecheck && pnpm test && pnpm stats:test
 ```
 
 ## Updating stats
 
-Edit `data/source/ASL_Complete_S1_S21.xlsx` in Excel, then:
+Stats are built from Liquipedia's ASL season pages (CC-BY-SA 3.0), stored in `data/source/liquipedia/`.
+To refresh them run `pnpm stats:fetch`, then:
 
 ```bash
 pnpm stats:export     # prints any validation warnings

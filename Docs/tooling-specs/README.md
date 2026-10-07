@@ -7,7 +7,7 @@
 
 ## What Goes Here
 
-- **[export-stats.md](export-stats.md)**: xlsx → JSON exporter (implemented)
+- **[export-stats.md](export-stats.md)**: Liquipedia → JSON stats pipeline (implemented)
 - Feature scaffold generators (create a new feature folder with boilerplate)
 - Component stub generators
 - Database seeding scripts for local development and test environments

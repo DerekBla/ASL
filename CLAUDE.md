@@ -4,8 +4,8 @@
 ## Key thoughts
 A fan-made site for the ASL (StarCraft: Brood War league, S1–S21+) with two halves:
 
-1. **Stats** — publishes Derek's historical database (`data/source/ASL_Complete_S1_S21.xlsx`):
-   seasons, player placements, ELO, career stats, race matchup stats.
+1. **Stats** — publishes ASL history built from Liquipedia's season pages (`data/source/liquipedia/`):
+   seasons, player placements, ELO, career stats, race matchup stats, every series played.
 2. **Markets** — a for-fun, Kalshi-style prediction market on ASL outcomes (match winners,
    season champion, props), priced by an LMSR automated market maker, using **play-money
    credits only**.
@@ -30,7 +30,7 @@ and a ROADMAP entry before work begins.
 | Database | Neon Postgres + Drizzle ORM — `neon-serverless` (WebSocket) driver for anything that needs a transaction |
 | Ledger | Every credit movement is one Postgres transaction through `lib/services/ledger` — see `Docs/foundation-specs/ledger.md` |
 | Pricing | LMSR. `src/lib/market/lmsr.ts` is the only pricing implementation — never re-derive formulas in SQL, actions, or client code |
-| Stats data | Static JSON in `data/generated/`, produced by `scripts/export-stats/` from the xlsx. The app never reads the xlsx at runtime |
+| Stats data | Static JSON in `data/generated/`, built by `scripts/export-stats/` from Liquipedia season pages stored in `data/source/liquipedia/` (changed from the xlsx on 2026-10-07, approved by Derek). The app reads only `data/generated/` at runtime |
 | Auth | Clerk — Discord + Google OAuth only; no email/password |
 | Testing | Vitest + Testing Library (unit/integration) + Playwright (E2E); Python `unittest` for the exporter |
 | Lint / format | ESLint flat config + Prettier — enforced in CI and pre-commit |
@@ -53,16 +53,20 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
 
   Swapped or inconsistent race colors are a recurring bug. Use the tokens, never literals.
 - **Placement labels** use an en-dash: `9th–12th`, `23rd–28th`. The exporter normalizes hyphens.
-- **Prize money** is stored in KRW (`₩`); USD values are approximations and labeled as such.
+- **Prize money** is stored in KRW (`₩`), from Liquipedia's per-placement payouts. No USD values
+  are stored; if the UI shows USD it is an approximation and labeled as such.
 - **Player identity**: canonical handles follow Liquipedia's current spelling. Confirmed by
   Derek on 2026-10-07 (alias → canonical): `Snow` → `SnOw` (Jang Yoon-chul), `hero` → `herO`
   (Zerg), `BeSt` → `Best`, `Effort`/`effOrt` → `EffOrt`, `Hyun` → `HyuN`,
   `huro`/`Yoon Soo-chul` → `tulbo` (Protoss), `JD` → `Jaedong` (Zerg). Any **new** case
   variant the exporter flags **must not be merged without Derek's confirmation**.
-- **Races confirmed by Derek** (the workbook had these wrong): `sSak`, `Ample`, `Speed` are
-  Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg.
-- **ELO** in the workbook is placement-based (start 1500, K=32, pairwise by placement tier), not
-  match-based. Label it that way in the UI.
+- **Races** come from Liquipedia, one per player. Confirmed by Derek: `sSak`, `Ample`, `Speed` are
+  Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg. Players Liquipedia gives no
+  race for are `null` until Derek adds them to `data/source/overrides.json`.
+- **Attribution**: stats text and results derive from Liquipedia (CC-BY-SA 3.0). The site must
+  credit Liquipedia and link the source pages (`seasons.json` carries each URL).
+- **ELO** is placement-based (start 1500, K=32, pairwise by placement tier), not match-based.
+  Label it that way in the UI. It is computed by `compute_elo` in the exporter.
 - **Branding**: unofficial fan project. No ASL/SOOP/AfreecaTV logos or trade dress. Footer
   carries a "fan project, not affiliated" disclaimer.
 
@@ -93,7 +97,9 @@ Full module map, dependency rules, and data-flow patterns:
 | `Docs/components/` | Shared component catalog with usage rules (`_index.json`) |
 | `Docs/tooling-specs/` | Agent tooling and automation specs (stats exporter) |
 | `Docs/reports/` | Generated output — do not hand-author |
-| `data/source/` | The source workbook. Edited by Derek in Excel, never by agents without approval |
+| `data/source/liquipedia/` | Fetched Liquipedia wikitext and the results parsed from it. Never hand-edit; re-run the scripts |
+| `data/source/overrides.json` | Derek's corrections (display names, races). Agents propose, Derek confirms |
+| `data/source/*.xlsx` | The old workbook, kept as a reference copy. Nothing reads it |
 | `data/generated/` | Exporter output. Never hand-edit; re-run `pnpm stats:export` |
 
 ---
@@ -127,6 +133,19 @@ counts, finals head-to-head, and matchup totals on that tab could not be reprodu
 rest of the workbook (even before corrections). Don't "fix" single numbers there; recompute
 the tab in the pipeline. Player Stats counts and Placements Played/Best do reproduce exactly.
 
+**[2026-10-07] The workbook was wrong in bulk, not in details** — it looked authoritative, and
+two rounds of cell-level fixes went in before an audit against Liquipedia showed it matched on
+only 486 of 576 entries (S10: 4 of 28). Check a dataset against its primary source before
+polishing it. The three workbook pitfalls above are history; the workbook is no longer read.
+
+**[2026-10-07] Liquipedia's summary tables disagree with its own match results** — S5's prize
+table swaps Sharp and Sea, and S1's group tables list tied players in the wrong order. Derive
+placements from series results; use the tables only as a cross-check.
+
+**[2026-10-07] Liquipedia spells one player several ways** — `BeSt`/`Best`, `Snow`/`SnOw`,
+`hero`/`herO`, even two spellings in one group. Newer pages also omit races. Identity and race
+come from the player page each name resolves to, not from the name as written.
+
 ---
 
 ## ROADMAP Status Lifecycle
@@ -157,5 +176,6 @@ draft → approved → in-progress → implemented
 | `pnpm install` | Install JS deps |
 | `pnpm typecheck` | `tsc --noEmit` |
 | `pnpm test` | Vitest (LMSR engine today; app tests later) |
-| `pnpm stats:export` | xlsx → `data/generated/*.json`, prints validation warnings |
-| `pnpm stats:test` | Exporter unit + integration tests (needs Python 3.12+, `pip install openpyxl`) |
+| `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
+| `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
+| `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

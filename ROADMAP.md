@@ -35,11 +35,19 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Resolve exporter validation warnings | 14 warnings on first export (identity case variants, Jaedong race in tracker, Best prize = 4, Snow vs SnOw in Season Overview, S21 tracker vs placements). Derek decides each; fixes go in the xlsx. Triage + resolution: `Docs/reports/2026-10-07-stats-validation.md`. 13 of 14 cleared on branch `stats-curator-triage`; open: Best's prize total, S5 has 27 players <!-- updated: 2026-10-07 --> |
-| in-progress | S21 final results | Entered from Liquipedia on branch `stats-curator-triage` (soma def. Flash 4–3). Season Overview, Placements, and tracker are final; ELO / Player Stats / Race Stats still cover S1–S20 <!-- updated: 2026-10-07 --> |
-| draft | Player identity map | `data/player-aliases.json`: confirmed alias → canonical player. Exporter applies it and reports unmapped variants. Confirmed aliases so far are listed in CLAUDE.md Domain Rules and already merged in the workbook <!-- updated: 2026-10-07 --> |
-| draft | Exporter: write LF line endings | On Windows the exporter writes CRLF; git normalizes it, but a byte-level CI freshness check would fail. Open outputs with `newline="\n"` |
-| draft | Compute derived stats in the pipeline | Recompute ELO, career stats, and race stats from placements in code so corrections propagate; diff against workbook values before switching over. Notes 2026-10-07: Race Stats aggregates don't reproduce from placements and are stale after the race corrections; ELO was recomputed once by `scripts/workbook-fixes/apply_2026_10_07_decisions.py` (`compute_elo`), which is the starting point; all three tabs need extending to S21 (clears the soma `CHAMPIONSHIP_MISMATCH`) <!-- updated: 2026-10-07 --> |
+| in-progress | Liquipedia as the stats source | Approved by Derek 2026-10-07 after the audit (`Docs/reports/2026-10-07-liquipedia-audit.md`: workbook matched 486 of 576 entries). `scripts/liquipedia/` fetches and parses the 21 season pages; `scripts/export-stats/` builds `data/generated/` from them, including ELO, career stats, and race stats. The workbook becomes a reference copy. Supersedes the three items below <!-- updated: 2026-10-07 --> |
+| draft | Workbook-era player questions | `Byun`, `Jo Il-jang`, `Kim Myung-woon` were workbook rows that match no Liquipedia player; races for `815`, `ivOry`, `Queen` are unknown. Derek to supply via `data/source/overrides.json` |
+| draft | In-progress season support | The pipeline assumes finished seasons. S22 needs partial placements, a live status, and a refresh routine |
+| draft | Game-level stats | Series are parsed; individual maps (winner per map, map win rates by matchup) are in the wikitext but not exported |
+| draft | Remove the old workbook | `data/source/ASL_Complete_S1_S21.xlsx` and `scripts/workbook-fixes/` are reference only. Delete once Derek no longer wants them |
+
+### Archive
+
+- [superseded 2026-10-07] Resolve exporter validation warnings — replaced by "Liquipedia as the stats source"
+- [superseded 2026-10-07] S21 final results — replaced by "Liquipedia as the stats source"
+- [superseded 2026-10-07] Player identity map — replaced by "Liquipedia as the stats source"
+- [superseded 2026-10-07] Exporter: write LF line endings — replaced by "Liquipedia as the stats source"
+- [superseded 2026-10-07] Compute derived stats in the pipeline — replaced by "Liquipedia as the stats source"
 
 ---
 

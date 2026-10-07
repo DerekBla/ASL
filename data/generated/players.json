@@ -1,345 +1,464 @@
 [
   {
+    "aliases": [],
     "player": "1127",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "815",
-    "race": "T"
+    "race": null
   },
   {
+    "aliases": [],
     "player": "Action",
-    "race": "T"
+    "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Ample",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "BarrackS",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "beast",
     "race": "Z"
   },
   {
+    "aliases": [
+      "BeSt"
+    ],
     "player": "Best",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "BishOp",
-    "race": "P"
+    "race": "T"
   },
   {
+    "aliases": [],
     "player": "Bisu",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "BTS",
     "race": "Z"
   },
   {
+    "aliases": [
+      "ErOs_ByuL"
+    ],
     "player": "ByuL",
-    "race": "Z"
+    "race": "T"
   },
   {
-    "player": "Byun",
-    "race": "P"
-  },
-  {
+    "aliases": [],
     "player": "Calm",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "DDasik",
-    "race": "T"
+    "race": "Z"
   },
   {
+    "aliases": [
+      "Effort",
+      "effOrt"
+    ],
     "player": "EffOrt",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "firebathero",
     "race": "T"
   },
   {
+    "aliases": [
+      "FlaSh"
+    ],
     "player": "Flash",
     "race": "T"
   },
   {
-    "player": "Force",
-    "race": "T"
-  },
-  {
-    "player": "ForGG",
-    "race": "T"
-  },
-  {
-    "player": "free",
+    "aliases": [
+      "Force(Name)",
+      "Force(name)"
+    ],
+    "player": "force(Name)",
     "race": "Z"
   },
   {
+    "aliases": [],
+    "player": "fOrGG",
+    "race": "T"
+  },
+  {
+    "aliases": [],
+    "player": "free",
+    "race": "P"
+  },
+  {
+    "aliases": [],
     "player": "ggaemo",
     "race": "Z"
   },
   {
+    "aliases": [
+      "Guemchi"
+    ],
     "player": "GuemChi",
-    "race": "Z"
+    "race": "P"
   },
   {
+    "aliases": [],
+    "player": "hani",
+    "race": "T"
+  },
+  {
+    "aliases": [
+      "hero"
+    ],
     "player": "herO",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Hint",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "HiyA",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Horang2",
-    "race": "T"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "Hyuk",
-    "race": "T"
+    "race": "Z"
   },
   {
+    "aliases": [
+      "Hyun"
+    ],
     "player": "HyuN",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Iris",
     "race": "T"
   },
   {
+    "aliases": [
+      "ivOry 인치호"
+    ],
     "player": "ivOry",
-    "race": "P"
+    "race": null
   },
   {
+    "aliases": [
+      "JD"
+    ],
     "player": "Jaedong",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Jaehoon",
-    "race": "T"
+    "race": "P"
   },
   {
-    "player": "Jo Il-jang",
-    "race": "Z"
-  },
-  {
+    "aliases": [],
     "player": "JyJ",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Khala",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "Killer",
     "race": "Z"
   },
   {
-    "player": "Kim Myung-woon",
-    "race": "Z"
-  },
-  {
+    "aliases": [],
     "player": "Larva",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Last",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Lazy",
-    "race": "T"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "Leta",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Light",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Mind",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Mini",
     "race": "P"
   },
   {
+    "aliases": [
+      "Where"
+    ],
     "player": "MIsO",
-    "race": "P"
+    "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Modesty",
-    "race": "T"
+    "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Mong",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Motive",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "Movie",
-    "race": "T"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "NaDa",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "nOOB",
-    "race": "T"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "Paralyze",
-    "race": "T"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "PianO",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "PURPOSE",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Pusan",
-    "race": "T"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "Queen",
-    "race": "Z"
+    "race": null
   },
   {
+    "aliases": [],
     "player": "Rain",
     "race": "P"
   },
   {
+    "aliases": [
+      "Sorry",
+      "sOrry"
+    ],
     "player": "RoyaL",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Ruin",
-    "race": "Z"
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "Rush",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Saber",
-    "race": "T"
+    "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Sacsri",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Scan",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Sea",
     "race": "T"
   },
   {
+    "aliases": [],
+    "player": "Sea.KH",
+    "race": "P"
+  },
+  {
+    "aliases": [],
     "player": "Sharp",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Shine",
     "race": "Z"
   },
   {
+    "aliases": [],
     "player": "Shuttle",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "Skey",
-    "race": "Z"
-  },
-  {
-    "player": "Sky",
     "race": "T"
   },
   {
+    "aliases": [],
+    "player": "Sky",
+    "race": "P"
+  },
+  {
+    "aliases": [
+      "Snow"
+    ],
     "player": "SnOw",
     "race": "P"
   },
   {
+    "aliases": [
+      "Soma"
+    ],
     "player": "soma",
     "race": "Z"
   },
   {
-    "player": "Sorry",
-    "race": "T"
-  },
-  {
+    "aliases": [
+      "Neo.G_Soulkey"
+    ],
     "player": "Soulkey",
     "race": "Z"
   },
   {
+    "aliases": [
+      "Sexy"
+    ],
     "player": "Speed",
     "race": "T"
   },
   {
-    "player": "Ss1nz",
-    "race": "T"
+    "aliases": [],
+    "player": "ss1nz",
+    "race": "P"
   },
   {
+    "aliases": [],
     "player": "sSak",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Stork",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "TaeNgGu",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Terror",
-    "race": "T"
-  },
-  {
-    "player": "Tinkle",
     "race": "Z"
   },
   {
+    "aliases": [],
+    "player": "Tinkle",
+    "race": "T"
+  },
+  {
+    "aliases": [
+      "huro",
+      "YSC"
+    ],
     "player": "tulbo",
     "race": "P"
   },
   {
+    "aliases": [],
     "player": "TY",
     "race": "T"
   },
   {
+    "aliases": [],
     "player": "Tyson",
-    "race": "T"
-  },
-  {
-    "player": "Where",
-    "race": "T"
-  },
-  {
-    "player": "ZeLoT",
     "race": "P"
   },
   {
+    "aliases": [],
+    "player": "Yerim2",
+    "race": "Z"
+  },
+  {
+    "aliases": [],
+    "player": "Yoon",
+    "race": "Z"
+  },
+  {
+    "aliases": [],
+    "player": "ZeLoT",
+    "race": "Z"
+  },
+  {
+    "aliases": [],
     "player": "ZerO",
     "race": "Z"
   }

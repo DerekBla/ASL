@@ -35,10 +35,10 @@ categories:
 
   data:
     - id: data-1
-      rule: "The app never reads the xlsx at runtime. Stats come from data/generated/ through lib/services/stats with Zod validation."
+      rule: "The app never reads data/source/ at runtime. Stats come from data/generated/ through lib/services/stats with Zod validation."
       severity: blocking
     - id: data-2
-      rule: "data/generated/ is never hand-edited, and is committed together with the xlsx change that produced it."
+      rule: "data/generated/ is never hand-edited, and is committed together with the data/source/ change that produced it."
       severity: blocking
     - id: data-3
       rule: "Player identities are never merged without an entry Derek approved (alias map)."

@@ -248,6 +248,42 @@
       },
       {
         "stage": "ro16",
+        "title": "Group B Tiebreaker",
+        "standing": [
+          "Jaehoon",
+          "Sharp",
+          "PianO"
+        ],
+        "tiebreaker": true,
+        "series": [
+          {
+            "winner": "Sharp",
+            "loser": "Jaehoon"
+          },
+          {
+            "winner": "Jaehoon",
+            "loser": "PianO"
+          },
+          {
+            "winner": "PianO",
+            "loser": "Sharp"
+          },
+          {
+            "winner": "Jaehoon",
+            "loser": "Sharp"
+          },
+          {
+            "winner": "Jaehoon",
+            "loser": "PianO"
+          },
+          {
+            "winner": "Sharp",
+            "loser": "PianO"
+          }
+        ]
+      },
+      {
+        "stage": "ro16",
         "title": "Group C",
         "standing": [
           "Sea",

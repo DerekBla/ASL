@@ -1,6 +1,38 @@
 [
   {
-    "code": "CHAMPIONSHIP_MISMATCH",
-    "message": "soma: Player Stats championships=1 but Season Overview lists 2"
+    "code": "UNKNOWN_RACE",
+    "message": "815: no race found on Liquipedia; add it to data/source/overrides.json"
+  },
+  {
+    "code": "UNKNOWN_RACE",
+    "message": "ivOry: no race found on Liquipedia; add it to data/source/overrides.json"
+  },
+  {
+    "code": "UNKNOWN_RACE",
+    "message": "Queen: no race found on Liquipedia; add it to data/source/overrides.json"
+  },
+  {
+    "code": "SOURCE_TABLE_MISMATCH",
+    "message": "S1: ro16 Group A: page lists ['sSak', 'Shuttle', 'free', 'EffOrt'] but match results give ['sSak', 'Shuttle', 'EffOrt', 'free']"
+  },
+  {
+    "code": "SOURCE_TABLE_MISMATCH",
+    "message": "S1: ro16 Group B: page lists ['Sharp', 'Jaehoon', 'PianO', 'Larva'] but match results give ['Jaehoon', 'Sharp', 'PianO', 'Larva']"
+  },
+  {
+    "code": "SOURCE_TABLE_MISMATCH",
+    "message": "S1: ro16 Group C: page lists ['Sea', 'Flash', 'Mind', 'ZerO'] but match results give ['Sea', 'Flash', 'ZerO', 'Mind']"
+  },
+  {
+    "code": "SOURCE_TABLE_MISMATCH",
+    "message": "S5: prize table puts Sharp at 17-22, match results give 23rd-28th"
+  },
+  {
+    "code": "SOURCE_TABLE_MISMATCH",
+    "message": "S5: prize table puts Sea at 23-28, match results give 17th-22nd"
+  },
+  {
+    "code": "SOURCE_TABLE_MISMATCH",
+    "message": "S10: race counts {'Z': 11, 'T': 9, 'P': 8} differ from infobox {'T': 8, 'Z': 11, 'P': 8}"
   }
 ]

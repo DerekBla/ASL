@@ -294,6 +294,9 @@ def parse_season(n: int, text: str) -> dict:
             placements[order[2]], placements[order[3]] = tiers[g["stage"]]
         out_groups.append({"stage": g["stage"], "title": g["title"], "standing": order,
                            "series": [{"winner": w, "loser": l} for w, l in g["series"]]})
+        if tb:
+            out_groups.append({"stage": g["stage"], "title": tb["title"], "standing": tb_order, "tiebreaker": True,
+                               "series": [{"winner": w, "loser": l} for w, l in tb["series"]]})
 
     # ---- bracket
     bracket = find_templates(text, "Bracket")
@@ -401,7 +404,8 @@ def parse_season(n: int, text: str) -> dict:
     }
 
 
-def main() -> None:
+def parse_all() -> tuple[list[dict], dict[str, list[str]]]:
+    """Parse every season with names normalised. Returns (seasons, identities)."""
     texts = {int(p.stem[1:]): p.read_text(encoding="utf-8") for p in sorted(SRC.glob("s[0-9][0-9].wiki"))}
     players_path = SRC / "players.json"
     pages = json.loads(players_path.read_text(encoding="utf-8")) if players_path.exists() else {}
@@ -451,8 +455,15 @@ def main() -> None:
             if p["raceSource"] != "season page" and known[p["player"]]:
                 p["race"], p["raceSource"] = known[p["player"]].most_common(1)[0][0], "other seasons"
         s.pop("rawLinks")
-    (SRC / "identities.json").write_text(json.dumps(dict(sorted(identities.items(), key=lambda kv: kv[0].lower())), indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
+    return seasons, dict(sorted(identities.items(), key=lambda kv: kv[0].lower()))
+
+
+def main() -> None:
+    seasons, identities = parse_all()
+    (SRC / "identities.json").write_text(json.dumps(identities, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     (SRC / "results.json").write_text(json.dumps(seasons, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
+    if "--quiet" in sys.argv[1:]:
+        return
     sys.stdout.reconfigure(encoding="utf-8")
     for s in seasons:
         norace = [p["player"] for p in s["players"] if not p["race"]]

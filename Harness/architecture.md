@@ -30,7 +30,7 @@
 └──────────────────────────────────────────────────────────────┘
 
 Outside the app:
-  scripts/export-stats/  (Python)  data/source/*.xlsx ──► data/generated/*.json
+  scripts/liquipedia/ + scripts/export-stats/ (Python)  data/source/liquipedia/ ──► data/generated/*.json
 ```
 
 ## Dependency Rule
@@ -76,7 +76,7 @@ Enforce this via ESLint `import/no-restricted-paths` rules in `eslint.config.mjs
 ### Stats (static, build time)
 
 ```
-Excel (Derek) → pnpm stats:export → data/generated/*.json (committed)
+Liquipedia → pnpm stats:fetch → data/source/liquipedia/ → pnpm stats:export → data/generated/*.json (committed)
     ↓
 lib/services/stats: read + Zod parse (once per build)
     ↓
@@ -158,8 +158,9 @@ src/
     factories/
     setup.ts
 scripts/
+  liquipedia/           # EXISTS: fetch + parse Liquipedia season pages, tests
   export-stats/         # EXISTS: export_stats.py + tests
 data/
-  source/               # EXISTS: ASL_Complete_S1_S21.xlsx
+  source/               # EXISTS: liquipedia/ (wikitext + results), overrides.json, old xlsx (reference)
   generated/            # EXISTS: exporter output
 ```

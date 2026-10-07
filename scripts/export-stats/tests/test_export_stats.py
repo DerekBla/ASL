@@ -5,9 +5,8 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from collections import Counter
 from pathlib import Path
-
-import openpyxl
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
@@ -15,171 +14,160 @@ sys.path.insert(0, str(HERE.parent))
 import export_stats as ex  # noqa: E402
 
 REPO = HERE.parents[2]
-WORKBOOK = REPO / "data" / "source" / "ASL_Complete_S1_S21.xlsx"
+SOURCE = REPO / "data" / "source"
+SCRIPT = HERE.parent / "export_stats.py"
 
 
-class ParserTests(unittest.TestCase):
-    def test_placement_ranges_normalise_to_en_dash(self):
-        for raw in ("9th-12th", "9th–12th", "9th — 12th"):
-            self.assertEqual(
-                ex.to_placement(raw),
-                {"label": "9th–12th", "best": 9, "worst": 12, "status": "final"},
-            )
+class PlacementTests(unittest.TestCase):
+    def test_ranges_use_an_en_dash(self):
+        for raw in ("9th-12th", "9th–12th", "9-12"):
+            self.assertEqual(ex.to_placement(raw), {"label": "9th–12th", "best": 9, "worst": 12, "status": "final"})
 
-    def test_placement_singles_and_ordinals(self):
-        self.assertEqual(ex.to_placement("1st")["label"], "1st")
-        self.assertEqual(ex.to_placement("3rd")["best"], 3)
+    def test_singles_and_ordinals(self):
+        self.assertEqual([ex.to_placement(x)["label"] for x in ("1st", "2", "3rd", "4th")], ["1st", "2nd", "3rd", "4th"])
         self.assertEqual(ex.to_placement("23rd-28th")["label"], "23rd–28th")
-        self.assertEqual(ex.to_placement("11th-12th")["label"], "11th–12th")
+        self.assertEqual(ex.to_placement("11-13")["label"], "11th–13th")
 
-    def test_placement_blank_and_in_progress(self):
-        for raw in (None, "-", "", "  "):
-            self.assertIsNone(ex.to_placement(raw))
-        self.assertEqual(ex.to_placement("In Prog")["status"], "in_progress")
-        self.assertEqual(ex.to_placement("Ro16 (In Progress)")["status"], "in_progress")
-
-    def test_placement_rejects_garbage(self):
-        with self.assertRaises(ValueError):
-            ex.to_placement("Ro16")
-
-    def test_ratio(self):
-        self.assertAlmostEqual(ex.to_ratio("40.0%"), 0.4)
-        self.assertAlmostEqual(ex.to_ratio("0%"), 0.0)
-        self.assertAlmostEqual(ex.to_ratio(0.25), 0.25)
-        self.assertAlmostEqual(ex.to_ratio(45), 0.45)
-        with self.assertRaises(ValueError):
-            ex.to_ratio("40.0")
-
-    def test_record(self):
-        self.assertEqual(ex.to_record("44% (4-5)"), {"wins": 4, "losses": 5, "winRate": 0.444444})
-        self.assertIsNone(ex.to_record("--"))
-        self.assertIsNone(ex.to_record(None))
-        with self.assertRaises(ValueError):
-            ex.to_record("44%")
-
-    def test_ints_reject_fractions_and_strip_currency(self):
-        self.assertEqual(ex.to_int(3.0), 3)
-        self.assertEqual(ex.to_int("₩1,500,000"), 1_500_000)
-        self.assertIsNone(ex.to_int("TBD"))
-        with self.assertRaises(ValueError):
-            ex.to_int(2.5)
-
-    def test_race_codes(self):
-        self.assertEqual(ex.to_race("Terran"), "T")
-        self.assertEqual(ex.to_race("Z"), "Z")
-        self.assertIsNone(ex.to_race("?"))
-        with self.assertRaises(ValueError):
-            ex.to_race("Random")
-
-    def test_season_headers(self):
-        self.assertEqual(ex.to_season_number("S18\n(SSL)"), 18)
-        self.assertEqual(ex.to_season_number("S21\nProg"), 21)
-
-    def test_names_treat_placeholders_as_unknown(self):
-        self.assertIsNone(ex.to_name("TBD"))
-        self.assertEqual(ex.to_name(" Flash "), "Flash")
+    def test_rejects_garbage(self):
+        for raw in ("", "TBD", "8th-5th", "1-2-3"):
+            with self.assertRaises(ValueError):
+                ex.to_placement(raw)
 
 
-class ValidationTests(unittest.TestCase):
-    def _data(self, **over):
-        base = {
-            "seasons": [{"season": 1, "winner": "Flash", "runnerUp": "Sea"}],
-            "placements": [
-                {"player": "Flash", "race": "T", "season": 1, "placement": ex.to_placement("1st")},
-                {"player": "Sea", "race": "T", "season": 1, "placement": ex.to_placement("2nd")},
-            ],
-            "elo": [{"player": "Flash", "race": "T"}, {"player": "Sea", "race": "T"}],
-            "playerStats": [
-                {"player": "Flash", "race": "T", "championships": 1, "estPrizeKrw": 10_000_000},
-                {"player": "Sea", "race": "T", "championships": 0, "estPrizeKrw": 5_000_000},
-            ],
-            "liveTracker": [],
-        }
-        base.update(over)
-        return base
+class EloTests(unittest.TestCase):
+    def test_zero_sum_and_ordering(self):
+        rating, peak = ex.compute_elo([{"A": 1, "B": 2, "C": 3, "D": 3}])
+        self.assertAlmostEqual(sum(rating.values()), 4 * ex.ELO_START)
+        self.assertGreater(rating["A"], rating["B"])
+        self.assertGreater(rating["B"], rating["C"])
+        self.assertEqual(peak["A"][1], 1)
 
-    def codes(self, data):
-        return [w["code"] for w in ex.validate(data)]
+    def test_same_tier_pairs_do_not_play(self):
+        rating, _ = ex.compute_elo([{"A": 5, "B": 5}])
+        self.assertEqual(rating, {"A": ex.ELO_START, "B": ex.ELO_START})
 
-    def test_clean_data_has_no_warnings(self):
-        self.assertEqual(self.codes(self._data()), [])
-
-    def test_detects_case_variant_identities(self):
-        d = self._data()
-        d["elo"].append({"player": "flash", "race": "T"})
-        self.assertIn("PLAYER_CASE_VARIANTS", self.codes(d))
-
-    def test_detects_race_conflict(self):
-        d = self._data(liveTracker=[{"player": "Flash", "race": "Z", "status": "Ro16 (In Progress)"}])
-        self.assertIn("RACE_CONFLICT", self.codes(d))
-
-    def test_detects_finals_and_championship_mismatch(self):
-        d = self._data(seasons=[{"season": 1, "winner": "Sea", "runnerUp": "Flash"}])
-        codes = self.codes(d)
-        self.assertIn("FINALS_MISMATCH", codes)
-        self.assertIn("CHAMPIONSHIP_MISMATCH", codes)
-
-    def test_detects_unscaled_prize(self):
-        d = self._data()
-        d["playerStats"][1]["estPrizeKrw"] = 4
-        self.assertIn("SUSPECT_VALUE", self.codes(d))
+    def test_absent_players_keep_their_rating(self):
+        rating, peak = ex.compute_elo([{"A": 1, "B": 2}, {"B": 1, "C": 2}])
+        first, _ = ex.compute_elo([{"A": 1, "B": 2}])
+        self.assertEqual(rating["A"], first["A"])
+        self.assertEqual(peak["A"][1], 1)
 
 
-@unittest.skipUnless(WORKBOOK.exists(), "source workbook not present")
-class WorkbookIntegrationTests(unittest.TestCase):
+@unittest.skipUnless((SOURCE / "liquipedia" / "results.json").exists(), "Liquipedia results not present")
+class BuildTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = ex.build(SOURCE)
+
+    def test_every_file_is_built(self):
+        self.assertEqual(sorted(self.data), [
+            "elo.json", "manifest.json", "placements.json", "player-stats.json", "players.json",
+            "race-stats.json", "seasons.json", "series.json", "validation.json"])
+        self.assertEqual(self.data["manifest.json"]["schemaVersion"], ex.SCHEMA_VERSION)
+
+    def test_no_problems_in_committed_source(self):
+        problems = [w for w in self.data["validation.json"] if w["code"] in ex.PROBLEM_CODES]
+        self.assertEqual(problems, [])
+
+    def test_season_sizes_and_tiers(self):
+        per = Counter(r["season"] for r in self.data["placements.json"])
+        self.assertEqual(per, Counter({1: 16, **{n: 28 for n in range(2, 22)}}))
+        for n in range(2, 22):
+            tiers = Counter(r["placement"]["label"] for r in self.data["placements.json"] if r["season"] == n)
+            self.assertEqual((tiers["1st"], tiers["2nd"], tiers["5th–8th"]), (1, 1, 4), f"S{n}")
+            self.assertEqual((tiers["9th–12th"], tiers["13th–16th"], tiers["17th–22nd"], tiers["23rd–28th"]), (4, 4, 6, 6), f"S{n}")
+            self.assertEqual(tiers["3rd"] + tiers["4th"], 2, f"S{n}")
+
+    def test_one_row_per_player_per_season_and_one_race_per_player(self):
+        keys = [(r["player"], r["season"]) for r in self.data["placements.json"]]
+        self.assertEqual(len(keys), len(set(keys)))
+        races = {}
+        for r in self.data["placements.json"]:
+            self.assertEqual(races.setdefault(r["player"], r["race"]), r["race"])
+
+    def test_no_case_variant_players(self):
+        lowered = Counter(p["player"].lower() for p in self.data["players.json"])
+        self.assertEqual([n for n, c in lowered.items() if c > 1], [])
+
+    def test_confirmed_identities_and_races(self):
+        race = {p["player"]: p["race"] for p in self.data["players.json"]}
+        for name in ("SnOw", "herO", "Best", "EffOrt", "HyuN", "tulbo", "Jaedong"):
+            self.assertIn(name, race)
+        for alias in ("Snow", "hero", "BeSt", "Effort", "Hyun", "huro", "JD"):
+            self.assertNotIn(alias, race)
+        self.assertEqual({n: race[n] for n in ("sSak", "Ample", "Speed", "Shine", "tulbo", "Jaedong")},
+                         {"sSak": "T", "Ample": "T", "Speed": "T", "Shine": "Z", "tulbo": "P", "Jaedong": "Z"})
+
+    def test_career_stats_agree_with_seasons(self):
+        champs = Counter(s["winner"] for s in self.data["seasons.json"])
+        for r in self.data["player-stats.json"]:
+            self.assertEqual(r["championships"], champs.get(r["player"], 0), r["player"])
+        self.assertEqual(sum(r["seasons"] for r in self.data["player-stats.json"]), len(self.data["placements.json"]))
+        self.assertEqual([r["rank"] for r in self.data["elo.json"]], list(range(1, len(self.data["elo.json"]) + 1)))
+
+    def test_prize_money_adds_up_to_what_the_pages_list(self):
+        s21 = sum(r["prizeKrw"] for r in self.data["placements.json"] if r["season"] == 21)
+        self.assertEqual(s21, 78_000_000)
+        self.assertEqual(sum(r["prizeKrw"] for r in self.data["player-stats.json"]),
+                         sum(r["prizeKrw"] or 0 for r in self.data["placements.json"]))
+
+    def test_race_stats_are_consistent(self):
+        rs = self.data["race-stats.json"]
+        self.assertEqual(sum(r["championships"] for r in rs["overall"]), 21)
+        for row in rs["participantsBySeason"]:
+            self.assertEqual(row["T"] + row["Z"] + row["P"] + row["unknown"], row["total"])
+        cross = {(r["race"], r["vs"]): r for r in rs["seriesByMatchup"]["allStages"]["crossRace"]}
+        self.assertEqual(cross[("T", "Z")]["wins"], cross[("Z", "T")]["losses"])
+        counted = sum(r["wins"] for r in cross.values()) + sum(rs["seriesByMatchup"]["allStages"]["mirrors"].values()) \
+            + rs["seriesByMatchup"]["allStages"]["unknownRace"]
+        self.assertEqual(counted, len(self.data["series.json"]))
+
+
+@unittest.skipUnless((SOURCE / "liquipedia" / "results.json").exists(), "Liquipedia results not present")
+class CliTests(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp, ignore_errors=True)
 
-    def tearDown(self):
-        shutil.rmtree(self.tmp, ignore_errors=True)
+    def run_cli(self, source, out, *flags, seed="0"):
+        env = {**os.environ, "PYTHONHASHSEED": seed}
+        return subprocess.run([sys.executable, str(SCRIPT), str(source), str(out), *flags],
+                              capture_output=True, env=env)
 
-    def test_exports_every_file_with_expected_shape(self):
-        result = ex.export(WORKBOOK, self.tmp / "out")
-        out = self.tmp / "out"
-        for name in (
-            "manifest.json", "seasons.json", "players.json", "placements.json", "elo.json",
-            "player-stats.json", "race-stats.json", "live-tracker.json", "validation.json",
-        ):
-            self.assertTrue((out / name).exists(), name)
-        seasons = json.loads((out / "seasons.json").read_text(encoding="utf-8"))
-        self.assertEqual([s["season"] for s in seasons], list(range(1, len(seasons) + 1)))
-        self.assertTrue(all(s["status"] in ("complete", "in_progress") for s in seasons))
-        placements = json.loads((out / "placements.json").read_text(encoding="utf-8"))
-        self.assertTrue(all("–" in p["placement"]["label"] or p["placement"]["best"] == p["placement"]["worst"]
-                            or p["placement"]["status"] == "in_progress" for p in placements))
-        self.assertEqual(result["manifest"]["counts"]["players"], len(json.loads((out / "players.json").read_text(encoding="utf-8"))))
+    def test_deterministic_across_processes(self):
+        # Separate processes with different hash seeds: same-process runs hide ordering bugs.
+        for i, seed in enumerate(("1", "2", "3")):
+            self.assertEqual(self.run_cli(SOURCE, self.tmp / f"o{i}", seed=seed).returncode, 0)
+        names = sorted(p.name for p in (self.tmp / "o0").iterdir())
+        for name in names:
+            first = (self.tmp / "o0" / name).read_bytes()
+            self.assertNotIn(b"\r\n", first, name)
+            for i in (1, 2):
+                self.assertEqual(first, (self.tmp / f"o{i}" / name).read_bytes(), name)
 
-    def test_export_is_deterministic_across_processes(self):
-        # Separate interpreters with different hash seeds: set/dict ordering must not leak into output.
-        script = HERE.parent / "export_stats.py"
-        for seed, name in (("1", "a"), ("2", "b")):
-            env = {**os.environ, "PYTHONHASHSEED": seed}
-            subprocess.run([sys.executable, str(script), str(WORKBOOK), str(self.tmp / name)],
-                           check=True, capture_output=True, env=env)
-        for f in (self.tmp / "a").iterdir():
-            self.assertEqual(f.read_bytes(), (self.tmp / "b" / f.name).read_bytes(), f.name)
+    def test_committed_output_is_fresh(self):
+        self.assertEqual(self.run_cli(SOURCE, self.tmp / "out").returncode, 0)
+        for path in sorted((self.tmp / "out").iterdir()):
+            committed = (REPO / "data" / "generated" / path.name).read_bytes().replace(b"\r\n", b"\n")
+            self.assertEqual(path.read_bytes(), committed, f"{path.name}: run pnpm stats:export")
 
-    def test_renamed_header_fails_loudly(self):
-        broken = self.tmp / "broken.xlsx"
-        wb = openpyxl.load_workbook(WORKBOOK)
-        wb["Race Stats"]["E4"] = "Win %"
-        wb.save(broken)
-        with self.assertRaises(ex.LayoutError) as ctx:
-            ex.export(broken, self.tmp / "out")
-        self.assertIn("overall", str(ctx.exception))
+    def test_missing_source_fails_loudly(self):
+        result = self.run_cli(self.tmp / "nope", self.tmp / "out")
+        self.assertEqual(result.returncode, 1)
+        self.assertIn(b"INPUT ERROR", result.stderr)
 
-    def test_missing_sheet_fails_loudly(self):
-        broken = self.tmp / "broken.xlsx"
-        wb = openpyxl.load_workbook(WORKBOOK)
-        del wb["ELO Ratings"]
-        wb.save(broken)
-        with self.assertRaises(ex.LayoutError):
-            ex.export(broken, self.tmp / "out")
-
-    def test_cli_strict_exits_nonzero_when_warnings(self):
-        code = ex.main([str(WORKBOOK), str(self.tmp / "out"), "--strict"])
-        warnings = json.loads((self.tmp / "out" / "validation.json").read_text(encoding="utf-8"))
-        self.assertEqual(code, 2 if warnings else 0)
+    def test_strict_fails_on_problems_and_overrides_are_applied(self):
+        src = self.tmp / "src"
+        shutil.copytree(SOURCE / "liquipedia", src / "liquipedia", ignore=shutil.ignore_patterns("*.wiki"))
+        (src / "overrides.json").write_text(json.dumps({"names": {"Queen": "Queen!"}, "races": {"Queen!": "Z"}}), encoding="utf-8")
+        self.assertEqual(self.run_cli(src, self.tmp / "ok", "--strict").returncode, 0)
+        players = {p["player"]: p for p in json.loads((self.tmp / "ok" / "players.json").read_text(encoding="utf-8"))}
+        self.assertEqual((players["Queen!"]["race"], players["Queen!"]["aliases"]), ("Z", ["Queen"]))
+        results = json.loads((src / "liquipedia" / "results.json").read_text(encoding="utf-8"))
+        results[4]["players"].pop()
+        (src / "liquipedia" / "results.json").write_text(json.dumps(results), encoding="utf-8")
+        self.assertEqual(self.run_cli(src, self.tmp / "bad", "--strict").returncode, 2)
+        self.assertEqual(self.run_cli(src, self.tmp / "bad").returncode, 0)
 
 
 if __name__ == "__main__":

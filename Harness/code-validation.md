@@ -47,10 +47,10 @@ All tests pass. New code requires new tests per `test-1` in `code-checklist.yml`
 
 ```bash
 pnpm stats:test
-# python -m unittest discover -s scripts/export-stats/tests -v
+# python -m unittest discover -s scripts/liquipedia/tests -v && ... -s scripts/export-stats/tests -v
 ```
 
-Required whenever `scripts/export-stats/` or `data/source/` changes.
+Required whenever `scripts/liquipedia/`, `scripts/export-stats/`, or `data/source/` changes.
 
 ### 6. Stats Freshness
 
@@ -58,8 +58,8 @@ Required whenever `scripts/export-stats/` or `data/source/` changes.
 pnpm stats:export && git diff --exit-code data/generated
 ```
 
-Generated JSON must match the committed workbook. A diff means someone edited the xlsx
-without re-exporting (or edited the JSON by hand). New validation warnings must be called
+Generated JSON must match the committed Liquipedia source. A diff means the source or an
+override changed without re-exporting (or someone edited the JSON by hand). New validation warnings must be called
 out in the PR description.
 
 ### 7. Ledger Concurrency Test *(after ledger service)*
@@ -103,7 +103,7 @@ change). PRs cannot merge with a failing pipeline. Local pre-commit hooks run st
 - [ ] `pnpm lint` — zero warnings
 - [ ] `pnpm format:check` — clean
 - [ ] `pnpm test` — all pass
-- [ ] `pnpm stats:test` — all pass (if exporter or workbook touched)
+- [ ] `pnpm stats:test` — all pass (if the stats scripts or `data/source/` were touched)
 - [ ] `data/generated/` matches a fresh export
 - [ ] Ledger concurrency test (if ledger or schema touched)
 - [ ] `pnpm test:e2e` — critical paths pass
