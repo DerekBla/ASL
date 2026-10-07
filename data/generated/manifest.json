@@ -13,7 +13,7 @@
     "k": 32,
     "start": 1500.0
   },
-  "schemaVersion": 2,
+  "schemaVersion": 3,
   "seasons": {
     "complete": 21,
     "count": 21

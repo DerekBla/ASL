@@ -3,13 +3,14 @@ import type { ReactElement } from "react";
 
 import {
   getEloForPlayer,
+  getManifest,
   getPlacementsForPlayer,
   getSeason,
   getSeriesForPlayer,
   getStatsForPlayer,
 } from "@/lib/services/stats";
 import type { Player } from "@/lib/services/stats";
-import { RACE_NAMES, RACES } from "@/lib/types/race";
+import { RACES } from "@/lib/types/race";
 import { formatElo, formatKrw, formatPercent, formatSeason } from "@/lib/utils/format";
 
 import { DataTable } from "@/components/DataTable";
@@ -17,6 +18,7 @@ import type { DataTableColumn, DataTableRow } from "@/components/DataTable";
 import { PlacementBadge } from "@/components/PlacementBadge";
 import { RaceBadge } from "@/components/RaceBadge";
 
+import { EloChart } from "./EloChart";
 import { PlayerLink } from "./PlayerLink";
 
 type Props = {
@@ -40,6 +42,7 @@ const OPPONENT_COLUMNS: DataTableColumn[] = [
 export function PlayerProfile({ player }: Props): ReactElement {
   const stats = getStatsForPlayer(player.player);
   const elo = getEloForPlayer(player.player);
+  const manifest = getManifest();
   const placements = getPlacementsForPlayer(player.player);
   const series = getSeriesForPlayer(player.player);
 
@@ -127,6 +130,17 @@ export function PlayerProfile({ player }: Props): ReactElement {
         </p>
       ) : null}
 
+      {elo ? (
+        <section aria-label="ELO history" className="rounded-lg border border-line p-4">
+          <EloChart
+            player={player.player}
+            history={elo.history}
+            lastSeason={manifest.seasons.count}
+            start={manifest.elo.start}
+          />
+        </section>
+      ) : null}
+
       <section aria-labelledby="timeline-heading" className="flex flex-col gap-3">
         <h2 id="timeline-heading">Season by season</h2>
         <DataTable
@@ -146,17 +160,22 @@ export function PlayerProfile({ player }: Props): ReactElement {
           in group and playoff series ({formatPercent(series.length ? wins / series.length : null)}
           ).
         </p>
-        <ul className="flex flex-wrap gap-4">
-          {vsRace.map((v) => (
-            <li key={v.race} className="flex items-center gap-2">
-              <span>vs</span>
-              <RaceBadge race={v.race} display="name" />
-              <span className="tabular-nums">
-                {v.wins}–{v.losses}
-              </span>
-              <span className="sr-only">against {RACE_NAMES[v.race]}</span>
-            </li>
-          ))}
+        <ul className="flex flex-wrap gap-x-6 gap-y-2" aria-label="Series record by opponent race">
+          {vsRace.map((v) => {
+            const played = v.wins + v.losses;
+            return (
+              <li key={v.race} className="flex items-center gap-2">
+                <span>vs</span>
+                <RaceBadge race={v.race} display="name" />
+                <span className="tabular-nums">
+                  {v.wins}–{v.losses}
+                </span>
+                <span className="text-ink-muted tabular-nums">
+                  {played > 0 ? formatPercent(v.wins / played) : "no series"}
+                </span>
+              </li>
+            );
+          })}
         </ul>
         {opponentRows.length > 0 ? (
           <DataTable

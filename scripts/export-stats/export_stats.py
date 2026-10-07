@@ -23,7 +23,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
-SCHEMA_VERSION = 2
+SCHEMA_VERSION = 3  # 3: elo.json rows carry a per-season history
 RACES = ("T", "Z", "P")
 ELO_START, ELO_K = 1500.0, 32
 # Validation codes that mean the output may be wrong (fail under --strict).
@@ -64,6 +64,13 @@ def ratio(wins: int, losses: int) -> float | None:
 
 
 def compute_elo(tiers_by_season: list[dict[str, int]]) -> tuple[dict[str, float], dict[str, tuple[float, int]]]:
+    rating, peak, _ = compute_elo_history(tiers_by_season)
+    return rating, peak
+
+
+def compute_elo_history(
+    tiers_by_season: list[dict[str, int]],
+) -> tuple[dict[str, float], dict[str, tuple[float, int]], dict[str, list[tuple[int, float]]]]:
     """Placement-based ELO. Start 1500, K=32.
 
     tiers_by_season[i] maps player -> best rank of their placement tier in season i+1.
@@ -73,6 +80,7 @@ def compute_elo(tiers_by_season: list[dict[str, int]]) -> tuple[dict[str, float]
     """
     rating: dict[str, float] = defaultdict(lambda: ELO_START)
     peak: dict[str, tuple[float, int]] = {}
+    history: dict[str, list[tuple[int, float]]] = defaultdict(list)
     for i, tiers in enumerate(tiers_by_season):
         part = sorted(tiers, key=lambda n: (tiers[n], *name_key(n)))
         for a, b in itertools.combinations(part, 2):
@@ -84,7 +92,8 @@ def compute_elo(tiers_by_season: list[dict[str, int]]) -> tuple[dict[str, float]
         for n in part:
             if n not in peak or rating[n] > peak[n][0]:
                 peak[n] = (rating[n], i + 1)
-    return dict(rating), peak
+            history[n].append((i + 1, rating[n]))
+    return dict(rating), peak, dict(history)
 
 
 # --------------------------------------------------------------------------- build
@@ -180,7 +189,7 @@ def build(source_dir: Path) -> dict[str, Any]:
         m["winnerRace"], m["loserRace"] = race_of.get(m["winner"]), race_of.get(m["loser"])
 
     # ---- career stats and ELO
-    rating, peak = compute_elo(tiers_by_season)
+    rating, peak, history = compute_elo_history(tiers_by_season)
     champs = Counter(s["winner"] for s in seasons if s["winner"])
     by_player: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for r in placements:
@@ -201,7 +210,8 @@ def build(source_dir: Path) -> dict[str, Any]:
     stats.sort(key=lambda r: (-r["currentElo"], *name_key(r["player"])))
     elo = [{"rank": i + 1, "player": r["player"], "race": r["race"], "currentElo": r["currentElo"],
             "peakElo": round(peak[r["player"]][0], 1), "peakSeason": peak[r["player"]][1],
-            "seasons": r["seasons"], "championships": r["championships"]} for i, r in enumerate(stats)]
+            "seasons": r["seasons"], "championships": r["championships"],
+            "history": [{"season": n, "elo": round(v, 1)} for n, v in history[r["player"]]]} for i, r in enumerate(stats)]
 
     aliases: dict[str, list[str]] = defaultdict(list)
     for canonical, others in identities.items():

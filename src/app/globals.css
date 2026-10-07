@@ -53,6 +53,7 @@
   --ink-muted: #566072;
   --line: #d9dee7;
   --accent: #2b5fa8;
+  --chart-line: #2b5fa8;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -63,6 +64,7 @@
     --ink-muted: #a3acbb;
     --line: #2c3340;
     --accent: #8db8f0;
+    --chart-line: #4f8fe8;
   }
 }
 
@@ -73,6 +75,8 @@
   --color-ink-muted: var(--ink-muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  /* Single-series chart line, validated with the dataviz checks on both surfaces. */
+  --color-chart-line: var(--chart-line);
 }
 
 @layer base {

@@ -46,6 +46,13 @@ class EloTests(unittest.TestCase):
         rating, _ = ex.compute_elo([{"A": 5, "B": 5}])
         self.assertEqual(rating, {"A": ex.ELO_START, "B": ex.ELO_START})
 
+    def test_history_has_one_point_per_season_played(self):
+        rating, peak, history = ex.compute_elo_history([{"A": 1, "B": 2}, {"B": 1, "C": 2}, {"A": 1, "C": 2}])
+        self.assertEqual([n for n, _ in history["A"]], [1, 3])
+        self.assertEqual([n for n, _ in history["B"]], [1, 2])
+        self.assertEqual(history["A"][-1][1], rating["A"])
+        self.assertEqual(max(history["B"], key=lambda x: x[1]), (peak["B"][1], peak["B"][0]))
+
     def test_absent_players_keep_their_rating(self):
         rating, peak = ex.compute_elo([{"A": 1, "B": 2}, {"B": 1, "C": 2}])
         first, _ = ex.compute_elo([{"A": 1, "B": 2}])
@@ -97,6 +104,15 @@ class BuildTests(unittest.TestCase):
             self.assertNotIn(alias, race)
         self.assertEqual({n: race[n] for n in ("sSak", "Ample", "Speed", "Shine", "tulbo", "Jaedong")},
                          {"sSak": "T", "Ample": "T", "Speed": "T", "Shine": "Z", "tulbo": "P", "Jaedong": "Z"})
+
+    def test_elo_history_matches_current_and_peak(self):
+        seasons = {(r["player"], r["season"]) for r in self.data["placements.json"]}
+        for row in self.data["elo.json"]:
+            points = row["history"]
+            self.assertEqual(len(points), row["seasons"], row["player"])
+            self.assertTrue(all((row["player"], p["season"]) in seasons for p in points), row["player"])
+            self.assertAlmostEqual(points[-1]["elo"], row["currentElo"], places=1)
+            self.assertAlmostEqual(max(p["elo"] for p in points), row["peakElo"], places=1)
 
     def test_career_stats_agree_with_seasons(self):
         champs = Counter(s["winner"] for s in self.data["seasons.json"])

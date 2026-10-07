@@ -71,6 +71,15 @@ describe("/players/[slug]", () => {
     expect(screen.getByRole("heading", { name: "Series record" })).toBeInTheDocument();
   });
 
+  it("shows win rates by opponent race and an ELO chart", async () => {
+    render(await PlayerPage({ params: Promise.resolve({ slug: "flash" }) }));
+    const byRace = screen.getByRole("list", { name: "Series record by opponent race" });
+    const items = within(byRace).getAllByRole("listitem");
+    expect(items).toHaveLength(3);
+    for (const item of items) expect(item.textContent).toMatch(/\d+–\d+\d+\.\d%|no series/);
+    expect(screen.getByRole("img", { name: /Flash's ELO after each of/ })).toBeInTheDocument();
+  });
+
   it("lists the other spellings of a merged player", async () => {
     render(await PlayerPage({ params: Promise.resolve({ slug: "tulbo" }) }));
     expect(screen.getByText(/Also written as/)).toHaveTextContent("huro");

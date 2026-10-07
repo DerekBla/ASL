@@ -48,7 +48,7 @@ describe("parseStats", () => {
     const raw = rawStats();
     (raw.manifest as Record<string, unknown>).schemaVersion = SUPPORTED_SCHEMA_VERSION + 1;
     expect(() => parseStats(raw)).toThrow(StatsDataError);
-    expect(() => parseStats(raw)).toThrow(/schema version 3.*supports only 2/);
+    expect(() => parseStats(raw)).toThrow(/schema version 4.*supports only 3/);
   });
 
   it("refuses a manifest with no schema version", () => {

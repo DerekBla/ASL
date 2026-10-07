@@ -1,6 +1,6 @@
 # Foundation Spec: Stats Data Contract
 
-**Status**: implemented (export and TypeScript loader, schema version 2)
+**Status**: implemented (export and TypeScript loader, schema version 3)
 **Last updated**: 2026-10-07
 **Producer**: `scripts/export-stats/export_stats.py` (see `Docs/tooling-specs/export-stats.md`)
 **Consumer**: `src/lib/services/stats/` — `schemas.ts` mirrors this file with strict Zod objects, so a field
@@ -71,7 +71,8 @@ type Series = { season: number; stage: "ro24" | "ro16" | "playoffs";
   score: string | null };        // playoffs only, e.g. "3-1"
 
 type EloRow = { rank: number; player: string; race: Race | null; currentElo: number;
-  peakElo: number; peakSeason: number; seasons: number; championships: number };
+  peakElo: number; peakSeason: number; seasons: number; championships: number;
+  history: { season: number; elo: number }[] };   // after each season entered, oldest first (v3)
 
 type PlayerStats = { player: string; race: Race | null; seasons: number;
   bestFinish: PlacementValue; championships: number; finals: number;

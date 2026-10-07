@@ -9,7 +9,7 @@ import { z } from "zod";
 import { RACES } from "@/lib/types/race";
 
 /** The only manifest.schemaVersion this loader understands. */
-export const SUPPORTED_SCHEMA_VERSION = 2;
+export const SUPPORTED_SCHEMA_VERSION = 3;
 
 const raceSchema = z.enum(RACES);
 const nullableRace = raceSchema.nullable();
@@ -77,6 +77,8 @@ export const eloRowSchema = z.strictObject({
   peakSeason: seasonNumber,
   seasons: count,
   championships: count,
+  /** Rating after each season the player entered, oldest first. */
+  history: z.array(z.strictObject({ season: seasonNumber, elo: z.number() })),
 });
 
 export const playerStatsSchema = z.strictObject({
