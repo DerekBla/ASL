@@ -13,7 +13,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Project scaffold | Next.js 15 + pnpm into the existing repo; keep `src/lib/market/` and `scripts/export-stats/` as-is |
+| approved | Project scaffold | Next.js 15 + pnpm into the existing repo; keep `src/lib/market/` and `scripts/export-stats/` as-is <!-- updated: 2026-10-07 --> |
 | draft | CI pipeline | GitHub Actions: typecheck → lint → test → stats:test → stats freshness → build |
 | draft | Tailwind v4 setup + design tokens | Race colors from CLAUDE.md Domain Rules as tokens; type scale; dark mode |
 | draft | Shared types + error model | `Result<T,E>`, `ActionResult`, branded IDs (`MarketId`, `UserId`), error codes incl. ledger errors |
@@ -35,7 +35,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Resolve exporter validation warnings | 14 warnings on first export (identity case variants, Jaedong race in tracker, Best prize = 4, Snow vs SnOw in Season Overview, S21 tracker vs placements). Derek decides each; fixes go in the xlsx |
+| draft | Resolve exporter validation warnings | 14 warnings on first export (identity case variants, Jaedong race in tracker, Best prize = 4, Snow vs SnOw in Season Overview, S21 tracker vs placements). Derek decides each; fixes go in the xlsx. Triage: `Docs/reports/2026-10-07-stats-validation.md` <!-- updated: 2026-10-07 --> |
 | draft | S21 final results | Workbook still shows S21 in progress (tracker last updated 2026-04-26; season end date 2026-05-24) |
 | draft | Player identity map | `data/player-aliases.json`: confirmed alias → canonical player. Exporter applies it and reports unmapped variants |
 | draft | Compute derived stats in the pipeline | Recompute ELO, career stats, and race stats from placements in code so corrections propagate; diff against workbook values before switching over |
