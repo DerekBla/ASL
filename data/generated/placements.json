@@ -1,0 +1,6294 @@
+[
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "1127",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "815",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Action",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Ample",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BTS",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BTS",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": null,
+      "label": "In progress",
+      "status": "in_progress",
+      "worst": null
+    },
+    "player": "BarrackS",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "BeSt",
+    "race": "P",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Best",
+    "race": "P",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BishOp",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "BishOp",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": null,
+      "label": "In progress",
+      "status": "in_progress",
+      "worst": null
+    },
+    "player": "Bisu",
+    "race": "P",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ByuL",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "ByuL",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "ByuL",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "ByuL",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Byun",
+    "race": "P",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Calm",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Calm",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Calm",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Calm",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Calm",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Calm",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "DDasik",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "EffOrt",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Effort",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": null,
+      "label": "In progress",
+      "status": "in_progress",
+      "worst": null
+    },
+    "player": "Flash",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ForGG",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Force",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "GuemChi",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Hint",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "HiyA",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "HiyA",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "HiyA",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Horang2",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "HyuN",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "HyuN",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "HyuN",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "HyuN",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Hyuk",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Hyuk",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Hyun",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Iris",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": null,
+      "label": "In progress",
+      "status": "in_progress",
+      "worst": null
+    },
+    "player": "Jaedong",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Jaehoon",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Jaehoon",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Jaehoon",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Jo Il-jang",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Jo Il-jang",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "JyJ",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Khala",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Killer",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Killer",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Killer",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Killer",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Killer",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Killer",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Kim Myung-woon",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Larva",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Last",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Lazy",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Lazy",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Leta",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Leta",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Light",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "MIsO",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "MIsO",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "MIsO",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "MIsO",
+    "race": "P",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mind",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mini",
+    "race": "P",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Modesty",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Motive",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Movie",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Movie",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Movie",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Movie",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Movie",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "NaDa",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "PURPOSE",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Paralyze",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "PianO",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "PianO",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "PianO",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "PianO",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "PianO",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Pusan",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Queen",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Queen",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Rain",
+    "race": "P",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "RoyaL",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Ruin",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Ruin",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Ruin",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ruin",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Rush",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Saber",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sacsri",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Scan",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Scan",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Scan",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sea",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Sharp",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shine",
+    "race": "T",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Shuttle",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Skey",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sky",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": null,
+      "label": "In progress",
+      "status": "in_progress",
+      "worst": null
+    },
+    "player": "SnOw",
+    "race": "P",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Sorry",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Soulkey",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Speed",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Speed",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Speed",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Speed",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Speed",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Ss1nz",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Ss1nz",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Ss1nz",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Stork",
+    "race": "P",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "TY",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "TY",
+    "race": "T",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "TaeNgGu",
+    "race": "T",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Terror",
+    "race": "T",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Tinkle",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Tyson",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Tyson",
+    "race": "T",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Tyson",
+    "race": "T",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Tyson",
+    "race": "T",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Where",
+    "race": "T",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Where",
+    "race": "T",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "ZeLoT",
+    "race": "P",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "ZeLoT",
+    "race": "P",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "ZeLoT",
+    "race": "P",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "ZeLoT",
+    "race": "P",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ZerO",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "beast",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "beast",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "beast",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "beast",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "effOrt",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "firebathero",
+    "race": "T",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "firebathero",
+    "race": "T",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "free",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "ggaemo",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ggaemo",
+    "race": "Z",
+    "season": 7
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "ggaemo",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "ggaemo",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "ggaemo",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 2
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "hero",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "huro",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "huro",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "huro",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "ivOry",
+    "race": "P",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "nOOB",
+    "race": "T",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "nOOB",
+    "race": "T",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "nOOB",
+    "race": "T",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 1
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 3
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 4
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 5
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 6
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 17
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 19
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "sSak",
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 8
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 9
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 10
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 11
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 12
+  },
+  {
+    "placement": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 13
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 14
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 15
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 20
+  },
+  {
+    "placement": {
+      "best": null,
+      "label": "In progress",
+      "status": "in_progress",
+      "worst": null
+    },
+    "player": "soma",
+    "race": "Z",
+    "season": 21
+  }
+]

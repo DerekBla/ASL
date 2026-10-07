@@ -1,0 +1,20 @@
+{
+  "name": "asl-markets-web",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Fan-made, play-money prediction market and stats site for the ASL (StarCraft: Brood War)",
+  "type": "module",
+  "packageManager": "pnpm@10.18.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "stats:export": "python scripts/export-stats/export_stats.py data/source/ASL_Complete_S1_S21.xlsx data/generated",
+    "stats:test": "python -m unittest discover -s scripts/export-stats/tests -v"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}

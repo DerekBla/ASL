@@ -1,0 +1,31 @@
+{
+  "counts": {
+    "elo": 90,
+    "liveTracker": 26,
+    "placements": 572,
+    "playerStats": 90,
+    "players": 90,
+    "raceStats.championshipsByEra": 4,
+    "raceStats.finalsBySeason": 20,
+    "raceStats.grandFinalsByMatchup": 6,
+    "raceStats.matchupsAllStages": 3,
+    "raceStats.matchupsAllStagesMirror": 3,
+    "raceStats.matrixAllStages": 3,
+    "raceStats.overall": 3,
+    "raceStats.participantsBySeason": 20,
+    "raceStats.playoffMatrixS13toS20": 3,
+    "raceStats.playoffSeriesS13toS20": 6,
+    "seasons": 21
+  },
+  "ignoredSheets": [],
+  "schemaVersion": 1,
+  "seasons": {
+    "complete": 20,
+    "count": 21
+  },
+  "source": {
+    "file": "ASL_Complete_S1_S21.xlsx",
+    "sha256": "37524c86dfe0277e8e25333afc6610151b60dffb468a585b5c3c7dce89236e0d"
+  },
+  "warnings": 14
+}

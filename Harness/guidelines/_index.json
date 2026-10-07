@@ -1,0 +1,33 @@
+[
+  {
+    "_comment": "Schema: { file, purpose, readWhen }. Agents read this index first and open only the files whose readWhen matches their current task. Keep readWhen specific — vague triggers defeat the purpose of the index.",
+    "file": "components.md",
+    "purpose": "Canonical rules for authoring React components in Next.js 15 App Router: RSC vs client boundary, composition, prop contracts, co-location, accessibility, and race/placement/price display rules.",
+    "readWhen": "Adding or modifying any React component (RSC or client), deciding where to place 'use client', rendering races, placements, or prices, or reviewing a component for architectural compliance."
+  },
+  {
+    "file": "state.md",
+    "purpose": "Zustand store patterns: slice structure, devtools wrapping, persist middleware, selector discipline, and the hard rule that server data (especially balances and prices) must not live in stores.",
+    "readWhen": "Adding a Zustand store or slice, reading or writing client UI state (e.g. the trade panel), or debugging stale state across route navigations."
+  },
+  {
+    "file": "data-fetching.md",
+    "purpose": "Where data comes from (static stats JSON vs Postgres), TanStack Query v5 patterns, RSC prefetch with HydrationBoundary, live price polling, credit-moving Server Actions, and why money UI is never optimistic.",
+    "readWhen": "Fetching remote data on server or client, writing a Server Action, setting up prefetch/hydration for a new route, polling prices, or handling loading and error states."
+  },
+  {
+    "file": "ledger-writes.md",
+    "purpose": "How to write code inside lib/services/ledger: transaction shape, lock order, numeric conversions, rounding, typed rejections, retry on serialization failure, and required tests.",
+    "readWhen": "Implementing or changing executeTrade, resolveMarket, voidMarket, grantCredits, or any code that writes credits, shares, or q."
+  },
+  {
+    "file": "stats-pipeline.md",
+    "purpose": "How the xlsx becomes data/generated/*.json, what agents may and may not change, handling LAYOUT ERRORs, adding tables, and new-season procedure.",
+    "readWhen": "Running or changing the exporter, triaging validation warnings, adding a stats table, or when the workbook layout changes."
+  },
+  {
+    "file": "testing.md",
+    "purpose": "Test patterns for Vitest + Testing Library, Playwright, ledger tests (PGlite and real Postgres), and the Python exporter: what to test at each layer, mocking strategy, and coverage rules.",
+    "readWhen": "Writing or reviewing tests for any layer, setting up a new test file, or deciding which test type is appropriate for a given scenario."
+  }
+]

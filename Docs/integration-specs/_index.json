@@ -1,0 +1,13 @@
+[
+  {
+    "_comment": "Schema: { file, purpose, readWhen }. Integration specs describe concrete third-party SDK and API implementations. Each spec includes: SDK version pinned, authentication method, error-to-internal-code mapping, rate limit notes, and a working code example in the service layer. Always check Docs/integration-specs/references/ for lookup catalogs before writing SDK calls. Adding a new integration requires a spec here before any service code is written.",
+    "file": "neon-drizzle.md",
+    "purpose": "Neon Postgres + Drizzle: the two drivers (WebSocket Pool for transactions, HTTP for reads), schema and migration workflow, numeric handling, and Postgres error-code mapping.",
+    "readWhen": "Creating lib/db, writing any query or migration, choosing a driver, or handling a database error."
+  },
+  {
+    "file": "clerk.md",
+    "purpose": "Clerk auth: Discord + Google only, middleware protection, lazy user/account provisioning with idempotent signup grant, and admin checks against Postgres.",
+    "readWhen": "Implementing sign-in, protecting a route or Server Action, provisioning users, or checking admin rights."
+  }
+]

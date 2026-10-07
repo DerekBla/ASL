@@ -1,0 +1,18 @@
+[
+  {
+    "_comment": "Schema: { file, purpose, readWhen }. Foundation specs define core protocols, shared types, and infra systems. Read before implementing anything that crosses module boundaries or touches shared infrastructure. These are high-stability specs — changes require human approval.",
+    "file": "ledger.md",
+    "purpose": "Credit ledger: invariants, reference SQL schema, transaction protocol for trade / resolve / void / grant, lock ordering, idempotency, and the required concurrency test.",
+    "readWhen": "Touching any table that holds credits, shares, or market state; writing a Server Action that moves credits; implementing resolution or refunds; writing Drizzle schema or migrations."
+  },
+  {
+    "file": "market-engine.md",
+    "purpose": "LMSR pricing math, the public API of src/lib/market/lmsr.ts, rounding rules, and how ELO-derived priors are built.",
+    "readWhen": "Displaying prices or quotes, creating a market (choosing b and priors), or changing anything in src/lib/market/."
+  },
+  {
+    "file": "stats-data.md",
+    "purpose": "Contract for data/generated/*.json: files, TypeScript shapes, units, scope notes (S1–S20 vs S1–S21), and versioning rules.",
+    "readWhen": "Building any stats page, writing the stats loader or its Zod schemas, linking markets to players or seasons, or changing the exporter output."
+  }
+]

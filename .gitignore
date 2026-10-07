@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+# Excel lock/temp files
+~$*.xlsx
+.~lock.*

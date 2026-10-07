@@ -1,0 +1,165 @@
+# Code Review Checklist — AslMarkets.Web
+# Agents verify these rules before marking a task complete.
+# Humans verify these rules during PR review.
+# Add an item when a bug class recurs more than once.
+
+version: "1"
+
+categories:
+
+  money:
+    - id: money-1
+      rule: "Play money only. No feature, endpoint, copy, or schema that lets credits be bought, sold, cashed out, transferred between users, or exchanged for anything of value."
+      severity: blocking
+    - id: money-2
+      rule: "Every write to accounts, positions, trades, ledger_entries, or market_outcomes.q goes through lib/services/ledger inside one database transaction."
+      severity: blocking
+    - id: money-3
+      rule: "Quotes are recomputed server-side from the locked q vector. Client-sent prices or costs are only used as slippage bounds."
+      severity: blocking
+    - id: money-4
+      rule: "LMSR math is imported from src/lib/market/lmsr.ts. No re-implemented cost or price formulas anywhere else."
+      severity: blocking
+    - id: money-5
+      rule: "Trades carry an idempotency key; replaying a request cannot trade twice."
+      severity: blocking
+    - id: money-6
+      rule: "Market close time is checked against the database clock inside the transaction."
+      severity: blocking
+    - id: money-7
+      rule: "Rounding: buys round cost up, sells and payouts round down (roundCostUp / roundProceedsDown)."
+      severity: blocking
+    - id: money-8
+      rule: "No optimistic UI updates for balances, positions, or prices."
+      severity: warning
+
+  data:
+    - id: data-1
+      rule: "The app never reads the xlsx at runtime. Stats come from data/generated/ through lib/services/stats with Zod validation."
+      severity: blocking
+    - id: data-2
+      rule: "data/generated/ is never hand-edited, and is committed together with the xlsx change that produced it."
+      severity: blocking
+    - id: data-3
+      rule: "Player identities are never merged without an entry Derek approved (alias map)."
+      severity: blocking
+    - id: data-4
+      rule: "Race colors come from design tokens; pale for player/data cells, dark for section headers only."
+      severity: warning
+    - id: data-5
+      rule: "Placement labels use an en-dash (9th–12th); prize money is labeled KRW with USD marked approximate."
+      severity: warning
+    - id: data-6
+      rule: "No ASL/SOOP/AfreecaTV logos or trade dress; the fan-project disclaimer is present in the footer."
+      severity: blocking
+
+  architecture:
+    - id: arch-1
+      rule: "No cross-feature imports. features/* must not import from sibling features/*."
+      severity: blocking
+    - id: arch-2
+      rule: "Shared UI components (components/*) contain no data-fetching, no store access, no Server Actions."
+      severity: blocking
+    - id: arch-3
+      rule: "Every layer crossing uses a typed interface. No concrete implementation leaks upward."
+      severity: blocking
+    - id: arch-4
+      rule: "Server data (TanStack Query) is not duplicated into Zustand stores."
+      severity: blocking
+    - id: arch-5
+      rule: "'use client' appears only at the lowest possible leaf component, not on pages or layouts."
+      severity: warning
+    - id: arch-6
+      rule: "lib/market/ stays pure: no I/O, no clock, no randomness, no DB types."
+      severity: blocking
+
+  typescript:
+    - id: ts-1
+      rule: "No `any`. Disable-comments include a justification on the same line."
+      severity: blocking
+    - id: ts-2
+      rule: "All exported functions have explicit return types."
+      severity: warning
+    - id: ts-3
+      rule: "External data (API responses, form input, env vars, generated JSON) is validated with Zod before entering the type system."
+      severity: blocking
+    - id: ts-4
+      rule: "Error shapes use discriminated unions ({ data } | { error }), not thrown exceptions crossing layer boundaries."
+      severity: blocking
+    - id: ts-5
+      rule: "Entity IDs use branded types; plain `string` / `bigint` is not acceptable as an ID parameter."
+      severity: warning
+
+  components:
+    - id: comp-1
+      rule: "No prop drilling deeper than 2 levels. Introduce context or restructure the component tree."
+      severity: warning
+    - id: comp-2
+      rule: "Every interactive element is keyboard-accessible. Icon-only buttons have aria-label."
+      severity: blocking
+    - id: comp-3
+      rule: "No raw <img> tags. Use next/image."
+      severity: warning
+    - id: comp-4
+      rule: "Every async boundary has a Skeleton component, not a bare spinner."
+      severity: warning
+    - id: comp-5
+      rule: "No inline style={{}} except for truly dynamic values that cannot be Tailwind utilities."
+      severity: info
+    - id: comp-6
+      rule: "Race and price information is never conveyed by color alone (race letter or name and a % value are always shown)."
+      severity: blocking
+
+  testing:
+    - id: test-1
+      rule: "New features include at least one integration test (Testing Library) covering the happy path."
+      severity: blocking
+    - id: test-2
+      rule: "Tests assert behavior from the user's perspective, not DOM implementation details. No markup snapshots."
+      severity: warning
+    - id: test-3
+      rule: "Mocks are scoped to the test file. No global mock state leaks between tests."
+      severity: blocking
+    - id: test-4
+      rule: "Test factories in src/test/factories/ are used for test data. No inline object literals for domain types."
+      severity: info
+    - id: test-5
+      rule: "E2E tests cover critical user journeys only. Unit tests cover edge cases and pure logic."
+      severity: info
+    - id: test-6
+      rule: "Ledger changes include rejection-path, idempotency, and invariant tests; lock-order changes re-run the concurrency test."
+      severity: blocking
+
+  security:
+    - id: sec-1
+      rule: "No secrets or private env vars in client bundles. Use NEXT_PUBLIC_ prefix only for truly public values."
+      severity: blocking
+    - id: sec-2
+      rule: "All Server Actions validate input with Zod at the top of the function before any business logic."
+      severity: blocking
+    - id: sec-3
+      rule: "No dangerouslySetInnerHTML without explicit sanitization. Document the sanitizer used."
+      severity: blocking
+    - id: sec-4
+      rule: "Authentication is checked server-side in every Server Action and protected route segment."
+      severity: blocking
+    - id: sec-5
+      rule: "Admin actions (create, close, resolve, void) check users.is_admin server-side, and every resolution records who resolved it and why."
+      severity: blocking
+    - id: sec-6
+      rule: "Trade and signup endpoints are rate-limited per user."
+      severity: warning
+
+  performance:
+    - id: perf-1
+      rule: "Dynamic imports (next/dynamic) used for components >50 KB that are not on the critical render path (e.g. charts)."
+      severity: info
+    - id: perf-2
+      rule: "No synchronous expensive operations in render paths. Defer with useTransition or Suspense."
+      severity: warning
+    - id: perf-3
+      rule: "TanStack Query staleTime is set explicitly; polling stops when a market is not open."
+      severity: info
+    - id: perf-4
+      rule: "Stats pages are statically generated (generateStaticParams), not rendered per request."
+      severity: warning

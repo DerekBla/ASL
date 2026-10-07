@@ -1,0 +1,187 @@
+{
+  "lastUpdatedNote": "Last Updated: April 26, 2026. Ro16 group stage in progress. Update after each broadcast week.",
+  "rows": [
+    {
+      "notes": "Legendary return competing in Ro16 Group C",
+      "player": "Flash",
+      "prizeKrw": null,
+      "race": "T",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Dominated Ro16 Group C",
+      "player": "Jaedong",
+      "prizeKrw": null,
+      "race": "T",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Defending champion S20 Ro16 seed",
+      "player": "soma",
+      "prizeKrw": null,
+      "race": "Z",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "S20 runner-up Ro16 seed, won Group B",
+      "player": "SnOw",
+      "prizeKrw": null,
+      "race": "P",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Ro16 seed",
+      "player": "Bisu",
+      "prizeKrw": null,
+      "race": "P",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Ro16 seed",
+      "player": "BarrackS",
+      "prizeKrw": null,
+      "race": "T",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Advanced from Ro24 Group C",
+      "player": "herO",
+      "prizeKrw": null,
+      "race": "Z",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Advance from Ro24 Group C",
+      "player": "Yoon Soo-chul",
+      "prizeKrw": null,
+      "race": "Z",
+      "status": "Ro16 (In Progress)"
+    },
+    {
+      "notes": "Eliminated Ro24 Group A lost to sSak",
+      "player": "sSak",
+      "prizeKrw": 1500000,
+      "race": "Z",
+      "status": "9th–12th"
+    },
+    {
+      "notes": "Eliminated Ro24 Group B",
+      "player": "Rain",
+      "prizeKrw": 1500000,
+      "race": "P",
+      "status": "9th–12th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "RoyaL",
+      "prizeKrw": 1500000,
+      "race": "T",
+      "status": "9th–12th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Sharp",
+      "prizeKrw": 1500000,
+      "race": "T",
+      "status": "13th–16th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "PianO",
+      "prizeKrw": 1500000,
+      "race": "T",
+      "status": "13th–16th"
+    },
+    {
+      "notes": "Eliminated Ro24 beat Soulkey",
+      "player": "Ample",
+      "prizeKrw": 1500000,
+      "race": "Z",
+      "status": "13th–16th"
+    },
+    {
+      "notes": "3-peat champion shocking Ro24 exit",
+      "player": "Soulkey",
+      "prizeKrw": 1000000,
+      "race": "Z",
+      "status": "17th–22nd"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Scan",
+      "prizeKrw": 1000000,
+      "race": "T",
+      "status": "17th–22nd"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Shine",
+      "prizeKrw": 1000000,
+      "race": "T",
+      "status": "17th–22nd"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Mind",
+      "prizeKrw": 1000000,
+      "race": "T",
+      "status": "17th–22nd"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Speed",
+      "prizeKrw": 1000000,
+      "race": "Z",
+      "status": "17th–22nd"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "ZerO",
+      "prizeKrw": 1000000,
+      "race": "Z",
+      "status": "17th–22nd"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Mong",
+      "prizeKrw": 1000000,
+      "race": "T",
+      "status": "23rd–28th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "JyJ",
+      "prizeKrw": 1000000,
+      "race": "T",
+      "status": "23rd–28th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Larva",
+      "prizeKrw": 1000000,
+      "race": "Z",
+      "status": "23rd–28th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Calm",
+      "prizeKrw": 1000000,
+      "race": "Z",
+      "status": "23rd–28th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Rush",
+      "prizeKrw": 1000000,
+      "race": "T",
+      "status": "23rd–28th"
+    },
+    {
+      "notes": "Eliminated Ro24",
+      "player": "Best",
+      "prizeKrw": 1000000,
+      "race": "P",
+      "status": "23rd–28th"
+    }
+  ]
+}

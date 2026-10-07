@@ -1,0 +1,28 @@
+[
+  {
+    "_comment": "Schema: { file, purpose, readWhen }. The component catalog tracks every shared component in components/. Agents MUST check here before building a new component — if a variant already exists, extend it rather than creating a parallel implementation. When a new shared component is added, add an entry here and create the spec file at Docs/components/<slug>.md. Entries below are planned (ROADMAP: Design → Component library baseline); none are built yet.",
+    "file": "button.md",
+    "purpose": "Primary interaction trigger. Variants: primary, secondary, destructive, ghost. Sizes: sm, md, lg. States: default, hover, focus, disabled, loading (spinner + aria-busy). All variants are keyboard-accessible and meet WCAG AA contrast.",
+    "readWhen": "Rendering any clickable action trigger, or before building a new button-like element — check if an existing variant covers the need before creating a new component."
+  },
+  {
+    "file": "race-badge.md",
+    "purpose": "Shows a race as a letter chip (T/Z/P) or full name, using the race color tokens: pale background for data cells, dark only in headers. Always includes text, never color alone.",
+    "readWhen": "Displaying a player's race anywhere, or coloring a row or cell by race."
+  },
+  {
+    "file": "placement-badge.md",
+    "purpose": "Renders an exported PlacementValue (1st, 2nd, 3rd, 4th, ranges like 9th–12th, In progress) with tiered emphasis for champion, finalist, and playoff placements.",
+    "readWhen": "Showing a season placement or best finish in tables, timelines, or player headers."
+  },
+  {
+    "file": "data-table.md",
+    "purpose": "Sortable, sticky-header table for stats pages. Columns declared with accessor, header, align, and optional sort comparator. Renders on the server; sort is the only client island.",
+    "readWhen": "Rendering any stats table (placements, ELO, race stats) or a leaderboard."
+  },
+  {
+    "file": "price-chip.md",
+    "purpose": "Displays an outcome price as a percentage with an optional up/down delta since a reference time. Text carries the direction (▲/▼ plus number), not just color.",
+    "readWhen": "Showing a market or outcome price, or a price change, anywhere in the UI."
+  }
+]

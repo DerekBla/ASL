@@ -1,0 +1,147 @@
+# AslMarkets.Web
+
+
+## Key thoughts
+A fan-made site for the ASL (StarCraft: Brood War league, S1–S21+) with two halves:
+
+1. **Stats** — publishes Derek's historical database (`data/source/ASL_Complete_S1_S21.xlsx`):
+   seasons, player placements, ELO, career stats, race matchup stats.
+2. **Markets** — a for-fun, Kalshi-style prediction market on ASL outcomes (match winners,
+   season champion, props), priced by an LMSR automated market maker, using **play-money
+   credits only**.
+
+Build the stats half first; it is useful on its own and gives markets something to link to.
+
+## Locked-In Decisions
+
+These choices are firm and non-negotiable. Do not propose alternatives without a
+compelling, evidence-backed reason. Any change requires explicit human approval
+and a ROADMAP entry before work begins.
+
+| Concern | Decision |
+|---|---|
+| Money | **Play-money credits only.** No deposits, purchases, cash-out, transfers between users, or prizes of monetary value. Never build or scaffold anything that converts credits to or from real value. |
+| Framework | Next.js 15 App Router + TypeScript — RSC-first, file-based routing |
+| Language | TypeScript strict mode — `noUncheckedIndexedAccess`, `exactOptionalPropertyTypes` |
+| Package manager | pnpm — workspace-aware, strict hoisting off |
+| Styling | Tailwind CSS v4 — utility-first, no CSS-in-JS |
+| Server state | TanStack Query v5 — all remote data lives here |
+| Client state | Zustand v5 — UI-only ephemeral state; no server data in stores |
+| Database | Neon Postgres + Drizzle ORM — `neon-serverless` (WebSocket) driver for anything that needs a transaction |
+| Ledger | Every credit movement is one Postgres transaction through `lib/services/ledger` — see `Docs/foundation-specs/ledger.md` |
+| Pricing | LMSR. `src/lib/market/lmsr.ts` is the only pricing implementation — never re-derive formulas in SQL, actions, or client code |
+| Stats data | Static JSON in `data/generated/`, produced by `scripts/export-stats/` from the xlsx. The app never reads the xlsx at runtime |
+| Auth | Clerk — Discord + Google OAuth only; no email/password |
+| Testing | Vitest + Testing Library (unit/integration) + Playwright (E2E); Python `unittest` for the exporter |
+| Lint / format | ESLint flat config + Prettier — enforced in CI and pre-commit |
+| Deployment | Vercel (Node runtime default; Edge Runtime opt-in per route, never for ledger writes) |
+
+---
+
+## Domain Rules
+
+Facts about the ASL data that are easy to get wrong. Follow them everywhere.
+
+- **Races** are stored as letter codes `T` / `Z` / `P`. Display names: Terran / Zerg / Protoss.
+- **Race colors** (from the spreadsheet; used site-wide as design tokens):
+
+  | Race | Pale (player/data cells) | Dark (section headers only) |
+  |---|---|---|
+  | Terran | `#EAF3FB` | `#3A6EA8` |
+  | Zerg | `#F0EAF9` | `#6B4FA0` |
+  | Protoss | `#E6F4EC` | `#3D7A52` |
+
+  Swapped or inconsistent race colors are a recurring bug. Use the tokens, never literals.
+- **Placement labels** use an en-dash: `9th–12th`, `23rd–28th`. The exporter normalizes hyphens.
+- **Prize money** is stored in KRW (`₩`); USD values are approximations and labeled as such.
+- **Player identity**: `SnOw` is the canonical spelling (Jang Yoon-chul). `hero` is Zerg.
+  Case variants in the workbook (`BeSt`/`Best`, `EffOrt`/`Effort`/`effOrt`, `HyuN`/`Hyun`) are
+  flagged by the exporter and **must not be merged without Derek's confirmation**.
+- **ELO** in the workbook is placement-based (start 1500, K=32, pairwise by placement tier), not
+  match-based. Label it that way in the UI.
+- **Branding**: unofficial fan project. No ASL/SOOP/AfreecaTV logos or trade dress. Footer
+  carries a "fan project, not affiliated" disclaimer.
+
+---
+
+## Architecture
+
+Full module map, dependency rules, and data-flow patterns:
+→ **[Harness/architecture.md](Harness/architecture.md)**
+
+---
+
+## Docs Map
+
+| Folder | What lives there |
+|---|---|
+| `Harness/` | Agent guardrails: architecture, conventions, checklists, guidelines |
+| `Harness/guidelines/` | Implementation patterns indexed by task type (`_index.json`) |
+| `Harness/agents/` | Agent personas and prompt templates (`_index.json`) |
+| `Docs/experience-graph.md` | Every user-reachable surface and how they connect |
+| `Docs/feature-map/` | Engineering units: what can be built and what it depends on |
+| `Docs/product-specs/` | What to build and why — human-authored, non-technical |
+| `Docs/ui-specs/` | Component and feature design packages: states, copy, interactions |
+| `Docs/foundation-specs/` | Core protocols: LMSR engine, credit ledger, stats data contract |
+| `Docs/integration-specs/` | Concrete third-party SDK and API implementations (Neon/Drizzle, Clerk) |
+| `Docs/integration-specs/references/` | Lookup catalogs for external systems |
+| `Docs/feature-specs/` | UI states, flows, view-model contracts, and routing |
+| `Docs/components/` | Shared component catalog with usage rules (`_index.json`) |
+| `Docs/tooling-specs/` | Agent tooling and automation specs (stats exporter) |
+| `Docs/reports/` | Generated output — do not hand-author |
+| `data/source/` | The source workbook. Edited by Derek in Excel, never by agents without approval |
+| `data/generated/` | Exporter output. Never hand-edit; re-run `pnpm stats:export` |
+
+---
+
+## Key Pitfalls
+
+> This section accumulates hard-won lessons. Add an entry any time a non-obvious
+> mistake costs real time. Format:
+> **[YYYY-MM-DD] Short title** — what went wrong, and how to avoid it.
+
+**[2026-10-06] Placeholder text parsed as a player** — the exporter read `TBD` in the S21
+winner cell as a player name and marked the season complete. Name columns use `to_name`, which
+maps `TBD` / `?` / `-` to `null`. Any new name column must use it too.
+
+**[2026-10-06] Race Stats is eight tables in one sheet** — it can't be read with generic
+"header row + rows until blank" logic. Every table is declared with exact cell coordinates in
+`LAYOUT` in `export_stats.py`, and the export fails if a header moves.
+
+**[2026-10-06] Case-insensitive sort was hash-order dependent** — `players.json` sorted by
+`name.lower()` alone, so `BeSt`/`Best` swapped between runs (Python randomizes set order per
+process). Always give sorts a total order (`(name.lower(), name)`). Determinism tests must run
+the exporter in separate processes with different `PYTHONHASHSEED`s. Same-process runs hide this.
+
+---
+
+## ROADMAP Status Lifecycle
+
+```
+draft → approved → in-progress → implemented
+```
+
+- **draft**: idea captured, not yet evaluated
+- **approved**: a human has signed off; an agent may begin work
+- **in-progress**: actively being built — one item per agent at a time
+- **implemented**: merged, tested, and deployed (or feature-flagged on)
+
+### ROADMAP Operations (for agents)
+
+- **Add X to roadmap**: create a `draft` entry in the correct category in
+  [ROADMAP.md](ROADMAP.md). Never self-promote a draft to `approved`.
+- **Update roadmap**: change status in place; add a `<!-- updated: YYYY-MM-DD -->` comment.
+- **Implemented items** move to the `### Archive` subsection at the bottom of their
+  category — they are never deleted.
+
+---
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `pnpm install` | Install JS deps |
+| `pnpm typecheck` | `tsc --noEmit` |
+| `pnpm test` | Vitest (LMSR engine today; app tests later) |
+| `pnpm stats:export` | xlsx → `data/generated/*.json`, prints validation warnings |
+| `pnpm stats:test` | Exporter unit + integration tests (needs Python 3.12+, `pip install openpyxl`) |

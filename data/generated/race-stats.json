@@ -1,0 +1,672 @@
+{
+  "championshipsByEra": [
+    {
+      "dominantRace": "T",
+      "era": "BW Era (S1-S3)",
+      "protoss": 1,
+      "terran": 2,
+      "totalSeasons": 3,
+      "zerg": 0
+    },
+    {
+      "dominantRace": "T",
+      "era": "Remastered Early (S4-S8)",
+      "protoss": 1,
+      "terran": 3,
+      "totalSeasons": 5,
+      "zerg": 1
+    },
+    {
+      "dominantRace": "Z",
+      "era": "Post-KSL Era (S9-S12)",
+      "protoss": 1,
+      "terran": 0,
+      "totalSeasons": 4,
+      "zerg": 3
+    },
+    {
+      "dominantRace": "Z",
+      "era": "Recent Era (S13-S20)",
+      "protoss": 0,
+      "terran": 3,
+      "totalSeasons": 8,
+      "zerg": 5
+    }
+  ],
+  "finalsBySeason": [
+    {
+      "champion": "Shuttle",
+      "championRace": "P",
+      "runnerUp": "Sharp",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 0,
+        "winner": 3
+      },
+      "seasonName": "ASL S1 (BW)"
+    },
+    {
+      "champion": "Flash",
+      "championRace": "T",
+      "runnerUp": "Sea",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 2,
+        "winner": 3
+      },
+      "seasonName": "ASL S2 (BW)"
+    },
+    {
+      "champion": "Flash",
+      "championRace": "T",
+      "runnerUp": "Shine",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 1,
+        "winner": 3
+      },
+      "seasonName": "ASL S3 (BW)"
+    },
+    {
+      "champion": "Flash",
+      "championRace": "T",
+      "runnerUp": "hero",
+      "runnerUpRace": "Z",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S4"
+    },
+    {
+      "champion": "Rain",
+      "championRace": "P",
+      "runnerUp": "Snow",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S5"
+    },
+    {
+      "champion": "EffOrt",
+      "championRace": "Z",
+      "runnerUp": "Flash",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 2,
+        "winner": 4
+      },
+      "seasonName": "ASL S6"
+    },
+    {
+      "champion": "Last",
+      "championRace": "T",
+      "runnerUp": "Mini",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S7"
+    },
+    {
+      "champion": "Flash",
+      "championRace": "T",
+      "runnerUp": "Snow",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 2,
+        "winner": 4
+      },
+      "seasonName": "ASL S8"
+    },
+    {
+      "champion": "ZerO",
+      "championRace": "Z",
+      "runnerUp": "Light",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 2,
+        "winner": 4
+      },
+      "seasonName": "ASL S9"
+    },
+    {
+      "champion": "ZerO",
+      "championRace": "Z",
+      "runnerUp": "Soulkey",
+      "runnerUpRace": "Z",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S10"
+    },
+    {
+      "champion": "ByuL",
+      "championRace": "Z",
+      "runnerUp": "Byun",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 0,
+        "winner": 4
+      },
+      "seasonName": "ASL S11"
+    },
+    {
+      "champion": "Mini",
+      "championRace": "P",
+      "runnerUp": "Rush",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S12"
+    },
+    {
+      "champion": "Light",
+      "championRace": "T",
+      "runnerUp": "Rain",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 2,
+        "winner": 4
+      },
+      "seasonName": "ASL S13"
+    },
+    {
+      "champion": "RoyaL",
+      "championRace": "T",
+      "runnerUp": "Rush",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S14"
+    },
+    {
+      "champion": "JyJ",
+      "championRace": "T",
+      "runnerUp": "Mind",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 1,
+        "winner": 4
+      },
+      "seasonName": "ASL S15"
+    },
+    {
+      "champion": "Soulkey",
+      "championRace": "Z",
+      "runnerUp": "Mini",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 1,
+        "winner": 4
+      },
+      "seasonName": "ASL S16"
+    },
+    {
+      "champion": "Soulkey",
+      "championRace": "Z",
+      "runnerUp": "hero",
+      "runnerUpRace": "Z",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S17"
+    },
+    {
+      "champion": "Soulkey",
+      "championRace": "Z",
+      "runnerUp": "Sharp",
+      "runnerUpRace": "T",
+      "score": {
+        "loser": 2,
+        "winner": 4
+      },
+      "seasonName": "SSL AUTUMN"
+    },
+    {
+      "champion": "Soulkey",
+      "championRace": "Z",
+      "runnerUp": "Best",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 3,
+        "winner": 4
+      },
+      "seasonName": "ASL S19"
+    },
+    {
+      "champion": "soma",
+      "championRace": "Z",
+      "runnerUp": "SnOw",
+      "runnerUpRace": "P",
+      "score": {
+        "loser": 2,
+        "winner": 4
+      },
+      "seasonName": "ASL S20"
+    }
+  ],
+  "grandFinalsByMatchup": [
+    {
+      "matchup": "Terran vs Zerg",
+      "note": "Weak",
+      "race": "T",
+      "totalFinals": 3,
+      "winRate": 0.0,
+      "wins": 0
+    },
+    {
+      "matchup": "Terran vs Protoss",
+      "note": "Even",
+      "race": "T",
+      "totalFinals": 6,
+      "winRate": 0.67,
+      "wins": 4
+    },
+    {
+      "matchup": "Zerg vs Terran",
+      "note": "Dominant",
+      "race": "Z",
+      "totalFinals": 3,
+      "winRate": 1.0,
+      "wins": 3
+    },
+    {
+      "matchup": "Zerg vs Protoss",
+      "note": "Dominant",
+      "race": "Z",
+      "totalFinals": 5,
+      "winRate": 1.0,
+      "wins": 5
+    },
+    {
+      "matchup": "Protoss vs Terran",
+      "note": "Weak",
+      "race": "P",
+      "totalFinals": 6,
+      "winRate": 0.33,
+      "wins": 2
+    },
+    {
+      "matchup": "Protoss vs Zerg",
+      "note": "Weak",
+      "race": "P",
+      "totalFinals": 5,
+      "winRate": 0.0,
+      "wins": 0
+    }
+  ],
+  "matchupsAllStages": [
+    {
+      "assessment": "Even",
+      "losses": 859,
+      "matchup": "Terran vs Zerg",
+      "total": 1703,
+      "winRate": 0.496,
+      "wins": 844
+    },
+    {
+      "assessment": "Weak",
+      "losses": 871,
+      "matchup": "Terran vs Protoss",
+      "total": 1465,
+      "winRate": 0.405,
+      "wins": 594
+    },
+    {
+      "assessment": "Even",
+      "losses": 844,
+      "matchup": "Zerg vs Terran",
+      "total": 1703,
+      "winRate": 0.504,
+      "wins": 859
+    }
+  ],
+  "matchupsAllStagesMirror": [
+    {
+      "losses": 663,
+      "matchup": "Zerg vs Protoss",
+      "total": 1115,
+      "winRate": 0.405,
+      "wins": 452
+    },
+    {
+      "losses": 594,
+      "matchup": "Protoss vs Terran",
+      "total": 1465,
+      "winRate": 0.595,
+      "wins": 871
+    },
+    {
+      "losses": 452,
+      "matchup": "Protoss vs Zerg",
+      "total": 1115,
+      "winRate": 0.595,
+      "wins": 663
+    }
+  ],
+  "matrixAllStages": [
+    {
+      "race": "T",
+      "vsProtoss": {
+        "losses": 871,
+        "winRate": 0.405461,
+        "wins": 594
+      },
+      "vsTerran": null,
+      "vsZerg": {
+        "losses": 859,
+        "winRate": 0.495596,
+        "wins": 844
+      }
+    },
+    {
+      "race": "Z",
+      "vsProtoss": {
+        "losses": 663,
+        "winRate": 0.405381,
+        "wins": 452
+      },
+      "vsTerran": {
+        "losses": 844,
+        "winRate": 0.504404,
+        "wins": 859
+      },
+      "vsZerg": null
+    },
+    {
+      "race": "P",
+      "vsProtoss": null,
+      "vsTerran": {
+        "losses": 594,
+        "winRate": 0.594539,
+        "wins": 871
+      },
+      "vsZerg": {
+        "losses": 452,
+        "winRate": 0.594619,
+        "wins": 663
+      }
+    }
+  ],
+  "overall": [
+    {
+      "championships": 8,
+      "finalsAppearances": 17,
+      "finalsWinRate": 0.471,
+      "playerShare": 0.422,
+      "race": "T",
+      "runnerUps": 9,
+      "titleShare": 0.4,
+      "titlesPer100Players": 3.46,
+      "totalPlayers": 231
+    },
+    {
+      "championships": 9,
+      "finalsAppearances": 10,
+      "finalsWinRate": 0.9,
+      "playerShare": 0.316,
+      "race": "Z",
+      "runnerUps": 1,
+      "titleShare": 0.45,
+      "titlesPer100Players": 5.2,
+      "totalPlayers": 173
+    },
+    {
+      "championships": 3,
+      "finalsAppearances": 13,
+      "finalsWinRate": 0.231,
+      "playerShare": 0.263,
+      "race": "P",
+      "runnerUps": 10,
+      "titleShare": 0.15,
+      "titlesPer100Players": 2.08,
+      "totalPlayers": 144
+    }
+  ],
+  "participantsBySeason": [
+    {
+      "protoss": 3,
+      "seasonName": "ASL S1 (BW)",
+      "terran": 8,
+      "total": 16,
+      "zerg": 5
+    },
+    {
+      "protoss": 9,
+      "seasonName": "ASL S2 (BW)",
+      "terran": 12,
+      "total": 28,
+      "zerg": 7
+    },
+    {
+      "protoss": 8,
+      "seasonName": "ASL S3 (BW)",
+      "terran": 10,
+      "total": 28,
+      "zerg": 10
+    },
+    {
+      "protoss": 9,
+      "seasonName": "ASL S4",
+      "terran": 12,
+      "total": 28,
+      "zerg": 7
+    },
+    {
+      "protoss": 8,
+      "seasonName": "ASL S5",
+      "terran": 11,
+      "total": 28,
+      "zerg": 9
+    },
+    {
+      "protoss": 7,
+      "seasonName": "ASL S6",
+      "terran": 11,
+      "total": 28,
+      "zerg": 10
+    },
+    {
+      "protoss": 5,
+      "seasonName": "ASL S7",
+      "terran": 14,
+      "total": 28,
+      "zerg": 9
+    },
+    {
+      "protoss": 7,
+      "seasonName": "ASL S8",
+      "terran": 13,
+      "total": 28,
+      "zerg": 8
+    },
+    {
+      "protoss": 6,
+      "seasonName": "ASL S9",
+      "terran": 14,
+      "total": 28,
+      "zerg": 8
+    },
+    {
+      "protoss": 8,
+      "seasonName": "ASL S10",
+      "terran": 11,
+      "total": 28,
+      "zerg": 9
+    },
+    {
+      "protoss": 6,
+      "seasonName": "ASL S11",
+      "terran": 12,
+      "total": 28,
+      "zerg": 10
+    },
+    {
+      "protoss": 5,
+      "seasonName": "ASL S12",
+      "terran": 15,
+      "total": 28,
+      "zerg": 8
+    },
+    {
+      "protoss": 8,
+      "seasonName": "ASL S13",
+      "terran": 10,
+      "total": 28,
+      "zerg": 10
+    },
+    {
+      "protoss": 7,
+      "seasonName": "ASL S14",
+      "terran": 13,
+      "total": 28,
+      "zerg": 8
+    },
+    {
+      "protoss": 8,
+      "seasonName": "ASL S15",
+      "terran": 11,
+      "total": 28,
+      "zerg": 9
+    },
+    {
+      "protoss": 9,
+      "seasonName": "ASL S16",
+      "terran": 10,
+      "total": 28,
+      "zerg": 9
+    },
+    {
+      "protoss": 9,
+      "seasonName": "ASL S17",
+      "terran": 13,
+      "total": 28,
+      "zerg": 6
+    },
+    {
+      "protoss": 8,
+      "seasonName": "SSL AUTUMN",
+      "terran": 12,
+      "total": 28,
+      "zerg": 8
+    },
+    {
+      "protoss": 8,
+      "seasonName": "ASL S19",
+      "terran": 9,
+      "total": 28,
+      "zerg": 11
+    },
+    {
+      "protoss": 6,
+      "seasonName": "ASL S20",
+      "terran": 10,
+      "total": 28,
+      "zerg": 12
+    }
+  ],
+  "playoffMatrixS13toS20": [
+    {
+      "race": "T",
+      "vsProtoss": {
+        "losses": 8,
+        "winRate": 0.5,
+        "wins": 8
+      },
+      "vsTerran": null,
+      "vsZerg": {
+        "losses": 5,
+        "winRate": 0.444444,
+        "wins": 4
+      }
+    },
+    {
+      "race": "Z",
+      "vsProtoss": {
+        "losses": 5,
+        "winRate": 0.666667,
+        "wins": 10
+      },
+      "vsTerran": {
+        "losses": 4,
+        "winRate": 0.555556,
+        "wins": 5
+      },
+      "vsZerg": null
+    },
+    {
+      "race": "P",
+      "vsProtoss": null,
+      "vsTerran": {
+        "losses": 8,
+        "winRate": 0.5,
+        "wins": 8
+      },
+      "vsZerg": {
+        "losses": 10,
+        "winRate": 0.333333,
+        "wins": 5
+      }
+    }
+  ],
+  "playoffSeriesS13toS20": [
+    {
+      "losses": 5,
+      "matchup": "Terran vs Zerg",
+      "sampleSize": "Sufficient",
+      "total": 9,
+      "winRate": 0.444,
+      "wins": 4
+    },
+    {
+      "losses": 8,
+      "matchup": "Terran vs Protoss",
+      "sampleSize": "Sufficient",
+      "total": 16,
+      "winRate": 0.5,
+      "wins": 8
+    },
+    {
+      "losses": 4,
+      "matchup": "Zerg vs Terran",
+      "sampleSize": "Sufficient",
+      "total": 9,
+      "winRate": 0.556,
+      "wins": 5
+    },
+    {
+      "losses": 5,
+      "matchup": "Zerg vs Protoss",
+      "sampleSize": "Sufficient",
+      "total": 15,
+      "winRate": 0.667,
+      "wins": 10
+    },
+    {
+      "losses": 8,
+      "matchup": "Protoss vs Terran",
+      "sampleSize": "Sufficient",
+      "total": 16,
+      "winRate": 0.5,
+      "wins": 8
+    },
+    {
+      "losses": 10,
+      "matchup": "Protoss vs Zerg",
+      "sampleSize": "Sufficient",
+      "total": 15,
+      "winRate": 0.333,
+      "wins": 5
+    }
+  ]
+}
