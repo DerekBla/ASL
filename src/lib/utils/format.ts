@@ -55,3 +55,32 @@ export function formatDateRange(start: string, end: string): string {
     a.getUTCFullYear() === b.getUTCFullYear() ? monthDay.format(a) : monthDayYear.format(a);
   return `${first} – ${monthDayYear.format(b)}`;
 }
+
+const minerals = new Intl.NumberFormat("en-US", { maximumFractionDigits: 2 });
+
+/** Play-money amounts: at most 2 decimals, always labelled minerals (conventions). */
+export function formatMinerals(n: number): string {
+  const rounded = Math.abs(n) < 0.005 ? 0 : n;
+  return `${minerals.format(rounded)} ${Math.abs(rounded) === 1 ? "mineral" : "minerals"}`;
+}
+
+/** A probability as a whole-number percentage: 0.623 -> "62%". Never shows 0% or 100% for an open price. */
+export function formatProbability(p: number): string {
+  if (p > 0 && p < 0.01) return "<1%";
+  if (p < 1 && p > 0.99) return ">99%";
+  return `${Math.round(p * 100)}%`;
+}
+
+const dateTime = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
+  hour: "numeric",
+  minute: "2-digit",
+  timeZone: "Asia/Seoul",
+  timeZoneName: "short",
+});
+
+/** A moment in Korea time, since ASL is broadcast from Seoul: "Oct 17, 3:00 PM GMT+9". */
+export function formatKoreaTime(iso: string): string {
+  return dateTime.format(new Date(iso));
+}

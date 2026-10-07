@@ -110,10 +110,11 @@ const config = [
     },
   },
   {
-    // Next.js requires default exports for route files; tool configs use them by convention.
+    // Next.js requires default exports for route files and middleware; tool configs use them too.
     files: [
       "src/app/**/{page,layout,loading,error,not-found,template,default}.tsx",
       "*.config.{ts,mjs}",
+      "src/middleware.ts",
     ],
     rules: { "import/no-default-export": "off" },
   },

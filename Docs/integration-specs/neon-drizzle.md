@@ -1,7 +1,8 @@
 # Integration Spec: Neon Postgres + Drizzle ORM
 
-**Status**: draft
-**Last updated**: 2026-10-06
+**Status**: implemented
+**Last updated**: 2026-10-07
+**Pinned**: drizzle-orm 0.45.3, drizzle-kit 0.31.11, @neondatabase/serverless 1.2.0, ws 8.22.0; tests use @electric-sql/pglite 0.5.8
 **Packages**: `drizzle-orm`, `drizzle-kit`, `@neondatabase/serverless`, `ws` (Node WebSocket for the Pool); pin exact versions at scaffold time and record them in `references/neon-reference.md`
 **Auth**: `DATABASE_URL` (pooled), `DATABASE_URL_UNPOOLED` (migrations), `DATABASE_URL_TEST` (concurrency tests)
 

@@ -16,13 +16,13 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | approved | Playwright E2E setup | `pnpm test:e2e` is referenced by `Harness/code-validation.md` but not installed. Needs real pages to test first <!-- approved by Derek 2026-10-07 --> |
 | approved | Pre-commit hooks | Locked decision says lint/format run pre-commit. Typecheck + lint + format:check on staged files <!-- approved by Derek 2026-10-07 --> |
 | approved | CI pipeline | GitHub Actions: typecheck → lint → test → stats:test → stats freshness → build <!-- approved by Derek 2026-10-07 --> |
-| approved | Shared types + error model | `Result<T,E>`, `ActionResult`, branded IDs (`MarketId`, `UserId`), error codes incl. ledger errors <!-- approved by Derek 2026-10-07 --> |
-| approved | Database: Neon + Drizzle schema & migrations | Tables from `Docs/foundation-specs/ledger.md`; `drizzle-kit` migrations; seed script <!-- approved by Derek 2026-10-07 --> |
-| approved | Ledger service | `lib/services/ledger`: `executeTrade`, `resolveMarket`, `voidMarket`, `grantCredits` — each one transaction; concurrency test <!-- approved by Derek 2026-10-07 --> |
-| approved | Auth — Clerk + Discord/Google | Product spec: `Docs/product-specs/auth.md`. Lazy user + account provisioning on first authed action <!-- approved by Derek 2026-10-07 --> |
 
 ### Archive
 
+- [implemented 2026-10-07] Shared types + error model — `src/lib/types/` (Result, ActionResult with user copy, branded ids). Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Database: Neon + Drizzle schema & migrations — `src/lib/db/`, `drizzle/0000_init.sql`. Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Ledger service — `src/lib/services/ledger/`, 24 PGlite tests + real-Postgres concurrency test. Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Auth — Clerk + Discord/Google — Clerk 7, lazy provisioning with the 100-mineral grant, `/portfolio` and `/admin` protected. Works once the Neon and Clerk keys are set
 - [implemented 2026-10-07] Tailwind v4 setup + design tokens — approved by Derek 2026-10-07. `src/app/globals.css`: race color tokens (guarded by a test), light/dark surface colors by system setting, type scale. Spec: `Docs/foundation-specs/design-tokens.md`
 - [implemented 2026-10-07] Stats data loader — approved by Derek 2026-10-07. `src/lib/services/stats/` (the architecture's location, not `src/lib/stats/`): strict Zod schemas for all nine generated files, cached typed loaders, refuses an unknown schema version. The home page reads its figures through it
 - [implemented 2026-10-07] Project scaffold — Next.js 15.5 App Router + React 19, TypeScript 5.9 strict, ESLint 9 flat config with layer-boundary rules, Prettier, Vitest + Testing Library (jsdom). Root layout, placeholder home page, `SiteFooter` with the fan-project, play-money, and Liquipedia notices
@@ -59,14 +59,14 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| approved | Markets: list + market detail with trade panel | Product spec: `Docs/product-specs/markets.md` <!-- approved by Derek 2026-10-07 --> |
-| approved | First market: ASL S22 Grand Final | Derek 2026-10-07: the first market is the S22 final, Rush (T) vs Soulkey (Z), 2026-10-17 at Lotte World Ice Rink. Needs Neon + Clerk accounts, then the DB schema, ledger, auth, and market pages. Closes at match start; resolves from the result <!-- updated: 2026-10-07 --> <!-- approved by Derek 2026-10-07 --> |
-| approved | Portfolio | Positions, open P/L at current prices, trade history, ledger <!-- approved by Derek 2026-10-07 --> |
-| approved | Leaderboard | Net worth = balance + positions marked to market <!-- approved by Derek 2026-10-07 --> |
-| approved | Admin: create / close / resolve / void markets | Clerk role-gated; ELO-derived priors optional <!-- approved by Derek 2026-10-07 --> |
+| in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive
 
+- [implemented 2026-10-07] Markets: list + market detail with trade panel — `/markets`, `/markets/[slug]`, live polling, trade panel with preview. Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Portfolio — `/portfolio`. Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Leaderboard — `/leaderboard`, net worth marked to market. Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Admin: create / close / resolve / void markets — `/admin`, ELO-based opening odds, S22 final preset. Works once the Neon and Clerk keys are set
 - [implemented 2026-10-07] Stats: seasons index + season detail — `/seasons`, `/seasons/[season]` (21 static pages). Feature spec: `Docs/feature-specs/stats-site.md`
 - [implemented 2026-10-07] Stats: players index + player detail — `/players`, `/players/[slug]` (85 static pages). Feature spec: `Docs/feature-specs/stats-site.md`
 - [implemented 2026-10-07] Stats: head-to-head lookup — `/head-to-head?a=&b=`, aliases accepted. Feature spec: `Docs/feature-specs/stats-site.md`
@@ -80,8 +80,11 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| approved | Clerk integration | Spec: `Docs/integration-specs/clerk.md` <!-- approved by Derek 2026-10-07 --> |
-| approved | Neon + Drizzle integration | Spec: `Docs/integration-specs/neon-drizzle.md` <!-- approved by Derek 2026-10-07 --> |
+
+### Archive
+
+- [implemented 2026-10-07] Clerk integration — `Docs/integration-specs/clerk.md`. Works once the Neon and Clerk keys are set
+- [implemented 2026-10-07] Neon + Drizzle integration — `Docs/integration-specs/neon-drizzle.md`. Works once the Neon and Clerk keys are set
 
 ---
 
@@ -92,6 +95,9 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | Status | Item | Notes |
 |---|---|---|
 | in-progress | Component library baseline | Built 2026-10-07: Button (primary, secondary), DataTable, RaceBadge, PlacementBadge, SiteHeader. Remaining, with markets: Input, Modal, Toast, PriceChip, more Button variants — see `Docs/components/` <!-- updated: 2026-10-07 --> |
-| approved | Price history chart | Per-outcome price over time on market detail <!-- approved by Derek 2026-10-07 --> |
 | approved | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> <!-- approved by Derek 2026-10-07 --> |
 | approved | Skeleton components | One skeleton per async surface before Suspense fallback <!-- approved by Derek 2026-10-07 --> |
+
+### Archive
+
+- [implemented 2026-10-07] Price history chart — Line chart per outcome on the market page. Works once the Neon and Clerk keys are set

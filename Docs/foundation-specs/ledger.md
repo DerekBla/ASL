@@ -1,7 +1,7 @@
 # Foundation Spec: Credit Ledger
 
-**Status**: draft
-**Last updated**: 2026-10-06
+**Status**: implemented
+**Last updated**: 2026-10-07
 **Owner module**: `src/lib/services/ledger/`
 **Depends on**: `Docs/foundation-specs/market-engine.md`, `Docs/integration-specs/neon-drizzle.md`
 
@@ -163,9 +163,24 @@ top-up). Grants come from the house account, so conservation holds.
 
 ---
 
+## Implementation notes (2026-10-07)
+
+- `market_outcomes.q0` stores the opening quantity, so `checkLedgerInvariants` can verify
+  `q = q0 + sum(trade shares)` for every outcome.
+- Global conservation: `sum(balances) + sum(trade costs on open or closed markets) = 0`.
+  Credits paid for shares sit with the market until it settles.
+- Sells update the existing position row; buys upsert (Postgres checks an upsert's insert
+  row against `no_naked_shorts`).
+- `buy_spend` floors shares to 6 decimals and trims them until the rounded-up cost fits the
+  spend, instead of capping the cost (rounding never favours the trader).
+- `voidMarket` refunds `max(0, net cost basis)` per user: a user who already sold at a
+  profit keeps it and is never charged.
+- `createMarket` (admin only) and `closeMarket` live in the ledger too, since they write `q`.
+- Every operation takes the database as a parameter: Neon in production, PGlite in tests.
+
 ## Concurrency test (required before shipping trades)
 
-Start 50 concurrent `executeTrade` calls from 10 users on one market against a real Postgres
+`pnpm test:ledger-concurrency` starts 50 concurrent `executeTrade` calls from 10 users on one market against a real Postgres
 (Neon dev branch or local Docker). Then assert:
 - every invariant above,
 - the final `q` vector equals the initial `q` plus the sum of all trade shares per outcome,

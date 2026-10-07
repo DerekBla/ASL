@@ -155,6 +155,18 @@ placements from series results; use the tables only as a cross-check.
 `hero`/`herO`, even two spellings in one group. Newer pages also omit races. Identity and race
 come from the player page each name resolves to, not from the name as written.
 
+**[2026-10-07] Postgres checks CHECK constraints on an upsert's insert row** — a sell sent as
+`INSERT … ON CONFLICT DO UPDATE` with negative shares failed `no_naked_shorts` even though the
+update would have been fine. Sells update the existing position; only buys upsert.
+
+**[2026-10-07] Drizzle leaves column names unqualified inside `sql` subqueries** — a correlated
+subquery matched `trades.id` instead of `markets.id` and returned wrong volumes. Write
+correlated subqueries with explicit aliases (`from trades t where t.market_id = "markets"."id"`).
+
+**[2026-10-07] Clerk 7 (Core 3) removed `SignedIn`/`SignedOut`** — they still import, but throw
+when rendered. Use `<Show when="signed-in">`. Check the installed package's types before
+writing Clerk code from memory.
+
 **[2026-10-07] Tooling versions are pinned by Next.js 15, not by "latest"** — the repo had
 TypeScript 7 and would have taken ESLint 10, but `typescript-eslint` supports TypeScript below
 6.1 and `eslint-config-next@15` supports ESLint up to 9. TypeScript is pinned to 5.9 and ESLint
@@ -194,6 +206,10 @@ draft → approved → in-progress → implemented
 | `pnpm lint` | ESLint, zero warnings allowed. Enforces the layer boundaries in `Harness/architecture.md` |
 | `pnpm format` / `pnpm format:check` | Prettier write / check (code and config only; docs and data are ignored) |
 | `pnpm test` | Vitest: LMSR engine and component tests (jsdom + Testing Library) |
+| `pnpm db:generate` | Write a migration from `src/lib/db/schema.ts` into `drizzle/` (review the SQL) |
+| `pnpm db:migrate` | Apply migrations to `DATABASE_URL_UNPOOLED` and create the house account |
+| `pnpm db:make-admin <id>` | Make a signed-in user an admin (their id is on `/portfolio`) |
+| `pnpm test:ledger-concurrency` | 50 simultaneous trades against `DATABASE_URL_TEST` (wipes that branch) |
 | `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

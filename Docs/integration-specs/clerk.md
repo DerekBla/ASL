@@ -1,7 +1,8 @@
 # Integration Spec: Clerk
 
-**Status**: draft
-**Last updated**: 2026-10-06
+**Status**: implemented
+**Last updated**: 2026-10-07
+**Pinned**: @clerk/nextjs 7.9.11 (Clerk Core 3)
 **Package**: `@clerk/nextjs` (pin at scaffold; record in `references/clerk-reference.md`)
 **Auth**: `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`, `CLERK_SECRET_KEY`
 **Product spec**: `Docs/product-specs/auth.md`
@@ -32,6 +33,10 @@ webhook (`user.created`) can replace this later; keep `ensureUser` as the fallba
 for admin checks. Server Actions read `is_admin` from Postgres.
 
 ## Gotchas
+
+- Clerk 7 removed `SignedIn` / `SignedOut`; use `<Show when="signed-in">`.
+- Without both keys the site skips `ClerkProvider` and the middleware lets everything through,
+  so the stats site keeps working (and stays statically rendered).
 
 - `auth()` is async in recent `@clerk/nextjs` versions: `const { userId } = await auth()`.
 - Display names come from Discord/Google at sign-up; store a copy (leaderboards must not call

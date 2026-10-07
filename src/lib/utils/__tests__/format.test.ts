@@ -3,7 +3,10 @@ import { describe, expect, it } from "vitest";
 import {
   formatDateRange,
   formatElo,
+  formatKoreaTime,
   formatKrw,
+  formatMinerals,
+  formatProbability,
   formatPercent,
   formatScore,
   formatSeason,
@@ -35,5 +38,25 @@ describe("playerSlug", () => {
     expect(playerSlug("force(Name)")).toBe("force-name");
     expect(playerSlug("815")).toBe("815");
     expect(playerSlug("  Neo.G_Soulkey ")).toBe("neo-g-soulkey");
+  });
+});
+
+describe("market formatting", () => {
+  it("formats minerals with at most two decimals and the right noun", () => {
+    expect(formatMinerals(100)).toBe("100 minerals");
+    expect(formatMinerals(1)).toBe("1 mineral");
+    expect(formatMinerals(5.109876)).toBe("5.11 minerals");
+    expect(formatMinerals(0.001)).toBe("0 minerals");
+  });
+
+  it("formats probabilities as percentages without claiming certainty", () => {
+    expect(formatProbability(0.623)).toBe("62%");
+    expect(formatProbability(0.004)).toBe("<1%");
+    expect(formatProbability(0.996)).toBe(">99%");
+    expect(formatProbability(1)).toBe("100%");
+  });
+
+  it("shows times in Korea time", () => {
+    expect(formatKoreaTime("2026-10-17T06:00:00Z")).toMatch(/Oct 17, 3:00\sPM GMT\+9/);
   });
 });
