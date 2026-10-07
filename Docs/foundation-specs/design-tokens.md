@@ -24,6 +24,16 @@ Fixed by CLAUDE.md Domain Rules. The test fails if a value changes or is defined
   the only place these utilities should appear once it exists.
 - Proper dark-mode variants of the race colors are a separate item (ROADMAP: Dark mode support).
 
+## Medal colors
+
+From the old spreadsheet's placement fills. Used by `PlacementBadge`, with `text-race-ink`.
+
+| Utility | Value | Placement |
+|---|---|---|
+| `bg-medal-gold` | `#FFF0B3` | 1st |
+| `bg-medal-silver` | `#E8E8EC` | 2nd |
+| `bg-medal-bronze` | `#F5DEC0` | 3rd and 4th |
+
 ## Surface colors
 
 These follow the system light/dark setting through `prefers-color-scheme`. There is no

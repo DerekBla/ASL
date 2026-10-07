@@ -141,7 +141,7 @@ src/
   features/
     stats/  markets/  portfolio/  leaderboard/  admin/
       components/  hooks/  actions/  queries/  store/  types.ts  index.ts
-  components/           # EXISTS: SiteFooter. Shared stateless UI (RaceBadge, PlacementBadge, DataTable…)
+  components/           # EXISTS: SiteHeader, SiteFooter, RaceBadge, PlacementBadge, DataTable, Button
   lib/
     market/             # EXISTS: lmsr.ts (+ settlement math later). Pure.
     db/                 # schema.ts, client.ts (pool + http)
@@ -152,7 +152,7 @@ src/
     queries/            # query-keys.ts
     stores/
     types/              # EXISTS: race.ts
-    utils/
+    utils/              # EXISTS: format.ts, slug.ts
     config/             # EXISTS: site.ts. env.ts (Zod) later
   test/
     factories/

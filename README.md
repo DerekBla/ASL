@@ -10,6 +10,7 @@ Start with [CLAUDE.md](CLAUDE.md) (decisions, domain rules, docs map) and [ROADM
 | Piece | Where | Check |
 |---|---|---|
 | Next.js 15 app shell | `src/app/`, `src/components/` | `pnpm dev`, `pnpm build` |
+| Stats pages: seasons, players, ELO, races, head-to-head | `src/app/`, `src/features/stats/` | `pnpm test`, `pnpm dev` |
 | Stats loader (Zod-validated) | `src/lib/services/stats/` | `pnpm test` |
 | Design tokens (Tailwind v4) | `src/app/globals.css` | `pnpm test` |
 | LMSR pricing engine | `src/lib/market/lmsr.ts` | `pnpm test` |
@@ -17,7 +18,7 @@ Start with [CLAUDE.md](CLAUDE.md) (decisions, domain rules, docs map) and [ROADM
 | Exported stats | `data/generated/` | `pnpm stats:export` |
 | Agent harness + specs | `Harness/`, `Docs/` | — |
 
-The Next.js app is scaffolded (`src/app/`): a root layout and a home page that shows live figures from the stats data. Stats pages and
+The Next.js app is scaffolded (`src/app/`): seasons, players, ELO, race stats, and a head-to-head lookup, all built from the stats data. Stats pages and
 markets come next; see the roadmap.
 
 ## Setup

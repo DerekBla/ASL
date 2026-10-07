@@ -1,9 +1,30 @@
+import Link from "next/link";
 import type { ReactElement } from "react";
 
 import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/config/site";
 import { getLatestCompleteSeason, getManifest } from "@/lib/services/stats";
 
 const numberFormat = new Intl.NumberFormat("en-US");
+
+const SECTIONS = [
+  {
+    href: "/seasons",
+    title: "Seasons",
+    blurb: "Every season's final, placements, groups and prize money.",
+  },
+  { href: "/players", title: "Players", blurb: "Career stats for every player, season by season." },
+  {
+    href: "/elo",
+    title: "ELO ratings",
+    blurb: "Placement-based ELO, current and peak, like the old spreadsheet.",
+  },
+  {
+    href: "/head-to-head",
+    title: "Head-to-head",
+    blurb: "Every ASL series between any two players.",
+  },
+  { href: "/races", title: "Race stats", blurb: "Titles and series matchups by race." },
+] as const;
 
 export default function HomePage(): ReactElement {
   const { counts } = getManifest();
@@ -41,7 +62,24 @@ export default function HomePage(): ReactElement {
         ) : null}
       </section>
 
-      <p className="text-ink-muted">The stats pages and markets are under construction.</p>
+      <section aria-labelledby="explore-heading" className="flex flex-col gap-3">
+        <h2 id="explore-heading">Explore</h2>
+        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
+          {SECTIONS.map((s) => (
+            <li key={s.href}>
+              <Link
+                href={s.href}
+                className="block h-full rounded-lg border border-line p-4 no-underline hover:border-accent"
+              >
+                <span className="text-heading text-ink">{s.title}</span>
+                <span className="mt-1 block text-ink-muted">{s.blurb}</span>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <p className="text-ink-muted">Play-money markets are coming next.</p>
     </div>
   );
 }

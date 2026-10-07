@@ -64,6 +64,19 @@ probabilities, and climb a leaderboard of the sharpest predictors.
 | Opening prices | ELO-derived or manual, floored at 5% | Sensible start; caps subsidy |
 | Resolution | Manual by admin, with a note | Simple and auditable |
 
+## First Market (Derek, 2026-10-07)
+
+The first market is the **ASL Season 22 Grand Final: Rush (Terran) vs Soulkey (Zerg)**, on
+2026-10-17 at Lotte World Ice Rink (Liquipedia `ASL/22`).
+
+- Binary market: "Who wins the ASL S22 Grand Final?" Outcomes Rush, Soulkey.
+- Opens as soon as markets launch; closes at the scheduled match start; resolved by an admin
+  from the result, with the Liquipedia link as the resolution note.
+- Opening price from ELO or set by hand. Context to show on the market page: their ASL
+  head-to-head (Soulkey leads 6–0 in series as of S21) and both players' stats pages.
+- Needs before it can open: Neon database and Clerk sign-in (accounts Derek creates), then the
+  schema, ledger, auth, and market pages from the ROADMAP Foundation and Feature sections.
+
 ## Open Questions
 
 - [ ] Weekly mineral top-up for broke users, or a one-time "bankruptcy reset"? More pressing with a

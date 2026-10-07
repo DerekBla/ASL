@@ -59,13 +59,18 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Stats: seasons index + season detail | Product spec: `Docs/product-specs/stats-site.md` |
-| draft | Stats: players index + player detail | Placement timeline, ELO, career stats |
-| draft | Stats: race stats + ELO leaderboard | All Race Stats tables; matchup matrix |
 | draft | Markets: list + market detail with trade panel | Product spec: `Docs/product-specs/markets.md` |
+| draft | First market: ASL S22 Grand Final | Derek 2026-10-07: the first market is the S22 final, Rush (T) vs Soulkey (Z), 2026-10-17 at Lotte World Ice Rink. Needs Neon + Clerk accounts, then the DB schema, ledger, auth, and market pages. Closes at match start; resolves from the result <!-- updated: 2026-10-07 --> |
 | draft | Portfolio | Positions, open P/L at current prices, trade history, ledger |
 | draft | Leaderboard | Net worth = balance + positions marked to market |
 | draft | Admin: create / close / resolve / void markets | Clerk role-gated; ELO-derived priors optional |
+
+### Archive
+
+- [implemented 2026-10-07] Stats: seasons index + season detail — `/seasons`, `/seasons/[season]` (21 static pages). Feature spec: `Docs/feature-specs/stats-site.md`
+- [implemented 2026-10-07] Stats: players index + player detail — `/players`, `/players/[slug]` (85 static pages). Feature spec: `Docs/feature-specs/stats-site.md`
+- [implemented 2026-10-07] Stats: head-to-head lookup — `/head-to-head?a=&b=`, aliases accepted. Feature spec: `Docs/feature-specs/stats-site.md`
+- [implemented 2026-10-07] Stats: race stats + ELO leaderboard — `/elo` (spreadsheet columns), `/races`. Feature spec: `Docs/feature-specs/stats-site.md`
 
 ---
 
@@ -86,7 +91,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| draft | Component library baseline | Button, Input, Modal, Toast, DataTable, RaceBadge, PlacementBadge, PriceChip — see `Docs/components/` |
+| in-progress | Component library baseline | Built 2026-10-07: Button (primary, secondary), DataTable, RaceBadge, PlacementBadge, SiteHeader. Remaining, with markets: Input, Modal, Toast, PriceChip, more Button variants — see `Docs/components/` <!-- updated: 2026-10-07 --> |
 | draft | Price history chart | Per-outcome price over time on market detail |
 | draft | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> |
 | draft | Skeleton components | One skeleton per async surface before Suspense fallback |

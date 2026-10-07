@@ -6,6 +6,8 @@
  */
 import "server-only";
 
+import { playerSlug } from "@/lib/utils/slug";
+
 import elo from "../../../../data/generated/elo.json";
 import manifest from "../../../../data/generated/manifest.json";
 import placements from "../../../../data/generated/placements.json";
@@ -30,6 +32,7 @@ import type {
 } from "./schemas";
 
 export { StatsDataError } from "./parse";
+export { playerSlug } from "@/lib/utils/slug";
 export type {
   EloRow,
   Manifest,
@@ -53,6 +56,23 @@ type Indexed = StatsData & {
   placementsByPlayer: Map<string, Placement[]>;
   placementsBySeason: Map<number, Placement[]>;
   seriesBySeason: Map<number, Series[]>;
+  playerBySlug: Map<string, Player>;
+  seriesByPlayer: Map<string, Series[]>;
+};
+
+/** Everything two players did against each other, and in the seasons both entered. */
+export type HeadToHead = {
+  a: Player;
+  b: Player;
+  /** Series between the two, oldest first. */
+  series: readonly Series[];
+  winsA: number;
+  winsB: number;
+  /** Seasons both entered, with each player's placement. */
+  sharedSeasons: readonly { season: number; a: Placement; b: Placement }[];
+  /** Shared seasons in which each finished in a strictly better tier than the other. */
+  finishedAboveA: number;
+  finishedAboveB: number;
 };
 
 let cache: Indexed | undefined;
@@ -82,8 +102,22 @@ function load(): Indexed {
     validation,
   });
   const playerByAlias = new Map<string, Player>();
+  const playerBySlug = new Map<string, Player>();
   for (const p of data.players) {
     for (const name of [p.player, ...p.aliases]) playerByAlias.set(name.toLowerCase(), p);
+    const slug = playerSlug(p.player);
+    const clash = playerBySlug.get(slug);
+    if (clash)
+      throw new Error(`players "${clash.player}" and "${p.player}" share the URL slug "${slug}"`);
+    playerBySlug.set(slug, p);
+  }
+  const seriesByPlayer = new Map<string, Series[]>();
+  for (const row of data.series) {
+    for (const name of [row.winner, row.loser]) {
+      const list = seriesByPlayer.get(name);
+      if (list) list.push(row);
+      else seriesByPlayer.set(name, [row]);
+    }
   }
   cache = {
     ...data,
@@ -95,6 +129,8 @@ function load(): Indexed {
     placementsByPlayer: groupBy(data.placements, (r) => r.player),
     placementsBySeason: groupBy(data.placements, (r) => r.season),
     seriesBySeason: groupBy(data.series, (r) => r.season),
+    playerBySlug,
+    seriesByPlayer,
   };
   return cache;
 }
@@ -181,4 +217,42 @@ export function getRaceStats(): RaceStats {
 /** Notes the exporter recorded about the source data. */
 export function getValidationNotes(): readonly ValidationNote[] {
   return load().validation;
+}
+
+/** Looks a player up by the slug used in /players/[slug] URLs. */
+export function getPlayerBySlug(slug: string): Player | undefined {
+  return load().playerBySlug.get(slug);
+}
+
+/** Every series a player played (group stage and playoffs), oldest season first. */
+export function getSeriesForPlayer(name: string): readonly Series[] {
+  return load().seriesByPlayer.get(name) ?? [];
+}
+
+/**
+ * Head-to-head between two players, by canonical name or alias. Returns undefined when either
+ * name is unknown or both are the same player.
+ */
+export function getHeadToHead(nameA: string, nameB: string): HeadToHead | undefined {
+  const a = findPlayer(nameA);
+  const b = findPlayer(nameB);
+  if (!a || !b || a.player === b.player) return undefined;
+  const series = getSeriesForPlayer(a.player).filter(
+    (s) => s.winner === b.player || s.loser === b.player,
+  );
+  const placementsB = new Map(getPlacementsForPlayer(b.player).map((p) => [p.season, p]));
+  const sharedSeasons = getPlacementsForPlayer(a.player).flatMap((pa) => {
+    const pb = placementsB.get(pa.season);
+    return pb ? [{ season: pa.season, a: pa, b: pb }] : [];
+  });
+  return {
+    a,
+    b,
+    series,
+    winsA: series.filter((s) => s.winner === a.player).length,
+    winsB: series.filter((s) => s.winner === b.player).length,
+    sharedSeasons,
+    finishedAboveA: sharedSeasons.filter((x) => x.a.placement.worst < x.b.placement.best).length,
+    finishedAboveB: sharedSeasons.filter((x) => x.b.placement.worst < x.a.placement.best).length,
+  };
 }

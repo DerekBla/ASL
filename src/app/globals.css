@@ -15,7 +15,12 @@
   --color-race-protoss-pale: #e6f4ec;
   --color-race-protoss-dark: #3d7a52;
 
-  /* Text on a race color: dark ink on pale, white on dark, in both light and dark mode. */
+  /* Medal tiers, from the old spreadsheet's placement fills: 1st, 2nd, 3rd/4th. */
+  --color-medal-gold: #fff0b3;
+  --color-medal-silver: #e8e8ec;
+  --color-medal-bronze: #f5dec0;
+
+  /* Text on a race or medal color: dark ink on pale, white on dark, in both light and dark mode. */
   --color-race-ink: #1a1f2b;
   --color-race-on-dark: #ffffff;
 
