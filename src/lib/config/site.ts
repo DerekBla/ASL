@@ -14,6 +14,10 @@ export const CURRENCY_NAME = "minerals";
 /** Every new account starts with this many minerals, granted once. */
 export const SIGNUP_GRANT_CREDITS = 100;
 
+/** Default LMSR liquidity, sized to a 100-mineral balance (ledger.md Defaults). */
+export const DEFAULT_B_BINARY = 10;
+export const DEFAULT_B_MULTI = 15;
+
 export const PLAY_MONEY_NOTICE =
   "Markets use play-money minerals only. Minerals have no monetary value and cannot be bought, sold, or exchanged.";
 
