@@ -1,0 +1,973 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 14}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=AfreecaTV StarCraft League Remastered/14
+|name2=Qualifiers
+|link2=AfreecaTV StarCraft League Remastered/14/Qualifiers
+|name3=Statistics
+|link3=AfreecaTV StarCraft League Remastered/14/Statistics
+|This=1}}
+{{Infobox league
+|name=ASL Season 14
+|tickername=ASL Season 14
+|image=Afreecatv starcraft league remastered.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=80,000,000
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2022-08-09
+|edate=2022-10-09
+|patch=
+|epatch=
+|edition=14
+|afreeca=afstar1
+|idfirst=  |racefirst=  |flagfirst=kr
+|idsecond= |racesecond= |flagsecond=kr
+|idthird=  |racethird=  |flagthird=kr
+|idfourth= |racefourth= |flagfourth=kr
+|player_number=28
+|protoss_number=7
+|terran_number=10
+|zerg_number=11
+|map1=Neo Sylphid
+|map2=Neo Arkanoid
+|map3=Vermeer SE
+|map4=Nemesis (ASL)
+|map5=Odyssey
+|map6=Allegro
+|map7=Butter
+|previous=AfreecaTV StarCraft League Remastered/13{{!}}ASL Season 13
+|next=AfreecaTV StarCraft League Remastered/15{{!}}ASL Season 15
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League Remastered Season 14''' ('''ASL Season 14'''), is an offline tournament organized and broadcast live on [[AfreecaTV]].
+<embedvideo service="youtube">https://www.youtube.com/watch?v=cMuT-JnMYmI</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV StarCraft League Remastered/13|ASL Season 13]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals: {{abbr/Bo5}}
+** Semi-Finals & Finals: {{abbr/Bo7}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[AfreecaTV StarCraft League Remastered/13|ASL Season 13]]
+|Light
+|Bisu
+|soma
+|Rain |p4dq=true |p4note=1
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/14/Qualifiers/Wild Card|Wild Card Qualifier]]
+|Action |p1note=1
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/14/Qualifiers/Online 1|Online Qualifier 1]]
+|hero
+|sSak
+|SnOw
+|Rush
+|Mong
+|free
+|Jaedong
+|RoyaL
+|Sharp
+|ZerO
+|ggaemo
+|Mini
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/14/Qualifiers/Online 2|Online Qualifier 2]]
+|DDasik
+|JyJ 
+|BarrackS
+|Shine
+|MIsO
+|Best
+|Shuttle |p7link=Shuttle_(Player)
+|Sacsri
+|Horang2
+|Soulkey
+|PianO 
+|HiyA 
+}}
+}}
+{{note|1|{{InlinePlayer|1=Rain|flag=kr|link=Rain|faction=p}} was unable to participate due to injury. {{InlinePlayer|1=Action|flag=kr|link=Action|faction=z}} won the Ro16 seed vacated by Rain via [[AfreecaTV StarCraft League Remastered/14/Qualifiers/Wild Card|Wild Card Qualifier]]}}
+
+===Prize Pool===
+{{prize pool start
+|localcurrency=KRW
+|disable_teams=true
+}}
+{{prize pool slot|place=1|localprize=30000000}}
+{{prize pool slot|place=2|localprize=10000000}}
+{{prize pool slot|place=3|localprize=5000000}}
+{{prize pool slot|place=4|localprize=3000000}}
+{{prize pool slot|place=5-8|localprize=2000000}}
+{{prize pool slot|place=9-12|localprize=1500000}}
+{{prize pool slot|place=13-16|localprize=1500000}}
+{{prize pool slot|place=17-22|localprize=1000000}}
+{{prize pool slot|place=23-28|localprize=1000000}}
+{{LegacyPrizePoolEnd|}}
+
+===Maps===
+{{MapPoolTable}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=StarCast TV English Commentator
+|b1=Nyoken
+|b2=Scan
+}}
+{{BroadcasterCard
+|position=StarCast TV Spanish Commentator
+|b1=Deathfate  |b1name=Juan Bayona |b1flag=es
+|b2=YuSC
+|b3=Dipa |b3name=Julián Di Pace Herrera |b3flag=ar
+|b4=Remastr TV |b4name=Jan S. |b4flag=pe
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL14R24GA
+|title=Group A
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/597773-asl14-ro24-preview-pt1-long-awaited
+|lrthread=https://tl.net/forum/bw-tournaments/597774-asl14-ro24-group-a
+|vod1=https://www.youtube.com/watch?v=Cl2MHjmGBLk
+|vod2=https://vod.afreecatv.com/player/90706334
+|vod3=https://www.youtube.com/watch?v=qxgdkWBeg6U
+|vod4=https://www.youtube.com/watch?v=EwrDqy9_z7Y
+|p1=Mini |temp_tie1=0.4
+|p2=PianO |temp_tie2=0.3
+|p3=Best |temp_tie3=0.2
+|p4=Sacsri |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R24GA|attached=true|title=Group A Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2022-08-09 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|PianO}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-09 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M3={{Match
+    |date=2022-08-09 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|Best}}
+    |map1={{Map|map=Allegro|winner=2}}
+    |veto1=Odyssey|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-09 20:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|PianO}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=Allegro|winner=2}}
+    |veto1=Odyssey|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-08-09 21:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+    |veto1=Vermeer SE|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL14R24GB
+|title=Group B
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/597773-asl14-ro24-preview-pt1-long-awaited
+|lrthread=https://tl.net/forum/bw-tournaments/597825-asl14-ro24-group-b
+|vod1=https://www.youtube.com/watch?v=14npi5CuG50
+|vod2=https://vod.afreecatv.com/player/90745390
+|vod3=https://www.youtube.com/watch?v=tJUe7xvU0mA
+|vod4=https://www.youtube.com/watch?v=--gyvyxjGOc
+|p1=hero |temp_tie1=0.4
+|p2=ggaemo |temp_tie2=0.3
+|p3=Shuttle |temp_tie3=0.2
+|p4=BarrackS |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R24GB|attached=true|title=Group B Matches|collapsed=true
+|M1={{Match
+    |date=2022-08-10 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|ggaemo}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-10 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shuttle}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Butter|winner=2}}
+}}
+|M3={{Match
+    |date=2022-08-10 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Odyssey|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-10 20:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|ggaemo}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=Odyssey|winner=2}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-08-10 21:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|BarrackS}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=Nemesis (ASL)|winner=1}}
+    |veto1=Neo Sylphid|vetoplayer1=1
+    |veto2=Vermeer SE|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL14R24GC
+|title=Group C
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/597773-asl14-ro24-preview-pt1-long-awaited
+|lrthread=https://tl.net/forum/bw-tournaments/597891-asl14-ro24-group-c
+|vod1=https://www.youtube.com/watch?v=Fvc0uB0Emnc
+|vod2=https://vod.afreecatv.com/player/90784890
+|vod3=https://www.youtube.com/watch?v=9j27nU-CV4Q
+|vod4=https://www.youtube.com/watch?v=4jDWfHG-oMQ
+|p1=ZerO |temp_tie1=0.4
+|p2=MIsO |temp_tie2=0.3
+|p3=Sharp |temp_tie3=0.2
+|p4=RoyaL |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R24GC|attached=true|title=Group C Matches|collapsed=true
+|M1={{Match
+    |date=2022-08-11 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|MIsO}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-11 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Sharp}}
+    |opponent2={{1Opponent|RoyaL}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M3={{Match
+    |date=2022-08-11 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Sharp}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |veto1=Odyssey|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-11 20:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|MIsO}}
+    |opponent2={{1Opponent|RoyaL}}
+    |map1={{Map|map=Odyssey|winner=2}}
+    |veto1=Allegro|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-08-11 21:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Sharp}}
+    |opponent2={{1Opponent|RoyaL}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |veto1=Nemesis (ASL)|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL14R24GD
+|title=Group D
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/598107-asl14-ro24-preview-pt2-speedrunning
+|lrthread=https://tl.net/forum/bw-tournaments/598108-asl14-ro24-group-d
+|vod1=https://www.youtube.com/watch?v=gmnLoTQ4mDQ
+|vod2=https://vod.afreecatv.com/player/90977809
+|vod3=https://www.youtube.com/watch?v=eWzbcRldECk
+|vod4=https://www.youtube.com/watch?v=STcddKLqxes
+|p1=Soulkey |temp_tie1=0.4
+|p2=DDasik |temp_tie2=0.3
+|p3=JyJ |temp_tie3=0.2
+|p4=sSak |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R24GD|attached=true|title=Group D Matches|collapsed=true
+|M1={{Match
+    |date=2022-08-16 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|DDasik}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-16 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|JyJ}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Butter|winner=2}}
+}}
+|M3={{Match
+    |date=2022-08-16 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Neo Arkanoid|winner=1}}
+    |veto1=Odyssey|vetoplayer1=1
+    |veto2=Odyssey|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-16 20:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|DDasik}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Allegro|winner=2}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-08-16 21:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|sSak}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Vermeer|winner=1}}
+    |veto1=Neo Sylphid|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=ASL14R24GE
+|title=Group E
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/598107-asl14-ro24-preview-pt2-speedrunning
+|lrthread=https://tl.net/forum/bw-tournaments/598177-asl14-ro24-group-e
+|vod1=https://www.youtube.com/watch?v=5Bj_yG7jwX8
+|vod2=https://vod.afreecatv.com/player/91015459
+|vod3=https://www.youtube.com/watch?v=o_ST9WKaFWA
+|vod4=https://www.youtube.com/watch?v=StLsc27XiBk
+|p1=SnOw |temp_tie1=0.4
+|p2=HiyA |temp_tie2=0.3
+|p3=Shine |temp_tie3=0.2
+|p4=Jaedong |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R24GE|attached=true|title=Group E Matches|collapsed=true
+|M1={{Match
+    |date=2022-08-17 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|SnOw}}
+    |opponent2={{1Opponent|HiyA}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-17 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M3={{Match
+    |date=2022-08-17 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|SnOw}}
+    |opponent2={{1Opponent|Shine}}
+    |map1={{Map|map=Odyssey|winner=1}}
+    |veto1=Allegro|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-17 20:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|HiyA}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Neo Arkanoid|winner=2}}
+    |veto1=Odyssey|vetoplayer1=1
+    |veto2=Odyssey|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-08-17 21:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+    |veto1=Vermeer|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=ASL14R24GF
+|title=Group F
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/598107-asl14-ro24-preview-pt2-speedrunning
+|lrthread=https://tl.net/forum/bw-tournaments/598266-asl14-ro24-group-f
+|vod1=https://www.youtube.com/watch?v=GTXcGapaRCc
+|vod2=https://vod.afreecatv.com/player/91054365
+|vod3=https://www.youtube.com/watch?v=gkqrG91_A08
+|vod4=https://www.youtube.com/watch?v=ijRmA2-W3nA
+|p1=Rush |temp_tie1=0.4
+|p2=free |temp_tie2=0.3
+|p3=Mong |temp_tie3=0.2
+|p4=Horang2 |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R24GF|attached=true|title=Group F Matches|collapsed=true
+|M1={{Match
+    |date=2022-08-18 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|free}}
+    |map1={{Map|map=Butter|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-18 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mong}}
+    |opponent2={{1Opponent|Horang2}}
+    |map1={{Map|map=Butter|winner=2}}
+}}
+|M3={{Match
+    |date=2022-08-18 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|Horang2}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |veto1=Odyssey|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-18 20:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|free}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=Allegro|winner=2}}
+    |veto1=Odyssey|vetoplayer1=2
+    |veto2=Neo Arkanoid|vetoplayer2=1
+}}
+|M5={{Match
+    |date=2022-08-18 21:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Horang2}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=Vermeer|winner=2}}
+    |veto1=Nemesis (ASL)|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony was held on {{countdown|date=2022-08-23 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}.''
+[https://vod.afreecatv.com/player/91239402 VOD]
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL14R16GA
+|title=Group A
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/598946-asl14-ro16-preview-pt1-the-thrills
+|lrthread=https://tl.net/forum/bw-tournaments/598947-asl14-ro16-group-a
+|vod1=https://vod.afreecatv.com/player/91509241
+|vod2=https://www.youtube.com/watch?v=UFLNgvGq5nQ
+|vod3=https://www.youtube.com/watch?v=G8HjDaI2irE
+|vod4=https://www.youtube.com/watch?v=ELitMr1MM6c
+|p1=Light |temp_tie1=0.4
+|p2=BarrackS |temp_tie2=0.3
+|p3=Mong |temp_tie3=0.2
+|p4=Shine |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R16GA|attached=true|title=Group A Matches|collapsed=true
+|M1={{Match
+    |date=2022-08-30 19:10 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Vermeer SE|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-30 19:45 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mong}}
+    |opponent2={{1Opponent|Shine}}
+    |map1={{Map|map=Vermeer SE|winner=2}}
+}}
+|M3={{Match|bestof=3
+    |date=2022-08-30 20:20 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Shine}}
+    |map1={{Map|map=Butter|winner=2}}
+    |map2={{Map|map=Odyssey|winner=1}}
+    |map3={{Map|map=Neo Sylphid|winner=1}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-30 21:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|BarrackS}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=Butter|winner=1}}
+    |map2={{Map|map=Nemesis (ASL)|winner=2}}
+    |map3={{Map|map=Neo Sylphid|winner=1}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Odyssey|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-08-30 22:10 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Odyssey|winner=2}}
+    |map2={{Map|map=Nemesis (ASL)|winner=1}}
+    |map3={{Map|map=Butter|winner=1}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL14R16GB
+|title=Group B
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/598946-asl14-ro16-preview-pt1-the-thrills
+|lrthread=https://tl.net/forum/bw-tournaments/599027-asl14-ro16-group-b
+|vod1=https://vod.afreecatv.com/player/91550613
+|vod2=https://www.youtube.com/watch?v=PqsXjzC0eFk
+|vod3=https://www.youtube.com/watch?v=bnES__V5be8
+|vod4=https://www.youtube.com/watch?v=cf4oXsZEhGk
+|p1=Bisu |temp_tie1=0.4
+|p2=sSak |temp_tie2=0.3
+|p3=Rush |temp_tie3=0.2
+|p4=Best |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R16GB|attached=true|title=Group B Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2022-08-31 19:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Vermeer SE|winner=1}}
+}}
+|M2={{Match
+    |date=2022-08-31 19:35 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|Best}}
+    |map1={{Map|map=Vermeer SE|winner=2}}
+}}
+|M3={{Match|bestof=3
+    |date=2022-08-31 20:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|Best}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=Butter|winner=1}}
+    |map3={{Map|map=Allegro|winner=1}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-08-31 20:40 {{Abbr/KST}}
+    |opponent1={{1Opponent|sSak}}
+    |opponent2={{1Opponent|Rush}}
+    |map1={{Map|map=Odyssey|winner=2}}
+    |map2={{Map|map=Butter|winner=2}}
+    |map3={{Map|map=Nemesis (ASL)|finished=skip}}
+    |veto1=Neo Arkanoid|vetoplayer1=2
+    |veto2=Neo Sylphid|vetoplayer2=1
+}}
+|M5={{Match
+    |date=2022-08-31 21:20 {{Abbr/KST}}
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Rush}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+    |map2={{Map|map=Butter|winner=2}}
+    |map3={{Map|map=Nemesis (ASL)|winner=2}}
+    |veto1=Odyssey|vetoplayer1=2
+    |veto2=Neo Arkanoid|vetoplayer2=1
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL14R16GC
+|title=Group C
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/599399-asl14-ro16-preview-pt2-death-groups
+|lrthread=https://tl.net/forum/bw-tournaments/599427-asl14-ro16-group-c
+|vod1=https://vod.afreecatv.com/player/91817134
+|vod2=https://www.youtube.com/watch?v=qPD1TYnJH5s
+|vod3=https://www.youtube.com/watch?v=y85LiLlbjjU
+|vod4=https://www.youtube.com/watch?v=KiHj6H688J0
+|p1=soma |temp_tie1=0.4
+|p2=SnOw |temp_tie2=0.3
+|p3=ZerO |temp_tie3=0.2
+|p4=Soulkey |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R16GC|attached=true|title=Group C Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2022-09-06 19:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|SnOw}}
+    |map1={{Map|map=Vermeer SE|winner=2}}
+}}
+|M2={{Match
+    |date=2022-09-06 19:40 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Vermeer SE|winner=1}}
+}}
+|M3={{Match|bestof=3
+    |date=2022-09-06 20:10 {{Abbr/KST}}
+    |opponent1={{1Opponent|SnOw}}
+    |opponent2={{1Opponent|ZerO}}
+    |map1={{Map|map=Neo Arkanoid|winner=2}}
+    |map2={{Map|map=Nemesis (ASL)|winner=1}}
+    |map3={{Map|map=Odyssey|winner=1}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2022-09-06 21:05 {{Abbr/KST}}
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Butter|winner=1}}
+    |map2={{Map|map=Nemesis (ASL)|winner=2}}
+    |map3={{Map|map=Neo Sylphid|winner=2}}
+    |veto1=Neo Arkanoid|vetoplayer1=1
+    |veto2=Neo Arkanoid|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-09-06 21:45 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Nemesis (ASL)|winner=2}}
+    |map2={{Map|map=Odyssey|winner=2}}
+    |map3={{Map|map=Neo Sylphid|finished=skip}}
+    |veto1=Allegro|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL14R16GD
+|title=Group D
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/599399-asl14-ro16-preview-pt2-death-groups
+|lrthread=https://tl.net/forum/bw-tournaments/599497-asl14-ro16-group-d
+|vod1=https://vod.afreecatv.com/player/91855436
+|vod2=https://www.youtube.com/watch?v=hUuabLzqZME
+|vod3=https://www.youtube.com/watch?v=dnxHduoPHQM
+|vod4=https://www.youtube.com/watch?v=5WWBLvVtdtw
+|p1=Action |temp_tie1=0.4
+|p2=RoyaL |temp_tie2=0.3
+|p3=hero |temp_tie3=0.2
+|p4=Mini |temp_tie4=0.1
+}}
+{{Matchlist|id=ASL14R16GD|attached=true|title=Group D Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2022-09-07 19:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|RoyaL}}
+    |map1={{Map|map=Vermeer SE|winner=2}}
+}}
+|M2={{Match
+    |date=2022-09-07 19:40 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|Mini}}
+    |map1={{Map|map=Vermeer SE|winner=1}}
+}}
+|M3={{Match|bestof=3
+    |date=2022-09-07 20:10 {{Abbr/KST}}
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|hero}}
+    |map1={{Map|map=Butter|winner=1}}
+    |map2={{Map|map=Nemesis (ASL)|winner=1}}
+    |map3={{Map|map=Allegro|finished=skip}}
+    |veto1=Neo Arkanoid|vetoplayer1=2
+    |veto2=Odyssey|vetoplayer2=1
+}}
+|M4={{Match
+    |date=2022-09-07 20:35 {{Abbr/KST}}
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|Mini}}
+    |map1={{Map|map=Neo Arkanoid|winner=2}}
+    |map2={{Map|map=Odyssey|winner=2}}
+    |map3={{Map|map=Nemesis (ASL)|finished=skip}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2022-09-07 21:10 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|Mini}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=Nemesis (ASL)|winner=1}}
+    |map3={{Map|map=Neo Arkanoid|winner=1}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+{{bracket|Bracket/8|id=ASL14R08PO
+|R1M1header=Quarterfinals ({{Bo|5}})
+|R2M1header=Semifinals ({{Bo|7}})
+|R3M1header=Finals ({{Bo|7}})
+
+<!-- Quarter-Finals -->
+|R1M1={{Match|bestof=5
+    |date=2022-09-13 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|Shine}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |map2={{Map|map=Neo Arkanoid|winner=1}}
+    |map3={{Map|map=Vermeer|winner=1}}
+    |map4={{Map|map=Odyssey|finished=skip}}
+    |map5={{Map|map=Nemesis (ASL)|finished=skip}}
+    |comment=[[RoyaL]] Picked Maps Set 1,3
+                 [[Shine]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/599885-asl14-ro8-preview-pt1-the-hard-part
+    |lrthread=https://tl.net/forum/bw-tournaments/599897-asl14-ro8-day-1
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92087253
+    |vodgame2=https://www.youtube.com/watch?v=a9lIHOTKcF8
+    |vodgame3=https://www.youtube.com/watch?v=w6MT14G4ryk
+	|vodgame4=https://www.youtube.com/watch?v=nfB8hMK-pY0
+}}
+|R1M2={{Match
+    |date=2022-09-14 - 19:10 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Butter|winner=2}}
+    |map2={{Map|map=Vermeer|winner=1}}
+    |map3={{Map|map=Nemesis (ASL)|winner=2}}
+    |map4={{Map|map=Neo Sylphid|winner=1}}
+    |map5={{Map|map=Odyssey|winner=2}}
+    |comment=[[Bisu]] Picked Maps Set 1,3
+                 [[Soulkey]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/599885-asl14-ro8-preview-pt1-the-hard-part
+    |lrthread=https://tl.net/forum/bw-tournaments/599967-asl14-ro8-day-2
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92130357
+    |vodgame2=https://www.youtube.com/watch?v=6jlkEuTFGxc
+    |vodgame3=https://www.youtube.com/watch?v=gIOOf4l3vyc
+	|vodgame4=https://www.youtube.com/watch?v=kRGA__DJwC4
+}}
+|R1M3={{Match
+    |date=2022-09-20 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Rush}}
+    |map1={{Map|map=Butter|winner=1}}
+    |map2={{Map|map=Allegro|winner=2}}
+    |map3={{Map|map=Odyssey|winner=1}}
+    |map4={{Map|map=Vermeer|winner=2}}
+    |map5={{Map|map=Nemesis (ASL)|winner=2}}
+    |comment=[[Light]] Picked Maps Set 1,3
+                 [[Rush]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/600284-asl14-ro8-preview-pt2-vacant-throne
+    |lrthread=https://tl.net/forum/bw-tournaments/600291-asl14-ro8-day-3
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92375518
+    |vodgame2=https://www.youtube.com/watch?v=zeiXy50w3rE
+    |vodgame3=https://www.youtube.com/watch?v=ZZjyCEeLDSk
+	|vodgame4=https://www.youtube.com/watch?v=owLoDa_I2V8
+}}
+|R1M4={{Match
+    |date=2022-09-21 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|SnOw}}
+    |opponent2={{1Opponent|hero}}
+    |map1={{Map|map=Odyssey|winner=2}}
+    |map2={{Map|map=Allegro|winner=2}}
+    |map3={{Map|map=Nemesis (ASL)|winner=2}}
+    |map4={{Map|map=Vermeer|finished=skip}}
+    |map5={{Map|map=Neo Arkanoid|finished=skip}}
+    |comment=[[SnOw]] Picked Maps Set 1,3
+                 [[hero]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/600284-asl14-ro8-preview-pt2-vacant-throne
+    |lrthread=https://tl.net/forum/bw-tournaments/600381-asl14-ro8-day-4
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92413870
+    |vodgame2=https://www.youtube.com/watch?v=YemEwiXMbdo
+    |vodgame3=https://www.youtube.com/watch?v=AwABTn1Zkek
+	|vodgame4=https://www.youtube.com/watch?v=WoFuH4sLf8Y
+}}
+
+<!-- Semi-Finals -->
+|R2M1={{Match|bestof=7
+    |date=2022-09-27 - 19:20 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Neo Arkanoid|winner=2}}
+    |map2={{Map|map=Nemesis (ASL)|winner=1}}
+    |map3={{Map|map=Vermeer|winner=1}}
+    |map4={{Map|map=Allegro|winner=2}}
+    |map5={{Map|map=Odyssey|winner=1}}
+    |map6={{Map|map=Neo Sylphid|winner=2}}
+    |map7={{Map|map=Butter|winner=1}}
+    |comment=[[RoyaL]] Picked Maps Set 2,4,6
+                 [[Soulkey]] Picked Maps Set 1,3,5
+    |preview=https://tl.net/forum/brood-war/600692-asl14-ro4-preview-the-best-matchup
+    |lrthread=https://tl.net/forum/bw-tournaments/600693-asl14-ro4-day-1
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92656826
+    |vodgame2=https://www.youtube.com/watch?v=gYFKTINvULA
+    |vodgame3=https://www.youtube.com/watch?v=SvnFInHU13A
+	|vodgame4=https://www.youtube.com/watch?v=ZSRQ6iTQ4cI
+}}
+|R2M2={{Match
+    |date=2022-09-28 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|hero}}
+    |map1={{Map|map=Odyssey|winner=2}}
+    |map2={{Map|map=Allegro|winner=1}}
+    |map3={{Map|map=Neo Arkanoid|winner=1}}
+    |map4={{Map|map=Vermeer|winner=2}}
+    |map5={{Map|map=Nemesis (ASL)|winner=2}}
+    |map6={{Map|map=Butter|winner=1}}
+    |map7={{Map|map=Neo Sylphid|winner=1}}
+    |comment=[[Rush]] Picked Maps Set 2,4,6
+                 [[hero]] Picked Maps Set 1,3,5
+    |preview=https://tl.net/forum/brood-war/600692-asl14-ro4-preview-the-best-matchup
+    |lrthread=https://tl.net/forum/bw-tournaments/600758-asl14-ro4-day-2
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92690956
+    |vodgame2=https://www.youtube.com/watch?v=OKUKzB43E2o
+    |vodgame3=https://www.youtube.com/watch?v=T9AXvBVMBXY
+	|vodgame4=https://www.youtube.com/watch?v=0rf222ydgO8
+}}
+
+<!-- Final -->
+|R3M1={{Match
+    |date=2022-10-08 - 17:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|Rush}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |map2={{Map|map=Neo Arkanoid|winner=2}}
+    |map3={{Map|map=Vermeer|winner=1}}
+    |map4={{Map|map=Odyssey|winner=1}}
+    |map5={{Map|map=Neo Sylphid|winner=2}}
+    |map6={{Map|map=Nemesis (ASL)|winner=1}}
+    |map7={{Map|map=Butter|finished=skip}}
+    |comment=[[RoyaL]] Picked Maps Set 2,4,6
+                 [[Rush]] Picked Maps Set 1,3,5
+    |preview=https://tl.net/forum/brood-war/601347-asl14-finals-preview-legacy
+    |lrthread=https://tl.net/forum/bw-tournaments/601348-asl14-grand-finals
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/93088916
+    |vodgame2=https://www.youtube.com/watch?v=t_XB0yxSyZo
+    |vodgame3=https://www.youtube.com/watch?v=Iv4I6WqLlYE
+	|vodgame4=https://www.youtube.com/watch?v=_6DT1mg6lVY
+}}
+|RxMTP={{Match|bestof=5
+    |date=2022-10-02 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|hero}}
+    |map1={{Map|map=Butter|winner=1}}
+    |map2={{Map|map=Odyssey|winner=1}}
+    |map3={{Map|map=Vermeer|winner=2}}
+    |map4={{Map|map=Nemesis (ASL)|winner=2}}
+    |map5={{Map|map=Neo Arkanoid|winner=1}}
+    |comment=[[Soulkey]] Picked Maps Set 1,3
+                 [[hero]] Picked Maps Set 2,4
+    |preview=
+    |lrthread=
+    |recap=
+    |vodgame1=https://vod.afreecatv.com/player/92840326
+    |vodgame2=https://www.youtube.com/watch?v=Ff-3dA77Xow
+    |vodgame3=https://www.youtube.com/watch?v=_-eoqJEBDAc
+	|vodgame4=https://www.youtube.com/watch?v=QbWeETxK7-A
+}}
+}}
+
+==Racial distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean] at Afreecatv.com
+* {{Flag|usuk}} [http://play.afreecatv.com/dth03119 Livestream in English] at Afreecatv.com
+* {{Flag|esmx}} [http://play.afreecatv.com/basic0020512 Livestream in Spanish] at Afreecatv.com
+
+===VODS===
+* {{Flag|kr}} [https://bj.afreecatv.com/afstar1/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|usuk}} [https://bj.afreecatv.com/dth03119/vods Spoiler-free English AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|esmx}} [https://bj.afreecatv.com/basic0020512/vods Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://sc2casts.com/event1321-2022-Afreeca-Starleague-S14 Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+* {{Flag|usuk}} [ Spoiler-free VODs on SC2Links.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|us}} [https://tl.net/forum/brood-war/596333-asl14-to-start-on-august-9 ASL Season 14 announcement]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/90234292 afreecatv.com - ASL Season 14 Round of 24 announcement]
+*{{Flag|kr}} [https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C14 ASL Season 14 in namu.wiki]
+*{{Flag|kr}} [https://910map.tistory.com/category/ASL/ASL%20%EC%8B%9C%EC%A6%8C%2014 ASL Season 14 map pool]
+
+[[Category:Post-KeSPA Tournaments]]

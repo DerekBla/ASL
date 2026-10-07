@@ -1,0 +1,885 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 7}}
+{{AfreecaTV_Starleague_Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=2019 AfreecaTV Starleague Season 7
+|name2=Qualifier
+|link2=2019 AfreecaTV Starleague Season 7/Qualifier
+|name3=Tournament Statistics
+|link3=2019 AfreecaTV Starleague Season 7/Tournament Statistics
+|this=1}}
+{{Infobox league
+|name=ASL Season 7
+|image=Afreeca_Starleague_banner.jpg
+|icon=ASL_icon.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=AfreecaTV StarCraft League Remastered
+|organizer=AfreecaTV
+|sponsor=olleh tv
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=80,000,000
+|prizepoolusd={{formatnum:{{#expr:{{#currencyexchange:80000000|KRW|USD|2019-03-17}}round 0}}}}
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2019-01-13
+|edate=2019-03-17
+|patch=Patch 1.22
+|epatch=
+|edition=7th
+|web=https://starleague.kr/
+|afreeca=afstar1
+|youtube=AfreecaTV_Live
+|idfirst=Last   |racefirst=t  |flagfirst=kr
+|idsecond=Mini  |racesecond=p |flagsecond=kr
+|idthird=EffOrt |racethird=z  |flagthird=kr
+|idfourth=Rain  |racefourth=p |flagfourth=kr
+|player_number=28
+|protoss_number=7
+|terran_number=11
+|zerg_number=10
+|map1=Block Chain
+|map2=Whiteout
+|map3=Neo Sylphid
+|map4=Match Point
+|previous=AfreecaTV Starleague Season 6{{!}}ASL Season 6
+|next=AfreecaTV Starleague Season 8{{!}}ASL Season 8
+|liquipediatier=1
+}}
+{{TOClimit}}
+==Overview==
+The '''AfreecaTV Starleague Season 7''' (아프리카TV 스타리그 시즌7) or '''AfreecaTV StarCraft League Remastered Season 7''', was an offline tournament organized and broadcast live on [[AfreecaTV]]. Qualifiers started in '''Seoul''' on 2019-01-05.<br>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=Yb5yqHz3i1Q</embedvideo>
+
+==Tournament Information==
+===Participants===
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:130px;text-align:center;" | '''{{p}} Protoss ''(7)''
+|class="{{RaceColor2|t}}" style="width:130px;text-align:center;" | '''{{t}} Terran ''(11)''
+|class="{{RaceColor2|z}}" style="width:130px;text-align:center;" | '''{{z}} Zerg ''(10)''
+|-
+!colspan="3" style="text-align:center;" |From '''[[AfreecaTV Starleague Season 6]]'''
+|----
+|'''{{InlinePlayer|1=Shuttle|flag=kr|link=Shuttle (Player)|faction=u}} <sup>1</sup>'''
+|'''{{InlinePlayer|1=Flash|flag=kr|link=Flash|faction=u}} <sup>2</sup>'''
+|'''{{InlinePlayer|1=EffOrt|flag=kr|link=EffOrt|faction=u}}'''
+|----
+|'''{{InlinePlayer|1=Mini|flag=kr|link=Mini|faction=u}} <sup>3</sup>'''
+|'''{{InlinePlayer|1=Last|flag=kr|link=Last|faction=u}} '''
+|{{emdash}}
+|----
+|{{emdash}}
+|'''{{InlinePlayer|1=Sharp|flag=kr|link=Sharp|faction=u}} <sup>3</sup>'''
+|{{emdash}}
+|----
+!colspan="3" style="text-align:center;" |From '''[[2019 AfreecaTV Starleague Season 7/Qualifier/1|Seoul qualifier]]'''
+|----
+|'''{{InlinePlayer|1=Rain|flag=kr|link=Rain|faction=u}}
+|'''{{InlinePlayer|1=NaDa|flag=kr|link=NaDa|faction=u}}
+|'''{{InlinePlayer|1=Modesty|flag=kr|link=Modesty|faction=u}}
+|----
+|'''{{InlinePlayer|1=GuemChi|flag=kr|link=GuemChi|faction=u}}
+|'''{{InlinePlayer|1=Mind|flag=kr|link=Mind|faction=u}}
+|'''{{InlinePlayer|1=Sacsri|flag=kr|link=Sacsri|faction=u}}
+|----
+|'''{{InlinePlayer|1=Snow|flag=kr|link=SnOw|faction=u}}
+|'''{{InlinePlayer|1=ByuL|flag=kr|link=ByuL|faction=u}}
+|'''{{InlinePlayer|1=ZeLoT|flag=kr|link=ZeLoT|faction=u}}
+|----
+|{{emdash}}
+|{{emdash}}
+|'''{{InlinePlayer|1=ggaemo|flag=kr|link=Ggaemo|faction=u}}
+|----
+|{{emdash}}
+|{{emdash}}
+|'''{{InlinePlayer|1=Action|flag=kr|link=Action|faction=u}}
+|----
+|{{emdash}}
+|{{emdash}}
+|'''{{InlinePlayer|1=Soulkey|flag=kr|link=Soulkey|faction=u}}
+|----
+!colspan="3" style="text-align:center;" |From '''[[2019 AfreecaTV Starleague Season 7/Qualifier/2|Jeonju qualifier]]'''
+|----
+|'''{{InlinePlayer|1=Best|flag=kr|link=Best|faction=u}}
+|'''{{InlinePlayer|1=JyJ|flag=kr|link=JyJ|faction=u}}
+|'''{{InlinePlayer|1=Larva|flag=kr|link=Larva (Player)|faction=u}}
+|----
+|'''{{InlinePlayer|1=Horang2|flag=kr|link=Horang2|faction=u}}
+|'''{{InlinePlayer|1=Tinkle|flag=kr|link=Tinkle|faction=u}}
+|'''{{InlinePlayer|1=MIsO|flag=kr|link=MIsO|faction=u}}
+|----
+!colspan="3" style="text-align:center;" |From '''[[2019 AfreecaTV Starleague Season 7/Qualifier/3|Busan qualifier]]'''
+|----
+|'''{{InlinePlayer|1=Tyson|flag=kr|link=Tyson|faction=u}}
+|'''{{InlinePlayer|1=PianO|flag=kr|link=PianO|faction=u}}
+|'''{{InlinePlayer|1=Calm|flag=kr|link=Calm|faction=u}}
+|----
+|{{emdash}}
+|'''{{InlinePlayer|1=Light|flag=kr|link=Light|faction=u}}
+|{{emdash}}
+|----
+|{{emdash}}
+|'''{{InlinePlayer|1=Rush|flag=kr|link=Rush|faction=u}}
+|{{emdash}}
+|----
+|{{emdash}}
+|'''{{InlinePlayer|1=Mong|flag=kr|link=Mong|faction=u}}
+|{{emdash}}
+|----
+|}
+<sup>'''1'''</sup> [[Shuttle (Player){{!}}Shuttle]] cannot attend due to his mandatory military service.<br>
+<sup>'''2'''</sup> [[Flash]] chose to not attend due to wrist problems.<br>
+<sup>'''3'''</sup> [[Mini]] and [[Sharp]] gain their seeds through the wild card qualifiers.
+
+===Prize Pool===
+{{prize pool start|localcurrency=krw |disable_teams=true}}
+{{prize pool slot|place=1|usdprize={{formatnum:{{#expr:{{#currencyexchange:30000000|KRW|USD|2019-03-17}}round 0}}}} |localprize=30,000,000
+|Last |flag1=kr |race1=t |lastvs1=Mini |lastscore1=3 |lastvsscore1=1 |lastvsrace1=p |lastvsflag1=kr |date1=2019-03-17
+}}
+{{prize pool slot|place=2|usdprize={{formatnum:{{#expr:{{#currencyexchange:10000000|KRW|USD|2019-03-17}}round 0}}}} |localprize=10,000,000
+|Mini |flag1=kr |race1=p |lastvs1=Last |lastscore1=1 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr |date1=2019-03-17
+}}
+{{prize pool slot|place=3|usdprize={{formatnum:{{#expr:{{#currencyexchange:5000000|KRW|USD|2019-03-10}}round 0}}}} |localprize=5,000,000
+|EffOrt |flag1=kr |race1=z |lastvs1=Rain |lastscore1=3 |lastvsscore1=0 |lastvsrace1=p |lastvsflag1=kr |date1=2019-03-10
+}}
+{{prize pool slot|place=4|usdprize={{formatnum:{{#expr:{{#currencyexchange:3000000|KRW|USD|2019-03-10}}round 0}}}} |localprize=3,000,000
+|Rain |flag1=kr |race1=p |lastvs1=EffOrt |lastscore1=0 |lastvsscore1=3 |lastvsrace1=z |lastvsflag1=kr |date1=2019-03-10
+}}
+{{prize pool slot|place=5-8|usdprize={{formatnum:{{#expr:{{#currencyexchange:2000000|KRW|USD|2019-02-27}}round 0}}}}|localprize=2,000,000
+|Calm |flag1=kr |race1=z |lastvs1=Mini |lastscore1=1 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr |date1=2019-02-23
+|Mind |flag2=kr |race2=t |lastvs2=EffOrt |lastscore2=1 |lastvsscore2=3 |lastvsrace2=z |lastvsflag2=kr |date2=2019-02-24
+|Sharp |flag3=kr |race3=t |lastvs3=Last |lastscore3=2 |lastvsscore3=3 |lastvsrace3=t |lastvsflag3=kr |date3=2019-02-26
+|Horang2 |flag4=kr |race4=p |lastvs4=Rain |lastscore4=0 |lastvsscore4=3 |lastvsrace4=p |lastvsflag4=kr |date4=2019-02-27
+}}
+{{prize pool slot|place=9-12|usdprize={{formatnum:{{#expr:{{#currencyexchange:1500000|KRW|USD|2019-02-19}}round 0}}}}|localprize=1,500,000
+|GuemChi |flag1=kr |race1=p |wdl1=1-2 |date1=2019-02-10
+|Snow |flag2=kr |race2=p |wdl2=1-2 |date2=2019-02-12
+|BeSt |flag3=kr |race3=p |wdl3=1-2 |date3=2019-02-17
+|Larva (Player){{!}}Larva |flag4=kr |race4=z |wdl4=1-2 |date4=2019-02-19
+}}
+{{prize pool slot|place=13-16|usdprize={{formatnum:{{#expr:{{#currencyexchange:1500000|KRW|USD|2019-02-19}}round 0}}}}|localprize=1,500,000
+|PianO |flag1=kr |race1=t |wdl1=0-2 |date1=2019-02-10
+|Neo.G_Soulkey{{!}}Soulkey |flag2=kr |race2=z |wdl2=0-2 |date2=2019-02-12
+|Modesty |flag3=kr |race3=z |wdl3=0-2 |date3=2019-02-17
+|Sacsri |flag4=kr |race4=z |wdl4=0-2 |date4=2019-02-19
+}}
+{{prize pool slot|place=17-22|usdprize={{formatnum:{{#expr:{{#currencyexchange:1000000|KRW|USD|2019-01-29}}round 0}}}}|localprize=1,000,000
+|NaDa |flag1=kr |race1=t |wdl1=1-2 |date1=2019-01-13
+|Action |flag2=kr |race2=z |wdl2=1-2 |date2=2019-01-15
+|Mong |flag3=kr |race3=t |wdl3=1-2 |date3=2019-01-20
+|ggaemo |flag4=kr |race4=z |wdl4=1-2 |date4=2019-01-22
+|Where |flag5=kr |race5=z |wdl5=1-2 |date5=2019-01-27
+|Tyson |flag6=kr |race6=p |wdl6=1-2 |date6=2019-01-29
+}}
+{{prize pool slot|place=23-28|usdprize={{formatnum:{{#expr:{{#currencyexchange:1000000|KRW|USD|2019-01-29}}round 0}}}}|localprize=1,000,000
+|Rush |flag1=kr |race1=t |wdl1=0-2 |date1=2019-01-13
+|Tinkle |flag2=kr |race2=t |wdl2=0-2 |date2=2019-01-15
+|ZeLoT |flag3=kr |race3=z |wdl3=0-2 |date3=2019-01-20
+|Light |flag4=kr |race4=t |wdl4=0-2 |date4=2019-01-22
+|JyJ |flag5=kr |race5=t |wdl5=0-2 |date5=2019-01-27
+|ByuL |flag6=kr |race6=t |wdl6=0-2 |date6=2019-01-29
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: best-of-one
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV Starleague Season 6]]
+** [[Dual tournament]] format: best-of-one
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals through finals: best-of-five
+
+===Maps===
+{{MapPoolTable
+|map1=Block Chain|map1displayName=Block Chain
+|map2=Whiteout|map2displayName=Whiteout
+|map3=Neo Sylphid|map3displayName=Neo Sylphid
+|map4=Match Point|map4displayName=Match Point
+}}
+
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard
+|position=Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{Tabs dynamic/end}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Toggle group start|state=show}}
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=January 13, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=I216esl5toI
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/540690-asl7-ro24-group-a
+|preview=https://tl.net/forum/brood-war/540686-asl7-ro24-preview-pt1-the-genius-returns#ksl-group-a
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=Z|p1link=Larva (Player)|p1flag=kr|p1=Larva}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P|p1flag=kr|p1=Horang2}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=T|p1flag=kr|p1=NaDa}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T|p1flag=kr|p1=Rush}}
+}}
+{{Matchlist|id=1UcJSO9kfF
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=NaDa|race=t}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Rush|race=t}}
+    |opponent2={{SoloOpponent|name=Horang2|race=p}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Horang2|race=p}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=NaDa|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=NaDa|race=t}}
+    |map1={{Map|map=Match Point|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=January 15, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=ccHowdvT5SA&t
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/540759-asl7-ro24-group-b
+|preview=https://tl.net/forum/brood-war/540686-asl7-ro24-preview-pt1-the-genius-returns#ksl-group-b
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=P|p1flag=kr|p1=Snow}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=PianO}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z|p1flag=kr|p1=Action}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T|p1flag=kr|p1=Tinkle}}
+}}
+{{Matchlist|id=ouFII3Sylt
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Tinkle|race=t}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Action|race=z}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Tinkle|race=t}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Match Point|winner=2}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=January 20, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=g754dlVxdQU
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/540918-asl7-ro24-group-c
+|preview=https://tl.net/forum/brood-war/540902-asl7-ro24-preview-pt2-a-varied-lot#ksl-group-c
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=P|p1flag=kr|p1=Best}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=Z|p1flag=kr|p1=Sacsri}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=T|p1flag=kr|p1=Mong}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=Z|p1flag=kr|p1=ZeLoT}}
+}}
+{{Matchlist|id=1FUGHElQRt
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=ZeLoT|race=z}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Best|race=p}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=ZeLoT|race=z}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sacsri|race=z}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Match Point|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=January 22, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=JD9NaS-DFBU
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/541015-asl7-ro24-group-d
+|preview=https://tl.net/forum/brood-war/540902-asl7-ro24-preview-pt2-a-varied-lot#ksl-group-d
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=T|p1flag=kr|p1=Mind}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=Z|p1flag=kr|p1=Modesty}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=Z|p1flag=kr|p1=ggaemo}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T|p1flag=kr|p1=Light}}
+}}
+{{Matchlist|id=o1f4rUkrs2
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Modesty|race=z}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=ggaemo|race=z}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=ggaemo|race=z}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Modesty|race=z}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=ggaemo|race=z}}
+    |opponent2={{SoloOpponent|name=Modesty|race=z}}
+    |map1={{Map|map=Match Point|winner=2}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group E====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group E
+|width=300px
+|date=January 27, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=esUMNAigsZg
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/541229-asl7-ro24-group-e
+|preview=https://tl.net/forum/brood-war/541230-asl7-ro24-preview-pt3-the-fight-for-second#ksl-group-e
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=P|p1flag=kr|p1=Rain}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=Z|p1flag=kr|p1=Calm}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=Z|p1flag=kr|p1=Where}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T|p1flag=kr|p1=JyJ}}
+}}
+{{Matchlist|id=jxsQqpLFN8
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Rain|race=p}}
+    |opponent2={{SoloOpponent|name=JyJ|race=t}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Where|race=z}}
+    |opponent2={{SoloOpponent|name=Calm|race=z}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Rain|race=p}}
+    |opponent2={{SoloOpponent|name=Calm|race=z}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=JyJ|race=t}}
+    |opponent2={{SoloOpponent|name=Where|race=z}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Calm|race=z}}
+    |opponent2={{SoloOpponent|name=Where|race=z}}
+    |map1={{Map|map=Match Point|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group F====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group F
+|width=300px
+|date=January 29, 2019 - 17:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=WPJvTHRfknU
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/541367-asl7-ro24-group-f
+|preview=https://tl.net/forum/brood-war/541230-asl7-ro24-preview-pt3-the-fight-for-second#ksl-group-f
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=Z|p1link=Neo.G_Soulkey|p1flag=kr|p1=Soulkey}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P|p1flag=kr|p1=GuemChi}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=P|p1flag=kr|p1=Tyson}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T|p1flag=kr|p1=ByuL}}
+}}
+{{Matchlist|id=5AKgKSSiAA
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Neo.G_Soulkey|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Tyson|race=p}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=GuemChi|race=p}}
+    |opponent2={{SoloOpponent|name=ByuL|race=t}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Neo.G_Soulkey|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Tyson|race=p}}
+    |opponent2={{SoloOpponent|name=ByuL|race=t}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=GuemChi|race=p}}
+    |opponent2={{SoloOpponent|name=Tyson|race=p}}
+    |map1={{Map|map=Match Point|winner=1}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Round of 16 Group Stage===
+*Groups selections were held on January 29, 2019 - 20:00 {{Abbr/KST}}. [https://www.youtube.com/watch?v=WPJvTHRfknU&t=11646s (English VoD)] - [https://vod.afreecatv.com/PLAYER/STATION/40995857 (Korean VoD)]
+{{Toggle group start|state=show}}
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=February 10, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=WG2Ql_lZZvk
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/542152-asl7-ro16-group-a
+|preview=https://tl.net/forum/brood-war/542130-asl7-ro16-preview-pt-1-the-group-of-death#ksl-group-a
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=EffOrt}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Horang2}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=GuemChi}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=PianO}}
+}}
+{{Matchlist|id=Dh0bAhe6fd
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=Horang2|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=GuemChi|race=p}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Block Chain|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=February 12, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=SoInIC6fYR0
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/542286-asl7-ro16-group-b
+|preview=https://tl.net/forum/brood-war/542130-asl7-ro16-preview-pt-1-the-group-of-death#ksl-group-b
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Calm}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Last}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=Snow}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1link=Neo.G_Soulkey|p1flag=kr|p1=Soulkey}}
+}}
+{{Matchlist|id=hkxIzn6vFp
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=Calm|race=z}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|link=Neo.G_Soulkey|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Calm|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|link=Neo.G_Soulkey|name=Soulkey|race=z}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Last|race=t}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=February 17, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=awbSHuJ7xjk&
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/542522-asl7-ro16-group-c
+|preview=https://tl.net/forum/brood-war/542521-asl7-ro16-preview-pt-2-contenders-game#ksl-group-c
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Sharp}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Mind}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=BeSt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Modesty}}
+}}
+{{Matchlist|id=bsGCODhYfs
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Whiteout|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Modesty|race=z}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Modesty|race=z}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=February 19, 2019 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=wtNK4inJsOE
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/542675-asl7-ro16-group-d
+|preview=https://tl.net/forum/brood-war/542521-asl7-ro16-preview-pt-2-contenders-game#ksl-group-d
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Rain}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Mini}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z|p1link=Larva (Player)|p1flag=kr|p1=Larva}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Sacsri}}
+}}
+{{Matchlist|id=kqcjpVSsGx
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Sacsri|race=z}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Whiteout|winner=2}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Block Chain|winner=2}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Elimination Bracket===
+{{Bracket|Bracket/8|id=xFQ9SbMhE7
+|R1M1header=Quarterfinals (Bo5)|R2M1header=Semifinals (Bo5)|R3M1header=Finals (Bo5)|RxMTPheader=3rd Place Match (Bo5)
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Calm|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mini|race=p|score=3|win=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mind|race=t|score=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2}}
+    |opponent2={{SoloOpponent|flag=kr|name=Last|race=t|score=3|win=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rain|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Horang2|race=p|score=0}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Last|race=t|score=3|win=3}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rain|race=p|score=2}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Last|race=t|score=3|win=1}}
+}}
+<!-- Third Place Match -->
+|RxMTP={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rain|race=p|score=0}}
+}}
+}}
+
+==Racial Distribution==
+{{RaceDist|title=Round of 24   |protoss=7|terran=11|zerg=10|nyd=0|first=1}}
+{{RaceDist|title=Round of 16   |protoss=6|terran=4|zerg=6}}
+{{RaceDist|title=Quarterfinals |protoss=3|terran=3|zerg=2}}
+{{RaceDist|title=Semifinals    |protoss=2|terran=1|zerg=1}}
+{{RaceDist|title=Finals        |protoss=1|terran=1}}
+{{RaceDist|title=Winner        |terran=1|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean on Afreeca.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish Livestream in English on Afreeca.com]
+===VODS===
+* {{Flag|usuk}} [https://www.youtube.com/channel/UCK5eBtuoj_HkdXKHNmBLAXg AfreecaTV YouTube channel with VODS in Korean and English]
+* [https://www.sc2links.com/tournament/?match=591 Spoiler-free VODs on SC2Links.com]
+* {{Flag|usuk}} [https://sc2casts.com/event1022-2019-Starcraft-1-ASL-S7 Spoiler-Free Official YouTube VODs] at SC2Casts.com
+* [https://spoilerfreevods.com/tournaments/1/118 Watch Spoiler-free at Spoilerfreevods.com]
+
+==Gallery==
+{{col}}
+{{#ev:youtube|eQxjMW_kCGg|356}}
+{{col-break}}
+{{#ev:youtube|l1DqKDc2wDE|356}}
+{{endCol}}
+
+==References==
+
+[[Category:Post-KeSPA Tournaments]]

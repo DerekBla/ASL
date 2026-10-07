@@ -1,0 +1,594 @@
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League BroodWar Season 1}}
+{{tabs static
+|name1=Overview
+|link1=2016 AfreecaTV StarCraft League BroodWar Season 1
+|name2=Tournament Statistics
+|link2=2016 AfreecaTV StarCraft League BroodWar Season 1/Tournament_Statistics
+|this=1}}
+{{Infobox league
+|name=ASL Season 1
+|image=Afreeca_Starleague_banner.jpg
+|icon=ASL_icon.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[http://vant365.kr VANT36.5], [http://www.kt.com/ KT], [http://www.jejuair.net/ JEJU Air]
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=24,000,000
+|prizepoolusd={{formatnum:{{#expr:{{#currencyexchange:24000000|KRW|USD|2016-09-10}}round 0}}}}
+|country=South Korea
+|city=Seoul
+|country2=South Korea
+|city2=Busan
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2016-06-25
+|edate=2016-09-10
+|edition=1st
+|tlpd=https://tl.net/tlpd/sospa/leagues/4961_Afreeca_Starleague 
+|web=https://tl.net/forum/brood-war/510321-2016-afreeca-starleague-announced-june-sept
+|liquipediatier=1
+|idfirst= Shuttle_(Player){{!}}Shuttle
+|flagfirst=South Korea
+|racefirst=p 
+|idsecond=Sharp 
+|flagsecond=South Korea
+|racesecond=t 
+|idthird= Last
+|flagthird=South Korea
+|racethird= t
+|idthird2= Sea
+|flagthird2=South Korea
+|racethird2= t
+|player_number= 16
+|protoss_number= 4
+|terran_number= 8
+|zerg_number= 4
+|map1=Circuit Breaker
+|map2=Fighting Spirit
+|map3=Taebaek Mountains
+|map4=Overwatch (ASL Map)
+|previous=VANT36.5_National_Starleague{{!}}VANT National Starleague
+|next=2016-2017 AfreecaTV StarCraft League BroodWar Season 2{{!}}ASL Season 2
+}}
+{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League BroodWar Season 1''' or '''2016 AfreecaTV StarLeague Season 1''', was an offline tournament organized and broadcast live on [[AfreecaTV]].<ref>[https://web.archive.org/web/20160615065329/http://starleague.kr/ Starleague announcement page, archived]</ref> 
+
+The Starleague was announced on June 15, 2016 with two open offline qualifiers scheduled for Seoul and Busan on June 25 and 26, 2016, respectively.
+
+The grand final of the tournament was held at Seoul Children's Grand Park alongside 2016 GSL Code S Season 2 Finals (StarCraft 2).<ref>[https://tl.net/forum/starcraft-2/513726-gsl-and-asl-finals-venue-information]</ref><br>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=ztmD4KlClD0</embedvideo>
+
+==Tournament Information==
+[[File:ASL venue1.jpg|300px|thumbnail|right]] [[File:ASL trophy.jpg|300px|thumbnail|right]]
+===Participants===
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:130px;text-align:center;" | '''{{p}} Protoss ''(4)''
+|class="{{RaceColor2|t}}" style="width:130px;text-align:center;" | '''{{t}} Terran ''(8)''
+|class="{{RaceColor2|z}}" style="width:130px;text-align:center;" | '''{{z}} Zerg ''(4)''
+|-
+!colspan="3" style="text-align:center;" |From '''[[VANT36.5 National Starleague]]'''
+|-
+|
+|'''{{InlinePlayer|1=Sharp|flag=Korea|link=Sharp|faction=u}}'''
+|'''{{InlinePlayer|1=EffOrt|flag=Korea|link=EffOrt|faction=u}}'''
+|-
+!colspan="3" style="text-align:center;" |From '''Busan Preliminary'''
+|-
+|'''{{InlinePlayer|1=Shuttle|flag=Korea|link=Shuttle (Player)|faction=u}}'''
+|'''{{InlinePlayer|1=sSak|flag=Korea|link=SSak|faction=u}}'''
+|'''{{InlinePlayer|1=Larva|flag=Korea|link=Larva (Player)|faction=u}}'''
+|-
+|
+|'''{{InlinePlayer|1=Last|flag=Korea|link=Last|faction=u}}'''
+|'''{{InlinePlayer|1=ZerO|flag=Korea|link=ZerO|faction=u}}'''
+|-
+|
+|'''{{InlinePlayer|1=Sea|flag=Korea|link=Sea|faction=u}}'''
+|
+|-
+|
+|'''{{InlinePlayer|1=Mong|flag=Korea|link=Mong|faction=u}}'''
+|
+|-
+!colspan="3" style="text-align:center;" |From '''Seoul Preliminary'''
+|-
+|'''{{InlinePlayer|1=BeSt|flag=Korea|link=Best|faction=u}}'''
+|'''{{InlinePlayer|1=Mind|flag=Korea|link=Mind|faction=u}}'''
+|'''{{InlinePlayer|1=hero|flag=Korea|link=Hero|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Jaehoon|flag=Korea|link=Jaehoon|faction=u}}'''
+|'''{{InlinePlayer|1=PianO|flag=Korea|link=PianO|faction=u}}'''
+|
+|-
+|'''{{InlinePlayer|1=free|flag=Korea|link=Free|faction=u}}'''
+|'''{{InlinePlayer|1=Flash|flag=Korea|link=Flash|faction=u}}'''
+|
+|-
+|}
+
+===Prize Pool===
+₩24,000,000 {{Abbr|KRW|Korean Won}} (~$21,600) is to be awarded to the top placing players per the distribution below:
+{{Prize pool start|localcurrency=krw |disable_teams=true}}
+{{Prize pool slot|place=1|usdprize=13,500 |localprize=15,000,000 |Shuttle_(Player){{!}}Shuttle |flag1=kr |race1=p |team1= |lastvs1=Sharp |lastscore1=3 |lastvsscore1=0 |lastvsrace1=t |lastvsflag1=kr}}
+{{Prize pool slot|place=2|usdprize=2,700 |localprize=3,000,000|Sharp|flag1=kr |race1=t |lastvspage1=Shuttle (Player) |lastvs1=Shuttle |lastscore1=0 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr}}
+{{Prize pool slot|place=3-4|usdprize=900 |localprize=1,000,000
+|Sea|flag1=kr |race1=t |team1= |lastvs1=Sharp |lastscore1=2 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr |date1=2016-08-28
+|Last|flag2=kr |race2=t |team2= |lastvs2=Shuttle|lastvspage2=Shuttle_(Player) |lastscore2=1 |lastvsscore2=3 |lastvsrace2=p |lastvsflag2=kr |date2=2016-08-29
+}}
+{{Prize pool slot|place=5-8|usdprize=450 |localprize=500,000
+|sSak |flag1=kr |race1=t |lastvs1=Sharp |lastscore1=1 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr|date1=2016-08-14
+|hero |flag2=kr |race2=z |lastvs2=Sea |lastscore2=2 |lastvsscore2=3 |lastvsrace2=t |lastvsflag2=kr|date2=2016-08-16
+|Jaehoon |flag3=kr |race3=p |lastvs3=Shuttle|lastvspage3=Shuttle_(Player) |lastscore3=1 |lastvsscore3=3 |lastvsrace3=p |lastvsflag3=kr|date3=2016-08-21
+|Flash |flag4=kr |race4=t |lastvs4=Last |lastscore4=0|lastvsscore4=3 |lastvsrace4=t |lastvsflag4=kr|date4=2016-08-22
+}}
+{{Prize pool slot|place=9-12|usdprize=225 |localprize=250,000|date=2016-08-02
+|EffOrt|flag1=kr |race1=z |wdl1=1-2
+|PianO|flag2=kr |race2=t |wdl2=3-4
+|ZerO|flag3=kr |race3=z |wdl3=1-2
+|BeSt|flag4=kr |race4=p |wdl4=1-2
+}}
+{{Prize pool slot|place=13-16|usdprize=225 |localprize=250,000|date=2016-08-02
+|free|flag1=kr|race1=p |wdl1=0-2
+|Larva_(Player){{!}}Larva|flag2=kr |race2=z |wdl2=0-2
+|Mind|flag3=kr |race3=t |wdl3=0-2
+|Mong|flag4=kr |race4=t |wdl4=0-2
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Format===
+;Preliminary Qualifiers
+*14 groups of 32-128 players each, seven groups in each of Seoul and Busan
+*Single-elimination bracket: best-of-three
+*Winner of each group advances
+
+;Round of 16 Group Stage
+*Group selection: July 10, 2016 <!-- - 19:00 {{Abbr/KST}}--> [https://www.youtube.com/watch?v=td-12J0YmqI VOD]
+*Four groups of four players each
+<!--*[[Dual tournament]] format: best-of-one-->
+*Top two players in each group advance
+
+;Elimination Stage
+*Eight player single-elimination bracket
+*Quarterfinals through finals: best-of-five
+
+===Maps===
+{{MapPoolTable
+|map1=Circuit Breakers|map1displayName=Circuit Breaker
+|map2=Fighting Spirit|map2displayName=Fighting Spirit
+|map3=Taebaek Mountains|map3displayName=Taebaek Mountains
+|map4=Overwatch (ASL Map)|map4displayName=Overwatch (ASL Map)
+}}
+
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard|lang=en
+|position=Commentator
+|b1=Artosis 
+|b2=Tasteless
+|b3=RAPiD
+|b4=Wolf |b4flag=us |b4link=Wolf (American caster) |b4name=Wolf Schröder
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard|lang=kr
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{Tabs dynamic/end}}
+
+==Results==
+===Group Stage===
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|preview=https://tl.net/forum/brood-war/511721-asl-ro16-preview-flashback
+|vod1=https://www.youtube.com/watch?v=EsS3FOe8rJU
+|vod2=https://www.youtube.com/watch?v=EvFasMto0sA
+|vod3=https://www.youtube.com/watch?v=8ArPrRxd3yw
+|vod4=https://www.youtube.com/watch?v=cQ0uwE3_HbU
+|vod5=https://www.youtube.com/watch?v=fQNeP2T9IKU
+|vod6=https://www.youtube.com/watch?v=Du0OA_-msvM
+|review=https://tl.net/forum/brood-war/512810-asl-ro8-preview-genesis
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=1|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=South Korea|p1=sSak}}
+|bg2=up|pbg2=up|temp_tie2=49|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1link=Shuttle_(Player)|p1flag=kr|p1=Shuttle}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=South Korea|p1=free}}
+|bg4=down|pbg4=down|temp_tie4=47|temp_lose_m4=2|temp_win_m4=1|{{soloOpponent|p1race=z|p1flag=South Korea|p1=EffOrt}}
+}}
+{{Matchlist|id=r3iYh7E6Mc
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |date=July 17, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511757-asl-ro16-day-1|vodgame1=https://youtu.be/T6GxErGAXtg?t=24m4s|winner=2
+    |opponent1={{SoloOpponent|name=EffOrt|race=Z}}
+    |opponent2={{SoloOpponent|name=Shuttle|race=P}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/T6GxErGAXtg?t=24m4s|winner=2}}
+}}
+|M2={{Match
+    |date=July 19, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511823-asl-ro16-day-2|vodgame1=https://youtu.be/c0is6S8Tal4?t=19m12s|winner=1
+    |opponent1={{SoloOpponent|name=free|race=p}}
+    |opponent2={{SoloOpponent|name=sSak|race=t}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/c0is6S8Tal4?t=19m12s|winner=1}}
+}}
+|M3={{Match
+    |date=July 24, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511994-asl-ro16-day-3|vodgame1=https://youtu.be/6OhbOnP7GXc?t=16m58s|winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=Z}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/6OhbOnP7GXc?t=16m58s|winner=1}}
+}}
+|M4={{Match
+    |date=July 26, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512072-asl-ro16-day-4|stream=GSL|vodgame1=https://youtu.be/a_3a0h1uIaM?t=17m10s|winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=sSak|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/a_3a0h1uIaM?t=17m10s|winner=2}}
+}}
+|M5={{Match
+    |date=July 31, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512256-asl-ro16-day-5|stream=GSL|vodgame1=https://youtu.be/ADsR5MuTV7w?t=19m12s|winner=2
+    |opponent1={{SoloOpponent|name=EffOrt|race=Z}}
+    |opponent2={{SoloOpponent|name=sSak|race=t}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/ADsR5MuTV7w?t=19m12s|winner=2}}
+}}
+|M6={{Match
+    |date=August 2, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512344-asl-ro16-day-6|stream=GSL|vodgame1=https://youtu.be/OF-qQQTEDTk?t=16m32s|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Taebaek Mountains|vod=https://youtu.be/OF-qQQTEDTk?t=16m32s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|preview=https://tl.net/forum/brood-war/511721-asl-ro16-preview-flashback
+|vod1=https://www.youtube.com/watch?v=EsS3FOe8rJU
+|vod2=https://www.youtube.com/watch?v=EvFasMto0sA
+|vod3=https://www.youtube.com/watch?v=8ArPrRxd3yw
+|vod4=https://www.youtube.com/watch?v=cQ0uwE3_HbU
+|vod5=https://www.youtube.com/watch?v=fQNeP2T9IKU
+|vod6=https://www.youtube.com/watch?v=Du0OA_-msvM
+|review=https://tl.net/forum/brood-war/512810-asl-ro8-preview-genesis
+|bg1=stay|pbg1=stay|temp_tie1=49|temp_lose_m1=1|temp_win_m1=2|{{soloOpponent|p1race=T|p1flag=South Korea|p1=Sharp}}
+|bg2=stay|pbg2=stay|temp_tie2=49|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P|p1flag=South Korea|p1=Jaehoon}}
+|bg3=stay|pbg3=stay|temp_tie3=49|temp_lose_m3=1|temp_win_m3=2|{{soloOpponent|p1race=T|p1flag=South Korea|p1=PianO}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=3|temp_win_m4=0|{{soloOpponent|p1race=Z|p1link=Larva_(Player)|p1flag=South Korea|p1=Larva}}
+}}
+{{Matchlist|id=PUJMn5shx5
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |date=July 17, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511757-asl-ro16-day-1|vodgame1=https://youtu.be/T6GxErGAXtg?t=1h30s|winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/T6GxErGAXtg?t=1h30s|winner=1}}
+}}
+|M2={{Match
+    |date=July 19, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511823-asl-ro16-day-2|vodgame1=https://youtu.be/c0is6S8Tal4?t=52m10s|winner=2
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Jaehoon|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/c0is6S8Tal4?t=52m10s|winner=2}}
+}}
+|M3={{Match
+    |date=July 24, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511994-asl-ro16-day-3|vodgame1=https://youtu.be/6OhbOnP7GXc?t=1h05m51s|winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Larva|race=z}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/6OhbOnP7GXc?t=1h05m51s|winner=1}}
+}}
+|M4={{Match
+    |date=July 26, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512072-asl-ro16-day-4|stream=GSL|vodgame1=https://youtu.be/a_3a0h1uIaM?t=2h20m11s|winner=1
+    |opponent1={{SoloOpponent|name=PianO|race=t}}
+    |opponent2={{SoloOpponent|name=Jaehoon|race=p}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/a_3a0h1uIaM?t=2h20m11s|winner=1}}
+}}
+|M5={{Match
+    |date=July 31, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512256-asl-ro16-day-5|stream=GSL|vodgame1=https://youtu.be/ADsR5MuTV7w?t=53m50s|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Jaehoon|race=p}}
+    |map1={{Map|map=Taebaek Mountains|vod=https://youtu.be/ADsR5MuTV7w?t=53m50s|winner=2}}
+}}
+|M6={{Match
+    |date=August 2, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512344-asl-ro16-day-6|stream=GSL|vodgame1=https://youtu.be/OF-qQQTEDTk?t=47m54s|winner=1
+    |opponent1={{SoloOpponent|name=PianO|race=t}}
+    |opponent2={{SoloOpponent|name=Larva|race=z}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/OF-qQQTEDTk?t=47m54s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B Tiebreaker====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B Tiebreaker
+|width=300px
+|date=August 7, 2016 - 19:00 {{Abbr/KST}}
+
+|lrthread=https://tl.net/forum/bw-tournaments/512529-asl-tiebreakers
+|preview=https://tl.net/forum/brood-war/511721-asl-ro16-preview-flashback
+|review=https://tl.net/forum/brood-war/512810-asl-ro8-preview-genesis
+|vod=https://www.youtube.com/watch?v=jjKntCaz_fw
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=1|temp_win_m1=3|{{soloOpponent|p1race=P|p1flag=South Korea|p1=Jaehoon}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=2|temp_win_m2=2|{{soloOpponent|p1race=T|p1flag=South Korea|p1=Sharp}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=3|temp_win_m3=1|{{soloOpponent|p1race=T|p1flag=South Korea|p1=PianO}}
+}}
+{{Matchlist|id=EQHTPxPLiv
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://youtu.be/X6UPEYQErVM?t=16m14s|winner=2
+    |opponent1={{SoloOpponent|name=Jaehoon|race=p}}
+    |opponent2={{SoloOpponent|name=Sharp|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/X6UPEYQErVM?t=16m14s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=https://youtu.be/X6UPEYQErVM?t=44m17s|winner=1
+    |opponent1={{SoloOpponent|name=Jaehoon|race=p}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/X6UPEYQErVM?t=44m17s|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://youtu.be/X6UPEYQErVM?t=1h18m37s|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/X6UPEYQErVM?t=1h18m37s|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=https://youtu.be/X6UPEYQErVM?t=1h35m58s|winner=1
+    |opponent1={{SoloOpponent|name=Jaehoon|race=p}}
+    |opponent2={{SoloOpponent|name=Sharp|race=t}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/X6UPEYQErVM?t=1h35m58s|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=https://youtu.be/X6UPEYQErVM?t=2h8m15s|winner=1
+    |opponent1={{SoloOpponent|name=Jaehoon|race=p}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/X6UPEYQErVM?t=2h8m15s|winner=1}}
+}}
+|M6={{Match
+    |vodgame1=https://youtu.be/X6UPEYQErVM?t=2h35m12s|winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=PianO|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/X6UPEYQErVM?t=2h35m12s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|preview=https://tl.net/forum/brood-war/511721-asl-ro16-preview-flashback
+|vod1=https://www.youtube.com/watch?v=EsS3FOe8rJU
+|vod2=https://www.youtube.com/watch?v=EvFasMto0sA
+|vod3=https://www.youtube.com/watch?v=8ArPrRxd3yw
+|vod4=https://www.youtube.com/watch?v=cQ0uwE3_HbU
+|vod5=https://www.youtube.com/watch?v=fQNeP2T9IKU
+|vod6=https://www.youtube.com/watch?v=Du0OA_-msvM
+|review=https://tl.net/forum/brood-war/512810-asl-ro8-preview-genesis
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=1|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=South Korea|p1=Sea}}
+|bg2=up|pbg2=up|temp_tie2=49|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=South Korea|p1=Flash}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=South Korea|p1=Mind}}
+|bg4=down|pbg4=down|temp_tie4=47|temp_lose_m4=2|temp_win_m4=1|{{soloOpponent|p1race=z|p1flag=South Korea|p1=ZerO}}
+}}
+{{Matchlist|id=fGDqqLxFRb
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |date=July 17, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511757-asl-ro16-day-1|vodgame1=https://youtu.be/T6GxErGAXtg?t=1h39m38s|winner=2
+    |opponent1={{SoloOpponent|name=ZerO|race=z}}
+    |opponent2={{SoloOpponent|name=Flash|race=t}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/T6GxErGAXtg?t=1h39m38s|winner=2}}
+}}
+|M2={{Match
+    |date=July 19, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511823-asl-ro16-day-2|vodgame1=https://youtu.be/c0is6S8Tal4?t=1h13m30s|winner=1
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Sea|race=t}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/c0is6S8Tal4?t=1h13m30s|winner=1}}
+}}
+|M3={{Match
+    |date=July 24, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511994-asl-ro16-day-3|vodgame1=https://youtu.be/6OhbOnP7GXc?t=1h40m11s|winner=1
+    |opponent1={{SoloOpponent|name=ZerO|race=z}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Taebaek Mountains|vod=https://youtu.be/6OhbOnP7GXc?t=1h40m11s|winner=1}}
+}}
+|M4={{Match
+    |date=July 26, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512072-asl-ro16-day-4|stream=GSL|vodgame1=https://youtu.be/a_3a0h1uIaM?t=54m50s|winner=2
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Sea|race=t}}
+    |map1={{Map|map=Taebaek Mountains|vod=https://youtu.be/a_3a0h1uIaM?t=54m50s|winner=2}}
+}}
+|M5={{Match
+    |date=July 31, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512256-asl-ro16-day-5|stream=GSL|vodgame1=https://youtu.be/ADsR5MuTV7w?t=1h27m40s|winner=2
+    |opponent1={{SoloOpponent|name=ZerO|race=z}}
+    |opponent2={{SoloOpponent|name=Sea|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/ADsR5MuTV7w?t=1h27m40s|winner=2}}
+}}
+|M6={{Match
+    |date=August 2, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512344-asl-ro16-day-6|stream=GSL|vodgame1=https://youtu.be/OF-qQQTEDTk?t=1h21m14s|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/OF-qQQTEDTk?t=1h21m14s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|preview=https://tl.net/forum/brood-war/511721-asl-ro16-preview-flashback
+|vod1=https://www.youtube.com/watch?v=EsS3FOe8rJU
+|vod2=https://www.youtube.com/watch?v=EvFasMto0sA
+|vod3=https://www.youtube.com/watch?v=8ArPrRxd3yw
+|vod4=https://www.youtube.com/watch?v=cQ0uwE3_HbU
+|vod5=https://www.youtube.com/watch?v=fQNeP2T9IKU
+|vod6=https://www.youtube.com/watch?v=Du0OA_-msvM
+|review=https://tl.net/forum/brood-war/512810-asl-ro8-preview-genesis
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=3|{{soloOpponent|p1race=t|p1flag=South Korea|p1=Last}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1flag=South Korea|p1=hero}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=South Korea|p1=BeSt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=3|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=South Korea|p1=Mong}}
+}}
+{{Matchlist|id=pwG6Jd95R8
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |date=July 17, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511757-asl-ro16-day-1|vodgame1=https://youtu.be/T6GxErGAXtg?t=2h24m11s|winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Taebaek Mountains|vod=https://youtu.be/T6GxErGAXtg?t=2h24m11s|winner=1}}
+}}
+|M2={{Match
+    |date=July 19, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511823-asl-ro16-day-2|vodgame1=https://youtu.be/c0is6S8Tal4?t=1h40m31s|winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Taebaek Mountains|vod=https://youtu.be/c0is6S8Tal4?t=1h40m31s|winner=2}}
+}}
+|M3={{Match
+    |date=July 24, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|lrthread=https://tl.net/forum/bw-tournaments/511994-asl-ro16-day-3|vodgame1=https://youtu.be/6OhbOnP7GXc?t=2h6m43s|winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/6OhbOnP7GXc?t=2h6m43s|winner=1}}
+}}
+|M4={{Match
+    |date=July 26, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512072-asl-ro16-day-4|stream=GSL|vodgame1=https://youtu.be/a_3a0h1uIaM?t=1h44m14s|winner=2
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Overwatch (ASL Map)|vod=https://youtu.be/a_3a0h1uIaM?t=1h44m14s|winner=2}}
+}}
+|M5={{Match
+    |date=July 31, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512256-asl-ro16-day-5|stream=GSL|vodgame1=https://youtu.be/ADsR5MuTV7w?t=2h1m03s|winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Fighting Spirit|vod=https://youtu.be/ADsR5MuTV7w?t=2h1m03s|winner=1}}
+}}
+|M6={{Match
+    |date=August 2, 2016 - 19:00 {{Abbr/KST}}|dateheader=true|finished=true|lrthread=https://tl.net/forum/bw-tournaments/512344-asl-ro16-day-6|stream=GSL|vodgame1=https://youtu.be/OF-qQQTEDTk?t=1h48m50s|winner=2
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/OF-qQQTEDTk?t=1h48m50s|winner=2}}
+}}
+}}
+
+{{Box|end}}
+
+===Elimination Bracket===
+{{box|padding=2em}}
+{{Bracket|Bracket/8|id=uQymZDgqQJ
+
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=South Korea|name=sSak|race=t|score=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Sharp|race=t|score=3|win=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Sea|race=t|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=hero|race=z|score=2}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Shuttle|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Jaehoon|race=p|score=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Last|race=t|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Flash|race=t|score=0}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Sharp|race=t|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Sea|race=t|score=2}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Shuttle|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Last|race=t|score=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=South Korea|name=Sharp|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Shuttle|race=p|score=3|win=2}}
+}}
+}}
+
+{{box|break}}
+[[File:ASL finals poster.jpg|left|280px]]
+{{box|end}}
+
+==Racial Distribution==
+{{RaceDist|title=Round&nbsp;of&nbsp;16|protoss=4|terran=8|zerg=4|nyd=0|first=1}}
+{{RaceDist|title=Quarterfinals|protoss=2|terran=5|zerg=1|nyd=0}}
+{{RaceDist|title=Semifinals|protoss=1|terran=3|zerg=0|nyd=0}}
+{{RaceDist|title=Finals|protoss=1|terran=1|zerg=0|nyd=0}}
+{{RaceDist|title=Winner|protoss=1|terran=0|zerg=0|nyd=0|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+Live broadcasts:
+* {{Flag|usuk}} [http://afreeca.tv/36846806 Afreeca.tv]
+* {{Flag|southkorea}} [http://bj.afreecatv.com/afstar1 Afreeca.com]
+* {{Flag|usuk}} [https://www.twitch.tv/gsl Twitch.tv/gsl]
+
+===VODs===
+<!--
+*Ro16 group selection ceremony: {{Vodlink|gamenum=1 |vod=https://www.youtube.com/watch?v=2cjMji7cn9g }} {{Vodlink|gamenum=2 |vod=https://www.youtube.com/watch?v=OU6mH6x6O2g }}
+*[https://goo.gl/sYO0WX Full Playlist]
+*[http://sc2links.com/tournament.php?tournament=VANT36.5%20National%20Starleague%20(BW)%202016 Spoiler-free VODs on SC2Links.com]
+
+-->
+*Ro16 group selection ceremony: {{Vodlink|vod=https://www.youtube.com/watch?v=6Oekha72Vm8}}
+*[http://sc2links.com/tournament.php?tournament=Afreeca%20Starleague%20(BW)%202016 Spoiler-free VODs on SC2Links.com]
+*[https://gaming.youtube.com/channel/UCK5eBtuoj_HkdXKHNmBLAXg#tab=1 AfreecaTV YouTube Channel]
+
+==Gallery==
+<gallery mode="packed" heights="200px">
+ASL venue2.jpg
+ASL finals venue.jpg ‎
+ASL finals winners check.jpg 
+ASL finals winners check2.jpg 
+ASL finals venue2.jpg
+ASL finals winner.jpg 
+</gallery>
+{{#ev:youtube|JUMvAB69tEY|356}}
+
+==References==
+{{Reflist}}
+
+[[Category:Post-KeSPA Tournaments]]

@@ -1,0 +1,911 @@
+{{DISPLAYTITLE:ASL Season 21}}
+{{ASL Navbox}}
+{{ASL/21/Tabs}}
+{{TOClimit}}
+{{Infobox league
+|name=ASL Season 21
+|tickername=ASL Season 21
+|image=ASL21 lightmode.png
+|imagedark=ASL21 darkmode.png
+|icon=ASL 2026 icon lightmode.png
+|icondark=ASL 2026 icon darkmode.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=
+|organizer=SOOP
+|sponsor=[https://play.google.com/ Google Play]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=78,000,000
+|country=South Korea
+|city=Seoul
+|venue=Freak Up Studio (Main Line)<br>KINTEX Exhibition Hall 1 (Final)
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2026-03-23
+|edate=2026-05-24
+|edition=21
+|afreeca=afstar1
+|soop=dth03119
+|player_number=28
+|protoss_number=5
+|terran_number=15
+|zerg_number=8
+|map1=Attitude
+|map2=Jane Doe
+|map3=Octagon
+|map4=Match Point
+|map5=Neo Sylphid
+|map6=KnockOut
+|map7=Pole Star
+|previous=ASL/20 {{!}}ASL Season 20
+|next=ASL/22 {{!}}ASL Season 22
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''Google Play ASL Season 21''' ('''Google Play ASL 시즌 21''') , is an offline tournament organized and broadcast live on [[SOOP]].
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=ElR4_fxbhb8</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24: Group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16: Group stage'''
+** 12 players from the Round of 24 join the four seeds from [[ASL/20|ASL Season 20]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Round of 8: Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals {{abbr/Bo5}}; semifinals and finals {{abbr/Bo7}}
+
+===Prize Pool===
+{{SoloPrizePool|localcurrency=KRW|qualifies1=ASL/22
+|{{Slot|localprize=30000000|qualified1=yes}}
+|{{Slot|localprize=10000000|qualified1=yes}}
+|{{Slot|place=3-4|localprize=3000000|qualified1=yes}}
+|{{Slot|place=5-8|localprize=2000000}}
+|{{Slot|place=9-12|localprize=1500000}}
+|{{Slot|place=13-16|localprize=1500000}}
+|{{Slot|place=17-22|localprize=1000000}}
+|{{Slot|place=23-28|localprize=1000000}}
+}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[ASL/20|ASL Season 20]] (4)
+|soma
+|SnOw
+|BarrackS
+|Bisu
+}}
+|{{ParticipantSection|title=Ro24 from Qualifier [[ASL/21/Qualifier/OPEN/1|ASL 21 OPEN Day 1]] (1)
+|Best
+}}
+|{{ParticipantSection|title=Ro24 from Qualifier [[ASL/21/Qualifier/OPEN/2|ASL 21 OPEN Day 2]] (1)
+|Sharp
+}}
+|{{ParticipantSection|title=Ro24 from [[ASL/21/Qualifier/Day_1|Qualifier Day 1]] (12)
+|PianO
+|p2=JD|p2link=Jaedong
+|Mong
+|Rush
+|RoyaL
+|tulbo
+|JyJ
+|Soulkey
+|Light
+|ZerO
+|Rain
+|Flash
+}}
+|{{ParticipantSection|title=Ro24 from [[ASL/21/Qualifier/Day_2|Qualifier Day 2]] (10)
+|Scan
+|Calm
+|p3=Larva|p3link=Larva (Player)
+|p4=herO|p4link=hero
+|Ample
+|sSak
+|Mind
+|Shine
+|Leta
+|Speed
+}}
+}}
+
+===Maps===
+{{MapPoolTable
+|size=x140px
+}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=StarCastTV English Commentator
+|b1=SaiyanSC
+|b2=XUN
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=StarCastTV Spanish Commentator
+|b1=Yu
+|b2=Dipa |b2name=Julián Di Pace Herrera |b2flag=ar
+|b3=Remastr TV
+|b4=OliPatrick
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL21R24GA|show_g=false
+|title=Group A
+|date=2026-03-23 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644281-asl21-ro24-preview-pt1-new-chaos
+|lrthread=https://tl.net/forum/bw-tournaments/644302-asl21-ro24-group-a
+|recap=https://tl.net/forum/brood-war/644518-asl21-ro24-preview-pt2-news-flash
+|vod=https://vod.sooplive.com/player/190582275
+|p1=Sharp|temp_tie1=0.4
+|p2=Scan|temp_tie2=0.3
+|p3=Rain|temp_tie3=0.2
+|p4=Mong|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R24GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2026-03-23 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Scan}}
+	|map1={{Map|winner=1|map=Octagon}}
+}}
+|M2={{Match
+	|date=2026-03-23 19:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Mong}}
+	|map1={{Map|winner=1|map=Octagon}}
+}}
+|M3={{Match
+	|date=2026-03-23 20:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=2|map=Match Point}}
+}}
+|M4={{Match
+	|date=2026-03-23 20:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Scan}}
+	|opponent2={{1Opponent|Mong}}
+	|map1={{Map|winner=1|map=Match Point}}
+}}
+|M5={{Match
+	|date=2026-03-23 21:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Scan}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL21R24GB|show_g=false
+|title=Group B
+|date=2026-03-24 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644281-asl21-ro24-preview-pt1-new-chaos
+|lrthread=https://tl.net/forum/bw-tournaments/644350-asl21-ro24-group-b
+|recap=https://tl.net/forum/brood-war/644518-asl21-ro24-preview-pt2-news-flash
+|vod=https://vod.sooplive.com/player/190672223
+|p1=Soulkey|temp_tie1=0.4
+|p2=Ample|temp_tie2=0.3
+|p3=JyJ|temp_tie3=0.2
+|p4=sSak|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R24GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2026-03-24 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Ample}}
+	|map1={{Map|winner=1|map=Octagon}}
+}}
+|M2={{Match
+	|date=2026-03-24 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=2|map=Octagon}}
+}}
+|M3={{Match
+	|date=2026-03-24 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=2|map=Attitude}}
+}}
+|M4={{Match
+	|date=2026-03-24 20:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Ample}}
+	|opponent2={{1Opponent|JyJ}}
+	|map1={{Map|winner=1|map=Attitude}}
+}}
+|M5={{Match
+	|date=2026-03-24 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Ample}}
+	|map1={{Map|winner=2|map=Neo Sylphid}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL21R24GC|show_g=false
+|title=Group C
+|date=2026-03-25 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644281-asl21-ro24-preview-pt1-new-chaos
+|lrthread=https://tl.net/forum/bw-tournaments/644404-asl21-ro24-group-c
+|recap=https://tl.net/forum/brood-war/644518-asl21-ro24-preview-pt2-news-flash
+|vod=https://vod.sooplive.com/player/190754859
+|p1=herO|temp_tie1=0.4
+|p2=tulbo|temp_tie2=0.3
+|p3=Larva|temp_tie3=0.2
+|p4=Shine|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R24GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2026-03-25 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|herO}}
+	|opponent2={{1Opponent|tulbo}}
+	|map1={{Map|winner=1|map=Octagon}}
+}}
+|M2={{Match
+	|date=2026-03-25 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Larva}}
+	|opponent2={{1Opponent|Shine}}
+	|map1={{Map|winner=2|map=Octagon}}
+}}
+|M3={{Match
+	|date=2026-03-25 19:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|herO}}
+	|opponent2={{1Opponent|Shine}}
+	|map1={{Map|winner=1|map=Attitude}}
+}}
+|M4={{Match
+	|date=2026-03-25 20:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|tulbo}}
+	|opponent2={{1Opponent|Larva}}
+	|map1={{Map|winner=1|map=Jane Doe}}
+}}
+|M5={{Match
+	|date=2026-03-25 20:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Shine}}
+	|opponent2={{1Opponent|tulbo}}
+	|map1={{Map|winner=2|map=Pole Star}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL21R24GD|show_g=false
+|title=Group D
+|date=2026-03-30 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644518-asl21-ro24-preview-pt2-news-flash
+|lrthread=https://tl.net/forum/bw-tournaments/644519-asl21-ro24-group-d
+|recap=https://tl.net/forum/brood-war/644744-asl21-ro16-preview-pt1-fresh-flow
+|vod=https://vod.sooplive.com/player/191255373
+|p1=Light|temp_tie1=0.4
+|p2=Calm|temp_tie2=0.3
+|p3=RoyaL|temp_tie3=0.2
+|p4=Mind|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R24GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2026-03-30 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Calm}}
+	|map1={{Map|winner=1|map=Octagon}}
+}}
+|M2={{Match
+	|date=2026-03-30 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Mind}}
+	|map1={{Map|winner=2|map=Octagon}}
+}}
+|M3={{Match
+	|date=2026-03-30 20:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Mind}}
+	|map1={{Map|winner=1|map=Attitude}}
+}}
+|M4={{Match
+	|date=2026-03-30 20:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Calm}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+}}
+|M5={{Match
+	|date=2026-03-30 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mind}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=2|map=Pole Star}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=ASL21R24GE|show_g=false
+|title=Group E
+|date=2026-03-31 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644518-asl21-ro24-preview-pt2-news-flash
+|lrthread=https://tl.net/forum/bw-tournaments/644536-asl21-ro24-group-e
+|recap=https://tl.net/forum/brood-war/644744-asl21-ro16-preview-pt1-fresh-flow
+|vod=https://vod.sooplive.com/player/191357035
+|p1=Rush|temp_tie1=0.4
+|p2=PianO|temp_tie2=0.3
+|p3=Flash|temp_tie3=0.2
+|p4=Speed|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R24GE|attached=true|title=Group E Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2026-03-31 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|PianO}}
+	|map1={{Map|winner=2|map=Octagon}}
+}}
+|M2={{Match
+	|date=2026-03-31 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Flash}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=1|map=Octagon}}
+}}
+|M3={{Match
+	|date=2026-03-31 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|PianO}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+}}
+|M4={{Match
+	|date=2026-03-31 20:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=2|map=Attitude}}
+}}
+|M5={{Match
+	|date=2026-03-31 21:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|PianO}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=ASL21R24GF|show_g=false
+|title=Group F
+|date=2026-04-01 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644518-asl21-ro24-preview-pt2-news-flash
+|lrthread=https://tl.net/forum/bw-tournaments/644548-asl21-ro24-group-f
+|recap=https://tl.net/forum/brood-war/644744-asl21-ro16-preview-pt1-fresh-flow
+|vod=https://vod.sooplive.com/player/191468547
+|p1=Best|temp_tie1=0.4
+|p2=Leta|temp_tie2=0.3
+|p3=ZerO|temp_tie3=0.2
+|p4=JD|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R24GF|attached=true|title=Group F Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2026-04-01 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Leta}}
+	|map1={{Map|winner=2|map=Octagon}}
+}}
+|M2={{Match
+	|date=2026-04-01 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|ZerO}}
+	|opponent2={{1Opponent|JD}}
+	|map1={{Map|winner=2|map=Octagon}}
+}}
+|M3={{Match
+	|date=2026-04-01 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Leta}}
+	|opponent2={{1Opponent|JD}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+}}
+|M4={{Match
+	|date=2026-04-01 20:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|ZerO}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+}}
+|M5={{Match
+	|date=2026-04-01 21:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Leta}}
+	|opponent2={{1Opponent|ZerO}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony was held on {{countdown|date=2026-04-06 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}.''
+[https://vod.sooplive.com/player/191967053 VOD]
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL21R16GA
+|title=Group A
+|date=2026-04-13 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644744-asl21-ro16-preview-pt1-fresh-flow
+|lrthread=https://tl.net/forum/bw-tournaments/644754-asl21-ro16-group-a
+|recap=https://tl.net/forum/brood-war/644842-asl21-ro16-preview-pt2-all-star
+|vod=https://vod.sooplive.com/player/192665271
+|p1=soma|temp_tie1=0.4
+|p2=tulbo|temp_tie2=0.3
+|p3=Sharp|temp_tie3=0.2
+|p4=sSak|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R16GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2026-04-13 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|tulbo}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M2={{Match
+	|date=2026-04-13 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=2|map=Pole Star}}
+}}
+|M3={{Match|bestof=3
+	|date=2026-04-13 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=2|map=Octagon}}
+	|map2={{Map|winner=1|map=Match Point}}
+	|map3={{Map|winner=1|map=KnockOut}}
+	|vetoplayer1=1|veto1=Jane Doe
+	|vetoplayer2=2|veto2=Neo Sylphid
+}}
+|M4={{Match
+	|date=2026-04-13 21:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|tulbo}}
+	|opponent2={{1Opponent|Sharp}}
+	|map1={{Map|winner=1|map=Neo Sylphid}}
+	|map2={{Map|winner=2|map=Match Point}}
+	|map3={{Map|winner=1|map=KnockOut}}
+	|vetoplayer1=2|veto1=Jane Doe
+	|vetoplayer2=1|veto2=Attitude
+}}
+|M5={{Match
+	|date=2026-04-13 22:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|sSak}}
+	|opponent2={{1Opponent|tulbo}}
+	|map1={{Map|winner=2|map=Neo Sylphid}}
+	|map2={{Map|winner=1|map=Jane Doe}}
+	|map3={{Map|winner=2|map=KnockOut}}
+	|vetoplayer1=2|veto1=Attitude
+	|vetoplayer2=1|veto2=Match Point
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL21R16GB
+|title=Group B
+|date=2026-04-14 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644744-asl21-ro16-preview-pt1-fresh-flow
+|lrthread=https://tl.net/forum/bw-tournaments/644765-asl21-ro16-group-b
+|recap=https://tl.net/forum/brood-war/644842-asl21-ro16-preview-pt2-all-star
+|vod=https://vod.sooplive.com/player/192782719
+|p1=SnOw|temp_tie1=0.4
+|p2=PianO|temp_tie2=0.3
+|p3=herO|temp_tie3=0.2
+|p4=Rain|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R16GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2026-04-14 19:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|PianO}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M2={{Match
+	|date=2026-04-14 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|herO}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M3={{Match|bestof=3
+	|date=2026-04-14 19:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|herO}}
+	|map1={{Map|winner=2|map=KnockOut}}
+	|map2={{Map|winner=1|map=Neo Sylphid}}
+	|map3={{Map|winner=1|map=Match Point}}
+	|vetoplayer1=2|veto1=Jane Doe
+	|vetoplayer2=1|veto2=Attitude
+}}
+|M4={{Match
+	|date=2026-04-14 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|PianO}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=2|map=Match Point}}
+	|map2={{Map|winner=2|map=KnockOut}}
+	|map3={{Map|winner=skip|map=Octagon}}
+	|vetoplayer1=1|veto1=Jane Doe
+	|vetoplayer2=2|veto2=Attitude
+}}
+|M5={{Match
+	|date=2026-04-14 21:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=1|map=Octagon}}
+	|map2={{Map|winner=2|map=Neo Sylphid}}
+	|map3={{Map|winner=1|map=KnockOut}}
+	|vetoplayer1=1|veto1=Match Point
+	|vetoplayer2=2|veto2=Attitude
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL21R16GC
+|title=Group C
+|date=2026-04-20 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644842-asl21-ro16-preview-pt2-all-star
+|lrthread=https://tl.net/forum/bw-tournaments/644843-asl21-ro16-group-c
+|vod=https://vod.sooplive.com/player/193360613
+|p1=Bisu|temp_tie1=0.4
+|p2=Ample|temp_tie2=0.3
+|p3=JD|temp_tie3=0.2
+|p4=Flash|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R16GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2026-04-20 19:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|Ample}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M2={{Match
+	|date=2026-04-20 19:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|JD}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M3={{Match|bestof=3
+	|date=2026-04-20 20:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|JD}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+	|map2={{Map|winner=2|map=KnockOut}}
+	|map3={{Map|winner=skip|map=Neo Sylphid}}
+	|vetoplayer1=2|veto1=Match Point
+	|vetoplayer2=1|veto2=Attitude
+}}
+|M4={{Match
+	|date=2026-04-20 21:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Ample}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+	|map2={{Map|winner=2|map=KnockOut}}
+	|map3={{Map|winner=skip|map=Octagon}}
+	|vetoplayer1=1|veto1=Match Point
+	|vetoplayer2=2|veto2=Neo Sylphid
+}}
+|M5={{Match
+	|date=2026-04-20 21:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=2|map=Attitude}}
+	|map2={{Map|winner=2|map=KnockOut}}
+	|map3={{Map|winner=skip|map=Jane Doe}}
+	|vetoplayer1=1|veto1=Octagon
+	|vetoplayer2=2|veto2=Match Point
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL21R16GD
+|title=Group D
+|date=2026-04-21 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/644842-asl21-ro16-preview-pt2-all-star
+|lrthread=https://tl.net/forum/bw-tournaments/644856-asl21-ro16-group-d
+|vod=https://vod.sooplive.com/player/193458481
+|p1=BarrackS|temp_tie1=0.4
+|p2=Leta|temp_tie2=0.3
+|p3=RoyaL|temp_tie3=0.2
+|p4=Light|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL21R16GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2026-04-21 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|BarrackS}}
+	|opponent2={{1Opponent|Leta}}
+	|map1={{Map|winner=2|map=Pole Star}}
+}}
+|M2={{Match
+	|date=2026-04-21 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M3={{Match|bestof=3
+	|date=
+	|opponent1={{1Opponent|Leta}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=1|map=Octagon}}
+	|map2={{Map|winner=1|map=KnockOut}}
+	|map3={{Map|winner=skip|map=Neo Sylphid}}
+	|vetoplayer1=1|veto1=Match Point
+	|vetoplayer2=2|veto2=Match Point
+}}
+|M4={{Match
+	|date=2026-04-21 21:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|BarrackS}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Neo Sylphid}}
+	|map2={{Map|winner=2|map=Octagon}}
+	|map3={{Map|winner=skip|map=Attitude}}
+	|vetoplayer1=1|veto1=Jane Doe
+	|vetoplayer2=2|veto2=Match Point
+}}
+|M5={{Match
+	|date=2026-04-21 21:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Attitude}}
+	|map2={{Map|winner=1|map=Jane Doe}}
+	|map3={{Map|winner=2|map=Octagon}}
+	|vetoplayer1=1|veto1=KnockOut
+	|vetoplayer2=2|veto2=Match Point
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+<section begin=Results />
+{{Toggle bracket start|sdate=2026-04-27|dateexact=true}}
+{{Bracket|Bracket/8|id=ASL21R08PO
+|R1M1header=Quarterfinals (Bo5)
+|R2M1header=Semifinals (Bo7)
+|R3M1header=Finals (Bo7)
+
+<!-- Quarterfinals -->
+|R1M1={{Match|bestof=5
+	|date=2026-04-27 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|herO}}
+	|map1={{Map|winner=1|map=Match Point}}
+	|map2={{Map|winner=1|map=KnockOut}}
+	|map3={{Map|winner=1|map=Jane Doe}}
+	|map4={{Map|winner=skip|map=Octagon}}
+	|map5={{Map|winner=skip|map=Pole Star}}
+	|comment=[[soma]] picked maps Set 1, 3<br>[[hero|herO]] picked maps Set 2, 4
+	|preview=https://tl.net/forum/brood-war/644924-asl21-ro8-preview-pt1-inheritors
+	|lrthread=https://tl.net/forum/bw-tournaments/644927-asl21-ro8-day-1
+	|vod=https://vod.sooplive.com/player/194117977
+	|vod=
+}}
+|R1M2={{Match
+	|date=2026-04-28 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Leta}}
+	|opponent2={{1Opponent|tulbo}}
+	|map1={{Map|winner=1|map=KnockOut}}
+	|map2={{Map|winner=1|map=Match Point}}
+	|map3={{Map|winner=1|map=Attitude}}
+	|map4={{Map|winner=skip|map=Jane Doe}}
+	|map5={{Map|winner=skip|map=Pole Star}}
+	|comment=[[Leta]] picked maps Set 1, 3<br>[[tulbo]] picked maps Set 2, 4
+	|preview=https://tl.net/forum/brood-war/644924-asl21-ro8-preview-pt1-inheritors
+	|lrthread=https://tl.net/forum/bw-tournaments/644938-asl21-ro8-day-2
+	|vod=https://vod.sooplive.com/player/194020773
+	|vod=
+}}
+|R1M3={{Match
+	|date=2026-05-04 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|JD}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Match Point}}
+	|map2={{Map|winner=2|map=Jane Doe}}
+	|map3={{Map|winner=1|map=Neo Sylphid}}
+	|map4={{Map|winner=1|map=Pole Star}}
+	|map5={{Map|winner=2|map=Octagon}}
+	|comment=[[JD]] picked maps Set 1, 3<br>[[Light]] picked maps Set 2, 4
+	|preview=https://tl.net/forum/brood-war/645010-asl21-ro8-preview-pt2-progenitors
+	|lrthread=https://tl.net/forum/bw-tournaments/645012-asl21-ro8-day-3
+	|vod=https://vod.sooplive.com/player/194714549
+}}
+|R1M4={{Match
+	|date=2026-05-05 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=1|map=Match Point}}
+	|map2={{Map|winner=2|map=Attitude}}
+	|map3={{Map|winner=2|map=Jane Doe}}
+	|map4={{Map|winner=1|map=Pole Star}}
+	|map5={{Map|winner=2|map=KnockOut}}
+	|comment=[[SnOw]] picked maps Set 1, 3<br>[[Flash]] picked maps Set 2, 4
+	|preview=https://tl.net/forum/brood-war/645010-asl21-ro8-preview-pt2-progenitors
+	|lrthread=https://tl.net/forum/bw-tournaments/645026-asl21-ro8-day-4
+	|vod=https://vod.sooplive.com/player/194813187
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match|bestof=7
+	|date=2026-05-11 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|Leta}}
+	|map1={{Map|winner=1|map=Neo Sylphid}}
+	|map2={{Map|winner=1|map=Jane Doe}}
+	|map3={{Map|winner=2|map=Octagon}}
+	|map4={{Map|winner=1|map=Pole Star}}
+	|map5={{Map|winner=1|map=KnockOut}}
+	|map6={{Map|winner=skip|map=Attitude}}
+	|map7={{Map|winner=skip|map=Match Point}}
+	|comment=[[soma]] picked maps Set 1, 3, 5<br>[[Leta]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/645115-asl21-ro4-preview-on-course
+	|lrthread=https://tl.net/forum/bw-tournaments/645117-asl21-semifinals-a
+	|vod=https://vod.sooplive.com/player/195404627
+}}
+|R2M2={{Match
+	|date=2026-05-12 19:00 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=2|map=Attitude}}
+	|map2={{Map|winner=2|map=KnockOut}}
+	|map3={{Map|winner=2|map=Jane Doe}}
+	|map4={{Map|winner=2|map=Pole Star}}
+	|map5={{Map|winner=skip|map=Match Point}}
+	|map6={{Map|winner=skip|map=Octagon}}
+	|map7={{Map|winner=skip|map=Neo Sylphid}}
+	|comment=[[Light]] picked maps Set 2, 4, 6<br>[[Flash]] picked maps Set 1, 3, 5
+	|preview=https://tl.net/forum/brood-war/645115-asl21-ro4-preview-on-course
+	|lrthread=https://tl.net/forum/bw-tournaments/645128-asl21-semifinals-b
+	|vod=https://vod.sooplive.com/player/195495261
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+	|date=2026-05-24 14:00 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|Flash}}
+	|map1={{Map|winner=2|map=Jane Doe}}
+	|map2={{Map|winner=2|map=Octagon}}
+	|map3={{Map|winner=1|map=Neo Sylphid}}
+	|map4={{Map|winner=1|map=Pole Star}}
+	|map5={{Map|winner=2|map=KnockOut}}
+	|map6={{Map|winner=1|map=Attitude}}
+	|map7={{Map|winner=1|map=Match Point}}
+	|comment=[[soma]] picked maps Set 1, 3, 5<br>[[Flash]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/645212-asl21-finals-preview-two-legacies
+	|lrthread=https://tl.net/forum/bw-tournaments/645213-asl21-grand-finals
+	|vod=https://vod.sooplive.com/player/196630983
+	|vodgame1=https://vod.sooplive.com/player/196623049
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+
+}}
+<section end=Results />
+{{Toggle bracket end}}
+
+==Racial Distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [https://play.sooplive.co.kr/afstar1 Livestream in Korean] at Sooplive.co.kr
+* {{Flag|usuk}} [https://www.sooplive.co.kr/station/dth03119 Livestream in English] at Sooplive.com (SaiyanKCM + Xun)
+* {{Flag|esmx}} [https://play.sooplive.com/dth00089/292686465 Livestream in Spanish] at Sooplive.com
+
+===VODS===
+* {{Flag|kr}} [https://ch.sooplive.co.kr/afstar1/vods Spoiler-free SOOP VODs] at Sooplive.co.kr
+* {{Flag|usuk}} [https://www.sooplive.com/station/dth03119/vod Spoiler-free English SOOP VODs] at Sooplive.com
+* {{Flag|esmx}} [https://www.sooplive.com/sctvespoficial/video Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://sc2casts.com/event1466-2026-ASL-Season-21 Spoiler-free Official YouTube VODs] at [https://sc2casts.com SC2Casts]
+* {{Flag|usuk}} [https://www.sc2links.com/tournament/?t_id=869 Spoiler-free VODs on SC2Links.com]
+
+==External links==
+*{{Flag|kr}} [https://www.sooplive.co.kr/station/afstar1/post/187939817 ASL Season 21 Announcement]
+*{{Flag|kr}} [https://910map.tistory.com/238 ASL Season 21 map pool]
+*{{Flag|kr}} [https://esports.sooplive.co.kr/gggl/tournament/afstar1/2216 ASL Season 21 arrangement]
+*{{Flag|kr}} [https://www.sooplive.co.kr/station/afstar1/post/189091703 afreecatv.com - ASL Season 21 Round of 24 announcement]
+*{{Flag|kr}} [https://www.sooplive.co.kr/station/afstar1/post/189277791 afreecatv.com - ASL Season 21 Round of 24 ticket announcement]
+*{{Flag|us}} [https://www.sooplive.com/station/afstar1/post/194033105 afreecatv.com - ASL Season 21 Round of 8 ticket announcement]
+*{{Flag|us}} [https://www.sooplive.com/station/afstar1/post/194033105 afreecatv.com - ASL Season 21 Finals ticket pre-registration announcement]
+*{{Flag|us}} [https://www.sooplive.com/station/afstar1/post/194033105 afreecatv.com - ASL Season 21 Finals Attendance Guide announcement]
+*{{Flag|kr}} [https://namu.wiki/w/ASL%20%EC%8B%9C%EC%A6%8C21 ASL Season 21 in namu.wiki]
+
+==References==
+{{Reflist}}
+
+[[Category:Post-KeSPA Tournaments]]

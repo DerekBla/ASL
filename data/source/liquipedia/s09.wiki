@@ -1,0 +1,976 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 9}}
+{{AfreecaTV_Starleague_Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=2020 AfreecaTV Starleague Season 9
+|name2=Qualifiers
+|link2=2020 AfreecaTV Starleague Season 9/Qualifiers
+|this=1}}
+{{Infobox league
+|name=ASL Season 9
+|image=Afreecatv starcraft league remastered.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=LG UltraGear, Hot6
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=80,000,000
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2020-02-16
+|edate=2020-04-26
+|patch=
+|epatch=
+|edition=9
+|afreeca=aslenglish
+|idfirst=ZerO   |racefirst=z  |flagfirst=kr
+|idsecond=Light |racesecond=t |flagsecond=kr
+|idthird=Flash  |racethird=t  |flagthird=kr
+|idfourth=Soma  |racefourth=z |flagfourth=kr
+|youtube=channel/UCK5eBtuoj_HkdXKHNmBLAXg/
+|player_number=28
+|protoss_number=9
+|terran_number=12
+|zerg_number=7
+|map1=Neo Sylphid
+|map2=Escalade
+|map3=Inner Coven
+|map4=Horizon Lunar Colony
+|map5=Polypoid
+|map6=Matchpoint
+|map7=Hitchhiker
+|previous=2019 AfreecaTV Starleague Season 8{{!}}ASL Season 8
+|next=2020 AfreecaTV Starleague Season 10{{!}}ASL Season 10
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV Starleague Season 9''' (아프리카TV 스타리그 시즌9) or '''AfreecaTV StarCraft League Remastered Season 9''', was an offline tournament organized and broadcast live on [[AfreecaTV]].<ref>[https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C9 Afreeca Starleague Season 8]</ref>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=nwNASWGzFVA</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV Starleague Season 8]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}} 
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals & Semi-Finals: {{abbr/Bo5}}
+** Finals: {{abbr/Bo7}}
+
+==Participants==
+{{ParticipantTable|count=true
+|{{ParticipantSection|title=From the '''[[AfreecaTV Starleague Season 8]]'''
+|Snow
+|Flash
+|Action
+|Rain|p4note=1|p4dq=true
+}}
+|{{ParticipantSection|title=From the '''[[2020 AfreecaTV Starleague Season 9/Qualifiers/Wildcard|Wildcard qualifier]]'''
+|Sharp|p1note=2
+}}
+|{{ParticipantSection|title=From '''[[2020 AfreecaTV Starleague Season 9/Qualifiers/Seoul|Seoul Qualifiers]]'''
+|Stork
+|firebathero
+|beast|p3flag=kr|p3race=z
+|BeSt
+|Light
+|Soulkey
+|Bisu
+|Mong
+|Mini
+|Mind
+|Sea.KH|p11flag=kr|p11race=p
+|ForGG|p12flag=kr|p12race=t
+}}
+|{{ParticipantSection|title=From '''[[2020 AfreecaTV Starleague Season 9/Qualifiers/Gwangju|Gwangju Qualifiers]]'''
+|Horang2
+|JyJ
+|ZerO
+|Rush
+|Soma
+|Sorry|p6flag=kr|p6race=t
+}}
+|{{ParticipantSection|title=From '''[[2020 AfreecaTV Starleague Season 9/Qualifiers/Busan|Busan Qualifiers]]'''
+|Ss1nz
+|BarrackS
+|Killer
+|huro|p4flag=kr|p4race=p
+|Ample
+|Larva|p6flag=kr|p6race=z|p6link=Larva_(Player)
+}}
+}}
+* {{note|1|[[Rain]] forfeited his spot. A wildcard qualifier was thus held to determine who would take his place.}}
+* {{note|2|[[Sharp]] Gains the final seed through the ASL 9 wild card qualifiers.}}
+
+===Prize Pool===
+{{prize pool start|localcurrency=KRW |disable_teams=true}}
+{{prize pool slot|place=1|localprize=30000000
+|ZerO |flag1=kr |race1=z |lastvs1=Light |lastscore1=4 |lastvsscore1=1 |lastvsrace1=t |lastvsflag1=kr |date1=2020-04-26
+}}
+{{prize pool slot|place=2|localprize=10000000
+|Light |flag1=kr |race1=t |lastvs1=ZerO |lastscore1=1 |lastvsscore1=4 |lastvsrace1=z |lastvsflag1=kr |date1=2020-04-26
+}}
+{{prize pool slot|place=3|localprize=5000000
+|Flash |flag1=kr |race1=t |lastvs1=Soma |lastscore1=3 |lastvsscore1=0 |lastvsrace1=z |lastvsflag1=kr |date1=2020-04-19
+}}
+{{prize pool slot|place=4|localprize=3000000
+|Soma |flag1=kr |race1=z |lastvs1=Flash |lastscore1=0 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr |date1=2020-04-19
+}}
+{{prize pool slot|place=5-8|localprize=2000000
+|Action |flag1=kr |race1=z |lastvs1=Flash |lastscore1=2 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr |date1=2020-03-29
+|Larva (Player){{!}}Larva |flag2=kr |race2=z |lastvs2=ZerO |lastscore2=2 |lastvsscore2=3 |lastvsrace2=z |lastvsflag2=kr |date2=2020-03-31
+|Stork |flag3=kr |race3=p |lastvs3=Light |lastscore3=2 |lastvsscore3=3 |lastvsrace3=t |lastvsflag3=kr |date3=2020-04-05
+|Bisu |flag4=kr |race4=p |lastvs4=Soma |lastscore4=2 |lastvsscore4=3 |lastvsrace4=z |lastvsflag4=kr |date4=2020-04-07
+}}
+{{prize pool slot|place=9-12|localprize=1500000
+|Mong |flag1=kr |race1=t |wdl1=1-2 |date1=2020-03-15
+|Snow |flag2=kr |race2=p |wdl2=1-2 |date2=2020-03-17
+|Sea.KH |flag3=kr |race3=p |wdl3=1-2 |date3=2020-03-22
+|BeSt |flag4=kr |race4=p |wdl4=1-2 |date4=2020-03-24
+}}
+{{prize pool slot|place=13-16|localprize=1500000
+|BarrackS |flag1=kr |race1=t |wdl1=0-2 |date1=2020-03-15
+|Horang2 |flag2=kr |race2=p |wdl2=0-2 |date2=2020-03-17
+|Soulkey |flag3=kr |race3=z |wdl3=0-2 |date3=2020-03-22
+|Sharp |flag4=kr |race4=t |wdl4=0-2 |date4=2020-03-24
+}}
+{{prize pool slot|place=17-22|localprize=1000000
+|Ample |flag1=kr |race1=t |wdl1=1-2 |date1=2020-02-16
+|huro |flag2=kr |race2=p |wdl2=1-2 |date2=2020-02-18
+|Ss1nz |flag3=kr |race3=p |wdl3=1-2 |date3=2020-02-23
+|ForGG |flag4=kr |race4=t |wdl4=1-2 |date4=2020-02-25
+|Sorry |flag5=kr |race5=t |wdl5=1-2 |date5=2020-03-01
+|Rush |flag6=kr |race6=t |wdl6=1-2 |date6=2020-03-03
+}}
+{{prize pool slot|place=23-28|localprize=1000000
+|beast |flag1=kr |race1=z |wdl1=0-2 |date1=2020-02-16
+|JyJ |flag2=kr |race2=t |wdl2=0-2 |date2=2020-02-18
+|firebathero |flag3=kr |race3=t |wdl3=0-2 |date3=2020-02-23
+|Mind |flag4=kr |race4=t |wdl4=0-2 |date4=2020-02-25
+|Killer |flag5=kr |race5=z |wdl5=0-2 |date5=2020-03-01
+|Mini |flag6=kr |race6=p |wdl6=0-2 |date6=2020-03-03
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Maps===
+{{MapPoolTable
+|map1=Neo Sylphid|map1displayName=Neo Sylphid
+|map2=Escalade|map2displayName=Escalade
+|map3=Inner Coven|map3displayName=Inner Coven
+|map4=Horizon Lunar Colony|map4displayName=Horizon Lunar Colony
+|map5=Polypoid|map5displayName=Polypoid
+|map6=Match Point|map6displayName=Match Point
+|map7=Hitchhiker|map7displayName=Hitchhiker
+}}
+
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcast|name3=Remote Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard
+|position=Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{Tabs dynamic/tab|3}}
+{{BroadcasterCard
+|position=Russian Commentator
+|b1=Dewalt |b1flag=ru
+}}
+{{BroadcasterCard
+|position=Spanish Commentator
+|b1=Thunderfly |b1flag=mx |b1name=Steven Marquez
+|b2=OliPatrick |b2flag=bo |b2name=Oliver Patrick
+|b3=Poblha |b3flag=cl |b3name=Pablo Astudillo
+}}
+{{Tabs dynamic/end}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Toggle group start|state=show}}
+{{Box|start|padding=4em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=February 16, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/556106-asl9-ro24-group-a
+|preview=https://tl.net/forum/brood-war/556078-asl9-ro24-preview-pt-1-here-we-go-again#asl-highlights
+|review=
+|vod=https://www.youtube.com/watch?v=ta-zZKfeZUA
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Horang2}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Bisu}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=Ample}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=beast}}
+}}
+{{Matchlist|id=zKNYT7HrIy
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=beast|race=z}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=Ample|race=t}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Horang2|race=p}}
+    |map1={{Map|map=Escalade|winner=2}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=beast|race=z}}
+    |opponent2={{SoloOpponent|name=Ample|race=t}}
+    |map1={{Map|map=Escalade|winner=2}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Ample|race=t}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=February 18, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/556187-asl9-ro24-group-b
+|preview=https://tl.net/forum/brood-war/556078-asl9-ro24-preview-pt-1-here-we-go-again#asl-group-a
+|review=
+|vod=https://www.youtube.com/watch?v=AUHdRcnpxmc
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Stork}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1link=Larva (Player)|p1flag=kr|p1=Larva}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=huro}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=JyJ}}
+}}
+{{Matchlist|id=JRdkWK8Ymx
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=huro|race=p}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=JyJ|race=t}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Escalade|winner=2}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=huro|race=p}}
+    |opponent2={{SoloOpponent|name=JyJ|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=huro|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=February 23, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/556480-asl9-ro24-group-c
+|preview=https://tl.net/forum/brood-war/556424-asl9-ro24-preview-pt-2-up-in-the-air
+|vod=https://www.youtube.com/watch?v=M6adNJKsmqQ
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Soulkey}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Mong}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=Ss1nz}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=firebathero}}
+}}
+{{Matchlist|id=YWLUPZBh4O
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Ss1nz|race=p}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=firebathero|race=t}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Ss1nz|race=p}}
+    |opponent2={{SoloOpponent|name=firebathero|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=Ss1nz|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=February 25, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/556581-asl9-ro24-group-d
+|preview=https://tl.net/forum/brood-war/556424-asl9-ro24-preview-pt-2-up-in-the-air
+|vod=https://www.youtube.com/watch?v=yF6GczAXpJI
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Sea.KH}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Light}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=ForGG}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=Mind}}
+}}
+{{Matchlist|id=agxQzpdLkW
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Sea.KH|race=p}}
+    |map1={{Map|map=Inner Coven|winner=2}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=ForGG|race=t}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sea.KH|race=p}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=ForGG|race=t}}
+    |map1={{Map|map=Escalade|winner=2}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=ForGG|race=t}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group E
+|width=300px
+|date=March 1, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/556810-asl9-ro24-group-e
+|preview=https://tl.net/forum/brood-war/556791-asl9-ro24-preview-pt-3-something-to-prove#asl-highlights
+|vod=https://www.youtube.com/watch?v=O9fuCqsiGTU
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Soma}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=BeSt}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=Sorry}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Killer}}
+}}
+{{Matchlist|id=dCg3uc65gq
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Sorry|race=t}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Killer|race=z}}
+    |opponent2={{SoloOpponent|name=Soma|race=z}}
+    |map1={{Map|map=Inner Coven|winner=2}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Soma|race=z}}
+    |map1={{Map|map=Escalade|winner=2}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sorry|race=t}}
+    |opponent2={{SoloOpponent|name=Killer|race=z}}
+    |map1={{Map|map=Escalade|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Best|race=p}}
+    |opponent2={{SoloOpponent|name=Sorry|race=t}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group F
+|width=300px
+|date=March 3, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/556961-asl9-ro24-group-f
+|preview=https://tl.net/forum/brood-war/556791-asl9-ro24-preview-pt-3-something-to-prove#asl-group-a
+|vod=https://www.youtube.com/watch?v=7zACcJDevJs
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=kr|p1=BarrackS}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1flag=kr|p1=ZerO}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=Rush}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p|p1flag=kr|p1=Mini}}
+}}
+{{Matchlist|id=AVC20NWHI8
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=BarrackS|race=t}}
+    |map1={{Map|map=Inner Coven|winner=2}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Rush|race=t}}
+    |opponent2={{SoloOpponent|name=ZerO|race=z}}
+    |map1={{Map|map=Inner Coven|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BarrackS|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=ZerO|race=z}}
+    |map1={{Map|map=Escalade|winner=2}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Rush|race=t}}
+    |opponent2={{SoloOpponent|name=ZerO|race=z}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Round of 16 Group Stage===
+*Groups selections were held on March 10, 2020 - 20:00 {{Abbr/KST}}. [https://www.youtube.com/watch?v=sHX3d6UGe40&t=996s (English VoD)] - [https://vod.afreecatv.com/PLAYER/STATION/53926969 (Korean VoD)]
+{{Toggle group start|state=show}}
+{{Box|start|padding=4em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=March 15, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/557544-asl9-ro16-group-a
+|preview=https://tl.net/forum/brood-war/557546-asl9-ro16-preview-pt-1-into-the-unknown#asl-group-a
+|review=https://tl.net/forum/brood-war/557939-asl9-ro16-preview-pt-2-apocalypse-now#asl-recap
+|vod=https://www.youtube.com/watch?v=NsdDd1cNtWM
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=0|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Flash}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=3|temp_lose_g2=2|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Light}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=2|temp_lose_g3=3|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=Mong}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=0|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=BarrackS}}
+}}
+{{Matchlist|id=iN8h5JyjKq
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=BarrackS|race=t}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+    |map2={{Map|map=Match Point|winner=1}}
+    |map3={{Map|map=Polypoid|winner=skip}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=BarrackS|race=t}}
+    |map1={{Map|map=Escalade|winner=1}}
+    |map2={{Map|map=Match Point|winner=1}}
+    |map3={{Map|map=Polypoid|winner=skip}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Polypoid|winner=1}}
+    |map2={{Map|map=Inner Coven|winner=1}}
+    |map3={{Map|map=Escalade|winner=skip}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=March 17, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/557661-asl9-ro16-group-b
+|preview=https://tl.net/forum/brood-war/557546-asl9-ro16-preview-pt-1-into-the-unknown#asl-group-b
+|review=https://tl.net/forum/brood-war/557939-asl9-ro16-preview-pt-2-apocalypse-now#asl-recap
+|vod=https://www.youtube.com/watch?v=vr-RCt6OiOI
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=1|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Stork}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=4|temp_lose_g2=3|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1link=Larva (Player)|p1flag=kr|p1=Larva}}
+|bg3=down|pbg3=down|temp_tie3=48|temp_win_g3=3|temp_lose_g3=3|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=Snow}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=0|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p|p1flag=kr|p1=Horang2}}
+}}
+{{Matchlist|id=fHcqgusXut
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=2}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |map1={{Map|map=Escalade|winner=2}}
+    |map2={{Map|map=Inner Coven|winner=1}}
+    |map3={{Map|map=Match Point|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Horang2|race=p}}
+    |map1={{Map|map=Hitchhiker|winner=1}}
+    |map2={{Map|map=Escalade|winner=1}}
+    |map3={{Map|map=Neo Sylphid|winner=skip}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|link=Larva (Player)|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Polypoid|winner=2}}
+    |map2={{Map|map=Match Point|winner=1}}
+    |map3={{Map|map=Escalade|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=March 22, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/557935-asl9-ro16-group-c
+|preview=https://tl.net/forum/brood-war/557939-asl9-ro16-preview-pt-2-apocalypse-now#asl-group-c
+|review=
+|vod=https://www.youtube.com/watch?v=wVJ5pLq1iBo
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=1|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Soma}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=4|temp_lose_g2=2|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Action}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=2|temp_lose_g3=4|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=Sea.KH}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=1|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Soulkey}}
+}}
+{{Matchlist|id=0SGIYx0HZE
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=Sea.KH|race=p}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Soma|race=z}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=Soma|race=z}}
+    |map1={{Map|map=Match Point|winner=1}}
+    |map2={{Map|map=Neo Sylphid|winner=2}}
+    |map3={{Map|map=Polypoid|winner=2}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sea.KH|race=p}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Hitchhiker|winner=2}}
+    |map2={{Map|map=Neo Sylphid|winner=1}}
+    |map3={{Map|map=Polypoid|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=Sea.KH|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+    |map2={{Map|map=Match Point|winner=1}}
+    |map3={{Map|map=Inner Coven|winner=skip}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=March 24, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=afstar1
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/558029-asl9-ro16-group-d
+|preview=https://tl.net/forum/brood-war/557939-asl9-ro16-preview-pt-2-apocalypse-now#asl-group-d
+|review=
+|vod=https://www.youtube.com/watch?v=nfL0DnVBqes
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=0|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=ZerO}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=4|temp_lose_g2=3|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Bisu}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=2|temp_lose_g3=4|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=BeSt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=1|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=Sharp}}
+}}
+{{Matchlist|id=f4bQViWD2U
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=2}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=ZerO|race=z}}
+    |opponent2={{SoloOpponent|name=Bisu|race=p}}
+    |map1={{Map|map=Horizon Lunar Colony|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=ZerO|race=z}}
+    |map1={{Map|map=Polypoid|winner=2}}
+    |map2={{Map|map=Neo Sylphid|winner=2}}
+    |map3={{Map|map=Escalade|winner=skip}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Bisu|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+    |map2={{Map|map=Match Point|winner=2}}
+    |map3={{Map|map=Polypoid|winner=2}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Bisu|race=p}}
+    |map1={{Map|map=Polypoid|winner=2}}
+    |map2={{Map|map=Hitchhiker|winner=1}}
+    |map3={{Map|map=Neo Sylphid|winner=2}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Elimination Bracket===
+{{bracket|Bracket/8|id=xXACk0g3Gj
+|R1M1header=Quarterfinals ({{Bo|5}})
+|R2M1header=Semifinals ({{Bo|5}})
+|R3M1header=Finals ({{Bo|7}})
+|RxMTPheader=3rd Place Match ({{Bo|5}})
+
+|R1M1={{Match|bestof=5
+	|date=March 29, 2020 - 19:00 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|Flash|flag=kr}}
+	|opponent2={{1Opponent|Action|flag=kr}}
+	|map1={{Map|map=Horizon Lunar Colony|winner=2}}
+	|map2={{Map|map=Escalade|winner=1}}
+	|map3={{Map|map=Neo Sylphid|winner=2}}
+	|map4={{Map|map=Matchpoint|winner=1}}
+	|map5={{Map|map=Hitchhiker|winner=1}}
+	|vetoplayer1=1|veto1=Inner Coven
+	|vetoplayer2=2|veto2=Polypoid
+	|preview=https://tl.net/forum/brood-war/558179-asl9-ro8-preview-pt-1-born-for-greatness#asl-group-c
+	|lrthread=https://tl.net/forum/bw-tournaments/558182-asl9-ro8-day-1-flash-vs-action
+	|vod=https://www.youtube.com/watch?v=t0C4PKnRlv8
+}}
+|R1M2={{Match|bestof=5
+	|date=March 31, 2020 - 19:00 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|ZerO|flag=kr}}
+	|opponent2={{1Opponent|Larva|flag=kr}}
+	|map1={{Map|map=Escalade|winner=2}}
+	|map2={{Map|map=Horizon Lunar Colony|winner=1}}
+	|map3={{Map|map=Neo Sylphid|winner=1}}
+	|map4={{Map|map=Polypoid|winner=2}}
+	|map5={{Map|map=Inner Coven|winner=1}}
+	|vetoplayer1=1|veto1=Hitchhiker
+	|vetoplayer2=2|veto2=Matchpoint
+	|preview=https://tl.net/forum/brood-war/558179-asl9-ro8-preview-pt-1-born-for-greatness#asl-group-d
+	|lrthread=https://tl.net/forum/bw-tournaments/558249-asl9-ro8-day-2
+	|vod=https://www.youtube.com/watch?v=6U3N4zUMQTA
+}}
+|R1M3={{Match|bestof=5
+	|date=April 5, 2020 - 19:00 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|Stork|flag=kr}}
+	|opponent2={{1Opponent|Light|flag=kr}}
+	|map1={{Map|map=Horizon Lunar Colony|winner=2}}
+	|map2={{Map|map=Matchpoint|winner=1}}
+	|map3={{Map|map=Neo Sylphid|winner=1}}
+	|map4={{Map|map=Inner Coven|winner=2}}
+	|map5={{Map|map=Polypoid|winner=2}}
+	|vetoplayer1=1|veto1=Escalade
+	|vetoplayer2=2|veto2=Hitchhiker
+	|preview=https://tl.net/forum/brood-war/558349-asl9-ro8-preview-pt-2-war-on-shakuras#asl-group-c
+	|lrthread=https://tl.net/forum/bw-tournaments/558399-asl9-ro8-day-3
+	|vod=https://www.youtube.com/watch?v=OPh7zNpTlsk
+}}
+|R1M4={{Match|bestof=5
+	|date=April 7, 2020 - 19:00 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|Soma|flag=kr}}
+	|opponent2={{1Opponent|Bisu|flag=kr}}
+	|map1={{Map|map=Polypoid|winner=1}}
+	|map2={{Map|map=Matchpoint|winner=1}}
+	|map3={{Map|map=Escalade|winner=2}}
+	|map4={{Map|map=Hitchhiker|winner=2}}
+	|map5={{Map|map=Neo Sylphid|winner=1}}
+	|vetoplayer1=1|veto1=Inner Coven
+	|vetoplayer2=2|veto2=Horizon Lunar Colony
+	|preview=https://tl.net/forum/brood-war/558349-asl9-ro8-preview-pt-2-war-on-shakuras#asl-group-d
+	|lrthread=https://tl.net/forum/bw-tournaments/558467-asl9-ro8-day-4
+	|vod=https://www.youtube.com/watch?v=HBBS8nelOkc
+}}
+
+|R2M1={{Match|bestof=5
+	|date=April 12, 2020 - 19:20 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|Flash|flag=kr}}
+	|opponent2={{1Opponent|ZerO|flag=kr}}
+	|map1={{Map|map=Matchpoint|winner=1}}
+	|map2={{Map|map=Horizon Lunar Colony|winner=2}}
+	|map3={{Map|map=Polypoid|winner=1}}
+	|map4={{Map|map=Neo Sylphid|winner=2}}
+	|map5={{Map|map=Hitchhiker|winner=2}}
+	|vetoplayer1=1|veto1=Inner Coven
+	|vetoplayer2=2|veto2=Escalade
+	|preview=https://tl.net/forum/brood-war/558623-asl9-ro4-preview-the-best-matchup-on-earth
+	|lrthread=https://tl.net/forum/bw-tournaments/558622-asl9-semifinal-a
+	|vod=https://www.youtube.com/watch?v=cAuVZFhizRU
+}}
+|R2M2={{Match|bestof=5
+	|date=April 14, 2020 - 19:20 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|Light|flag=kr}}
+	|opponent2={{1Opponent|Soma|flag=kr}}
+	|map1={{Map|map=Matchpoint|winner=1}}
+	|map2={{Map|map=Neo Sylphid|winner=2}}
+	|map3={{Map|map=Escalade|winner=1}}
+	|map4={{Map|map=Polypoid|winner=1}}
+	|map5={{Map|map=Horizon Lunar Colony|finished=skip}}
+	|vetoplayer1=1|veto1=Inner Coven
+	|vetoplayer2=2|veto2=Hitchhiker
+	|preview=https://tl.net/forum/brood-war/558623-asl9-ro4-preview-the-best-matchup-on-earth
+	|lrthread=https://tl.net/forum/bw-tournaments/558710-asl9-semifinal-b
+	|vod=https://www.youtube.com/watch?v=KYIwfl4gn_E
+}}
+
+|R3M1={{Match|bestof=7
+	|date=April 26, 2020 - 17:30 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|ZerO|flag=kr}}
+	|opponent2={{1Opponent|Light|flag=kr}}
+	|map1={{Map|map=Horizon Lunar Colony|winner=1}}
+	|map2={{Map|map=Neo Sylphid|winner=1}}
+	|map3={{Map|map=Hitchhiker|winner=2}}
+	|map4={{Map|map=Match Point|winner=1}}
+	|map5={{Map|map=Inner Coven|winner=1}}
+	|map6={{Map|map=Escalade|finished=skip}}
+	|map7={{Map|map=Polypoid|finished=skip}}
+	|preview=https://tl.net/forum/brood-war/559038-asl9-grand-finals-preview-aces-high
+	|lrthread=https://tl.net/forum/bw-tournaments/559041-asl9-grand-finals
+	|vod=https://www.youtube.com/watch?v=EnoV2c_LYnU
+}}
+
+|RxMTP={{Match|bestof=5
+	|date=April 19, 2020 - 19:05 {{Abbr/KST}}
+	|afreeca=aslenglish
+	|opponent1={{1Opponent|Flash|flag=kr}}
+	|opponent2={{1Opponent|Soma|flag=kr}}
+	|map1={{Map|map=Neo Sylphid|winner=1}}
+	|map2={{Map|map=Hitchhiker|winner=1}}
+	|map3={{Map|map=Horizon Lunar Colony|winner=1}}
+	|map4={{Map|map=Polypoid|finished=skip}}
+	|map5={{Map|map=Match Point|finished=skip}}
+	|vetoplayer1=1|veto1=Inner Coven
+	|vetoplayer2=2|veto2=Escalade
+	|lrthread=https://tl.net/forum/bw-tournaments/558866-asl9-3rd-place-match
+	|vod=https://www.youtube.com/watch?v=MTVJy2_Yjp4
+}}
+}}
+
+==Racial distribution==
+{{RaceDist|title=Round of 24   |protoss=8|terran=10|zerg=6|first=1}}
+{{RaceDist|title=Round of 16   |protoss=6|terran=5|zerg=5}}
+{{RaceDist|title=Quarterfinals |protoss=2|terran=2|zerg=4}}
+{{RaceDist|title=Semifinals    |terran=2|zerg=2}}
+{{RaceDist|title=Finals        |terran=1|zerg=1}}
+{{RaceDist|title=Winner        |zerg=1|last=1}}
+
+==Statistics==
+{{Tournament_statistics|tournament=2020 AfreecaTV StarCraft League Remastered Season 9}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean on Afreecatv.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish Livestream in English on Afreecatv.com]
+* {{Flag|es}} [http://play.afreecatv.com/alphaxesp Livestream in Spanish on Afreecatv.com]
+* {{Flag|ru}} [http://play.afreecatv.com/gosustar11 Dewalt]
+
+===VODS===
+*[http://bj.afreecatv.com/aslenglish/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+*[https://www.sc2links.com/tournament/?match=647 Spoiler-free VODs on SC2Links.com]
+*[https://sc2casts.com/event1126-2020-Afreeca-Starleague-S9 Spoiler-Free Official YouTube VODs] at SC2Casts.com
+
+==References==
+{{Reflist}}
+
+[[Category:Post-KeSPA Tournaments]]
+
+==External links==
+*{{Flag|kr}} [http://bj.afreecatv.com/afstar1/post/50674613 afreecatv.com - ASL Season 9 New Maps Showcase]
+*{{Flag|kr}} [http://bj.afreecatv.com/afstar1/post/51356004 afreecatv.com - ASL Season 9 announcement]
+*{{Flag|us}} [https://tl.net/forum/brood-war/554210-asl-season-9-new-maps-showcase tl.net - ASL Season 9 New Maps Showcase (discussion)]
+*{{Flag|us}} [https://tl.net/forum/bw-tournaments/554999-asl-season-9-announcement tl.net - ASL Season 9 announcement (discussion)]

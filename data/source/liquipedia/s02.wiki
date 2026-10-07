@@ -1,0 +1,897 @@
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League BroodWar Season 2}}
+{{tabs static
+|name1=Overview
+|link1=2016-2017 AfreecaTV StarCraft League BroodWar Season 2
+|name2=Tournament Statistics
+|link2=2016-2017 AfreecaTV StarCraft League BroodWar Season 2/Tournament_Statistics
+|this=1}}
+{{Infobox league
+|name=ASL Season 2
+|image=Afreeca_Starleague_banner.jpg
+|icon=ASL_icon.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[http://www.kt.com/ KT]
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=40,200,000
+|prizepoolusd={{formatnum:{{#expr:{{#currencyexchange:42200000|KRW|USD|2017-01-22}}round 0}}}}
+|country=South Korea
+|city=Seoul
+|country2=South Korea
+|city2=Busan
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2016-11-26
+|edate=2017-01-22
+|edition=2nd
+|tlpd=https://tl.net/tlpd/sospa/leagues/5092_Afreeca_Starleague_S2
+|web=https://tl.net/forum/brood-war/516230-afreeca-starleague-season-2-to-start-december-4
+|idfirst=Flash 
+|flagfirst=South Korea
+|racefirst=t
+|idsecond=Sea 
+|flagsecond=South Korea
+|racesecond=t 
+|idthird=BeSt
+|flagthird=South Korea
+|racethird=p
+|idthird2=Jaedong
+|flagthird2=South Korea
+|racethird2=z 
+|player_number=28
+|protoss_number= 10 
+|terran_number= 10
+|zerg_number= 8
+|map1=Benzene
+|map2=Circuit Breaker
+|map3=Destination
+|map4=Eye of the Storm
+|map5=Demian
+|previous=2016 AfreecaTV StarCraft League BroodWar Season 1{{!}}ASL Season 1
+|next=2017 AfreecaTV StarCraft League BroodWar Season 3{{!}}ASL Season 3
+|liquipediatier=1
+}}
+{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League BroodWar Season 2''' or '''AfreecaTV StarLeague Season 2''', was an offline tournament organized and broadcast live on [[AfreecaTV]].<ref>[https://archive.fo/wIM1O Starleague announcement page, archived]</ref>
+
+The Starleague was announced on November 10, 2016 with two open offline qualifiers scheduled for Seoul and Busan on November 26 and 27, 2016, respectively.
+
+Round of 24 play will begin on December 4, 2016.<ref>[https://tl.net/forum/brood-war/516741-asl-2-ro24-brackets-flash-jaedong-bisu-stork-and-others-qualify Ro24 announcement on TL]</ref>
+
+The final was held inside the main auditorium of Yonsei University.<ref>[https://tl.net/forum/bw-tournaments/518352-2016-asl-s2-finals-information]</ref>
+During the awards ceremony it was announced the finalists would receive an additional 2500$ each, courtesy of KT Corporation.<br>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=7kH43ZkaeR0</embedvideo>
+
+==Tournament Information==
+<!--
+[[File:ASL venue1.jpg|300px|thumbnail|right]] [[File:ASL trophy.jpg|300px|thumbnail|right]]
+-->
+===Participants===
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:130px;text-align:center;" | '''{{p}} Protoss ''(10)''
+|class="{{RaceColor2|t}}" style="width:130px;text-align:center;" | '''{{t}} Terran ''(10)''
+|class="{{RaceColor2|z}}" style="width:130px;text-align:center;" | '''{{z}} Zerg ''(8)''
+|-
+!colspan="3" style="text-align:center;" |Ro16 Seeds from '''[[2016 AfreecaTV StarCraft League BroodWar Season 1|Season 1]]'''
+|-
+|'''{{InlinePlayer|1=Shuttle|flag=Korea|link=Shuttle (Player)|faction=u}}'''
+|'''{{InlinePlayer|1=Sharp|flag=Korea|link=Sharp|faction=u}}'''
+|{{emdash}}
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Last|flag=Korea|link=Last|faction=u}}'''
+|{{emdash}}
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Sea|flag=Korea|link=Sea|faction=u}}'''
+|{{emdash}}
+|-
+!colspan="3" style="text-align:center;" |From '''Seoul Preliminary'''
+|-
+|'''{{InlinePlayer|1=Stork|flag=Korea|link=Stork|faction=u}}'''
+|'''{{InlinePlayer|1=Mind|flag=Korea|link=Mind|faction=u}}'''
+|'''{{InlinePlayer|1=Larva|flag=Korea|link=Larva (Player)|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=free|flag=Korea|link=Free|faction=u}}'''
+|'''{{InlinePlayer|1=Mong|flag=Korea|link=Mong|faction=u}}'''
+|'''{{InlinePlayer|1=EffOrt|flag=Korea|link=EffOrt|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Bisu|flag=Korea|link=Bisu|faction=u}}'''
+|'''{{InlinePlayer|1=Flash|flag=Korea|link=Flash|faction=u}}'''
+|'''{{InlinePlayer|1=Soulkey|flag=Korea|link=Soulkey|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Hint|flag=Korea|link=Hint|faction=u}}'''
+|{{emdash}}
+|{{emdash}}
+|-
+|'''{{InlinePlayer|1=BeSt|flag=Korea|link=Best|faction=u}}'''
+|{{emdash}}
+|{{emdash}}
+|-
+|'''{{InlinePlayer|1=Movie|flag=Korea|link=Movie|faction=u}}'''
+|{{emdash}}
+|{{emdash}}
+|-
+!colspan="3" style="text-align:center;" |From '''Busan Preliminary'''
+|-
+|'''{{InlinePlayer|1=Khala|flag=Korea|link=Khala|faction=u}}'''
+|'''{{InlinePlayer|1=Ample|flag=Korea|link=Ample|faction=u}}'''
+|'''{{InlinePlayer|1=Force(Name)|flag=Korea|link=Force(Name)|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=GuemChi|flag=Korea|link=GuemChi|faction=u}}'''
+|'''{{InlinePlayer|1=Iris|flag=Korea|link=Iris|faction=u}}'''
+|'''{{InlinePlayer|1=Jaedong|flag=Korea|link=Jaedong|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Rain|flag=Korea|link=Rain|faction=u}}'''
+|'''{{InlinePlayer|1=Light|flag=Korea|link=Light|faction=u}}'''
+|'''{{InlinePlayer|1=MIsO|flag=Korea|link=MIsO|faction=u}}'''
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Rush|flag=Korea|link=Rush|faction=u}}'''
+|'''{{InlinePlayer|1=Terror|flag=Korea|link=Terror|faction=u}}'''
+|-
+|{{emdash}}
+|{{emdash}}
+|'''{{InlinePlayer|1=hero|flag=Korea|link=Hero|faction=u}}'''
+|}
+
+===Prize Pool===
+₩40,200,000 {{Abbr|KRW|Korean Won}} (~$36,200) is to be awarded to the top placing players per the distribution below<ref>[http://archive.fo/qdrd2 ASL2 official website]</ref><ref>[https://tl.net/forum/viewpost.php?post_id=26214100 ASL2 prize pool updated]</ref><ref>[https://archive.fo/FOJnK ASL2 official website updated]</ref><ref>[https://tl.net/forum/viewpost.php?post_id=26307985 ASL2 prize money, extra 5 MKRW for finalists]</ref>:
+{{Prize pool start|localcurrency=krw |disable_teams=true |cutafter=4 }}
+{{Prize pool slot|place=1|usdprize=20,000 |localprize=22,500,000
+|Flash|flag1=kr |race1=t |lastvs1=Sea |lastscore1=3 |lastvsscore1=1 |lastvsrace1=t |lastvsflag1=kr
+}}
+{{Prize pool slot|place=2|usdprize=6,800 |localprize=7,500,000
+|Sea|flag1=kr |race1=t |lastvs1=Flash |lastscore1=1 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr
+}}
+{{Prize pool slot|place=3-4|usdprize=1,800 |localprize=2,000,000
+|BeSt|flag1=kr |race1=p |lastvs1=Sea |lastscore1=2 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr |date1=2017-01-15
+|Jaedong|flag2=kr |race2=z |lastvs2=Flash |lastscore2=2 |lastvsscore2=3 |lastvsrace2=t |lastvsflag2=kr |date2=2017-01-17
+}}
+{{Prize pool slot|place=5-8|usdprize=450 |localprize=500,000
+|Bisu|flag1=kr |race1=p |lastvs1=Sea |lastscore1=0 |lastvsscore1=3 |lastvsrace1=t |lastvsflag1=kr|date1=2017-01-02
+|hero|flag2=kr |race2=z |lastvs2=BeSt |lastscore2=1 |lastvsscore2=3 |lastvsrace2=p |lastvsflag2=kr|date2=2017-01-03
+|Guemchi|flag3=kr |race3=P |lastvs3=Flash |lastscore3=1 |lastvsscore3=3 |lastvsrace3=t |lastvsflag3=kr|date3=2017-01-08
+|Stork|flag4=kr |race4=p |lastvs4=Jaedong |lastscore4=0 |lastvsscore4=3 |lastvsrace4=z |lastvsflag4=kr|date4=2017-01-10
+}}
+{{Prize pool slot|place=9-12|usdprize=270 |localprize=300,000
+|Light|flag1=kr |race1=t |wdl1=1-2 |date1=2016-12-18
+|Mind|flag2=kr |race2=t |wdl2=1-2 |date2=2016-12-20
+|Last|flag3=kr |race3=t |wdl3=1-2 |date3=2016-12-25
+|Movie|flag4=kr |race4=p |wdl4=1-2 |date4=2016-12-27
+}}
+{{Prize pool slot|place=13-16|usdprize=270 |localprize=300,000
+|Shuttle_(Player){{!}}Shuttle|flag1=kr|race1=p |wdl1=0-2 |date1=2016-12-18
+|Sharp|flag2=kr |race2=t |wdl2=0-2 |date2=2016-12-20
+|Rush|flag3=kr |race3=t |wdl3=0-2 |date3=2016-12-25
+|Rain|flag4=kr |race4=p |wdl4=0-2 |date4=2016-12-27
+}}
+{{Prize pool slot|place=17-22|usdprize=135 |localprize=150,000
+|Ample|flag1=kr |race1=t |wdl1=1-2 |date1=2016-12-04
+|EffOrt|flag2=kr |race2=z |wdl2=1-2 |date2=2016-12-05
+|free|flag3=kr |race3=p |wdl3=1-2 |date3=2016-12-06
+|Neo.G_Soulkey{{!}}Soulkey|flag4=kr |race4=z |wdl4=1-2 |date4=2016-12-11
+|Mong|flag5=kr |race5=t |wdl5=1-2 |date5=2016-12-12
+|Iris|flag6=kr |race6=t |wdl6=1-2 |date6=2016-12-13
+}}
+{{Prize pool slot|place=23-28|usdprize=135 |localprize=150,000
+|Larva_(Player){{!}}Larva|flag1=kr |race1=z |wdl1=0-2 |date1=2016-12-04
+|Force(name)|flag2=kr |race2=z |wdl2=0-2 |date2=2016-12-05
+|MIsO|flag3=kr |race3=z |wdl3=0-2 |date3=2016-12-06
+|Terror|flag4=kr |race4=z|wdl4=0-2 |date4=2016-12-11
+|Hint|flag5=kr |race5=p |wdl5=0-2 |date5=2016-12-12
+|Khala|flag6=kr |race6=p |wdl6=0-2 |date6=2016-12-13
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Format===
+<!--
+;Preliminary Qualifiers
+*14 groups of 32-128 players each, seven groups in each of Seoul and Busan
+*Single-elimination bracket: best-of-three
+*Winner of each group advances
+-->
+;Round of 24 group stage
+*[[Dual tournament]] format: best-of-one
+*Top two players in each group advance
+
+;Round of 16 group stage
+* 12 players from the Round of 24 join the four seeds from [[2016 AfreecaTV StarCraft League BroodWar Season 1|ASL Season 1]]
+* format TBD
+
+;Elimination Stage
+*Eight player single-elimination bracket
+*Quarterfinals through finals: best-of-five
+
+===Maps===
+{{MapPoolTable
+|note=<small>Additionally, [[Destination]] was used in the offline preliminaries.
+|map1=Benzene|map1displayName=Benzene
+|map2=Circuit Breakers|map2displayName=Circuit Breaker
+|map3=Eye of the Storm|map3displayName=Eye of the Storm
+|map4=Demian|map4displayName=Demian
+}}
+
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard|lang=en
+|position=Commentator
+|b1=Artosis 
+|b2=Tasteless
+|b3=RAPiD
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard|lang=kr
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Seo Yeon Ji |b1flag=kr
+}}
+{{Tabs dynamic/end}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=December 4, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/516947-asl-ro24-day-1
+|preview=https://tl.net/forum/brood-war/516945-asl2-ro24-preview-part-1-stork-and-bisu-return
+|review=https://tl.net/forum/brood-war/517165-asl-ro24-preview-pt-2-flash-and-jaedong-return
+|vod=https://www.youtube.com/watch?v=EdQJuyhRBDE
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Bisu}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=GuemChi}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Ample}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1link=Larva_(Player)|p1flag=kr|p1=Larva}}
+}}
+{{Matchlist|id=YODp0sQiF0
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516947-asl-ro24-day-1|vodgame1=https://youtu.be/WuitaSb1bMA?t=26m58s|winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Larva|race=z}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/WuitaSb1bMA?t=26m58s|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516947-asl-ro24-day-1|vodgame1=https://youtu.be/WuitaSb1bMA?t=52m23s|winner=1
+    |opponent1={{SoloOpponent|name=Ample|race=t}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/WuitaSb1bMA?t=52m23s|winner=1}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516947-asl-ro24-day-1|vodgame1=https://youtu.be/WuitaSb1bMA?t=1h26m9s|winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Ample|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/WuitaSb1bMA?t=1h26m9s|winner=1}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516947-asl-ro24-day-1|vodgame1=https://youtu.be/WuitaSb1bMA?t=1h52m30s|winner=2
+    |opponent1={{SoloOpponent|name=Larva|race=Z}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/WuitaSb1bMA?t=1h52m30s|winner=2}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516947-asl-ro24-day-1|vodgame1=https://youtu.be/WuitaSb1bMA?t=2h12m39s|winner=2
+    |opponent1={{SoloOpponent|name=Ample|race=T}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Eye of the Storm|vod=https://youtu.be/WuitaSb1bMA?t=2h12m39s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=December 5, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/516987-asl-ro24-day-2
+|preview=https://tl.net/forum/brood-war/516945-asl2-ro24-preview-part-1-stork-and-bisu-return
+|review=https://tl.net/forum/brood-war/517165-asl-ro24-preview-pt-2-flash-and-jaedong-return
+|vod=https://www.youtube.com/watch?v=Z4iZE9T4gW4
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Rain}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Light}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1flag=kr|p1=EffOrt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1flag=kr|p1=Force(Name)}}
+}}
+{{Matchlist|id=pmgE82QOdi
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516987-asl-ro24-day-2|vodgame1=https://youtu.be/e5uMfm6Ci_U?t=27m10s|winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/e5uMfm6Ci_U?t=27m10s|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516987-asl-ro24-day-2|vodgame1=https://youtu.be/e5uMfm6Ci_U?t=50m125s|winner=1
+    |opponent1={{SoloOpponent|name=Rain|race=p}}
+    |opponent2={{SoloOpponent|name=Force(Name)|race=z}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/e5uMfm6Ci_U?t=50m125s|winner=1}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516987-asl-ro24-day-2|vodgame1=https://youtu.be/e5uMfm6Ci_U?t=1h10m50s|winner=2
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/e5uMfm6Ci_U?t=1h10m50s|winner=2}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516987-asl-ro24-day-2|vodgame1=https://youtu.be/e5uMfm6Ci_U?t=1h58m12s|winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=Force(Name)|race=z}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/e5uMfm6Ci_U?t=1h58m12s|winner=1}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516987-asl-ro24-day-2|vodgame1=https://youtu.be/e5uMfm6Ci_U?t=2h25m1s|winner=2
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Eye of the Storm|vod=https://youtu.be/e5uMfm6Ci_U?t=2h25m1s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=December 6, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/516998-asl-ro24-day-3
+|preview=https://tl.net/forum/brood-war/516945-asl2-ro24-preview-part-1-stork-and-bisu-return
+|review=https://tl.net/forum/brood-war/517165-asl-ro24-preview-pt-2-flash-and-jaedong-return
+|vod=https://www.youtube.com/watch?v=QLi2xrjKE1M
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Stork}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Rush}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1flag=kr|p1=free}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1flag=kr|p1=MIsO}}
+}}
+{{Matchlist|id=wAInuea2gU
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516998-asl-ro24-day-3|vodgame1=https://youtu.be/jD1fbNWcyzE?t=25m9s|winner=1
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/jD1fbNWcyzE?t=25m9s|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516998-asl-ro24-day-3|vodgame1=https://youtu.be/jD1fbNWcyzE?t=54m15s|winner=1
+    |opponent1={{SoloOpponent|name=free|race=p}}
+    |opponent2={{SoloOpponent|name=MIsO|race=z}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/jD1fbNWcyzE?t=54m15s|winner=1}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516998-asl-ro24-day-3|vodgame1=https://youtu.be/jD1fbNWcyzE?t=1h18m40s|winner=1
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/jD1fbNWcyzE?t=1h18m40s|winner=1}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516998-asl-ro24-day-3|vodgame1=https://youtu.be/jD1fbNWcyzE?t=1h37m2s|winner=1
+    |opponent1={{SoloOpponent|name=Rush|race=t}}
+    |opponent2={{SoloOpponent|name=MIsO|race=z}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/jD1fbNWcyzE?t=1h37m2s|winner=1}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/516998-asl-ro24-day-3|vodgame1=https://youtu.be/jD1fbNWcyzE?t=2h1m47s|winner=2
+    |opponent1={{SoloOpponent|name=free|race=p}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Eye of the Storm|vod=https://youtu.be/jD1fbNWcyzE?t=2h1m47s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=December 11, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517195-asl-ro24-day-4?page=3
+|preview=https://tl.net/forum/brood-war/517165-asl-ro24-preview-pt-2-flash-and-jaedong-return
+|recap=https://tl.net/forum/brood-war/517397-asl2-ro16-preview-part-1-expectations
+|review=
+|vod=https://www.youtube.com/watch?v=9XjKdHlBtiA
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Flash}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Movie}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1link=Neo.G_Soulkey|p1flag=kr|p1=Soulkey}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1flag=kr|p1=Terror}}
+}}
+{{Matchlist|id=LYPaGvBV8K
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517195-asl-ro24-day-4?page=last|vodgame1=https://youtu.be/q1LzI3k09Pg?t=24m35s|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Terror|race=z}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/q1LzI3k09Pg?t=24m35s|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517195-asl-ro24-day-4?page=last|vodgame1=https://youtu.be/q1LzI3k09Pg?t=49m43s|winner=2
+    |opponent1={{SoloOpponent|name=Movie|race=p}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/q1LzI3k09Pg?t=49m43s|winner=2}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517195-asl-ro24-day-4?page=last|vodgame1=https://youtu.be/q1LzI3k09Pg?t=1h9m38s|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/q1LzI3k09Pg?t=1h9m38s|winner=1}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517195-asl-ro24-day-4?page=last|vodgame1=https://youtu.be/q1LzI3k09Pg?t=1h38m33s|winner=2
+    |opponent1={{SoloOpponent|name=Terror|race=z}}
+    |opponent2={{SoloOpponent|name=Movie|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/q1LzI3k09Pg?t=1h38m33s|winner=2}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517195-asl-ro24-day-4?page=last|vodgame1=https://youtu.be/q1LzI3k09Pg?t=1h45m12s|winner=2
+    |opponent1={{SoloOpponent|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Movie|race=p}}
+    |map1={{Map|map=Eye of the Storm|vod=https://youtu.be/q1LzI3k09Pg?t=1h45m12s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group E====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group E
+|width=300px
+|date=December 12, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517231-asl-ro24-day-5?page=last
+|preview=https://tl.net/forum/brood-war/517165-asl-ro24-preview-pt-2-flash-and-jaedong-return
+|recap=https://tl.net/forum/brood-war/517397-asl2-ro16-preview-part-1-expectations
+|review=
+|vod=https://www.youtube.com/watch?v=PpNtpuMTcPM
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=kr|p1=BeSt}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=kr|p1=Jaedong}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Mong}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Hint}}
+}}
+{{Matchlist|id=6vjNuCNGa7
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517231-asl-ro24-day-5?page=last|vodgame1=https://youtu.be/mKrNsz85Oo0?t=23m21s|winner=1
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/mKrNsz85Oo0?t=23m21s|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517231-asl-ro24-day-5?page=last|vodgame1=https://youtu.be/mKrNsz85Oo0?t=50m6s|winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Hint|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/mKrNsz85Oo0?t=50m6s|winner=1}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517231-asl-ro24-day-5?page=last|vodgame1=https://youtu.be/mKrNsz85Oo0?t=1h16m17s|winner=2
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/mKrNsz85Oo0?t=1h16m17s|winner=2}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517231-asl-ro24-day-5?page=last|vodgame1=https://youtu.be/mKrNsz85Oo0?t=1h37m45s|winner=1
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=Hint|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/mKrNsz85Oo0?t=1h37m45s|winner=1}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517231-asl-ro24-day-5?page=last|vodgame1=https://youtu.be/mKrNsz85Oo0?t=2h19m42s|winner=1
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Eye of the Storm|vod=https://youtu.be/mKrNsz85Oo0?t=2h19m42s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group F====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group F
+|width=300px
+|date=December 13, 2016 - 17:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517235-asl-ro24-day-6?page=last
+|preview=https://tl.net/forum/brood-war/517165-asl-ro24-preview-pt-2-flash-and-jaedong-return
+|recap=https://tl.net/forum/brood-war/517397-asl2-ro16-preview-part-1-expectations
+|review=
+|vod=https://www.youtube.com/watch?v=dIoFGJpNZKo
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z |p1flag=kr|p1=hero    }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Mind    }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Iris    }}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Khala }}
+}}
+{{Matchlist|id=2s6yiXvset
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517235-asl-ro24-day-6?page=last|vodgame1=https://youtu.be/LmQSWc1Blw0?t=19m38s|winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/LmQSWc1Blw0?t=19m38s|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517235-asl-ro24-day-6?page=last|vodgame1=https://youtu.be/LmQSWc1Blw0?t=36m52s|winner=1
+    |opponent1={{SoloOpponent|name=Iris|race=t}}
+    |opponent2={{SoloOpponent|name=Khala|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/LmQSWc1Blw0?t=36m52s|winner=1}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517235-asl-ro24-day-6?page=last|vodgame1=https://youtu.be/LmQSWc1Blw0?t=1h16s|winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=Iris|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/LmQSWc1Blw0?t=1h16s|winner=1}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517235-asl-ro24-day-6?page=last|vodgame1=https://youtu.be/LmQSWc1Blw0?t=1h20m38s|winner=1
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Khala|race=p}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/LmQSWc1Blw0?t=1h20m38s|winner=1}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517235-asl-ro24-day-6?page=last|vodgame1=https://youtu.be/LmQSWc1Blw0?t=1h45m41s|winner=2
+    |opponent1={{SoloOpponent|name=Iris|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Eye of the Storm|vod=https://youtu.be/LmQSWc1Blw0?t=1h45m41s|winner=2}}
+}}
+}}
+
+{{Box|end}}
+
+===Round of 16 Group Stage===
+*Groups selections were held on December 13, 2016 - 20:00 {{Abbr/KST}}. [https://www.youtube.com/watch?v=dIoFGJpNZKo&t=12047s (English VoD)]
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=December 18, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517465-asl-ro16-day-1
+|preview=https://tl.net/forum/brood-war/517397-asl2-ro16-preview-part-1-expectations
+|review=https://tl.net/forum/brood-war/517608-asl2-ro16-preview-part-2-hope
+|vod=https://www.youtube.com/watch?v=H-bxI_8PSMo
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=South Korea|p1=Stork}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=South Korea|p1=GuemChi}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Light}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p|p1link=Shuttle_(Player) |p1flag=South Korea|p1=Shuttle}}
+}}
+{{Matchlist|id=wggRWESmWj
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517465-asl-ro16-day-1|vodgame1=https://youtu.be/qT6kb3c_buk?t=20m15s|winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Demian|vod=https://youtu.be/qT6kb3c_buk?t=20m15s|winner=2}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517465-asl-ro16-day-1|vodgame1=https://youtu.be/qT6kb3c_buk?t=38m26s|winner=2
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Demian|vod=https://youtu.be/qT6kb3c_buk?t=38m26s|winner=2}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517465-asl-ro16-day-1|vodgame1=https://youtu.be/qT6kb3c_buk?t=1h6m8s|winner=2
+    |opponent1={{SoloOpponent|name=GuemChi|race=p}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/qT6kb3c_buk?t=1h6m8s|winner=2}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517465-asl-ro16-day-1|vodgame1=https://youtu.be/qT6kb3c_buk?t=1h30m8s|winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/qT6kb3c_buk?t=1h30m8s|winner=2}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517465-asl-ro16-day-1|vodgame1=https://youtu.be/qT6kb3c_buk?t=2h7m35s|winner=1
+    |opponent1={{SoloOpponent|name=GuemChi|race=p}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/qT6kb3c_buk?t=2h7m35s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=December 20, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517505-asl-ro16-day-2
+|preview=https://tl.net/forum/brood-war/517397-asl2-ro16-preview-part-1-expectations
+|review=https://tl.net/forum/brood-war/517608-asl2-ro16-preview-part-2-hope
+|vod=https://www.youtube.com/watch?v=UYh-jiKRJTY
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=South Korea|p1=BeSt}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=South Korea|p1=Jaedong}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Mind}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Sharp}}
+}}
+{{Matchlist|id=l9JduLZ5nL
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://youtu.be/SQbPgCm0gwQ?t=17m35s|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Demian|vod=https://youtu.be/SQbPgCm0gwQ?t=17m35s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=https://youtu.be/SQbPgCm0gwQ?t=57m10s|winner=2
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Demian|vod=https://youtu.be/SQbPgCm0gwQ?t=57m10s|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=https://youtu.be/SQbPgCm0gwQ?t=1h30m41s|winner=2
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/SQbPgCm0gwQ?t=1h30m41s|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=https://youtu.be/SQbPgCm0gwQ?t=1h53m11s|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=z}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/SQbPgCm0gwQ?t=1h53m11s|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://youtu.be/SQbPgCm0gwQ?t=2h8m22s|winner=2
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=z}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/SQbPgCm0gwQ?t=2h8m22s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=December 25, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517611-asl-ro16-day-3
+|preview=https://tl.net/forum/brood-war/517608-asl2-ro16-preview-part-2-hope
+|review=https://tl.net/forum/brood-war/517757-asl2-ro8-preview-pt-1-bisu-to-best-sea-and-hero
+|vod=https://www.youtube.com/watch?v=DRnbK7YRGuc
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=South Korea|p1=Bisu}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=South Korea|p1=hero}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Last}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Rush}}
+}}
+{{Matchlist|id=D61UXah0pH
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517611-asl-ro16-day-3?page=last|winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Demian|winner=1}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517611-asl-ro16-day-3?page=last|winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Demian|winner=1}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517611-asl-ro16-day-3?page=last|winner=2
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=Bisu|race=p}}
+    |map1={{Map|map=Benzene|winner=2}}
+}}
+|M4={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517611-asl-ro16-day-3?page=last|winner=2
+    |opponent1={{SoloOpponent|name=Rush|race=t}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Benzene|winner=2}}
+}}
+|M5={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/517611-asl-ro16-day-3?page=last|winner=2
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Circuit Breaker|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=December 27, 2016 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/517651-asl-ro16-day-4?page=last
+|preview=https://tl.net/forum/brood-war/517608-asl2-ro16-preview-part-2-hope
+|review=https://tl.net/forum/brood-war/517757-asl2-ro8-preview-pt-1-bisu-to-best-sea-and-hero
+|vod=https://www.youtube.com/watch?v=gI3aPXAQDy8
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Flash}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=South Korea|p1=Sea}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1flag=South Korea|p1=Movie}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=South Korea|p1=Rain}}
+}}
+{{Matchlist|id=zIBZCJmEjx
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://youtu.be/-kb76Xl6ltA?t=13m50s|winner=2
+    |opponent1={{SoloOpponent|name=Sea|race=t}}
+    |opponent2={{SoloOpponent|name=Flash|race=t}}
+    |map1={{Map|map=Demian|vod=https://youtu.be/-kb76Xl6ltA?t=13m50s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=https://youtu.be/-kb76Xl6ltA?t=37m30s|winner=1
+    |opponent1={{SoloOpponent|name=Movie|race=p}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Demian|vod=https://youtu.be/-kb76Xl6ltA?t=37m30s|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://youtu.be/-kb76Xl6ltA?t=58m23s|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Movie|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/-kb76Xl6ltA?t=58m23s|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://youtu.be/-kb76Xl6ltA?t=1h24m19s|winner=1
+    |opponent1={{SoloOpponent|name=Sea|race=t}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Benzene|vod=https://youtu.be/-kb76Xl6ltA?t=1h24m19s|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=https://youtu.be/-kb76Xl6ltA?t=1h52m46s|winner=2
+    |opponent1={{SoloOpponent|name=Movie|race=p}}
+    |opponent2={{SoloOpponent|name=Sea|race=t}}
+    |map1={{Map|map=Circuit Breaker|vod=https://youtu.be/-kb76Xl6ltA?t=1h52m46s|winner=2}}
+}}
+}}
+
+{{Box|end}}
+
+===Elimination Bracket===
+{{box|padding=2em}}
+{{Bracket|Bracket/8|id=s1lAZbGQyL
+
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=South Korea|name=Bisu|race=P|score=0}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Sea|race=T|score=3|win=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=BeSt|race=P|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=hero|race=Z|score=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Flash|race=T|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=GuemChi|race=P|score=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=South Korea|name=Stork|race=P|score=0}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Jaedong|race=Z|score=3|win=1}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Sea|race=t|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=BeSt|race=p|score=2}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=South Korea|name=Flash|race=t|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Jaedong|race=z|score=2}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=South Korea|name=Sea|race=t|score=1}}
+    |opponent2={{SoloOpponent|flag=South Korea|name=Flash|race=t|score=3|win=1}}
+}}
+}}
+
+{{box|break}}
+{{box|end}}
+
+==Racial Distribution==
+{{RaceDist|title=Round&nbsp;of&nbsp;24|protoss=9|terran=7|zerg=8|nyd=0|first=1}}
+{{RaceDist|title=Round&nbsp;of&nbsp;16|protoss=7|terran=7|zerg=2|nyd=0}}
+{{RaceDist|title=Quarterfinals|protoss=4|terran=2|zerg=2|nyd=0}}
+{{RaceDist|title=Semifinals|protoss=1|terran=2|zerg=1|nyd=0}}
+{{RaceDist|title=Finals|protoss=|terran=2|zerg=|nyd=0}}
+{{RaceDist|title=Winner|protoss=|terran=1|zerg=|nyd=0|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+Live broadcasts:
+* {{Flag|southkorea}} [http://play.afreeca.com/afstar1 Afreeca.com]
+* {{Flag|usuk}} [http://afreeca.tv/ASL2ENG2 BisuDagger and FlashFTW]
+* {{Flag|usuk}} [https://www.twitch.tv/gsl Tasteless and Artosis Twitch.tv]
+* {{Flag|usuk}} [http://afreeca.tv/36855042 Tasteless and Artosis Afreeca.tv]
+
+===VODs===
+*[http://sc2casts.com/event891-2016-Starcraft-1-ASL-S2 Spoiler-free Official YouTube VODs] @ SC2Casts
+*[http://sc2links.com/tournament.php?tournament=Afreeca%20Starleague%20S2%20(BW)%202016 Match by Match Spoiler-free VODs on SC2Links.com]
+*Ro16 group selection ceremony: {{Vodlink|vod=https://youtu.be/LmQSWc1Blw0?t=3h16m45s}}
+*[https://gaming.youtube.com/channel/UCK5eBtuoj_HkdXKHNmBLAXg#tab=1 AfreecaTV YouTube Channel]
+
+==Gallery==
+
+===Grand Final teaser===
+
+{{#ev:youtube|sTcuQznf2Fo|356}}
+
+<gallery mode="packed" heights="200px">
+</gallery>
+
+==References==
+{{Reflist}}
+
+[[Category:Post-KeSPA Tournaments]]

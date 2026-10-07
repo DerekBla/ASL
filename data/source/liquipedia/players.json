@@ -1,0 +1,626 @@
+{
+  "1127": {
+    "page": "1127",
+    "id": "1127",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "815": {
+    "page": "815",
+    "id": null,
+    "race": null,
+    "isPlayerPage": false
+  },
+  "Action": {
+    "page": "Action",
+    "id": "Action",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Ample": {
+    "page": "Ample",
+    "id": "Ample",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "BarrackS": {
+    "page": "BarrackS",
+    "id": "BarrackS",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "beast": {
+    "page": "Beast",
+    "id": "beast",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "BeSt": {
+    "page": "Best",
+    "id": "Best",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Best": {
+    "page": "Best",
+    "id": "Best",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "BishOp": {
+    "page": "BishOp",
+    "id": "BishOp",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Bisu": {
+    "page": "Bisu",
+    "id": "Bisu",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "BTS": {
+    "page": "BTS",
+    "id": "BTS",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "ByuL": {
+    "page": "ByuL",
+    "id": "ByuL",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Calm": {
+    "page": "Calm",
+    "id": "Calm",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "DDasik": {
+    "page": "DDasik",
+    "id": "DDasik",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "EffOrt": {
+    "page": "EffOrt",
+    "id": "effOrt",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Effort": {
+    "page": "EffOrt",
+    "id": "effOrt",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "effOrt": {
+    "page": "EffOrt",
+    "id": "effOrt",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "ErOs_ByuL": {
+    "page": "ByuL",
+    "id": "ByuL",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "firebathero": {
+    "page": "Firebathero",
+    "id": "firebathero",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "FlaSh": {
+    "page": "Flash",
+    "id": "Flash",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Flash": {
+    "page": "Flash",
+    "id": "Flash",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Force(Name)": {
+    "page": "Force(Name)",
+    "id": "force(Name)",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Force(name)": {
+    "page": "Force(Name)",
+    "id": "force(Name)",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "ForGG": {
+    "page": "FOrGG",
+    "id": "fOrGG",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "free": {
+    "page": "Free",
+    "id": "free",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "ggaemo": {
+    "page": "Ggaemo",
+    "id": "ggaemo",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "GuemChi": {
+    "page": "GuemChi",
+    "id": "GuemChi",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Guemchi": {
+    "page": "GuemChi",
+    "id": "GuemChi",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "hani": {
+    "page": "Hani",
+    "id": "hani",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "herO": {
+    "page": "Hero",
+    "id": "herO",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "hero": {
+    "page": "Hero",
+    "id": "herO",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Hint": {
+    "page": "Hint",
+    "id": "Hint",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "HiyA": {
+    "page": "HiyA",
+    "id": "HiyA",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Horang2": {
+    "page": "Horang2",
+    "id": "Horang2",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "huro": {
+    "page": "Huro",
+    "id": "huro",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Hyuk": {
+    "page": "Hyuk",
+    "id": "Hyuk",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "HyuN": {
+    "page": "HyuN",
+    "id": "HyuN",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Hyun": {
+    "page": "HyuN",
+    "id": "HyuN",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Iris": {
+    "page": "Iris",
+    "id": "Iris",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "ivOry 인치호": {
+    "page": null,
+    "id": null,
+    "race": null,
+    "isPlayerPage": false
+  },
+  "Jaedong": {
+    "page": "Jaedong",
+    "id": "Jaedong",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Jaehoon": {
+    "page": "Jaehoon",
+    "id": "Jaehoon",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "JD": {
+    "page": "Jaedong",
+    "id": "Jaedong",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "JyJ": {
+    "page": "JyJ",
+    "id": "JyJ",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Khala": {
+    "page": "Khala",
+    "id": "Khala",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Killer": {
+    "page": "Killer",
+    "id": "Killer",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Larva": {
+    "page": "Larva (Player)",
+    "id": "Larva",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Last": {
+    "page": "Last",
+    "id": "Last",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Lazy": {
+    "page": "Lazy",
+    "id": "Lazy",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Leta": {
+    "page": "Leta",
+    "id": "Leta",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Light": {
+    "page": "Light",
+    "id": "Light",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Mind": {
+    "page": "Mind",
+    "id": "Mind",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Mini": {
+    "page": "Mini",
+    "id": "Mini",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "MIsO": {
+    "page": "MIsO",
+    "id": "MIsO",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Modesty": {
+    "page": "Modesty",
+    "id": "Modesty",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Mong": {
+    "page": "Mong",
+    "id": "Mong",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Motive": {
+    "page": "Motive",
+    "id": "Motive",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Movie": {
+    "page": "Movie",
+    "id": "Movie",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "NaDa": {
+    "page": "NaDa",
+    "id": "NaDa",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Neo.G_Soulkey": {
+    "page": "Soulkey",
+    "id": "Soulkey",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "nOOB": {
+    "page": "NOOB",
+    "id": "nOOB",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Paralyze": {
+    "page": "Paralyze",
+    "id": "Paralyze",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "PianO": {
+    "page": "PianO",
+    "id": "PianO",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "PURPOSE": {
+    "page": null,
+    "id": null,
+    "race": null,
+    "isPlayerPage": false
+  },
+  "Pusan": {
+    "page": "Pusan",
+    "id": "Pusan",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Queen": {
+    "page": "Queen",
+    "id": null,
+    "race": null,
+    "isPlayerPage": false
+  },
+  "Rain": {
+    "page": "Rain",
+    "id": "Rain",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "RoyaL": {
+    "page": "RoyaL",
+    "id": "RoyaL",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Ruin": {
+    "page": "Ruin",
+    "id": "Ruin",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Rush": {
+    "page": "Rush",
+    "id": "Rush",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Saber": {
+    "page": "Saber",
+    "id": "Saber",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Sacsri": {
+    "page": "Sacsri",
+    "id": "Sacsri",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Scan": {
+    "page": "Scan",
+    "id": "Scan",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Sea": {
+    "page": "Sea",
+    "id": "Sea",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Sea.KH": {
+    "page": "Brain",
+    "id": "Brain",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Sexy": {
+    "page": "Speed",
+    "id": "Speed",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Sharp": {
+    "page": "Sharp",
+    "id": "Sharp",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Shine": {
+    "page": "Shine",
+    "id": "Shine",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Shuttle": {
+    "page": "Shuttle (Player)",
+    "id": "Shuttle",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Skey": {
+    "page": "Skey",
+    "id": "Skey",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Sky": {
+    "page": "Sky",
+    "id": "Sky",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "SnOw": {
+    "page": "SnOw",
+    "id": "SnOw",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Snow": {
+    "page": "SnOw",
+    "id": "SnOw",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Soma": {
+    "page": "Soma",
+    "id": "soma",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "soma": {
+    "page": "Soma",
+    "id": "soma",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Sorry": {
+    "page": "RoyaL",
+    "id": "RoyaL",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "sOrry": {
+    "page": "RoyaL",
+    "id": "RoyaL",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Soulkey": {
+    "page": "Soulkey",
+    "id": "Soulkey",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Speed": {
+    "page": "Speed",
+    "id": "Speed",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Ss1nz": {
+    "page": "Ss1nz",
+    "id": "ss1nz",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "sSak": {
+    "page": "SSak",
+    "id": "sSak",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Stork": {
+    "page": "Stork",
+    "id": "Stork",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "TaeNgGu": {
+    "page": "TaeNgGu",
+    "id": "TaeNgGu",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Terror": {
+    "page": "Terror",
+    "id": "Terror",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Tinkle": {
+    "page": "Tinkle",
+    "id": "Tinkle",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "tulbo": {
+    "page": "Huro",
+    "id": "huro",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "TY": {
+    "page": "TY",
+    "id": "TY",
+    "race": "T",
+    "isPlayerPage": true
+  },
+  "Tyson": {
+    "page": "Tyson",
+    "id": "Tyson",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "Where": {
+    "page": "MIsO",
+    "id": "MIsO",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Yerim2": {
+    "page": "Yerim2",
+    "id": "Yerim2",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "Yoon": {
+    "page": "Yoon (Amateur)",
+    "id": "Yoon",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "YSC": {
+    "page": "Huro",
+    "id": "huro",
+    "race": "P",
+    "isPlayerPage": true
+  },
+  "ZeLoT": {
+    "page": "ZeLoT",
+    "id": "ZeLoT",
+    "race": "Z",
+    "isPlayerPage": true
+  },
+  "ZerO": {
+    "page": "ZerO",
+    "id": "Queen",
+    "race": "Z",
+    "isPlayerPage": true
+  }
+}

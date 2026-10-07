@@ -1,0 +1,903 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 13}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=AfreecaTV StarCraft League Remastered/13
+|name2=Qualifiers
+|link2=AfreecaTV StarCraft League Remastered/13/Qualifiers
+|name3=Statistics
+|link3=AfreecaTV_StarCraft_League_Remastered/13/Statistics
+|This=1}}
+{{Infobox league
+|name=ASL Season 13
+|tickername=ASL Season 13
+|image=Afreecatv starcraft league remastered.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6], [https://www.lg.com/us/gaming-monitors LG Ultragear]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=80,000,000
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2022-02-08
+|edate=2022-04-09
+|patch=
+|epatch=
+|edition=13
+|afreeca=afstar1
+|idfirst=  |racefirst=  |flagfirst=kr
+|idsecond= |racesecond= |flagsecond=kr
+|idthird=  |racethird=  |flagthird=kr
+|idfourth= |racefourth= |flagfourth=kr
+|player_number=28
+|protoss_number=11
+|terran_number=8
+|zerg_number=9
+|random_number=
+|map1=Revolver SE
+|map2=Vermeer
+|map3=Allegro
+|map4=Eclipse
+|map5=Butter
+|map6=Metaverse
+|map7=Monopoly
+|previous=AfreecaTV StarCraft League Remastered/12{{!}}ASL Season 12
+|next=AfreecaTV StarCraft League Remastered/14{{!}}ASL Season 14
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League Remastered Season 13''' ('''ASL Season 13'''), is an offline tournament organized and broadcast live on [[AfreecaTV]].
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=ND1my7HUEcg</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV StarCraft League Remastered/12|ASL Season 12]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals: {{abbr/Bo5}}
+** Semi-Finals & Finals: {{abbr/Bo7}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[AfreecaTV StarCraft League Remastered/12|ASL Season 12]]
+|Mini
+|Rush
+|hero
+|ZerO
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/13/Qualifiers/1|Online Qualifier 1]]
+|Soulkey
+|Light
+|Rain
+|Action
+|soma
+|JyJ
+|Bisu
+|Jaedong
+|RoyaL
+|Best
+|Ruin
+|Snow
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/13/Qualifiers/2|Online Qualifier 2]]
+|Sacsri
+|BishOp
+|Shuttle |p3link=Shuttle (Player)
+|Tyson
+|GuemChi
+|ggaemo
+|Movie
+|Horang2
+|beast
+|Mong
+|BarrackS
+|sSak
+}}
+}}
+
+===Prize Pool===
+{{prize pool start
+|localcurrency=KRW
+|disable_teams=true
+}}
+{{prize pool slot|place=1|localprize=30000000}}
+{{prize pool slot|place=2|localprize=10000000}}
+{{prize pool slot|place=3|localprize=5000000}}
+{{prize pool slot|place=4|localprize=3000000}}
+{{prize pool slot|place=5-8|localprize=2000000}}
+{{prize pool slot|place=9-12|localprize=1500000}}
+{{prize pool slot|place=13-16|localprize=1500000}}
+{{prize pool slot|place=17-22|localprize=1000000}}
+{{prize pool slot|place=23-28|localprize=1000000}}
+{{LegacyPrizePoolEnd|}}
+
+===Maps===
+{{MapPoolTable}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=Starcast TV English Commentator
+|b1=Nyoken
+|b2=Scan
+}}
+{{BroadcasterCard
+|position=Starcast TV Spanish Commentator
+|b1=Deathfate  |b1name=Juan Bayona |b1flag=es
+|b2=Remastr TV |b2name=Jan S. |b2flag=pe
+|b3=YuSC
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=bxwQbsd913
+|title=Group A
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/585441-asl13-ro24-preview-pt1-the-stars-return
+|lrthread=https://tl.net/forum/bw-tournaments/585442-asl13-ro24-group-a
+|vod=https://www.youtube.com/watch?v=8qFtmMct4vQ
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/83559029
+}}
+{{Matchlist|id=bxwQbsd913|attached=true|title=Group A Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=February 8, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|beast}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |date=February 8, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shuttle}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |date=February 8, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=Butter|winner=1}}
+    |veto1=Metaverse|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+|M4={{Match
+    |date=February 8, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|beast}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Butter|winner=1}}
+    |veto1=Metaverse|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+|M5={{Match
+    |date=February 8, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shuttle}}
+    |opponent2={{1Opponent|beast}}
+    |map1={{Map|map=Vermeer|winner=1}}
+    |veto1=Allegro|vetoplayer1=1
+    |veto2=Revolver SE|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=axwQbsd913
+|title=Group B
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/585441-asl13-ro24-preview-pt1-the-stars-return
+|lrthread=https://tl.net/forum/bw-tournaments/585538-asl13-ro24-group-b
+|vod=https://www.youtube.com/watch?v=W4tjgq9jwU8
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/83602837
+}}
+{{Matchlist|id=axwQbsd913|attached=true|title=Group B Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=February 9, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Tyson}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |date=February 9, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |date=February 9, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Metaverse|winner=2}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+|M4={{Match
+    |date=February 9, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Tyson}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=Metaverse|winner=2}}
+    |veto1=Monopoly|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M5={{Match
+    |date=February 9, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Revolver SE|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=cxwQbsd913
+|title=Group C
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/585441-asl13-ro24-preview-pt1-the-stars-return
+|lrthread=https://tl.net/forum/bw-tournaments/585626-asl13-ro24-group-c
+|vod=https://www.youtube.com/watch?v=7rjNquFbJOk
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/83645914
+}}
+{{Matchlist|id=cxwQbsd913|attached=true|title=Group C Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=February 10, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rain}}
+    |opponent2={{1Opponent|BishOp}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |date=February 10, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|Horang2}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |date=February 10, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rain}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Metaverse|winner=1}}
+    |veto1=Monopoly|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M4={{Match
+    |date=February 10, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|BishOp}}
+    |opponent2={{1Opponent|Horang2}}
+    |map1={{Map|map=Monopoly|winner=2}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Metaverse|vetoplayer2=2
+}}
+|M5={{Match
+    |date=February 10, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|Horang2}}
+    |map1={{Map|map=Vermeer|winner=1}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=dxwQbsd913
+|title=Group D
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/586014-asl13-ro24-preview-pt2-expectations
+|lrthread=https://tl.net/forum/bw-tournaments/586022-asl13-ro24-group-d
+|vod=https://www.youtube.com/watch?v=Mvj1T1Uyc7g
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/83862693
+}}
+{{Matchlist|id=dxwQbsd913|attached=true|title=Group D Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=February 15, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Snow}}
+    |opponent2={{1Opponent|ggaemo}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M2={{Match
+    |date=February 15, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|GuemChi}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |date=February 15, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|ggaemo}}
+    |map1={{Map|map=Metaverse|winner=1}}
+    |veto1=Monopoly|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M4={{Match
+    |date=February 15, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Snow}}
+    |opponent2={{1Opponent|GuemChi}}
+    |map1={{Map|map=Monopoly|winner=1}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M5={{Match
+    |date=February 15, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|ggaemo}}
+    |opponent2={{1Opponent|Snow}}
+    |map1={{Map|map=Vermeer|winner=1}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=exwQbsd913
+|title=Group E
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/586014-asl13-ro24-preview-pt2-expectations
+|lrthread=https://tl.net/forum/bw-tournaments/586159-asl13-ro24-group-e
+|vod=https://www.youtube.com/watch?v=vRyWJYCtc-8
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/83903494
+}}
+{{Matchlist|id=exwQbsd913|attached=true|title=Group E Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=February 16, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|Ruin}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |date=February 16, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|JyJ}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |date=February 16, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Metaverse|winner=2}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+|M4={{Match
+    |date=February 16, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Ruin}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Monopoly|winner=2}}
+    |veto1=Metaverse|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M5={{Match
+    |date=February 16, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Revolver SE|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=fxwQbsd913
+|title=Group F
+|show_g=false
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/586014-asl13-ro24-preview-pt2-expectations
+|lrthread=https://tl.net/forum/bw-tournaments/586235-asl13-ro24-group-f
+|vod=https://www.youtube.com/watch?v=gRbeFZjak6k
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/83946175
+}}
+{{Matchlist|id=fxwQbsd913|attached=true|title=Group F Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=February 17, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|Movie}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |date=February 17, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mong}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M3={{Match
+    |date=February 17, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Butter|winner=2}}
+    |veto1=Metaverse|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+|M4={{Match
+    |date=February 17, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Movie}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=Monopoly|winner=2}}
+    |veto1=Metaverse|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M5={{Match
+    |date=February 17, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=Vermeer|winner=1}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Revolver SE|vetoplayer2=2
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony will be held on {{countdown|date=February 22, 2022 - 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}.''
+[https://vod.afreecatv.com/PLAYER/STATION/84149504 VOD]
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=bxuQbsd913
+|title=Group A
+|date=March 1, 2022 - 19:00 {{Abbr/KST}}
+|edate=March 1, 2022 - 23:55 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/587142-asl13-ro16-preview-pt-1-highest-highs
+|lrthread=https://tl.net/forum/bw-tournaments/587143-asl13-ro16-group-a
+|vod=https://www.youtube.com/watch?v=HdA3TatEWRQ
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/84451984/405194
+}}
+{{Matchlist|id=bxuQbsd913|attached=true|title=Group A Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=March 1, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|Light}}
+    |map1={{Map|map=Vermeer|winner=2}}
+}}
+|M2={{Match
+    |date=March 1, 2022 - 19:50 {{Abbr/KST}}
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|Rain}}
+    |map1={{Map|map=Vermeer|winner=2}}
+}}
+|M3={{Match|bestof=3
+    |date=March 1, 2022 - 20:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Rain}}
+    |map1={{Map|map=Eclipse|winner=2}}
+    |map2={{Map|map=Allegro|winner=1}}
+    |map3={{Map|map=Revolver|winner=2}}
+    |veto1=Butter|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+|M4={{Match
+    |date=March 1, 2022 - 21:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|RoyaL}}
+    |map1={{Map|map=Eclipse|winner=1}}
+    |map2={{Map|map=Metaverse|winner=2}}
+    |map3={{Map|map=Revolver|winner=1}}
+    |veto1=Monopoly|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M5={{Match
+    |date=March 1, 2022 - 22:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Mini}}
+    |map1={{Map|map=Butter|winner=2}}
+    |map2={{Map|map=Allegro|winner=1}}
+    |map3={{Map|map=Eclipse|winner=1}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=gxuQbsd913
+|title=Group B
+|date=March 2, 2022 - 19:00 {{Abbr/KST}}
+|edate=March 2, 2022 - 23:55 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/587142-asl13-ro16-preview-pt-1-highest-highs
+|lrthread=https://tl.net/forum/bw-tournaments/587275-asl13-ro16-group-b
+|vod=https://www.youtube.com/watch?v=dd-ASvJ400M
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/84494816
+}}
+{{Matchlist|id=gxuQbsd913|attached=true|title=Group B Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=March 2, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|ggaemo}}
+    |map1={{Map|map=Vermeer|winner=1}}
+}}
+|M2={{Match
+    |date=March 2, 2022 - 19:50 {{Abbr/KST}}
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=Vermeer|winner=1}}
+}}
+|M3={{Match|bestof=3
+    |date=March 2, 2022 - 20:40 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Eclipse|winner=2}}
+    |map2={{Map|map=Butter|winner=2}}
+    |map3={{Map|map=Metaverse|finished=skip}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Revolver SE|vetoplayer2=2
+}}
+|M4={{Match
+    |date=March 2, 2022 - 21:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|ggaemo}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=Metaverse|winner=2}}
+    |map2={{Map|map=Butter|winner=2}}
+    |map3={{Map|map=Monopoly|finished=skip}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+|M5={{Match
+    |date=March 2, 2022 - 22:20 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=Butter|winner=1}}
+    |map2={{Map|map=Metaverse|winner=2}}
+    |map3={{Map|map=Allegro|winner=1}}
+    |veto1=Eclipse|vetoplayer1=1
+    |veto2=Monopoly|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=hxuQbsd913
+|title=Group C
+|sdate=March 8, 2022 - 19:00 {{Abbr/KST}}
+|date=March 8, 2022 - 19:00 {{Abbr/KST}}
+|edate=March 8, 2022 - 23:55 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/587684-asl13-ro16-preview-pt-2-the-peak
+|lrthread=https://tl.net/forum/bw-tournaments/587711-asl13-ro16-group-c
+|vod=https://www.youtube.com/watch?v=uDa1a6OdPAs
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/84739221
+}}
+{{Matchlist|id=hxuQbsd913|attached=true|title=Group C Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=March 8, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Vermeer|winner=2}}
+}}
+|M2={{Match
+    |date=March 8, 2022 - 19:45 {{Abbr/KST}}
+    |opponent1={{1Opponent|Jaedong}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Vermeer|winner=1}}
+}}
+|M3={{Match|bestof=3
+    |date=March 8, 2022 - 20:10 {{Abbr/KST}}
+    |opponent1={{1Opponent|JyJ}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Metaverse|winner=1}}
+    |map2={{Map|map=Monopoly|winner=1}}
+    |map3={{Map|map=Eclipse|finished=skip}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Butter|vetoplayer2=2
+}}
+|M4={{Match
+    |date=March 8, 2022 - 20:55 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Allegro|winner=2}}
+    |map2={{Map|map=Butter|winner=2}}
+    |map3={{Map|map=Revolver SE|finished=skip}}
+    |veto1=Metaverse|vetoplayer1=1
+    |veto2=Eclipse|vetoplayer2=2
+}}
+|M5={{Match
+    |date=March 8, 2022 - 21:35 {{Abbr/KST}}
+    |opponent1={{1Opponent|Jaedong}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Butter|winner=2}}
+    |map2={{Map|map=Eclipse|winner=2}}
+    |map3={{Map|map=Revolver SE|finished=skip}}
+    |veto1=Monopoly|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=biuQbsd913
+|title=Group D
+|date=March 9, 2022 - 19:00 {{Abbr/KST}}
+|edate=March 9, 2022 - 23:55 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/587684-asl13-ro16-preview-pt-2-the-peak
+|lrthread=https://tl.net/forum/bw-tournaments/587785-asl13-ro16-group-d
+|vod=https://www.youtube.com/watch?v=yqBx6Bn0ecw
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/84783301
+}}
+{{Matchlist|id=biuQbsd913|attached=true|title=Group D Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=March 9, 2022 - 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Vermeer|winner=2}}
+}}
+|M2={{Match
+    |date=March 9, 2022 - 19:50 {{Abbr/KST}}
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|soma}}
+    |map1={{Map|map=Vermeer|winner=2}}
+}}
+|M3={{Match|bestof=3
+    |date=March 9, 2022 - 20:40 {{Abbr/KST}}
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|soma}}
+    |map1={{Map|map=Eclipse|winner=2}}
+    |map2={{Map|map=Butter|winner=2}}
+    |map3={{Map|map=Monopoly|finished=skip}}
+    |veto1=Allegro|vetoplayer1=1
+    |veto2=Metaverse|vetoplayer2=2
+}}
+|M4={{Match
+    |date=March 9, 2022 - 21:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Best}}
+    |map1={{Map|map=Metaverse|winner=1}}
+    |map2={{Map|map=Butter|winner=1}}
+    |map3={{Map|map=Monopoly|finished=skip}}
+    |veto1=Revolver SE|vetoplayer1=1
+    |veto2=Allegro|vetoplayer2=2
+}}
+|M5={{Match
+    |date=March 9, 2022 - 22:20 {{Abbr/KST}}
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|ZerO}}
+    |map1={{Map|map=Monopoly|winner=2}}
+    |map2={{Map|map=Metaverse|winner=1}}
+    |map3={{Map|map=Eclipse|winner=1}}
+    |veto1=Allegro|vetoplayer1=1
+    |veto2=Revolver SE|vetoplayer2=2
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+{{bracket|Bracket/8|id=h5HXaqbS13
+|R1M1header=Quarterfinals ({{Bo|5}})
+|R2M1header=Semifinals ({{Bo|7}})
+|R3M1header=Finals ({{Bo|7}})
+
+<!-- Quarter-Finals -->
+|R1M1={{Match|bestof=5
+    |date=2022-03-29 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Rain}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Revolver SE|winner=2}}
+    |map2={{Map|map=Allegro|winner=1}}
+    |map3={{Map|map=Eclipse|winner=2}}
+    |map4={{Map|map=Vermeer|winner=1}}
+    |map5={{Map|map=Butter|winner=1}}
+    |comment=The match between [[Rain]] and [[Soulkey]] has been rescheduled to 22 March due to positive COVID-19 tests from [[Soulkey]]<ref>[https://bj.afreecatv.com/afstar1/post/84853136 Soulkey positive to COVID]</ref>. Then the match had to be rescheduled to March 29 due to positive COVID-19 tests from [[Rain]]<ref>[https://bj.afreecatv.com/afstar1/post/85261892 Rain positive to COVID]</ref>. 
+    <br/>[[Rain]] Picked Maps Set 1,3 [[Soulkey]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/589187-asl13-ro8-preview-pt3-crossover-appeal
+    |lrthread=https://tl.net/forum/bw-tournaments/589188-asl13-ro8-day-4
+    |recap=
+    |vod=https://www.youtube.com/watch?v=4Pxsv6YOhOk
+	|vodgame1=https://vod.afreecatv.com/player/85598809
+}}
+|R1M2={{Match
+    |date=2022-03-16 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|Rush}}
+    |map1={{Map|map=Monopoly|winner=1}}
+    |map2={{Map|map=Butter|winner=1}}
+    |map3={{Map|map=Vermeer|winner=1}}
+    |map4={{Map|map=Allegro|finished=skip}}
+    |map5={{Map|map=Metaverse|finished=skip}}
+    |comment=[[soma]] Picked Maps Set 1,3
+                 [[Rush]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/588265-asl13-ro8-preview-pt1-one-shall-stand
+    |lrthread=https://tl.net/forum/bw-tournaments/588311-asl13-ro8-day-1
+    |recap=
+    |vod=https://www.youtube.com/watch?v=L4Lc01IudLw
+	|vodgame1=https://vod.afreecatv.com/PLAYER/STATION/85065367
+}}
+|R1M3={{Match
+    |date=2022-03-22 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|Light}}
+    |map1={{Map|map=Revolver SE|winner=1}}
+    |map2={{Map|map=Allegro|winner=2}}
+    |map3={{Map|map=Eclipse|winner=2}}
+    |map4={{Map|map=Metaverse|winner=2}}
+    |map5={{Map|map=Butter|finished=skip}}
+    |comment=[[Action]] Picked Maps Set 1,3
+                 [[Light]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/588629-asl13-ro8-preview-pt2-the-line
+    |lrthread=https://tl.net/forum/bw-tournaments/588630-asl13-ro8-day-2
+    |recap=
+    |vod=https://www.youtube.com/watch?v=Ism39fVM4Pw
+	|vodgame1=https://vod.afreecatv.com/player/85311424
+}}
+|R1M4={{Match
+    |date=2022-03-23 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|JyJ}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |map2={{Map|map=Eclipse|winner=2}}
+    |map3={{Map|map=Monopoly|winner=1}}
+    |map4={{Map|map=Revolver SE|winner=2}}
+    |map5={{Map|map=Metaverse|winner=2}}
+    |comment=[[JyJ]] Picked Maps Set 1,3
+                 [[Bisu]] Picked Maps Set 2,4
+    |preview=https://tl.net/forum/brood-war/588629-asl13-ro8-preview-pt2-the-line
+    |lrthread=https://tl.net/forum/bw-tournaments/588721-asl13-ro8-day-3
+    |recap=
+    |vod=https://www.youtube.com/watch?v=76zZ5sFpmrI
+	|vodgame1=https://vod.afreecatv.com/player/85352525
+}}
+
+<!-- Semi-Finals -->
+|R2M1={{Match|bestof=7
+    |date=2022-04-03 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Rain}}
+    |opponent2={{1Opponent|soma}}
+    |map1={{Map|map=Revolver SE|winner=1}}
+    |map2={{Map|map=Vermeer|winner=1}}
+    |map3={{Map|map=Butter|winner=2}}
+    |map4={{Map|map=Allegro|winner=2}}
+    |map5={{Map|map=Eclipse|winner=1}}
+    |map6={{Map|map=Monopoly|winner=1}}
+    |map7={{Map|map=Metaverse|finished=skip}}
+    |comment=The match had been rescheduled after the quarterfinal between [[Rain]] and [[Soulkey]] had to be rescheduled a second time<ref>[https://bj.afreecatv.com/afstar1/post/85261892 Semifinals 1 rescheduled]</ref>.
+    <br/>[[Rain]] Picked Maps Set 1,3,5 [[soma]] Picked Maps Set 2,4,6
+    |preview=https://tl.net/forum/brood-war/589605-asl13-ro4-preview-pt2-new-age
+    |lrthread=https://tl.net/forum/bw-tournaments/589608-asl13-ro4-day-2
+    |recap=
+    |vod=https://www.youtube.com/watch?v=vCf040jYjGE
+	|vodgame1=https://vod.afreecatv.com/player/85811845
+}}
+|R2M2={{Match
+    |date=2022-03-30 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Allegro|winner=1}}
+    |map2={{Map|map=Eclipse|winner=1}}
+    |map3={{Map|map=Monopoly|winner=2}}
+    |map4={{Map|map=Butter|winner=2}}
+    |map5={{Map|map=Vermeer|winner=1}}
+    |map6={{Map|map=Revolver SE|winner=1}}
+    |map7={{Map|map=Metaverse|finished=skip}}
+    |comment=[[Light]] Picked Maps Set 1,3,5
+                 [[Bisu]] Picked Maps Set 2,4,6
+    |preview=https://tl.net/forum/brood-war/589269-asl13-ro4-preview-pt1-cut-the-breaks
+    |lrthread=https://tl.net/forum/bw-tournaments/589272-asl13-ro4-day-1
+    |recap=
+    |vod=https://www.youtube.com/watch?v=SkcsCsYvhjQ
+	|vodgame1=https://vod.afreecatv.com/player/85640026
+}}
+
+<!-- Final -->
+|R3M1={{Match
+    |date=April 9, 2022 - 18:20 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Rain}}
+    |opponent2={{1Opponent|Light}}
+    |map1={{Map|map=Eclipse|winner=2}}
+    |map2={{Map|map=Allegro|winner=2}}
+    |map3={{Map|map=Revolver SE|winner=2}}
+    |map4={{Map|map=Vermeer|winner=2}}
+    |map5={{Map|map=Butter|finished=skip}}
+    |map6={{Map|map=Monopoly|finished=skip}}
+    |map7={{Map|map=Metaverse|finished=skip}}
+    |comment=[[Rain]] Picked Maps Set 1,3,5
+                 [[Light]] Picked Maps Set 2,4,6
+    |preview=https://tl.net/forum/brood-war/590131-asl13-finals-preview-ascension
+    |lrthread=https://tl.net/forum/bw-tournaments/590132-asl13-grand-finals
+    |recap=
+    |vod=https://www.youtube.com/watch?v=djZt3n1Po6s
+	|vodgame1=https://vod.afreecatv.com/player/86048148
+}}
+|RxMTP={{Match|bestof=5
+    |date=April 5, 2022 - 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|soma}} 
+    |opponent2={{1Opponent|Bisu}} 
+    |map1={{Map|map=Vermeer|winner=1}}
+    |map2={{Map|map=Revolver SE|winner=2}}
+    |map3={{Map|map=Allegro|winner=2}}
+    |map4={{Map|map=Eclipse|winner=1}}
+    |map5={{Map|map=Butter|winner=2}} 
+    |comment=[[soma]] Picked Maps Set 1,3
+                 [[Bisu]] Picked Maps Set 2,4
+    |preview=
+    |lrthread=https://tl.net/forum/bw-tournaments/589789-asl13-3rd-place-match
+    |recap=
+    |vod=https://www.youtube.com/watch?v=rhjBZTIST84
+	|vodgame1=https://vod.afreecatv.com/player/85887666
+}}
+}}
+
+==Racial distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean] at Afreecatv.com
+* {{Flag|usuk}} [http://play.afreecatv.com/dth03119 Livestream in English] at Afreecatv.com
+* {{Flag|esmx}} [http://play.afreecatv.com/basic0020512 Livestream in Spanish] at Afreecatv.com
+
+===VODS===
+* {{Flag|kr}} [https://bj.afreecatv.com/afstar1/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|usuk}} [https://bj.afreecatv.com/dth03119/vods Spoiler-free English AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|esmx}} [https://bj.afreecatv.com/basic0020512/vods Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://www.sc2links.com/tournament/?match=719 Spoiler-free VODs on SC2Links.com]
+* {{Flag|usuk}} [https://sc2casts.com/event1293-2022-Afreeca-Starleague-S13 Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|us}} [https://tl.net/forum/brood-war/583574-asl13-starts-feb-8th-qualifiers-jan-22-23 ASL Season 13 announcement]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/82972139 afreecatv.com - ASL Season 13 Round of 24 announcement]
+*{{Flag|kr}} [https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C13 ASL Season 13 in namu.wiki]
+*{{Flag|kr}} [https://910map.tistory.com/category/ASL/ASL%20%EC%8B%9C%EC%A6%8C%2013 ASL Season 13 map pool]
+
+[[Category:Post-KeSPA Tournaments]]

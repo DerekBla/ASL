@@ -1,0 +1,929 @@
+{{DISPLAYTITLE:ASL Season 18 (2024 SSL AUTUMN)}}
+{{SOOP StarCraft League Navbox}}
+{{SOOP/StarCraft League/2024/AUTUMN/Tabs}}
+{{Infobox league
+|name=ASL Season 18 (2024 SSL AUTUMN)
+|tickername=2024 SSL AUTUMN
+|image=SOOP StarCraft League 2024 AUTUMN lightmode.png
+|imagedark=SOOP StarCraft League 2024 AUTUMN darkmode.png
+|icon=SOOP StarCraft League icon lightmode.png
+|icondark=SOOP StarCraft League icon darkmode.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=
+|organizer=SOOP
+|sponsor=[https://www.liivm.com/ KB Liiv Movil]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=78,000,000
+|country=South Korea
+|city=Seoul
+|venue=Jamsil Vita 500 Colosseum (24-4)<br>Sangam Africa Colosseum (final)
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2024-08-26
+|edate=2024-11-02
+|web=https://tl.net/forum/brood-war/628951-soop-starleague-autumn-asl18-announced
+|edition=1
+|afreeca=afstar1
+|soop=sctvenglish
+|protoss_number=9
+|terran_number=12
+|zerg_number=7
+|map1=Minstrel
+|map2=Monty Hall
+|map3=Dominator
+|map4=Deja Vu
+|map5=KICK BACK 
+|map6=Pantheon
+|map7=Radeon
+|previous=AfreecaTV StarCraft League Remastered/17{{!}}ASL Season 17
+|next=ASL/19{{!}}ASL Season 19
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+==Overview==
+The '''SOOP StarCraft League 2024 AUTUMN''' ('''KB Live Mobile 2024 SSL AUTUMN'''), is an offline tournament organized and broadcast live on [[AfreecaTV]] & [[SOOP]].
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=F62RYoGdXSQ</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV StarCraft League Remastered/17|ASL Season 17]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** All matches: {{abbr/Bo7}}
+
+===Prize Pool===
+{{SoloPrizePool|localcurrency=KRW|qualifies1=ASL/19
+|{{Slot|localprize=30000000|qualified1=yes}}
+|{{Slot|localprize=10000000|qualified1=yes}}
+|{{Slot|place=3-4|localprize=3000000|qualified1=yes}}
+|{{Slot|place=5-8|localprize=2000000}}
+|{{Slot|place=9-12|localprize=1500000}}
+|{{Slot|place=13-16|localprize=1500000}}
+|{{Slot|place=17-22|localprize=1000000}}
+|{{Slot|place=23-28|localprize=1000000}}
+}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[AfreecaTV/StarCraft League Remastered/17|ASL Season 17]]
+|Soulkey
+|hero
+|Sharp
+|SnOw
+}}
+|{{ParticipantSection|title=From [[SOOP/StarCraft_League/2024/AUTUMN/Qualifiers/Online 1|Online Qualifier 1]]
+|RoyaL
+|Mini
+|Light
+|ZerO
+|BarrackS
+|Best
+|Stork
+|Rain
+|Bisu
+|Rush
+|JyJ
+|Jaedong
+}}
+|{{ParticipantSection|title=From [[SOOP/StarCraft_League/2024/AUTUMN/Qualifiers/Online 2|Online Qualifier 2]]
+|Shine
+|huro
+|Sacsri
+|Mind
+|Speed
+|Scan
+|Action
+|free
+|Sea
+|1127
+|Motive
+|sSak
+}}
+}}
+
+===Maps===
+{{MapPoolTable
+|size=x140px
+}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won
+|b2=TY
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=StarCastTV English Commentator
+|b1=Nyoken
+|b2=gypsy
+|b3=eOnzErG
+|b4=ret
+|b5=Razz
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=StarCastTV Spanish Commentator
+|b1=Yu
+|b2=Dipa |b2name=Julián Di Pace Herrera |b2flag=ar
+|b3=Remastr TV
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=SSL1AR24GA|show_g=false
+|title=Group A
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/630100-ssl-autumn-ro24-preview-pt1-taking-stock
+|lrthread=https://tl.net/forum/bw-tournaments/630124-ssl-autumn-ro24-group-a
+|vod=https://vod.afreecatv.com/player/134417611
+|vod1=https://www.youtube.com/watch?v=KRM8g122ILw
+|p1=ZerO|temp_tie1=0.4
+|p2=1127|temp_tie2=0.3
+|p3=Rain|temp_tie3=0.2
+|p4=BarrackS|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR24GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2024-08-26 19:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|ZerO}}
+	|opponent2={{1Opponent|1127}}
+	|map1={{Map|winner=1|map=Dominator}}
+}}
+|M2={{Match
+	|date=2024-08-26 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=2|map=Dominator}}
+}}
+|M3={{Match
+	|date=2024-08-26 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|ZerO}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|vetoplayer1=1|veto1=KICK BACK
+	|vetoplayer2=2|veto2=KICK BACK
+}}
+|M4={{Match
+	|date=2024-08-26 20:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|1127}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=2|map=KICK BACK}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2024-08-26 20:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|ZerO}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=2|map=Radeon}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=SSL1AR24GB|show_g=false
+|title=Group B
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/630100-ssl-autumn-ro24-preview-pt1-taking-stock
+|lrthread=https://tl.net/forum/bw-tournaments/630161-ssl-autumn-ro24-group-b
+|vod=https://vod.afreecatv.com/player/134511319
+|vod1=https://www.youtube.com/watch?v=0QVFsYpbuTY
+|p1=Mini|temp_tie1=0.4
+|p2=Scan|temp_tie2=0.3
+|p3=Bisu|temp_tie3=0.2
+|p4=sSak|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR24GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2024-08-27 19:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Scan}}
+	|map1={{Map|winner=1|map=Dominator}}
+}}
+|M2={{Match
+	|date=2024-08-27 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=1|map=Dominator}}
+}}
+|M3={{Match
+	|date=2024-08-27 19:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M4={{Match
+	|date=2024-08-27 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Scan}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2024-08-27 20:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=SSL1AR24GC|show_g=false
+|title=Group C
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/630100-ssl-autumn-ro24-preview-pt1-taking-stock
+|lrthread=https://tl.net/forum/bw-tournaments/630235-ssl-autumn-ro24-group-c
+|vod=https://vod.afreecatv.com/player/134598939
+|vod1=https://www.youtube.com/watch?v=Du101wFNCQs
+|p1=Rush|temp_tie1=0.4
+|p2=Motive|temp_tie2=0.3
+|p3=RoyaL|temp_tie3=0.2
+|p4=Sacsri|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR24GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2024-08-28 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|Motive}}
+	|map1={{Map|winner=1|map=Dominator}}
+}}
+|M2={{Match
+	|date=2024-08-28 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Sacsri}}
+	|map1={{Map|winner=2|map=Dominator}}
+}}
+|M3={{Match
+	|date=2024-08-28 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|Sacsri}}
+	|map1={{Map|winner=1|map=KICK BACK}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M4={{Match
+	|date=2024-08-28 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|Motive}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=2|map=Minstrel}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2024-08-28 20:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sacsri}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=2|map=Pantheon}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=SSL1AR24GD|show_g=false
+|title=Group D
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/630390-ssl-autumn-ro24-preview-pt2-making-stock
+|lrthread=https://tl.net/forum/bw-tournaments/630391-ssl-autumn-ro24-group-d
+|vod=https://vod.afreecatv.com/player/135108759
+|vod1=https://www.youtube.com/watch?v=PbmR2_IliaU
+|p1=Best|temp_tie1=0.4
+|p2=Speed|temp_tie2=0.3
+|p3=Action|temp_tie3=0.2
+|p4=Sea|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR24GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2024-09-02 19:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=2|map=Dominator}}
+}}
+|M2={{Match
+	|date=2024-09-02 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Action}}
+	|opponent2={{1Opponent|Sea}}
+	|map1={{Map|winner=2|map=Dominator}}
+}}
+|M3={{Match
+	|date=2024-09-02 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Speed}}
+	|opponent2={{1Opponent|Sea}}
+	|map1={{Map|winner=1|map=Minstrel}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M4={{Match
+	|date=2024-09-02 20:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2024-09-02 21:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sea}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=1|map=Monty Hall}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=SSL1AR24GE|show_g=false
+|title=Group E
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/630390-ssl-autumn-ro24-preview-pt2-making-stock
+|lrthread=https://tl.net/forum/bw-tournaments/630437-ssl-autumn-ro24-group-e
+|vod=https://vod.afreecatv.com/player/135204597
+|vod1=https://www.youtube.com/watch?v=Iue1F50OQg8
+|vod2=
+|vod3=
+|p1=Light|temp_tie1=0.4
+|p2=huro|temp_tie2=0.3
+|p3=Shine|temp_tie3=0.2
+|p4=Jaedong|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR24GE|attached=true|title=Group E Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2024-09-03 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|huro}}
+	|map1={{Map|winner=1|map=Dominator}}
+}}
+|M2={{Match
+	|date=2024-09-03 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Shine}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=2|map=Dominator}}
+}}
+|M3={{Match
+	|date=2024-09-03 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=1|map=Deja Vu}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M4={{Match
+	|date=2024-09-03 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|huro}}
+	|opponent2={{1Opponent|Shine}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2024-09-03 20:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|Jaedong}}
+	|opponent2={{1Opponent|Shine}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=SSL1AR24GF|show_g=false
+|title=Group F
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/630390-ssl-autumn-ro24-preview-pt2-making-stock
+|lrthread=https://tl.net/forum/bw-tournaments/630478-ssl-autumn-ro24-group-f
+|vod=https://vod.afreecatv.com/player/135310329
+|vod1=https://www.youtube.com/watch?v=whZNClskboI
+|vod2=
+|vod3=
+|p1=JyJ|temp_tie1=0.4
+|p2=free|temp_tie2=0.3
+|p3=Mind|temp_tie3=0.2
+|p4=Stork|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR24GF|attached=true|title=Group F Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2024-09-04 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|free}}
+	|map1={{Map|winner=1|map=Dominator}}
+}}
+|M2={{Match
+	|date=2024-09-04 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mind}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=2|map=Dominator}}
+}}
+|M3={{Match
+	|date=2024-09-04 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=2|map=KICK BACK}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M4={{Match
+	|date=2024-09-04 20:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|free}}
+	|opponent2={{1Opponent|Mind}}
+	|map1={{Map|winner=2|map=KICK BACK}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2024-09-04 20:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|Mind}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony was held on {{countdown|date=2024-09-09 19:00 {{Abbr/KST}}|finished=false|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=false}}.''
+[https://vod.afreecatv.com/player/135819511 VOD], [https://tl.net/forum/bw-tournaments/630644-ssl-autumn-ro16-group-selection TL.net thread]
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=SSL1AR16GA
+|title=Group A
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/631117-ssl-autumn-ro16-preview-seasoned
+|lrthread=https://tl.net/forum/bw-tournaments/631125-ssl-autumn-ro16-group-a
+|vod=https://vod.afreecatv.com/player/137153769
+|vod1=https://www.youtube.com/watch?v=rNiXu_tmUf0
+|vod2=
+|p1=Soulkey|temp_tie1=0.4
+|p2=Sea|temp_tie2=0.3
+|p3=Rush|temp_tie3=0.2
+|p4=JyJ|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR16GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2024-09-23 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Sea}}
+	|map1={{Map|winner=1|map=Radeon}}
+}}
+|M2={{Match
+	|date=2024-09-23 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|JyJ}}
+	|map1={{Map|winner=1|map=Radeon}}
+}}
+|M3={{Match|bestof=3
+	|date=2024-09-23 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=1|map=Deja Vu}}
+	|map2={{Map|winner=1|map=Monty Hall}}
+	|map3={{Map|winner=skip|map=Minstrel}}
+}}
+|M4={{Match
+	|date=2024-09-23 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sea}}
+	|opponent2={{1Opponent|JyJ}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|map2={{Map|winner=2|map=Pantheon}}
+	|map3={{Map|winner=skip|map=Dominator}}
+}}
+|M5={{Match
+	|date=2024-09-23 22:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|JyJ}}
+	|map1={{Map|winner=2|map=KICK BACK}}
+	|map2={{Map|winner=1|map=Pantheon}}
+	|map3={{Map|winner=1|map=Minstrel}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=SSL1AR16GB
+|title=Group B
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/631117-ssl-autumn-ro16-preview-seasoned
+|lrthread=https://tl.net/forum/bw-tournaments/631168-ssl-autumn-ro16-group-b
+|vod=https://vod.afreecatv.com/player/137242155
+|vod1=https://www.youtube.com/watch?v=nn7qrBZrTqw
+|vod2=
+|p1=hero|temp_tie1=0.4
+|p2=BarrackS|p2flag=kr|temp_tie2=0.3
+|p3=Jaedong|p3flag=kr|temp_tie3=0.2
+|p4=Bisu|p4flag=kr|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR16GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2024-09-24 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=2|map=Radeon}}
+}}
+|M2={{Match
+	|date=2024-09-24 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Jaedong}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Radeon}}
+}}
+|M3={{Match|bestof=3
+	|date=2024-09-24 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|BarrackS}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=1|map=KICK BACK}}
+	|map2={{Map|winner=1|map=Deja Vu}}
+	|map3={{Map|winner=skip|map=Dominator}}
+}}
+|M4={{Match
+	|date=2024-09-24 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=1|map=Monty Hall}}
+	|map2={{Map|winner=2|map=Pantheon}}
+	|map3={{Map|winner=1|map=Minstrel}}
+}}
+|M5={{Match
+	|date=2024-09-24 21:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|hero}}
+	|map1={{Map|winner=2|map=Dominator}}
+	|map2={{Map|winner=1|map=Deja Vu}}
+	|map3={{Map|winner=2|map=Pantheon}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=SSL1AR16GC
+|title=Group C
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/631412-ssl-autumn-ro16-preview-pt2-garnish
+|lrthread=https://tl.net/forum/bw-tournaments/631415-ssl-autumn-ro16-group-c
+|vod=https://vod.afreecatv.com/player/137821757
+|vod1=https://www.youtube.com/watch?v=2veBvjrsbH4
+|vod2=
+|p1=SnOw|temp_tie1=0.4
+|p2=Speed|p2flag=kr|temp_tie2=0.3
+|p3=Rain|p3flag=kr|temp_tie3=0.2
+|p4=Mini|p4flag=kr|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR16GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2024-09-30 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=2|map=Radeon}}
+}}
+|M2={{Match
+	|date=2024-09-30 19:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=1|map=Radeon}}
+}}
+|M3={{Match|bestof=3
+	|date=2024-09-30 20:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|Speed}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=2|map=Minstrel}}
+	|map2={{Map|winner=2|map=Dominator}}
+	|map3={{Map|winner=skip|map=Monty Hall}}
+}}
+|M4={{Match
+	|date=2024-09-30 21:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=1|map=Deja Vu}}
+	|map2={{Map|winner=1|map=Minstrel}}
+	|map3={{Map|winner=skip|map=Dominator}}
+}}
+|M5={{Match
+	|date=2024-09-30 21:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Speed}}
+	|opponent2={{1Opponent|SnOw}}
+	|map1={{Map|winner=2|map=Dominator}}
+	|map2={{Map|winner=1|map=Pantheon}}
+	|map3={{Map|winner=2|map=Minstrel}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=SSL1AR16GD
+|title=Group D
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/631412-ssl-autumn-ro16-preview-pt2-garnish
+|lrthread=https://tl.net/forum/bw-tournaments/631456-ssl-autumn-ro16-group-d
+|vod=https://vod.afreecatv.com/player/137926691
+|vod1=
+|vod2=
+|vod3=
+|p1=Sharp|temp_tie1=0.4
+|p2=Stork|p2flag=kr|temp_tie2=0.3
+|p3=RoyaL|p3flag=kr|temp_tie3=0.2
+|p4=Light|p4flag=kr|temp_tie4=0.1
+}}
+{{Matchlist|id=SSL1AR16GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2024-10-01 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=1|map=Radeon}}
+}}
+|M2={{Match
+	|date=2024-10-01 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=1|map=Radeon}}
+}}
+|M3={{Match|bestof=3
+	|date=2024-10-01 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=1|map=Deja Vu}}
+	|map2={{Map|winner=1|map=Dominator}}
+	|map3={{Map|winner=skip|map=Pantheon}}
+}}
+|M4={{Match
+	|date=2024-10-01 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Stork}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Dominator}}
+	|map2={{Map|winner=2|map=Deja Vu}}
+	|map3={{Map|winner=skip|map=Monty Hall}}
+}}
+|M5={{Match
+	|date=2024-10-01 21:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=KICK BACK}}
+	|map2={{Map|winner=1|map=Dominator}}
+	|map3={{Map|winner=2|map=Minstrel}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+<section begin=Results />
+{{Toggle bracket start|sdate=2024-10-06 19:00|dateexact=true}}
+{{Bracket|Bracket/8|id=SSL1AR08PO
+|R1M1header=Quarterfinals (Bo7)
+|R2M1header=Semifinals (Bo7)
+|R3M1header=Finals (Bo7)
+
+<!-- Quarterfinals -->
+|R1M1={{Match|bestof=7
+	|date=2024-10-07 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|BarrackS}}
+	|opponent2={{1Opponent|SnOw}}
+	|map1={{Map|winner=2|map=Deja Vu}}
+	|map2={{Map|winner=2|map=Minstrel}}
+	|map3={{Map|winner=1|map=Pantheon}}
+	|map4={{Map|winner=2|map=Dominator}}
+	|map5={{Map|winner=2|map=Radeon}}
+	|map6={{Map|winner=skip|map=KICK BACK}}
+	|map7={{Map|winner=skip|map=Monty Hall}}
+	|comment=[[BarrackS]] picked maps Set 1, 3, 5<br>[[Snow]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/631592-ssl-autumn-ro8-preview-hot-plate
+	|lrthread=https://tl.net/forum/bw-tournaments/631595-ssl-autumn-ro8-day-1
+	|vod=https://vod.afreecatv.com/player/138518201
+	|vod2=https://www.youtube.com/watch?v=iaMfUs4m784
+}}
+|R1M2={{Match
+	|date=2024-10-08 19:10 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|map2={{Map|winner=2|map=Pantheon}}
+	|map3={{Map|winner=2|map=KICK BACK}}
+	|map4={{Map|winner=1|map=Deja Vu}}
+	|map5={{Map|winner=2|map=Dominator}}
+	|map6={{Map|winner=2|map=Minstrel}}
+	|map7={{Map|winner=skip|map=Monty Hall}}
+	|comment=[[Soulkey]] picked maps Set 1, 3, 5<br>[[Light]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/631592-ssl-autumn-ro8-preview-hot-plate
+	|lrthread=https://tl.net/forum/bw-tournaments/631624-ssl-autumn-ro8-day-2
+	|vod=https://vod.afreecatv.com/player/138618183
+	|vod2=https://www.youtube.com/watch?v=mNyHCz6bk-k
+}}
+|R1M3={{Match
+	|date=2024-10-14 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=1|map=Minstrel}}
+	|map2={{Map|winner=1|map=Radeon}}
+	|map3={{Map|winner=1|map=KICK BACK}}
+	|map4={{Map|winner=1|map=Pantheon}}
+	|map5={{Map|winner=skip|map=Monty Hall}}
+	|map6={{Map|winner=skip|map=Deja Vu}}
+	|map7={{Map|winner=skip|map=Dominator}}
+	|comment=[[Rain]] picked maps Set 1, 3, 5<br>[[Rush]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/631904-ssl-autumn-ro8-preview-croutons
+	|lrthread=https://tl.net/forum/bw-tournaments/631910-ssl-autumn-ro8-day-3
+	|vod=https://vod.sooplive.co.kr/player/139284385
+	|vod2=
+	|vod3=
+}}
+|R1M4={{Match
+	|date=2024-10-15 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Sharp}}
+	|map1={{Map|winner=2|map=Pantheon}}
+	|map2={{Map|winner=2|map=Radeon}}
+	|map3={{Map|winner=1|map=Minstrel}}
+	|map4={{Map|winner=2|map=Deja Vu}}
+	|map5={{Map|winner=1|map=KICK BACK}}
+	|map6={{Map|winner=2|map=Monty Hall}}
+	|map7={{Map|winner=skip|map=Dominator}}
+	|comment=[[Sharp]] picked maps Set 1, 3, 5<br>[[hero]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/631904-ssl-autumn-ro8-preview-croutons
+	|lrthread=https://tl.net/forum/bw-tournaments/632001-ssl-autumn-ro8-day-4
+	|vod=https://vod.sooplive.co.kr/player/139314603
+	|vod2=
+	|vod3=
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+	|date=2024-10-21 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=2|map=Minstrel}}
+	|map2={{Map|winner=2|map=Monty Hall SE}}
+	|map3={{Map|winner=2|map=Pantheon}}
+	|map4={{Map|winner=2|map=KICK BACK}}
+	|map5={{Map|winner=skip|map=Dominator}}
+	|map6={{Map|winner=skip|map=Deja Vu}}
+	|map7={{Map|winner=skip|map=Radeon}}
+	|comment=[[SnOw]] picked maps Set 1, 3, 5<br>[[Soulkey]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/632162-ssl-autumn-ro4-preview-plate-up
+	|lrthread=https://tl.net/forum/bw-tournaments/632163-ssl-autumn-ro4-day-1
+	|vod=https://vod.sooplive.co.kr/player/139894643
+	|vod2=
+	|vod3=
+}}
+|R2M2={{Match
+	|date=2024-10-22 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Sharp}}
+	|map1={{Map|winner=2|map=Minstrel}}
+	|map2={{Map|winner=2|map=Pantheon}}
+	|map3={{Map|winner=1|map=KICK BACK}}
+	|map4={{Map|winner=2|map=Radeon}}
+	|map5={{Map|winner=2|map=Monty Hall SE}}
+	|map6={{Map|winner=skip|map=Deja Vu}}
+	|map7={{Map|winner=skip|map=Dominator}}
+	|comment=[[Rain]] picked maps Set 1, 3, 5<br>[[Sharp]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/632162-ssl-autumn-ro4-preview-plate-up
+	|lrthread=https://tl.net/forum/bw-tournaments/632194-ssl-autumn-ro4-day-2
+	|vod=https://vod.sooplive.co.kr/player/139990215
+	|vod2=
+	|vod3=
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+	|date=2024-11-02 17:00 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Sharp}}
+	|map1={{Map|winner=1|map=Pantheon}}
+	|map2={{Map|winner=1|map=Dominator}}
+	|map3={{Map|winner=2|map=Deja Vu}}
+	|map4={{Map|winner=1|map=KICK BACK}}
+	|map5={{Map|winner=1|map=Minstrel}}
+	|map6={{Map|winner=skip|map=Monty Hall SE}}
+	|map7={{Map|winner=skip|map=Radeon}}
+	|comment=[[Sharp]] picked maps Set 1, 3, 5<br>[[Soulkey]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/632562-ssl-autumn-finals-preview-service
+	|lrthread=https://tl.net/forum/bw-tournaments/632571-ssl-autumn-grand-finals-soulkey-vs-sharp
+	|vod=https://vod.sooplive.co.kr/player/141066643
+	|vod2=
+	|vod3=
+}}
+}}<section end=Results />
+{{Toggle bracket end}}
+
+==Racial distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean] at Afreecatv.com
+* {{Flag|usuk}} [https://www.sooplive.com/sctvenglish Livestream in English] at Sooplive.com
+* {{Flag|esmx}} [http://play.afreecatv.com/basic0020512 Livestream in Spanish] at Afreecatv.com
+* {{Flag|jp}} [https://www.sooplive.com/sctimes Livestream in Japanese] at Sooplive.com
+
+===VODS===
+* {{Flag|kr}} [https://bj.afreecatv.com/afstar1/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|usuk}} [https://bj.afreecatv.com/dth03119/vods Spoiler-free English AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|esmx}} [https://bj.afreecatv.com/basic0020512/vods Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://www.sc2links.com/tournament/?match=805 Spoiler-free VODs on SC2Links.com]
+* {{Flag|usuk}} [https://sc2casts.com/event1407-2024-SSL-AUTUMN Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|us}} [https://tl.net/forum/brood-war/628951-soop-starleague-autumn-asl18-announced 2024 SSL AUTUMN announcement]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/131386821 2024 SSL AUTUMN Announcement]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/133241827 afreecatv.com - 2024 SSL AUTUMN Round of 24 announcement]
+*{{Flag|kr}} [https://namu.wiki/w/SSL%202024%20AUTUMN 2024 SSL AUTUMN in namu.wiki]
+*{{Flag|kr}} [https://910map.tistory.com/203 2024 SSL AUTUMN map pool]
+
+[[Category:Post-KeSPA Tournaments]]

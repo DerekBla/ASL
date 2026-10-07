@@ -1,0 +1,908 @@
+{{AfreecaTV_Starleague_Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 4}}
+{{tabs static
+|name1=Overview
+|link1=2017 AfreecaTV Starleague Season 4
+|name2=Qualifier
+|link2=2017 AfreecaTV Starleague Season 4/Qualifier
+|name3=Tournament Statistics
+|link3=2017 AfreecaTV Starleague Season 4/Tournament Statistics
+|this=1}}
+{{Infobox league
+|name=ASL Season 4
+|image=Afreeca_Starleague_banner.jpg
+|icon=ASL_icon.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=KT GiGA Internet, Kyungmin University
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=100,000,000
+|prizepoolusd={{formatnum:{{#expr:{{#currencyexchange:100000000|KRW|USD|2017-11-12}}round 0}}}}
+|country=South Korea
+|city=Seoul
+|country2=South Korea
+|city2=Busan
+|city3=Daegu
+|country3=South Korea
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2017-09-10
+|edate=2017-11-12
+|edition=4th
+|tlpd=https://tl.net/tlpd/sospa/leagues/5104_AfreecaTV_Starleague_S4
+|web=https://tl.net/forum/brood-war/526000-asl-season-4-update
+|idfirst=Flash   |racefirst=t  |flagfirst=kr
+|idsecond=hero  |racesecond=z |flagsecond=kr
+|idthird=Bisu   |racethird=p  |flagthird=kr
+|idfourth=Larva_(Player){{!}}Larva |racefourth=z |flagfourth=kr
+|player_number=28
+|protoss_number=9
+|terran_number=11
+|zerg_number=8
+|map1=Tau Cross
+|map2=Fighting Spirit
+|map3=Gladiator
+|map4=Crossing Field
+|map5=Gold Rush
+|previous=2017 AfreecaTV Starleague Season 3{{!}}ASL Season S3
+|next=2018 AfreecaTV Starleague Season 5{{!}}ASL Season S5
+|liquipediatier=1
+}}
+{{TOClimit}}
+==Overview==
+The '''AfreecaTV Starleague Season 4''' (아프리카TV 스타리그 시즌4) or '''AfreecaTV StarCraft League Remastered Season 4''', was an offline tournament organized and broadcast live on [[AfreecaTV]].
+
+The Starleague features 3 qualifiers scheduled for Seoul, Daegu and Busan on September 2, 3 and 4, 2017, respectively<ref>[https://tl.net/forum/brood-war/526000-asl-season-4-update ASL4 qualifiers]</ref>.
+
+Round of 24 play will begin on Sunday September 10, 2017. Broadcasting times will be announced at a later date.<br>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=qSrNI3OiZq0</embedvideo>
+
+==Tournament Information==
+<!--
+[[File:ASL venue1.jpg|300px|thumbnail|right]] [[File:ASL trophy.jpg|300px|thumbnail|right]]
+-->
+===Participants===
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:130px;text-align:center;" | '''{{p}} Protoss ''(9)''
+|class="{{RaceColor2|t}}" style="width:130px;text-align:center;" | '''{{t}} Terran ''(11)''
+|class="{{RaceColor2|z}}" style="width:130px;text-align:center;" | '''{{z}} Zerg ''(8)''
+|-
+!colspan="3" style="text-align:center;" |From '''[[AfreecaTV Starleague Season 3]]'''
+|-
+|'''{{InlinePlayer|1=Bisu|flag=Korea|link=Bisu|faction=u}}'''
+|'''{{InlinePlayer|1=Flash|flag=Korea|link=Flash|faction=u}}'''
+|'''{{InlinePlayer|1=Shine|flag=Korea|link=Shine|faction=u}}'''
+|----
+|{{emdash}}
+|{{emdash}}
+|'''{{InlinePlayer|1=Soulkey|flag=Korea|link=Soulkey|faction=u}}'''
+|-
+!colspan="3" style="text-align:center;" |From '''[[2017 AfreecaTV Starleague Season 4/Qualifier/Seoul|Seoul Preliminary]]'''
+|-
+|'''{{InlinePlayer|1=Mini|flag=kr|link=Mini|faction=u}}'''
+|<s>'''{{InlinePlayer|1=Sea|flag=kr|link=Sea|faction=u}}'''</s><sup>1</sup>
+|'''{{InlinePlayer|1=hero|flag=kr|link=Hero|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=BeSt|flag=kr|link=Best|faction=u}}'''
+|'''{{InlinePlayer|1=Last|flag=kr|link=Last|faction=u}}'''
+|'''{{InlinePlayer|1=Jaedong|flag=kr|link=Jaedong|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Shuttle|flag=kr|link=Shuttle (Player)|faction=u}}'''
+|'''{{InlinePlayer|1=Light|flag=kr|link=Light|faction=u}}'''
+|'''{{InlinePlayer|1=EffOrt|flag=kr|link=EffOrt|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Rain|flag=kr|link=Rain|faction=u}}'''
+|'''{{InlinePlayer|1=sSak|flag=kr|link=SSak|faction=u}}'''
+|'''{{InlinePlayer|1=Larva|flag=kr|link=Larva (Player)|faction=u}}'''
+|-
+|{{emdash}}
+|{{emdash}}
+|'''{{InlinePlayer|1=Killer|flag=kr|link=Killer|faction=u}}'''<sup>1</sup>
+|-
+!colspan="3" style="text-align:center;" |From '''[[2017 AfreecaTV Starleague Season 4/Qualifier/Daegu|Daegu Preliminary]]'''
+|-
+|'''{{InlinePlayer|1=Stork|flag=Korea|link=Stork|faction=u}}'''
+|'''{{InlinePlayer|1=Ample|flag=Korea|link=Ample|faction=u}}'''
+|'''{{InlinePlayer|1=MIsO|flag=Korea|link=MIsO|faction=u}}'''
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Sharp|flag=Korea|link=Sharp|faction=u}}'''
+|{{emdash}}
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Mong|flag=Korea|link=Mong|faction=u}}'''
+|{{emdash}}
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Mind|flag=Korea|link=Mind|faction=u}}'''
+|{{emdash}}
+|-
+!colspan="3" style="text-align:center;" |From '''[[2017 AfreecaTV Starleague Season 4/Qualifier/Busan|Busan Preliminary]]'''
+|-
+|'''{{InlinePlayer|1=Lazy|flag=Korea|link=Lazy|faction=u}}'''
+|'''{{InlinePlayer|1=Rush|flag=Korea|link=Rush|faction=u}}'''
+|{{emdash}}
+|-
+|'''{{InlinePlayer|1=Sky|flag=Korea|link=Sky|faction=u}}'''
+|'''{{InlinePlayer|1=HiyA|flag=Korea|link=HiyA|faction=u}}'''
+|{{emdash}}
+|-
+|'''{{InlinePlayer|1=Snow|flag=Korea|link=SnOw|faction=u}}'''
+|'''{{InlinePlayer|1=firebathero|flag=Korea|link=Firebathero|faction=u}}'''
+|{{emdash}}
+|}
+
+{{note|1|[[Sea]] was disqualified due to a drunken incident where he was streamed hitting a female broadcaster. He was replaced by [[Killer]].}}
+
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Remote Broadcast|name3=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Artosis 
+|b2=Tasteless
+|b3=RAPiD |b3flag=us |b3name=Reid Melton
+|b4=NoRegreT |b4link=starcraft2:NoRegreT |b4flag=ca |b4name=Jake Umpleby
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard
+|position=Russian Commentator
+|b1=kabyraGe |b1link=starcraft2:kabyraGe |b1flag=ru |b1name=Vladislav Perchik
+|b2=Emil |b2link=starcraft2:Emil |b2flag=pl |b2name=Emil Wieczorek
+|b3=JimRising |b3link=starcraft2:JimRising |b3flag=mx |b3name=Jaime Arturo Duran Silencio
+}}
+{{Tabs dynamic/tab|3}}
+{{BroadcasterCard|lang=kr
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Interviewer
+|b1=Seo Yeon Ji |b1flag=kr
+}}
+{{Tabs dynamic/end}}
+
+===Prize Pool===
+₩100,800,000 {{Abbr|KRW|Korean Won}} (~$88,450) is to be awarded to the top placing players per the distribution below:
+{{Prize pool start|localcurrency=krw |disable_teams=true |cutafter=4 }}
+{{Prize pool slot|place=1|usdprize=52,650|localprize=60,000,000 
+|Flash|flag1=kr |race1=t |lastvs1=hero |lastscore1=3 |lastvsscore1=1 |lastvsrace1=z|lastvsflag1=kr|date1=2017-11-12
+}}
+{{Prize pool slot|place=2|usdprize=17,550 |localprize=20,000,000
+|hero|flag1=kr |race1=z |lastvs1=Flash |lastscore1=1 |lastvsscore1=3 |lastvsrace1=t|lastvsflag1=kr|date1=2017-11-12
+}}
+{{Prize pool slot|place=3|usdprize=4,390 |localprize=5,000,000
+|Bisu|flag1=kr |race1=p |lastvs1=Larva |lastvspage1=Larva (Player) |lastscore1=3 |lastvsscore1=1 |lastvsrace1=z|lastvsflag1=kr |date1=2017-11-07
+}}
+{{Prize pool slot|place=4|usdprize=2,630 |localprize=3,000,000
+|Larva_(Player){{!}}Larva|flag1=kr |race1=z |lastvs1=Bisu |lastscore1=1 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr|date1=2017-11-07
+}}
+{{Prize pool slot|place=5-8|usdprize=880 |localprize=1,000,000
+|Rain|flag1=kr |race1=p |lastvs1=Larva |lastvspage1=Larva (Player) |lastscore1=1 |lastvsscore1=3 |lastvsrace1=z|lastvsflag1=kr |date1=2017-10-15
+|Neo.G_Soulkey{{!}}Soulkey|flag2=kr |race2=z |lastvs2=hero |lastscore2=2 |lastvsscore2=3 |lastvsrace2=z|lastvsflag2=kr |date2=2017-10-17
+|Killer|flag3=kr |race3=z |lastvs3=Bisu |lastscore3=0 |lastvsscore3=3 |lastvsrace3=p |lastvsflag3=kr |date3=2017-10-22
+|Mind|flag4=kr |race4=t |lastvs4=Flash |lastscore4=0 |lastvsscore4=3 |lastvsrace4=t|lastvsflag4=kr |date4=2017-10-24
+}}
+{{Prize pool slot|place=9-12|usdprize=702 |localprize=800,000
+|Sharp|flag1=kr|race1=t|wdl1=1-2|date1=2017-09-24
+|EffOrt|flag2=kr|race2=z|wdl2=1-2|date2=2017-09-26
+|Shuttle (Player){{!}}Shuttle|flag3=kr|race3=p|wdl3=1-2|date3=2017-10-08
+|Jaedong|flag4=kr|race4=z|wdl4=1-2|date4=2017-10-10
+}}
+{{Prize pool slot|place=13-16|usdprize=702 |localprize=800,000
+|Mong|flag1=kr|race1=t|wdl1=0-2|date1=2017-09-24
+|Shine_(Player){{!}}Shine|flag2=kr|race2=z|wdl2=0-2|date2=2017-09-26
+|sSak|flag3=kr|race3=t|wdl3=0-2|date3=2017-10-08
+|Stork|flag4=kr|race4=p|wdl4=0-2|date4=2017-10-10
+}}
+{{Prize pool slot|place=17-22|usdprize=175 |localprize=200,000
+|Light|flag1=kr|race1=t|wdl1=1-2|date1=2017-09-10
+|Last|flag2=kr|race2=t|wdl2=1-2|date2=2017-09-11
+|Rush|flag3=kr|race3=t|wdl3=1-2|date3=2017-09-12
+|Mini|flag4=kr|race4=p|wdl4=1-2|date4=2017-09-20
+|BeSt|flag5=kr|race5=p|wdl5=1-2|date5=2017-09-18
+|Snow|flag6=kr|race6=p|wdl6=1-2|date6=2017-09-19
+}}
+{{Prize pool slot|place=23-28|usdprize=175 |localprize=200,000
+|Sky|flag1=kr|race1=p|wdl1=0-2|date1=2017-09-10
+|MIsO|flag2=kr|race2=z|wdl2=0-2|date2=2017-09-11
+|Lazy|flag3=kr|race3=p|wdl3=0-2|date3=2017-09-12
+|HiyA|flag4=kr|race4=t|wdl4=0-2|date4=2017-09-20
+|Ample|flag5=kr|race5=t|wdl5=0-2|date5=2017-09-18
+|firebathero|flag6=kr|race6=t|wdl6=0-2|date6=2017-09-19
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Format===
+<!--
+;Preliminary Qualifiers
+*24 groups of 32-128 players each, eight groups in each of Seoul, Daegu and Busan
+*Single-elimination bracket: best-of-three
+*Winner of each group advances
+-->
+;Round of 24 group stage
+*[[Dual tournament]] format: best-of-one
+*Top two players in each group advance
+
+;Round of 16 group stage
+* 12 players from the Round of 24 join the four seeds from [[AfreecaTV Starleague Season 3]]
+*[[Dual tournament]] format: best-of-one
+*Top two players in each group advance
+
+;Elimination Stage
+*Eight player single-elimination bracket
+*Quarterfinals through finals: best-of-five
+
+===Maps===
+{{MapPoolTable
+|note=<small>Additionally, ''[[Tau Cross]]'' was used in the offline preliminaries.
+|map1=Fighting Spirit|map1displayName=Fighting Spirit
+|map2=Gladiator|map2displayName=Gladiator
+|map3=Gold Rush|map3displayName=Gold Rush
+|map4=Crossing Field|map4displayName=Crossing Field
+}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=September 10, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/526662-asl-ro24-group-a
+|preview=https://tl.net/forum/brood-war/526664-asl4-ro24-preview-pt1-reborn-and-remastered
+|review=https://tl.net/forum/brood-war/526900-asl4-ro24-preview-pt2-enter-the-tyrant
+|vod=https://www.youtube.com/watch?v=fwraGZl7MJk
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z |p1flag=kr|p1=Killer}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1link=Larva_(Player)|p1flag=kr|p1=Larva}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Light}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Sky}}
+}}
+{{Matchlist|id=QHlftrusUH
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=fwraGZl7MJk&t=1366|winner=1
+    |opponent1={{SoloOpponent|name=Killer|race=z}}
+    |opponent2={{SoloOpponent|name=Sky|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=fwraGZl7MJk&t=1366|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=fwraGZl7MJk&t=2515|winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=fwraGZl7MJk&t=2515|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=fwraGZl7MJk&t=3356|winner=2
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Killer|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=fwraGZl7MJk&t=3356|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=fwraGZl7MJk&t=4396|winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=Sky|race=p}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=fwraGZl7MJk&t=4396|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=fwraGZl7MJk&t=5975|winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=Z}}
+    |opponent2={{SoloOpponent|name=Light|race=T}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=fwraGZl7MJk&t=5975|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=September 11, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/526703-asl4-ro24-group-b
+|preview=https://tl.net/forum/brood-war/526664-asl4-ro24-preview-pt1-reborn-and-remastered
+|review=https://tl.net/forum/brood-war/526900-asl4-ro24-preview-pt2-enter-the-tyrant
+|vod=https://www.youtube.com/watch?v=jrqsqrGlisc
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=kr|p1=sSak}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Stork}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Last}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1flag=kr|p1=MIsO}}
+}}
+{{Matchlist|id=0TfhfSlmlw
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=jrqsqrGlisc&t=805|winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=MIsO|race=z}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=jrqsqrGlisc&t=805|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=jrqsqrGlisc&t=1962|winner=1
+    |opponent1={{SoloOpponent|name=sSak|race=t}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=jrqsqrGlisc&t=1962|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=jrqsqrGlisc&t=3489|winner=1
+    |opponent1={{SoloOpponent|name=sSak|race=t}}
+    |opponent2={{SoloOpponent|name=Last|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=jrqsqrGlisc&t=3489|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=jrqsqrGlisc&t=4999|winner=1
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=MIsO|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=jrqsqrGlisc&t=4999|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=jrqsqrGlisc&t=6075|winner=2
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=jrqsqrGlisc&t=6075|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=September 12, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/526750-asl-ro24-group-c
+|preview=https://tl.net/forum/brood-war/526664-asl4-ro24-preview-pt1-reborn-and-remastered
+|review=https://tl.net/forum/brood-war/526900-asl4-ro24-preview-pt2-enter-the-tyrant
+|vod=https://www.youtube.com/watch?v=KbG6ixavW4M
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z |p1flag=kr|p1=EffOrt}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Mind}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Rush}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Lazy}}
+}}
+{{Matchlist|id=g0djN1SE52
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=KbG6ixavW4M&t=888|winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=Lazy|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=KbG6ixavW4M&t=888|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=KbG6ixavW4M&t=1912|winner=2
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=KbG6ixavW4M&t=1912|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=KbG6ixavW4M&t=3234|winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=KbG6ixavW4M&t=3234|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=KbG6ixavW4M&t=4447|winner=2
+    |opponent1={{SoloOpponent|name=Lazy|race=p}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=KbG6ixavW4M&t=4447|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=KbG6ixavW4M&t=6014|winner=2
+    |opponent1={{SoloOpponent|name=Rush|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=KbG6ixavW4M&t=6014|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=September 20, 2017 - 17:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/526986-asl4-ro24-group-d
+|preview=https://tl.net/forum/brood-war/526900-asl4-ro24-preview-pt2-enter-the-tyrant
+|review=https://tl.net/forum/brood-war/527097-asl4-ro16-preview-pt-1-flash-and-zergs 
+|vod=https://www.youtube.com/watch?v=R-3KQTcckFk
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Sharp}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=kr|p1=Jaedong}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1flag=kr|p1=Mini}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=kr|p1=HiyA}}
+}}
+{{Matchlist|id=guW5cx1ld9
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=R-3KQTcckFk&t=845|winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=R-3KQTcckFk&t=845|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=R-3KQTcckFk&t=2948|winner=1
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=HiyA|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=R-3KQTcckFk&t=2948|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=R-3KQTcckFk&t=4573|winner=2
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=Sharp|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=R-3KQTcckFk&t=4573|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=R-3KQTcckFk&t=6491|winner=2
+    |opponent1={{SoloOpponent|name=HiyA|race=t}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=R-3KQTcckFk&t=6491|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=R-3KQTcckFk&t=7534|winner=1
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=R-3KQTcckFk&t=7534|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group E====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group E
+|width=300px
+|date=September 18, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/526941-asl4-ro24-group-e
+|preview=https://tl.net/forum/brood-war/526900-asl4-ro24-preview-pt2-enter-the-tyrant
+|review=https://tl.net/forum/brood-war/527097-asl4-ro16-preview-pt-1-flash-and-zergs
+|vod=https://www.youtube.com/watch?v=lu0VVj1BMu8
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Mong}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Rain}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1flag=kr|p1=BeSt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=kr|p1=Ample}}
+}}
+{{Matchlist|id=4DoU3Fsw51
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=722|winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Ample|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=722|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=2075|winner=1
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=2075|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=3935|winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=3935|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=6212|winner=2
+    |opponent1={{SoloOpponent|name=Ample|race=t}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=6212|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=8138|winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=lu0VVj1BMu8&t=8138|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group F====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group F
+|width=300px
+|date=September 19, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/526964-asl4-ro24-group-f
+|preview=https://tl.net/forum/brood-war/526900-asl4-ro24-preview-pt2-enter-the-tyrant
+|review=https://tl.net/forum/brood-war/527097-asl4-ro16-preview-pt-1-flash-and-zergs
+|vod=https://www.youtube.com/watch?v=s_1UDhx2T60
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1link=Shuttle (Player)|p1flag=kr|p1=Shuttle}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=kr|p1=hero}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1flag=kr|p1=Snow}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=kr|p1=firebathero}}
+}}
+{{Matchlist|id=ySTNkP2fB2
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=s_1UDhx2T60&t=945|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=firebathero|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=s_1UDhx2T60&t=945|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=s_1UDhx2T60&t=2328|winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=s_1UDhx2T60&t=2328|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=s_1UDhx2T60&t=3374|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=s_1UDhx2T60&t=3374|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=s_1UDhx2T60&t=4792|winner=2
+    |opponent1={{SoloOpponent|name=firebathero|race=t}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=s_1UDhx2T60&t=4792|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=s_1UDhx2T60&t=6001|winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=s_1UDhx2T60&t=6001|winner=1}}
+}}
+}}
+
+{{Box|end}}
+
+===Round of 16 Group Stage===
+*Groups selections were held on September 20, 2017 - 20:00 {{Abbr/KST}}. [https://www.youtube.com/watch?v=R-3KQTcckFk&t=11630s (English VoD)] - [https://vod.afreecatv.com/PLAYER/STATION/26122835 (Korean VoD)]
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=September 24, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/527102-asl4-ro16-group-a
+|preview=https://tl.net/forum/brood-war/527097-asl4-ro16-preview-pt-1-flash-and-zergs
+|review=
+|vod=https://www.youtube.com/watch?v=sRjC2ruGi1Y
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Flash}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=kr|p1=Killer}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Sharp}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=kr|p1=Mong}}
+}}
+{{Matchlist|id=6vqle9NcoY
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=1032|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Killer|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=1032|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=2533|winner=2
+    |opponent1={{SoloOpponent|name=Mong|race=t}}
+    |opponent2={{SoloOpponent|name=Sharp|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=2533|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=4314|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Sharp|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=4314|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=6041|winner=1
+    |opponent1={{SoloOpponent|name=Killer|race=z}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=6041|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=7368|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Killer|race=z}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=sRjC2ruGi1Y&t=7368|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=September 26, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/527156-asl4-ro16-group-b
+|preview=https://tl.net/forum/brood-war/527097-asl4-ro16-preview-pt-1-flash-and-zergs
+|review=
+|vod=https://www.youtube.com/watch?v=VUMRRaCeFSI
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z |p1link=Larva_(Player)|p1flag=kr|p1=Larva}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=kr|p1=hero}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1flag=kr|p1=EffOrt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1link=Shine_(Player)|p1flag=kr|p1=Shine}}
+}}
+{{Matchlist|id=RkxLOsO6fY
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=958|winner=2
+    |opponent1={{SoloOpponent|name=Shine|race=z}}
+    |opponent2={{SoloOpponent|name=Larva|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=958|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=1719|winner=1
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=1719|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=2901|winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=EffOrt|race=z}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=2901|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=3856|winner=2
+    |opponent1={{SoloOpponent|name=Shine|race=z}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=3856|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=4948|winner=2
+    |opponent1={{SoloOpponent|name=EffOrt|race=z}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=VUMRRaCeFSI&t=4948|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=October 8, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/527480-asl4-ro16-group-c
+|preview=
+|review=
+|vod=https://www.youtube.com/watch?v=mCf_EgtlyzQ
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Bisu}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Mind}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1link=Shuttle_(Player)|p1flag=kr|p1=Shuttle}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t |p1flag=kr|p1=sSak}}
+}}
+{{Matchlist|id=RTRkFpeBhf
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=1103|winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=1103|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=2520|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=sSak|race=t}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=2520|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=4057|winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Bisu|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=4057|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=5137|winner=2
+    |opponent1={{SoloOpponent|name=sSak|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=5137|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=6447|winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=mCf_EgtlyzQ&t=6447|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=October 10, 2017 - 19:00 {{Abbr/KST}}
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/527550-asl4-ro16-group-d
+|preview=
+|review=
+|vod=https://www.youtube.com/watch?v=P5xQIJZCTJ4
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z |p1link=Neo.G_Soulkey|p1flag=kr|p1=Soulkey}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Rain}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1flag=kr|p1=Jaedong}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Stork}}
+}}
+{{Matchlist|id=7QDrEomI2t
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=1069|winner=1
+    |opponent1={{SoloOpponent|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=1069|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=3018|winner=2
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=z}}
+    |map1={{Map|map=Crossing Field|vod=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=3018|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=4528|winner=1
+    |opponent1={{SoloOpponent|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=z}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=4528|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=5525|winner=1
+    |opponent1={{SoloOpponent|name=Rain|race=p}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Gold Rush|vod=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=5525|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=7143|winner=2
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Fighting Spirit|vod=https://www.youtube.com/watch?v=P5xQIJZCTJ4&t=7143|winner=2}}
+}}
+}}
+
+{{Box|end}}
+
+===Elimination Bracket===
+{{box|padding=2em}}
+{{Bracket|Bracket/8|id=tZMLx5bA8g
+
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Larva|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rain|race=p|score=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=2}}
+    |opponent2={{SoloOpponent|flag=kr|name=hero|race=z|score=3|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Bisu|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Killer|race=z|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Flash|race=t|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mind|race=t|score=0}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Larva|race=z|score=2}}
+    |opponent2={{SoloOpponent|flag=kr|name=hero|race=z|score=3|win=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Bisu|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Flash|race=t|score=3|win=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Flash|race=t|score=3|win=1}}
+}}
+<!-- Third Place Match -->
+|RxMTP={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Larva|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Bisu|race=p|score=3|win=1}}
+}}
+}}
+{{box|end}}
+
+==Racial Distribution==
+{{RaceDist|title=Round&nbsp;of&nbsp;24|protoss=8|terran=10|zerg=6|first=1}}
+{{RaceDist|title=Round&nbsp;of&nbsp;16|protoss=4|terran=5|zerg=7}}
+{{RaceDist|title=Quarterfinals|protoss=2|terran=2|zerg=4|}}
+{{RaceDist|title=Semifinals|protoss=1|terran=1|zerg=2}}
+{{RaceDist|title=Finals|terran=1|zerg=1}}
+{{RaceDist|title=Winner|terran=1|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+Live broadcasts:
+* {{Flag|southkorea}} [http://play.afreeca.com/afstar1 Afreeca.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish Tasteless and Artosis Afreeca.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish2 FlashFTW and eSportsJon Afreeca.com]
+* {{Flag|mx}} [http://play.afreecatv.com/scenespanol JimRising Afreeca.com]
+* {{Flag|pl}} [http://play.afreecatv.com/aslpolish EmStarcraft Afreeca.com]
+* {{Flag|tw}} [http://play.afreecatv.com/aslzhtw AfreecaTV Chinese]
+* {{Flag|ru}} [http://play.afreecatv.com/StarLadder StarLadder AfreecaTV]
+
+===VODs===
+*[https://www.sc2links.com/tournament/?match=503 Spoiler-free VODs on SC2Links.com]
+
+===Pre-Game Music===
+* Beast in Black - Blind And Frozen {{YT-link|file-id=2N4tXf3Ensw}}
+
+==Gallery==
+{{col}}
+{{#ev:youtube|PBOpgf_CuG8|356}}
+{{col-break}}
+{{#ev:youtube|0T1oBdvUBXU|356}}
+{{endCol}}
+
+
+
+==References==
+{{Reflist}}
+
+[[Category:Post-KeSPA Tournaments]]

@@ -1,0 +1,984 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 16}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{AfreecaTV/StarCraft League Remastered/16/Tabs}}
+{{Infobox league
+|name=ASL Season 16
+|tickername=ASL Season 16
+|image=Afreecatv starcraft league remastered.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=78,000,000
+|country=South Korea
+|city=Seoul
+|venue=Jamsil Vita500 Colosseum
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2023-08-14
+|edate=2023-10-15
+|web=https://tl.net/forum/brood-war/614374-asl-season-16-starts-august-14th
+|patch=
+|epatch=
+|edition=16
+|afreeca=afstar1
+|idfirst=|racefirst=|flagfirst=kr
+|idsecond=|racesecond=|flagsecond=kr
+|idthird=|racethird=|flagthird=kr
+|idfourth=|racefourth=|flagfourth=kr
+|player_number=28
+|protoss_number=8
+|terran_number=10
+|zerg_number=10
+|map1=Invader
+|map2=Neo Dark Origin
+|map3=Apocalypse
+|map4=La Campanella
+|map5=Polypoid
+|map6=Retro
+|map7=Tempest (Map)
+|previous=AfreecaTV StarCraft League Remastered/15{{!}}ASL Season 15
+|next=AfreecaTV StarCraft League Remastered/17{{!}}ASL Season 17
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League Remastered Season 16''' ('''ASL Season 16''') (Korean: '''아프리카TV 스타리그 시즌16'''), is an offline tournament organized and broadcast live on [[AfreecaTV]].
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=UGP0opgyMuk</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV StarCraft League Remastered/15|ASL Season 15]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals: {{abbr/Bo5}}
+** Semi-Finals & Finals: {{abbr/Bo7}}
+
+===Prize Pool===
+{{SoloPrizePool|localcurrency=KRW
+|{{Slot|localprize=30000000}}
+|{{Slot|localprize=10000000}}
+|{{Slot|place=3-4|localprize=3000000}}
+|{{Slot|place=5-8|localprize=2000000}}
+|{{Slot|place=9-12|localprize=1500000}}
+|{{Slot|place=13-16|localprize=1500000}}
+|{{Slot|place=17-22|localprize=1000000}}
+|{{Slot|place=23-28|localprize=1000000}}
+}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[AfreecaTV StarCraft League Remastered/15|ASL Season 15]]
+|JyJ
+|Mind
+|Best
+|hero
+}}
+|{{ParticipantSection|title=From [[AfreecaTV/StarCraft League Remastered/16/Qualifiers/Online 1|Online Qualifier 1]]
+|Soulkey
+|Rush
+|ivOry 인치호 |p3race=z|p3flag=kr|p3link=IvOry
+|RoyaL
+|ZerO
+|Stork
+|Bisu
+|Light
+|Snow
+|Jaedong
+|Action
+|Mini
+}}
+|{{ParticipantSection|title=From [[AfreecaTV/StarCraft League Remastered/16/Qualifiers/Online 2|Online Qualifier 2]]
+|free
+|EffOrt
+|Shuttle|p3link=Shuttle (Player)
+|Rain
+|Mong
+|Sharp
+|Calm
+|Leta
+|soma
+|Ample
+|Killer
+|Sea
+}}
+}}
+
+===Maps===
+{{MapPoolTable
+|size=x140px
+}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=StarCastTV English Commentator
+|b1=Nyoken
+|b2=eOnzErG
+}}
+{{BroadcasterCard
+|position=StarCastTV Spanish Commentator
+|b1=Yu
+|b2=Dipa |b2name=Julián Di Pace Herrera |b2flag=ar
+|b3=Remastr TV
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL16R24GA|show_g=false
+|title=Group A
+|date=2023-08-14 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615215-asl16-ro24-preview-pt1-old-friends
+|lrthread=https://tl.net/forum/bw-tournaments/615216-asl16-ro24-group-a
+|vod=https://vod.afreecatv.com/player/105907198
+|vod1=https://www.youtube.com/watch?v=7UBGRUr0F0I
+|vod2=https://vod.afreecatv.com/player/105906986
+|vod3=https://vod.afreecatv.com/player/105906685
+|p1=Mini|temp_tie1=0.4
+|p2=Leta|temp_tie2=0.3
+|p3=soma|temp_tie3=0.2
+|p4=Mong|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R24GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-08-14 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Leta}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M2={{Match
+	|date=2023-08-14 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|Mong}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M3={{Match
+	|date=2023-08-14 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|soma}}
+	|map1={{Map|winner=2|map=Invader}}
+	|vetoplayer1=1|veto1=La Campanella
+	|vetoplayer2=2|veto2=La Campanella
+}}
+|M4={{Match
+	|date=2023-08-14 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Leta}}
+	|opponent2={{1Opponent|Mong}}
+	|map1={{Map|winner=1|map=La Campanella}}
+	|vetoplayer1=1|veto1=Tempest (Map)
+	|vetoplayer2=2|veto2=Invader
+}}
+|M5={{Match
+	|date=2023-08-14 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Leta}}
+	|map1={{Map|winner=1|map=Neo Dark Origin}}
+	|vetoplayer1=1|veto1=Polypoid
+	|vetoplayer2=2|veto2=Retro
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL16R24GB|show_g=false
+|title=Group B
+|date=2023-08-15 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615215-asl16-ro24-preview-pt1-old-friends
+|lrthread=https://tl.net/forum/bw-tournaments/615260-asl16-ro24-group-b
+|vod=https://vod.afreecatv.com/player/105946646
+|vod1=https://www.youtube.com/watch?v=4ekHUN5gLYI
+|vod2=https://vod.afreecatv.com/player/105946334
+|vod3=https://vod.afreecatv.com/player/105946377
+|p1=Soulkey|temp_tie1=0.4
+|p2=Calm|temp_tie2=0.3
+|p3=Rain|temp_tie3=0.2
+|p4=Sea|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R24GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-08-15 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Calm}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+}}
+|M2={{Match
+	|date=2023-08-15 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Sea}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M3={{Match
+	|date=2023-08-15 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Calm}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=1|map=Invader}}
+	|vetoplayer1=1|veto1=Tempest (Map)
+	|vetoplayer2=2|veto2=Tempest (Map)
+}}
+|M4={{Match
+	|date=2023-08-15 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Sea}}
+	|map1={{Map|winner=1|map=Tempest (Map)}}
+	|vetoplayer1=1|veto1=La Campanella
+	|vetoplayer2=2|veto2=Invader
+}}
+|M5={{Match
+	|date=2023-08-15 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=2|map=Retro}}
+	|vetoplayer1=1|veto1=Polypoid
+	|vetoplayer2=2|veto2=Neo Dark Origin
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL16R24GC|show_g=false
+|title=Group C
+|date=2023-08-16 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615215-asl16-ro24-preview-pt1-old-friends
+|lrthread=https://tl.net/forum/bw-tournaments/615271-asl16-ro24-group-c
+|vod=https://vod.afreecatv.com/player/105987126
+|vod1=https://www.youtube.com/watch?v=QYEfVHO4gm8
+|vod2=https://vod.afreecatv.com/player/105987033
+|vod3=https://vod.afreecatv.com/player/105986618
+|p1=Snow|temp_tie1=0.4
+|p2=Killer|temp_tie2=0.3
+|p3=RoyaL|temp_tie3=0.2
+|p4=Shuttle|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R24GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-08-16 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Snow}}
+	|opponent2={{1Opponent|Killer}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+}}
+|M2={{Match
+	|date=2023-08-16 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Shuttle}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+}}
+|M3={{Match
+	|date=2023-08-16 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Killer}}
+	|opponent2={{1Opponent|Shuttle}}
+	|map1={{Map|winner=1|map=Tempest (Map)}}
+	|vetoplayer1=1|veto1=Invader
+	|vetoplayer2=2|veto2=La Campanella
+}}
+|M4={{Match
+	|date=2023-08-16 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Snow}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=2|map=Tempest (Map)}}
+	|vetoplayer1=1|veto1=La Campanella
+	|vetoplayer2=2|veto2=Invader
+}}
+|M5={{Match
+	|date=2023-08-16 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Shuttle}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=2|map=Retro}}
+	|vetoplayer1=1|veto1=Polypoid
+	|vetoplayer2=2|veto2=Neo Dark Origin
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL16R24GD|show_g=false
+|title=Group D
+|date=2023-08-21 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615411-asl16-ro24-preview-pt2-rough-seas
+|lrthread=https://tl.net/forum/bw-tournaments/615412-asl16-ro24-group-d
+|vod=https://vod.afreecatv.com/player/106183917
+|vod1=https://www.youtube.com/watch?v=taPP871w6NM
+|vod2=https://vod.afreecatv.com/player/106183825
+|vod3=https://vod.afreecatv.com/player/106183518
+|p1=Light|temp_tie1=0.4
+|p2=free|temp_tie2=0.3
+|p3=Action|temp_tie3=0.2
+|p4=EffOrt|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R24GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-08-21 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|free}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M2={{Match
+	|date=2023-08-21 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Action}}
+	|opponent2={{1Opponent|EffOrt}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M3={{Match
+	|date=2023-08-21 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=2|map=La Campanella}}
+	|vetoplayer1=1|veto1=Invader
+	|vetoplayer2=2|veto2=Invader
+}}
+|M4={{Match
+	|date=2023-08-21 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|free}}
+	|opponent2={{1Opponent|EffOrt}}
+	|map1={{Map|winner=2|map=La Campanella}}
+	|vetoplayer1=1|veto1=Tempest (Map)
+	|vetoplayer2=2|veto2=Tempest (Map)
+}}
+|M5={{Match
+	|date=2023-08-21 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|EffOrt}}
+	|map1={{Map|winner=2|map=Retro}}
+	|vetoplayer1=1|veto1=Neo Dark Origin
+	|vetoplayer2=2|veto2=Polypoid
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=ASL16R24GE|show_g=false
+|title=Group E
+|date=2023-08-22 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615411-asl16-ro24-preview-pt2-rough-seas
+|lrthread=https://tl.net/forum/bw-tournaments/615452-asl16-ro24-group-e
+|vod=https://vod.afreecatv.com/player/106221833
+|vod1=https://www.youtube.com/watch?v=Ut0_dYc1UdQ
+|vod2=https://vod.afreecatv.com/player/106221752
+|vod3=https://vod.afreecatv.com/player/106221390
+|p1=ZerO|temp_tie1=0.4
+|p2=Ample|temp_tie2=0.3
+|p3=Sharp|temp_tie3=0.2
+|p4=Jaedong|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R24GE|attached=true|title=Group E Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-08-22 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|ZerO}}
+	|opponent2={{1Opponent|Ample}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+}}
+|M2={{Match
+	|date=2023-08-22 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M3={{Match
+	|date=2023-08-22 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Ample}}
+	|opponent2={{1Opponent|Sharp}}
+	|map1={{Map|winner=2|map=Invader}}
+	|vetoplayer1=1|veto1=Tempest (Map)
+	|vetoplayer2=2|veto2=Tempest (Map)
+}}
+|M4={{Match
+	|date=2023-08-22 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|ZerO}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=1|map=Invader}}
+	|vetoplayer1=1|veto1=Tempest (Map)
+	|vetoplayer2=2|veto2=La Campanella
+}}
+|M5={{Match
+	|date=2023-08-22 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Ample}}
+	|opponent2={{1Opponent|ZerO}}
+	|map1={{Map|winner=1|map=Retro}}
+	|vetoplayer1=1|veto1=Neo Dark Origin
+	|vetoplayer2=2|veto2=Polypoid
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=ASL16R24GF|show_g=false
+|title=Group F
+|date=2023-08-23 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615411-asl16-ro24-preview-pt2-rough-seas
+|lrthread=https://tl.net/forum/bw-tournaments/615494-asl16-ro24-group-f
+|vod=https://vod.afreecatv.com/player/106259375
+|vod1=https://www.youtube.com/watch?v=CoQlravVFhk
+|vod2=https://vod.afreecatv.com/player/106259270
+|vod3=https://vod.afreecatv.com/player/106258832
+|p1=Rush|temp_tie1=0.4
+|p2=ivOry 인치호|temp_tie2=0.3
+|p3=Bisu|temp_tie3=0.2
+|p4=Stork|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R24GF|attached=true|title=Group F Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-08-23 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|ivOry 인치호}}
+	|map1={{Map|winner=1|map=Apocalypse}}
+}}
+|M2={{Match
+	|date=2023-08-23 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+}}
+|M3={{Match
+	|date=2023-08-23 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=1|map=Tempest (Map)}}
+	|vetoplayer1=1|veto1=Invader
+	|vetoplayer2=2|veto2=La Campanella
+}}
+|M4={{Match
+	|date=2023-08-23 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|ivOry 인치호}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Tempest (Map)}}
+	|vetoplayer1=1|veto1=Invader
+	|vetoplayer2=2|veto2=La Campanella
+}}
+|M5={{Match
+	|date=2023-08-23 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Stork}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Polypoid}}
+	|vetoplayer1=1|veto1=Retro
+	|vetoplayer2=2|veto2=Neo Dark Origin
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony will be held on {{countdown|date=2023-08-28 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}.''
+[https://vod.afreecatv.com/player/106454110 VOD]
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL16R16GA
+|title=Group A
+|date=2023-09-04 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615841-asl16-ro16-preview-pt1-fire-fight
+|lrthread=https://tl.net/forum/bw-tournaments/615843-asl16-ro16-group-a
+|vod=https://vod.afreecatv.com/player/106744245
+|vod1=https://www.youtube.com/watch?v=t1CrVC7qNDY
+|vod2=https://vod.afreecatv.com/player/106744100
+|vod3=https://vod.afreecatv.com/player/106743909
+|p1=JyJ|temp_tie1=0.4
+|p2=Calm|temp_tie2=0.3
+|p3=soma|temp_tie3=0.2
+|p4=EffOrt|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R16GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-09-04 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|Calm}}
+	|map1={{Map|winner=1|map=Retro}}
+}}
+|M2={{Match
+	|date=2023-09-04 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|soma}}
+	|opponent2={{1Opponent|EffOrt}}
+	|map1={{Map|winner=2|map=Retro}}
+}}
+|M3={{Match|bestof=3
+	|date=2023-09-04 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|EffOrt}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+	|map2={{Map|winner=2|map=Neo Dark Origin}}
+	|map3={{Map|finished=skip|map=Polypoid}}
+	|vetoplayer1=1|veto1=Invader
+	|vetoplayer2=2|veto2=La Campanella
+}}
+|M4={{Match
+	|date=2023-09-04 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Calm}}
+	|opponent2={{1Opponent|soma}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=2|map=Apocalypse}}
+	|map3={{Map|winner=1|map=La Campanella}}
+	|vetoplayer1=2|veto1=Invader
+	|vetoplayer2=1|veto2=Neo Dark Origin
+}}
+|M5={{Match
+	|date=2023-09-04 22:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|JyJ}}
+	|opponent2={{1Opponent|Calm}}
+	|map1={{Map|winner=1|map=Tempest (Map)}}
+	|map2={{Map|winner=1|map=La Campanella}}
+	|map3={{Map|finished=skip|map=Neo Dark Origin}}
+	|vetoplayer1=1|veto1=Invader
+	|vetoplayer2=2|veto2=Polypoid
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL16R16GB
+|title=Group B
+|date=2023-09-05 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/615841-asl16-ro16-preview-pt1-fire-fight
+|lrthread=https://tl.net/forum/bw-tournaments/615883-asl16-ro16-group-b
+|vod=https://vod.afreecatv.com/player/106784444
+|vod1=https://www.youtube.com/watch?v=iK_Bn1ISYLE
+|vod2=https://vod.afreecatv.com/player/106783361
+|vod3=https://vod.afreecatv.com/player/106783174
+|p1=Mind|temp_tie1=0.4
+|p2=Killer|temp_tie2=0.3
+|p3=Mini|temp_tie3=0.2
+|p4=Rush|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R16GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-09-05 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mind}}
+	|opponent2={{1Opponent|Killer}}
+	|map1={{Map|winner=1|map=Retro}}
+}}
+|M2={{Match
+	|date=2023-09-05 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=2|map=Retro}}
+}}
+|M3={{Match|bestof=3
+	|date=2023-09-05 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mind}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=2|map=La Campanella}}
+	|map3={{Map|winner=2|map=Apocalypse}}
+	|vetoplayer1=1|veto1=Tempest (Map)
+	|vetoplayer2=2|veto2=Tempest (Map)
+}}
+|M4={{Match
+	|date=2023-09-05 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Killer}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=2|map=Apocalypse}}
+	|map2={{Map|winner=2|map=Polypoid}}
+	|map3={{Map|finished=skip|map=Tempest (Map)}}
+	|vetoplayer1=2|veto1=La Campanella
+	|vetoplayer2=1|veto2=Invader
+}}
+|M5={{Match
+	|date=2023-09-05 22:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mind}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=2|map=Polypoid}}
+	|map2={{Map|winner=1|map=Tempest (Map)}}
+	|map3={{Map|winner=2|map=Invader}}
+	|vetoplayer1=2|veto1=La Campanella
+	|vetoplayer2=1|veto2=Neo Dark Origin
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL16R16GC
+|title=Group C
+|date=2023-09-11 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/616120-asl16-ro16-preview-pt2-even-scales
+|lrthread=https://tl.net/forum/bw-tournaments/616121-asl16-ro16-group-c
+|vod=https://vod.afreecatv.com/player/107022320
+|vod1=
+|vod2=https://vod.afreecatv.com/player/107022213
+|vod3=https://vod.afreecatv.com/player/107021964
+|p1=hero|temp_tie1=0.4
+|p2=Ample|temp_tie2=0.3
+|p3=Soulkey|temp_tie3=0.2
+|p4=Bisu|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R16GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-09-11 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Ample}}
+	|map1={{Map|winner=1|map=Retro}}
+}}
+|M2={{Match
+	|date=2023-09-11 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=1|map=Retro}}
+}}
+|M3={{Match|bestof=3
+	|date=2023-09-11 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=2|map=Invader}}
+	|map3={{Map|winner=2|map=Neo Dark Origin}}
+	|vetoplayer1=1|veto1=Apocalypse
+	|vetoplayer2=2|veto2=Apocalypse
+}}
+|M4={{Match
+	|date=2023-09-11 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Ample}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Tempest (Map)}}
+	|map2={{Map|winner=1|map=Polypoid}}
+	|map3={{Map|winner=1|map=Invader}}
+	|vetoplayer1=2|veto1=Neo Dark Origin
+	|vetoplayer2=1|veto2=La Campanella
+}}
+|M5={{Match
+	|date=2023-09-11 22:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Ample}}
+	|map1={{Map|winner=1|map=Neo Dark Origin}}
+	|map2={{Map|winner=1|map=Polypoid}}
+	|map3={{Map|finished=skip|map=Invader}}
+	|vetoplayer1=1|veto1=La Campanella
+	|vetoplayer2=2|veto2=Tempest (Map)
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL16R16GD
+|title=Group D
+|date=2023-09-12 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/616120-asl16-ro16-preview-pt2-even-scales
+|lrthread=https://tl.net/forum/bw-tournaments/616181-asl16-ro16-group-d
+|vod=https://vod.afreecatv.com/player/107061137
+|vod1=
+|vod2=https://vod.afreecatv.com/player/107060915
+|vod3=https://vod.afreecatv.com/player/107061048
+|p1=Best|temp_tie1=0.4
+|p2=Sharp|temp_tie2=0.3
+|p3=Action|temp_tie3=0.2
+|p4=RoyaL|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL16R16GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Opening Matches
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2023-09-12 19:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Sharp}}
+	|map1={{Map|winner=2|map=Retro}}
+}}
+|M2={{Match
+	|date=2023-09-12 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|Action}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=1|map=Retro}}
+}}
+|M3={{Match|bestof=3
+	|date=2023-09-12 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=2|map=Invader}}
+	|map2={{Map|winner=1|map=Neo Dark Origin}}
+	|map3={{Map|winner=1|map=Apocalypse}}
+	|vetoplayer1=2|veto1=Polypoid
+	|vetoplayer2=1|veto2=Tempest (Map)
+}}
+|M4={{Match
+	|date=2023-09-12 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=1|map=Tempest (Map)}}
+	|map2={{Map|winner=1|map=Polypoid}}
+	|map3={{Map|finished=skip|map=Invader}}
+	|vetoplayer1=1|veto1=La Campanella
+	|vetoplayer2=2|veto2=Neo Dark Origin
+}}
+|M5={{Match
+	|date=2023-09-12 22:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Action}}
+	|opponent2={{1Opponent|Best}}
+	|map1={{Map|winner=2|map=Tempest (Map)}}
+	|map2={{Map|winner=1|map=Invader}}
+	|map3={{Map|winner=1|map=Neo Dark Origin}}
+	|vetoplayer1=1|veto1=Apocalypse
+	|vetoplayer2=2|veto2=La Campanella
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+<section begin=Results />
+{{Toggle bracket start|sdate=2023-09-17 12:00|dateexact=true}}
+{{Bracket|Bracket/8|id=ASL16R08PO
+|R1M1header=Quarterfinals ({{Bo|5}})
+|R2M1header=Semifinals ({{Bo|7}})
+|R3M1header=Finals ({{Bo|7}})
+
+<!-- Quarterfinals -->
+|R1M1={{Match|bestof=5
+	|date=2023-09-18 19:20 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|hero}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=1|map=Neo Dark Origin}}
+	|map3={{Map|winner=1|map=La Campanella}}
+	|map4={{Map|finished=skip|map=Invader}}
+	|map5={{Map|finished=skip|map=Tempest (Map)}}
+	|comment=[[Rush]] Picked Maps Set 1,3
+                 [[hero]] Picked Maps Set 2,4
+	|preview=https://tl.net/forum/brood-war/616397-asl16-ro8-preview-pt1-rematches
+	|lrthread=https://tl.net/forum/bw-tournaments/616398-asl16-ro8-day-1
+	|vodgame1=https://vod.afreecatv.com/player/107293511
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R1M2={{Match
+	|date=2023-09-19 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|JyJ}}
+	|map1={{Map|winner=2|map=Tempest (Map)}}
+	|map2={{Map|winner=2|map=Polypoid}}
+	|map3={{Map|winner=1|map=Invader}}
+	|map4={{Map|winner=1|map=Retro}}
+	|map5={{Map|winner=1|map=La Campanella}}
+	|comment=[[Soulkey]] Picked Maps Set 1,3
+                 [[JyJ]] Picked Maps Set 2,4
+	|preview=https://tl.net/forum/brood-war/616397-asl16-ro8-preview-pt1-rematches
+	|lrthread=https://tl.net/forum/bw-tournaments/616448-asl16-ro8-day-2
+	|vodgame1=https://vod.afreecatv.com/player/107333744
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R1M3={{Match
+	|date=2023-09-25 19:10 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=2|map=Neo Dark Origin}}
+	|map3={{Map|winner=2|map=La Campanella}}
+	|map4={{Map|winner=2|map=Invader}}
+	|map5={{Map|finished=skip|map=Retro}}
+	|comment=[[Sharp]] Picked Maps Set 1,3
+                 [[Mini]] Picked Maps Set 2,4
+	|preview=https://tl.net/forum/brood-war/616642-asl16-ro8-preview-pt2-blunt-impact
+	|lrthread=https://tl.net/forum/bw-tournaments/616643-asl16-ro8-day-3
+	|vodgame1=https://vod.afreecatv.com/player/107565211
+	|vodgame2=https://vod.afreecatv.com/player/107565966
+	|vodgame3=https://vod.afreecatv.com/player/107567230
+	|vodgame4=https://vod.afreecatv.com/player/107568905
+}}
+|R1M4={{Match
+	|date=2023-09-26 19:10 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|EffOrt}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=1|map=Neo Dark Origin}}
+	|map3={{Map|winner=1|map=Invader}}
+	|map4={{Map|finished=skip|map=La Campanella}}
+	|map5={{Map|finished=skip|map=Tempest (Map)}}
+	|comment=[[EffOrt]] Picked Maps Set 2,4
+                 [[Action]] Picked Maps Set 1,3
+	|preview=https://tl.net/forum/brood-war/616642-asl16-ro8-preview-pt2-blunt-impact
+	|lrthread=https://tl.net/forum/bw-tournaments/616680-asl16-ro8-day-4
+	|vodgame1=https://vod.afreecatv.com/player/107606630
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match|bestof=7
+	|date=2023-10-04 19:05 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=1|map=Polypoid}}
+	|map2={{Map|winner=1|map=Invader}}
+	|map3={{Map|winner=2|map=Apocalypse}}
+	|map4={{Map|winner=2|map=Tempest (Map)}}
+	|map5={{Map|winner=1|map=La Campanella}}
+	|map6={{Map|winner=2|map=Neo Dark Origin}}
+	|map7={{Map|winner=2|map=Retro}}
+	|comment=[[Rush]] Picked Maps Set 1,3,5
+                 [[Soulkey]] Picked Maps Set 2,4,6
+	|preview=https://tl.net/forum/brood-war/616945-asl16-ro4-preview-over-the-edge
+	|lrthread=https://tl.net/forum/bw-tournaments/616946-asl16-ro4-day-1
+	|vodgame1=https://vod.afreecatv.com/player/107929908
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R2M2={{Match
+	|date=2023-10-05 19:00 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|EffOrt}}
+	|map1={{Map|winner=1|map=Invader}}
+	|map2={{Map|winner=1|map=Retro}}
+	|map3={{Map|winner=1|map=Apocalypse}}
+	|map4={{Map|winner=1|map=Polypoid}}
+	|map5={{Map|finished=skip|map=Tempest (Map)}}
+	|map6={{Map|finished=skip|map=La Campanella}}
+	|map7={{Map|finished=skip|map=Neo Dark Origin}}
+	|comment=[[Mini]] Picked Maps Set 1,3,5
+                 [[EffOrt]] Picked Maps Set 2,4,6
+	|preview=https://tl.net/forum/brood-war/616945-asl16-ro4-preview-over-the-edge
+	|lrthread=https://tl.net/forum/bw-tournaments/616992-asl16-ro4-day-2
+	|vodgame1=https://vod.afreecatv.com/player/107968231
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+	|date=2023-10-15 15:00 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=1|map=Tempest (Map)}}
+	|map2={{Map|winner=1|map=La Campanella}}
+	|map3={{Map|winner=1|map=Neo Dark Origin}}
+	|map4={{Map|winner=2|map=Retro}}
+	|map5={{Map|winner=1|map=Invader}}
+	|map6={{Map|finished=skip|map=Polypoid}}
+	|map7={{Map|finished=skip|map=Apocalypse}}
+	|comment=[[Soulkey]] Picked Maps Set 2,4,6
+                 [[Mini]] Picked Maps Set 1,3,5
+	|preview=https://tl.net/forum/brood-war/617337-asl16-finals-preview-legend-fall
+	|lrthread=https://tl.net/forum/bw-tournaments/617349-asl16-grand-finals
+	|vodgame1=https://vod.afreecatv.com/player/108361605
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+}}
+<section end=Results />
+{{Toggle bracket end}}
+
+==Racial distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean] at Afreecatv.com
+* {{Flag|usuk}} [http://play.afreecatv.com/dth03119 Livestream in English] at Afreecatv.com
+* {{Flag|esmx}} [http://play.afreecatv.com/basic0020512 Livestream in Spanish] at Afreecatv.com
+
+===VODS===
+* {{Flag|kr}} [https://bj.afreecatv.com/afstar1/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|usuk}} [https://bj.afreecatv.com/dth03119/vods Spoiler-free English AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|esmx}} [https://bj.afreecatv.com/basic0020512/vods Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://sc2casts.com/event1365-2023-Afreeca-Starleague-S16 Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+* {{Flag|usuk}} [https://www.sc2links.com/tournament/?match=774 Spoiler-free VODs on SC2Links.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|us}} [https://tl.net/forum/brood-war/614374-asl-season-16-starts-august-14th ASL Season 16 announcement]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/104786725 ASL Season 16 Announcement]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/105372533 afreecatv.com - ASL Season 16 Round of 24 announcement]
+*{{Flag|kr}} [https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C16 ASL Season 16 in namu.wiki]
+*{{Flag|kr}} [https://910map.tistory.com/category/ASL/ASL%20%EC%8B%9C%EC%A6%8C%2016 ASL Season 16 map pool]
+
+[[Category:Post-KeSPA Tournaments]]

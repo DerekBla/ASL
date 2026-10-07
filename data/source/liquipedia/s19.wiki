@@ -1,0 +1,967 @@
+{{DISPLAYTITLE:ASL Season 19}}
+{{ASL Navbox}}
+{{ASL/19/Tabs}}
+{{Infobox league
+|name=ASL Season 19
+|tickername=ASL Season 19
+|image=ASL LOGO 2025 allmode.png
+|imagedark= 
+|icon=ASL LOGO 2025 allmode.png
+|icondark= 
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=
+|organizer=SOOP
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6]<br>[https://www.liivm.com/ KB Liiv M]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=78,000,000
+|country=South Korea
+|city=Seoul
+|venue=Freak Up Studio (24~4)<br>
+KINTEX Exhibition Hall 1 (Final)
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2025-03-24
+|edate=2025-05-25
+|web=https://tl.net/forum/brood-war/636058-asl19formerly-ssl-spring-2025-announced?view=all
+|edition=1
+|afreeca=afstar1
+|soop=sctvenglish
+|protoss_number=9
+|terran_number=10
+|zerg_number=9
+|map1=Death Valley
+|map2=Metropolis
+|map3=Pole Star
+|map4=Deja Vu SE
+|map5=Dominator SE
+|map6=Eclipse
+|map7=Radeon
+|previous=SOOP/StarCraft League/2024/AUTUMN {{!}}2024 SSL AUTUMN
+|next=ASL/20 {{!}}ASL Season 20
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''ASL Season 19'''<ref>[https://ch.sooplive.co.kr/afstar1/post/153414807]</ref> ('''ASL 시즌 19''') (Formerly '''2025 SSL SPRING'''), is an offline tournament organized and broadcast live on [[SOOP]].<br>
+On March 7, 2025, the name of the tournament was changed from "SOOP StarCraft League" ("SSL") to "ASL".
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=p_mgWKuYp2g</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[SOOP/StarCraft League/2024/AUTUMN|2024 SSL AUTUMN]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** All matches: {{abbr/Bo7}}
+
+===Prize Pool===
+{{SoloPrizePool|localcurrency=KRW|qualifies1=ASL/20
+|{{Slot|localprize=30000000|qualified1=yes}}
+|{{Slot|localprize=10000000|qualified1=yes}}
+|{{Slot|place=3-4|localprize=3000000|qualified1=yes}}
+|{{Slot|place=5-8|localprize=2000000}}
+|{{Slot|place=9-12|localprize=1500000}}
+|{{Slot|place=13-16|localprize=1500000}}
+|{{Slot|place=17-22|localprize=1000000}}
+|{{Slot|place=23-28|localprize=1000000}}
+}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[SOOP/StarCraft League/2024/AUTUMN|2024 SSL AUTUMN]] (4)
+|Soulkey
+|Rain
+|Sharp
+|SnOw
+}}
+|{{ParticipantSection|title=Ro24 from Qualifier [[ASL/19/Qualifier/SCS/2025/SPRING|2025 SCS SPRING]] (1)
+|BTS
+}}
+|{{ParticipantSection|title=Ro24 from [[ASL/19/Qualifier/Day_2|Qualifier Day 1]] (12)
+|Queen |p1link=ZerO
+|Jaedong
+|Bisu 
+|Mind
+|Rush
+|Best
+|Mini
+|BarrackS
+|Speed
+|RoyaL
+|Action
+|sSak
+}}
+|{{ParticipantSection|title=Ro24 from [[ASL/19/Qualifier/Day_2|Qualifier Day 2]] (11)
+|Shuttle|p1link=Shuttle (Player)
+|hero 
+|Stork
+|Killer
+|huro
+|Skey
+|Light
+|HyuN
+|Calm
+|Scan
+|Tyson
+}}
+}}
+
+===Maps===
+{{MapPoolTable
+|size=x140px
+}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=StarCastTV English Commentator
+|b1=Nyoken
+|b2=gypsy
+|b3=eOnzErG
+|b4=ret
+|b5=Razz
+|b6=SaiyanSC
+|b7=XUN
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=StarCastTV Spanish Commentator
+|b1=Yu
+|b2=Dipa |b2name=Julián Di Pace Herrera |b2flag=ar
+|b3=Remastr TV
+|b4=OliPatrick
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL19R24GA|show_g=false
+|title=Group A
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/636823-asl19-ro24-preview-pt1-break-out
+|lrthread=https://tl.net/forum/bw-tournaments/636832-asl19-ro24-group-a
+|vod=https://www.youtube.com/watch?v=rM68XsGU3ZM
+|vod1=https://vod.sooplive.co.kr/player/155140051
+|vod2=
+|vod3=
+|p1=Mini|temp_tie1=0.4
+|p2=Shuttle|temp_tie2=0.3
+|p3=Calm|temp_tie3=0.2
+|p4=Scan|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R24GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2025-03-24 19:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Scan}}
+	|map1={{Map|winner=1|map=Eclipse}}
+}}
+|M2={{Match
+	|date=2025-03-24 19:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Shuttle}}
+	|opponent2={{1Opponent|Calm}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M3={{Match
+	|date=2025-03-24 20:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Calm}}
+	|map1={{Map|winner=1|map=Metropolis}}
+	|vetoplayer1=1|veto1=Pole Star
+	|vetoplayer2=2|veto2=Pole Star
+}}
+|M4={{Match
+	|date=2025-03-24 20:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Scan}}
+	|opponent2={{1Opponent|Shuttle}}
+	|map1={{Map|winner=1|map=Pole Star}}
+	|vetoplayer1=1|veto1=Death Valley
+	|vetoplayer2=2|veto2=Metropolis
+}}
+|M5={{Match
+	|date=2025-03-24 21:20 {{Abbr/KST}}
+	|opponent1={{1Opponent|Calm}}
+	|opponent2={{1Opponent|Scan}}
+	|map1={{Map|winner=2|map=Dominator SE}}
+	|vetoplayer1=1|veto1=Radeon
+	|vetoplayer2=2|veto2=Deja Vu SE
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL19R24GB|show_g=false
+|title=Group B
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/636823-asl19-ro24-preview-pt1-break-out
+|lrthread=https://tl.net/forum/bw-tournaments/636862-asl19-ro24-group-b
+|vod=https://vod.sooplive.co.kr/player/155235503
+|vod1=
+|vod2=
+|vod3=
+|p1=Rush|temp_tie1=0.4
+|p2=RoyaL|temp_tie2=0.3
+|p3=Speed|temp_tie3=0.2
+|p4=HyuN|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R24GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2025-03-25 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|HyuN}}
+	|map1={{Map|winner=1|map=Eclipse}}
+}}
+|M2={{Match
+	|date=2025-03-25 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|RoyaL}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M3={{Match
+	|date=2025-03-25 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=2|map=Metropolis}}
+	|vetoplayer1=1|veto1=Death Valley
+	|vetoplayer2=2|veto2=Death Valley
+}}
+|M4={{Match
+	|date=2025-03-25 20:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|HyuN}}
+	|opponent2={{1Opponent|RoyaL}}
+	|map1={{Map|winner=1|map=Pole Star}}
+	|vetoplayer1=1|veto1=Metropolis
+	|vetoplayer2=2|veto2=Death Valley
+}}
+|M5={{Match
+	|date=2025-03-25 21:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|HyuN}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|vetoplayer1=1|veto1=Dominator SE
+	|vetoplayer2=2|veto2=Deja Vu SE
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL19R24GC|show_g=false
+|title=Group C
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/636823-asl19-ro24-preview-pt1-break-out
+|lrthread=https://tl.net/forum/bw-tournaments/636885-asl19-ro24-group-c
+|vod=https://vod.sooplive.co.kr/player/155337711
+|vod1=
+|vod2=
+|vod3=
+|p1=Best|temp_tie1=0.4
+|p2=Mind|temp_tie2=0.3
+|p3=BarrackS|temp_tie3=0.2
+|p4=BTS|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R24GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2025-03-26 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|BTS}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M2={{Match
+	|date=2025-03-26 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mind}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M3={{Match
+	|date=2025-03-26 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|BTS}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=2|map=Metropolis}}
+	|vetoplayer1=1|veto1=Pole Star
+	|vetoplayer2=2|veto2=Death Valley
+}}
+|M4={{Match
+	|date=2025-03-26 20:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Mind}}
+	|map1={{Map|winner=1|map=Pole Star}}
+	|vetoplayer1=1|veto1=Metropolis
+	|vetoplayer2=2|veto2=Death Valley
+}}
+|M5={{Match
+	|date=2025-03-26 21:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|BTS}}
+	|opponent2={{1Opponent|Best}}
+	|map1={{Map|winner=2|map=Deja Vu SE}}
+	|vetoplayer1=1|veto1=Radeon
+	|vetoplayer2=2|veto2=Dominator SE
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL19R24GD|show_g=false
+|title=Group D
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637023-asl19-ro24-preview-golden-time
+|lrthread=https://tl.net/forum/bw-tournaments/637045-asl19-ro24-group-d
+|vod=https://vod.sooplive.co.kr/player/155813489
+|vod1=
+|vod2=
+|vod3=
+|p1=Light|temp_tie1=0.4
+|p2=Bisu|temp_tie2=0.3
+|p3=Killer|temp_tie3=0.2
+|p4=Tyson|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R24GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2025-03-31 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Tyson}}
+	|map1={{Map|winner=1|map=Eclipse}}
+}}
+|M2={{Match
+	|date=2025-03-31 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|Killer}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M3={{Match
+	|date=2025-03-31 20:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|Killer}}
+	|map1={{Map|winner=1|map=Pole Star}}
+}}
+|M4={{Match
+	|date=2025-03-31 20:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|Tyson}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Metropolis}}
+}}
+|M5={{Match
+	|date=2025-03-31 20:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|Killer}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=2|map=Radeon}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=ASL19R24GE|show_g=false
+|title=Group E
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637023-asl19-ro24-preview-golden-time
+|lrthread=https://tl.net/forum/bw-tournaments/637085-asl19-ro24-group-e
+|vod=https://vod.sooplive.co.kr/player/155917115
+|vod1=
+|vod2=
+|vod3=
+|p1=Queen|temp_tie1=0.4
+|p2=Jaedong|temp_tie2=0.3
+|p3=Stork|temp_tie3=0.2
+|p4=Skey|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R24GE|attached=true|title=Group E Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2025-04-01 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Queen}}
+	|opponent2={{1Opponent|Skey}}
+	|map1={{Map|winner=1|map=Eclipse}}
+}}
+|M2={{Match
+	|date=2025-04-01 19:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|Jaedong}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M3={{Match
+	|date=2025-04-01 20:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Queen}}
+	|opponent2={{1Opponent|Stork}}
+	|map1={{Map|winner=1|map=Metropolis}}
+}}
+|M4={{Match
+	|date=2025-04-01 20:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|Skey}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=2|map=Pole Star}}
+}}
+|M5={{Match
+	|date=2025-04-01 20:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Stork}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=2|map=Deja Vu SE}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=ASL19R24GF|show_g=false
+|title=Group F
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637023-asl19-ro24-preview-golden-time
+|lrthread=https://tl.net/forum/bw-tournaments/637100-asl19-ro24-group-f
+|vod=https://vod.sooplive.co.kr/player/156029513
+|vod1=
+|vod2=
+|vod3=
+|p1=hero|temp_tie1=0.4
+|p2=Action|temp_tie2=0.3
+|p3=sSak|temp_tie3=0.2
+|p4=huro|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R24GF|attached=true|title=Group F Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2025-04-02 19:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|huro}}
+	|map1={{Map|winner=1|map=Eclipse}}
+}}
+|M2={{Match
+	|date=2025-04-02 19:35 {{Abbr/KST}}
+	|opponent1={{1Opponent|Action}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=2|map=Eclipse}}
+}}
+|M3={{Match
+	|date=2025-04-02 20:00 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|sSak}}
+	|map1={{Map|winner=1|map=Pole Star}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M4={{Match
+	|date=2025-04-02 20:30 {{Abbr/KST}}
+	|opponent1={{1Opponent|huro}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=2|map=Metropolis}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+|M5={{Match
+	|date=2025-04-02 21:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|sSak}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=2|map=Radeon}}
+	|vetoplayer1=1|veto1=
+	|vetoplayer2=2|veto2=
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony was held on {{countdown|date=2025-04-07 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}.''
+[https://vod.sooplive.co.kr/player/156512533 VOD]
+
+''After the player draft, [[Soulkey]] chose to swap [[hero]] with [[Light]].''
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL19R16GA
+|title=Group A
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637484-asl19-ro16-preview-esker-go
+|lrthread=https://tl.net/forum/bw-tournaments/637404-asl19-ro16-group-a
+|vod=https://vod.sooplive.co.kr/player/157216701
+|vod1=
+|vod2=
+|vod3=
+|p1=Soulkey|temp_tie1=0.4
+|p2=Scan|temp_tie2=0.3
+|p3=BarrackS|temp_tie3=0.2
+|p4=Light|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R16GA|attached=true|title=Group A Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match
+	|date=2025-04-14 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Scan}}
+	|map1={{Map|winner=1|map=Metropolis}}
+}}
+|M2={{Match
+	|date=2025-04-14 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|BarrackS}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Metropolis}}
+}}
+|M3={{Match|bestof=3
+	|date=2025-04-14 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|map2={{Map|winner=2|map=Deja Vu SE}}
+	|map3={{Map|winner=1|map=Death Valley}}
+	|vetoplayer1=1|veto1=Pole Star
+	|vetoplayer2=2|veto2=Eclipse
+}}
+|M4={{Match
+	|date=2025-04-14 20:55 {{Abbr/KST}}
+	|opponent1={{1Opponent|Scan}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=2|map=Pole Star}}
+	|map2={{Map|winner=2|map=Eclipse}}
+	|map3={{Map|winner=skip|map=Dominator SE}}
+	|vetoplayer1=1|veto1=Deja Vu SE
+	|vetoplayer2=2|veto2=Death Valley
+}}
+|M5={{Match
+	|date=2025-04-14 21:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Light}}
+	|opponent2={{1Opponent|BarrackS}}
+	|map1={{Map|winner=1|map=Radeon}}
+	|map2={{Map|winner=1|map=Pole Star}}
+	|map3={{Map|winner=skip|map=Eclipse}}
+	|vetoplayer1=1|veto1=Death Valley
+	|vetoplayer2=2|veto2=Dominator SE
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL19R16GB
+|title=Group B
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637484-asl19-ro16-preview-esker-go
+|lrthread=https://tl.net/forum/bw-tournaments/637405-asl19-ro16-group-b
+|vod=https://vod.sooplive.co.kr/player/157313541
+|vod1=
+|vod2=
+|vod3=
+|p1=Sharp|temp_tie1=0.4
+|p2=Speed|temp_tie2=0.3
+|p3=Jaedong|temp_tie3=0.2
+|p4=Best|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R16GB|attached=true|title=Group B Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2025-04-15 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Speed}}
+	|map1={{Map|winner=2|map=Metropolis}}
+}}
+|M2={{Match
+	|date=2025-04-15 19:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Jaedong}}
+	|opponent2={{1Opponent|Best}}
+	|map1={{Map|winner=1|map=Metropolis}}
+}}
+|M3={{Match|bestof=3
+	|date=2025-04-15 20:10 {{Abbr/KST}}
+	|opponent1={{1Opponent|Speed}}
+	|opponent2={{1Opponent|Jaedong}}
+	|map1={{Map|winner=2|map=Deja Vu SE}}
+	|map2={{Map|winner=2|map=Dominator SE}}
+	|map3={{Map|winner=skip|map=Radeon}}
+	|vetoplayer1=2|veto1=Pole Star
+	|vetoplayer2=1|veto2=Death Valley
+}}
+|M4={{Match
+	|date=2025-04-15 21:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Sharp}}
+	|opponent2={{1Opponent|Best}}
+	|map1={{Map|winner=2|map=Eclipse}}
+	|map2={{Map|winner=2|map=Dominator SE}}
+	|map3={{Map|winner=skip|map=Radeon}}
+	|vetoplayer1=1|veto1=Death Valley
+	|vetoplayer2=2|veto2=Pole Star
+}}
+|M5={{Match
+	|date=2025-04-15 21:50 {{Abbr/KST}}
+	|opponent1={{1Opponent|Speed}}
+	|opponent2={{1Opponent|Best}}
+	|map1={{Map|winner=2|map=Deja Vu SE}}
+	|map2={{Map|winner=2|map=Eclipse}}
+	|map3={{Map|winner=skip|map=Radeon}}
+	|vetoplayer1=1|veto1=Death Valley
+	|vetoplayer2=2|veto2=Pole Star
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL19R16GC
+|title=Group C
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637655-asl19-ro16-preview-new-waves
+|lrthread=https://tl.net/forum/bw-tournaments/637662-asl19-ro16-group-c
+|vod=https://vod.sooplive.co.kr/player/157899317
+|vod1=
+|vod2=
+|vod3=
+|p1=Rain|temp_tie1=0.4
+|p2=Action|temp_tie2=0.3
+|p3=Bisu|temp_tie3=0.2
+|p4=Queen|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R16GC|attached=true|title=Group C Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2025-04-21 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=1|map=Metropolis}}
+}}
+|M2={{Match
+	|date=2025-04-21 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Bisu}}
+	|opponent2={{1Opponent|Queen}}
+	|map1={{Map|winner=2|map=Metropolis}}
+}}
+|M3={{Match|bestof=3
+	|date=2025-04-21 20:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Queen}}
+	|map1={{Map|winner=2|map=Radeon}}
+	|map2={{Map|winner=2|map=Pole Star}}
+	|map3={{Map|winner=skip|map=Eclipse}}
+	|vetoplayer1=1|veto1=Deja Vu SE
+	|vetoplayer2=2|veto2=Death Valley
+}}
+|M4={{Match
+	|date=2025-04-21 20:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Action}}
+	|opponent2={{1Opponent|Bisu}}
+	|map1={{Map|winner=1|map=Dominator SE}}
+	|map2={{Map|winner=1|map=Eclipse}}
+	|map3={{Map|winner=skip|map=Deja Vu SE}}
+	|vetoplayer1=2|veto1=Death Valley
+	|vetoplayer2=1|veto2=Death Valley
+}}
+|M5={{Match
+	|date=2025-04-21 21:25 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rain}}
+	|opponent2={{1Opponent|Action}}
+	|map1={{Map|winner=1|map=Eclipse}}
+	|map2={{Map|winner=2|map=Radeon}}
+	|map3={{Map|winner=1|map=Pole Star}}
+	|vetoplayer1=1|veto1=Deja Vu SE
+	|vetoplayer2=2|veto2=Death Valley
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL19R16GD
+|title=Group D
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/637655-asl19-ro16-preview-new-waves
+|lrthread=https://tl.net/forum/bw-tournaments/637694-asl19-ro16-group-d
+|vod=https://vod.sooplive.co.kr/player/157992211
+|vod1=
+|vod2=
+|vod3=
+|p1=SnOw|temp_tie1=0.4
+|p2=Rush|temp_tie2=0.3
+|p3=hero|temp_tie3=0.2
+|p4=Mini|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL19R16GD|attached=true|title=Group D Matches|collapsed=true
+|M1header=Match 1 & 2
+|M3header=Winner's Match
+|M4header=Loser's Match
+|M5header=Final Match
+|M1={{Match|bestof=1
+	|date=2025-04-22 19:15 {{Abbr/KST}}
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=1|map=Metropolis}}
+}}
+|M2={{Match
+	|date=2025-04-22 19:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|hero}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=2|map=Metropolis}}
+}}
+|M3={{Match|bestof=3
+	|date=2025-04-22 20:05 {{Abbr/KST}}
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Mini}}
+	|map1={{Map|winner=1|map=Dominator SE}}
+	|map2={{Map|winner=1|map=Deja Vu SE}}
+	|map3={{Map|winner=skip|map=Pole Star}}
+	|vetoplayer1=1|veto1=Death Valley
+	|vetoplayer2=2|veto2=Eclipse
+}}
+|M4={{Match
+	|date=2025-04-22 20:45 {{Abbr/KST}}
+	|opponent1={{1Opponent|Rush}}
+	|opponent2={{1Opponent|hero}}
+	|map1={{Map|winner=1|map=Deja Vu SE}}
+	|map2={{Map|winner=2|map=Radeon}}
+	|map3={{Map|winner=1|map=Eclipse}}
+	|vetoplayer1=2|veto1=Pole Star
+	|vetoplayer2=1|veto2=Death Valley
+}}
+|M5={{Match
+	|date=2025-04-22 21:40 {{Abbr/KST}}
+	|opponent1={{1Opponent|Mini}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=2|map=Dominator SE}}
+	|map2={{Map|winner=2|map=Pole Star}}
+	|map3={{Map|winner=skip|map=Radeon}}
+	|vetoplayer1=2|veto1=Death Valley
+	|vetoplayer2=1|veto2=Deja Vu SE
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+{{Bracket|Bracket/8|id=ASL19R08PO
+|R1M1header=Quarterfinals (Bo7)
+|R2M1header=Semifinals (Bo7)
+|R3M1header=Finals (Bo7)
+
+<!-- Quarterfinals -->
+|R1M1={{Match|bestof=7
+	|date=2025-04-28 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Queen}}
+	|opponent2={{1Opponent|Best}}
+	|map1={{Map|winner=2|map=Metropolis}}
+	|map2={{Map|winner=1|map=Eclipse}}
+	|map3={{Map|winner=1|map=Dominator SE}}
+	|map4={{Map|winner=1|map=Death Valley}}
+	|map5={{Map|winner=2|map=Radeon}}
+	|map6={{Map|winner=2|map=Deja Vu SE}}
+	|map7={{Map|winner=2|map=Pole Star}}
+	|comment=[[ZerO|Queen]] picked maps Set 1, 3, 5<br>[[Best]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/637837-asl19-ro8-preview-rejuvenation
+	|lrthread=https://tl.net/forum/bw-tournaments/637842-asl19-ro8-day-1
+	|vodgame1=https://vod.sooplive.co.kr/player/158554655
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R1M2={{Match
+	|date=2025-04-29 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Jaedong}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Dominator SE}}
+	|map2={{Map|winner=2|map=Deja Vu SE}}
+	|map3={{Map|winner=2|map=Radeon}}
+	|map4={{Map|winner=1|map=Pole Star}}
+	|map5={{Map|winner=2|map=Metropolis}}
+	|map6={{Map|winner=skip|map=Death Valley}}
+	|map7={{Map|winner=skip|map=Eclipse}}
+	|comment=[[Jaedong]] picked maps Set 1, 3, 5<br>[[Light]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/637837-asl19-ro8-preview-rejuvenation
+	|lrthread=https://tl.net/forum/bw-tournaments/637884-asl19-ro8-day-2
+	|vodgame1=https://vod.sooplive.co.kr/player/158639199
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R1M3={{Match
+	|date=2025-05-05 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Rain}}
+	|map1={{Map|winner=1|map=Death Valley}}
+	|map2={{Map|winner=2|map=Eclipse}}
+	|map3={{Map|winner=1|map=Metropolis}}
+	|map4={{Map|winner=1|map=Deja Vu SE}}
+	|map5={{Map|winner=2|map=Pole Star}}
+	|map6={{Map|winner=1|map=Dominator SE}}
+	|map7={{Map|winner=skip|map=Radeon}}
+	|comment=[[SnOw]] picked maps Set 2, 4, 6<br>[[Rain]] picked maps Set 1, 3, 5
+	|preview=https://tl.net/forum/brood-war/638051-asl19-ro8-preview-unyielding
+	|lrthread=https://tl.net/forum/bw-tournaments/638062-asl19-ro8-day-3
+	|vodgame1=https://vod.sooplive.co.kr/player/159231597
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R1M4={{Match
+	|date=2025-05-06 19:15 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Soulkey}}
+	|opponent2={{1Opponent|Rush}}
+	|map1={{Map|winner=2|map=Metropolis}}
+	|map2={{Map|winner=1|map=Pole Star}}
+	|map3={{Map|winner=1|map=Dominator SE}}
+	|map4={{Map|winner=1|map=Deja Vu SE}}
+	|map5={{Map|winner=1|map=Death Valley}}
+	|map6={{Map|winner=skip|map=Radeon}}
+	|map7={{Map|winner=skip|map=Eclipse}}
+	|comment=[[Soulkey]] picked maps Set 1, 3, 5<br>[[Rush]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/638051-asl19-ro8-preview-unyielding
+	|lrthread=https://tl.net/forum/bw-tournaments/638107-asl19-ro8-day-4
+	|vodgame1=https://vod.sooplive.co.kr/player/159326905
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+	|date=2025-05-12 19:20 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Light}}
+	|map1={{Map|winner=2|map=Deja Vu SE}}
+	|map2={{Map|winner=2|map=Death Valley}}
+	|map3={{Map|winner=1|map=Pole Star}}
+	|map4={{Map|winner=1|map=Eclipse}}
+	|map5={{Map|winner=1|map=Dominator SE}}
+	|map6={{Map|winner=2|map=Radeon}}
+	|map7={{Map|winner=1|map=Metropolis}}
+	|comment=[[Best]] picked maps Set 2, 4, 6<br>[[Light]] picked maps Set 1, 3, 5
+	|preview=https://tl.net/forum/brood-war/638883-asl19-ro4-preview-storied-rivals
+	|lrthread=https://tl.net/forum/bw-tournaments/638884-asl19-semifinal-a
+	|vodgame1=https://vod.sooplive.co.kr/player/159914629
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+|R2M2={{Match
+	|date=2025-05-13 19:20 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|SnOw}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=2|map=Metropolis}}
+	|map2={{Map|winner=1|map=Eclipse}}
+	|map3={{Map|winner=1|map=Dominator SE}}
+	|map4={{Map|winner=2|map=Death Valley}}
+	|map5={{Map|winner=1|map=Deja Vu SE}}
+	|map6={{Map|winner=2|map=Pole Star}}
+	|map7={{Map|winner=2|map=Radeon}}
+	|comment=[[SnOw]] picked maps Set 2, 4, 6<br>[[Soulkey]] picked maps Set 1, 3, 5
+	|preview=https://tl.net/forum/brood-war/638883-asl19-ro4-preview-storied-rivals
+	|lrthread=https://tl.net/forum/bw-tournaments/638940-asl19-semifinal-b
+	|vodgame1=https://vod.sooplive.co.kr/player/160017737
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+	|date=2025-05-25 14:30 {{Abbr/KST}}
+	|afreeca=AfreecaTVASL
+	|opponent1={{1Opponent|Best}}
+	|opponent2={{1Opponent|Soulkey}}
+	|map1={{Map|winner=2|map=Eclipse}}
+	|map2={{Map|winner=1|map=Metropolis}}
+	|map3={{Map|winner=2|map=Death Valley}}
+	|map4={{Map|winner=1|map=Radeon}}
+	|map5={{Map|winner=1|map=Deja Vu SE}}
+	|map6={{Map|winner=2|map=Dominator SE}}
+	|map7={{Map|winner=2|map=Pole Star}}
+	|comment=[[Best]] picked maps Set 1, 3, 5<br>[[Soulkey]] picked maps Set 2, 4, 6
+	|preview=https://tl.net/forum/brood-war/639729-asl19-finals-preview-daunting-task
+	|lrthread=https://tl.net/forum/bw-tournaments/639742-asl19-grand-finals
+	|vodgame1=
+	|vodgame2=
+	|vodgame3=
+	|vodgame4=
+}}
+}}
+
+==Racial distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [https://play.sooplive.co.kr/afstar1 Livestream in Korean] at Sooplive.co.kr
+* {{Flag|usuk}} [https://www.sooplive.com/sctven Livestream in English] at Sooplive.com
+* {{Flag|esmx}} [https://www.sooplive.com/sctvespoficial Livestream in Spanish] at Afreecatv.com
+* {{Flag|jp}} [https://www.sooplive.com/sctimes Livestream in Japanese] at Sooplive.com
+
+===VODS===
+* {{Flag|kr}} [https://ch.sooplive.co.kr/afstar1/vods Spoiler-free SOOP VODs] at Sooplive.co.kr
+* {{Flag|usuk}} [https://www.sooplive.com/sctven/video Spoiler-free English SOOP VODs] at Sooplive.com
+* {{Flag|esmx}} [https://www.sooplive.com/sctvespoficial/video Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://www.sc2links.com/tournament/?match=840 Spoiler-free VODs on SC2Links.com]
+* {{Flag|usuk}} [https://sc2casts.com/event1430-2025-SSL-SPRING Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|us}} [https://tl.net/forum/brood-war/636058-asl19formerly-ssl-spring-2025-announced ASL Season 19 Announcement]
+*{{Flag|kr}} [https://ch.sooplive.co.kr/afstar1/post/152479677 ASL Season 19 Announcement]
+*{{Flag|kr}} [https://910map.tistory.com/214 ASL Season 19 map pool]
+*{{Flag|kr}} [https://ch.sooplive.co.kr/afstar1/post/153926163 afreecatv.com - ASL Season 19 Round of 24 announcement]
+*{{Flag|kr}} [https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C19 ASL Season 19 in namu.wiki]
+[[Category:Post-KeSPA Tournaments]]

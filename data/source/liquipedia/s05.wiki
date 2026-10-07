@@ -1,0 +1,875 @@
+{{AfreecaTV_Starleague_Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 5}}
+{{tabs static
+|name1=Main Event
+|link1=2018 AfreecaTV Starleague Season 5
+|name2=Qualifier
+|link2=2018 AfreecaTV Starleague Season 5/Qualifier
+|name3=Tournament Statistics
+|link3=2018 AfreecaTV Starleague Season 5/Tournament Statistics
+|this=1}}
+{{Infobox league
+|name=ASL Season 5
+|image=Afreeca_Starleague_banner.jpg
+|icon=ASL_icon.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=olleh tv, plain vanilla, Kongdoo, Knox Gaming
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=58,600,000
+|prizepoolusd={{formatnum:{{#expr:{{#currencyexchange:58600000|KRW|USD|2018-05-27}}round 0}}}}
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2018-03-11
+|edate=2018-05-27
+|edition=5th
+|tlpd=https://tl.net/tlpd/sospa/leagues/5106_AfreecaTV_Starleague_S5
+|web=https://starleague.kr/
+|idfirst=Rain  |racefirst=p  |flagfirst=kr
+|idsecond=Snow |racesecond=p |flagsecond=kr
+|idthird=hero  |racethird=z  |flagthird=kr
+|idfourth=Mini |racefourth=p |flagfourth=kr
+|player_number=28
+|protoss_number=11
+|terran_number=8
+|zerg_number=9
+|map1=Gladiator
+|map2=Sparkle
+|map3=Transistor
+|map4=Third World
+|map5=
+|previous=2017 AfreecaTV Starleague Season 4{{!}}ASL Season 4
+|next=2018 AfreecaTV Starleague Season 6{{!}}ASL Season 6
+|liquipediatier=1
+}}
+{{TOClimit}}
+
+
+The '''AfreecaTV Starleague Season 5''' (아프리카TV 스타리그 시즌5) or '''AfreecaTV StarCraft League Remastered Season 5''', was an offline tournament organized and broadcast live on [[AfreecaTV]].
+
+The Starleague features 3 qualifiers scheduled for Seoul, Busan and Gwangju on February 24, 25 and 26, 2018, respectively. Wildcard qualifier were held on February 21, 2018 to determine fourth seed from the [[Asl4|ASL4]].<ref>[https://tl.net/forum/bw-tournaments/531172-asl5-qualifier-feb-21-24-25-26 ASL5 Qualifier Feb 21/24/25/26]</ref>.
+
+Round of 24 play began on Sunday March 11, 2018. Matches were broadcasted every week on Sunday and Tuesday.<ref>[https://starleague.kr/ ASL5 Official Website]</ref><br>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=L2Ihv7sacos</embedvideo>
+
+==Tournament Information==
+===Participants===
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:130px;text-align:center;" | '''{{p}} Protoss ''(11)''
+|class="{{RaceColor2|t}}" style="width:130px;text-align:center;" | '''{{t}} Terran ''(8)''
+|class="{{RaceColor2|z}}" style="width:130px;text-align:center;" | '''{{z}} Zerg ''(9)''
+|-
+!colspan="3" style="text-align:center;" |From '''[[AfreecaTV Starleague Season 4]]'''
+|-
+|'''{{InlinePlayer|1=Bisu|flag=Korea|link=Bisu|faction=u}}'''<sup>1</sup>
+|'''{{InlinePlayer|1=Flash|flag=Korea|link=Flash|faction=u}}'''
+|'''{{InlinePlayer|1=hero|flag=Korea|link=Hero|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Rain|flag=Korea|link=Rain|faction=u}}'''<sup>1</sup>
+|{{emdash}}
+|'''{{InlinePlayer|1=Larva|flag=Korea|link=Larva (Player)|faction=u}}'''
+|-
+!colspan="3" style="text-align:center;" |From '''[[2018 AfreecaTV Starleague Season 5/Qualifier/Seoul|Seoul Preliminary]]'''
+|-
+|'''{{InlinePlayer|1=BeSt|flag=Korea|link=Best|faction=u}}'''
+|'''{{InlinePlayer|1=Rush|flag=Korea|link=Rush|faction=u}}'''
+|'''{{InlinePlayer|1=Where|flag=Korea|link=MIsO|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Snow|flag=Korea|link=SnOw|faction=u}}'''
+|'''{{InlinePlayer|1=Mind|flag=Korea|link=Mind|faction=u}}'''
+|'''{{InlinePlayer|1=EffOrt|flag=Korea|link=EffOrt|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Horang2|flag=Korea|link=Horang2|faction=u}}'''
+|'''{{InlinePlayer|1=Sea|flag=Korea|link=Sea|faction=u}}'''
+|'''{{InlinePlayer|1=Jaedong|flag=Korea|link=Jaedong|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Sky|flag=Korea|link=Sky|faction=u}}'''
+|'''{{InlinePlayer|1=Light|flag=Korea|link=Light|faction=u}}'''
+|'''{{InlinePlayer|1=Shine|flag=Korea|link=Shine|faction=u}}'''
+|-
+!colspan="3" style="text-align:center;" |From '''[[2018 AfreecaTV Starleague Season 5/Qualifier/Busan|Busan Preliminary]]'''
+|-
+|'''{{InlinePlayer|1=Stork|flag=Korea|link=Stork|faction=u}}'''
+|{{emdash}}
+|'''{{InlinePlayer|1=Soulkey|flag=Korea|link=Soulkey|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=GuemChi|flag=Korea|link=GuemChi|faction=u}}'''
+|{{emdash}}
+|'''{{InlinePlayer|1=Calm|flag=Korea|link=Calm|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Shuttle|flag=Korea|link=Shuttle (Player)|faction=u}}'''
+|{{emdash}}
+|{{emdash}}
+|-
+|'''{{InlinePlayer|1=Mini|flag=Korea|link=Mini|faction=u}}'''
+|{{emdash}}
+|{{emdash}}
+|-
+!colspan="3" style="text-align:center;" |From '''[[2018 AfreecaTV Starleague Season 5/Qualifier/Gwangju|Gwangju Preliminary]]'''
+|-
+|'''{{InlinePlayer|1=Movie|flag=Korea|link=Movie|faction=u}}'''
+|'''{{InlinePlayer|1=Last|flag=Korea|link=Last|faction=u}}'''
+|'''{{InlinePlayer|1=Action|flag=Korea|link=Action|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Pusan|flag=Korea|link=Pusan|faction=u}}'''
+|'''{{InlinePlayer|1=Mong|flag=Korea|link=Mong|faction=u}}'''
+|{{emdash}}
+|-
+|{{emdash}}
+|'''{{InlinePlayer|1=Sharp|flag=Korea|link=Sharp|faction=u}}'''
+|{{emdash}}
+|}
+<sup>1</sup> Bisu cannot attend due to his mandatory military service, Rain gains his spot after winning the [[2018 AfreecaTV Starleague Season 5/Qualifier/Wildcard|Wild Card Qualifier]].
+
+===Prize Pool===
+{{prize pool start|localcurrency=krw |disable_teams=true}}
+{{prize pool slot|place=1|usdprize=27,957|localprize=30,000,000
+|Rain |flag1=kr |race1=p |lastvs1=Snow |lastscore1=3 |lastvsscore1=1 |lastvsrace1=p |lastvsflag1=kr
+}}
+{{prize pool slot|place=2|usdprize=9,319|localprize=10,000,000
+|Snow |flag1=kr |race1=p|lastvs1=Rain |lastscore1=1 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr
+}}
+{{prize pool slot|place=3|usdprize=4,660|localprize=5,000,000
+|hero |flag1=kr |race1=z |lastvs1=Mini |lastscore1=3 |lastvsscore1=2 |lastvsrace1=p |lastvsflag1=kr |date1=2018-05-13
+}}
+{{prize pool slot|place=4|usdprize=2,796|localprize=3,000,000
+|Mini |flag1=kr |race1=p |lastvs1=hero |lastscore1=2 |lastvsscore1=3 |lastvsrace1=z |lastvsflag1=kr |date1=2018-05-13
+}}
+{{prize pool slot|place=5-8|usdprize=932|localprize=1,000,000
+|Shuttle (Player){{!}}Shuttle |flag1=kr |race1=p |lastvs1=Rain |lastscore1=1 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr |date1=2018-04-22
+|Mind |flag2=kr |race2=t |lastvs2=hero |lastscore2=2 |lastvsscore2=3 |lastvsrace2=z |lastvsflag2=kr |date2=2018-04-24
+|Larva (Player){{!}}Larva |flag3=kr |race3=z |lastvs3=Mini |lastscore3=0 |lastvsscore3=3 |lastvsrace3=p |lastvsflag3=kr |date3=2018-04-29
+|Flash |flag4=kr |race4=t |lastvs4=Snow |lastscore4=2 |lastvsscore4=3 |lastvsrace4=p |lastvsflag4=kr |date4=2018-05-01
+}}
+{{prize pool slot|place=9-12|usdprize=466|localprize=500,000
+|Shine (Player){{!}}Shine |flag1=kr |race1=z |wdl1=1-2 |date1=2018-04-01
+|BeSt |flag2=kr |race2=p |wdl2=1-2 |date2=2018-04-03
+|Effort |flag3=kr |race3=z |wdl3=1-2 |date3=2018-04-15
+|Action |flag4=kr |race4=z |wdl4=1-2 |date4=2018-04-18
+}}
+{{prize pool slot|place=13-16|usdprize=466|localprize=500,000
+|Where |flag1=kr |race1=z |wdl1=0-2 |date1=2018-04-01
+|Stork |flag2=kr |race2=p |wdl2=0-2 |date2=2018-04-03
+|Jaedong |flag3=kr |race3=z |wdl3=0-2 |date3=2018-04-15
+|Movie |flag4=kr |race4=p |wdl4=0-2 |date4=2018-04-18
+}}
+{{prize pool slot|place=17-22|usdprize=280|localprize=300,000
+|Sky |flag1=kr |race1=p |wdl1=1-2 |date1=2018-03-11
+|Horang2 |flag2=kr |race2=p |wdl2=1-2 |date2=2018-03-13
+|Calm |flag3=kr |race3=z |wdl3=1-2 |date3=2018-03-18
+|Last |flag4=kr |race4=t |wdl4=1-2 |date4=2018-03-20
+|Neo.G_Soulkey{{!}}Soulkey |flag5=kr |race5=z |wdl5=1-2 |date5=2018-03-25
+|Sharp |flag6=kr |race6=t |wdl6=1-2 |date6=2018-03-27
+}}
+{{prize pool slot|place=23-28|usdprize=280|localprize=300,000
+|Light |flag1=kr |race1=t |wdl1=0-2 |date1=2018-03-11
+|GuemChi |flag2=kr |race2=p |wdl2=0-2 |date2=2018-03-13
+|Rush |flag3=kr |race3=t |wdl3=0-2 |date3=2018-03-18
+|Mong |flag4=kr |race4=t |wdl4=0-2 |date4=2018-03-20
+|Sea |flag5=kr |race5=t |wdl5=0-2 |date5=2018-03-25
+|Pusan |flag6=kr |race6=p |wdl6=0-2 |date6=2018-03-27
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: best-of-one
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[Afreeca Starleague Season 4]]
+** [[Dual tournament]] format: best-of-one
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals through finals: best-of-five
+
+===Maps===
+{{MapPoolTable
+|map1=Sparkle|map1displayName=Sparkle
+|map2=Transistor|map2displayName=Transistor
+|map3=Gladiator|map3displayName=Gladiator
+|map4=Third World|map4displayName=Third World
+}}
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Artosis
+|b2=Tasteless
+|b3=RAPiD
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard
+|position=Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{Tabs dynamic/end}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=March 11, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=XPwjK7WMs7c
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/531970-asl5-ro24-group-a
+|preview=https://tl.net/forum/brood-war/531959-asl5-ro24-preview-pt-1-old-and-new-with-stork#ksl-group-a
+|review=https://tl.net/forum/brood-war/532198-asl5-ro24-preview-pt-2-calm-before-the-storm#ksl-group-a
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=Z |p1link=Shine_(Player)|p1flag=kr|p1=Shine}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P |p1link=Shuttle_(Player)|p1flag=kr|p1=Shuttle}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=P |p1flag=kr|p1=Sky}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T |p1flag=kr|p1=Light}}
+}}
+{{Matchlist|id=3ACiTqc8yq
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |link=Shuttle_(Player)|vodgame1=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=1750|winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=P}}
+    |opponent2={{SoloOpponent|name=Sky|race=P}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=1750|winner=2}}
+}}
+|M2={{Match
+    |link=Shine_(Player)|vodgame1=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=3854|winner=2
+    |opponent1={{SoloOpponent|name=Light|race=T}}
+    |opponent2={{SoloOpponent|name=Shine|race=Z}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=3854|winner=2}}
+}}
+|M3={{Match
+    |link=Shine_(Player)|vodgame1=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=6069|winner=1
+    |opponent1={{SoloOpponent|name=Shine|race=z}}
+    |opponent2={{SoloOpponent|name=Sky|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=6069|winner=1}}
+}}
+|M4={{Match
+    |link=Shuttle_(Player)|vodgame1=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=7219|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=7219|winner=1}}
+}}
+|M5={{Match
+    |link=Shuttle_(Player)|vodgame1=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=8003|winner=2
+    |opponent1={{SoloOpponent|name=Sky|race=p}}
+    |opponent2={{SoloOpponent|name=Shuttle|race=p}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=XPwjK7WMs7c&t=8003|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=March 13, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=QfewklUA7uE
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532041-asl5-ro24-group-b
+|preview=https://tl.net/forum/brood-war/531959-asl5-ro24-preview-pt-1-old-and-new-with-stork#ksl-group-b
+|review=https://tl.net/forum/brood-war/532198-asl5-ro24-preview-pt-2-calm-before-the-storm#ksl-group-b
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=P |p1flag=kr|p1=Stork}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=Z |p1flag=kr|p1=Effort}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=P |p1flag=kr|p1=Horang2}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=P |p1flag=kr|p1=GuemChi}}
+}}
+{{Matchlist|id=LBCsWqUbYf
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=QfewklUA7uE&t=30m18s|winner=2
+    |opponent1={{SoloOpponent|name=Effort|race=Z}}
+    |opponent2={{SoloOpponent|name=Horang2|race=P}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=QfewklUA7uE&t=30m18s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=QfewklUA7uE&t=55m34s|winner=1
+    |opponent1={{SoloOpponent|name=Stork|race=P}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=P}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=QfewklUA7uE&t=55m34s|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=QfewklUA7uE&t=1h25m25s|winner=2
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=QfewklUA7uE&t=1h25m25s|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=QfewklUA7uE&t=1h52m26s|winner=1
+    |opponent1={{SoloOpponent|name=Effort|race=z}}
+    |opponent2={{SoloOpponent|name=GuemChi|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=QfewklUA7uE&t=1h52m26s|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=QfewklUA7uE&t=2h15m18s|winner=2
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=Effort|race=z}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=QfewklUA7uE&t=2h15m18s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=March 18, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=br4V19u4vIg
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532192-asl5-ro24-group-c
+|preview=https://tl.net/forum/brood-war/532198-asl5-ro24-preview-pt-2-calm-before-the-storm
+|review=https://tl.net/forum/brood-war/532377-asl5-ro24-preview-pt-3-the-tyrants-time
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=T |p1flag=kr|p1=Mind}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P |p1flag=kr|p1=BeSt}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=Z |p1flag=kr|p1=Calm}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T |p1flag=kr|p1=Rush}}
+}}
+{{Matchlist|id=QrOu7T0qkP
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=br4V19u4vIg&t=29m56s|winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=P}}
+    |opponent2={{SoloOpponent|name=Calm|race=Z}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=br4V19u4vIg&t=29m56s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=br4V19u4vIg&t=51m14s|winner=2
+    |opponent1={{SoloOpponent|name=Rush|race=T}}
+    |opponent2={{SoloOpponent|name=Mind|race=T}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=br4V19u4vIg&t=51m14s|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=br4V19u4vIg&t=1h23m20s|winner=2
+    |opponent1={{SoloOpponent|name=Calm|race=Z}}
+    |opponent2={{SoloOpponent|name=Mind|race=T}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=br4V19u4vIg&t=1h23m20s|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=br4V19u4vIg&t=1h42m55s|winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=P}}
+    |opponent2={{SoloOpponent|name=Rush|race=T}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=br4V19u4vIg&t=1h42m55s|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=br4V19u4vIg&t=1h58m36s|winner=2
+    |opponent1={{SoloOpponent|name=Calm|race=Z}}
+    |opponent2={{SoloOpponent|name=BeSt|race=P}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=br4V19u4vIg&t=1h58m36s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=March 20, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=Yr17XOcVKaU
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532238-asl5-ro24-group-d
+|preview=https://tl.net/forum/brood-war/532198-asl5-ro24-preview-pt-2-calm-before-the-storm
+|review=https://tl.net/forum/brood-war/532377-asl5-ro24-preview-pt-3-the-tyrants-time
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=Z |p1flag=kr|p1=Where}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P |p1flag=kr|p1=Snow}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=T |p1flag=kr|p1=Last}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T |p1flag=kr|p1=Mong}}
+}}
+{{Matchlist|id=EBNgyTQyfL
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=23m46s|winner=2
+    |opponent1={{SoloOpponent|name=Last|race=T}}
+    |opponent2={{SoloOpponent|name=Where|race=Z}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=23m46s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=55m56s|winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=P}}
+    |opponent2={{SoloOpponent|name=Mong|race=T}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=55m56s|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=1h17m56s|winner=1
+    |opponent1={{SoloOpponent|name=Where|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=1h17m56s|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=1h39m47s|winner=1
+    |opponent1={{SoloOpponent|name=Last|race=t}}
+    |opponent2={{SoloOpponent|name=Mong|race=t}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=1h39m47s|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=1h59m4s|winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Last|race=t}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=Yr17XOcVKaU&t=1h59m4s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group E====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group E
+|width=300px
+|date=March 25, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=uZ-jXkozJp0
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532384-asl5-ro24-group-e
+|preview=https://tl.net/forum/brood-war/532377-asl5-ro24-preview-pt-3-the-tyrants-time
+|review=https://tl.net/forum/brood-war/532563-asl5-ro16-preview-pt-1-flash-et-al#ksl-group-a
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=P |p1flag=kr|p1=Mini}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=Z |p1flag=kr|p1=Action}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=Z |p1link=Neo.G_Soulkey|p1flag=kr|p1=Soulkey}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=T |p1flag=kr|p1=Sharp}}
+}}
+{{Matchlist|id=v8sRVNoIZ8
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=1623|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=T}}
+    |opponent2={{SoloOpponent|name=Action|race=Z}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=1623|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=2750|winner=1
+    |opponent1={{SoloOpponent|name=Mini|race=P}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=Z}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=2750|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=4220|winner=2
+    |opponent1={{SoloOpponent|name=Action|race=Z}}
+    |opponent2={{SoloOpponent|name=Mini|race=P}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=4220|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=5522|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=T}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=Z}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=5522|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=6623|winner=1
+    |opponent1={{SoloOpponent|name=Action|race=Z}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=Z}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=uZ-jXkozJp0&t=6623|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group F====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group F
+|width=300px
+|date=March 27, 2018 - 17:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=olD5KHMRsQ8
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532431-asl5-ro24-group-f
+|preview=https://tl.net/forum/brood-war/532377-asl5-ro24-preview-pt-3-the-tyrants-time
+|review=https://tl.net/forum/brood-war/532563-asl5-ro16-preview-pt-1-flash-et-al#ksl-group-b
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=Z |p1flag=kr|p1=Jaedong}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=P |p1flag=kr|p1=Movie}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=T |p1flag=kr|p1=Sea}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=P |p1flag=kr|p1=Pusan}}
+}}
+{{Matchlist|id=sd7eidlemi
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=1585|winner=1
+    |opponent1={{SoloOpponent|name=Sea|race=T}}
+    |opponent2={{SoloOpponent|name=Pusan|race=P}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=1585|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=3197|winner=2
+    |opponent1={{SoloOpponent|name=Movie|race=P}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=Z}}
+    |map1={{Map|map=Sparkle|vod=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=3197|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=4670|winner=2
+    |opponent1={{SoloOpponent|name=Sea|race=T}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=Z}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=4670|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=5828|winner=2
+    |opponent1={{SoloOpponent|name=Pusan|race=P}}
+    |opponent2={{SoloOpponent|name=Movie|race=P}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=5828|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=7030|winner=2
+    |opponent1={{SoloOpponent|name=Sea|race=T}}
+    |opponent2={{SoloOpponent|name=Movie|race=P}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=olD5KHMRsQ8&t=7030|winner=2}}
+}}
+}}
+
+{{Box|end}}
+
+===Round of 16 Group Stage===
+*Groups selections were held on March 27, 2018 - 20:00 {{Abbr/KST}}. [https://www.youtube.com/watch?v=olD5KHMRsQ8&t=12022s (English VoD)]
+{{Box|start|padding=4em}}
+====Group A====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=April 1, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=5pcw9i_96xY
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532572-asl5-ro16-group-a
+|preview=https://tl.net/forum/brood-war/532563-asl5-ro16-preview-pt-1-flash-et-al#ksl-group-d
+|review=https://tl.net/forum/brood-war/532966-asl5-ro16-preview-pt-2-zerg-territory#ksl-group-a
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Flash}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Mind}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1link=Shine_(Player)|p1flag=kr|p1=Shine}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z |p1flag=kr|p1=Where}}
+}}
+{{Matchlist|id=jp3UZHfc8v
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=5pcw9i_96xY&t=1704|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=5pcw9i_96xY&t=1704|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=5pcw9i_96xY&t=3186|winner=2
+    |opponent1={{SoloOpponent|name=Where|race=z}}
+    |opponent2={{SoloOpponent|name=Shine|race=z}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=5pcw9i_96xY&t=3186|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=5pcw9i_96xY&t=4114|winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=t}}
+    |opponent2={{SoloOpponent|name=Shine|race=z}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=5pcw9i_96xY&t=4114|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=5pcw9i_96xY&t=5410|winner=1
+    |opponent1={{SoloOpponent|name=Mind|race=t}}
+    |opponent2={{SoloOpponent|name=Where|race=z}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=5pcw9i_96xY&t=5410|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=5pcw9i_96xY&t=6945|winner=2
+    |opponent1={{SoloOpponent|name=Shine|race=z}}
+    |opponent2={{SoloOpponent|name=Mind|race=t}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=5pcw9i_96xY&t=6945|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group B====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=April 3, 2018 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=3mVtgGPc2jY
+
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532634-asl5-ro16-group-b
+|preview=https://tl.net/forum/brood-war/532563-asl5-ro16-preview-pt-1-flash-et-al#ksl-group-e
+|review=https://tl.net/forum/brood-war/532966-asl5-ro16-preview-pt-2-zerg-territory#ksl-group-b
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z |p1flag=kr|p1=hero}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Snow}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p |p1flag=kr|p1=BeSt}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Stork}}
+}}
+{{Matchlist|id=s2wHEDF2R1
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=1635|winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=1635|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=2139|winner=2
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=2139|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=4540|winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=4540|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=6125|winner=2
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=6125|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=7580|winner=2
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=3mVtgGPc2jY&t=7580|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group C====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=April 15, 2018 - 19:00 {{Abbr/KST}}
+
+|vod=https://www.youtube.com/watch?v=8L3JiQeWHHY
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/532963-asl5-ro16-group-c
+|preview=https://tl.net/forum/brood-war/532966-asl5-ro16-preview-pt-2-zerg-territory#ksl-group-d
+|review=https://tl.net/forum/brood-war/533132-asl5-ro8-preview-pt-1-forget-bisu-here-comes-s
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1link=Shuttle (Player)|p1flag=kr|p1=Shuttle}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z |p1link=Larva (Player)|p1flag=kr|p1=Larva}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1flag=kr|p1=Effort}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=Z |p1flag=kr|p1=Jaedong}}
+}}
+{{Matchlist|id=1VOdUMIGft
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=29m31s|winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Jaedong|race=z}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=29m31s|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=51m2s|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Effort|race=z}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=51m2s|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=1h40m21s|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Larva|race=z}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=1h40m21s|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=2h22m55s|winner=2
+    |opponent1={{SoloOpponent|name=Jaedong|race=z}}
+    |opponent2={{SoloOpponent|name=Effort|race=z}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=2h22m55s|winner=2}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=2h39m0s|winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Effort|race=z}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=8L3JiQeWHHY&t=2h39m0s|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+====Group D====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=April 17, 2018 - 19:00 {{Abbr/KST}}
+
+|vod=https://www.youtube.com/watch?v=resubN5NVEE
+|stream=afstar1
+|lrthread=https://tl.net/forum/bw-tournaments/533011-asl5-ro16-group-d
+|preview=https://tl.net/forum/brood-war/532966-asl5-ro16-preview-pt-2-zerg-territory#ksl-group-e
+|review=https://tl.net/forum/brood-war/533132-asl5-ro8-preview-pt-1-forget-bisu-here-comes-s
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Mini}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p |p1flag=kr|p1=Rain}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z |p1flag=kr|p1=Action}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p |p1flag=kr|p1=Movie}}
+}}
+{{Matchlist|id=B0q83wKPiO
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=http://www.youtube.com/watch?v=resubN5NVEE&t=27m48s|winner=2
+    |opponent1={{SoloOpponent|name=Rain|race=p}}
+    |opponent2={{SoloOpponent|name=Action|race=z}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=resubN5NVEE&t=27m48s|winner=2}}
+}}
+|M2={{Match
+    |vodgame1=http://www.youtube.com/watch?v=resubN5NVEE&t=53m49s|winner=2
+    |opponent1={{SoloOpponent|name=Movie|race=p}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Transistor|vod=http://www.youtube.com/watch?v=resubN5NVEE&t=53m49s|winner=2}}
+}}
+|M3={{Match
+    |vodgame1=http://www.youtube.com/watch?v=resubN5NVEE&t=1h18m18s|winner=2
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=resubN5NVEE&t=1h18m18s|winner=2}}
+}}
+|M4={{Match
+    |vodgame1=http://www.youtube.com/watch?v=resubN5NVEE&t=1h43m11s|winner=1
+    |opponent1={{SoloOpponent|name=Rain|race=p}}
+    |opponent2={{SoloOpponent|name=Movie|race=p}}
+    |map1={{Map|map=Third World|vod=http://www.youtube.com/watch?v=resubN5NVEE&t=1h43m11s|winner=1}}
+}}
+|M5={{Match
+    |vodgame1=http://www.youtube.com/watch?v=resubN5NVEE&t=2h4m48s|winner=2
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=Rain|race=p}}
+    |map1={{Map|map=Gladiator|vod=http://www.youtube.com/watch?v=resubN5NVEE&t=2h4m48s|winner=2}}
+}}
+}}
+{{Box|end}}
+
+===Elimination Bracket===
+{{box|padding=2em}}
+{{Bracket|Bracket/8|id=eicvIglxJP
+
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rain|race=p|score=3|win=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mind|race=t|score=2}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Larva|race=z|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Flash|race=t|score=2}}
+    |opponent2={{SoloOpponent|flag=kr|name=Snow|race=p|score=3|win=1}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rain|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=hero|race=z|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=P|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Snow|race=P|score=3|win=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rain|race=P|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Snow|race=p|score=1}}
+}}
+<!-- Third Place Match -->
+|RxMTP={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=Z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mini|race=p|score=2}}
+}}
+}}
+{{box|end}}
+
+==Racial Distribution==
+{{RaceDist|title=Round&nbsp;of&nbsp;24|protoss=11|terran=8|zerg=9|first=1}}
+{{RaceDist|title=Round&nbsp;of&nbsp;16|protoss=7|terran=2|zerg=7}}
+{{RaceDist|title=Quarterfinals|protoss=4|terran=2|zerg=2|nyd=0}}
+{{RaceDist|title=Semifinals|protoss=3|zerg=1}}
+{{RaceDist|title=Finals|protoss=2|zerg=|nyd=00}}
+{{RaceDist|title=Winner|protoss=1|zerg=|nyd=0|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+Live broadcasts:
+* {{Flag|southkorea}} [http://play.afreeca.com/afstar1 Afreeca.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish Tasteless and Artosis (RaPiD sub) Afreeca.com]
+* {{Flag|usuk}} [https://www.youtube.com/channel/UCK5eBtuoj_HkdXKHNmBLAXg Tasteless and Artosis Youtube.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish2 Ty2 Afreeca.com]
+
+===VODs===
+*[https://www.sc2links.com/tournament/?match=533 Spoiler-free VODs on SC2Links.com]
+
+==Gallery==
+{{col}}
+{{#ev:youtube|H7pCSwuH0NI|356}}
+{{col-break}}
+{{#ev:youtube|GcH_Fm5HA-g|356}}
+{{endCol}}
+
+==References==
+{{Reflist}}
+
+[[Category:Post-KeSPA Tournaments]]

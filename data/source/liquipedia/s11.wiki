@@ -1,0 +1,930 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 11}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11
+|name2=Qualifiers
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|This=1}}
+
+{{Infobox league
+|name=ASL Season 11
+|tickername=ASL Season 11
+|image=ASL11.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6], [https://www.lg.com/us/gaming-monitors LG Ultragear]
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=80,000,000
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2021-03-28
+|edate=2021-06-06
+|patch=
+|epatch=
+|edition=11
+|afreeca=afstar1
+|idfirst=Larva  |racefirst=z  |flagfirst=kr
+|idsecond=Mini |racesecond=p |flagsecond=kr
+|idthird=hero  |racethird=z |flagthird=kr
+|idfourth=ZerO |racefourth=z |flagfourth=kr
+|player_number=28
+|protoss_number=7
+|terran_number=12
+|zerg_number=9
+|random_number=
+|map1=Polaris Rhapsody
+|map2=Fighting Spirit
+|map3=Eclipse
+|map4=Polypoid
+|map5=Ascension
+|map6=Hidden Track
+|map7=Ultimate Stream
+|previous=AfreecaTV_StarCraft_League_Remastered/10{{!}}ASL Season 10
+|next=AfreecaTV_StarCraft_League_Remastered/12{{!}}ASL Season 12
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League Remastered Season 11''' ('''ASL Season 11'''), is an offline tournament organized and broadcast live on [[AfreecaTV]].<ref>[https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C11 Afreeca Starleague Season 11]</ref>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=Ed6FfcHsBvs</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[2020 AfreecaTV StarCraft League Remastered Season 10|ASL Season 10]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals: {{abbr/Bo5}}
+** Semi-Finals & Finals: {{abbr/Bo7}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[2020 AfreecaTV StarCraft League Remastered Season 10|Season 10]] (3)
+|p1=ZerO
+|p2=Soma
+|p3=Flash |p3race=t |p3dq=true |p3note=1
+|p4=Larva |p4link=Larva (Player) |p4race=z |p4flag=kr
+}}
+|{{ParticipantSection|title=From [[2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Wild Card|Wild Card Qualifier]] (1)
+|p1=Rush |p1note=1
+}}
+|{{ParticipantSection|title=From [[2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 1|Online Qualifier 1]] (12)
+|p1=Bisu
+|p2=BeSt
+|p3=sSak
+|p4=Ss1nz
+|p5=Sharp
+|p6=Shuttle |p6link=Shuttle (Player)
+|p7=ggaemo
+|p8=SnOw
+|p9=Shine
+|p10=sOrry
+|p11=Action
+|p12=Light
+}}
+|{{ParticipantSection|title=From [[2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 2|Online Qualifier 2]] (6)
+|p1=PianO
+|p2=EffOrt
+|p3=Mini
+|p4=JyJ
+|p5=Mong
+|p6=hani |p6race=t |p6flag=kr
+}}
+|{{ParticipantSection|title=From [[2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 3|Online Qualifier 3]] (6)
+|p1=YSC
+|p2=Sexy
+|p3=MIsO
+|p4=Scan
+|p5=hero
+|p6=BarrackS
+}}
+}}
+{{note|1|Flash was unable to participate due to injury. Rush won the Ro16 seed vacated by Flash via [[2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Wild Card|Wild Card Qualifier]]}}
+
+===Prize Pool===
+{{prize pool start|localcurrency=KRW |disable_teams=true}}
+{{prize pool slot|place=1|localprize=30000000
+|Larva (Player){{!}}Larva |flag1=kr |race1=z |lastvs1=Mini |lastscore1=4 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr
+}}
+{{prize pool slot|place=2|localprize=10000000
+|Mini |flag1=kr |race1=p |lastvs1=Larva (Player){{!}}Larva|lastscore1=3 |lastvsscore1=4 |lastvsrace1=z |lastvsflag1=kr
+}}
+{{prize pool slot|place=3|localprize=5000000
+|hero |flag1=kr |race1=z |lastvs1=ZerO |lastscore1=3 |lastvsscore1=2 |lastvsrace1=z |lastvsflag1=kr |date1=2021-06-01
+}}
+{{prize pool slot|place=4|localprize=3000000
+|ZerO |flag1=kr |race1=z |lastvs1=hero |lastscore1=2 |lastvsscore1=3 |lastvsrace1=z |lastvsflag1=kr |date1=2021-06-01
+}}
+{{prize pool slot|place=5-8|localprize=2000000
+|BeSt |flag1=kr |race1=p |lastvs1=Mini |lastscore1=0 |lastvsscore1=3 |lastvsrace1=p |lastvsflag1=kr |date1=2021-05-09
+|JyJ |flag2=kr |race2=t |lastvs2=ZerO |lastscore2=0 |lastvsscore2=3 |lastvsrace2=z |lastvsflag2=kr |date2=2021-05-11
+|SnOw |flag3=kr |race3=p |lastvs3=hero |lastscore3=0 |lastvsscore3=3 |lastvsrace3=z |lastvsflag3=kr |date3=2021-05-16
+|Rush |flag4=kr |race4=t |lastvs4=Larva (Player){{!}}Larva |lastscore4=2 |lastvsscore4=3 |lastvsrace4=z |lastvsflag4=kr |date4=2021-05-18
+}}
+{{prize pool slot|place=9-12|localprize=1500000
+|Shuttle |flag1=kr |race1=p |wdl1=1-2 |date1=2021-04-25 |page1=Shuttle (Player)
+|Sharp   |flag2=kr |race2=t |wdl2=1-2 |date2=2021-04-27
+|Bisu |flag3=kr |race3=p |wdl3=1-2 |date3=2021-05-02
+|Light |flag4=kr |race4=t |wdl4=1-2 |date4=2021-05-04
+}}
+{{prize pool slot|place=13-16|localprize=1500000
+|Mong |flag1=kr |race1=t |wdl1=0-2 |date1=2021-04-25
+|Soma |flag2=kr |race2=z |wdl2=0-2 |date2=2021-04-27
+|EffOrt |flag3=kr |race3=z |wdl3=0-2 |date3=2021-05-02
+|sOrry |flag4=kr |race4=t |wdl4=0-2 |date4=2021-05-04
+}}
+{{prize pool slot|place=17-22|localprize=1000000
+|Ss1nz  |flag1=kr |race1=p |wdl1=1-2 |date1=2021-03-28
+|Shine  |flag2=kr |race2=z |wdl2=1-2 |date2=2021-03-30
+|Action |flag3=kr |race3=z |wdl3=1-2 |date3=2021-04-04
+|sSak   |flag4=kr |race4=t |wdl4=1-2 |date4=2021-04-06
+|PianO	|flag5=kr |race5=t |wdl5=1-2 |date5=2021-04-11
+|MIsO |flag6=kr |race6=z |wdl6=1-2 |date6=2021-04-13
+}}
+{{prize pool slot|place=23-28|localprize=1000000
+|BarrackS |flag1=kr |race1=t |wdl1=0-2 |date1=2021-03-28
+|YSC      |flag2=kr |race2=p |wdl2=0-2 |date2=2021-03-30
+|Sexy     |flag3=kr |race3=t |wdl3=0-2 |date3=2021-04-04
+|Scan     |flag4=kr |race4=t |wdl4=0-2 |date4=2021-04-06
+|ggaemo   |flag5=kr |race5=z |wdl5=0-2 |date5=2021-04-11
+|hani |flag6=kr |race6=t |wdl6=0-2 |date6=2021-04-13
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Maps===
+{{MapPoolTable}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=Starcast TV English Commentator
+|b1=Nyoken
+|b2=Scan
+}}
+{{BroadcasterCard
+|position=Spanish Commentator
+|b1=Deathfate  |b1name=Juan Bayona |b1flag=es
+|b2=Remastr TV |b2name=Jan S. |b2flag=pe
+}}
+{{box|end}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|title=Group A|width=
+|date=March 28, 2021 - 19:00 {{Abbr/KST}}
+|sdate=March 28, 2021 - 19:00 {{Abbr/KST}}
+|edate=March 28, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|lrthread=https://tl.net/forum/bw-tournaments/571234-asl11-ro24-group-a
+|preview=https://tl.net/forum/brood-war/571233-asl11-ro24-preview-pt-1-the-return
+|review=
+|vod=https://www.youtube.com/watch?v=txIZyRiGZOA
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/70458823
+|diff=false
+|show_g=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=EffOrt |temp_tie1=4
+|bg2=down |p2=Ss1nz |temp_tie2=3
+|bg3=up |p3=hero |temp_tie3=2
+|bg4=down |p4=BarrackS |temp_tie4=1
+}}
+{{Matchlist|id=jVnkEoZrWg
+|attached=true|collapsed=true|store=true|title=Group A Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=EffOrt}}
+    |opponent2={{SoloOpponent|name=Ss1nz}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=hero}}
+    |opponent2={{SoloOpponent|name=BarrackS}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ultimate Stream</div>
+<div style=" text-align: center;font-size:85%">Ultimate Stream<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=EffOrt}}
+    |opponent2={{SoloOpponent|name=hero}}
+    |map1={{Map|map=Ascension|winner=2}}
+}}
+|M4={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Hidden Track</div>
+<div style=" text-align: center;font-size:85%">Ascension<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=Ss1nz}}
+    |opponent2={{SoloOpponent|name=BarrackS}}
+    |map1={{Map|map=Ultimate Stream|winner=1}}
+}}
+|M5={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Fighting Spirit</div>
+<div style=" text-align: center;font-size:85%">Polaris Rhapsody<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=EffOrt}}
+    |opponent2={{SoloOpponent|name=Ss1nz}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|title=Group B|width=
+|date=March 30, 2021 - 19:00 {{Abbr/KST}}
+|sdate=March 30, 2021 - 19:00 {{Abbr/KST}}
+|edate=March 30, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|lrthread=https://tl.net/forum/bw-tournaments/571276-asl11-ro24-group-b
+|preview=https://tl.net/forum/brood-war/571233-asl11-ro24-preview-pt-1-the-return
+|review=
+|vod=https://www.youtube.com/watch?v=xvAzOkYX-CY
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/70541327
+|diff=false
+|show_g=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=Light |temp_tie1=4
+|bg2=down |p2=YSC |temp_tie2=3
+|bg3=down |p3=Shine |temp_tie3=2
+|bg4=up |p4=sOrry |temp_tie4=1
+}}
+{{Matchlist|id=ocVkoGuwCu
+|attached=true|collapsed=true|store=true|title=Group B Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Light}}
+    |opponent2={{SoloOpponent|name=YSC}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Shine}}
+    |opponent2={{SoloOpponent|name=sOrry}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M3={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ascension</div>
+<div style=" text-align: center;font-size:85%">Ultimate Stream<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=Light}}
+    |opponent2={{SoloOpponent|name=sOrry}}
+    |map1={{Map|map=Hidden Track|winner=2}}
+}}
+|M4={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Hidden Track</div>
+<div style=" text-align: center;font-size:85%">Ultimate Stream<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=YSC}}
+    |opponent2={{SoloOpponent|name=Shine}}
+    |map1={{Map|map=Ascension|winner=2}}
+}}
+|M5={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Fighting Spirit</div>
+<div style=" text-align: center;font-size:85%">Polaris Rhapsody<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=Light}}
+    |opponent2={{SoloOpponent|name=Shine}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|title=Group C|width=
+|date=April 4, 2021 - 19:00 {{Abbr/KST}}
+|sdate=April 4, 2021 - 19:00 {{Abbr/KST}}
+|edate=April 4, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|lrthread=https://tl.net/forum/bw-tournaments/571536-asl11-ro24-group-c
+|preview=https://tl.net/forum/brood-war/571535-asl11-ro24-preview-pt-2-bad-luck
+|review=
+|vod=https://www.youtube.com/watch?v=REaSebm6AY8
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/70766919
+|diff=false
+|show_g=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up|p1=BeSt |temp_tie1=4
+|bg2=down |p2=Sexy |temp_tie2=3
+|bg3=down |p3=Action |temp_tie3=2
+|bg4=up |p4=JyJ |temp_tie4=1
+}}
+{{Matchlist|id=TjxbMuACyJ
+|attached=true|collapsed=true|store=true|title=Group C Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BeSt}}
+    |opponent2={{SoloOpponent|name=Sexy}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Action}}
+    |opponent2={{SoloOpponent|name=JyJ}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M3={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Hidden Track</div>
+<div style=" text-align: center;font-size:85%">Ascension<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=BeSt}}
+    |opponent2={{SoloOpponent|name=JyJ}}
+    |map1={{Map|map=Ultimate Stream|winner=2}}
+}}
+|M4={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ultimate Stream</div>
+<div style=" text-align: center;font-size:85%">Hidden Track<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=Sexy}}
+    |opponent2={{SoloOpponent|name=Action}}
+    |map1={{Map|map=Ascension|winner=2}}
+}}
+|M5={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Polaris Rhapsody</div>
+<div style=" text-align: center;font-size:85%">Fighting Spirit<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=BeSt}}
+    |opponent2={{SoloOpponent|name=Action}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|title=Group D|width=
+|date=April 6, 2021 - 19:00 {{Abbr/KST}}
+|sdate=April 6, 2021 - 19:00 {{Abbr/KST}}
+|edate=April 6, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|lrthread=https://tl.net/forum/bw-tournaments/571596-asl11-ro24-group-d
+|preview=https://tl.net/forum/brood-war/571535-asl11-ro24-preview-pt-2-bad-luck
+|review=
+|vod=https://www.youtube.com/watch?v=SwMo5VSF_Nc
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/70851490
+|diff=false
+|show_g=false
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=SnOw |temp_tie1=4
+|bg2=down |p2=Scan |temp_tie2=3
+|bg3=up |p3=Shuttle |temp_tie3=2
+|bg4=down |p4=sSak |temp_tie4=1
+}}
+{{Matchlist|id=TxC6CVKC2d
+|attached=true|collapsed=true|store=true|title=Group D Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=SnOw}}
+    |opponent2={{SoloOpponent|name=Scan}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Shuttle}}
+    |opponent2={{SoloOpponent|name=sSak}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ascension</div>
+<div style=" text-align: center;font-size:85%">Ultimate Stream<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=SnOw}}
+    |opponent2={{SoloOpponent|name=Shuttle}}
+    |map1={{Map|map=Hidden Track|winner=1}}
+}}
+|M4={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ultimate Stream</div>
+<div style=" text-align: center;font-size:85%">Hidden Track<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=Scan}}
+    |opponent2={{SoloOpponent|name=sSak}}
+    |map1={{Map|map=Ascension|winner=2}}
+}}
+|M5={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Fighting Spirit</div>
+<div style=" text-align: center;font-size:85%">Polaris Rhapsody<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=Shuttle}}
+    |opponent2={{SoloOpponent|name=sSak}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|title=Group E|width=
+|date=April 11, 2021 - 19:00 {{Abbr/KST}}
+|sdate=April 11, 2021 - 19:00 {{Abbr/KST}}
+|edate=April 11, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|lrthread=https://tl.net/forum/bw-tournaments/571800-asl11-ro24-group-e
+|preview=https://tl.net/forum/brood-war/571783-asl11-ro24-preview-pt-3contenders-and-streamers
+|review=
+|vod=https://www.youtube.com/watch?v=z-Ob0wjglNs
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/71065435
+|diff=false
+|show_g=false
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=Sharp |temp_tie1=4
+|bg2=down |p2=ggaemo |temp_tie2=3
+|bg3=up |p3=Bisu |temp_tie3=2
+|bg4=down |p4=PianO |temp_tie4=1
+}}
+{{Matchlist|id=UviExgCxYZ
+|attached=true|collapsed=true|store=true|title=Group E Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sharp}}
+    |opponent2={{SoloOpponent|name=ggaemo}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Bisu}}
+    |opponent2={{SoloOpponent|name=PianO}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ascension</div>
+<div style=" text-align: center;font-size:85%">Ultimate Stream<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=Sharp}}
+    |opponent2={{SoloOpponent|name=Bisu}}
+    |map1={{Map|map=Hidden Track|winner=1}}
+}}
+|M4={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ascension</div>
+<div style=" text-align: center;font-size:85%">Ultimate Stream<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=ggaemo}}
+    |opponent2={{SoloOpponent|name=PianO}}
+    |map1={{Map|map=Hidden Track|winner=2}}
+}}
+|M5={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Fighting Spirit</div>
+<div style=" text-align: center;font-size:85%">Polaris Rhapsody<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=Bisu}}
+    |opponent2={{SoloOpponent|name=PianO}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|title=Group F|width=
+|date=April 13, 2021 - 19:00 {{Abbr/KST}}
+|sdate=April 13, 2021 - 19:00 {{Abbr/KST}}
+|edate=April 13, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|lrthread=https://tl.net/forum/bw-tournaments/571888-asl11-ro24-group-f
+|preview=https://tl.net/forum/brood-war/571783-asl11-ro24-preview-pt-3contenders-and-streamers
+|review=
+|vod=https://www.youtube.com/watch?v=yyMVNf5m0rc
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/71147733
+|diff=false
+|show_g=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=Mini |temp_tie1=4
+|bg2=down |p2=hani |temp_tie2=3
+|bg3=up |p3=Mong |temp_tie3=2
+|bg4=down |p4=MIsO |temp_tie4=1
+}}
+{{Matchlist|id=J4DLJI0w8a
+|attached=true|collapsed=true|store=true|title=Group F Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mini}}
+    |opponent2={{SoloOpponent|name=hani}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mong}}
+    |opponent2={{SoloOpponent|name=MIsO}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M3={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Hidden Track</div>
+<div style=" text-align: center;font-size:85%">Ascension<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=Mini}}
+    |opponent2={{SoloOpponent|name=Mong}}
+    |map1={{Map|map=Ultimate Stream|winner=2}}
+}}
+|M4={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Ultimate Stream</div>
+<div style=" text-align: center;font-size:85%">Hidden Track<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=2
+    |opponent1={{SoloOpponent|name=hani}}
+    |opponent2={{SoloOpponent|name=MIsO}}
+    |map1={{Map|map=Ascension|winner=2}}
+}}
+|M5={{Match
+    |comment=<div style=" text-align: center;font-size:85%">BAN</div>
+<div style=" text-align: center;font-size:85%"><i class="fas fa-times cinnabar-text" style=" text-align: left"></i>Polypoid</div>
+<div style=" text-align: center;font-size:85%">Polaris Rhapsody<i class="fas fa-times cinnabar-text" style=" text-align: right"></i></div>|winner=1
+    |opponent1={{SoloOpponent|name=Mini}}
+    |opponent2={{SoloOpponent|name=MIsO}}
+    |map1={{Map|map=Fighting Spirit|winner=1}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Round of 16 Group Stage===
+''A group selection ceremony was held on {{countdown|date=April 18, 2021 - 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}. [https://vod.afreecatv.com/PLAYER/STATION/71360733 VOD]''
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|title=Group A|width=
+|date=April 25, 2021 - 19:00 {{Abbr/KST}}
+|sdate=April 25, 2021 - 19:00 {{Abbr/KST}}
+|edate=April 25, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/572316-asl11-ro16-group-a
+|preview=https://tl.net/forum/brood-war/572315-asl11-ro16-preview-pt1-champions-call
+|review=
+|vod=https://www.youtube.com/watch?v=CgLwTMAgvBU
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/71661400
+|show_g=true
+|diff=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up|p1=ZerO    |temp_tie1=4
+|bg2=down |p2=Mong    |temp_tie2=3
+|bg3=down |p3=Shuttle |temp_tie3=2
+|bg4=up |p4=Mini    |temp_tie4=1
+}}
+{{Matchlist|id=7DeMn3exfp
+|attached=true|collapsed=true|store=true|title=Group A Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=ZerO}}
+    |opponent2={{SoloOpponent|name=Mong}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Shuttle}}
+    |opponent2={{SoloOpponent|name=Mini}}
+    |map1={{Map|map=Polypoid|winner=2}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=ZerO}}
+    |opponent2={{SoloOpponent|name=Mini}}
+    |map1={{Map|map=Polaris Rhapsody|winner=2}}
+    |map2={{Map|map=Ascension|winner=1}}
+    |map3={{Map|map=Ultimate Stream|winner=2}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mong}}
+    |opponent2={{SoloOpponent|name=Shuttle}}
+    |map1={{Map|map=Ascension|winner=1}}
+    |map2={{Map|map=Fighting Spirit|winner=2}}
+    |map3={{Map|map=Ultimate Stream|winner=2}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=ZerO}}
+    |opponent2={{SoloOpponent|name=Shuttle}}
+    |map1={{Map|map=Ultimate Stream|winner=2}}
+    |map2={{Map|map=Eclipse|winner=1}}
+    |map3={{Map|map=Fighting Spirit|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|title=Group B|width=
+|date=April 27, 2021 - 19:00 {{Abbr/KST}}
+|sdate=April 27, 2021 - 19:00 {{Abbr/KST}}
+|edate=April 27, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/572378-asl11-ro16-group-b
+|preview=https://tl.net/forum/brood-war/572315-asl11-ro16-preview-pt1-champions-call
+|review=
+|vod=https://www.youtube.com/watch?v=crsXiQXORls
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/71745006
+|show_g=true
+|diff=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=down |p1=Soma  |temp_tie1=4
+|bg2=up   |p2=JyJ   |temp_tie2=3
+|bg3=down |p3=Sharp |temp_tie3=2
+|bg4=up   |p4=BeSt  |temp_tie4=1
+}}
+{{Matchlist|id=Hm1YzTb3ow
+|attached=true|collapsed=true|store=true|title=Group B Matches
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Soma}}
+    |opponent2={{SoloOpponent|name=JyJ}}
+    |map1={{Map|map=Polypoid|winner=2}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Sharp}}
+    |opponent2={{SoloOpponent|name=BeSt}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=JyJ}}
+    |opponent2={{SoloOpponent|name=Sharp}}
+    |map1={{Map|map=Eclipse|winner=1}}
+    |map2={{Map|map=Fighting Spirit|winner=2}}
+    |map3={{Map|map=Polaris Rhapsody|winner=1}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Soma}}
+    |opponent2={{SoloOpponent|name=BeSt}}
+    |map1={{Map|map=Ascension|winner=2}}
+    |map2={{Map|map=Polaris Rhapsody|winner=2}}
+    |map3={{Map|map=Eclipse|winner=skip}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Sharp}}
+    |opponent2={{SoloOpponent|name=BeSt}}
+    |map1={{Map|map=Ascension|winner=1}}
+    |map2={{Map|map=Hidden Track|winner=2}}
+    |map3={{Map|map=Eclipse|winner=2}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|title=Group C|width=
+|date=May 2, 2021 - 19:00 {{Abbr/KST}}
+|sdate=May 2, 2021 - 19:00 {{Abbr/KST}}
+|edate=May 2, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/572516-asl11-ro16-group-c
+|preview=https://tl.net/forum/brood-war/572514-asl11-ro16-preview-pt2-high-class
+|review=
+|vod=https://www.youtube.com/watch?v=VegleLEYCDY
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/71957784
+|show_g=true
+|diff=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=Larva  |temp_tie1=4
+|bg2=down |p2=Bisu   |temp_tie2=3
+|bg3=down |p3=EffOrt |temp_tie3=2
+|bg4=up |p4=SnOw   |temp_tie4=1
+}}
+{{Matchlist|id=YWlBLlTEg9
+|attached=true|collapsed=true|store=true|title=Group C Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Larva}}
+    |opponent2={{SoloOpponent|name=Bisu}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=EffOrt}}
+    |opponent2={{SoloOpponent|name=SnOw}}
+    |map1={{Map|map=Polypoid|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Larva}}
+    |opponent2={{SoloOpponent|name=SnOw}}
+    |map1={{Map|map=Ascension|winner=2}}
+    |map2={{Map|map=Ultimate Stream|winner=1}}
+    |map3={{Map|map=Polaris Rhapsody|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Bisu}}
+    |opponent2={{SoloOpponent|name=EffOrt}}
+    |map1={{Map|map=Eclipse|winner=1}}
+    |map2={{Map|map=Polaris Rhapsody|winner=1}}
+    |map3={{Map|map=Fighting Spirit|winner=skip}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=SnOw}}
+    |opponent2={{SoloOpponent|name=Bisu}}
+    |map1={{Map|map=Hidden Track|winner=1}}
+    |map2={{Map|map=Polaris Rhapsody|winner=1}}
+    |map3={{Map|map=Ascension|winner=skip}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|title=Group D|width=
+|date=May 4, 2021 - 19:00 {{Abbr/KST}}
+|sdate=May 4, 2021 - 19:00 {{Abbr/KST}}
+|edate=May 4, 2021 - 20:00 {{Abbr/KST}}
+|finished=true
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/572557-asl11-ro16-group-d
+|preview=https://tl.net/forum/brood-war/572514-asl11-ro16-preview-pt2-high-class
+|review=
+|vod=https://www.youtube.com/watch?v=EQmT2Krataw
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/72040555
+|show_g=true
+|diff=false
+<!-- Standings will update automatically based on the results -->
+|pbg1=up |pbg2=up |pbg3=down |pbg4=down
+|bg1=up |p1=Rush  |temp_tie1=4
+|bg2=down |p2=sOrry |temp_tie2=3
+|bg3=up |p3=hero  |temp_tie3=2
+|bg4=down |p4=Light |temp_tie4=1
+}}
+{{Matchlist|id=6U5V8MKzPc
+|attached=true|collapsed=true|store=true|title=Group D Matches
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Rush}}
+    |opponent2={{SoloOpponent|name=sOrry}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=hero}}
+    |opponent2={{SoloOpponent|name=Light}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Rush}}
+    |opponent2={{SoloOpponent|name=hero}}
+    |map1={{Map|map=Hidden Track|winner=2}}
+    |map2={{Map|map=Fighting Spirit|winner=2}}
+    |map3={{Map|map=Ultimate Stream|winner=skip}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=sOrry}}
+    |opponent2={{SoloOpponent|name=Light}}
+    |map1={{Map|map=Hidden Track|winner=2}}
+    |map2={{Map|map=Polaris Rhapsody|winner=2}}
+    |map3={{Map|map=Eclipse|winner=skip}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Rush}}
+    |opponent2={{SoloOpponent|name=Light}}
+    |map1={{Map|map=Eclipse|winner=2}}
+    |map2={{Map|map=Fighting Spirit|winner=1}}
+    |map3={{Map|map=Hidden Track|winner=1}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Elimination Bracket===
+{{Bracket|Bracket/8|id=avecz4yVMA
+|R1M1header=Quarterfinals (Bo5)|R2M1header=Semifinals (Bo7)|R3M1header=Finals (Bo7)|RxMTPheader=3rd Place Match (Bo5)
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=BeSt|race=p|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=JyJ|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=ZerO|race=z|score=3|win=2}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=SnOw|race=p|score=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Larva|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rush|race=t|score=2}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=4|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=ZerO|race=z|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Larva|race=z|score=4|win=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=3}}
+    |opponent2={{SoloOpponent|flag=kr|name=Larva|race=z|score=4|win=1}}
+}}
+<!-- Third Place Match -->
+|RxMTP={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=ZerO|race=z|score=2}}
+    |opponent2={{SoloOpponent|flag=kr|name=hero|race=z|score=3|win=1}}
+}}
+}}
+<embedvideo service="youtube" dimensions="400">https://www.youtube.com/watch?v=a7gJ7ZCl9PA</embedvideo>
+
+==Racial distribution==
+{{RaceDist|title=Round of 24   |protoss=7|terran=11|zerg=6|first=1}}
+{{RaceDist|title=Round of 16   |protoss=5|terran=6|zerg=5}}
+{{RaceDist|title=Quarterfinals |protoss=3|terran=2|zerg=3}}
+{{RaceDist|title=Semifinals    |protoss=1|terran=|zerg=3}}
+{{RaceDist|title=Finals        |protoss=1|terran=|zerg=1}}
+{{RaceDist|title=Winner        |protoss=|terran=|zerg=1|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean] at Afreecatv.com
+* {{Flag|usuk}} [http://play.afreecatv.com/dth03119 Livestream in English] at Afreecatv.com
+* {{Flag|esmx}} [http://play.afreecatv.com/cruiser0929 Livestream in Spanish] at Afreecatv.com
+
+===VODS===
+* {{Flag|kr}} [https://bj.afreecatv.com/afstar1/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|usuk}} [https://bj.afreecatv.com/dth03119/vods Spoiler-free in English] at Afreecatv.com
+* {{Flag|esmx}} [http://bj.afreecatv.com/cruiser0929/vods Spoiler-free in Spanish] at Afreecatv.com
+* {{Flag|kr}} [https://www.sc2links.com/tournament/?match=689 Spoiler-free VODs] at SC2Links.com
+* {{Flag|usuk}} [https://sc2casts.com/event1238-2021-Afreeca-Starleague-S11 Spoiler-free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/69310542 afreecatv.com - ASL Season 11 announcement]
+*{{Flag|us}} [https://tl.net/forum/brood-war/570094-asl11-set-to-start-28-03 tl.net - ASL Season 11 announcement (discussion)]
+
+[[Category:Post-KeSPA Tournaments]]

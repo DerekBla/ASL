@@ -1,0 +1,932 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 15}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=AfreecaTV StarCraft League Remastered/15
+|name2=Qualifiers
+|link2=AfreecaTV StarCraft League Remastered/15/Qualifiers
+|name3=Statistics
+|link3=AfreecaTV StarCraft League Remastered/15/Statistics
+|This=1}}
+{{Infobox league
+|name=ASL Season 15
+|tickername=ASL Season 15
+|image=Afreecatv starcraft league remastered.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6]
+|server=South Korea
+|type=Offline
+|localcurrency=KRW
+|prizepool=78,000,000
+|country=South Korea
+|city=Seoul
+|venue=Free Rick Up Studio (Round of 24 ~ Round of 16)<br>Jamsil Vita500 Colosseum (Quarterfinals~Finals)
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2023-02-28
+|edate=2023-04-28
+|patch=
+|epatch=
+|edition=15
+|afreeca=afstar1
+|idfirst=  |racefirst=  |flagfirst=kr
+|idsecond= |racesecond= |flagsecond=kr
+|idthird=  |racethird=  |flagthird=kr
+|idfourth= |racefourth= |flagfourth=kr
+|player_number=28
+|protoss_number=7
+|terran_number=12
+|zerg_number=9
+|map1=Neo Sylphid
+|map2=Dark Origin 
+|map3=Vermeer SE
+|map4=Nemesis (ASL)
+|map5=76 
+|map6=Retro 
+|map7=New Heartbreak Ridge 
+|previous=AfreecaTV StarCraft League Remastered/14{{!}}ASL Season 14
+|next=AfreecaTV StarCraft League Remastered/16{{!}}ASL Season 16
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League Remastered Season 15''' ('''ASL Season 15'''), is an offline tournament organized and broadcast live on [[AfreecaTV]].
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=c8owspb8Dnc</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[AfreecaTV StarCraft League Remastered/14|ASL Season 14]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}}
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals: {{abbr/Bo5}}
+** Semi-Finals & Finals: {{abbr/Bo7}}
+
+===Participants===
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Ro16 Seeds from [[AfreecaTV StarCraft League Remastered/14|ASL Season 14]]
+|Rush
+|RoyaL 
+|Soulkey
+|hero
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/15/Qualifiers/Online 1|Online Qualifier 1]]
+|Action 
+|Sharp
+|JyJ 
+|Best
+|BishOp
+|Light
+|ZerO
+|Mini
+|Snow
+|Bisu
+|Ample
+|soma
+}}
+|{{ParticipantSection|title=From [[AfreecaTV StarCraft League Remastered/15/Qualifiers/Online 2|Online Qualifier 2]]
+|sSak
+|HyuN
+|Ruin
+|Shuttle|p4link=Shuttle (Player)
+|HiyA 
+|Mong
+|Shine
+|Stork
+|Mind 
+|Jaedong 
+|BarrackS
+|Sacsri 
+}}
+}}
+
+===Prize Pool===
+{{SoloPrizePool|localcurrency=KRW
+|{{Slot|localprize=30000000}}
+|{{Slot|localprize=10000000}}
+|{{Slot|place=3-4|localprize=3000000}}
+|{{Slot|place=5-8|localprize=2000000}}
+|{{Slot|place=9-12|localprize=1500000}}
+|{{Slot|place=13-16|localprize=1500000}}
+|{{Slot|place=17-22|localprize=1000000}}
+|{{Slot|place=23-28|localprize=1000000}}
+}}
+
+===Maps===
+{{MapPoolTable}}
+
+===Talents===
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{box|break}}
+{{BroadcasterCard
+|position=Tastosis English Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{BroadcasterCard
+|position=StarCast TV English Commentator
+|b1=Nyoken
+|b2=eOnzErG
+}}
+{{BroadcasterCard
+|position=StarCast TV Spanish Commentator
+|b1=Yu
+|b2=Dipa |b2name=Julián Di Pace Herrera |b2flag=ar
+|b3=Remastr TV |b3name=Jan S. |b3flag=pe
+}}
+{{box|end}}
+
+==Results==
+==={{Stage|Round of 24}}===
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL15R24GA|show_g=false
+|title=Group A
+|sdate=2023-02-28 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/607809-asl15-ro24-preview-welcome-back
+|lrthread=https://tl.net/forum/bw-tournaments/607810-asl15-ro24-group-a
+|vod=https://www.youtube.com/watch?v=L_7WW-oqR8s
+|vod1=https://vod.afreecatv.com/player/98957324
+|vod2=https://www.youtube.com/watch?v=bbc-zUrx8Yg
+|vod3=https://www.youtube.com/watch?v=X25WNj_jR7E
+|p1=Mini|temp_tie1=0.4
+|p2=HiyA|temp_tie2=0.3
+|p3=Action|temp_tie3=0.2
+|p4=sSak|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R24GA|attached=true|title=Group A Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2023-02-28 19:20 {{Abbr/KST}} 
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|HiyA}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M2={{Match
+    |date=2023-02-28 19:45 {{Abbr/KST}} 
+    |opponent1={{1Opponent|Action}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M3={{Match
+    |date=2023-02-28 20:15 {{Abbr/KST}} 
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+}}
+|M4={{Match
+    |date=2023-02-28 20:35 {{Abbr/KST}} 
+    |opponent1={{1Opponent|HiyA}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+}}
+|M5={{Match
+    |date=2023-02-28 21:05 {{Abbr/KST}} 
+    |opponent1={{1Opponent|Mini}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Retro|winner=2}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL15R24GB|show_g=false
+|title=Group B
+|sdate=
+|date=2023-03-01 19:00 {{Abbr/KST}}
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/607809-asl15-ro24-preview-welcome-back
+|lrthread=https://tl.net/forum/bw-tournaments/607875-asl15-ro24-group-b
+|vod=https://www.youtube.com/watch?v=in919xzb7s0
+|vod1=https://vod.afreecatv.com/player/99006749
+|vod2=https://www.youtube.com/watch?v=3n7mdD4o6jA
+|vod3=https://www.youtube.com/watch?v=sg7El-3d1E4
+|p1=Bisu|temp_tie1=0.4
+|p2=HyuN|temp_tie2=0.3
+|p3=Sharp|temp_tie3=0.2
+|p4=BarrackS|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R24GB|attached=true|title=Group B Matches|collapsed=true
+|M1={{Match
+    |date=2023-03-01 19:15 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|HyuN}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M2={{Match
+    |date=2023-03-01 19:35 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Sharp}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=2}}
+}}
+|M3={{Match
+    |date=2023-03-01 20:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Bisu}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Dark Origin|winner=1}}
+}}
+|M4={{Match
+    |date=2023-03-01 20:20 {{Abbr/KST}}  
+    |opponent1={{1Opponent|HyuN}}
+    |opponent2={{1Opponent|Sharp}}
+    |map1={{Map|map=Dark Origin|winner=1}}
+}}
+|M5={{Match
+    |date=2023-03-01 20:40 {{Abbr/KST}}  
+    |opponent1={{1Opponent|BarrackS}}
+    |opponent2={{1Opponent|HyuN}}
+    |map1={{Map|map=Vermeer|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL15R24GC|show_g=false
+|title=Group C
+|sdate=
+|date=2023-03-03 19:00 {{Abbr/KST}} 
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/607809-asl15-ro24-preview-welcome-back
+|lrthread=https://tl.net/forum/bw-tournaments/608014-asl15-ro24-group-c
+|vod=https://www.youtube.com/watch?v=thbKw6As4C8
+|vod1=https://vod.afreecatv.com/player/99092689
+|vod2=https://www.youtube.com/watch?v=bEM3MoTrups
+|vod3=https://www.youtube.com/watch?v=ML4wOotSy_Q
+|p1=soma|temp_tie1=0.4
+|p2=Ample|temp_tie2=0.3
+|p3=Best|temp_tie3=0.2
+|p4=Mind|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R24GC|attached=true|title=Group C Matches|collapsed=true
+|M1={{Match
+    |date=2023-03-03 19:15 {{Abbr/KST}}  
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|Ample}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=2}}
+}}
+|M2={{Match
+    |date=2023-03-03 19:40 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Mind}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M3={{Match
+    |date=2023-03-03 20:10 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Ample}}
+    |opponent2={{1Opponent|Best}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+}}
+|M4={{Match
+    |date=2023-03-03 20:45 {{Abbr/KST}}  
+    |opponent1={{1Opponent|soma}}
+    |opponent2={{1Opponent|Mind}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+}}
+|M5={{Match
+    |date=2023-03-03 21:05 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Ample}}
+    |opponent2={{1Opponent|Mind}}
+    |map1={{Map|map=Vermeer|winner=2}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL15R24GD|show_g=false
+|title=Group D
+|date=2023-03-05 19:00 {{Abbr/KST}} 
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/607809-asl15-ro24-preview-welcome-back
+|lrthread=https://tl.net/forum/bw-tournaments/608108-asl15-ro24-group-d
+|vod=https://www.youtube.com/watch?v=2r9k0fnE3Hs
+|vod1=https://vod.afreecatv.com/player/99180240
+|vod2=https://www.youtube.com/watch?v=1YS21Ivy3Ac
+|vod3=https://www.youtube.com/watch?v=-yFMEbzI2I8
+|p1=Snow|temp_tie1=0.4
+|p2=BishOp|temp_tie2=0.3
+|p3=Shuttle|temp_tie3=0.2
+|p4=Jaedong|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R24GD|attached=true|title=Group D Matches|collapsed=true
+|M1={{Match
+    |date=2023-03-05 19:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Snow}}
+    |opponent2={{1Opponent|BishOp}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M2={{Match
+    |date=2023-03-05 19:30 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Shuttle}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=2}}
+}}
+|M3={{Match 
+    |date=2023-03-05 20:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Snow}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Dark Origin|winner=1}}
+}}
+|M4={{Match
+    |date=2023-03-05 20:30 {{Abbr/KST}}  
+    |opponent1={{1Opponent|BishOp}}
+    |opponent2={{1Opponent|Shuttle}}
+    |map1={{Map|map=76|winner=1}}
+}}
+|M5={{Match
+    |date=2023-03-05 21:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Jaedong}}
+    |opponent2={{1Opponent|BishOp}}
+    |map1={{Map|map=Retro|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|id=ASL15R24GE|show_g=false
+|title=Group E
+|sdate=
+|date=2023-03-06 19:00 {{Abbr/KST}} 
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/607809-asl15-ro24-preview-welcome-back
+|lrthread=https://tl.net/forum/bw-tournaments/608159-asl15-ro24-group-e
+|vod=https://www.youtube.com/watch?v=t4ed2cFyhjY
+|vod1=https://vod.afreecatv.com/player/99219869
+|vod2=https://www.youtube.com/watch?v=CKNB_8hu4K0
+|vod3=https://www.youtube.com/watch?v=kBkHOLddHwc
+|p1=ZerO|temp_tie1=0.4
+|p2=Ruin|temp_tie2=0.3
+|p3=Shine|temp_tie3=0.2
+|p4=Mong|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R24GE|attached=true|title=Group E Matches|collapsed=true
+|M1={{Match
+    |date=2023-03-06 19:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Ruin}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M2={{Match
+    |date=2023-03-06 19:30 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M3={{Match
+    |date=2023-03-06 20:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|Shine}}
+    |map1={{Map|map=Nemesis (ASL)|winner=1}}
+}}
+|M4={{Match
+    |date=2023-03-06 20:30 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Ruin}}
+    |opponent2={{1Opponent|Mong}}
+    |map1={{Map|map=Dark Origin|winner=1}}
+}}
+|M5={{Match
+    |date=2023-03-06 21:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|Ruin}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|id=ASL15R24GF|show_g=false
+|title=Group F
+|sdate=
+|date=2023-03-08 19:00 {{Abbr/KST}} 
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/607809-asl15-ro24-preview-welcome-back
+|lrthread=https://tl.net/forum/bw-tournaments/608202-asl15-ro24-group-f
+|vod=https://www.youtube.com/watch?v=cK1Syh7-kL0
+|vod1=https://vod.afreecatv.com/player/99300797
+|vod2=https://www.youtube.com/watch?v=6Rn2yMeLu0c
+|vod3=https://www.youtube.com/watch?v=XnM_yOLA49E
+|p1=Light|temp_tie1=0.4
+|p2=Sacsri|temp_tie2=0.3
+|p3=JyJ|temp_tie3=0.2
+|p4=Stork|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R24GF|attached=true|title=Group F Matches|collapsed=true
+|M1={{Match
+    |date=2023-03-08 19:00 {{Abbr/KST}} 
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Sacsri}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=1}}
+}}
+|M2={{Match
+    |date=2023-03-08 19:30 {{Abbr/KST}}  
+    |opponent1={{1Opponent|JyJ}}
+    |opponent2={{1Opponent|Stork}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=2}}
+}}
+|M3={{Match
+    |date=2023-03-08 20:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Stork}}
+    |map1={{Map|map=Dark Origin|winner=1}}
+}}
+|M4={{Match
+    |date=2023-03-08 20:30 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Sacsri}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Nemesis (ASL)|winner=2}}
+}}
+|M5={{Match
+    |date=2023-03-08 21:00 {{Abbr/KST}}  
+    |opponent1={{1Opponent|Stork}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Round of 16}}===
+''A group selection ceremony will be held on {{countdown|date=2023-03-15 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}.''
+[https://vod.afreecatv.com/player/99589491 VOD]
+{{Toggle group start|state=show}}
+{{Box|start|padding=2em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|id=ASL15R16GA
+|title=Group A
+|sdate=
+|date=2023-03-22 19:00 {{Abbr/KST}}
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/608843-asl15-ro16-preview-pt1-whirlwind
+|lrthread=https://tl.net/forum/bw-tournaments/608890-asl15-ro16-group-a
+|vod=https://www.youtube.com/watch?v=EUxSdyc2ie0
+|vod1=https://vod.afreecatv.com/player/99876974
+|vod2=https://www.youtube.com/watch?v=XMBcDcKWYC4
+|vod3=https://www.youtube.com/watch?v=kgpWjwadl1Y
+|pbg3=down
+|p1=RoyaL|temp_tie1=0.4
+|p2=Shine|temp_tie2=0.3
+|p3=Jaedong|temp_tie3=0.2
+|p4=Action|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R16GA|attached=true|title=Group A Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2023-03-22 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|Shine}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+|M2={{Match
+    |date=2023-03-22 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Jaedong}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M3={{Match|bestof=3
+    |date=2023-03-22 19:55 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|Jaedong}}
+    |map1={{Map|map=Nemesis (ASL)|winner=1}}
+    |map2={{Map|map=Retro|winner=2}}
+    |map3={{Map|map=Dark Origin|winner=2}}
+    |veto1=Heartbreak Ridge|vetoplayer1=1
+    |veto2=Vermeer|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2023-03-22 20:50 {{Abbr/KST}}
+    |opponent1={{1Opponent|RoyaL}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+    |map2={{Map|map=Retro|winner=2}}
+    |map3={{Map|map=Nemesis (ASL)|finished=skip}}
+    |veto1=Heartbreak Ridge|vetoplayer1=1
+    |veto2=76|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2023-03-22 21:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Shine}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Nemesis (ASL)|winner=2}}
+    |map2={{Map|map=Vermeer|winner=2}}
+    |map3={{Map|map=76|finished=skip}}
+    |veto1=Heartbreak Ridge|vetoplayer1=1
+    |veto2=Heartbreak Ridge|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|id=ASL15R16GB
+|title=Group B
+|sdate=
+|date=2023-03-23 19:00 {{Abbr/KST}}
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/608843-asl15-ro16-preview-pt1-whirlwind
+|lrthread=https://tl.net/forum/bw-tournaments/608951-asl15-ro16-group-b
+|vod=https://www.youtube.com/watch?v=vELbjTuBn7Q
+|vod1=https://vod.afreecatv.com/player/99920002
+|vod2=https://www.youtube.com/watch?v=WTfEn3w-Pzk
+|vod3=https://www.youtube.com/watch?v=bB0oaPJvp-s
+|pbg3=down
+|p1=Rush|temp_tie1=0.4
+|p2=BarrackS|temp_tie2=0.3
+|p3=ZerO|temp_tie3=0.2
+|p4=JyJ|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R16GB|attached=true|title=Group B Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2023-03-23 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|BarrackS}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M2={{Match
+    |date=2023-03-23 19:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|ZerO}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+|M3={{Match|bestof=3
+    |date=2023-03-23 20:45 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+    |map2={{Map|map=Nemesis (ASL)|winner=1}}
+    |map3={{Map|map=Heartbreak Ridge|winner=2}}
+    |veto1=76|vetoplayer1=1
+    |veto2=76|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2023-03-23 21:25 {{Abbr/KST}}
+    |opponent1={{1Opponent|BarrackS}}
+    |opponent2={{1Opponent|ZerO}}
+    |map1={{Map|map=Heartbreak Ridge|winner=2}}
+    |map2={{Map|map=Dark Origin|winner=2}}
+    |map3={{Map|map=Retro|finished=skip}}
+    |veto1=76|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2023-03-23 22:05 {{Abbr/KST}}
+    |opponent1={{1Opponent|Rush}}
+    |opponent2={{1Opponent|ZerO}}
+    |map1={{Map|map=Dark Origin|winner=2}}
+    |map2={{Map|map=Heartbreak Ridge|winner=1}}
+    |map3={{Map|map=Retro|winner=2}}
+    |veto1=76|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|id=ASL15R16GC
+|title=Group C
+|sdate=
+|date=2023-03-28 19:00 {{Abbr/KST}}
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/609182-asl15-ro16-preview-pt2-awestruck
+|lrthread=https://tl.net/forum/bw-tournaments/609209-asl15-ro16-group-c
+|vod=https://www.youtube.com/watch?v=SXw0_XHs_xg
+|vod1=https://vod.afreecatv.com/player/100125266
+|vod2=https://www.youtube.com/watch?v=Dgx6yB5E3vA
+|vod3=https://www.youtube.com/watch?v=Yv6Bfyr-E_s
+|pbg3=down
+|p1=Soulkey|temp_tie1=0.4
+|p2=Best|temp_tie2=0.3
+|p3=Snow|temp_tie3=0.2
+|p4=Light|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R16GC|attached=true|title=Group C Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2023-03-28 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|Best}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+|M2={{Match
+    |date=2023-03-28 19:45 {{Abbr/KST}}
+    |opponent1={{1Opponent|Snow}}
+    |opponent2={{1Opponent|Light}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+}}
+|M3={{Match|bestof=3
+    |date=2023-03-28 20:15 {{Abbr/KST}}
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Light}}
+    |map1={{Map|map=Retro|winner=2}}
+    |map2={{Map|map=76|winner=1}}
+    |map3={{Map|map=Nemesis (ASL)|winner=1}}
+    |veto1=Vermeer|vetoplayer1=1
+    |veto2=Heartbreak Ridge|vetoplayer2=2
+}}
+|M4={{Match
+    |date=2023-03-28 21:30 {{Abbr/KST}}
+    |opponent1={{1Opponent|Soulkey}}
+    |opponent2={{1Opponent|Snow}}
+    |map1={{Map|map=76|winner=1}}
+    |map2={{Map|map=Dark Origin|winner=1}}
+    |map3={{Map|map=Retro|finished=skip}}
+    |veto1=Heartbreak Ridge|vetoplayer1=1
+    |veto2=Nemesis (ASL)|vetoplayer2=2
+}}
+|M5={{Match
+    |date=2023-03-28 22:20 {{Abbr/KST}}
+    |opponent1={{1Opponent|Light}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Nemesis (ASL)|winner=1}}
+    |map2={{Map|map=Dark Origin|winner=2}}
+    |map3={{Map|map=Vermeer|winner=2}}
+    |veto1=76|vetoplayer1=1
+    |veto2=Heartbreak Ridge|vetoplayer2=2
+}}
+}}
+{{Box|break|padding=2em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|id=ASL15R16GD
+|title=Group D
+|sdate=
+|date=2023-03-29 19:00 {{Abbr/KST}}
+|edate=
+|afreeca=AfreecaTVASL
+|preview=https://tl.net/forum/brood-war/609182-asl15-ro16-preview-pt2-awestruck
+|lrthread=https://tl.net/forum/bw-tournaments/609271-asl15-ro16-group-d
+|vod=https://www.youtube.com/watch?v=eTdUirnJ_Sc
+|vod1=https://vod.afreecatv.com/player/100161043
+|vod2=https://www.youtube.com/watch?v=-UaeQO4kJcI
+|vod3=https://www.youtube.com/watch?v=cr9HRqhdIsM
+|pbg3=down
+|p1=hero|temp_tie1=0.4
+|p2=sSak|temp_tie2=0.3
+|p3=Mind|temp_tie3=0.2
+|p4=Bisu|temp_tie4=0.1
+}}
+{{Matchlist|id=ASL15R16GD|attached=true|title=Group D Matches|collapsed=true
+|M1={{Match|bestof=1
+    |date=2023-03-29 19:00 {{Abbr/KST}}
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|sSak}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M2={{Match
+    |date=
+    |opponent1={{1Opponent|Mind}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+}}
+|M3={{Match|bestof=3
+    |date=
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|Mind}}
+    |map1={{Map|map=Heartbreak Ridge|winner=1}}
+    |map2={{Map|map=Retro|winner=2}}
+    |map3={{Map|map=Nemesis (ASL)|winner=2}}
+    |veto1=|vetoplayer1=1
+    |veto2=|vetoplayer2=2
+}}
+|M4={{Match
+    |date=
+    |opponent1={{1Opponent|sSak}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Retro|winner=2}}
+    |map2={{Map|map=76|winner=2}}
+    |map3={{Map|map=|winner=}}
+    |veto1=|vetoplayer1=1
+    |veto2=|vetoplayer2=2
+}}
+|M5={{Match
+    |date=
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|Bisu}}
+    |map1={{Map|map=Dark Origin|winner=1}}
+    |map2={{Map|map=Vermeer|winner=1}}
+    |map3={{Map|map=|winner=}}
+    |veto1=|vetoplayer1=1
+    |veto2=|vetoplayer2=2
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+==={{Stage|Playoffs}}===
+<section begin=Results />
+{{Toggle bracket start|sdate=2023-03-30 12:00|dateexact=true}}
+{{Bracket|Bracket/8|id=ASL15R08PO
+|R1M1header=Quarterfinals ({{Bo|5}})
+|R2M1header=Semifinals ({{Bo|7}})
+|R3M1header=Finals ({{Bo|7}})
+
+<!-- Quarter-Finals -->
+|R1M1={{Match|bestof=5
+    |date=2023-04-03 19:10 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Action}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=New Heartbreak Ridge|winner=1}}
+    |map3={{Map|map=Nemesis (ASL)|winner=1}}
+    |map4={{Map|map=Vermeer SE|winner=1}}
+    |map5={{Map|map=Retro|finished=skip}}
+    |comment=[[Best]] Picked Maps Set 1,3
+                 [[Action]] Picked Maps Set 2,4
+	|preview=https://tl.net/forum/brood-war/609508-asl15-ro8-preview-pt1-in-the-hunt
+	|lrthread=https://tl.net/forum/bw-tournaments/609531-asl15-ro8-day-1
+	|vodgame1=https://vod.afreecatv.com/player/100364155
+    |vodgame2=https://www.youtube.com/watch?v=fiXDOyBSLGQ
+	|vodgame3=https://www.youtube.com/watch?v=SyVlVLkw4CA
+	|vodgame4=https://www.youtube.com/watch?v=rIwQN0RsSQk
+}}
+|R1M2={{Match|bestof=5
+    |date=2023-04-04 19:10 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Mind}}
+    |opponent2={{1Opponent|ZerO}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=76|winner=1}}
+    |map3={{Map|map=Vermeer SE|winner=1}}
+    |map4={{Map|map=Dark Origin|winner=2}}
+    |map5={{Map|map=Retro|winner=1}}
+	|comment=[[Mind]] Picked Maps Set 1,3
+                 [[ZerO]] Picked Maps Set 2,4
+	|preview=https://tl.net/forum/brood-war/609508-asl15-ro8-preview-pt1-in-the-hunt
+	|lrthread=https://tl.net/forum/bw-tournaments/609600-asl15-ro8-day-2
+    |vodgame1=https://vod.afreecatv.com/player/100404754
+	|vodgame2=https://www.youtube.com/watch?v=MwaAex2UWCY
+	|vodgame3=https://www.youtube.com/watch?v=EtxJQ2eX28A
+	|vodgame4=https://www.youtube.com/watch?v=0F0GCkZ3YDg
+}}
+|R1M3={{Match|bestof=5
+    |date=2023-04-10 19:10 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Jaedong}}
+    |opponent2={{1Opponent|hero}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=Dark Origin|winner=2}}
+    |map3={{Map|map=New Heartbreak Ridge|winner=2}}
+    |map4={{Map|map=Vermeer SE|finished=skip}}
+    |map5={{Map|map=Nemesis (ASL)|finished=skip}}
+	|comment=[[Jaedong]] Picked Maps Set 2,4
+                 [[hero]] Picked Maps Set 1,3
+	|preview=https://tl.net/forum/brood-war/609886-asl15-ro8-preview-pt2-victory-cry
+	|lrthread=https://tl.net/forum/bw-tournaments/609887-asl15-ro8-day-3
+    |vodgame1=https://vod.afreecatv.com/player/100660359
+	|vodgame2=https://www.youtube.com/watch?v=UlgDyoLprgY
+	|vodgame3=https://www.youtube.com/watch?v=AlgdsaGy1nM
+	|vodgame4=https://www.youtube.com/watch?v=eumQjR1lzes
+}}
+|R1M4={{Match|bestof=5
+    |date=2023-04-11 19:10 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|JyJ}}
+    |opponent2={{1Opponent|Soulkey}}
+    |map1={{Map|map=Vermeer SE|winner=1}}
+    |map2={{Map|map=New Heartbreak Ridge|winner=2}}
+    |map3={{Map|map=Neo Sylphid|winner=1}}
+    |map4={{Map|map=Dark Origin|winner=2}}
+    |map5={{Map|map=Retro|winner=1}}
+	|comment=[[JyJ]] Picked Maps Set 1,3
+                 [[Soulkey]] Picked Maps Set 2,4
+	|preview=https://tl.net/forum/brood-war/609886-asl15-ro8-preview-pt2-victory-cry
+	|lrthread=https://tl.net/forum/bw-tournaments/609972-asl15-ro8-day-4
+    |vodgame1=https://vod.afreecatv.com/player/100705917
+	|vodgame2=https://www.youtube.com/watch?v=pz3_i8XtflQ
+	|vodgame3=https://www.youtube.com/watch?v=GhIi3kXycK4
+	|vodgame4=https://www.youtube.com/watch?v=A44BMDVUIEI
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match|bestof=7
+    |date=2023-04-17 19:20 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Best}}
+    |opponent2={{1Opponent|Mind}}
+    |map1={{Map|map=New Heartbreak Ridge|winner=2}}
+    |map2={{Map|map=Vermeer SE|winner=2}}
+    |map3={{Map|map=76|winner=1}}
+    |map4={{Map|map=Neo Sylphid|winner=2}}
+    |map5={{Map|map=Dark Origin|winner=1}}
+    |map6={{Map|map=Retro|winner=2}}
+    |map7={{Map|map=Nemesis (ASL)|finished=skip}}
+	|comment=[[Best]] Picked Maps Set 1,3,5
+                 [[Mind]] Picked Maps Set 2,4,6
+	|preview=https://tl.net/forum/brood-war/610241-asl15-ro4-preview-last-stop
+	|lrthread=https://tl.net/forum/bw-tournaments/610242-asl15-ro4-day-1
+    |vodgame1=https://vod.afreecatv.com/player/100952347
+	|vodgame2=https://www.youtube.com/watch?v=UGshgMdlJ_o
+	|vodgame3=https://www.youtube.com/watch?v=XP9Tsvohqyo
+	|vodgame4=
+}}
+|R2M2={{Match|bestof=7
+    |date=2023-04-18 19:00 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|hero}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Neo Sylphid|winner=1}}
+    |map2={{Map|map=New Heartbreak Ridge|winner=1}}
+    |map3={{Map|map=Vermeer SE|winner=2}}
+    |map4={{Map|map=Dark Origin|winner=2}}
+    |map5={{Map|map=Nemesis (ASL)|winner=1}}
+    |map6={{Map|map=Retro|winner=2}}
+    |map7={{Map|map=76|winner=2}}
+	|comment=[[hero]] Picked Maps Set 2,4,6
+                 [[JyJ]] Picked Maps Set 1,3,5
+	|preview=https://tl.net/forum/brood-war/610241-asl15-ro4-preview-last-stop
+	|lrthread=https://tl.net/forum/bw-tournaments/610291-asl15-ro4-day-2
+    |vodgame1=https://vod.afreecatv.com/player/100993847
+	|vodgame2=https://www.youtube.com/watch?v=APR7Ug3J0Zc
+	|vodgame3=https://www.youtube.com/watch?v=P5AtgFDg-HM
+}}
+
+<!-- Final -->
+|R3M1={{Match|bestof=7
+    |date=2023-04-28 19:20 {{Abbr/KST}}
+    |afreeca=AfreecaTVASL
+    |opponent1={{1Opponent|Mind}}
+    |opponent2={{1Opponent|JyJ}}
+    |map1={{Map|map=Vermeer SE|winner=2}}
+    |map2={{Map|map=Dark Origin|winner=1}}
+    |map3={{Map|map=Neo Sylphid|winner=2}}
+    |map4={{Map|map=New Heartbreak Ridge|winner=2}}
+    |map5={{Map|map=Retro|winner=2}}
+    |map6={{Map|map=Nemesis (ASL)|finished=skip}}
+    |map7={{Map|map=76|finished=skip}}
+	|comment=[[Mind]] Picked Maps Set 1,3,5
+                 [[JyJ]] Picked Maps Set 2,4,6
+	|preview=https://tl.net/forum/brood-war/610705-asl15-finals-preview-sunset
+	|lrthread=https://tl.net/forum/bw-tournaments/610706-asl15-grand-finals
+    |vodgame1=https://vod.afreecatv.com/player/101397123
+	|vodgame2=https://www.youtube.com/watch?v=Xwez26aXo4A
+	|vodgame3=https://www.youtube.com/watch?v=JI5oLfAtFF0
+}}
+}}
+<section end=Results />
+{{Toggle bracket end}}
+
+==Racial distribution==
+{{RaceDist|last=1
+|lpdb=1
+|title=Round of 28 |protoss=7|terran=12|zerg=9
+}}
+
+==Map Statistics==
+{{Tournament_statistics|unknown=false}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean] at Afreecatv.com
+* {{Flag|usuk}} [http://play.afreecatv.com/dth03119 Livestream in English] at Afreecatv.com
+* {{Flag|esmx}} [http://play.afreecatv.com/basic0020512 Livestream in Spanish] at Afreecatv.com
+
+===VODS===
+* {{Flag|kr}} [https://bj.afreecatv.com/afstar1/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|usuk}} [https://bj.afreecatv.com/dth03119/vods Spoiler-free English AfreecaTV VODs] at AfreecaTV.com
+* {{Flag|esmx}} [https://bj.afreecatv.com/basic0020512/vods Spoiler-free Spanish AfreecaTV VODs] at Afreecatv.com
+* {{Flag|usuk}} [https://sc2casts.com/event1350-2023-Afreeca-Starleague-S15 Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts.com]
+* {{Flag|usuk}} [https://www.sc2links.com/tournament/?match=757 Spoiler-free VODs on SC2Links.com]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|us}} [https://tl.net/forum/brood-war/605758-asl15-afreeca-starleague-to-start-on-feb-14 ASL Season 15 announcement]
+*{{Flag|us}} [https://tl.net/forum/brood-war/615205-asl15-recap ASL Season 15 recap]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/98620615 afreecatv.com - ASL Season 15 Round of 24 announcement]
+*{{Flag|kr}} [https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C15 ASL Season 15 in namu.wiki]
+*{{Flag|kr}} [https://910map.tistory.com/category/ASL/ASL%20%EC%8B%9C%EC%A6%8C%2015 ASL Season 15 map pool]
+
+[[Category:Post-KeSPA Tournaments]]

@@ -1,0 +1,887 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 10}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{tabs static
+|name1=Main Event
+|link1=2020 AfreecaTV StarCraft League Remastered Season 10
+|name2=Qualifiers
+|link2=2020 AfreecaTV Starleague Season 10/Qualifiers
+|This=1}}
+{{Infobox league
+|name=ASL Season 10
+|image=Afreecatv starcraft league remastered.png
+|icon=Afreecatv starcraft league remastered.png
+|series=AfreecaTV StarCraft League Remastered
+|abbreviation=ASL
+|organizer=AfreecaTV
+|sponsor=[https://www.lg.com/us/gaming-monitors LG Ultragear], [https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6]
+|server=
+|type=Offline
+|localcurrency=KRW
+|prizepool=80,000,000
+|country=South Korea
+|city=Seoul
+|format='''Ro24''' and '''Ro16''' Dual Tournament Groupstage
+'''Ro8''' and on Single-Elimination
+|sdate=2020-09-06
+|edate=2020-11-15
+|patch=
+|epatch=
+|edition=10
+|afreeca=aslenglish
+|idfirst=ZerO  |racefirst=z  |flagfirst=kr
+|idsecond=Soma |racesecond=z |flagsecond=kr
+|idthird=Flash |racethird=r |flagthird=kr
+|idfourth=Larva (Player){{!}}Larva |racefourth=z |flagfourth=kr
+|youtube=channel/UCK5eBtuoj_HkdXKHNmBLAXg/
+|player_number=28
+|protoss_number=8
+|terran_number=8
+|zerg_number=11
+|random_number=1
+|map1=Benzene
+|map2=Eclipse
+|map3=Optimizer
+|map4=Plasma
+|map5=Polypoid
+|map6=Ringing Bloom
+|map7=Shakuras Temple
+|previous=2020 AfreecaTV StarCraft League Remastered Season 9{{!}}ASL Season 9
+|next=2021 AfreecaTV StarCraft League Remastered Season 11{{!}}ASL Season 11
+|liquipediatier=1
+|headtohead=true
+}}{{TOClimit}}
+
+==Overview==
+The '''AfreecaTV StarCraft League Remastered Season 10''' ('''ASL Season 10'''), was an offline tournament organized and broadcast live on [[AfreecaTV]].<ref>[https://namu.wiki/w/%EC%95%84%ED%94%84%EB%A6%AC%EC%B9%B4TV%20%EC%8A%A4%ED%83%80%EB%A6%AC%EA%B7%B8%20%EC%8B%9C%EC%A6%8C10 AfreecaTV Starleague Season 10]</ref>
+
+<embedvideo service="youtube">https://www.youtube.com/watch?v=WZ7MFHZGiwo</embedvideo>
+
+==Tournament Information==
+===Format===
+* '''Round of 24 group stage'''
+** [[Dual tournament]] format: {{abbr/Bo1}}
+** Top two players in each group advance
+
+* '''Round of 16 group stage'''
+** 12 players from the Round of 24 join the four seeds from [[2020 AfreecaTV StarCraft League Remastered Season 9|ASL Season 9]]
+** [[Dual tournament]] format: First two matches: {{abbr/Bo1}} - Final three matches: {{abbr/Bo3}} 
+** Top two players in each group advance
+
+* '''Elimination Stage'''
+** Eight player single-elimination bracket
+** Quarterfinals: {{abbr/Bo5}}
+** Semi-Finals & Finals: {{abbr/Bo7}}
+
+==Participants==
+{{ParticipantTable|count=true
+|{{ParticipantSection|title=Ro16 Seeds from [[2020 AfreecaTV StarCraft League Remastered Season 9|Season 9]]
+|Light
+|ZerO
+|Flash|p3race=r
+|Soma
+}}
+|{{ParticipantSection|title=From [[2020 AfreecaTV Starleague Season 10/Qualifiers/Seoul|Seoul Qualifiers]]
+|Snow
+|free
+|Mini
+|sOrry
+|Sharp
+|sSak
+|BarrackS
+|hero
+|Soulkey
+|Killer
+|Larva|p11link=Larva (Player)
+|Action
+}}
+|{{ParticipantSection|title=From [[2020 AfreecaTV Starleague Season 10/Qualifiers/Gwangju|Gwangju Qualifiers]]
+|Stork
+|BeSt
+|nOOB
+|JyJ
+|Rush
+|beast
+}}
+|{{ParticipantSection|title=From [[2020 AfreecaTV Starleague Season 10/Qualifiers/Busan|Busan Qualifiers]]
+|Shuttle|p1link=Shuttle (Player)
+|Bisu
+|Leta
+|Shine
+|Sacsri
+|Yoon|p6link=Yoon (Amateur)
+}}
+}}
+
+===Prize Pool===
+{{prize pool start|localcurrency=KRW |disable_teams=true}}
+{{prize pool slot|place=1|localprize=30000000
+|ZerO |flag1=kr |race1=z |lastvs1=Soma |lastscore1=4 |lastvsscore1=3 |lastvsrace1=z |lastvsflag1=kr |date1=2020-11-15
+}}
+{{prize pool slot|place=2|localprize=10000000
+|Soma |flag1=kr |race1=z |lastvs1=ZerO |lastscore1=3 |lastvsscore1=4 |lastvsrace1=z |lastvsflag1=kr |date1=2020-11-15
+}}
+{{prize pool slot|place=3|localprize=5000000
+|Flash |flag1=kr |race1=r |lastvs1=Larva (Player){{!}}Larva |lastscore1=3 |lastvsscore1=0 |lastvsrace1=z |lastvsflag1=kr |date1=2020-11-07
+}}
+{{prize pool slot|place=4|localprize=3000000
+|Larva (Player){{!}}Larva |flag1=kr |race1=z |lastvs1=Flash |lastscore1=0 |lastvsscore1=3 |lastvsrace1=r |lastvsflag1=kr |date1=2020-11-07
+}}
+{{prize pool slot|place=5-8|localprize=2000000
+|Rush |flag1=kr |race1=t |lastvs1=Flash |lastscore1=0 |lastvsscore1=3 |lastvsrace1=r |lastvsflag1=kr |date1=2020-10-18
+|Snow |flag2=kr |race2=p |lastvs2=Soma |lastscore2=0 |lastvsscore2=3 |lastvsrace2=z |lastvsflag2=kr |date2=2020-10-20
+|Soulkey |flag3=kr |race3=z |lastvs3=Larva (Player){{!}}Larva |lastscore3=1 |lastvsscore3=3 |lastvsrace3=z |lastvsflag3=kr |date3=2020-10-25
+|BeSt |flag4=kr |race4=p |lastvs4=ZerO |lastscore4=0 |lastvsscore4=3 |lastvsrace4=z |lastvsflag4=kr |date4=2020-10-27
+}}
+{{prize pool slot|place=9-12|localprize=1500000
+|JyJ |flag1=kr |race1=t |wdl1=1-2 |date1=2020-10-06
+|Light |flag2=kr |race2=t |wdl2=1-2 |date2=2020-10-08
+|free |flag3=kr |race3=p |wdl3=1-2 |date3=2020-10-11
+|Shuttle (Player){{!}}Shuttle |flag4=kr |race4=p |wdl4=1-2 |date4=2020-10-13
+}}
+{{prize pool slot|place=13-16|localprize=1500000
+|Leta |flag1=kr |race1=t |wdl1=0-2 |date1=2020-10-06
+|Action |flag2=kr |race2=z |wdl2=0-2 |date2=2020-10-08
+|hero |flag3=kr |race3=z |wdl3=0-2 |date3=2020-10-11
+|Mini |flag4=kr |race4=p |wdl4=0-2 |date4=2020-10-13
+}}
+{{prize pool slot|place=17-22|localprize=1000000
+|Bisu |flag1=kr |race1=p |wdl1=1-2 |date1=2020-09-06
+|Yoon (Amateur){{!}}Yoon |flag2=kr |race2=z |wdl2=1-2 |date2=2020-09-08
+|Stork |flag3=kr |race3=p |wdl3=1-2 |date3=2020-09-20
+|sOrry |flag4=kr |race4=t |wdl4=1-2 |date4=2020-09-15
+|Sacsri |flag5=kr |race5=z |wdl5=1-2 |date5=2020-09-13
+|beast |flag6=kr |race6=z |wdl6=1-2 |date6=2020-09-22
+}}
+{{prize pool slot|place=23-28|localprize=1000000
+|Shine |flag1=kr |race1=z |wdl1=0-2 |date1=2020-09-06
+|sSak |flag2=kr |race2=t |wdl2=0-2 |date2=2020-09-08
+|nOOB |flag3=kr |race3=p |wdl3=0-2 |date3=2020-09-20
+|Killer |flag4=kr |race4=z |wdl4=0-2 |date4=2020-09-15
+|BarrackS |flag5=kr |race5=t |wdl5=0-2 |date5=2020-09-13
+|Sharp |flag6=kr |race6=t |wdl6=0-2 |date6=2020-09-22
+}}
+{{LegacyPrizePoolEnd|}}
+
+===Maps===
+{{MapPoolTable
+|map1=Benzene|map1displayName=Benzene
+|map2=Eclipse|map2displayName=Eclipse
+|map3=Optimizer|map3displayName=Optimizer
+|map4=Plasma|map4displayName=Plasma
+|map5=Polypoid|map5displayName=Polypoid
+|map6=Ringing Bloom|map6displayName=Ringing Bloom
+|map7=Shakuras Temple|map7displayName=Shakuras Temple
+}}
+
+===Casters===
+{{Tabs dynamic|name1=English Broadcast|name2=Korean Broadcast|name3=Spanish Broadcast|name4=Remote Broadcast|This=1}}
+{{Tabs dynamic/tab|1}}
+{{BroadcasterCard
+|position=Commentator
+|b1=Artosis
+|b2=Tasteless
+}}
+{{Tabs dynamic/tab|2}}
+{{BroadcasterCard
+|position=Host
+|b1=Lee Hyun Kyung |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{BroadcasterCard
+|position=Observer
+|b1=JKS |b1name=Son Jae-kyung |b1flag=kr
+}}
+{{Tabs dynamic/tab|3}}
+{{BroadcasterCard
+|position=Spanish Commentator
+|b1=Deathfate |b1name=Juan Bayona |b1flag=es
+|b2=Remastr TV |b2name=Jan S. |b2flag=pe
+}}
+{{Tabs dynamic/tab|4}}
+{{BroadcasterCard
+|position=Russian Commentator
+|b1=Dewalt |b1flag=ru
+}}
+{{Tabs dynamic/end}}
+
+==Results==
+===Round of 24 Group Stage===
+{{Toggle group start|state=show}}
+{{Box|start|padding=4em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=September 6, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=qY1mnqH-oh0&t=35m11s
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/562896-asl10-ro24-group-a
+|preview=https://tl.net/forum/brood-war/562893-asl10-ro24-preview-pt-1-welcome-to-the-jungle
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Leta }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=JyJ }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=Bisu}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Shine }}
+}}
+{{Matchlist|id=tI35bxYFFe
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Leta|race=t}}
+    |map1={{Map|map=Ringing Bloom|winner=2}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Shine|race=z}}
+    |opponent2={{SoloOpponent|name=JyJ|race=t}}
+    |map1={{Map|map=Ringing Bloom|winner=2}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Leta|race=t}}
+    |opponent2={{SoloOpponent|name=JyJ|race=t}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Bisu|race=p}}
+    |opponent2={{SoloOpponent|name=Shine|race=z}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=JyJ|race=t}}
+    |opponent2={{SoloOpponent|name=Bisu|race=p}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=September 12, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/563074-asl10-ro24-group-b
+|preview=https://tl.net/forum/brood-war/562893-asl10-ro24-preview-pt-1-welcome-to-the-jungle
+|review=
+|vod=https://www.youtube.com/watch?v=m6U4mpWiPR0
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Soulkey }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Snow }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z|p1link=Yoon (Amateur)|p1flag=kr|p1=Yoon }}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=sSak }}
+}}
+{{Matchlist|id=spA19pOZs3
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Yoon|race=z}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Soulkey|race=z}}
+    |opponent2={{SoloOpponent|name=sSak|race=t}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Yoon|race=z}}
+    |opponent2={{SoloOpponent|name=sSak|race=t}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=Yoon|race=z}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=September 20, 2020 - 19:00 {{Abbr/KST}}
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/563361-asl10-ro24-group-c
+|preview=https://tl.net/forum/brood-war/563353-asl10-ro24-preview-pt-3-in-full-bloom
+|review=
+|vod=https://www.youtube.com/watch?v=jZK473oVV7k
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Rush }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1link=Larva (Player)|p1flag=kr|p1=Larva }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=Stork }}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p|p1flag=kr|p1=nOOB }}
+}}
+{{Matchlist|id=UG7GzsYUck
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=nOOB|race=p}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M2={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Stork|race=p}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Ringing Bloom|winner=2}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=nOOB|race=p}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Stork|race=p}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=September 15, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=DeNI4pouXyU
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/563179-asl-10-ro24-group-d
+|preview=https://tl.net/forum/brood-war/563099-asl10-ro24-preview-pt-2-all-is-vanity
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=hero }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Mini }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=sOrry }}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Killer }}
+}}
+{{Matchlist|id=mEo2k2Nuyb
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=sOrry|race=t}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=hero|race=z}}
+    |opponent2={{SoloOpponent|name=Killer|race=z}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=sOrry|race=t}}
+    |opponent2={{SoloOpponent|name=Killer|race=z}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=sOrry|race=t}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group E}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group E
+|width=300px
+|date=September 13, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=jvR5zX5Y5EE
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/563105-asl10-ro24-group-e
+|preview=https://tl.net/forum/brood-war/563099-asl10-ro24-preview-pt-2-all-is-vanity
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=p|p1link=Shuttle (Player)|p1flag=kr|p1=Shuttle }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=BeSt }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z|p1flag=kr|p1=Sacsri }}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=BarrackS }}
+}}
+{{Matchlist|id=bGKMMiz2ZL
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=BarrackS|race=t}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Eclipse|winner=1}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=BarrackS|race=t}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Polypoid|winner=1}}
+}}
+}}
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group F}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group F
+|width=300px
+|date=September 22, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=AULX7Mf3CSU
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/563418-asl10-ro24-group-f
+|preview=https://tl.net/forum/brood-war/563353-asl10-ro24-preview-pt-3-in-full-bloom
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Action }}
+|bg2=up|pbg2=up|temp_tie2=48|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=free }}
+|bg3=down|pbg3=down|temp_tie3=47|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=z|p1flag=kr|p1=beast }}
+|bg4=down|pbg4=down|temp_tie4=46|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=Sharp }}
+}}
+{{Matchlist|id=0ineuw2uVK
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=beast|race=z}}
+    |map1={{Map|map=Ringing Bloom|winner=2}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Action|race=z}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=beast|race=z}}
+    |opponent2={{SoloOpponent|name=Action|race=z}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Eclipse|winner=2}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=beast|race=z}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Polypoid|winner=2}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Round of 16 Group Stage===
+''A group selection ceremony was held on {{countdown|date=September 27, 2020 - 19:00 {{Abbr/KST}}|finished=true|youtube=AfreecaTV Live|afreecatv=AfreecaTVASL|rawdatetime=true}}. [https://www.youtube.com/watch?v=GhDeXS8upXA VOD] - [https://tl.net/forum/bw-tournaments/563625-asl10-ro16-group-selection TL.net thread]''
+{{Toggle group start|state=show}}
+{{Box|start|padding=4em}}
+===={{HiddenSort|Group A}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group A
+|width=300px
+|date=October 6, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/563969-asl10-ro16-group-a
+|preview=https://tl.net/forum/brood-war/563961-asl10-ro16-preview-p1-once-more-unto-the-breach
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=1|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=ZerO}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=4|temp_lose_g2=2|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=t|p1flag=kr|p1=Rush}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=3|temp_lose_g3=4|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=JyJ}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=0|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=t|p1flag=kr|p1=Leta}}
+}}
+{{Matchlist|id=6RFVyq7G1n
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |vodgame1=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=1814s|winner=1
+    |opponent1={{SoloOpponent|name=ZerO|race=z}}
+    |opponent2={{SoloOpponent|name=Leta|race=t}}
+    |map1={{Map|map=Shakuras Temple|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=1814s|winner=1}}
+}}
+|M2={{Match
+    |vodgame1=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=2858s|winner=1
+    |opponent1={{SoloOpponent|name=JyJ|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Shakuras Temple|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=2858s|winner=1}}
+}}
+|M3={{Match
+    |vodgame1=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=4266s|vodgame2=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=5113s|vodgame3=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=6590s|winner=1
+    |opponent1={{SoloOpponent|name=ZerO|race=z}}
+    |opponent2={{SoloOpponent|name=JyJ|race=t}}
+    |map1={{Map|map=Optimizer|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=4266s|winner=2}}
+    |map2={{Map|map=Eclipse|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=5113s|winner=1}}
+    |map3={{Map|map=Benzene|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=6590s|winner=1}}
+}}
+|M4={{Match
+    |vodgame1=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=7937s|vodgame2=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=8987s|winner=2
+    |opponent1={{SoloOpponent|name=Leta|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Eclipse|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=7937s|winner=2}}
+    |map2={{Map|map=Polypoid|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=8987s|winner=2}}
+    |map3={{Map|map=Optimizer|winner=skip}}
+}}
+|M5={{Match
+    |vodgame1=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=10080s|vodgame2=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=11475s|vodgame3=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=13027s|winner=2
+    |opponent1={{SoloOpponent|name=JyJ|race=t}}
+    |opponent2={{SoloOpponent|name=Rush|race=t}}
+    |map1={{Map|map=Polypoid|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=10080s|winner=1}}
+    |map2={{Map|map=Ringing Bloom|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=11475s|winner=2}}
+    |map3={{Map|map=Optimizer|vod=https://www.youtube.com/watch?v=q2-U0L8J_ao&t=13027s|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group B}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group B
+|width=300px
+|date=October 8, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=Za-zo-6QdHY
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/564047-asl10-ro16-group-b
+|preview=https://tl.net/forum/brood-war/563961-asl10-ro16-preview-p1-once-more-unto-the-breach
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=0|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1link=Larva (Player)|p1flag=kr|p1=Larva}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=4|temp_lose_g2=2|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=BeSt}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=3|temp_lose_g3=3|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=t|p1flag=kr|p1=Light}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=0|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=Action}}
+}}
+{{Matchlist|id=DuAICdF0Bm
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Shakuras Temple|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Larva|race=z}}
+    |opponent2={{SoloOpponent|name=Action|race=z}}
+    |map1={{Map|map=Shakuras Temple|winner=1}}
+}}
+|M3={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=Larva|race=z}}
+    |map1={{Map|map=Ringing Bloom|winner=2}}
+    |map2={{Map|map=Optimizer|winner=2}}
+    |map3={{Map|map=Polypoid|winner=skip}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=BeSt|race=p}}
+    |opponent2={{SoloOpponent|name=Action|race=z}}
+    |map1={{Map|map=Plasma|winner=1}}
+    |map2={{Map|map=Benzene|winner=1}}
+    |map3={{Map|map=Eclipse|winner=skip}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=BeSt|race=p}}
+    |map1={{Map|map=Benzene|winner=2}}
+    |map2={{Map|map=Eclipse|winner=1}}
+    |map3={{Map|map=Ringing Bloom|winner=2}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group C}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group C
+|width=300px
+|date=October 11, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://youtu.be/HSfTB4BwaWM
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/564141-asl10-ro16-group-c
+|preview=https://tl.net/forum/brood-war/564148-asl10-ro16-preview-p2-crazy-messy-beautiful
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=0|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=r|p1flag=kr|p1=Flash}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=3|temp_lose_g2=3|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=p|p1flag=kr|p1=Snow}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=3|temp_lose_g3=4|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1flag=kr|p1=free}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=1|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=z|p1flag=kr|p1=hero}}
+}}
+{{Matchlist|id=2tv679Db9j
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=r}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Shakuras Temple|race1=t|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Shakuras Temple|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Flash|race=r}}
+    |opponent2={{SoloOpponent|name=Snow|race=p}}
+    |map1={{Map|map=Eclipse|race1=p|winner=1}}
+    |map2={{Map|map=Optimizer|race1=p|winner=1}}
+    |map3={{Map|map=Ringing Bloom|winner=skip}}
+}}
+|M4={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=free|race=p}}
+    |opponent2={{SoloOpponent|name=hero|race=z}}
+    |map1={{Map|map=Optimizer|winner=2}}
+    |map2={{Map|map=Polypoid|winner=1}}
+    |map3={{Map|map=Ringing Bloom|winner=1}}
+}}
+|M5={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Snow|race=p}}
+    |opponent2={{SoloOpponent|name=free|race=p}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+    |map2={{Map|map=Eclipse|winner=2}}
+    |map3={{Map|map=Optimizer|winner=1}}
+}}
+}}
+
+{{Box|break|padding=4em}}
+
+===={{HiddenSort|Group D}}====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Group D
+|width=300px
+|date=October 13, 2020 - 19:00 {{Abbr/KST}}
+|vod=https://www.youtube.com/watch?v=3QQdlnxBMAI
+
+|afreecatv=AfreecaTVASL
+|youtube=AfreecaTV Live
+|lrthread=https://tl.net/forum/bw-tournaments/564227-asl10-ro16-group-d
+|preview=https://tl.net/forum/brood-war/564148-asl10-ro16-preview-p2-crazy-messy-beautiful
+|review=
+
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=3|temp_lose_g1=0|temp_lose_m1=0|temp_win_m1=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Soma}}
+|bg2=up|pbg2=up|temp_tie2=48|temp_win_g2=4|temp_lose_g2=2|temp_lose_m2=1|temp_win_m2=2|{{soloOpponent|p1race=z|p1flag=kr|p1=Soulkey}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=1|temp_lose_g3=4|temp_lose_m3=2|temp_win_m3=1|{{soloOpponent|p1race=p|p1link=Shuttle (Player)|p1flag=kr|p1=Shuttle}}
+|bg4=down|pbg4=down|temp_tie4=46|temp_win_g4=1|temp_lose_g4=3|temp_lose_m4=2|temp_win_m4=0|{{soloOpponent|p1race=p|p1flag=kr|p1=Mini}}
+}}
+{{Matchlist|id=stdZngzJFr
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Soma|race=z}}
+    |opponent2={{SoloOpponent|name=Mini|race=p}}
+    |map1={{Map|map=Shakuras Temple|winner=1}}
+}}
+|M2={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Shakuras Temple|winner=1}}
+}}
+|M3={{Match
+    |winner=1
+    |opponent1={{SoloOpponent|name=Soma|race=z}}
+    |opponent2={{SoloOpponent|name=Shuttle|race=p}}
+    |map1={{Map|map=Ringing Bloom|winner=1}}
+    |map2={{Map|map=Eclipse|winner=1}}
+    |map3={{Map|map=Polypoid|winner=skip}}
+}}
+|M4={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Mini|race=p}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Optimizer|winner=2}}
+    |map2={{Map|map=Ringing Bloom|winner=1}}
+    |map3={{Map|map=Benzene|winner=2}}
+}}
+|M5={{Match
+    |winner=2
+    |opponent1={{SoloOpponent|name=Shuttle|race=p}}
+    |opponent2={{SoloOpponent|name=Soulkey|race=z}}
+    |map1={{Map|map=Eclipse|winner=2}}
+    |map2={{Map|map=Ringing Bloom|winner=2}}
+    |map3={{Map|map=Polypoid|winner=skip}}
+}}
+}}
+{{Box|end}}
+{{Toggle group end}}
+
+===Elimination Bracket===
+{{Bracket|Bracket/8|id=4P2AHbEyFT
+|R1M1header=Quarterfinals (Bo5)|R2M1header=Semifinals (Bo7)|R3M1header=Finals (Bo7)|RxMTPheader=3rd Place Match (Bo5)
+
+<!-- Quarterfinals -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Flash|race=r|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rush|race=t|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Soma|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Snow|race=p|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Larva|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ZerO|race=z|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=BeSt|race=p|score=0}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Flash|race=r|score=2}}
+    |opponent2={{SoloOpponent|flag=kr|name=Soma|race=z|score=4|win=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Larva|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=ZerO|race=z|score=4|win=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Soma|race=z|score=3}}
+    |opponent2={{SoloOpponent|flag=kr|name=ZerO|race=z|score=4|win=1}}
+}}
+<!-- Third Place Match -->
+|RxMTP={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Flash|race=r|score=3|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Larva|race=z|score=0}}
+}}
+}}
+<embedvideo service="youtube" dimensions="400">https://www.youtube.com/watch?v=NmuLoCL3sOU</embedvideo>
+
+==Racial distribution==
+{{RaceDist|title=Round of 24   |protoss=8|terran=7|zerg=9|first=1}}
+{{RaceDist|title=Round of 16   |protoss=5|terran=4|zerg=6|random=1}}
+{{RaceDist|title=Quarterfinals |protoss=2|terran=1|zerg=4|random=1}}
+{{RaceDist|title=Semifinals    |zerg=3|random=1}}
+{{RaceDist|title=Finals        |zerg=2}}
+{{RaceDist|title=Winner        |zerg=1|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Media==
+===Streams===
+* {{Flag|kr}} [http://play.afreecatv.com/afstar1 Livestream in Korean on Afreecatv.com]
+* {{Flag|usuk}} [http://play.afreecatv.com/aslenglish Livestream in English on Afreecatv.com]
+* {{Flag|esmx}} [http://play.afreecatv.com/cruiser0929 Livestream in Spanish on Afreecatv.com]
+
+===VODS===
+*[http://bj.afreecatv.com/aslenglish/vods Spoiler-free Official AfreecaTV VODs] at AfreecaTV.com
+*[https://www.sc2links.com/tournament/?match=664 Spoiler-free VODs on SC2Links.com]
+*[https://sc2casts.com/event1194-2020-Afreeca-Starleague-S10 Spoiler-Free Official YouTube VODs] at SC2Casts.com
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{Flag|kr}} [http://bj.afreecatv.com/afstar1/post/60298517 afreecatv.com - ASL Season 10 announcement]
+*{{Flag|us}} [https://tl.net/forum/brood-war/562201-afreecatv-starleague-season-10-to-start-on-sep-6 tl.net - ASL Season 10 announcement (discussion)]
+[[Category:Post-KeSPA Tournaments]]
