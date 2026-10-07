@@ -1,17 +1,5 @@
 [
   {
-    "code": "UNKNOWN_RACE",
-    "message": "815: no race found on Liquipedia; add it to data/source/overrides.json"
-  },
-  {
-    "code": "UNKNOWN_RACE",
-    "message": "ivOry: no race found on Liquipedia; add it to data/source/overrides.json"
-  },
-  {
-    "code": "UNKNOWN_RACE",
-    "message": "Queen: no race found on Liquipedia; add it to data/source/overrides.json"
-  },
-  {
     "code": "SOURCE_TABLE_MISMATCH",
     "message": "S1: ro16 Group A: page lists ['sSak', 'Shuttle', 'free', 'EffOrt'] but match results give ['sSak', 'Shuttle', 'EffOrt', 'free']"
   },

@@ -31,18 +31,18 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 ## Data
 
-> The source workbook and the derived-stats pipeline.
+> The Liquipedia source data and the derived-stats pipeline.
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Liquipedia as the stats source | Approved by Derek 2026-10-07 after the audit (`Docs/reports/2026-10-07-liquipedia-audit.md`: workbook matched 486 of 576 entries). `scripts/liquipedia/` fetches and parses the 21 season pages; `scripts/export-stats/` builds `data/generated/` from them, including ELO, career stats, and race stats. The workbook becomes a reference copy. Supersedes the three items below <!-- updated: 2026-10-07 --> |
-| draft | Workbook-era player questions | `Byun`, `Jo Il-jang`, `Kim Myung-woon` were workbook rows that match no Liquipedia player; races for `815`, `ivOry`, `Queen` are unknown. Derek to supply via `data/source/overrides.json` |
+| draft | Workbook-era player questions | `Byun`, `Jo Il-jang`, `Kim Myung-woon` were workbook rows in S10–S11 that match no Liquipedia player. Nothing is missing from the site's data; this is only a question of whether Derek knows who they were <!-- updated: 2026-10-07 --> |
 | draft | In-progress season support | The pipeline assumes finished seasons. S22 needs partial placements, a live status, and a refresh routine |
 | draft | Game-level stats | Series are parsed; individual maps (winner per map, map win rates by matchup) are in the wikitext but not exported |
 | draft | Remove the old workbook | `data/source/ASL_Complete_S1_S21.xlsx` and `scripts/workbook-fixes/` are reference only. Delete once Derek no longer wants them |
 
 ### Archive
 
+- [implemented 2026-10-07] Liquipedia as the stats source — `scripts/liquipedia/` + `scripts/export-stats/`, schema version 2, 18 parser + 19 exporter tests. Approved by Derek after the audit (`Docs/reports/2026-10-07-liquipedia-audit.md`). Races for `815`, `ivOry`, `Queen` supplied by Derek in `data/source/overrides.json`
 - [superseded 2026-10-07] Resolve exporter validation warnings — replaced by "Liquipedia as the stats source"
 - [superseded 2026-10-07] S21 final results — replaced by "Liquipedia as the stats source"
 - [superseded 2026-10-07] Player identity map — replaced by "Liquipedia as the stats source"

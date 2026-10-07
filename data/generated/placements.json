@@ -3656,7 +3656,7 @@
     },
     "player": "815",
     "prizeKrw": 1500000,
-    "race": null,
+    "race": "Z",
     "season": 12
   },
   {
@@ -5180,7 +5180,7 @@
     },
     "player": "ivOry",
     "prizeKrw": 1000000,
-    "race": null,
+    "race": "T",
     "season": 16
   },
   {
@@ -5972,7 +5972,7 @@
     },
     "player": "Queen",
     "prizeKrw": 2000000,
-    "race": null,
+    "race": "Z",
     "season": 19
   },
   {
@@ -6392,7 +6392,7 @@
     },
     "player": "Queen",
     "prizeKrw": 1500000,
-    "race": null,
+    "race": "Z",
     "season": 20
   },
   {

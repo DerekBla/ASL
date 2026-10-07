@@ -6211,7 +6211,7 @@
   },
   {
     "loser": "815",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "Group B",
     "score": null,
     "season": 12,
@@ -6247,7 +6247,7 @@
     "season": 12,
     "stage": "ro24",
     "winner": "815",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Best",
@@ -6257,7 +6257,7 @@
     "season": 12,
     "stage": "ro24",
     "winner": "815",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Hyuk",
@@ -6467,7 +6467,7 @@
     "season": 12,
     "stage": "ro16",
     "winner": "815",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "JyJ",
@@ -6481,7 +6481,7 @@
   },
   {
     "loser": "815",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "Group A",
     "score": null,
     "season": 12,
@@ -6501,7 +6501,7 @@
   },
   {
     "loser": "815",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "Group A",
     "score": null,
     "season": 12,
@@ -8721,7 +8721,7 @@
   },
   {
     "loser": "ivOry",
-    "loserRace": null,
+    "loserRace": "T",
     "round": "Group F",
     "score": null,
     "season": 16,
@@ -8751,7 +8751,7 @@
   },
   {
     "loser": "ivOry",
-    "loserRace": null,
+    "loserRace": "T",
     "round": "Group F",
     "score": null,
     "season": 16,
@@ -10387,7 +10387,7 @@
     "season": 19,
     "stage": "ro24",
     "winner": "Queen",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Jaedong",
@@ -10407,7 +10407,7 @@
     "season": 19,
     "stage": "ro24",
     "winner": "Queen",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Skey",
@@ -10597,7 +10597,7 @@
     "season": 19,
     "stage": "ro16",
     "winner": "Queen",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Rain",
@@ -10607,7 +10607,7 @@
     "season": 19,
     "stage": "ro16",
     "winner": "Queen",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Bisu",
@@ -10681,7 +10681,7 @@
   },
   {
     "loser": "Queen",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "quarterfinal",
     "score": "4-3",
     "season": 19,
@@ -10907,7 +10907,7 @@
     "season": 20,
     "stage": "ro24",
     "winner": "Queen",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Calm",
@@ -10921,7 +10921,7 @@
   },
   {
     "loser": "Queen",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "Group D",
     "score": null,
     "season": 20,
@@ -10947,7 +10947,7 @@
     "season": 20,
     "stage": "ro24",
     "winner": "Queen",
-    "winnerRace": null
+    "winnerRace": "Z"
   },
   {
     "loser": "Paralyze",
@@ -11111,7 +11111,7 @@
   },
   {
     "loser": "Queen",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "Group B",
     "score": null,
     "season": 20,
@@ -11131,7 +11131,7 @@
   },
   {
     "loser": "Queen",
-    "loserRace": null,
+    "loserRace": "Z",
     "round": "Group B",
     "score": null,
     "season": 20,

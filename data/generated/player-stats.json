@@ -233,7 +233,7 @@
     "player": "Queen",
     "prizeKrw": 3500000,
     "quarterfinalsOrBetter": 1,
-    "race": null,
+    "race": "Z",
     "seasons": 2,
     "semifinalsOrBetter": 0
   },
@@ -369,7 +369,7 @@
     "player": "815",
     "prizeKrw": 1500000,
     "quarterfinalsOrBetter": 0,
-    "race": null,
+    "race": "Z",
     "seasons": 1,
     "semifinalsOrBetter": 0
   },
@@ -981,7 +981,7 @@
     "player": "ivOry",
     "prizeKrw": 1000000,
     "quarterfinalsOrBetter": 0,
-    "race": null,
+    "race": "T",
     "seasons": 1,
     "semifinalsOrBetter": 0
   },

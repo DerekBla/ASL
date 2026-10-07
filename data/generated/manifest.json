@@ -6,7 +6,7 @@
     "players": 85,
     "seasons": 21,
     "series": 1189,
-    "validation": 9
+    "validation": 6
   },
   "elo": {
     "basis": "placement",
@@ -151,5 +151,5 @@
     ],
     "wikitextSha256": "bf39ab7a643cbf5292c1f4851a84d3d1b7e75f04d247820dc1ae0f7c18c8d0fc"
   },
-  "warnings": 9
+  "warnings": 6
 }

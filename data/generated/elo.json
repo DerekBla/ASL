@@ -135,7 +135,7 @@
     "peakElo": 1747.6,
     "peakSeason": 19,
     "player": "Queen",
-    "race": null,
+    "race": "Z",
     "rank": 14,
     "seasons": 2
   },
@@ -215,7 +215,7 @@
     "peakElo": 1656.9,
     "peakSeason": 12,
     "player": "815",
-    "race": null,
+    "race": "Z",
     "rank": 22,
     "seasons": 1
   },
@@ -575,7 +575,7 @@
     "peakElo": 1337.9,
     "peakSeason": 16,
     "player": "ivOry",
-    "race": null,
+    "race": "T",
     "rank": 58,
     "seasons": 1
   },

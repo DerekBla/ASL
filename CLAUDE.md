@@ -61,8 +61,9 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   `huro`/`Yoon Soo-chul` → `tulbo` (Protoss), `JD` → `Jaedong` (Zerg). Any **new** case
   variant the exporter flags **must not be merged without Derek's confirmation**.
 - **Races** come from Liquipedia, one per player. Confirmed by Derek: `sSak`, `Ample`, `Speed` are
-  Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg. Players Liquipedia gives no
-  race for are `null` until Derek adds them to `data/source/overrides.json`.
+  Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg. Liquipedia gives no race for
+  `815` (Zerg), `Queen` (Zerg) and `ivOry` (Terran); Derek supplied those in
+  `data/source/overrides.json`. A new player with no race is `null` until he adds one.
 - **Attribution**: stats text and results derive from Liquipedia (CC-BY-SA 3.0). The site must
   credit Liquipedia and link the source pages (`seasons.json` carries each URL).
 - **ELO** is placement-based (start 1500, K=32, pairwise by placement tier), not match-based.

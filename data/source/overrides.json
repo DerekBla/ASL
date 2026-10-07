@@ -3,5 +3,9 @@
   "names": {
     "ivOry 인치호": "ivOry"
   },
-  "races": {}
+  "races": {
+    "815": "Z",
+    "ivOry": "T",
+    "Queen": "Z"
+  }
 }
