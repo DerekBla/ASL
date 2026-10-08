@@ -59,11 +59,11 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Pick'em: season brackets, public standings, achievements | Requested by Derek 2026-10-08. Built: `/pickem`, `/pickem/[season]`, bracket pages, admin setup and results, per season achievements. Spec: `Docs/feature-specs/pickem.md`. Decisions approved by Derek and migration applied 2026-10-08. Waiting on a production deploy (`npx vercel deploy --prod`). First use is S23 <!-- updated: 2026-10-08 --> |
 | in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive
 
+- [implemented 2026-10-08] Pick'em: season brackets, public standings, achievements — requested and approved by Derek. `/pickem`, `/pickem/[season]`, bracket pages, admin setup and results. Feature spec: `Docs/feature-specs/pickem.md`. First use is S23
 - [implemented 2026-10-07] Markets: list + market detail with trade panel — `/markets`, `/markets/[slug]`, live polling, trade panel with preview. Works once the Neon and Clerk keys are set
 - [implemented 2026-10-07] Portfolio — `/portfolio`. Works once the Neon and Clerk keys are set
 - [implemented 2026-10-07] Leaderboard — `/leaderboard`, net worth marked to market. Works once the Neon and Clerk keys are set

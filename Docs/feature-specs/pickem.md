@@ -1,6 +1,6 @@
 # Feature Spec: Pick'em
 
-**Status**: in-progress (built and migrated 2026-10-08; decisions approved by Derek 2026-10-08; not yet deployed)
+**Status**: implemented (deployed 2026-10-08; decisions approved by Derek 2026-10-08)
 **Last updated**: 2026-10-08
 **Product spec**: Docs/product-specs/pickem.md
 
