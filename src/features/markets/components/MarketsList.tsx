@@ -24,7 +24,7 @@ export function MarketsList({ markets }: { markets: readonly MarketSummary[] }):
           <li key={m.slug}>
             <Link
               href={`/markets/${m.slug}`}
-              className="flex h-full flex-col gap-3 card p-5 text-ink no-underline transition-shadow hover:no-underline hover:shadow-md"
+              className="flex h-full flex-col gap-3 card p-5 text-ink no-underline transition-shadow hover:border-accent hover:no-underline"
             >
               <span className="flex items-start justify-between gap-3">
                 <span className="text-heading">{m.question}</span>

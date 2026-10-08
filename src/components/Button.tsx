@@ -5,7 +5,7 @@ type Props = Omit<ButtonHTMLAttributes<HTMLButtonElement>, "className"> & {
 };
 
 const VARIANTS = {
-  primary: "bg-accent text-on-accent shadow-soft hover:brightness-110",
+  primary: "bg-accent text-on-accent hover:brightness-110",
   secondary: "bg-surface-muted text-ink hover:bg-line/70",
 } as const;
 
@@ -14,7 +14,7 @@ export function Button({ variant = "primary", type = "button", ...rest }: Props)
   return (
     <button
       type={type}
-      className={`inline-flex items-center justify-center rounded-full px-5 py-2 font-medium transition disabled:cursor-not-allowed disabled:opacity-50 ${VARIANTS[variant]}`}
+      className={`inline-flex items-center justify-center rounded px-4 py-1.5 font-semibold transition disabled:cursor-not-allowed disabled:opacity-50 ${VARIANTS[variant]}`}
       {...rest}
     />
   );

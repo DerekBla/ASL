@@ -25,7 +25,10 @@ export default async function PortfolioPage(): Promise<ReactElement> {
         {viewer?.isAdmin ? <Link href="/admin">Admin</Link> : null}
       </header>
       {viewer?.created ? (
-        <p role="status" className="rounded-2xl bg-medal-gold px-4 py-3 text-race-ink">
+        <p
+          role="status"
+          className="rounded border border-line bg-medal-gold px-3 py-2 text-race-ink"
+        >
           Welcome to StarCoins! You start with 100 minerals.
         </p>
       ) : null}

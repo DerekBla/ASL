@@ -107,7 +107,7 @@ export function TradePanel({ market, me, signInHref }: Props): ReactElement {
         {market.outcomes.map((o) => (
           <label
             key={o.idx}
-            className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-line px-3.5 py-2.5 transition-colors hover:bg-surface-muted has-[:checked]:border-accent has-[:checked]:bg-accent/5"
+            className="flex cursor-pointer items-center justify-between gap-3 rounded border border-line px-3 py-2 transition-colors hover:bg-surface-muted has-[:checked]:border-accent has-[:checked]:bg-accent/5"
           >
             <span className="flex items-center gap-2">
               <input

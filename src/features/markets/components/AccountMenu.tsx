@@ -13,7 +13,7 @@ export function AccountMenu(): ReactElement {
         <SignInButton mode="modal">
           <button
             type="button"
-            className="rounded-full bg-card px-4 py-1.5 text-data font-medium text-accent shadow-soft transition hover:bg-nav-hover hover:text-on-nav-hover"
+            className="rounded bg-card px-3 py-1 text-data font-semibold text-accent transition hover:bg-nav-hover hover:text-on-nav-hover"
           >
             Sign in
           </button>
@@ -22,7 +22,7 @@ export function AccountMenu(): ReactElement {
       <Show when="signed-in">
         <Link
           href="/portfolio"
-          className="rounded-full px-3 py-1.5 text-data text-on-nav/85 no-underline hover:bg-nav-hover hover:text-on-nav-hover hover:no-underline"
+          className="rounded px-2.5 py-1.5 text-data font-semibold text-on-nav/90 no-underline hover:bg-nav-hover hover:text-on-nav-hover hover:no-underline"
         >
           Portfolio
         </Link>

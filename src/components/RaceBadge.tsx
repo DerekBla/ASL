@@ -25,7 +25,7 @@ type Props = {
 
 /** The only way a race is shown on the site. Always text plus color, never color alone. */
 export function RaceBadge({ race, display = "letter", tone = "pale" }: Props): ReactElement {
-  const base = "inline-flex items-center justify-center rounded-full px-2 font-medium leading-5";
+  const base = "inline-flex items-center justify-center rounded px-1.5 font-semibold leading-5";
   if (race === null) {
     return (
       <span className={`${base} bg-surface-muted text-ink-muted`} title="Race unknown">

@@ -76,7 +76,7 @@ export default function HomePage(): ReactElement {
             <li key={s.href}>
               <Link
                 href={s.href}
-                className="card block h-full p-5 no-underline transition-shadow hover:no-underline hover:shadow-md"
+                className="card block h-full p-5 no-underline transition-shadow hover:border-accent hover:no-underline"
               >
                 <span className="text-heading text-ink">{s.title}</span>
                 <span className="mt-1 block text-ink-muted">{s.blurb}</span>

@@ -23,7 +23,7 @@ function tierClass(best: number): string {
 export function PlacementBadge({ placement }: Props): ReactElement {
   return (
     <span
-      className={`inline-block rounded-full px-2.5 text-data leading-6 whitespace-nowrap tabular-nums ${tierClass(placement.best)}`}
+      className={`inline-block rounded px-1.5 text-data leading-5 whitespace-nowrap tabular-nums ${tierClass(placement.best)}`}
     >
       {placement.label}
     </span>

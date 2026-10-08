@@ -34,27 +34,35 @@ From the old spreadsheet's placement fills. Used by `PlacementBadge`, with `text
 | `bg-medal-silver` | `#E8E8EC` | 2nd |
 | `bg-medal-bronze` | `#F5DEC0` | 3rd and 4th |
 
-## The soft look (Derek, 2026-10-07)
+## Liquipedia formatting (Derek, 2026-10-07)
 
-The site should feel calm, not sharp: a warm page, white cards with a gentle shadow, light
-borders, generous padding, rounded corners, pill shapes for badges and buttons, medium (not
-bold) weights, and links without underlines until hover. Use the shared classes in
-`globals.css` instead of rebuilding these by hand:
+The look follows Liquipedia, replacing the earlier soft, rounded style: Open Sans, MediaWiki
+heading sizes with a rule under each `h2`, compact bordered tables with a grey header row,
+flat bordered panels with 0.5rem corners, small 0.25rem corners on badges and buttons, no
+pills and no shadows. Use the shared classes in `globals.css` instead of rebuilding these:
 
 | Class | Use |
 |---|---|
-| `card` | Any boxed section or table: radius 1.25rem, light border, `shadow-soft`, `bg-card` |
-| `stat` | A small figure tile (label + number) |
-| `notice` | A quiet message box on `bg-surface-muted` |
-| `field` | Text inputs and selects, with a soft focus ring |
+| `card` | Any boxed section or table: radius 0.5rem, `border-line`, `bg-card`, no shadow |
+| `stat` | A small figure tile (label + number), bordered |
+| `notice` | A quiet bordered message box on `bg-surface-muted` |
+| `field` | Text inputs and selects: `border-line-strong`, 0.25rem corners, thin focus ring |
 
-Primary buttons use `bg-accent text-on-accent` (white on light, near-black on the light
+`DataTable` draws every cell with a `border-line-strong` rule, `px-2 py-1` padding and a
+`bg-table-head` header, like a wikitable.
+
+| Token | Light | Dark | Use |
+|---|---|---|---|
+| `line-strong` | `#c3c7cf` | `#44464b` | Table cell rules, `h2` underline, inputs |
+| `table-head` | `#eaecf0` | `#242424` | Table header row (wikitable `th`) |
+
+Primary buttons use `bg-accent text-on-accent` (white on light, dark blue on the light
 dark-mode accent).
 
 ## Liquipedia palette (Derek, 2026-10-07)
 
 Colors follow Liquipedia's StarCraft wiki theme, read from its saved stylesheet (its
-`--clr-*` variables). Shapes stay soft; race colors are unchanged.
+`--clr-*` variables). Race colors are unchanged.
 
 | Token | Light | Dark | Liquipedia source |
 |---|---|---|---|
@@ -107,14 +115,16 @@ likely and keep every price in the table.
 
 | Utility | Size / line height | Use |
 |---|---|---|
-| `text-display` | 2rem / 2.5rem, weight 650 | Page title (`h1` default) |
-| `text-title` | 1.375rem / 1.875rem, weight 600 | Section title (`h2` default), large figures |
-| `text-heading` | 1.125rem / 1.75rem | Sub-section (`h3` default) |
-| `text-body` | 1rem / 1.5rem | Body (default) |
-| `text-data` | 0.875rem / 1.25rem | Table cells; pair with `tabular-nums` for numbers |
-| `text-caption` | 0.8125rem / 1.125rem | Captions, footer, labels |
+| `text-display` | 1.75rem / 2.25rem, weight 400 | Page title (`h1` default; wiki 188%) |
+| `text-title` | 1.40625rem / 1.875rem, weight 400 | Section title (`h2` default, underlined; wiki 150%), large figures |
+| `text-heading` | 1.2rem / 1.6rem, weight 700 | Sub-section (`h3` default; wiki 128% bold) |
+| `text-body` | 0.9375rem / 1.5 | Body (default; wiki 15px) |
+| `text-data` | 0.875rem / 1.3 | Table cells; pair with `tabular-nums` for numbers |
+| `text-caption` | 0.8125rem / 1.25 | Captions, footer, labels |
 
-Fonts are system stacks (`font-sans`, `font-mono`); no web fonts are loaded.
+The font is Open Sans (Liquipedia's), loaded with `next/font/google` in `layout.tsx`, which
+downloads it at build time and serves it from the site. `font-sans` falls back to Segoe UI,
+Roboto and Arial.
 
 ## Changing tokens
 

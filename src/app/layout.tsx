@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Open_Sans } from "next/font/google";
 import type { ReactElement, ReactNode } from "react";
 
 import { ClerkProvider } from "@clerk/nextjs";
@@ -14,6 +15,9 @@ import { SiteHeader } from "@/components/SiteHeader";
 
 import "./globals.css";
 
+// Liquipedia's font (Derek, 2026-10-07). Downloaded at build time and served with the site.
+const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-open-sans", display: "swap" });
+
 export const metadata: Metadata = {
   title: { default: SITE_NAME, template: `%s | ${SITE_NAME}` },
   description: SITE_DESCRIPTION,
@@ -26,11 +30,11 @@ type Props = {
 export default function RootLayout({ children }: Props): ReactElement {
   const auth = isAuthEnabled();
   const page = (
-    <html lang="en">
+    <html lang="en" className={openSans.variable}>
       <body className="flex min-h-screen flex-col">
         <QueryProvider>
           <SiteHeader account={auth ? <AccountMenu /> : null} />
-          <main className="mx-auto w-full max-w-5xl flex-1 px-4 pt-10 pb-6">{children}</main>
+          <main className="mx-auto w-full max-w-5xl flex-1 px-4 pt-6 pb-6">{children}</main>
           <SiteFooter />
         </QueryProvider>
       </body>

@@ -74,15 +74,15 @@ export function DataTable({
 
   return (
     <div className="card overflow-x-auto">
-      <table className="w-full border-collapse text-data">
+      <table className="w-full border-collapse text-data [&_td]:border [&_td]:border-line-strong/70 [&_th]:border [&_th]:border-line-strong/70">
         <caption
           className={
-            captionVisible ? "px-4 pt-3 pb-1 text-left text-caption text-ink-muted" : "sr-only"
+            captionVisible ? "px-2 py-1.5 text-left text-caption font-semibold text-ink" : "sr-only"
           }
         >
           {caption}
         </caption>
-        <thead className="sticky top-0 bg-card">
+        <thead className="sticky top-0 bg-table-head">
           <tr>
             {columns.map((column) => {
               const align = ALIGN[column.align ?? "left"];
@@ -99,7 +99,7 @@ export function DataTable({
                   key={column.key}
                   scope="col"
                   aria-sort={ariaSort}
-                  className={`border-b border-line/70 px-4 py-2.5 text-caption font-medium whitespace-nowrap text-ink-muted ${align}`}
+                  className={`px-2 py-1 text-data font-semibold whitespace-nowrap text-ink ${align}`}
                 >
                   {column.sortable === false ? (
                     column.header
@@ -107,7 +107,7 @@ export function DataTable({
                     <button
                       type="button"
                       onClick={() => toggle(column)}
-                      className="inline-flex items-center gap-1 font-medium hover:text-ink"
+                      className="inline-flex items-center gap-1 font-semibold hover:text-link"
                     >
                       {column.header}
                       <span aria-hidden="true" className="text-ink-muted/60">
@@ -122,14 +122,11 @@ export function DataTable({
         </thead>
         <tbody>
           {sorted.map((row) => (
-            <tr
-              key={row.id}
-              className="border-b border-line/50 transition-colors last:border-b-0 hover:bg-surface-muted/60"
-            >
+            <tr key={row.id} className="hover:bg-surface-muted/50">
               {columns.map((column) => (
                 <td
                   key={column.key}
-                  className={`px-4 py-2.5 tabular-nums ${ALIGN[column.align ?? "left"]}`}
+                  className={`px-2 py-1 tabular-nums ${ALIGN[column.align ?? "left"]}`}
                 >
                   {row.cells[column.key]}
                 </td>

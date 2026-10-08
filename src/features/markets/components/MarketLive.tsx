@@ -42,7 +42,7 @@ export function MarketLive({ slug, signInHref, context }: Props): ReactElement {
           {m.traders === 1 ? "player" : "players"}
         </p>
         {winner ? (
-          <p className="rounded-2xl bg-medal-gold px-4 py-3 text-race-ink">
+          <p className="rounded border border-line bg-medal-gold px-3 py-2 text-race-ink">
             <strong>{winner.label}</strong> won. Each {winner.label} share paid 1 mineral.
             {m.resolutionNote ? ` ${m.resolutionNote}` : ""}
           </p>
