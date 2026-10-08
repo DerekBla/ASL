@@ -3,7 +3,11 @@
 export const SITE_NAME = "StarCoins";
 
 export const SITE_DESCRIPTION =
-  "ASL stats and a play money prediction market, made by fans of StarCraft: Brood War.";
+  "A play money betting site for the ASL (StarCraft: Brood War), with every season's stats.";
+
+/** Who made the site (Derek, 2026-10-07). His GitHub profile; the repo itself is private. */
+export const AUTHOR_NAME = "stifle";
+export const AUTHOR_URL = "https://github.com/DerekBla";
 
 export const DISCLAIMER =
   "Unofficial fan project. Not affiliated with, endorsed by, or sponsored by the ASL, SOOP, AfreecaTV, or Blizzard Entertainment.";

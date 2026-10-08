@@ -70,8 +70,10 @@ features/markets/
 ## Money and Numbers
 
 - The unit is **credits** in code, schema, and specs, and **minerals** in UI copy (1 mineral =
-  1 credit). Never write "$", "USD", "dollars", "cash", "bet", or "wager" in UI copy or
-  identifiers. UI says minerals, trade, position, payout; code says credits.
+  1 credit). Never write "$", "USD", "dollars", "cash", or "wager" in UI copy or identifiers.
+  UI says minerals, trade, position, payout; code says credits. One exception, by Derek
+  (2026-10-07): the site tagline calls StarCoins "a play money betting site". Use "betting"
+  only there, always next to "play money"; trades are still "trades", never "bets".
 - Starting balance is `SIGNUP_GRANT_CREDITS = 100`. Don't hard-code 100 anywhere else.
 - Stored money and shares: Postgres `numeric(18,6)`; strings in Drizzle results; converted at
   the ledger service edge only.

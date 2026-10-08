@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { ReactElement } from "react";
 
-import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/config/site";
+import { AUTHOR_NAME, AUTHOR_URL, SITE_DESCRIPTION, SITE_NAME } from "@/lib/config/site";
 import { getLatestCompleteSeason, getManifest } from "@/lib/services/stats";
 
 const numberFormat = new Intl.NumberFormat("en-US");
@@ -40,6 +40,13 @@ export default function HomePage(): ReactElement {
       <header className="flex flex-col gap-2">
         <h1>{SITE_NAME}</h1>
         <p className="text-ink-muted">{SITE_DESCRIPTION}</p>
+        <p className="text-caption text-ink-muted">
+          Made by{" "}
+          <a href={AUTHOR_URL} rel="author">
+            {AUTHOR_NAME}
+          </a>
+          .
+        </p>
       </header>
 
       <section aria-labelledby="coverage-heading" className="flex flex-col gap-3">

@@ -25,3 +25,15 @@ describe("HomePage", () => {
     expect(screen.getByText(latest?.winner ?? "missing champion")).toBeInTheDocument();
   });
 });
+
+describe("HomePage intro", () => {
+  it("says it is a play money betting site and credits stifle with a link to GitHub", () => {
+    render(<HomePage />);
+    expect(screen.getByText(/play money betting site/i)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "stifle" })).toHaveAttribute(
+      "href",
+      "https://github.com/DerekBla",
+    );
+    expect(screen.queryByText(/made by fans/i)).not.toBeInTheDocument();
+  });
+});
