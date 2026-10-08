@@ -16,6 +16,7 @@ import { RaceBadge } from "@/components/RaceBadge";
 
 import { makePickAction, startDraftAction } from "../actions/draft";
 import { useLeague, useSecondsLeft } from "../hooks/use-league";
+import { useTurnDing } from "../hooks/use-turn-ding";
 
 type Props = {
   initial: LeagueView;
@@ -163,6 +164,8 @@ function DraftRoom({ league, viewerId, fetchedAt }: Panel & { fetchedAt: number 
   const members = league.members.length;
   const total = totalDraftPicks(members, league.teamSize ?? 0);
   const pickNo = league.picks.length;
+  const isManager = league.members.some((m) => m.userId === viewerId);
+  const ding = useTurnDing(myTurn, pickNo);
 
   return (
     <section aria-labelledby="draft-heading" className="flex flex-col gap-4">
@@ -182,6 +185,16 @@ function DraftRoom({ league, viewerId, fetchedAt }: Panel & { fetchedAt: number 
       <p className="text-caption text-ink-muted">
         If the clock runs out, the highest rated player still free is picked for you.
       </p>
+      {isManager ? (
+        <label className="flex items-center gap-2 text-caption">
+          <input
+            type="checkbox"
+            checked={ding.enabled}
+            onChange={(e) => ding.setEnabled(e.target.checked)}
+          />
+          Play a sound when it is my pick
+        </label>
+      ) : null}
       <div>
         <h3>Players left</h3>
         <ul className="flex flex-wrap gap-1.5 pt-1">

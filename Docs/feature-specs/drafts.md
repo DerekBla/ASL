@@ -1,6 +1,6 @@
 # Feature Spec: Drafts (fantasy ASL)
 
-**Status**: in-progress (built 2026-10-08; not migrated or deployed; decisions below await Derek's review)
+**Status**: in-progress (built and migrated 2026-10-08; decisions approved by Derek 2026-10-08; awaiting deploy)
 **Last updated**: 2026-10-08
 **Requested by**: Derek, 2026-10-08. Scoring rule and the Liquipedia fetch are his.
 
@@ -30,9 +30,13 @@ No minerals move.
    managers: up to 7 each). The order is drawn at random. Refused once the season has locked.
 4. **Pick** (`makePick`): snake order (1 2 3, 3 2 1, ...). 60 seconds per pick
    (`PICK_SECONDS`).
-5. **Clock runs out**: the highest rated player still free is picked for that manager, marked
+5. **Your pick**: the page plays a short two note sound each time a pick becomes yours
+   (`useTurnDing`). Managers can switch it off with a checkbox in the draft room; the choice
+   is kept in the browser. The page must be open, and a browser may hold the first sound back
+   until the page has been clicked once.
+6. **Clock runs out**: the highest rated player still free is picked for that manager, marked
    "picked by the clock".
-6. **Drafted**: when every team is full. Standings then follow the season.
+7. **Drafted**: when every team is full. Standings then follow the season.
 
 ### The pick clock without a background worker
 
@@ -78,7 +82,7 @@ owner, status `lobby | drafting | drafted`, team size, player pool, order, clock
 | `fetchGameWinsAction` (admin) | `{ season, page }` | One request to Liquipedia; saves nothing |
 | `saveGameWinsAction` (admin) | `{ season, gameWins }` | Replaces the season's table |
 
-## Decisions made while building (Derek to confirm)
+## Decisions (approved by Derek, 2026-10-08)
 
 1. A draft needs the season's player list, which comes from that season's pick'em setup. So
    the admin sets up the pick'em first, and both features share one player list and one set of results.
@@ -92,7 +96,7 @@ owner, status `lobby | drafting | drafted`, team size, player pool, order, clock
 ## Not built
 
 - Automatic refresh of game wins on a schedule (it is a button).
-- A notification when it becomes your pick; the page has to be open.
+- A notification that reaches you when the page is closed (the sound needs the page open).
 - Leaving or deleting a league.
 - Rate limiting (`sec-6`). Playwright coverage.
 

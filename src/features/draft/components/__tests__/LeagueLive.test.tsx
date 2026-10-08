@@ -91,6 +91,55 @@ describe("draft room", () => {
   });
 });
 
+describe("the pick sound", () => {
+  const start = vi.fn();
+
+  beforeEach(() => {
+    start.mockReset();
+    window.localStorage.clear();
+    const node = { connect: vi.fn(() => node) };
+    const param = { value: 0, setValueAtTime: vi.fn(), exponentialRampToValueAtTime: vi.fn() };
+    // A plain function, since an arrow function cannot be called with `new`.
+    function FakeAudioContext(): object {
+      return {
+        currentTime: 0,
+        destination: {},
+        resume: vi.fn().mockResolvedValue(undefined),
+        createOscillator: () => ({ ...node, type: "", frequency: param, start, stop: vi.fn() }),
+        createGain: () => ({ ...node, gain: param }),
+      };
+    }
+    vi.stubGlobal("AudioContext", FakeAudioContext);
+  });
+
+  it("dings when it is the reader's pick", () => {
+    renderLeague(<LeagueLive initial={makeDraftingLeague()} viewerId="user_bo" />);
+    expect(start).toHaveBeenCalledTimes(2); // two notes
+    expect(screen.getByLabelText("Play a sound when it is my pick")).toBeChecked();
+  });
+
+  it("stays quiet while someone else is picking", () => {
+    renderLeague(<LeagueLive initial={makeDraftingLeague()} viewerId="user_ann" />);
+    expect(start).not.toHaveBeenCalled();
+  });
+
+  it("can be switched off, and stays off on the next visit", () => {
+    window.localStorage.setItem("starcoins.draft-ding", "off");
+    renderLeague(<LeagueLive initial={makeDraftingLeague()} viewerId="user_bo" />);
+    expect(start).not.toHaveBeenCalled();
+    const toggle = screen.getByLabelText("Play a sound when it is my pick");
+    expect(toggle).not.toBeChecked();
+    fireEvent.click(toggle);
+    expect(start).toHaveBeenCalledTimes(2); // a sample when it is switched on
+    expect(window.localStorage.getItem("starcoins.draft-ding")).toBe("on");
+  });
+
+  it("is not offered to people only watching", () => {
+    renderLeague(<LeagueLive initial={makeDraftingLeague()} viewerId="user_guest" />);
+    expect(screen.queryByLabelText("Play a sound when it is my pick")).not.toBeInTheDocument();
+  });
+});
+
 describe("standings", () => {
   it("ranks the teams by game wins and names the Draft champion when the season is over", () => {
     const picks = [

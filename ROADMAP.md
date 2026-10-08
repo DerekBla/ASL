@@ -59,7 +59,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Drafts: fantasy ASL leagues | Requested by Derek 2026-10-08. Built: `/drafts`, invite links, snake draft with a 60 second clock, 1 point per game win, game wins fetched from Liquipedia in `/admin`, Draft champion. Spec: `Docs/feature-specs/drafts.md`. Waiting on Derek: review the decisions in the spec, then `pnpm db:migrate` and a deploy <!-- updated: 2026-10-08 --> |
+| in-progress | Drafts: fantasy ASL leagues | Requested by Derek 2026-10-08. Built: `/drafts`, invite links, snake draft with a 60 second clock, 1 point per game win, game wins fetched from Liquipedia in `/admin`, Draft champion. Spec: `Docs/feature-specs/drafts.md`. A sound plays when it is your pick. Decisions approved by Derek and migration applied 2026-10-08. Waiting on a production deploy <!-- updated: 2026-10-08 --> |
 | in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive
