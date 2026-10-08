@@ -39,7 +39,7 @@ export default async function AdminPage(): Promise<ReactElement> {
         <h2 id="manage-heading">Markets</h2>
         {markets.length === 0 ? <p className="text-ink-muted">No markets yet.</p> : null}
         {markets.map((m) => (
-          <article key={m.slug} className="flex flex-col gap-2 rounded-lg border border-line p-4">
+          <article key={m.slug} className="flex flex-col gap-2 card p-5">
             <Link href={`/markets/${m.slug}`} className="text-heading">
               {m.question}
             </Link>

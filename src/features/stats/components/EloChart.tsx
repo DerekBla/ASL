@@ -213,7 +213,7 @@ export function EloChart({ player, history, lastSeason, start }: Props): ReactEl
         {current ? (
           <div
             role="status"
-            className="pointer-events-none absolute top-0 rounded-md border border-line bg-surface px-2 py-1 text-caption shadow-sm"
+            className="pointer-events-none absolute top-0 rounded-xl border border-line/70 bg-card px-2.5 py-1.5 text-caption shadow-soft"
             style={{ left: `${(x(current.season) / W) * 100}%`, transform: "translateX(-50%)" }}
           >
             <strong className="block text-data text-ink tabular-nums">

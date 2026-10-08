@@ -24,7 +24,7 @@ export function PortfolioView({ portfolio }: { portfolio: Portfolio }): ReactEle
     <div className="flex flex-col gap-8">
       <dl className="grid grid-cols-1 gap-3 sm:grid-cols-3">
         {facts.map((f) => (
-          <div key={f.label} className="rounded-lg border border-line bg-surface-muted p-3">
+          <div key={f.label} className="stat">
             <dt className="text-caption text-ink-muted">{f.label}</dt>
             <dd className="text-heading tabular-nums">{f.value}</dd>
           </div>
@@ -40,10 +40,7 @@ export function PortfolioView({ portfolio }: { portfolio: Portfolio }): ReactEle
         ) : (
           <ul className="flex flex-col gap-2">
             {open.map((p) => (
-              <li
-                key={`${p.marketSlug}-${p.outcomeIdx}`}
-                className="rounded-lg border border-line p-3"
-              >
+              <li key={`${p.marketSlug}-${p.outcomeIdx}`} className="card p-4">
                 <Link href={`/markets/${p.marketSlug}`}>{p.question}</Link>
                 <p className="text-data tabular-nums">
                   {p.shares.toFixed(2)} {p.outcomeLabel} shares at {formatProbability(p.price)} ={" "}

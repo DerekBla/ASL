@@ -11,7 +11,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   title: "Markets",
-  description: "Trade play-money minerals on ASL matches.",
+  description: "Trade play money minerals on ASL matches.",
 };
 
 export default async function MarketsPage(): Promise<ReactElement> {

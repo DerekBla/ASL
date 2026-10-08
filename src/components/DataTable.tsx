@@ -73,14 +73,16 @@ export function DataTable({
   }
 
   return (
-    <div className="overflow-x-auto rounded-lg border border-line">
+    <div className="card overflow-x-auto">
       <table className="w-full border-collapse text-data">
         <caption
-          className={captionVisible ? "px-3 py-2 text-left text-caption text-ink-muted" : "sr-only"}
+          className={
+            captionVisible ? "px-4 pt-3 pb-1 text-left text-caption text-ink-muted" : "sr-only"
+          }
         >
           {caption}
         </caption>
-        <thead className="sticky top-0 bg-surface-muted">
+        <thead className="sticky top-0 bg-card">
           <tr>
             {columns.map((column) => {
               const align = ALIGN[column.align ?? "left"];
@@ -97,7 +99,7 @@ export function DataTable({
                   key={column.key}
                   scope="col"
                   aria-sort={ariaSort}
-                  className={`border-b border-line px-3 py-2 font-semibold whitespace-nowrap ${align}`}
+                  className={`border-b border-line/70 px-4 py-2.5 text-caption font-medium whitespace-nowrap text-ink-muted ${align}`}
                 >
                   {column.sortable === false ? (
                     column.header
@@ -105,10 +107,10 @@ export function DataTable({
                     <button
                       type="button"
                       onClick={() => toggle(column)}
-                      className="inline-flex items-center gap-1 font-semibold hover:text-accent"
+                      className="inline-flex items-center gap-1 font-medium hover:text-ink"
                     >
                       {column.header}
-                      <span aria-hidden="true" className="text-ink-muted">
+                      <span aria-hidden="true" className="text-ink-muted/60">
                         {active ? (sort.dir === "asc" ? "▲" : "▼") : "↕"}
                       </span>
                     </button>
@@ -122,12 +124,12 @@ export function DataTable({
           {sorted.map((row) => (
             <tr
               key={row.id}
-              className="border-b border-line last:border-b-0 even:bg-surface-muted/50"
+              className="border-b border-line/50 transition-colors last:border-b-0 hover:bg-surface-muted/60"
             >
               {columns.map((column) => (
                 <td
                   key={column.key}
-                  className={`px-3 py-1.5 tabular-nums ${ALIGN[column.align ?? "left"]}`}
+                  className={`px-4 py-2.5 tabular-nums ${ALIGN[column.align ?? "left"]}`}
                 >
                   {row.cells[column.key]}
                 </td>

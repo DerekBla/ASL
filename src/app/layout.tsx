@@ -30,7 +30,7 @@ export default function RootLayout({ children }: Props): ReactElement {
       <body className="flex min-h-screen flex-col">
         <QueryProvider>
           <SiteHeader account={auth ? <AccountMenu /> : null} />
-          <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-10">{children}</main>
+          <main className="mx-auto w-full max-w-5xl flex-1 px-4 pt-10 pb-6">{children}</main>
           <SiteFooter />
         </QueryProvider>
       </body>

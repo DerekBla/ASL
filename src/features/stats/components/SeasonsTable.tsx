@@ -14,7 +14,7 @@ const COLUMNS: DataTableColumn[] = [
   { key: "season", header: "Season", firstSort: "desc" },
   { key: "dates", header: "Dates", sortable: false },
   { key: "champion", header: "Champion" },
-  { key: "runnerUp", header: "Runner-up" },
+  { key: "runnerUp", header: "Runner up" },
   { key: "score", header: "Final", align: "center", sortable: false },
   { key: "prize", header: "Prize pool", align: "right", firstSort: "desc" },
 ];

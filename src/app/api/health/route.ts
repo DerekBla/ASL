@@ -1,5 +1,6 @@
-import { sql } from "drizzle-orm";
 import { NextResponse } from "next/server";
+
+import { sql } from "drizzle-orm";
 
 import { isAuthEnabled, isMarketsEnabled } from "@/lib/config/env";
 import { getReadDb, withWriteDb } from "@/lib/db/client";

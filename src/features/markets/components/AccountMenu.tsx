@@ -13,14 +13,17 @@ export function AccountMenu(): ReactElement {
         <SignInButton mode="modal">
           <button
             type="button"
-            className="rounded-md border border-line px-3 py-1 font-semibold hover:border-accent"
+            className="rounded-full bg-accent px-4 py-1.5 text-data font-medium text-on-accent shadow-soft transition hover:brightness-110"
           >
             Sign in
           </button>
         </SignInButton>
       </Show>
       <Show when="signed-in">
-        <Link href="/portfolio" className="text-ink no-underline hover:text-accent">
+        <Link
+          href="/portfolio"
+          className="rounded-full px-3 py-1.5 text-data text-ink-muted no-underline hover:bg-surface-muted hover:text-ink hover:no-underline"
+        >
           Portfolio
         </Link>
         <UserButton />

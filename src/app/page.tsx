@@ -16,11 +16,11 @@ const SECTIONS = [
   {
     href: "/elo",
     title: "ELO ratings",
-    blurb: "Placement-based ELO, current and peak, like the old spreadsheet.",
+    blurb: "ELO from season placements, current and peak, like the old spreadsheet.",
   },
   {
     href: "/head-to-head",
-    title: "Head-to-head",
+    title: "Head to head",
     blurb: "Every ASL series between any two players.",
   },
   { href: "/races", title: "Race stats", blurb: "Titles and series matchups by race." },
@@ -46,7 +46,7 @@ export default function HomePage(): ReactElement {
         <h2 id="coverage-heading">What the data covers</h2>
         <dl className="grid grid-cols-1 gap-3 sm:grid-cols-3">
           {facts.map((fact) => (
-            <div key={fact.label} className="rounded-lg border border-line bg-surface-muted p-4">
+            <div key={fact.label} className="stat">
               <dt className="text-caption text-ink-muted">{fact.label}</dt>
               <dd className="text-title tabular-nums">
                 {fact.value === undefined ? "–" : numberFormat.format(fact.value)}
@@ -69,7 +69,7 @@ export default function HomePage(): ReactElement {
             <li key={s.href}>
               <Link
                 href={s.href}
-                className="block h-full rounded-lg border border-line p-4 no-underline hover:border-accent"
+                className="card block h-full p-5 no-underline transition-shadow hover:no-underline hover:shadow-md"
               >
                 <span className="text-heading text-ink">{s.title}</span>
                 <span className="mt-1 block text-ink-muted">{s.blurb}</span>
@@ -79,7 +79,9 @@ export default function HomePage(): ReactElement {
         </ul>
       </section>
 
-      <p className="text-ink-muted">Play-money markets are coming next.</p>
+      <p className="text-ink-muted">
+        Markets are open: <Link href="/markets">trade play money minerals</Link> on ASL matches.
+      </p>
     </div>
   );
 }

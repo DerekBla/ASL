@@ -34,6 +34,23 @@ From the old spreadsheet's placement fills. Used by `PlacementBadge`, with `text
 | `bg-medal-silver` | `#E8E8EC` | 2nd |
 | `bg-medal-bronze` | `#F5DEC0` | 3rd and 4th |
 
+## The soft look (Derek, 2026-10-07)
+
+The site should feel calm, not sharp: a warm page, white cards with a gentle shadow, light
+borders, generous padding, rounded corners, pill shapes for badges and buttons, medium (not
+bold) weights, and links without underlines until hover. Use the shared classes in
+`globals.css` instead of rebuilding these by hand:
+
+| Class | Use |
+|---|---|
+| `card` | Any boxed section or table: radius 1.25rem, light border, `shadow-soft`, `bg-card` |
+| `stat` | A small figure tile (label + number) |
+| `notice` | A quiet message box on `bg-surface-muted` |
+| `field` | Text inputs and selects, with a soft focus ring |
+
+Primary buttons use `bg-accent text-on-accent` (white on light, near-black on the light
+dark-mode accent).
+
 ## Surface colors
 
 These follow the system light/dark setting through `prefers-color-scheme`. There is no
@@ -41,8 +58,9 @@ JavaScript theme switch.
 
 | Utility | Use |
 |---|---|
-| `bg-surface` | Page background |
-| `bg-surface-muted` | Cards, table header rows, the footer |
+| `bg-surface` | Page background (warm off-white / near-black) |
+| `bg-card` | Cards, tables, header, tooltips |
+| `bg-surface-muted` | Notices, hovered rows, secondary buttons |
 | `text-ink` | Body text |
 | `text-ink-muted` | Secondary text, captions |
 | `border-line` | Borders and dividers |
@@ -51,12 +69,28 @@ JavaScript theme switch.
 Tailwind's `dark:` variant also follows the system setting, for the rare case a component
 needs a one-off dark style.
 
+## Chart colors
+
+Validated with the dataviz palette checks against `--card` in both modes. Assign in this
+fixed order and never cycle: an outcome keeps its color.
+
+| Utility | Light | Dark |
+|---|---|---|
+| `series-1` (also `chart-line`) | `#2a78d6` | `#3987e5` |
+| `series-2` | `#eb6834` | `#d95926` |
+| `series-3` | `#1baf7a` | `#199e70` |
+| `series-4` | `#eda100` | `#c98500` |
+
+Series 3 and 4 are below 3:1 against white, so any chart using them shows direct labels or a
+table (the price chart does both). Charts with more than four outcomes plot the four most
+likely and keep every price in the table.
+
 ## Type scale
 
 | Utility | Size / line height | Use |
 |---|---|---|
-| `text-display` | 2.25rem / 2.5rem, bold | Page title (`h1` default) |
-| `text-title` | 1.5rem / 2rem | Section title (`h2` default), large figures |
+| `text-display` | 2rem / 2.5rem, weight 650 | Page title (`h1` default) |
+| `text-title` | 1.375rem / 1.875rem, weight 600 | Section title (`h2` default), large figures |
 | `text-heading` | 1.125rem / 1.75rem | Sub-section (`h3` default) |
 | `text-body` | 1rem / 1.5rem | Body (default) |
 | `text-data` | 0.875rem / 1.25rem | Table cells; pair with `tabular-nums` for numbers |

@@ -11,7 +11,7 @@ export const S22_FINAL = {
   slug: "asl-s22-final-rush-vs-soulkey",
   question: "Who wins the ASL Season 22 Grand Final: Rush or Soulkey?",
   description:
-    "Best-of-seven grand final at Lotte World Ice Rink, Seoul. Resolves to the player who wins the series. " +
+    "Best of seven grand final at Lotte World Ice Rink, Seoul. Resolves to the player who wins the series. " +
     "Voided if the final is cancelled or not played. Source: Liquipedia, ASL Season 22.",
   b: DEFAULT_B_BINARY,
   closesAt: "2026-10-17T06:00:00.000Z",

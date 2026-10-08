@@ -12,8 +12,8 @@ type Props = {
 };
 
 function tierClass(best: number): string {
-  if (best === 1) return "bg-medal-gold text-race-ink font-semibold";
-  if (best === 2) return "bg-medal-silver text-race-ink font-semibold";
+  if (best === 1) return "bg-medal-gold text-race-ink font-medium";
+  if (best === 2) return "bg-medal-silver text-race-ink font-medium";
   if (best <= 4) return "bg-medal-bronze text-race-ink";
   if (best <= 8) return "bg-surface-muted text-ink";
   return "text-ink-muted";
@@ -23,7 +23,7 @@ function tierClass(best: number): string {
 export function PlacementBadge({ placement }: Props): ReactElement {
   return (
     <span
-      className={`inline-block rounded px-1.5 text-data leading-5 whitespace-nowrap tabular-nums ${tierClass(placement.best)}`}
+      className={`inline-block rounded-full px-2.5 text-data leading-6 whitespace-nowrap tabular-nums ${tierClass(placement.best)}`}
     >
       {placement.label}
     </span>

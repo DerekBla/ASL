@@ -6,7 +6,7 @@ import { findPlayer, getHeadToHead } from "@/lib/services/stats";
 import { HeadToHeadForm, HeadToHeadResult } from "@/features/stats";
 
 export const metadata: Metadata = {
-  title: "Head-to-head",
+  title: "Head to head",
   description: "Every ASL series between two players, and how they placed in seasons both entered.",
 };
 
@@ -36,7 +36,7 @@ export default async function HeadToHeadPage({ searchParams }: Props): Promise<R
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-2">
-        <h1>Head-to-head</h1>
+        <h1>Head to head</h1>
         <p className="text-ink-muted">
           Pick two players to see every ASL series between them and how they placed in seasons both
           entered. Old spellings work too (for example, BeSt finds Best).
@@ -44,7 +44,7 @@ export default async function HeadToHeadPage({ searchParams }: Props): Promise<R
       </header>
       <HeadToHeadForm a={h2h?.a.player ?? a} b={h2h?.b.player ?? b} />
       {problem ? (
-        <p role="alert" className="rounded-md border border-line bg-surface-muted p-3">
+        <p role="alert" className="notice">
           {problem}
         </p>
       ) : null}

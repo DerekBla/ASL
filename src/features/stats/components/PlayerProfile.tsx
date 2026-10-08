@@ -106,7 +106,7 @@ export function PlayerProfile({ player }: Props): ReactElement {
         <Link
           href={`/head-to-head?a=${encodeURIComponent(player.player)}&b=${encodeURIComponent(name)}`}
         >
-          Head-to-head
+          Head to head
         </Link>
       ),
     },
@@ -117,7 +117,7 @@ export function PlayerProfile({ player }: Props): ReactElement {
     <div className="flex flex-col gap-8">
       <dl className="grid grid-cols-2 gap-3 sm:grid-cols-3">
         {facts.map((f) => (
-          <div key={f.label} className="rounded-lg border border-line bg-surface-muted p-3">
+          <div key={f.label} className="stat">
             <dt className="text-caption text-ink-muted">{f.label}</dt>
             <dd className="text-heading tabular-nums">{f.value}</dd>
           </div>
@@ -125,13 +125,13 @@ export function PlayerProfile({ player }: Props): ReactElement {
       </dl>
       {elo ? (
         <p className="-mt-5 text-caption text-ink-muted">
-          ELO rank {elo.rank}, peak in {formatSeason(elo.peakSeason)}. Placement-based: it rates
-          where a player finished each season, not individual games.
+          ELO rank {elo.rank}, peak in {formatSeason(elo.peakSeason)}. This ELO comes from season
+          placements: it rates where a player finished each season, not individual games.
         </p>
       ) : null}
 
       {elo ? (
-        <section aria-label="ELO history" className="rounded-lg border border-line p-4">
+        <section aria-label="ELO history" className="card p-5">
           <EloChart
             player={player.player}
             history={elo.history}

@@ -8,7 +8,7 @@ import { EloTable } from "@/features/stats";
 
 export const metadata: Metadata = {
   title: "ELO ratings",
-  description: "Placement-based ELO for every ASL player, current and peak.",
+  description: "ELO from season placements for every ASL player, current and peak.",
 };
 
 export default function EloPage(): ReactElement {
@@ -18,7 +18,7 @@ export default function EloPage(): ReactElement {
       <header className="flex flex-col gap-2">
         <h1>ELO ratings</h1>
         <p className="text-ink-muted">
-          Placement-based ELO across all {seasons.complete} seasons: every player starts at{" "}
+          ELO from season placements across all {seasons.complete} seasons: every player starts at{" "}
           {formatInteger(elo.start)}, and each season counts every pair of players who finished in
           different tiers as one game won by the higher finisher (K = {elo.k}). It measures how deep
           players go, not individual game results.

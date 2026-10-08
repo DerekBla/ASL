@@ -64,7 +64,7 @@ export function MarketControls({ marketId, slug, status, outcomes }: Props): Rea
           <select
             value={winner}
             onChange={(e) => setWinner(Number(e.target.value))}
-            className="rounded-md border border-line bg-surface px-2 py-1"
+            className="field px-2.5 py-1"
           >
             {outcomes.map((o) => (
               <option key={o.idx} value={o.idx}>
@@ -78,7 +78,7 @@ export function MarketControls({ marketId, slug, status, outcomes }: Props): Rea
           <input
             value={note}
             onChange={(e) => setNote(e.target.value)}
-            className="rounded-md border border-line bg-surface px-2 py-1"
+            className="field px-2.5 py-1"
           />
         </label>
         {confirming === "resolve" ? (

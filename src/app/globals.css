@@ -6,6 +6,10 @@
  * Race colors are fixed by CLAUDE.md Domain Rules. Use the utilities they generate
  * (bg-race-terran-pale, text-race-zerg-dark, ...) and never the hex values. Pale is for
  * player and data cells, dark is for section headers only.
+ *
+ * The look is soft on purpose (Derek, 2026-10-07): warm page, white cards with a gentle
+ * shadow, light borders, rounded corners, pills for badges and buttons, no underlines until
+ * hover.
  */
 @theme {
   --color-race-terran-pale: #eaf3fb;
@@ -28,55 +32,80 @@
   --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Menlo, Consolas, monospace;
 
   /* Type scale. Numbers in tables use text-data with tabular figures. */
-  --text-display: 2.25rem;
+  --text-display: 2rem;
   --text-display--line-height: 2.5rem;
-  --text-display--font-weight: 700;
-  --text-title: 1.5rem;
-  --text-title--line-height: 2rem;
-  --text-title--font-weight: 650;
-  --text-heading: 1.125rem;
-  --text-heading--line-height: 1.75rem;
+  --text-display--font-weight: 650;
+  --text-display--letter-spacing: -0.02em;
+  --text-title: 1.375rem;
+  --text-title--line-height: 1.875rem;
+  --text-title--font-weight: 600;
+  --text-title--letter-spacing: -0.01em;
+  --text-heading: 1.0625rem;
+  --text-heading--line-height: 1.625rem;
   --text-heading--font-weight: 600;
   --text-body: 1rem;
-  --text-body--line-height: 1.5rem;
+  --text-body--line-height: 1.6rem;
   --text-data: 0.875rem;
   --text-data--line-height: 1.25rem;
   --text-caption: 0.8125rem;
-  --text-caption--line-height: 1.125rem;
+  --text-caption--line-height: 1.2rem;
+
+  --radius-card: 1.25rem;
 }
 
 /* Surface colors follow the system light/dark setting. No JavaScript theme switching. */
 :root {
-  --surface: #ffffff;
-  --surface-muted: #f4f6f9;
-  --ink: #1a1f2b;
-  --ink-muted: #566072;
-  --line: #d9dee7;
-  --accent: #2b5fa8;
-  --chart-line: #2b5fa8;
+  --surface: #f6f6f3; /* page */
+  --card: #ffffff;
+  --surface-muted: #efefeb;
+  --ink: #262a33;
+  --ink-muted: #6b7180;
+  --line: #e4e5e1;
+  --accent: #2f68c4;
+  --on-accent: #ffffff;
+  --shadow-soft: 0 1px 2px rgb(30 34 44 / 0.04), 0 6px 20px rgb(30 34 44 / 0.05);
+  /* Chart series, validated with the dataviz palette checks against --card (fixed order). */
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+  --series-4: #eda100;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface: #12151b;
-    --surface-muted: #1b2029;
-    --ink: #e8ebf1;
-    --ink-muted: #a3acbb;
-    --line: #2c3340;
+    --surface: #111318;
+    --card: #191c22;
+    --surface-muted: #20242b;
+    --ink: #e7e9ee;
+    --ink-muted: #9aa2b1;
+    --line: #2a2f38;
     --accent: #8db8f0;
-    --chart-line: #4f8fe8;
+    --on-accent: #0f1726;
+    --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.3), 0 6px 20px rgb(0 0 0 / 0.25);
+    --series-1: #3987e5;
+    --series-2: #d95926;
+    --series-3: #199e70;
+    --series-4: #c98500;
   }
 }
 
 @theme inline {
   --color-surface: var(--surface);
+  --color-card: var(--card);
   --color-surface-muted: var(--surface-muted);
   --color-ink: var(--ink);
   --color-ink-muted: var(--ink-muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
-  /* Single-series chart line, validated with the dataviz checks on both surfaces. */
-  --color-chart-line: var(--chart-line);
+  /* Text on an accent fill (primary buttons): white on light, near-black on the light dark-mode accent. */
+  --color-on-accent: var(--on-accent);
+  --color-series-1: var(--series-1);
+  --color-series-2: var(--series-2);
+  --color-series-3: var(--series-3);
+  --color-series-4: var(--series-4);
+  /* Single-series charts use the first series color. */
+  --color-chart-line: var(--series-1);
+  --shadow-soft: var(--shadow-soft);
 }
 
 @layer base {
@@ -101,10 +130,33 @@
   }
 
   a {
-    @apply text-accent underline underline-offset-2;
+    @apply text-accent no-underline underline-offset-4 transition-colors;
+  }
+
+  a:hover {
+    @apply underline decoration-1;
   }
 
   :focus-visible {
-    @apply outline-2 outline-offset-2 outline-accent;
+    @apply rounded-md outline-2 outline-offset-2 outline-accent;
+  }
+}
+
+/* Shared surfaces, so the soft look lives in one place (conventions: @layer components). */
+@layer components {
+  .card {
+    @apply rounded-[var(--radius-card)] border border-line/70 bg-card shadow-soft;
+  }
+
+  .stat {
+    @apply rounded-2xl bg-card px-4 py-3 shadow-soft;
+  }
+
+  .notice {
+    @apply rounded-2xl bg-surface-muted px-4 py-3;
+  }
+
+  .field {
+    @apply rounded-xl border border-line bg-card px-3.5 py-2 transition-shadow outline-none focus:border-accent focus:ring-4 focus:ring-accent/15;
   }
 }

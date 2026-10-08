@@ -37,15 +37,11 @@ export function TradePanel({ market, me, signInHref }: Props): ReactElement {
   const trade = usePlaceTrade(market.slug);
 
   if (market.status !== "open") {
-    return (
-      <p className="rounded-md border border-line bg-surface-muted p-4">
-        Trading has closed on this market.
-      </p>
-    );
+    return <p className="notice">Trading has closed on this market.</p>;
   }
   if (!me?.signedIn) {
     return (
-      <p className="rounded-md border border-line bg-surface-muted p-4">
+      <p className="notice">
         <a href={signInHref}>Sign in</a> to trade. New players start with 100 minerals.
       </p>
     );
@@ -105,17 +101,13 @@ export function TradePanel({ market, me, signInHref }: Props): ReactElement {
       : null;
 
   return (
-    <form
-      onSubmit={submit}
-      className="flex flex-col gap-4 rounded-lg border border-line p-4"
-      aria-label="Trade"
-    >
+    <form onSubmit={submit} className="card flex flex-col gap-4 p-5" aria-label="Trade">
       <fieldset className="flex flex-col gap-2">
         <legend className="mb-1 font-semibold">Outcome</legend>
         {market.outcomes.map((o) => (
           <label
             key={o.idx}
-            className="flex items-center justify-between gap-3 rounded-md border border-line px-3 py-2"
+            className="flex cursor-pointer items-center justify-between gap-3 rounded-xl border border-line px-3.5 py-2.5 transition-colors hover:bg-surface-muted has-[:checked]:border-accent has-[:checked]:bg-accent/5"
           >
             <span className="flex items-center gap-2">
               <input
@@ -157,7 +149,7 @@ export function TradePanel({ market, me, signInHref }: Props): ReactElement {
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
           placeholder={side === "buy" ? "5" : "1"}
-          className="rounded-md border border-line bg-surface px-3 py-2 tabular-nums"
+          className="field tabular-nums"
         />
       </label>
 
@@ -192,11 +184,11 @@ export function TradePanel({ market, me, signInHref }: Props): ReactElement {
       </Button>
 
       {error ? (
-        <p role="alert" className="rounded-md border border-line bg-surface-muted p-3">
+        <p role="alert" className="notice">
           {error}
         </p>
       ) : result && "data" in result ? (
-        <p role="status" className="rounded-md border border-line bg-surface-muted p-3">
+        <p role="status" className="notice">
           {result.data.shares > 0
             ? `Bought ${result.data.shares.toFixed(2)} shares for ${formatMinerals(result.data.cost)}.`
             : `Sold ${(-result.data.shares).toFixed(2)} shares for ${formatMinerals(-result.data.cost)}.`}{" "}

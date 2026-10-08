@@ -14,10 +14,7 @@ export function MatchContext({ players }: { players: readonly string[] }): React
   const h2h = a && b ? getHeadToHead(a.player, b.player) : undefined;
 
   return (
-    <section
-      aria-labelledby="context-heading"
-      className="flex flex-col gap-3 rounded-lg border border-line p-4"
-    >
+    <section aria-labelledby="context-heading" className="flex flex-col gap-3 card p-5">
       <h2 id="context-heading">ASL history</h2>
       <ul className="flex flex-col gap-1">
         {known.map((p) => {
@@ -38,7 +35,7 @@ export function MatchContext({ players }: { players: readonly string[] }): React
       </ul>
       {h2h && a && b ? (
         <p>
-          Head-to-head in ASL series: {a.player} {h2h.winsA}–{h2h.winsB} {b.player}.{" "}
+          Head to head in ASL series: {a.player} {h2h.winsA}–{h2h.winsB} {b.player}.{" "}
           <Link
             href={`/head-to-head?a=${encodeURIComponent(a.player)}&b=${encodeURIComponent(b.player)}`}
           >

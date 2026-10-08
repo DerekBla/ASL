@@ -5,7 +5,7 @@ import { SeasonsTable } from "@/features/stats";
 
 export const metadata: Metadata = {
   title: "Seasons",
-  description: "Every ASL season: champion, runner-up, final score, dates and prize pool.",
+  description: "Every ASL season: champion, runner up, final score, dates and prize pool.",
 };
 
 export default function SeasonsPage(): ReactElement {

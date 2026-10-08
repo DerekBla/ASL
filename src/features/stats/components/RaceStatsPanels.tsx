@@ -12,9 +12,9 @@ import { RaceBadge } from "@/components/RaceBadge";
 const OVERALL_COLUMNS: DataTableColumn[] = [
   { key: "race", header: "Race" },
   { key: "titles", header: "Titles", align: "right", firstSort: "desc" },
-  { key: "runnerUps", header: "Runner-ups", align: "right", firstSort: "desc" },
+  { key: "runnerUps", header: "Finals lost", align: "right", firstSort: "desc" },
   { key: "titleShare", header: "Share of titles", align: "right", firstSort: "desc" },
-  { key: "entries", header: "Player-seasons", align: "right", firstSort: "desc" },
+  { key: "entries", header: "Seasons entered", align: "right", firstSort: "desc" },
   { key: "entryShare", header: "Share of field", align: "right", firstSort: "desc" },
 ];
 
@@ -35,7 +35,7 @@ function MatchupMatrix({ title, data }: { title: string; data: Matchups }): Reac
     return r ? `${formatPercent(r.winRate)} (${r.wins}–${r.losses})` : "–";
   };
   return (
-    <div className="overflow-x-auto rounded-lg border border-line">
+    <div className="card overflow-x-auto">
       <table className="w-full border-collapse text-data">
         <caption className="px-3 py-2 text-left text-caption text-ink-muted">{title}</caption>
         <thead className="bg-surface-muted">
@@ -113,7 +113,7 @@ export function RaceStatsPanels(): ReactElement {
       <section aria-labelledby="matchups-heading" className="flex flex-col gap-3">
         <h2 id="matchups-heading">Matchups</h2>
         <p className="text-ink-muted">
-          Counted in series, not games: a best-of-seven final is one series. Read across a row: the
+          Counted in series, not games: a best of seven final is one series. Read across a row: the
           row race&apos;s series win rate against the column race.
         </p>
         <MatchupMatrix

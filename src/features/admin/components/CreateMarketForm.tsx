@@ -107,7 +107,7 @@ export function CreateMarketForm({ presets }: Props): ReactElement {
     });
   }
 
-  const field = "rounded-md border border-line bg-surface px-3 py-2";
+  const field = "field";
   return (
     <form onSubmit={submit} className="flex flex-col gap-3" aria-label="Create a market">
       <div className="flex flex-wrap gap-2">
@@ -184,7 +184,7 @@ export function CreateMarketForm({ presets }: Props): ReactElement {
         {pending ? "Creating…" : "Create market"}
       </Button>
       {message ? (
-        <p role="alert" className="rounded-md border border-line bg-surface-muted p-3">
+        <p role="alert" className="notice">
           {message}
         </p>
       ) : null}

@@ -35,7 +35,7 @@ describe("/seasons/[season]", () => {
   it("shows the final, playoffs and all placements", async () => {
     render(await SeasonPage({ params: Promise.resolve({ season: "5" }) }));
     expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("ASL Season 5");
-    expect(screen.getByRole("heading", { name: "Third-place match" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Third place match" })).toBeInTheDocument();
     const placements = screen.getByRole("table", { name: /best finish first/ });
     expect(rowsOf(placements)).toHaveLength(28);
     expect(within(rowsOf(placements)[0] as HTMLElement).getByText("Rain")).toBeInTheDocument();
@@ -112,7 +112,7 @@ describe("/elo", () => {
     expect(
       within(rowsOf(table)[0] as HTMLElement).getByText(top?.player ?? ""),
     ).toBeInTheDocument();
-    expect(screen.getByText(/Placement-based ELO/)).toBeInTheDocument();
+    expect(screen.getByText(/ELO from season placements/)).toBeInTheDocument();
   });
 });
 

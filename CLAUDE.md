@@ -72,6 +72,11 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg. Liquipedia gives no race for
   `815` (Zerg), `Queen` (Zerg) and `ivOry` (Terran); Derek supplied those in
   `data/source/overrides.json`. A new player with no race is `null` until he adds one.
+- **No dashes in prose** (Derek, 2026-10-07): site copy never uses a dash or hyphen in ordinary
+  sentences or labels ("Head to head", "play money", "third place match"). Dashes stay in
+  number notation: scores `4–3`, placements `9th–12th`, records `16–2`, date ranges, and `–`
+  for an empty cell. Proper names keep theirs (`CC-BY-SA`). `src/app/__tests__/copy-dashes.test.tsx`
+  enforces it on the main pages; URLs like `/head-to-head` are unaffected.
 - **Attribution**: stats text and results derive from Liquipedia (CC-BY-SA 3.0). The site must
   credit Liquipedia and link the source pages (`seasons.json` carries each URL).
 - **ELO** is placement-based (start 1500, K=32, pairwise by placement tier), not match-based.

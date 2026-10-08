@@ -9,7 +9,7 @@ const NAV = [
   { href: "/seasons", label: "Seasons" },
   { href: "/players", label: "Players" },
   { href: "/elo", label: "ELO" },
-  { href: "/head-to-head", label: "Head-to-head" },
+  { href: "/head-to-head", label: "Head to head" },
   { href: "/races", label: "Races" },
 ] as const;
 
@@ -20,16 +20,19 @@ type Props = {
 
 export function SiteHeader({ account }: Props): ReactElement {
   return (
-    <header className="border-b border-line">
+    <header className="sticky top-0 z-20 border-b border-line/70 bg-surface/85 backdrop-blur-md">
       <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
-        <Link href="/" className="font-bold text-ink no-underline">
+        <Link href="/" className="text-heading text-ink no-underline hover:no-underline">
           {SITE_NAME}
         </Link>
         <nav aria-label="Main">
-          <ul className="flex flex-wrap gap-x-4 gap-y-1">
+          <ul className="flex flex-wrap gap-1">
             {NAV.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="text-ink no-underline hover:text-accent">
+                <Link
+                  href={item.href}
+                  className="rounded-full px-3 py-1.5 text-data text-ink-muted no-underline transition-colors hover:bg-surface-muted hover:text-ink hover:no-underline"
+                >
                   {item.label}
                 </Link>
               </li>

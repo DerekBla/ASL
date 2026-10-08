@@ -12,7 +12,7 @@ describe("SiteFooter", () => {
 
   it("says minerals are play money with no monetary value", () => {
     render(<SiteFooter />);
-    expect(screen.getByText(/play-money minerals only/i)).toBeInTheDocument();
+    expect(screen.getByText(/play money minerals only/i)).toBeInTheDocument();
     expect(screen.getByText(/no monetary value/i)).toBeInTheDocument();
   });
 

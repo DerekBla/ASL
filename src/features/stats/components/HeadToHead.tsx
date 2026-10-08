@@ -18,7 +18,7 @@ const STAGE: Record<string, string> = {
 };
 const ROUND: Record<string, string> = {
   final: "Final",
-  third_place: "Third-place match",
+  third_place: "Third place match",
   semifinal: "Semifinal",
   quarterfinal: "Quarterfinal",
 };
@@ -40,7 +40,7 @@ export function HeadToHeadForm({ a, b }: FormProps): ReactElement {
           defaultValue={a}
           required
           autoComplete="off"
-          className="rounded-md border border-line bg-surface px-3 py-2"
+          className="field"
         />
       </label>
       <label className="flex flex-col gap-1">
@@ -51,7 +51,7 @@ export function HeadToHeadForm({ a, b }: FormProps): ReactElement {
           defaultValue={b}
           required
           autoComplete="off"
-          className="rounded-md border border-line bg-surface px-3 py-2"
+          className="field"
         />
       </label>
       <Button type="submit">Compare</Button>

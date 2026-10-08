@@ -9,8 +9,8 @@ import {
 
 export function SiteFooter(): ReactElement {
   return (
-    <footer className="border-t border-line bg-surface-muted">
-      <div className="mx-auto flex w-full max-w-5xl flex-col gap-1 px-4 py-6 text-caption text-ink-muted">
+    <footer className="mt-16 border-t border-line/70">
+      <div className="mx-auto flex w-full max-w-5xl flex-col gap-1.5 px-4 py-8 text-caption text-ink-muted">
         <p>{DISCLAIMER}</p>
         <p>{PLAY_MONEY_NOTICE}</p>
         <p>

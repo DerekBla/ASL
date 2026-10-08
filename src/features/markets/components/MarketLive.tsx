@@ -42,14 +42,14 @@ export function MarketLive({ slug, signInHref, context }: Props): ReactElement {
           {m.traders === 1 ? "player" : "players"}
         </p>
         {winner ? (
-          <p className="rounded-md bg-medal-gold p-3 text-race-ink">
+          <p className="rounded-2xl bg-medal-gold px-4 py-3 text-race-ink">
             <strong>{winner.label}</strong> won. Each {winner.label} share paid 1 mineral.
             {m.resolutionNote ? ` ${m.resolutionNote}` : ""}
           </p>
         ) : null}
         <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2">
           {m.outcomes.map((o) => (
-            <li key={o.idx} className="rounded-lg border border-line p-4">
+            <li key={o.idx} className="card p-5">
               <span className="block text-caption text-ink-muted">{o.label}</span>
               <span className="text-display tabular-nums">{formatProbability(o.price)}</span>
             </li>

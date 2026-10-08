@@ -25,7 +25,7 @@ const PLACEMENT_COLUMNS: DataTableColumn[] = [
 const ROUND_ORDER = ["final", "third_place", "semifinal", "quarterfinal"];
 const ROUND_LABEL: Record<string, string> = {
   final: "Final",
-  third_place: "Third-place match",
+  third_place: "Third place match",
   semifinal: "Semifinal",
   quarterfinal: "Quarterfinal",
 };
@@ -81,7 +81,7 @@ export function SeasonDetail({ season }: Props): ReactElement {
     <div className="flex flex-col gap-8">
       <dl className="grid grid-cols-1 gap-3 sm:grid-cols-3">
         {facts.map((f) => (
-          <div key={f.label} className="rounded-lg border border-line bg-surface-muted p-3">
+          <div key={f.label} className="stat">
             <dt className="text-caption text-ink-muted">{f.label}</dt>
             <dd className="text-heading tabular-nums">{f.value}</dd>
           </div>
@@ -106,7 +106,7 @@ export function SeasonDetail({ season }: Props): ReactElement {
         })}
         {season.thirdPlaceMatch ? null : (
           <p className="text-caption text-ink-muted">
-            No third-place match this season, so both semifinal losers share 3rd.
+            No third place match this season, so both semifinal losers share 3rd.
           </p>
         )}
       </section>
@@ -124,7 +124,7 @@ export function SeasonDetail({ season }: Props): ReactElement {
         <h2 id="groups-heading">Group stages</h2>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           {[...groups].map(([name, matches]) => (
-            <div key={name} className="rounded-lg border border-line p-3">
+            <div key={name} className="card p-4">
               <h3 className="mb-2">{name}</h3>
               <ul className="flex flex-col gap-1 text-data">
                 {matches.map((s, i) => (
