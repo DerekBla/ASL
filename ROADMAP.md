@@ -59,11 +59,11 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Drafts: fantasy ASL leagues | Requested by Derek 2026-10-08. Built: `/drafts`, invite links, snake draft with a 60 second clock, 1 point per game win, game wins fetched from Liquipedia in `/admin`, Draft champion. Spec: `Docs/feature-specs/drafts.md`. A sound plays when it is your pick. Decisions approved by Derek and migration applied 2026-10-08. Waiting on a production deploy <!-- updated: 2026-10-08 --> |
 | in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive
 
+- [implemented 2026-10-08] Drafts: fantasy ASL leagues — requested and approved by Derek. `/drafts`, invite links, snake draft with a 60 second clock and a sound on your pick, 1 point per game win plus a bonus point for the round of 8, round of 4, final and title, game wins fetched from Liquipedia in `/admin`, Draft champion. Feature spec: `Docs/feature-specs/drafts.md`
 - [implemented 2026-10-08] Pick'em: season brackets, public standings, achievements — requested and approved by Derek. `/pickem`, `/pickem/[season]`, bracket pages, admin setup and results. Feature spec: `Docs/feature-specs/pickem.md`. First use is S23
 - [implemented 2026-10-07] Markets: list + market detail with trade panel — `/markets`, `/markets/[slug]`, live polling, trade panel with preview. Works once the Neon and Clerk keys are set
 - [implemented 2026-10-07] Portfolio — `/portfolio`. Works once the Neon and Clerk keys are set
@@ -97,10 +97,10 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | Status | Item | Notes |
 |---|---|---|
 | in-progress | Component library baseline | Built 2026-10-07: Button (primary, secondary), DataTable, RaceBadge, PlacementBadge, SiteHeader. Remaining, with markets: Input, Modal, Toast, PriceChip, more Button variants — see `Docs/components/` <!-- updated: 2026-10-07 --> |
-| in-progress | Landing page and clearer labels | Requested by Derek 2026-10-08 after feedback from a friend. Built: intro leads with stats and explains the three games, navigation in two labeled groups (Stats, Play), nav labels match page headings, a plain intro on every index page. Waiting on a deploy <!-- updated: 2026-10-08 --> |
 | approved | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> <!-- approved by Derek 2026-10-07 --> |
 | approved | Skeleton components | One skeleton per async surface before Suspense fallback <!-- approved by Derek 2026-10-07 --> |
 
 ### Archive
 
+- [implemented 2026-10-08] Landing page and clearer labels — requested by Derek after feedback from a friend. Intro leads with stats and explains the three games, navigation in two labeled groups (Stats, Play), nav labels match page headings, a plain intro on every index page
 - [implemented 2026-10-07] Price history chart — Line chart per outcome on the market page. Works once the Neon and Clerk keys are set

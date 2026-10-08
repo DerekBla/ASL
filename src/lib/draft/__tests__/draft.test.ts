@@ -1,12 +1,14 @@
 import { describe, expect, it } from "vitest";
 
+import { ASL_ROUNDS } from "@/lib/pickem/asl-format";
+
 import { makeGameWins, makePickemConfig, makeResults } from "@/test/factories/pickem";
 
 import {
+  bonusPoints,
   buildPool,
   nextAvailable,
   pickerIndex,
-  playerPoints,
   teamSizeOptions,
   teamStandings,
 } from "../draft";
@@ -46,9 +48,20 @@ describe("the player pool", () => {
 });
 
 describe("scoring", () => {
-  it("pays one point per game a player has won", () => {
-    expect(playerPoints(wins, "soma")).toBe(9);
-    expect(playerPoints(wins, "Mini")).toBe(0);
+  it("pays a bonus point for each late round a player gets through", () => {
+    // soma is seeded into the last 8, then reaches the last 4, the final, and wins it.
+    expect(bonusPoints(config, results, "soma")).toBe(3);
+    expect(bonusPoints(config, results, "Bisu")).toBe(1);
+    expect(bonusPoints(config, results, "Mini")).toBe(0);
+    expect(bonusPoints(config, {}, "soma")).toBe(0);
+  });
+
+  it("does not pay a bonus for getting out of the round of 24", () => {
+    const asl = { ...config, rounds: [...ASL_ROUNDS] };
+    const run = ["Flash"];
+    const through = { ro24: run, ro16: run, ro8: run, ro4: run, final: run };
+    expect(bonusPoints(asl, { ro24: run }, "Flash")).toBe(0);
+    expect(bonusPoints(asl, through, "Flash")).toBe(4);
   });
 
   const members = [
@@ -68,13 +81,13 @@ describe("scoring", () => {
   it("ranks teams by their players' points and crowns the winner at the end", () => {
     const table = teamStandings(config, results, wins, members, picks);
     expect(table.map((t) => [t.displayName, t.rank, t.points, t.champion])).toEqual([
-      ["Ann", 1, 12, true],
-      ["Bo", 2, 9, false],
-      ["Cy", 3, 3, false],
+      ["Ann", 1, 17, true], // Flash 8 + 3, Soulkey 4 + 2
+      ["Bo", 2, 12, false], // soma 9 + 3, Mini 0
+      ["Cy", 3, 4, false],
     ]);
     expect(table[2]?.players).toEqual([
-      { player: "Light", points: 1, out: true },
-      { player: "Rain", points: 2, out: true },
+      { player: "Light", wins: 1, bonus: 0, points: 1, out: true },
+      { player: "Rain", wins: 2, bonus: 1, points: 3, out: true },
     ]);
   });
 

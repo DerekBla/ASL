@@ -88,14 +88,14 @@ Status markers:
 
 ── Drafts (fantasy) ──────────────────────────────────────────────
 
-[Drafts Index]  [WIP]
+[Drafts Index]  [LIVE]
   ├─ Start a draft for an open season  →  [Draft League]
   └─ Your drafts  →  [Draft League]
 
-[Draft Invite]  [WIP]
+[Draft Invite]  [LIVE]
   └─ Join (signed in)  →  [Draft League]
 
-[Draft League]  [WIP]
+[Draft League]  [LIVE]
   ├─ Lobby: managers, invite link, owner picks team size and starts
   ├─ Draft room: snake order, 60 second clock, pick a free player
   └─ Standings: 1 point per game win, Draft champion at the end of the season

@@ -281,7 +281,7 @@ describe("the pick clock", () => {
 });
 
 describe("standings", () => {
-  it("scores a point per game won and crowns a champion once the season is decided", async () => {
+  it("scores game wins plus round bonuses and crowns a champion at the end", async () => {
     const { id, order } = await drafting();
     await rewindClock(id, 6 * 60 + 1);
     await advanceDraft(db, id);
@@ -306,12 +306,12 @@ describe("standings", () => {
     await saveResults(db, { season: SEASON, results: makeResults(), note: "", adminId: admin });
     expect((await view(id)).seasonComplete).toBe(true);
     expect(await table()).toEqual([
-      [a, 1, 12, true],
-      [b, 2, 9, false],
-      [c, 3, 6, false],
+      [a, 1, 15, true], // soma 12 + 3 bonus, Mini 0
+      [b, 2, 12, false], // Flash 8 + 3, Light 1
+      [c, 3, 9, false], // Soulkey 4 + 2, Rain 2 + 1
     ]);
     expect(await listLeaguesFor(db, a)).toMatchObject([
-      { id, name: "ASL Boys", status: "drafted", members: 3, rank: 1, points: 12, champion: true },
+      { id, name: "ASL Boys", status: "drafted", members: 3, rank: 1, points: 15, champion: true },
     ]);
     expect(await listLeaguesFor(db, admin)).toEqual([]);
   });

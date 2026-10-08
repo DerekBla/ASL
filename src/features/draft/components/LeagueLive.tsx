@@ -233,7 +233,9 @@ function Teams({ league, viewerId }: Panel): ReactElement {
       <h2 id="teams-heading">{scored ? "Standings" : "Teams so far"}</h2>
       {scored ? (
         <p className="text-caption text-ink-muted">
-          A team scores 1 point for every game one of its players wins this season.{" "}
+          A team scores 1 point for every game one of its players wins this season, plus 1 bonus
+          point each time a player reaches the round of 8, the round of 4, the final, and wins the
+          title.{" "}
           {league.seasonComplete
             ? "The season is over, so these standings are final."
             : "Points are added as results come in."}
@@ -273,7 +275,16 @@ function Teams({ league, viewerId }: Panel): ReactElement {
                     <RaceBadge race={race.get(p.player) ?? null} />
                     <span className={p.out ? "text-ink-muted" : ""}>{p.player}</span>
                     {p.out ? <span className="text-caption text-ink-muted">(out)</span> : null}
-                    {scored ? <span className="ml-auto tabular-nums">{p.points}</span> : null}
+                    {scored ? (
+                      <span className="ml-auto flex items-baseline gap-2 tabular-nums">
+                        {p.bonus > 0 ? (
+                          <span className="text-caption text-ink-muted">
+                            {p.wins} {p.wins === 1 ? "win" : "wins"} + {p.bonus} bonus
+                          </span>
+                        ) : null}
+                        {p.points}
+                      </span>
+                    ) : null}
                   </li>
                 ))}
               </ul>

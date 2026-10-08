@@ -1,12 +1,12 @@
 # Feature Spec: Drafts (fantasy ASL)
 
-**Status**: in-progress (built and migrated 2026-10-08; decisions approved by Derek 2026-10-08; awaiting deploy)
+**Status**: implemented (deployed 2026-10-08; decisions approved by Derek 2026-10-08)
 **Last updated**: 2026-10-08
 **Requested by**: Derek, 2026-10-08. Scoring rule and the Liquipedia fetch are his.
 
 A signed in user starts a private draft league for a coming season and invites friends with a
 link. They draft the season's players in snake order with 60 seconds per pick. Each team scores
-1 point for every game (map) its players win. The best team at the end is the Draft champion.
+1 point for every game (map) its players win, plus bonus points for deep runs. The best team at the end is the Draft champion.
 No minerals move.
 
 ## Routes
@@ -53,6 +53,10 @@ drafted.
 ## Scoring
 
 - 1 point per game won by a player on the team, for the whole season (Derek, 2026-10-08).
+- 1 bonus point each time a player reaches the round of 8, the round of 4, the final, and wins
+  the title (Derek, 2026-10-08): up to 4 per player. Read from the season's pick'em results,
+  as one point for each round a player advances out of that leaves 8 or fewer standing
+  (`BONUS_FIELD`). So bonuses appear when the admin enters results, with no extra step.
 - Game wins live in `pickems.game_wins` (player to number), one table per season.
 - An admin fills them from `/admin`: **Fetch game wins from Liquipedia** reads the season's
   page live (`src/lib/services/liquipedia/`), counts each `{{Map|winner=}}` to its winner, maps

@@ -141,7 +141,7 @@ describe("the pick sound", () => {
 });
 
 describe("standings", () => {
-  it("ranks the teams by game wins and names the Draft champion when the season is over", () => {
+  it("ranks the teams, shows wins and bonus points, and names the Draft champion", () => {
     const picks = [
       { pickNo: 0, userId: "user_ann", player: "soma", auto: false },
       { pickNo: 1, userId: "user_bo", player: "Flash", auto: true },
@@ -166,8 +166,9 @@ describe("standings", () => {
     renderLeague(<LeagueLive initial={league} viewerId="user_ann" />);
 
     const teams = screen.getAllByRole("listitem").filter((li) => li.querySelector("h3"));
-    expect(teams[0]).toHaveTextContent("1. Bo12 pointsDraft champion");
-    expect(teams[1]).toHaveTextContent("2. Ann (you)9 points");
+    expect(teams[0]).toHaveTextContent("1. Bo17 pointsDraft champion");
+    expect(within(teams[0] as HTMLElement).getByText("8 wins + 3 bonus")).toBeInTheDocument();
+    expect(teams[1]).toHaveTextContent("2. Ann (you)12 points");
     expect(within(teams[1] as HTMLElement).getByText("(out)")).toBeInTheDocument();
     expect(screen.getByText("Bo: Flash (picked by the clock)")).toBeInTheDocument();
     expect(screen.getByText(/these standings are final/)).toBeInTheDocument();

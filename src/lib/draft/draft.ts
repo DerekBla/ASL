@@ -2,10 +2,13 @@
  * Fantasy draft rules (Docs/feature-specs/drafts.md). Pure: no I/O, no clock, no DB types.
  *
  * A league drafts the players of one season's pick'em in snake order, then each team scores
- * one point for every game (map) its players win during the season (Derek, 2026-10-08).
+ * one point for every game (map) its players win during the season, plus a bonus point each
+ * time a player reaches the round of 8, the round of 4, the final, and wins it (Derek,
+ * 2026-10-08).
  */
 import { z } from "zod";
 
+import { chosen } from "@/lib/pickem/bracket";
 import { eliminations, isComplete } from "@/lib/pickem/scoring";
 import type { PickemConfig, Selection } from "@/lib/pickem/types";
 import { RACES } from "@/lib/types/race";
@@ -73,12 +76,27 @@ export function buildPool(config: PickemConfig, ranking: readonly string[]): Poo
     .map(({ player, race }) => ({ player, race }));
 }
 
-/** One point per game won. */
-export function playerPoints(gameWins: GameWins, player: string): number {
-  return gameWins[player] ?? 0;
+/** Bonus points start once a round leaves this many players or fewer standing. */
+export const BONUS_FIELD = 8;
+
+/**
+ * One bonus point for each late round a player advances out of: into the last 8, the last 4,
+ * the final, and winning it. Read from the season's pick'em results.
+ */
+export function bonusPoints(config: PickemConfig, results: Selection, player: string): number {
+  return config.rounds.filter(
+    (round) => round.advance <= BONUS_FIELD && chosen(results, round).includes(player),
+  ).length;
 }
 
-export type TeamPlayer = { player: string; points: number; out: boolean };
+export type TeamPlayer = {
+  player: string;
+  /** Games won: one point each. */
+  wins: number;
+  bonus: number;
+  points: number;
+  out: boolean;
+};
 
 export type TeamStanding = {
   rank: number;
@@ -91,8 +109,8 @@ export type TeamStanding = {
 };
 
 /**
- * Teams ranked by points; teams level on points share a rank. The results only say who is
- * out and whether the season is over.
+ * Teams ranked by points; teams level on points share a rank. Game wins come from the
+ * season's table, bonus points and who is out from its results.
  */
 export function teamStandings(
   config: PickemConfig,
@@ -106,11 +124,11 @@ export function teamStandings(
   const teams = members.map((m) => {
     const players = picks
       .filter((p) => p.userId === m.userId)
-      .map((p) => ({
-        player: p.player,
-        points: playerPoints(gameWins, p.player),
-        out: out.has(p.player),
-      }));
+      .map((p) => {
+        const wins = gameWins[p.player] ?? 0;
+        const bonus = bonusPoints(config, results, p.player);
+        return { player: p.player, wins, bonus, points: wins + bonus, out: out.has(p.player) };
+      });
     return { ...m, players, points: players.reduce((s, p) => s + p.points, 0) };
   });
   teams.sort((a, b) => b.points - a.points || a.displayName.localeCompare(b.displayName));

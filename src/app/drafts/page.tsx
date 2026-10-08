@@ -63,8 +63,9 @@ export default async function DraftsPage(): Promise<ReactElement> {
         <p className="text-ink-muted">
           Fantasy ASL. Start a draft, send the invite link to your friends, and take turns picking
           the season&apos;s players in snake order, with {PICK_SECONDS} seconds for each pick. Your
-          team scores 1 point for every game its players win. The best team at the end of the season
-          is the Draft champion.
+          team scores 1 point for every game its players win, plus 1 bonus point each time one of
+          them reaches the round of 8, the round of 4, the final, and wins the title. The best team
+          at the end of the season is the Draft champion.
         </p>
       </header>
       {isMarketsEnabled() ? await draftsBody() : <DraftsOff />}

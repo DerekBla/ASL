@@ -55,7 +55,7 @@ const GAMES: readonly Card[] = [
     href: "/drafts",
     title: "Drafts",
     blurb:
-      "Fantasy ASL. Draft the season's players with friends and score a point for every game they win.",
+      "Fantasy ASL. Draft the season's players with friends and score points for every game they win and every late round they reach.",
   },
 ];
 
