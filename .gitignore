@@ -18,3 +18,8 @@ tsconfig.tsbuildinfo
 
 # Next.js
 next-env.d.ts
+
+# Vercel
+.vercel
+.env*
+!.env.example
