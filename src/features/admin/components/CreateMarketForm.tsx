@@ -5,6 +5,7 @@ import { useState, useTransition } from "react";
 import type { FormEvent, ReactElement } from "react";
 
 import { ACTION_ERROR_MESSAGES } from "@/lib/types/result";
+import { fromKoreaLocal, toKoreaLocal } from "@/lib/utils/format";
 
 import { Button } from "@/components/Button";
 
@@ -36,15 +37,6 @@ const EMPTY: Draft = {
   prior: "",
   season: "",
 };
-
-/** UTC ISO -> "YYYY-MM-DDTHH:mm" in Korea time (UTC+9, no daylight saving). */
-function toKoreaLocal(iso: string): string {
-  return new Date(new Date(iso).getTime() + 9 * 3600_000).toISOString().slice(0, 16);
-}
-
-function fromKoreaLocal(local: string): string {
-  return new Date(new Date(`${local}:00Z`).getTime() - 9 * 3600_000).toISOString();
-}
 
 function toDraft(input: CreateMarketInput): Draft {
   return {

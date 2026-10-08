@@ -12,6 +12,7 @@ import {
   check,
   index,
   integer,
+  jsonb,
   numeric,
   pgEnum,
   pgTable,
@@ -21,6 +22,8 @@ import {
   unique,
   uniqueIndex,
 } from "drizzle-orm/pg-core";
+
+import type { PickemConfig, Selection } from "@/lib/pickem/types";
 
 export const marketStatus = pgEnum("market_status", ["open", "closed", "resolved", "voided"]);
 export const marketKind = pgEnum("market_kind", ["binary", "multi"]);
@@ -160,4 +163,41 @@ export const ledgerEntries = pgTable(
     createdAt: created(),
   },
   (t) => [index("ledger_entries_account_created").on(t.accountId, t.createdAt)],
+);
+
+/**
+ * Pick'em (Docs/feature-specs/pickem.md): one per season. No credits move here, so these two
+ * tables are written by lib/services/pickem, not the ledger.
+ */
+export const pickems = pgTable("pickems", {
+  id: bigserial("id", { mode: "number" }).primaryKey(),
+  season: integer("season").notNull().unique(),
+  title: text("title").notNull(),
+  locksAt: timestamp("locks_at", { withTimezone: true }).notNull(),
+  config: jsonb("config").$type<PickemConfig>().notNull(),
+  results: jsonb("results").$type<Selection>().notNull().default({}),
+  resultsNote: text("results_note"),
+  resultsUpdatedBy: text("results_updated_by").references(() => users.id),
+  resultsUpdatedAt: timestamp("results_updated_at", { withTimezone: true }),
+  createdBy: text("created_by")
+    .notNull()
+    .references(() => users.id),
+  createdAt: created(),
+});
+
+export const pickemEntries = pgTable(
+  "pickem_entries",
+  {
+    id: bigserial("id", { mode: "number" }).primaryKey(),
+    pickemId: bigint("pickem_id", { mode: "number" })
+      .notNull()
+      .references(() => pickems.id),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id),
+    picks: jsonb("picks").$type<Selection>().notNull(),
+    createdAt: created(),
+    updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [unique("pickem_entries_one_per_user").on(t.pickemId, t.userId)],
 );

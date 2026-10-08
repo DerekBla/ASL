@@ -30,8 +30,15 @@ export type LedgerErrorCode =
 
 export type LedgerError = { code: LedgerErrorCode; message?: string };
 
+/** Business rejections from the pick'em service. */
+export type PickemErrorCode =
+  "PICKEM_NOT_FOUND" | "PICKEM_LOCKED" | "PICKEM_HAS_ENTRIES" | "INVALID_PICKS" | "INVALID_PICKEM";
+
+export type PickemError = { code: PickemErrorCode; message?: string };
+
 export type ActionErrorCode =
   | LedgerErrorCode
+  | PickemErrorCode
   | "INVALID_INPUT"
   | "UNAUTHENTICATED"
   | "FORBIDDEN"
@@ -54,6 +61,11 @@ export const ACTION_ERROR_MESSAGES: Record<ActionErrorCode, string> = {
   INVALID_TRADE: "That trade amount isn't valid.",
   INVALID_MARKET: "That market setup isn't valid.",
   ALREADY_SETTLED: "This market has already been resolved or voided.",
+  PICKEM_NOT_FOUND: "That pick'em doesn't exist.",
+  PICKEM_LOCKED: "Brackets are locked. The season has started.",
+  PICKEM_HAS_ENTRIES: "Brackets are already in, so the players and rounds can't change.",
+  INVALID_PICKS: "Those picks don't fit the bracket.",
+  INVALID_PICKEM: "That pick'em setup isn't valid.",
   INVALID_INPUT: "Something in the request wasn't valid.",
   UNAUTHENTICATED: "Sign in to trade.",
   FORBIDDEN: "Only admins can do that.",

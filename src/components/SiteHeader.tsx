@@ -5,6 +5,7 @@ import { SITE_NAME } from "@/lib/config/site";
 
 const NAV = [
   { href: "/markets", label: "Markets" },
+  { href: "/pickem", label: "Pick'em" },
   { href: "/leaderboard", label: "Leaderboard" },
   { href: "/seasons", label: "Seasons" },
   { href: "/players", label: "Players" },

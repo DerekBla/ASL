@@ -6,10 +6,12 @@ import { isMarketsEnabled } from "@/lib/config/env";
 import { getReadDb } from "@/lib/db/client";
 import { getViewer } from "@/lib/services/auth";
 import { listMarkets } from "@/lib/services/markets-read";
+import { getPickem, listPickems } from "@/lib/services/pickem";
 import { formatKoreaTime, formatProbability } from "@/lib/utils/format";
 
 import { CreateMarketForm, MarketControls, s22FinalPreset } from "@/features/admin";
 import { MarketsOff } from "@/features/markets";
+import { PickemForm, pickemStatusLine, ResultsEditor } from "@/features/pickem";
 
 export const dynamic = "force-dynamic";
 
@@ -22,11 +24,15 @@ export default async function AdminPage(): Promise<ReactElement> {
     return (
       <div className="flex flex-col gap-3">
         <h1>Admin</h1>
-        <p>Only admins can manage markets.</p>
+        <p>Only admins can manage markets and pick&apos;ems.</p>
       </div>
     );
   }
-  const markets = await listMarkets(getReadDb());
+  const db = getReadDb();
+  const markets = await listMarkets(db);
+  const pickems = (
+    await Promise.all((await listPickems(db)).map((p) => getPickem(db, p.season)))
+  ).filter((p) => p !== undefined);
 
   return (
     <div className="flex flex-col gap-10">
@@ -48,6 +54,43 @@ export default async function AdminPage(): Promise<ReactElement> {
               {m.outcomes.map((o) => `${o.label} ${formatProbability(o.price)}`).join(" · ")}
             </p>
             <MarketControls marketId={m.id} slug={m.slug} status={m.status} outcomes={m.outcomes} />
+          </article>
+        ))}
+      </section>
+      <section aria-labelledby="pickem-heading" className="flex flex-col gap-4">
+        <h2 id="pickem-heading">Pick&apos;em</h2>
+        <h3>New pick&apos;em</h3>
+        <PickemForm />
+        {pickems.map((p) => (
+          <article key={p.season} className="flex flex-col gap-3 card p-5">
+            <Link href={`/pickem/${p.season}`} className="text-heading">
+              {p.title}
+            </Link>
+            <p className="text-caption text-ink-muted">{pickemStatusLine(p)}</p>
+            <details>
+              <summary>Enter results</summary>
+              <div className="pt-3">
+                <ResultsEditor
+                  season={p.season}
+                  config={p.config}
+                  results={p.results}
+                  note={p.resultsNote}
+                />
+              </div>
+            </details>
+            <details>
+              <summary>Edit setup</summary>
+              <div className="pt-3">
+                <PickemForm
+                  existing={{
+                    season: p.season,
+                    title: p.title,
+                    locksAt: p.locksAt,
+                    config: p.config,
+                  }}
+                />
+              </div>
+            </details>
           </article>
         ))}
       </section>

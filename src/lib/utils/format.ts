@@ -84,3 +84,13 @@ const dateTime = new Intl.DateTimeFormat("en-US", {
 export function formatKoreaTime(iso: string): string {
   return dateTime.format(new Date(iso));
 }
+
+/** UTC ISO -> "YYYY-MM-DDTHH:mm" in Korea time (UTC+9, no daylight saving), for datetime-local inputs. */
+export function toKoreaLocal(iso: string): string {
+  return new Date(new Date(iso).getTime() + 9 * 3600_000).toISOString().slice(0, 16);
+}
+
+/** A datetime-local value read as Korea time -> UTC ISO. */
+export function fromKoreaLocal(local: string): string {
+  return new Date(new Date(`${local}:00Z`).getTime() - 9 * 3600_000).toISOString();
+}

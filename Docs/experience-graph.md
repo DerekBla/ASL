@@ -72,6 +72,20 @@ Status markers:
 [Sign In]  [SPEC]
   └─ Discord / Google via Clerk  →  return to origin page (+100 minerals first time)
 
+── Pick'em ───────────────────────────────────────────────────────
+
+[Pick'em Index]  [WIP]
+  └─ Select season  →  [Pick'em Season]
+
+[Pick'em Season]  [WIP]
+  ├─ Open, signed in: bracket editor (pick who advances from each round, down to the champion)
+  ├─ Open, signed out: "Sign in"  →  [Sign In]
+  ├─ Locked: results so far, your rank  →  [Bracket]
+  └─ Standings, sortable by points or accuracy  →  [Bracket]
+
+[Bracket]  [WIP]
+  └─ One person's picks marked right or wrong, rank, accuracy, achievements (hidden until the lock)
+
 ── Admin (is_admin only) ─────────────────────────────────────────
 
 [Admin: Markets]  [IDEA]
@@ -79,6 +93,10 @@ Status markers:
   ├─ Close early
   ├─ Resolve (pick outcome + note)  →  payouts
   └─ Void (note)  →  refunds
+
+[Admin: Pick'em]  [WIP]
+  ├─ Create or edit a season's pick'em (players, groups, seeds, rounds, lock time)
+  └─ Enter results round by round  →  brackets rescored
 ```
 
 ---

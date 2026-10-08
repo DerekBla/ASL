@@ -12,6 +12,7 @@ Start with [CLAUDE.md](CLAUDE.md) (decisions, domain rules, docs map) and [ROADM
 |---|---|---|
 | Next.js 15 app shell | `src/app/`, `src/components/` | `pnpm dev`, `pnpm build` |
 | Markets: trade panel, portfolio, leaderboard, admin | `src/app/markets/`, `src/features/` | `pnpm test` |
+| Pick'em: season brackets, standings, achievements (not yet deployed) | `src/app/pickem/`, `src/features/pickem/`, `src/lib/pickem/` | `pnpm test` |
 | Minerals ledger (Postgres) | `src/lib/services/ledger/`, `drizzle/` | `pnpm test`, `pnpm test:ledger-concurrency` |
 | Stats pages: seasons, players, ELO, races, head-to-head | `src/app/`, `src/features/stats/` | `pnpm test`, `pnpm dev` |
 | Stats loader (Zod-validated) | `src/lib/services/stats/` | `pnpm test` |

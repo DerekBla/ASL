@@ -15,12 +15,13 @@ const STORES = "./src/lib/stores";
 const SERVICES = "./src/lib/services";
 const FOUNDATION = [
   "./src/lib/market",
+  "./src/lib/pickem",
   "./src/lib/types",
   "./src/lib/utils",
   "./src/lib/config",
   "./src/lib/db",
 ];
-const FEATURE_DOMAINS = ["stats", "markets", "portfolio", "leaderboard", "admin"];
+const FEATURE_DOMAINS = ["stats", "markets", "portfolio", "leaderboard", "admin", "pickem"];
 
 const forbid = (targets, from, message) =>
   [targets].flat().flatMap((target) => [from].flat().map((f) => ({ target, from: f, message })));

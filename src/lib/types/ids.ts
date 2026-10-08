@@ -9,6 +9,7 @@ export type MarketId = number & { readonly __brand: "MarketId" };
 export type UserId = string & { readonly __brand: "UserId" };
 export type AccountId = number & { readonly __brand: "AccountId" };
 export type TradeId = number & { readonly __brand: "TradeId" };
+export type PickemEntryId = number & { readonly __brand: "PickemEntryId" };
 
 export function marketId(id: number): MarketId {
   if (!Number.isSafeInteger(id) || id <= 0) throw new RangeError(`invalid market id ${id}`);
@@ -27,4 +28,9 @@ export function accountId(id: number): AccountId {
 
 export function tradeId(id: number): TradeId {
   return id as TradeId;
+}
+
+export function pickemEntryId(id: number): PickemEntryId {
+  if (!Number.isSafeInteger(id) || id <= 0) throw new RangeError(`invalid entry id ${id}`);
+  return id as PickemEntryId;
 }

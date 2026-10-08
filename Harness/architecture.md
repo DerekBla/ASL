@@ -8,7 +8,7 @@
 │  RSC by default; opt-in "use client" at the leaf only        │
 ├──────────────────────────────────────────────────────────────┤
 │  Features  (features/<domain>/*)                             │
-│  stats · markets · portfolio · leaderboard · admin           │
+│  stats · markets · portfolio · leaderboard · admin · pickem  │
 │  One folder per product domain; no cross-feature imports     │
 ├──────────────────────────────────────────────────────────────┤
 │  Shared UI  (components/*)                                   │
@@ -21,12 +21,12 @@
 │  Zustand slices; UI state only; no server data               │
 ├──────────────────────────────────────────────────────────────┤
 │  Services / SDK Adapters  (lib/services/*)                   │
-│  ledger (DB writes) · markets-read · auth · stats loader     │
+│  ledger (DB writes) · markets-read · auth · stats · pickem   │
 │  All external I/O; thin wrappers with typed return values    │
 ├──────────────────────────────────────────────────────────────┤
-│  Foundation  (lib/market/*, lib/types/*, lib/utils/*,        │
-│               lib/config/*, lib/db/schema.ts)                │
-│  Pure domain math (LMSR), shared types, env config, schema   │
+│  Foundation  (lib/market/*, lib/pickem/*, lib/types/*,       │
+│               lib/utils/*, lib/config/*, lib/db/schema.ts)   │
+│  Pure domain math (LMSR, pick'em scoring), types, env, schema│
 └──────────────────────────────────────────────────────────────┘
 
 Outside the app:
@@ -64,6 +64,11 @@ Enforce this via ESLint `import/no-restricted-paths` rules in `eslint.config.mjs
 - `lib/services/ledger/` is the **only** module that writes to `accounts`, `positions`,
   `trades`, `ledger_entries`, or `market_outcomes.q`. Server Actions call it; nothing
   else touches those tables.
+- `lib/pickem/` is **pure** like `lib/market/`: bracket rules, scoring and achievements. The
+  editor imports it to apply picks; the server validates every save with the same functions.
+- `lib/services/pickem/` is the only module that reads or writes `pickems` and
+  `pickem_entries`. It decides who may see a bracket (hidden from others until the lock).
+  No credits move there, so it does not go through the ledger.
 - `lib/db/` drivers: the `neon-serverless` Pool for ledger writes (needs interactive
   transactions); `neon-http` is allowed for read-only queries.
 - `data/generated/*.json` is read only through `lib/services/stats/` (Zod-validated).
@@ -138,16 +143,19 @@ src/
     (stats)/seasons/[season]/  players/[player]/  races/  elo/
     markets/[slug]/
     portfolio/  leaderboard/  admin/
+    pickem/[season]/brackets/[entryId]/
   features/
-    stats/  markets/  portfolio/  leaderboard/  admin/
+    stats/  markets/  portfolio/  leaderboard/  admin/  pickem/
       components/  hooks/  actions/  queries/  store/  types.ts  index.ts
   components/           # EXISTS: SiteHeader, SiteFooter, RaceBadge, PlacementBadge, DataTable, Button
   lib/
     market/             # EXISTS: lmsr.ts (+ settlement math later). Pure.
+    pickem/             # EXISTS: bracket rules, scoring, achievements. Pure.
     db/                 # schema.ts, client.ts (pool + http)
     services/
       ledger/           # The only credit-writing code
       markets-read/
+      pickem/           # EXISTS: pick'em reads and writes
       stats/            # EXISTS: schemas.ts, parse.ts, index.ts (loaders)
     queries/            # query-keys.ts
     stores/

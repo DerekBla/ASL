@@ -27,7 +27,7 @@ export async function createTestDb(): Promise<TestDb> {
     db: db as unknown as Db,
     reset: async () => {
       await db.execute(
-        sql`truncate ledger_entries, trades, positions, market_outcomes, markets, accounts, users restart identity cascade`,
+        sql`truncate pickem_entries, pickems, ledger_entries, trades, positions, market_outcomes, markets, accounts, users restart identity cascade`,
       );
     },
     close: () => client.close(),
