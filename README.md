@@ -1,6 +1,7 @@
 # StarCoins
 
 Fan-made stats site and **play-money** prediction market for the ASL (StarCraft: Brood War).
+Live at https://starcoins-rho.vercel.app (Vercel project `starcoins`).
 Unofficial; not affiliated with the league or its broadcaster.
 
 Start with [CLAUDE.md](CLAUDE.md) (decisions, domain rules, docs map) and [ROADMAP.md](ROADMAP.md).
