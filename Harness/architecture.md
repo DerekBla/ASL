@@ -9,6 +9,7 @@
 ├──────────────────────────────────────────────────────────────┤
 │  Features  (features/<domain>/*)                             │
 │  stats · markets · portfolio · leaderboard · admin · pickem  │
+│  · draft                                                     │
 │  One folder per product domain; no cross-feature imports     │
 ├──────────────────────────────────────────────────────────────┤
 │  Shared UI  (components/*)                                   │
@@ -22,6 +23,7 @@
 ├──────────────────────────────────────────────────────────────┤
 │  Services / SDK Adapters  (lib/services/*)                   │
 │  ledger (DB writes) · markets-read · auth · stats · pickem   │
+│  · draft · liquipedia (live page reads)                      │
 │  All external I/O; thin wrappers with typed return values    │
 ├──────────────────────────────────────────────────────────────┤
 │  Foundation  (lib/market/*, lib/pickem/*, lib/types/*,       │
@@ -69,6 +71,12 @@ Enforce this via ESLint `import/no-restricted-paths` rules in `eslint.config.mjs
 - `lib/services/pickem/` is the only module that reads or writes `pickems` and
   `pickem_entries`. It decides who may see a bracket (hidden from others until the lock).
   No credits move there, so it does not go through the ledger.
+- `lib/draft/` is **pure**: snake order, team sizes, team scoring. `lib/services/draft/` is
+  the only module that writes `draft_leagues`, `draft_members` and `draft_picks`. It settles
+  the pick clock lazily under a row lock (see `Docs/feature-specs/drafts.md`); there is no
+  background worker.
+- `lib/services/liquipedia/` makes the only live calls to Liquipedia, and only when an admin
+  presses a button. Follow the API terms: identified User-Agent, one request per action.
 - `lib/db/` drivers: the `neon-serverless` Pool for ledger writes (needs interactive
   transactions); `neon-http` is allowed for read-only queries.
 - `data/generated/*.json` is read only through `lib/services/stats/` (Zod-validated).
@@ -144,18 +152,22 @@ src/
     markets/[slug]/
     portfolio/  leaderboard/  admin/
     pickem/[season]/brackets/[entryId]/
+    drafts/[id]/  drafts/join/[code]/  api/drafts/[id]/
   features/
-    stats/  markets/  portfolio/  leaderboard/  admin/  pickem/
+    stats/  markets/  portfolio/  leaderboard/  admin/  pickem/  draft/
       components/  hooks/  actions/  queries/  store/  types.ts  index.ts
   components/           # EXISTS: SiteHeader, SiteFooter, RaceBadge, PlacementBadge, DataTable, Button
   lib/
     market/             # EXISTS: lmsr.ts (+ settlement math later). Pure.
     pickem/             # EXISTS: bracket rules, scoring, achievements. Pure.
+    draft/              # EXISTS: snake order, team sizes, team scoring. Pure.
     db/                 # schema.ts, client.ts (pool + http)
     services/
       ledger/           # The only credit-writing code
       markets-read/
       pickem/           # EXISTS: pick'em reads and writes
+      draft/            # EXISTS: draft leagues, the pick clock
+      liquipedia/       # EXISTS: live wikitext fetch, game win counting
       stats/            # EXISTS: schemas.ts, parse.ts, index.ts (loaders)
     queries/            # query-keys.ts
     stores/

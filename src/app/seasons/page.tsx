@@ -11,7 +11,13 @@ export const metadata: Metadata = {
 export default function SeasonsPage(): ReactElement {
   return (
     <div className="flex flex-col gap-6">
-      <h1>Seasons</h1>
+      <header className="flex flex-col gap-2">
+        <h1>Seasons</h1>
+        <p className="text-ink-muted">
+          Every ASL season, newest first: who won, who they beat in the final, and the prize pool.
+          Click a season for its full results.
+        </p>
+      </header>
       <SeasonsTable />
     </div>
   );

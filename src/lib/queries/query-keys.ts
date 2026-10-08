@@ -4,6 +4,9 @@ export const queryKeys = {
     all: ["markets"] as const,
     detail: (slug: string) => ["markets", slug] as const,
   },
+  drafts: {
+    detail: (id: number) => ["drafts", id] as const,
+  },
   me: {
     market: (slug: string) => ["me", "market", slug] as const,
   },

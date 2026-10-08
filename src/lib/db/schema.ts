@@ -23,10 +23,12 @@ import {
   uniqueIndex,
 } from "drizzle-orm/pg-core";
 
+import type { GameWins, PoolPlayer } from "@/lib/draft/draft";
 import type { PickemConfig, Selection } from "@/lib/pickem/types";
 
 export const marketStatus = pgEnum("market_status", ["open", "closed", "resolved", "voided"]);
 export const marketKind = pgEnum("market_kind", ["binary", "multi"]);
+export const draftStatus = pgEnum("draft_status", ["lobby", "drafting", "drafted"]);
 export const entryReason = pgEnum("entry_reason", [
   "signup_grant",
   "periodic_grant",
@@ -177,6 +179,8 @@ export const pickems = pgTable("pickems", {
   config: jsonb("config").$type<PickemConfig>().notNull(),
   results: jsonb("results").$type<Selection>().notNull().default({}),
   resultsNote: text("results_note"),
+  /** Games (maps) each player has won this season, entered by an admin. Fantasy drafts score on it. */
+  gameWins: jsonb("game_wins").$type<GameWins>().notNull().default({}),
   resultsUpdatedBy: text("results_updated_by").references(() => users.id),
   resultsUpdatedAt: timestamp("results_updated_at", { withTimezone: true }),
   createdBy: text("created_by")
@@ -200,4 +204,64 @@ export const pickemEntries = pgTable(
     updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
   },
   (t) => [unique("pickem_entries_one_per_user").on(t.pickemId, t.userId)],
+);
+
+/**
+ * Fantasy drafts (Docs/feature-specs/drafts.md): private leagues that draft a season's players.
+ * Written only by lib/services/draft. No credits move here.
+ */
+export const draftLeagues = pgTable("draft_leagues", {
+  id: bigserial("id", { mode: "number" }).primaryKey(),
+  pickemId: bigint("pickem_id", { mode: "number" })
+    .notNull()
+    .references(() => pickems.id),
+  name: text("name").notNull(),
+  /** Invite code. Whoever has the link can join while the league is in the lobby. */
+  code: text("code").notNull().unique(),
+  ownerId: text("owner_id")
+    .notNull()
+    .references(() => users.id),
+  status: draftStatus("status").notNull().default("lobby"),
+  teamSize: integer("team_size"),
+  pool: jsonb("pool").$type<PoolPlayer[]>().notNull(),
+  /** User ids in first round order, set when the draft starts. */
+  order: jsonb("order").$type<string[]>(),
+  /** When the clock of the pick now being made started. */
+  turnStartedAt: timestamp("turn_started_at", { withTimezone: true }),
+  createdAt: created(),
+});
+
+export const draftMembers = pgTable(
+  "draft_members",
+  {
+    leagueId: bigint("league_id", { mode: "number" })
+      .notNull()
+      .references(() => draftLeagues.id),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id),
+    joinedAt: timestamp("joined_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.leagueId, t.userId] })],
+);
+
+export const draftPicks = pgTable(
+  "draft_picks",
+  {
+    leagueId: bigint("league_id", { mode: "number" })
+      .notNull()
+      .references(() => draftLeagues.id),
+    pickNo: integer("pick_no").notNull(),
+    userId: text("user_id")
+      .notNull()
+      .references(() => users.id),
+    player: text("player").notNull(),
+    /** True when the clock ran out and the pick was made for the manager. */
+    auto: boolean("auto").notNull().default(false),
+    pickedAt: timestamp("picked_at", { withTimezone: true }).notNull().defaultNow(),
+  },
+  (t) => [
+    primaryKey({ columns: [t.leagueId, t.pickNo] }),
+    unique("draft_picks_player_once").on(t.leagueId, t.player),
+  ],
 );

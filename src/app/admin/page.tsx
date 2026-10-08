@@ -10,6 +10,7 @@ import { getPickem, listPickems } from "@/lib/services/pickem";
 import { formatKoreaTime, formatProbability } from "@/lib/utils/format";
 
 import { CreateMarketForm, MarketControls, s22FinalPreset } from "@/features/admin";
+import { GameWinsEditor } from "@/features/draft";
 import { MarketsOff } from "@/features/markets";
 import { PickemForm, pickemStatusLine, ResultsEditor } from "@/features/pickem";
 
@@ -75,6 +76,16 @@ export default async function AdminPage(): Promise<ReactElement> {
                   config={p.config}
                   results={p.results}
                   note={p.resultsNote}
+                />
+              </div>
+            </details>
+            <details>
+              <summary>Enter game wins (fantasy drafts score on these)</summary>
+              <div className="pt-3">
+                <GameWinsEditor
+                  season={p.season}
+                  players={p.config.entrants.map((e) => e.player)}
+                  gameWins={p.gameWins}
                 />
               </div>
             </details>

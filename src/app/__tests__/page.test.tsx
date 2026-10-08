@@ -27,9 +27,27 @@ describe("HomePage", () => {
 });
 
 describe("HomePage intro", () => {
-  it("says it is a play money betting site and credits stifle with a link to GitHub", () => {
+  it("leads with stats, then explains the three free games in plain words", () => {
     render(<HomePage />);
-    expect(screen.getByText(/play money betting site/i)).toBeInTheDocument();
+    expect(screen.getByText(/^Stats for every season of the ASL/)).toBeInTheDocument();
+    const stats = screen.getByRole("region", { name: "Browse the stats" });
+    expect(
+      within(stats)
+        .getAllByRole("link")
+        .map((a) => a.getAttribute("href")),
+    ).toEqual(["/seasons", "/players", "/elo", "/head-to-head", "/races"]);
+    const games = screen.getByRole("region", { name: "Play along" });
+    expect(
+      within(games)
+        .getAllByRole("link")
+        .map((a) => a.getAttribute("href")),
+    ).toEqual(["/markets", "/pickem", "/drafts"]);
+    expect(within(games).getByText(/play money: you get 100 when you sign up/)).toBeInTheDocument();
+    expect(screen.queryByText(/betting/i)).not.toBeInTheDocument();
+  });
+
+  it("credits stifle with a link to GitHub", () => {
+    render(<HomePage />);
     expect(screen.getByRole("link", { name: "stifle" })).toHaveAttribute(
       "href",
       "https://github.com/DerekBla",

@@ -18,6 +18,7 @@ import {
   getPickem,
   getStandings,
   listPickems,
+  saveGameWins,
   savePickem,
   savePicks,
   saveResults,
@@ -233,5 +234,29 @@ describe("saveResults and standings", () => {
       adminId: await newUser("user_a"),
     });
     expect(result).toMatchObject({ error: { code: "INVALID_PICKEM" } });
+  });
+});
+
+describe("saveGameWins", () => {
+  it("stores each player's game wins, dropping zeroes", async () => {
+    await open();
+    const result = await saveGameWins(db, {
+      season: SEASON,
+      gameWins: { soma: 9, Flash: 0 },
+      adminId: admin,
+    });
+    expect(result).toEqual({ data: { season: SEASON } });
+    expect((await view()).gameWins).toEqual({ soma: 9 });
+  });
+
+  it("refuses a player who is not in the season, and anyone who is not an admin", async () => {
+    await open();
+    const save = (adminId: UserId, gameWins: Record<string, number>) =>
+      saveGameWins(db, { season: SEASON, gameWins, adminId });
+    expect(await save(admin, { Jaehoon: 2 })).toMatchObject({ error: { code: "INVALID_PICKS" } });
+    expect(await save(await newUser("user_a"), { soma: 2 })).toMatchObject({
+      error: { code: "INVALID_PICKEM" },
+    });
+    expect((await view()).gameWins).toEqual({});
   });
 });

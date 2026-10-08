@@ -7,6 +7,8 @@
  */
 import { asc, desc, eq, sql } from "drizzle-orm";
 
+import { gameWinsSchema } from "@/lib/draft/draft";
+import type { GameWins } from "@/lib/draft/draft";
 import { achievementsFor } from "@/lib/pickem/achievements";
 import type { Achievement } from "@/lib/pickem/achievements";
 import {
@@ -41,6 +43,8 @@ export type PickemView = PickemSummary & {
   config: PickemConfig;
   results: Selection;
   resultsNote: string | null;
+  /** Games each player has won this season. Fantasy drafts score on it. */
+  gameWins: GameWins;
 };
 
 export type StandingRow = {
@@ -79,6 +83,7 @@ type PickemRow = {
   config: unknown;
   results: unknown;
   resultsNote: string | null;
+  gameWins: unknown;
   locked: boolean;
   entries: number;
 };
@@ -91,6 +96,7 @@ const pickemColumns = {
   config: pickems.config,
   results: pickems.results,
   resultsNote: pickems.resultsNote,
+  gameWins: pickems.gameWins,
   // The database clock decides whether brackets are locked, as it does for market closes.
   locked: sql<boolean>`${pickems.locksAt} <= now()`,
   // Aliased by hand: Drizzle leaves column names unqualified inside sql subqueries.
@@ -110,6 +116,7 @@ function toView(row: PickemRow): PickemView {
     config,
     results,
     resultsNote: row.resultsNote,
+    gameWins: gameWinsSchema.parse(row.gameWins),
   };
 }
 
@@ -336,6 +343,30 @@ export async function saveResults(
       })
       .where(eq(pickems.id, row.id));
     return ok({ season: input.season, status: statusOf(config, results, row.locked) });
+  });
+}
+
+/** Records how many games each player has won so far. Replaces the whole table. */
+export async function saveGameWins(
+  db: Db,
+  input: { season: number; gameWins: GameWins; adminId: UserId },
+): Promise<Result<{ season: number }, PickemError>> {
+  return db.transaction(async (tx) => {
+    if (!(await isAdmin(tx, input.adminId)))
+      return err({ code: "INVALID_PICKEM" as const, message: "Only admins can enter game wins." });
+    const [row] = await tx
+      .select({ id: pickems.id, config: pickems.config })
+      .from(pickems)
+      .where(eq(pickems.season, input.season))
+      .for("update");
+    if (!row) return err({ code: "PICKEM_NOT_FOUND" as const });
+    const players = new Set(pickemConfigSchema.parse(row.config).entrants.map((e) => e.player));
+    const stray = Object.keys(input.gameWins).find((p) => !players.has(p));
+    if (stray !== undefined)
+      return err({ code: "INVALID_PICKS" as const, message: `${stray} is not in this season.` });
+    const gameWins = Object.fromEntries(Object.entries(input.gameWins).filter(([, n]) => n > 0));
+    await tx.update(pickems).set({ gameWins }).where(eq(pickems.id, row.id));
+    return ok({ season: input.season });
   });
 }
 

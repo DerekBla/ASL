@@ -59,6 +59,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
+| in-progress | Drafts: fantasy ASL leagues | Requested by Derek 2026-10-08. Built: `/drafts`, invite links, snake draft with a 60 second clock, 1 point per game win, game wins fetched from Liquipedia in `/admin`, Draft champion. Spec: `Docs/feature-specs/drafts.md`. Waiting on Derek: review the decisions in the spec, then `pnpm db:migrate` and a deploy <!-- updated: 2026-10-08 --> |
 | in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive
@@ -96,6 +97,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | Status | Item | Notes |
 |---|---|---|
 | in-progress | Component library baseline | Built 2026-10-07: Button (primary, secondary), DataTable, RaceBadge, PlacementBadge, SiteHeader. Remaining, with markets: Input, Modal, Toast, PriceChip, more Button variants — see `Docs/components/` <!-- updated: 2026-10-07 --> |
+| in-progress | Landing page and clearer labels | Requested by Derek 2026-10-08 after feedback from a friend. Built: intro leads with stats and explains the three games, navigation in two labeled groups (Stats, Play), nav labels match page headings, a plain intro on every index page. Waiting on a deploy <!-- updated: 2026-10-08 --> |
 | approved | Dark mode support | Surface colors and the `dark:` variant already follow the system setting (design tokens). Remaining: dark variants of the race colors, and a contrast check of every component in dark mode <!-- updated: 2026-10-07 --> <!-- approved by Derek 2026-10-07 --> |
 | approved | Skeleton components | One skeleton per async surface before Suspense fallback <!-- approved by Derek 2026-10-07 --> |
 

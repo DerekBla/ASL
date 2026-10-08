@@ -54,6 +54,7 @@ function pickem(status: PickemStatus): PickemView {
     config,
     results,
     resultsNote: status === "open" ? null : "https://liquipedia.net/starcraft/ASL/23",
+    gameWins: {},
   };
 }
 

@@ -2,8 +2,9 @@
 
 export const SITE_NAME = "StarCoins";
 
+/** Stats first; the games come second (Derek, 2026-10-08). */
 export const SITE_DESCRIPTION =
-  "A play money betting site for the ASL (StarCraft: Brood War), with every season's stats.";
+  "Stats for every season of the ASL (StarCraft: Brood War), with free games to play along: prediction markets, a season pick'em and fantasy drafts.";
 
 /** Who made the site (Derek, 2026-10-07). His GitHub profile; the repo itself is private. */
 export const AUTHOR_NAME = "stifle";

@@ -41,6 +41,11 @@ export function makeResults(overrides: Selection = {}): Selection {
   };
 }
 
+/** Games won in the test season, by player. */
+export function makeGameWins(): Record<string, number> {
+  return { soma: 9, Flash: 8, Soulkey: 4, Bisu: 3, Rain: 2, Rush: 2, Light: 1 };
+}
+
 /** A pick'em that locks in a week unless overridden. */
 export function makePickemInput(
   adminId: UserId,

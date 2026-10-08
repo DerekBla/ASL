@@ -11,7 +11,13 @@ export const metadata: Metadata = {
 export default function PlayersPage(): ReactElement {
   return (
     <div className="flex flex-col gap-6">
-      <h1>Players</h1>
+      <header className="flex flex-col gap-2">
+        <h1>Players</h1>
+        <p className="text-ink-muted">
+          Everyone who has played in the ASL, with their career record. Click a column heading to
+          sort by it, or a name for that player&apos;s page.
+        </p>
+      </header>
       <PlayersTable />
     </div>
   );

@@ -86,6 +86,20 @@ Status markers:
 [Bracket]  [LIVE]
   └─ One person's picks marked right or wrong, rank, accuracy, achievements (hidden until the lock)
 
+── Drafts (fantasy) ──────────────────────────────────────────────
+
+[Drafts Index]  [WIP]
+  ├─ Start a draft for an open season  →  [Draft League]
+  └─ Your drafts  →  [Draft League]
+
+[Draft Invite]  [WIP]
+  └─ Join (signed in)  →  [Draft League]
+
+[Draft League]  [WIP]
+  ├─ Lobby: managers, invite link, owner picks team size and starts
+  ├─ Draft room: snake order, 60 second clock, pick a free player
+  └─ Standings: 1 point per game win, Draft champion at the end of the season
+
 ── Admin (is_admin only) ─────────────────────────────────────────
 
 [Admin: Markets]  [IDEA]
@@ -96,7 +110,8 @@ Status markers:
 
 [Admin: Pick'em]  [LIVE]
   ├─ Create or edit a season's pick'em (players, groups, seeds, rounds, lock time)
-  └─ Enter results round by round  →  brackets rescored
+  ├─ Enter results round by round  →  brackets rescored
+  └─ Fetch game wins from Liquipedia, check, save  →  draft standings updated
 ```
 
 ---

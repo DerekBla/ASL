@@ -36,8 +36,21 @@ export type PickemErrorCode =
 
 export type PickemError = { code: PickemErrorCode; message?: string };
 
+/** Business rejections from the draft service. */
+export type DraftErrorCode =
+  | "DRAFT_NOT_FOUND"
+  | "DRAFT_WRONG_STAGE"
+  | "DRAFT_FULL"
+  | "DRAFT_SEASON_STARTED"
+  | "NOT_YOUR_TURN"
+  | "PLAYER_TAKEN"
+  | "INVALID_DRAFT";
+
+export type DraftError = { code: DraftErrorCode; message?: string };
+
 export type ActionErrorCode =
   | LedgerErrorCode
+  | DraftErrorCode
   | PickemErrorCode
   | "INVALID_INPUT"
   | "UNAUTHENTICATED"
@@ -66,6 +79,13 @@ export const ACTION_ERROR_MESSAGES: Record<ActionErrorCode, string> = {
   PICKEM_HAS_ENTRIES: "Brackets are already in, so the players and rounds can't change.",
   INVALID_PICKS: "Those picks don't fit the bracket.",
   INVALID_PICKEM: "That pick'em setup isn't valid.",
+  DRAFT_NOT_FOUND: "That draft doesn't exist.",
+  DRAFT_WRONG_STAGE: "The draft has moved on, so that can't be done now.",
+  DRAFT_FULL: "This draft is full.",
+  DRAFT_SEASON_STARTED: "The season has started, so new drafts are closed.",
+  NOT_YOUR_TURN: "It isn't your pick.",
+  PLAYER_TAKEN: "That player is already on a team.",
+  INVALID_DRAFT: "That draft setup isn't valid.",
   INVALID_INPUT: "Something in the request wasn't valid.",
   UNAUTHENTICATED: "Sign in to trade.",
   FORBIDDEN: "Only admins can do that.",
