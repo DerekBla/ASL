@@ -51,6 +51,23 @@ bold) weights, and links without underlines until hover. Use the shared classes 
 Primary buttons use `bg-accent text-on-accent` (white on light, near-black on the light
 dark-mode accent).
 
+## Liquipedia palette (Derek, 2026-10-07)
+
+Colors follow Liquipedia's StarCraft wiki theme, read from its saved stylesheet (its
+`--clr-*` variables). Shapes stay soft; race colors are unchanged.
+
+| Token | Light | Dark | Liquipedia source |
+|---|---|---|---|
+| `nav` / `on-nav` | `#3a5ba9` / white | `#003866` / white | `.main-nav` (sapphire) |
+| `nav-hover` / `on-nav-hover` | `#d9e2ff` / `#00184a` | `#002d52` / white | wiki primary container |
+| `surface` (page) | `#f1f4fa` | `#121212` | `--clr-surface-1` / dark background |
+| `card` | `#ffffff` | `#1b1b1b` | `--clr-surface` |
+| `surface-muted` | `#e3ebf5` | `#282828` | `--clr-surface-3` |
+| `ink` / `ink-muted` | `#1b1b1b` / `#43474e` | `#e2e2e6` / `#b3b3b3` | on-surface / on-surface-variant |
+| `line` | `#dfe2eb` | `#2f3033` | `--clr-surface-variant` |
+| `accent` / `on-accent` | `#3a5ba9` / white | `#b0c5ff` / `#002b76` | `--clr-wiki-primary` |
+| `link` | `#0645ad` | `#9fc9ff` | wiki link blue / dark primary |
+
 ## Surface colors
 
 These follow the system light/dark setting through `prefers-color-scheme`. There is no
@@ -58,13 +75,14 @@ JavaScript theme switch.
 
 | Utility | Use |
 |---|---|
-| `bg-surface` | Page background (warm off-white / near-black) |
+| `bg-surface` | Page background (blue-tinted off-white / near-black) |
 | `bg-card` | Cards, tables, header, tooltips |
 | `bg-surface-muted` | Notices, hovered rows, secondary buttons |
 | `text-ink` | Body text |
 | `text-ink-muted` | Secondary text, captions |
 | `border-line` | Borders and dividers |
-| `text-accent` | Links and focus rings |
+| `text-link` | Links |
+| `text-accent` | Primary buttons and focus rings |
 
 Tailwind's `dark:` variant also follows the system setting, for the rare case a component
 needs a one-off dark style.

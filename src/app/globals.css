@@ -7,7 +7,7 @@
  * (bg-race-terran-pale, text-race-zerg-dark, ...) and never the hex values. Pale is for
  * player and data cells, dark is for section headers only.
  *
- * The look is soft on purpose (Derek, 2026-10-07): warm page, white cards with a gentle
+ * The look is soft on purpose (Derek, 2026-10-07): tinted page, white cards with a gentle
  * shadow, light borders, rounded corners, pills for badges and buttons, no underlines until
  * hover.
  */
@@ -53,17 +53,26 @@
   --radius-card: 1.25rem;
 }
 
-/* Surface colors follow the system light/dark setting. No JavaScript theme switching. */
+/*
+ * Surface colors follow the system light/dark setting. No JavaScript theme switching.
+ * Palette copied from Liquipedia's StarCraft wiki theme (Derek, 2026-10-07), read from its saved
+ * stylesheet: sapphire wiki color #3a5ba9, page and surface tints, wiki link blue #0645ad.
+ */
 :root {
-  --surface: #f6f6f3; /* page */
+  --surface: #f1f4fa; /* page: Liquipedia --clr-surface-1 */
   --card: #ffffff;
-  --surface-muted: #efefeb;
-  --ink: #262a33;
-  --ink-muted: #6b7180;
-  --line: #e4e5e1;
-  --accent: #2f68c4;
+  --surface-muted: #e3ebf5; /* --clr-surface-3 */
+  --ink: #1b1b1b; /* --clr-on-surface */
+  --ink-muted: #43474e; /* --clr-on-surface-variant */
+  --line: #dfe2eb; /* --clr-surface-variant */
+  --accent: #3a5ba9; /* --clr-wiki-primary (sapphire) */
   --on-accent: #ffffff;
-  --shadow-soft: 0 1px 2px rgb(30 34 44 / 0.04), 0 6px 20px rgb(30 34 44 / 0.05);
+  --link: #0645ad; /* wiki link blue */
+  --nav: #3a5ba9; /* .main-nav */
+  --on-nav: #ffffff;
+  --nav-hover: #d9e2ff; /* --clr-wiki-primary-container */
+  --on-nav-hover: #00184a; /* --clr-wiki-on-primary-container */
+  --shadow-soft: 0 1px 2px rgb(0 24 74 / 0.05), 0 6px 20px rgb(0 24 74 / 0.06);
   /* Chart series, validated with the dataviz palette checks against --card (fixed order). */
   --series-1: #2a78d6;
   --series-2: #eb6834;
@@ -73,15 +82,20 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --surface: #111318;
-    --card: #191c22;
-    --surface-muted: #20242b;
-    --ink: #e7e9ee;
-    --ink-muted: #9aa2b1;
-    --line: #2a2f38;
-    --accent: #8db8f0;
-    --on-accent: #0f1726;
-    --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.3), 0 6px 20px rgb(0 0 0 / 0.25);
+    --surface: #121212; /* --clr-background (dark) */
+    --card: #1b1b1b; /* --clr-surface */
+    --surface-muted: #282828; /* --clr-surface-3 */
+    --ink: #e2e2e6; /* --clr-on-surface */
+    --ink-muted: #b3b3b3;
+    --line: #2f3033;
+    --accent: #b0c5ff; /* --clr-wiki-primary (dark) */
+    --on-accent: #002b76; /* --clr-wiki-on-primary */
+    --link: #9fc9ff; /* --clr-primary (dark) */
+    --nav: #003866; /* .main-nav (dark): --clr-sapphire-20 */
+    --on-nav: #ffffff;
+    --nav-hover: #002d52; /* --wiki-nav-background-color */
+    --on-nav-hover: #ffffff;
+    --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.35), 0 6px 20px rgb(0 0 0 / 0.3);
     --series-1: #3987e5;
     --series-2: #d95926;
     --series-3: #199e70;
@@ -97,6 +111,11 @@
   --color-ink-muted: var(--ink-muted);
   --color-line: var(--line);
   --color-accent: var(--accent);
+  --color-link: var(--link);
+  --color-nav: var(--nav);
+  --color-on-nav: var(--on-nav);
+  --color-nav-hover: var(--nav-hover);
+  --color-on-nav-hover: var(--on-nav-hover);
   /* Text on an accent fill (primary buttons): white on light, near-black on the light dark-mode accent. */
   --color-on-accent: var(--on-accent);
   --color-series-1: var(--series-1);
@@ -130,7 +149,7 @@
   }
 
   a {
-    @apply text-accent no-underline underline-offset-4 transition-colors;
+    @apply text-link no-underline underline-offset-4 transition-colors;
   }
 
   a:hover {

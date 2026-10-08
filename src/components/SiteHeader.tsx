@@ -20,9 +20,9 @@ type Props = {
 
 export function SiteHeader({ account }: Props): ReactElement {
   return (
-    <header className="sticky top-0 z-20 border-b border-line/70 bg-surface/85 backdrop-blur-md">
+    <header className="sticky top-0 z-20 bg-nav text-on-nav shadow-soft">
       <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center gap-x-6 gap-y-2 px-4 py-3">
-        <Link href="/" className="text-heading text-ink no-underline hover:no-underline">
+        <Link href="/" className="text-heading text-on-nav no-underline hover:no-underline">
           {SITE_NAME}
         </Link>
         <nav aria-label="Main">
@@ -31,7 +31,7 @@ export function SiteHeader({ account }: Props): ReactElement {
               <li key={item.href}>
                 <Link
                   href={item.href}
-                  className="rounded-full px-3 py-1.5 text-data text-ink-muted no-underline transition-colors hover:bg-surface-muted hover:text-ink hover:no-underline"
+                  className="rounded-full px-3 py-1.5 text-data text-on-nav/85 no-underline transition-colors hover:bg-nav-hover hover:text-on-nav-hover hover:no-underline"
                 >
                   {item.label}
                 </Link>
