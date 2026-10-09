@@ -113,6 +113,7 @@ Full module map, dependency rules, and data-flow patterns:
 | `Docs/tooling-specs/` | Agent tooling and automation specs (stats exporter) |
 | `Docs/reports/` | Generated output — do not hand-author |
 | `data/source/liquipedia/` | Fetched Liquipedia wikitext and the results parsed from it. Never hand-edit; re-run the scripts |
+| `data/source/youtube/` | Videos the season pages can link as VODs. Never hand-edit; re-run `pnpm stats:vods` |
 | `data/source/overrides.json` | Derek's corrections (display names, races). Agents propose, Derek confirms |
 | `data/source/*.xlsx` | The old workbook, kept as a reference copy. Nothing reads it |
 | `data/generated/` | Exporter output. Never hand-edit; re-run `pnpm stats:export` |
@@ -218,5 +219,6 @@ draft → approved → in-progress → implemented
 | `pnpm db:go-live <id>` | Make that user admin and open the ASL S22 final market (idempotent) |
 | `pnpm test:ledger-concurrency` | 50 simultaneous trades against `DATABASE_URL_TEST` (wipes that branch) |
 | `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
+| `pnpm stats:vods` | List the English casts on YouTube into `data/source/youtube/videos.json` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

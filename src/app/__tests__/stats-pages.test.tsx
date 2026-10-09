@@ -58,6 +58,22 @@ describe("/seasons/[season]", () => {
       within(screen.getByRole("region", { name: "Semifinals" })).getAllByRole("listitem"),
     ).toHaveLength(2);
     expect(screen.getByRole("region", { name: "Third place match" })).toHaveTextContent("herO");
+    // S5's playoff casts are titled by day, so they are listed under the bracket.
+    expect(
+      screen.getByRole("link", { name: "Day 1: watch Quarterfinal casts, Day 1 on YouTube" }),
+    ).toHaveAttribute("href", expect.stringContaining("youtube.com/watch"));
+  });
+
+  it("lists the maps of a playoff series and links its cast", async () => {
+    render(await SeasonPage({ params: Promise.resolve({ season: "21" }) }));
+    const final = screen.getByRole("region", { name: "Final" });
+    expect(within(final).getByText("Show maps")).toBeInTheDocument();
+    expect(within(final).getAllByRole("listitem")).toHaveLength(1 + 7);
+    const vod = within(final).getByRole("link", {
+      name: "VOD: watch soma against Flash on YouTube",
+    });
+    expect(vod).toHaveAttribute("href", expect.stringContaining("youtube.com/watch"));
+    expect(vod).toHaveAttribute("target", "_blank");
   });
 
   it("shows each group as a table with who advanced, then its matches", async () => {
@@ -73,6 +89,16 @@ describe("/seasons/[season]", () => {
     const matches = screen.getByRole("list", { name: "Round of 24 Group A matches" });
     expect(within(matches).getAllByRole("listitem")).toHaveLength(5);
     expect(within(matches).getByText("Decider match")).toBeInTheDocument();
+    // The matches sit in a closed click to expand, each with its map.
+    const details = matches.closest("details");
+    expect(details).not.toHaveAttribute("open");
+    expect(
+      within(details as HTMLElement).getByText("Show the 5 matches and maps"),
+    ).toBeInTheDocument();
+    expect(within(matches).getAllByText("Played on", { exact: false })).toHaveLength(5);
+    expect(
+      screen.getByRole("link", { name: "VOD: watch Round of 24 Group A on YouTube" }),
+    ).toHaveAttribute("href", expect.stringContaining("youtube.com/watch"));
     expect(screen.getByRole("table", { name: "Round of 16, Group D" })).toBeInTheDocument();
   });
 

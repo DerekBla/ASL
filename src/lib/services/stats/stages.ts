@@ -15,7 +15,13 @@ export type BracketSide = {
   won: boolean;
 };
 
-export type BracketMatch = { top: BracketSide; bottom: BracketSide };
+export type BracketMatch = {
+  top: BracketSide;
+  bottom: BracketSide;
+  /** Games in the order played; empty when the source lists none. */
+  games: Series["games"];
+  vod: string | null;
+};
 
 export type BracketRound = {
   key: "quarterfinal" | "semifinal" | "final";
@@ -44,7 +50,8 @@ function games(score: string | null, side: 0 | 1): number | null {
 function toMatch(s: Series, topIsWinner: boolean): BracketMatch {
   const winner = { player: s.winner, race: s.winnerRace, score: games(s.score, 0), won: true };
   const loser = { player: s.loser, race: s.loserRace, score: games(s.score, 1), won: false };
-  return topIsWinner ? { top: winner, bottom: loser } : { top: loser, bottom: winner };
+  const sides = topIsWinner ? { top: winner, bottom: loser } : { top: loser, bottom: winner };
+  return { ...sides, games: s.games, vod: s.vod };
 }
 
 const played = (s: Series, player: string): boolean => s.winner === player || s.loser === player;
@@ -110,6 +117,8 @@ export type StageGroup = {
   matches: GroupMatch[];
   /** Extra series played to split a tie. They do not count in the records above. */
   tiebreaker: Series[];
+  /** The cast of the group, from its first series that has one. */
+  vod: string | null;
 };
 
 export type GroupStage = { key: "ro24" | "ro16"; label: string; groups: StageGroup[] };
@@ -177,6 +186,7 @@ function buildGroup(
       series,
     })),
     tiebreaker: [...tiebreaker],
+    vod: [...matches, ...tiebreaker].find((s) => s.vod !== null)?.vod ?? null,
   };
 }
 

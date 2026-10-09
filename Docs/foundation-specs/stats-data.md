@@ -57,6 +57,8 @@ type Season = {
   finalScore: string | null;     // "4-3"
   thirdPlaceMatch: boolean;      // S3–S14. Without one, both semifinal losers are "3rd"
   status: "complete" | "in_progress";
+  // Casts of a playoff round that are titled by broadcast day (S2–S8, S10), so no one series owns them
+  roundVods: { round: "quarterfinal" | "semifinal"; label: string; url: string }[];
   source: { title: string; url: string; revid: number };
 };
 
@@ -68,7 +70,13 @@ type Placement = { player: string; race: Race | null; season: number;
 type Series = { season: number; stage: "ro24" | "ro16" | "playoffs";
   round: string;                 // "Group A", "quarterfinal", "semifinal", "final", "third_place"
   winner: string; loser: string; winnerRace: Race | null; loserRace: Race | null;
-  score: string | null };        // playoffs only, e.g. "3-1"
+  score: string | null;          // playoffs only, e.g. "3-1"
+  // Games in the order played. Empty when the page lists none (playoffs before S9, bar S9);
+  // map is null when the page names none
+  games: { map: string | null; winner: string }[];
+  // English cast on YouTube (SOOP esports EN), starting at this series when the page says where.
+  // A group series without its own link carries its group's cast. Null when none is known
+  vod: string | null };
 
 type EloRow = { rank: number; player: string; race: Race | null; currentElo: number;
   peakElo: number; peakSeason: number; seasons: number; championships: number;
@@ -151,3 +159,24 @@ the data is static, so there is no runtime state a page could recover into.
 
 Bump `SCHEMA_VERSION` in the exporter on any breaking shape change. Update this file and the
 Zod schemas in the same PR. The loader must refuse a `manifest.schemaVersion` it doesn't know.
+
+## Maps and VODs
+
+Maps come from the `{{Map}}` entries of each match on the season page, in the order played;
+skipped games are left out. Map names drop the wiki's page suffix (`Tempest (Map)` → `Tempest`).
+
+VODs are links to the English casts on YouTube. `scripts/liquipedia/parse_seasons.py` picks one
+per group and per playoff series, in this order:
+
+1. A YouTube link on the Liquipedia page (`vod`, `vodgameN`, or a map's `vod`), kept with its
+   start time. Links to other sites (the Korean SOOP broadcast) are ignored.
+2. Otherwise a video of the SOOP esports EN channel whose title names the season and the group
+   (`Ro.24 Group A`) or the two players of a playoff series (`title_slot`, `Vods`).
+3. Playoff casts titled only by broadcast day cannot be tied to one series; they become the
+   season's `roundVods`.
+
+`data/source/youtube/videos.json` lists every video known to exist, with title and channel, and
+the linked videos that are gone. It is built by `pnpm stats:vods` (`scripts/youtube/fetch_vods.py`),
+which checks each linked video with YouTube's oEmbed endpoint and searches the channel once per
+season and stage. A link to a video that is gone is never exported. Run `pnpm stats:vods` and then
+`pnpm stats:export` after a season ends.

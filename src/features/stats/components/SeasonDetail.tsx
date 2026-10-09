@@ -71,7 +71,7 @@ export function SeasonDetail({ season }: Props): ReactElement {
       <section aria-labelledby="playoffs-heading" className="flex flex-col gap-3">
         <h2 id="playoffs-heading">Playoffs</h2>
         {bracket.rounds.length > 0 ? (
-          <PlayoffBracket bracket={bracket} />
+          <PlayoffBracket bracket={bracket} roundVods={season.roundVods} />
         ) : (
           <p className="text-ink-muted">The playoffs have not started.</p>
         )}
@@ -95,14 +95,14 @@ export function SeasonDetail({ season }: Props): ReactElement {
         <h2 id="groups-heading">Group stages</h2>
         <p className="text-caption text-ink-muted">
           Players are listed by their record in the group. A green bar marks the players who
-          advanced.
+          advanced. Open a group to see its matches and maps.
         </p>
         <GroupStages stages={stages} />
       </section>
 
       <p className="text-caption text-ink-muted">
         Source: <a href={season.source.url}>{season.source.title}</a> on Liquipedia (revision{" "}
-        {season.source.revid}).
+        {season.source.revid}). VOD buttons open the English casts by SOOP esports EN on YouTube.
       </p>
     </div>
   );

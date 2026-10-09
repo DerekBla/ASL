@@ -65,6 +65,63 @@ class MatchTests(unittest.TestCase):
         self.assertIsNone(self.winner(match("A", "B")))
 
 
+class MapAndVodTests(unittest.TestCase):
+    def test_map_names_drop_the_wiki_page_suffix(self):
+        self.assertEqual(ps.map_name("Tempest (Map)"), "Tempest")
+        self.assertEqual(ps.map_name("Nemesis (ASL)"), "Nemesis")
+        self.assertEqual(ps.map_name(" Fighting Spirit "), "Fighting Spirit")
+        self.assertIsNone(ps.map_name(""))
+
+    def test_games_keep_their_order_and_skip_unplayed_maps(self):
+        text = ("{{Match|opponent1={{1Opponent|A}}|opponent2={{1Opponent|B}}"
+                "|map2={{Map|map=Two|winner=2}}|map1={{Map|map=One|winner=1}}|map3={{Map|map=Three|winner=skip}}}}")
+        m = ps.parse_match(ps.find_templates(text, "Match")[0][2])
+        self.assertEqual(ps.games_of(m, "A", "B"), [{"map": "One", "winner": "A"}, {"map": "Two", "winner": "B"}])
+
+    def test_youtube_links_in_every_spelling(self):
+        self.assertEqual(ps.youtube_link("https://gaming.youtube.com/watch?v=6TTGeGWY6hQ&t=34m0s"), ("6TTGeGWY6hQ", 2040))
+        self.assertEqual(ps.youtube_link("https://youtu.be/6TTGeGWY6hQ?t=1h5m51s"), ("6TTGeGWY6hQ", 3951))
+        self.assertEqual(ps.youtube_link("http://www.youtube.com/watch?v=6TTGeGWY6hQ&t=1032"), ("6TTGeGWY6hQ", 1032))
+        self.assertEqual(ps.youtube_link("https://www.youtube.com/watch?v=6TTGeGWY6hQ"), ("6TTGeGWY6hQ", 0))
+        self.assertIsNone(ps.youtube_link("https://vod.sooplive.com/player/190582275"))
+        self.assertIsNone(ps.youtube_link(None))
+
+    def test_titles_say_what_a_cast_covers(self):
+        slot = ps.title_slot
+        self.assertEqual(slot("[ENG] ASL Season21 | Ro.16 Group A (Tastosis)"), (21, "ro16", "A"))
+        self.assertEqual(slot("[ENG] AfreecaTV StarLeague(ASL) S16 Ro.24 Group F (Tastosis)"), (16, "ro24", "F"))
+        self.assertEqual(slot("[ENG] 2024 SSL AUTUMN | Ro.24 Group B (Tastosis)"), (18, "ro24", "B"))
+        self.assertEqual(slot("[ENG] ASL S16 RO.8 Match3 Sharp vs Mini (Tastosis)"),
+                         (16, "ro8", (3, frozenset({"sharp", "mini"}))))
+        self.assertEqual(slot("[ENG] ASL Season16 Finals SoulKey vs Mini (Tastosis)"),
+                         (16, "final", (None, frozenset({"soulkey", "mini"}))))
+        self.assertEqual(slot("[ENG] AfreecaTV StarLeague(ASL) S8 3/4 Place Match")[:2], (8, "third"))
+        self.assertEqual(slot("[ENG] AfreecaTV StarLeague(ASL) S4 Ro.8 Day 2"), (4, "ro8", ("day", 2)))
+
+    def test_titles_that_are_not_a_cast_of_asl_games_are_ignored(self):
+        for title in ("[ENG] ASL Season21 | RO.16 Group Nomination (Tastosis)",
+                      "AfreecaTV StarLeague(ASL) S5 Ro.16 Group A Highlight",
+                      "[ENG] 2026 GSL S1 Code S Ro.4 & FINALS", "[2021 GSL S1] RO8 Match4 INnoVation vs Trap"):
+            self.assertIsNone(ps.title_slot(title), title)
+
+    def test_vods_prefer_the_page_link_and_fall_back_to_titles(self):
+        en = "SOOP esports EN"
+        vods = ps.Vods({
+            "aaaaaaaaaaa": {"title": "[ENG] ASL Season30 | Ro.24 Group A (Tastosis)", "channel": en},
+            "bbbbbbbbbbb": {"title": "[ENG] ASL Season30 Ro.8 Match2 Queen vs SoulKey (Tastosis)", "channel": en},
+            "ccccccccccc": {"title": "[ENG] ASL Season30 | Ro.24 Group B", "channel": "Someone Else"},
+            "ddddddddddd": {"title": "[ENG] AfreecaTV StarLeague(ASL) S30 Ro.4 Day1", "channel": en},
+        })
+        self.assertEqual(vods.url(("aaaaaaaaaaa", 90)), "https://www.youtube.com/watch?v=aaaaaaaaaaa&t=90s")
+        self.assertIsNone(vods.url(("zzzzzzzzzzz", 0)))  # not known to exist any more
+        self.assertEqual(vods.group(30, "ro24", "Group A"), "https://www.youtube.com/watch?v=aaaaaaaaaaa")
+        self.assertIsNone(vods.group(30, "ro24", "Group B"))  # other channels are never matched by title
+        # Found by the two names, whatever the bracket slot; the casts call ZerO "Queen".
+        self.assertEqual(vods.playoff(30, "r1m4", "Soulkey", "ZerO"), "https://www.youtube.com/watch?v=bbbbbbbbbbb")
+        self.assertIsNone(vods.playoff(30, "r1m2", "Flash", "Rain"))
+        self.assertEqual(vods.by_day(30, "ro4"), [{"label": "Day 1", "url": "https://www.youtube.com/watch?v=ddddddddddd"}])
+
+
 class GroupStandingTests(unittest.TestCase):
     def test_dual_tournament(self):
         # A beats B, C beats D, A beats C (1st), B beats D (D 4th), C beats B (C 2nd, B 3rd)
@@ -131,6 +188,18 @@ class RealSeasonTests(unittest.TestCase):
         self.assertEqual((pl["soma"], pl["Flash"], pl["Leta"], pl["Light"]), ("1st", "2nd", "3rd", "3rd"))
         self.assertEqual(self.seasons[21]["bracket"]["r3m1"]["score"], "4-3")
         self.assertEqual(self.seasons[21]["prizeByPlace"]["5-8"], 2_000_000)
+
+    def test_maps_and_casts_of_stored_seasons(self):
+        quarter = self.seasons[21]["bracket"]["r1m1"]
+        self.assertEqual([g["map"] for g in quarter["games"]], ["Match Point", "KnockOut", "Jane Doe"])
+        self.assertEqual({g["winner"] for g in quarter["games"]}, {"soma"})
+        first = self.seasons[3]["groups"][0]["series"][0]
+        self.assertEqual(first["games"], [{"map": "Camelot", "winner": "Shuttle"}])
+        self.assertEqual(first["vod"], "https://www.youtube.com/watch?v=6TTGeGWY6hQ&t=2040s")
+        # Older playoff casts are titled by day, so they hang off the round, not a series.
+        self.assertEqual([v["label"] for v in self.seasons[4]["roundVods"] if v["round"] == "quarterfinal"],
+                         ["Day 1", "Day 2", "Day 3", "Day 4"])
+        self.assertEqual(self.seasons[21]["roundVods"], [])
 
 
 if __name__ == "__main__":

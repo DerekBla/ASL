@@ -174,17 +174,23 @@ def build(source_dir: Path) -> dict[str, Any]:
             "winner": winner, "winnerRace": race_of.get(winner), "runnerUp": runner, "runnerUpRace": race_of.get(runner),
             "finalScore": final["score"] if final else None, "thirdPlaceMatch": s["thirdPlaceMatch"],
             "status": "complete" if final else "in_progress",
+            "roundVods": s.get("roundVods", []),
             "source": {"title": index[f"s{n:02d}"]["title"], "url": index[f"s{n:02d}"]["url"], "revid": index[f"s{n:02d}"]["revid"]},
         })
+        def played(m: dict) -> dict:
+            """Maps in the order played, each with its winner, and the English cast if there is one."""
+            return {"games": [{"map": g["map"], "winner": nm(g["winner"])} for g in m.get("games", [])],
+                    "vod": m.get("vod")}
+
         for g in s["groups"]:
             for m in g["series"]:
                 series.append({"season": n, "stage": g["stage"], "round": g["title"], "score": None,
-                               "winner": nm(m["winner"]), "loser": nm(m["loser"])})
+                               "winner": nm(m["winner"]), "loser": nm(m["loser"]), **played(m)})
         rounds = {"r1": "quarterfinal", "r2": "semifinal", "r3": "final", "rx": "third_place"}
         for key in sorted(s["bracket"]):
             m = s["bracket"][key]
             series.append({"season": n, "stage": "playoffs", "round": rounds[key[:2]], "score": m["score"],
-                           "winner": nm(m["winner"]), "loser": nm(m["loser"])})
+                           "winner": nm(m["winner"]), "loser": nm(m["loser"]), **played(m)})
     for m in series:
         m["winnerRace"], m["loserRace"] = race_of.get(m["winner"]), race_of.get(m["loser"])
 

@@ -10,7 +10,18 @@ function series(
   loser: string,
   score: string | null = null,
 ): Series {
-  return { season: 99, stage, round, winner, loser, winnerRace: "T", loserRace: "Z", score };
+  return {
+    season: 99,
+    stage,
+    round,
+    winner,
+    loser,
+    winnerRace: "T",
+    loserRace: "Z",
+    score,
+    games: [],
+    vod: null,
+  };
 }
 
 describe("buildBracket", () => {
@@ -39,6 +50,19 @@ describe("buildBracket", () => {
     const final = buildBracket(getSeriesForSeason(1)).rounds.at(-1)?.matches[0];
     expect(final?.top).toMatchObject({ player: "Sharp", won: false });
     expect(final?.bottom).toMatchObject({ player: "Shuttle", won: true });
+  });
+
+  it("carries the maps and the cast of each series", () => {
+    const quarter = buildBracket(getSeriesForSeason(21)).rounds[0]?.matches[0];
+    expect(quarter?.top.player).toBe("soma");
+    expect(quarter?.games).toEqual([
+      { map: "Match Point", winner: "soma" },
+      { map: "KnockOut", winner: "soma" },
+      { map: "Jane Doe", winner: "soma" },
+    ]);
+    expect(quarter?.vod).toMatch(/^https:\/\/www\.youtube\.com\/watch\?v=/);
+    // Older bracket pages list no games.
+    expect(buildBracket(getSeriesForSeason(5)).rounds[0]?.matches[0]?.games).toEqual([]);
   });
 
   it("has a third place match only in the seasons that played one", () => {
@@ -87,6 +111,14 @@ describe("buildGroupStages", () => {
       "Losers match",
       "Decider match",
     ]);
+  });
+
+  it("gives a group the cast of its first series", () => {
+    const group = buildGroupStages(getSeriesForSeason(3))[0]?.groups[0];
+    expect(group?.vod).toBe("https://www.youtube.com/watch?v=6TTGeGWY6hQ&t=2040s");
+    expect(group?.matches[0]?.series.games).toEqual([{ map: "Camelot", winner: "Shuttle" }]);
+    const bare = buildGroupStages([series("ro24", "Group A", "A", "B")])[0]?.groups[0];
+    expect(bare?.vod).toBeNull();
   });
 
   it("keeps a tiebreaker with its group and out of the records", () => {

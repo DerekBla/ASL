@@ -5,6 +5,7 @@
     "name": "ASL Season 1",
     "players": 16,
     "prizePoolKrw": 24000000,
+    "roundVods": [],
     "runnerUp": "Sharp",
     "runnerUpRace": "T",
     "season": 1,
@@ -25,6 +26,38 @@
     "name": "ASL Season 2",
     "players": 28,
     "prizePoolKrw": 40200000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=1DyxE2d8Prw"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=54m-FiISEJQ"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=jkE5QdrZVfc"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=2JcyHnZd1lA"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=WlYSqcKdkHI"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=vC-pPMOrsKw"
+      }
+    ],
     "runnerUp": "Sea",
     "runnerUpRace": "T",
     "season": 2,
@@ -45,6 +78,38 @@
     "name": "ASL Season 3",
     "players": 28,
     "prizePoolKrw": 36200000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=voO-r-FFCl8"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=Gk3uDIjF_B0"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=QScWinD4lPY"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=ioW8_X5SAN4"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=vxcnz8EHi_o"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=VtbiRiO3nBE"
+      }
+    ],
     "runnerUp": "Shine",
     "runnerUpRace": "Z",
     "season": 3,
@@ -65,6 +130,38 @@
     "name": "ASL Season 4",
     "players": 28,
     "prizePoolKrw": 100000000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=e9eCGElQJIM"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=toURJRI-K-k"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=0jjULjQ_cqA"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=PZ5VyM1JOk0"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=0T5OQqP-7CU"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=ENnIpOtrgP0"
+      }
+    ],
     "runnerUp": "herO",
     "runnerUpRace": "Z",
     "season": 4,
@@ -85,6 +182,38 @@
     "name": "ASL Season 5",
     "players": 28,
     "prizePoolKrw": 58600000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=5kvNatT3PuU"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=Pezx79kVWXc"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=rmyFbSGWUig"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=8uXbRfYeDZY"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=o-tCmswwP6k"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=dCn9WWIk4so"
+      }
+    ],
     "runnerUp": "SnOw",
     "runnerUpRace": "P",
     "season": 5,
@@ -105,6 +234,38 @@
     "name": "ASL Season 6",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=v34taOKBTgY"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=Qv3oYNRtATI"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=aYxDwfu1Hr8"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=4HPWt0VBvSo"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=iceVygnINGo"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=aQhEKnrN_bg"
+      }
+    ],
     "runnerUp": "Flash",
     "runnerUpRace": "T",
     "season": 6,
@@ -125,6 +286,38 @@
     "name": "ASL Season 7",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=SRGyrxANxVo"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=4h0IOd-BVTk"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=x-2V1uj2F34"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=iogKNMMgfqU"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=VXun-vUEjw8"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=oPLSoFyVjes"
+      }
+    ],
     "runnerUp": "Mini",
     "runnerUpRace": "P",
     "season": 7,
@@ -145,6 +338,38 @@
     "name": "ASL Season 8",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=vwXsPimVYkQ"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=SMN1GPC_iMA"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=tgc5lEU9e7s"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=xxAEcWFBtRg"
+      },
+      {
+        "label": "Day 1",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=nqsQa3-i4Gk"
+      },
+      {
+        "label": "Day 2",
+        "round": "semifinal",
+        "url": "https://www.youtube.com/watch?v=ufQ6gsB2pis"
+      }
+    ],
     "runnerUp": "SnOw",
     "runnerUpRace": "P",
     "season": 8,
@@ -165,6 +390,7 @@
     "name": "ASL Season 9",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [],
     "runnerUp": "Light",
     "runnerUpRace": "T",
     "season": 9,
@@ -185,6 +411,28 @@
     "name": "ASL Season 10",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [
+      {
+        "label": "Day 1",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=4wzgArbZPx8"
+      },
+      {
+        "label": "Day 2",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=zfXGHmBPppg"
+      },
+      {
+        "label": "Day 3",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=GgPfoDM4HN0"
+      },
+      {
+        "label": "Day 4",
+        "round": "quarterfinal",
+        "url": "https://www.youtube.com/watch?v=Vhnb9XV93NM"
+      }
+    ],
     "runnerUp": "soma",
     "runnerUpRace": "Z",
     "season": 10,
@@ -205,6 +453,7 @@
     "name": "ASL Season 11",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [],
     "runnerUp": "Mini",
     "runnerUpRace": "P",
     "season": 11,
@@ -225,6 +474,7 @@
     "name": "ASL Season 12",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [],
     "runnerUp": "Rush",
     "runnerUpRace": "T",
     "season": 12,
@@ -245,6 +495,7 @@
     "name": "ASL Season 13",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [],
     "runnerUp": "Rain",
     "runnerUpRace": "P",
     "season": 13,
@@ -265,6 +516,7 @@
     "name": "ASL Season 14",
     "players": 28,
     "prizePoolKrw": 80000000,
+    "roundVods": [],
     "runnerUp": "Rush",
     "runnerUpRace": "T",
     "season": 14,
@@ -285,6 +537,7 @@
     "name": "ASL Season 15",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "Mind",
     "runnerUpRace": "T",
     "season": 15,
@@ -305,6 +558,7 @@
     "name": "ASL Season 16",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "Mini",
     "runnerUpRace": "P",
     "season": 16,
@@ -325,6 +579,7 @@
     "name": "ASL Season 17",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "herO",
     "runnerUpRace": "Z",
     "season": 17,
@@ -345,6 +600,7 @@
     "name": "ASL Season 18 (2024 SSL AUTUMN)",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "Sharp",
     "runnerUpRace": "T",
     "season": 18,
@@ -365,6 +621,7 @@
     "name": "ASL Season 19",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "Best",
     "runnerUpRace": "P",
     "season": 19,
@@ -385,6 +642,7 @@
     "name": "ASL Season 20",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "SnOw",
     "runnerUpRace": "P",
     "season": 20,
@@ -405,6 +663,7 @@
     "name": "ASL Season 21",
     "players": 28,
     "prizePoolKrw": 78000000,
+    "roundVods": [],
     "runnerUp": "Flash",
     "runnerUpRace": "T",
     "season": 21,

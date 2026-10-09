@@ -23,6 +23,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parents[2] / "data" / "source" / "liquipedia"
+VIDEOS = SRC.parent / "youtube" / "videos.json"
 PIPE = "\x00"  # stands in for {{!}} (a literal pipe inside a template argument)
 
 # Identity decisions confirmed by Derek (CLAUDE.md Domain Rules), keyed by lowercase name.
@@ -135,6 +136,33 @@ def opponent(raw: str) -> dict | None:
     return None
 
 
+def map_name(raw: str) -> str | None:
+    """'Tempest (Map)' -> 'Tempest'. The bracketed part only tells wiki pages apart."""
+    name = re.sub(r"\s*\((?:ASL )?Map\)\s*$", "", raw.strip(), flags=re.I)
+    name = re.sub(r"\s*\(ASL\)\s*$", "", name, flags=re.I)
+    return name or None
+
+
+def youtube_link(raw: str | None) -> tuple[str, int] | None:
+    """(video id, start in seconds) from any spelling of a YouTube link, else None."""
+    m = re.search(r"(?:youtu\.be/|youtube\.com/watch\?(?:[^\s#]*&)?v=)([A-Za-z0-9_-]{11})", raw or "")
+    if not m:
+        return None
+    start = 0
+    t = re.search(r"[?&#]t=(?:(\d+)h)?(?:(\d+)m)?(?:(\d+)s?)?", raw)
+    if t and any(t.groups()):
+        h, mins, sec = (int(x or 0) for x in t.groups())
+        start = h * 3600 + mins * 60 + sec
+    return m.group(1), start
+
+
+def first_youtube(named: dict[str, str], keys: list[str]) -> tuple[str, int] | None:
+    return next((y for y in (youtube_link(named.get(k)) for k in keys) if y), None)
+
+
+VOD_KEYS = ["vod"] + [f"vod{i}" for i in range(1, 10)]
+
+
 def parse_match(inner: str) -> dict | None:
     _, named = split_params(inner)
     a, b = opponent(named.get("opponent1", "")), opponent(named.get("opponent2", ""))
@@ -147,6 +175,15 @@ def parse_match(inner: str) -> dict | None:
                 w = split_params(body)[1].get("winner", "").strip()
                 if w in ("1", "2"):
                     maps[int(w) - 1] += 1
+    games = []
+    for key in sorted((k for k in named if re.fullmatch(r"map\d+", k)), key=lambda k: int(k[3:])):
+        for _, _, body in find_templates(named[key], "Map"):
+            mp = split_params(body)[1]
+            w = mp.get("winner", "").strip()
+            if w in ("1", "2"):
+                games.append({"map": map_name(mp.get("map", "")), "winner": int(w),
+                              "vod": youtube_link(mp.get("vod")) or youtube_link(named.get("vodgame" + key[3:]))})
+    vod = first_youtube(named, VOD_KEYS) or next((g["vod"] for g in games if g["vod"]), None)
     winner, how = None, None
     if named.get("winner", "").strip() in ("1", "2"):
         winner, how = int(named["winner"]), "winner="
@@ -167,7 +204,111 @@ def parse_match(inner: str) -> dict | None:
             if (o["score"] or "").upper() in ("W", "FF", "L", "DQ"):
                 winner, how = (i if o["score"].upper() == "W" else 3 - i), "walkover"
     score = scores if None not in scores else (maps if sum(maps) else None)
-    return {"a": a, "b": b, "winner": winner, "how": how, "score": score}
+    return {"a": a, "b": b, "winner": winner, "how": how, "score": score, "games": games, "vod": vod}
+
+
+def games_of(m: dict, a: str, b: str) -> list[dict]:
+    """A match's games with the winner named. A game with no map name keeps map None."""
+    return [{"map": g["map"], "winner": a if g["winner"] == 1 else b} for g in m["games"]]
+
+
+# --------------------------------------------------------------------------- vods
+
+# name as SOOP esports EN titles spell it (lowercase) -> canonical, where the two differ
+TITLE_NAMES = {"soulkey": "Soulkey", "effort": "EffOrt", "snow": "SnOw", "hero": "herO", "best": "Best",
+               "jd": "Jaedong", "barracks": "BarrackS", "royal": "RoyaL", "zero": "ZerO", "jyj": "JyJ",
+               "queen": "ZerO"}  # the casts call ZerO by his other handle
+# Seasons the channel titles by another name.
+TITLE_SEASONS = {"2024 SSL AUTUMN": 18}
+SKIP_TITLE = re.compile(r"nomination|highlight|interview|ceremony|preview|trailer|#shorts", re.I)
+
+
+def load_videos() -> dict[str, dict]:
+    """Video id -> {title, channel} for every video known to exist (scripts/youtube/fetch_vods.py)."""
+    return json.loads(VIDEOS.read_text(encoding="utf-8"))["videos"] if VIDEOS.exists() else {}
+
+
+def title_slot(title: str) -> tuple | None:
+    """What an English cast's title says it covers: (season, stage, key).
+
+    stage is ro24 / ro16 with key = group letter, or ro8 / ro4 / final / third with key =
+    (match number or None, frozenset of the two player names, lowercase, or None). Older
+    playoff casts are titled by broadcast day and name no match: their key is ("day", number).
+    """
+    if not title.startswith("[ENG]") or SKIP_TITLE.search(title):
+        return None
+    named = next((n for text, n in TITLE_SEASONS.items() if text.lower() in title.lower()), None)
+    season = re.search(r"\bS(?:eason)?\s*(\d{1,2})\b", title, re.I)
+    if named is None and (not season or not re.search(r"\bASL\b|StarLeague", title)):
+        return None
+    n = named or int(season.group(1))
+    group = re.search(r"\bRo\.?\s*(24|16)\b.*?\bGroup\s*([A-F])\b", title, re.I)
+    if group:
+        return n, "ro" + group.group(1), group.group(2).upper()
+    versus = re.search(r"([\w.]+)\s+vs\.?\s+([\w.]+)", title, re.I)
+    names = frozenset(x.lower() for x in versus.groups()) if versus else None
+    number = re.search(r"\bMatch\s*(\d)\b", title, re.I)
+    key = (int(number.group(1)) if number else None, names)
+    if re.search(r"\b(?:3rd|third)\b|3/4 Place", title, re.I):
+        return n, "third", key
+    if re.search(r"\bFinals?\b", title, re.I) and not re.search(r"\bRo\.?\s*(8|4)\b", title, re.I):
+        return n, "final", key
+    playoff = re.search(r"\bRo\.?\s*(8|4)\b", title, re.I)
+    if not playoff:
+        return None
+    day = re.search(r"\bDay\s*(\d)\b", title, re.I)
+    if day and not number and not names:
+        key = ("day", int(day.group(1)))
+    return n, "ro" + playoff.group(1), key
+
+
+class Vods:
+    """Picks the English cast for a group or a playoff series.
+
+    A link on the Liquipedia page wins when its video still exists. Otherwise the cast is
+    matched by title among the channel's videos. Links to videos that are gone are dropped.
+    """
+
+    def __init__(self, videos: dict[str, dict] | None = None):
+        self.videos = load_videos() if videos is None else videos
+        self.slots: dict[tuple, list[tuple[str, tuple]]] = defaultdict(list)
+        self.days: dict[tuple, dict[int, list[str]]] = defaultdict(lambda: defaultdict(list))
+        for vid, v in sorted(self.videos.items()):
+            slot = title_slot(v.get("title") or "") if v.get("channel") == "SOOP esports EN" else None
+            if slot and isinstance(slot[2], tuple) and slot[2][0] == "day":
+                self.days[slot[:2]][slot[2][1]].append(vid)
+            elif slot:
+                self.slots[slot[:2]].append((vid, slot[2]))
+
+    def by_day(self, season: int, stage: str) -> list[dict]:
+        """Casts of a playoff round that are titled by day, in order. Skips a day with two candidates."""
+        days = self.days.get((season, stage), {})
+        return [{"label": f"Day {d}", "url": self.url((vids[0], 0))} for d, vids in sorted(days.items()) if len(vids) == 1]
+
+    def url(self, link: tuple[str, int] | None) -> str | None:
+        if not link or (self.videos and link[0] not in self.videos):
+            return None
+        return f"https://www.youtube.com/watch?v={link[0]}" + (f"&t={link[1]}s" if link[1] else "")
+
+    def group(self, season: int, stage: str, title: str) -> str | None:
+        letter = title.strip()[-1:].upper()
+        found = [vid for vid, key in self.slots.get((season, stage), []) if key == letter]
+        return self.url((found[0], 0)) if len(found) == 1 else None
+
+    def playoff(self, season: int, key: str, a: str, b: str) -> str | None:
+        stage = {"r1": "ro8", "r2": "ro4", "r3": "final", "rx": "third"}[key[:2]]
+        want = frozenset(x.lower() for x in (a, b))
+        number = int(key[3:]) if key[3:].isdigit() else None
+        options = self.slots.get((season, stage), [])
+
+        def canon_names(names):
+            return frozenset(TITLE_NAMES.get(x, x).lower() for x in names) if names else None
+
+        by_name = [vid for vid, (_, names) in options if names == want or canon_names(names) == want]
+        if len(by_name) == 1:
+            return self.url((by_name[0], 0))
+        nameless = [vid for vid, (num, names) in options if names is None and (num == number or stage in ("final", "third"))]
+        return self.url((nameless[0], 0)) if len(nameless) == 1 and not by_name else None
 
 
 # --------------------------------------------------------------------------- season
@@ -205,7 +346,8 @@ def group_standing(players: list[str], series: list[tuple[str, str]], tiebreak: 
     return rank(players), notes
 
 
-def parse_season(n: int, text: str) -> dict:
+def parse_season(n: int, text: str, vods: Vods | None = None) -> dict:
+    vods = vods or Vods()
     text = clean(text)
     RAW_LINKS.clear()
     notes: list[str] = []
@@ -255,9 +397,11 @@ def parse_season(n: int, text: str) -> dict:
                     RAW_LINKS[on["p1"].split(PIPE, 1)[-1].strip()] = on["p1link"].replace("_", " ").strip()
                 listed.append(see({"name": shown, "link": (on.get("p1link") or page or "").replace("_", " ") or None,
                                    "race": RACES.get(on.get("p1race", "").strip().lower())}))
-        series, players = [], []
+        series, players, detail = [], [], []
+        group_vod = vods.url(first_youtube(named, VOD_KEYS))
         if ml:
             _, mnamed = split_params(ml[2])
+            group_vod = group_vod or vods.url(first_youtube(mnamed, VOD_KEYS))
             for key in sorted((k for k in mnamed if re.fullmatch(r"m\d+", k)), key=lambda k: int(k[1:])):
                 found = find_templates(mnamed[key], "Match")
                 m = parse_match(found[0][2]) if found else None
@@ -272,7 +416,12 @@ def parse_season(n: int, text: str) -> dict:
                     notes.append(f"{stage} {title}: no winner recorded for {a} vs {b}")
                     continue
                 series.append((a, b) if m["winner"] == 1 else (b, a))
+                detail.append({"games": games_of(m, a, b), "vod": vods.url(m["vod"])})
+        group_vod = group_vod or vods.group(n, stage, title)
+        for d in detail:
+            d["vod"] = d["vod"] or group_vod
         groups.append({"stage": stage, "title": title, "listed": listed, "players": players, "series": series,
+                       "detail": detail, "vod": group_vod or next((d["vod"] for d in detail if d["vod"]), None),
                        "tiebreaker": "tiebreak" in title.lower()})
 
     placements: dict[str, str] = {}
@@ -292,11 +441,14 @@ def parse_season(n: int, text: str) -> dict:
             notes.append(f"{g['stage']} {g['title']}: page lists {g['listed']} but match results give {order}")
         if len(order) == 4:
             placements[order[2]], placements[order[3]] = tiers[g["stage"]]
-        out_groups.append({"stage": g["stage"], "title": g["title"], "standing": order,
-                           "series": [{"winner": w, "loser": l} for w, l in g["series"]]})
+        def out_series(grp: dict) -> list[dict]:
+            return [{"winner": w, "loser": l, **d} for (w, l), d in zip(grp["series"], grp["detail"])]
+
+        out_groups.append({"stage": g["stage"], "title": g["title"], "standing": order, "vod": g["vod"],
+                           "series": out_series(g)})
         if tb:
             out_groups.append({"stage": g["stage"], "title": tb["title"], "standing": tb_order, "tiebreaker": True,
-                               "series": [{"winner": w, "loser": l} for w, l in tb["series"]]})
+                               "vod": tb["vod"], "series": out_series(tb)})
 
     # ---- bracket
     bracket = find_templates(text, "Bracket")
@@ -309,9 +461,15 @@ def parse_season(n: int, text: str) -> dict:
             a, b = see(m["a"]), see(m["b"])
             w, l = (a, b) if m["winner"] == 1 else (b, a)
             s = sorted(m["score"], reverse=True) if m["score"] else None
-            rounds[key] = {"winner": w, "loser": l, "score": f"{s[0]}-{s[1]}" if s else None}
+            rounds[key] = {"winner": w, "loser": l, "score": f"{s[0]}-{s[1]}" if s else None,
+                           "games": games_of(m, a, b), "vod": vods.url(m["vod"]) or vods.playoff(n, key, a, b)}
         elif key != "rxmtp":
             notes.append(f"bracket: could not read {key.upper()}")
+    # A round whose casts are titled by day cannot be tied to single matches: list the days.
+    round_vods = []
+    for prefix, stage, label in (("r1", "ro8", "quarterfinal"), ("r2", "ro4", "semifinal")):
+        if any(not m["vod"] for k, m in rounds.items() if k.startswith(prefix)):
+            round_vods += [{"round": label, **d} for d in vods.by_day(n, stage)]
     for key in ("r1m1", "r1m2", "r1m3", "r1m4"):
         if key in rounds:
             placements[rounds[key]["loser"]] = "5th-8th"
@@ -397,6 +555,7 @@ def parse_season(n: int, text: str) -> dict:
         "thirdPlaceMatch": "rxmtp" in rounds,
         "players": players,
         "bracket": rounds,
+        "roundVods": round_vods,
         "groups": out_groups,
         "prizeByPlace": prize_by_place,
         "notes": notes,
@@ -407,6 +566,7 @@ def parse_season(n: int, text: str) -> dict:
 def parse_all() -> tuple[list[dict], dict[str, list[str]]]:
     """Parse every season with names normalised. Returns (seasons, identities)."""
     texts = {int(p.stem[1:]): p.read_text(encoding="utf-8") for p in sorted(SRC.glob("s[0-9][0-9].wiki"))}
+    vods = Vods()
     players_path = SRC / "players.json"
     pages = json.loads(players_path.read_text(encoding="utf-8")) if players_path.exists() else {}
 
@@ -415,7 +575,7 @@ def parse_all() -> tuple[list[dict], dict[str, list[str]]]:
     CANON.clear()
     last_seen: dict[str, tuple[int, str]] = {}
     for n, text in texts.items():
-        for raw in parse_season(n, text)["rawLinks"]:
+        for raw in parse_season(n, text, vods)["rawLinks"]:
             last_seen[raw] = (n, raw)
     key_of = {}
     for raw in last_seen:
@@ -443,7 +603,7 @@ def parse_all() -> tuple[list[dict], dict[str, list[str]]]:
         if race:
             PAGE_RACE[chosen] = race
 
-    seasons = [parse_season(n, text) for n, text in texts.items()]
+    seasons = [parse_season(n, text, vods) for n, text in texts.items()]
     # A player with no race on a season page (S12+) takes the race from their other seasons.
     known: dict[str, Counter] = defaultdict(Counter)
     for s in seasons:

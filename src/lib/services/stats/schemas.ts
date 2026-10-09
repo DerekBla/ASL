@@ -40,6 +40,14 @@ export const seasonSchema = z.strictObject({
   finalScore: z.string().nullable(),
   thirdPlaceMatch: z.boolean(),
   status: z.enum(["complete", "in_progress"]),
+  /** Casts of a playoff round that are titled by broadcast day, so no single series owns them. */
+  roundVods: z.array(
+    z.strictObject({
+      round: z.enum(["quarterfinal", "semifinal"]),
+      label: z.string().min(1),
+      url: z.url(),
+    }),
+  ),
   source: z.strictObject({ title: z.string(), url: z.url(), revid: count }),
 });
 
@@ -66,6 +74,10 @@ export const seriesSchema = z.strictObject({
   winnerRace: nullableRace,
   loserRace: nullableRace,
   score: z.string().nullable(),
+  /** Games in the order played. Empty when the source page lists none; map is null when unnamed. */
+  games: z.array(z.strictObject({ map: z.string().min(1).nullable(), winner: z.string().min(1) })),
+  /** The English cast on YouTube, starting at this series when the source says where. */
+  vod: z.url().nullable(),
 });
 
 export const eloRowSchema = z.strictObject({
