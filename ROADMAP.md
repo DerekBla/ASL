@@ -102,7 +102,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 ### Archive
 
-- [implemented 2026-10-08] Top 10 ELO chart — requested by Derek. `/elo` opens with the ten highest rated players' ELO across every season: all lines gray, the picked player highlighted, hover and arrow key readout, table view (`EloTopChart`)
+- [implemented 2026-10-08] Top 10 ELO chart — requested by Derek. `/elo` opens with the ten highest rated players' ELO across every season: one color per player (ten validated chart colors), the picked player thickened and labeled, hover and arrow key readout, table view (`EloTopChart`)
 - [implemented 2026-10-08] Maps and VODs on the season page — requested by Derek. Group matches open on a click, every match shows its map, and VOD buttons link the English casts on YouTube for each group and playoff series (`games` and `vod` on `Series`, `roundVods` on `Season`; `scripts/youtube/fetch_vods.py`). Spec: `Docs/foundation-specs/stats-data.md`, Maps and VODs
 - [implemented 2026-10-08] Season page bracket, group tables and logo — requested by Derek after feedback from a friend. Playoffs drawn as a bracket and each group as a standings table with its matches (`src/lib/services/stats/stages.ts`, `PlayoffBracket`, `GroupStages`), a coin and star logo in the header and as the tab icon (`src/components/Logo.tsx`), and the Stats and Play labels removed from the navigation
 - [implemented 2026-10-08] Landing page and clearer labels — requested by Derek after feedback from a friend. Intro leads with stats and explains the three games, navigation in two labeled groups (Stats, Play), nav labels match page headings, a plain intro on every index page

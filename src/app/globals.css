@@ -86,6 +86,12 @@
   --series-2: #eb6834;
   --series-3: #1baf7a;
   --series-4: #eda100;
+  --series-5: #e87ba4;
+  --series-6: #008300;
+  --series-7: #4a3aa7;
+  --series-8: #e34948;
+  --series-9: #0093b8;
+  --series-10: #9a4f0c;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -111,6 +117,12 @@
     --series-2: #d95926;
     --series-3: #199e70;
     --series-4: #c98500;
+    --series-5: #d55181;
+    --series-6: #008300;
+    --series-7: #9085e9;
+    --series-8: #e66767;
+    --series-9: #1a9cc0;
+    --series-10: #c47a35;
   }
 }
 
@@ -137,6 +149,12 @@
   --color-series-2: var(--series-2);
   --color-series-3: var(--series-3);
   --color-series-4: var(--series-4);
+  --color-series-5: var(--series-5);
+  --color-series-6: var(--series-6);
+  --color-series-7: var(--series-7);
+  --color-series-8: var(--series-8);
+  --color-series-9: var(--series-9);
+  --color-series-10: var(--series-10);
   /* Single-series charts use the first series color. */
   --color-chart-line: var(--series-1);
   --shadow-soft: var(--shadow-soft);

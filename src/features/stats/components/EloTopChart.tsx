@@ -30,6 +30,24 @@ function niceTicks(min: number, max: number): number[] {
   return ticks;
 }
 
+/**
+ * One color per line, by the player's place in the list. Ten slots, validated in this order
+ * with the dataviz palette checks on the light and dark page backgrounds (globals.css).
+ */
+const SERIES = [
+  { stroke: "stroke-series-1", fill: "fill-series-1", bg: "bg-series-1" },
+  { stroke: "stroke-series-2", fill: "fill-series-2", bg: "bg-series-2" },
+  { stroke: "stroke-series-3", fill: "fill-series-3", bg: "bg-series-3" },
+  { stroke: "stroke-series-4", fill: "fill-series-4", bg: "bg-series-4" },
+  { stroke: "stroke-series-5", fill: "fill-series-5", bg: "bg-series-5" },
+  { stroke: "stroke-series-6", fill: "fill-series-6", bg: "bg-series-6" },
+  { stroke: "stroke-series-7", fill: "fill-series-7", bg: "bg-series-7" },
+  { stroke: "stroke-series-8", fill: "fill-series-8", bg: "bg-series-8" },
+  { stroke: "stroke-series-9", fill: "fill-series-9", bg: "bg-series-9" },
+  { stroke: "stroke-series-10", fill: "fill-series-10", bg: "bg-series-10" },
+] as const;
+const NEUTRAL = { stroke: "stroke-ink-muted", fill: "fill-ink-muted", bg: "bg-ink-muted" };
+
 /** Rating a player held after a season: the last one they earned up to then, if any. */
 function ratingAfter(history: readonly Point[], season: number): number | null {
   let value: number | null = null;
@@ -38,10 +56,9 @@ function ratingAfter(history: readonly Point[], season: number): number | null {
 }
 
 /**
- * The top rated players' ELO across every season, on one chart. Ten lines are too many to tell
- * apart by color (dataviz: never more hues than can be separated), so every line is gray and
- * the one picked in the list below is drawn in the chart color and labeled. Hover or use the
- * arrow keys to read a season; the full numbers are in the table.
+ * The top rated players' ELO across every season, on one chart, each line in its own color
+ * (Derek, 2026-10-08). The list below is the legend: picking a player thickens and labels
+ * their line. Hover or use the arrow keys to read a season; the full numbers are in the table.
  */
 export function EloTopChart({ players, lastSeason, start }: Props): ReactElement {
   const [picked, setPicked] = useState(players[0]?.player ?? "");
@@ -85,6 +102,9 @@ export function EloTopChart({ players, lastSeason, start }: Props): ReactElement
   };
 
   const chosen = players.find((p) => p.player === picked) ?? players[0];
+  const colorOf = (player: string): (typeof SERIES)[number] | typeof NEUTRAL =>
+    SERIES[players.findIndex((p) => p.player === player)] ?? NEUTRAL;
+  const chosenColor = colorOf(chosen?.player ?? "");
   const chosenNow = chosen ? ratingAfter(chosen.history, lastSeason) : null;
   const chosenAt = chosen && season !== null ? ratingAfter(chosen.history, season) : null;
 
@@ -177,11 +197,11 @@ export function EloTopChart({ players, lastSeason, start }: Props): ReactElement
                 key={p.player}
                 d={pathOf(p.history)}
                 fill="none"
-                className="stroke-ink-muted"
-                strokeWidth="1.5"
+                className={colorOf(p.player).stroke}
+                strokeWidth="1.75"
                 strokeLinejoin="round"
                 strokeLinecap="round"
-                opacity="0.35"
+                opacity="0.7"
               />
             ))}
           {chosen ? (
@@ -189,8 +209,8 @@ export function EloTopChart({ players, lastSeason, start }: Props): ReactElement
               <path
                 d={pathOf(chosen.history)}
                 fill="none"
-                className="stroke-chart-line"
-                strokeWidth="2.5"
+                className={chosenColor.stroke}
+                strokeWidth="3.5"
                 strokeLinejoin="round"
                 strokeLinecap="round"
               />
@@ -200,7 +220,7 @@ export function EloTopChart({ players, lastSeason, start }: Props): ReactElement
                   cx={x(p.season)}
                   cy={y(p.elo)}
                   r={p.season === season ? 5 : 3.5}
-                  className="fill-chart-line stroke-card"
+                  className={`${chosenColor.fill} stroke-surface`}
                   strokeWidth="2"
                 />
               ))}
@@ -247,7 +267,7 @@ export function EloTopChart({ players, lastSeason, start }: Props): ReactElement
             >
               <span
                 aria-hidden="true"
-                className={`h-0.5 w-4 rounded ${on ? "bg-chart-line" : "bg-ink-muted opacity-50"}`}
+                className={`w-4 rounded ${colorOf(p.player).bg} ${on ? "h-1" : "h-0.5"}`}
               />
               <span className="text-ink-muted tabular-nums">{p.rank}.</span>
               {p.player}
@@ -256,8 +276,9 @@ export function EloTopChart({ players, lastSeason, start }: Props): ReactElement
         })}
       </div>
       <p className="text-caption text-ink-muted">
-        The {players.length} highest rated players today. Pick a player to highlight their line. A
-        rating changes only in seasons a player entered and holds flat in between.
+        The {players.length} highest rated players today, one color each. Pick a player to make
+        their line stand out. A rating changes only in seasons a player entered and holds flat in
+        between.
       </p>
       <details className="text-data">
         <summary className="cursor-pointer text-caption text-ink-muted">Show as a table</summary>
