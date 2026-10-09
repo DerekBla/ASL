@@ -138,7 +138,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "ZerO",
+    "player": "Queen",
     "prizeKrw": 250000,
     "race": "Z",
     "season": 1
@@ -2550,7 +2550,7 @@
       "status": "final",
       "worst": 1
     },
-    "player": "ZerO",
+    "player": "Queen",
     "prizeKrw": 30000000,
     "race": "Z",
     "season": 9
@@ -2886,7 +2886,7 @@
       "status": "final",
       "worst": 1
     },
-    "player": "ZerO",
+    "player": "Queen",
     "prizeKrw": 30000000,
     "race": "Z",
     "season": 10
@@ -3258,7 +3258,7 @@
       "status": "final",
       "worst": 4
     },
-    "player": "ZerO",
+    "player": "Queen",
     "prizeKrw": 3000000,
     "race": "Z",
     "season": 11
@@ -3594,7 +3594,7 @@
       "status": "final",
       "worst": 4
     },
-    "player": "ZerO",
+    "player": "Queen",
     "prizeKrw": 3000000,
     "race": "Z",
     "season": 12
@@ -4014,9 +4014,9 @@
       "status": "final",
       "worst": 12
     },
-    "player": "Shuttle",
+    "player": "Queen",
     "prizeKrw": 1500000,
-    "race": "P",
+    "race": "Z",
     "season": 13
   },
   {
@@ -4026,9 +4026,9 @@
       "status": "final",
       "worst": 12
     },
-    "player": "ZerO",
+    "player": "Shuttle",
     "prizeKrw": 1500000,
-    "race": "Z",
+    "race": "P",
     "season": 13
   },
   {
@@ -4362,7 +4362,7 @@
       "status": "final",
       "worst": 12
     },
-    "player": "ZerO",
+    "player": "Queen",
     "prizeKrw": 1500000,
     "race": "Z",
     "season": 14
@@ -4638,7 +4638,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "Soulkey",
+    "player": "Queen",
     "prizeKrw": 2000000,
     "race": "Z",
     "season": 15
@@ -4650,7 +4650,7 @@
       "status": "final",
       "worst": 8
     },
-    "player": "ZerO",
+    "player": "Soulkey",
     "prizeKrw": 2000000,
     "race": "Z",
     "season": 15
@@ -5118,6 +5118,18 @@
       "status": "final",
       "worst": 22
     },
+    "player": "Queen",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 16
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
     "player": "Rain",
     "prizeKrw": 1000000,
     "race": "P",
@@ -5145,18 +5157,6 @@
     "player": "Stork",
     "prizeKrw": 1000000,
     "race": "P",
-    "season": 16
-  },
-  {
-    "placement": {
-      "best": 17,
-      "label": "17th–22nd",
-      "status": "final",
-      "worst": 22
-    },
-    "player": "ZerO",
-    "prizeKrw": 1000000,
-    "race": "Z",
     "season": 16
   },
   {
@@ -5790,6 +5790,18 @@
       "status": "final",
       "worst": 22
     },
+    "player": "Queen",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 18
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
     "player": "Sacsri",
     "prizeKrw": 1000000,
     "race": "Z",
@@ -5817,18 +5829,6 @@
     "player": "sSak",
     "prizeKrw": 1000000,
     "race": "T",
-    "season": 18
-  },
-  {
-    "placement": {
-      "best": 17,
-      "label": "17th–22nd",
-      "status": "final",
-      "worst": 22
-    },
-    "player": "ZerO",
-    "prizeKrw": 1000000,
-    "race": "Z",
     "season": 18
   },
   {
@@ -6786,6 +6786,18 @@
       "status": "final",
       "worst": 22
     },
+    "player": "Queen",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 21
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
     "player": "Scan",
     "prizeKrw": 1000000,
     "race": "T",
@@ -6825,18 +6837,6 @@
     "player": "Speed",
     "prizeKrw": 1000000,
     "race": "T",
-    "season": 21
-  },
-  {
-    "placement": {
-      "best": 17,
-      "label": "17th–22nd",
-      "status": "final",
-      "worst": 22
-    },
-    "player": "ZerO",
-    "prizeKrw": 1000000,
-    "race": "Z",
     "season": 21
   },
   {

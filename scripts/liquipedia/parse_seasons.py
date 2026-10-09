@@ -28,7 +28,7 @@ PIPE = "\x00"  # stands in for {{!}} (a literal pipe inside a template argument)
 
 # Identity decisions confirmed by Derek (CLAUDE.md Domain Rules), keyed by lowercase name.
 CONFIRMED = {"snow": "SnOw", "hero": "herO", "best": "Best", "effort": "EffOrt", "hyun": "HyuN",
-             "huro": "tulbo", "yoon soo-chul": "tulbo", "jd": "Jaedong"}
+             "huro": "tulbo", "yoon soo-chul": "tulbo", "jd": "Jaedong", "zero": "Queen"}
 CANON: dict[str, str] = {}      # lowercase name as written -> canonical name (filled by main)
 PAGE_RACE: dict[str, str] = {}  # canonical name -> race from the Liquipedia player page
 
@@ -216,8 +216,7 @@ def games_of(m: dict, a: str, b: str) -> list[dict]:
 
 # name as SOOP esports EN titles spell it (lowercase) -> canonical, where the two differ
 TITLE_NAMES = {"soulkey": "Soulkey", "effort": "EffOrt", "snow": "SnOw", "hero": "herO", "best": "Best",
-               "jd": "Jaedong", "barracks": "BarrackS", "royal": "RoyaL", "zero": "ZerO", "jyj": "JyJ",
-               "queen": "ZerO"}  # the casts call ZerO by his other handle
+               "jd": "Jaedong", "barracks": "BarrackS", "royal": "RoyaL", "zero": "Queen", "jyj": "JyJ"}
 # Seasons the channel titles by another name.
 TITLE_SEASONS = {"2024 SSL AUTUMN": 18}
 SKIP_TITLE = re.compile(r"nomination|highlight|interview|ceremony|preview|trailer|#shorts", re.I)
@@ -247,7 +246,7 @@ def title_slot(title: str) -> tuple | None:
         return n, "ro" + group.group(1), group.group(2).upper()
     versus = re.search(r"([\w.]+)\s+vs\.?\s+([\w.]+)", title, re.I)
     names = frozenset(x.lower() for x in versus.groups()) if versus else None
-    number = re.search(r"\bMatch\s*(\d)\b", title, re.I)
+    number = re.search(r"\bM(?:atch)?\s*(\d)\b", title, re.I)
     key = (int(number.group(1)) if number else None, names)
     if re.search(r"\b(?:3rd|third)\b|3/4 Place", title, re.I):
         return n, "third", key
@@ -581,6 +580,10 @@ def parse_all() -> tuple[list[dict], dict[str, list[str]]]:
     for raw in last_seen:
         page = (pages.get(raw) or {}).get("page")
         key_of[raw] = ("page", page.lower()) if page and pages[raw].get("isPlayerPage") else ("name", raw.lower())
+    for raw in list(key_of):  # a confirmed rename joins the person it names, whatever page it has
+        target = CONFIRMED.get(raw.lower())
+        if target and target != raw and target in key_of:
+            key_of[raw] = key_of[target]
     by_lower: dict[str, tuple] = {}
     for raw, key in key_of.items():  # a case variant with no page of its own joins its sibling's page
         if key[0] == "page":

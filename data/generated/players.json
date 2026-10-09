@@ -289,7 +289,9 @@
     "race": "P"
   },
   {
-    "aliases": [],
+    "aliases": [
+      "ZerO"
+    ],
     "player": "Queen",
     "race": "Z"
   },
@@ -455,11 +457,6 @@
   {
     "aliases": [],
     "player": "ZeLoT",
-    "race": "Z"
-  },
-  {
-    "aliases": [],
-    "player": "ZerO",
     "race": "Z"
   }
 ]

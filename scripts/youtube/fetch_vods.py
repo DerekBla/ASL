@@ -5,9 +5,10 @@ Two sources, both public pages read without an account:
 1. Every YouTube video a stored Liquipedia season page links as a VOD is checked against
    YouTube's oEmbed endpoint, which answers with the title and channel when the video still
    exists. Videos that are gone are listed under "gone" and never linked.
-2. The SOOP esports EN channel (the English ASL casts) is searched once per season and stage,
-   so that seasons where Liquipedia only links the Korean broadcast can be matched by title
-   (see title_slot in scripts/liquipedia/parse_seasons.py).
+2. The SOOP esports EN channel (the English ASL casts) is read two ways, so that seasons where
+   Liquipedia only links the Korean broadcast can be matched by title (see title_slot in
+   scripts/liquipedia/parse_seasons.py): its season playlists, which are complete but only
+   exist for some seasons, and a search of the channel once per season and stage.
 
 The script waits between requests. Run it by hand when a season ends; the result is committed.
 
@@ -80,6 +81,41 @@ def search(query: str) -> dict[str, str]:
     return out
 
 
+def initial_data(html: str, what: str) -> object:
+    found = re.search(r"var ytInitialData = (\{.*?\});</script>", html, re.S)
+    if not found:
+        raise SystemExit(f"YouTube's page layout changed: no data block for {what}")
+    return json.loads(found.group(1))
+
+
+def lockups(node: object, kind: str, out: dict[str, str]) -> dict[str, str]:
+    """Content id -> title of every playlist or video card under a page's data."""
+    if isinstance(node, dict):
+        card = node.get("lockupViewModel")
+        if isinstance(card, dict) and str(card.get("contentType", "")).endswith(kind):
+            try:
+                out[card["contentId"]] = card["metadata"]["lockupMetadataViewModel"]["title"]["content"]
+            except KeyError:
+                pass
+        for value in node.values():
+            lockups(value, kind, out)
+    elif isinstance(node, list):
+        for value in node:
+            lockups(value, kind, out)
+    return out
+
+
+def season_playlists() -> dict[str, str]:
+    """Playlist id -> title for the channel's ASL playlists (the first page of its playlists)."""
+    found = lockups(initial_data(get(f"{CHANNEL_URL}/playlists"), "the playlists page"), "PLAYLIST", {})
+    return {pid: title for pid, title in found.items() if re.search(r"\bASL\b|\bSSL\b", title)}
+
+
+def playlist(pid: str) -> dict[str, str]:
+    """Video id -> title for one playlist (its first page, which holds a whole season)."""
+    return lockups(initial_data(get(f"https://www.youtube.com/playlist?list={pid}"), f"playlist {pid}"), "VIDEO", {})
+
+
 def main(argv: list[str]) -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {"videos": {}, "gone": []}
@@ -98,6 +134,15 @@ def main(argv: list[str]) -> None:
         else:
             gone.add(video)
         time.sleep(0.7)
+
+    if not argv:
+        for pid, title in season_playlists().items():
+            time.sleep(2)
+            found = playlist(pid)
+            new = sum(video not in videos for video in found)
+            for video, video_title in found.items():
+                videos.setdefault(video, {"title": video_title, "channel": CHANNEL})
+            print(f"playlist {title}: {len(found)} videos, {new} new")
 
     for n in seasons:
         new = 0

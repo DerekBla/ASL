@@ -67,7 +67,8 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
 - **Player identity**: canonical handles follow Liquipedia's current spelling. Confirmed by
   Derek on 2026-10-07 (alias → canonical): `Snow` → `SnOw` (Jang Yoon-chul), `hero` → `herO`
   (Zerg), `BeSt` → `Best`, `Effort`/`effOrt` → `EffOrt`, `Hyun` → `HyuN`,
-  `huro`/`Yoon Soo-chul` → `tulbo` (Protoss), `JD` → `Jaedong` (Zerg). Any **new** case
+  `huro`/`Yoon Soo-chul` → `tulbo` (Protoss), `JD` → `Jaedong` (Zerg). Confirmed by Derek on
+  2026-10-08: `ZerO` → `Queen` (Zerg; Queen is his newer handle). Any **new** case
   variant the exporter flags **must not be merged without Derek's confirmation**.
 - **Races** come from Liquipedia, one per player. Confirmed by Derek: `sSak`, `Ample`, `Speed` are
   Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg. Liquipedia gives no race for

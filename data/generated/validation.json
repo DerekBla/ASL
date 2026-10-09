@@ -9,7 +9,7 @@
   },
   {
     "code": "SOURCE_TABLE_MISMATCH",
-    "message": "S1: ro16 Group C: page lists ['Sea', 'Flash', 'Mind', 'ZerO'] but match results give ['Sea', 'Flash', 'ZerO', 'Mind']"
+    "message": "S1: ro16 Group C: page lists ['Sea', 'Flash', 'Mind', 'Queen'] but match results give ['Sea', 'Flash', 'Queen', 'Mind']"
   },
   {
     "code": "SOURCE_TABLE_MISMATCH",

@@ -312,7 +312,7 @@
         "winner": "Flash"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group C",
     "score": null,
@@ -343,7 +343,7 @@
     "games": [
       {
         "map": "Taebaek Mountains",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Mind",
@@ -353,7 +353,7 @@
     "season": 1,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=6OhbOnP7GXc&t=6011s",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -380,7 +380,7 @@
         "winner": "Sea"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group C",
     "score": null,
@@ -7702,7 +7702,7 @@
         "winner": "Rush"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group F",
     "score": null,
@@ -7733,7 +7733,7 @@
     "games": [
       {
         "map": "Escalade",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Mini",
@@ -7743,14 +7743,14 @@
     "season": 9,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=7zACcJDevJs",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
     "games": [
       {
         "map": "Neo Sylphid",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Rush",
@@ -7760,7 +7760,7 @@
     "season": 9,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=7zACcJDevJs",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -8091,7 +8091,7 @@
     "games": [
       {
         "map": "Horizon Lunar Colony",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Bisu",
@@ -8101,18 +8101,18 @@
     "season": 9,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=nfL0DnVBqes",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
     "games": [
       {
         "map": "Polypoid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Neo Sylphid",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Best",
@@ -8122,7 +8122,7 @@
     "season": 9,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=nfL0DnVBqes",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -8216,11 +8216,11 @@
       },
       {
         "map": "Horizon Lunar Colony",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Neo Sylphid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Polypoid",
@@ -8228,7 +8228,7 @@
       },
       {
         "map": "Inner Coven",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Larva",
@@ -8238,7 +8238,7 @@
     "season": 9,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=6U3N4zUMQTA",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -8315,7 +8315,7 @@
       },
       {
         "map": "Horizon Lunar Colony",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Polypoid",
@@ -8323,11 +8323,11 @@
       },
       {
         "map": "Neo Sylphid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Hitchhiker",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Flash",
@@ -8337,7 +8337,7 @@
     "season": 9,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=cAuVZFhizRU",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -8373,11 +8373,11 @@
     "games": [
       {
         "map": "Horizon Lunar Colony",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Neo Sylphid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Hitchhiker",
@@ -8385,11 +8385,11 @@
       },
       {
         "map": "Match Point",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Inner Coven",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Light",
@@ -8399,7 +8399,7 @@
     "season": 9,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=EnoV2c_LYnU",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -8941,7 +8941,7 @@
     "games": [
       {
         "map": "Shakuras Temple",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Leta",
@@ -8951,7 +8951,7 @@
     "season": 10,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=q2-U0L8J_ao&t=1814s",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -8979,11 +8979,11 @@
       },
       {
         "map": "Eclipse",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Benzene",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "JyJ",
@@ -8993,7 +8993,7 @@
     "season": 10,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=q2-U0L8J_ao&t=4266s",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -9394,7 +9394,7 @@
     "season": 10,
     "stage": "playoffs",
     "vod": null,
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -9418,7 +9418,7 @@
     "season": 10,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=vbeRIpG2s_k",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -9430,7 +9430,7 @@
     "season": 10,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=9qENyb8fkOY",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -9959,7 +9959,7 @@
     "games": [
       {
         "map": "Polypoid",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Mong",
@@ -9969,7 +9969,7 @@
     "season": 11,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=CgLwTMAgvBU",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -9997,14 +9997,14 @@
       },
       {
         "map": "Ascension",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Ultimate Stream",
         "winner": "Mini"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group A",
     "score": null,
@@ -10047,11 +10047,11 @@
       },
       {
         "map": "Eclipse",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Fighting Spirit",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Shuttle",
@@ -10061,7 +10061,7 @@
     "season": 11,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=CgLwTMAgvBU",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -10392,7 +10392,7 @@
     "season": 11,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=Bos0VGLICQI",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -10421,7 +10421,7 @@
   },
   {
     "games": [],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "semifinal",
     "score": "4-1",
@@ -10457,7 +10457,7 @@
   },
   {
     "games": [],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "third_place",
     "score": "3-2",
@@ -11183,7 +11183,7 @@
     "games": [
       {
         "map": "Polypoid",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Stork",
@@ -11193,7 +11193,7 @@
     "season": 12,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=IkY5Vx59gYk",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -11224,7 +11224,7 @@
         "winner": "Light"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group C",
     "score": null,
@@ -11263,7 +11263,7 @@
     "games": [
       {
         "map": "GOOD NIGHT",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Eclipse",
@@ -11271,7 +11271,7 @@
       },
       {
         "map": "Largo",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "SnOw",
@@ -11281,7 +11281,7 @@
     "season": 12,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=IkY5Vx59gYk",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -11385,7 +11385,7 @@
     "games": [
       {
         "map": "Polypoid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Largo",
@@ -11397,11 +11397,11 @@
       },
       {
         "map": "GOOD NIGHT",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Revolver",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Soulkey",
@@ -11411,7 +11411,7 @@
     "season": 12,
     "stage": "playoffs",
     "vod": "https://www.youtube.com/watch?v=T6uwY5D6djk",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -11505,7 +11505,7 @@
       },
       {
         "map": "Largo",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Revolver",
@@ -11520,7 +11520,7 @@
         "winner": "Mini"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "semifinal",
     "score": "4-1",
@@ -11616,14 +11616,14 @@
       },
       {
         "map": "Polypoid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "GOOD NIGHT",
         "winner": "herO"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "third_place",
     "score": "3-1",
@@ -12457,7 +12457,7 @@
         "winner": "Bisu"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group D",
     "score": null,
@@ -12509,11 +12509,11 @@
     "games": [
       {
         "map": "Metaverse",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Butter",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Best",
@@ -12523,14 +12523,14 @@
     "season": 13,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=yqBx6Bn0ecw",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
     "games": [
       {
         "map": "Monopoly",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Metaverse",
@@ -12541,7 +12541,7 @@
         "winner": "Bisu"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group D",
     "score": null,
@@ -12981,7 +12981,7 @@
     "games": [
       {
         "map": "Butter",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "MIsO",
@@ -12991,7 +12991,7 @@
     "season": 14,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=Fvc0uB0Emnc",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -13015,7 +13015,7 @@
     "games": [
       {
         "map": "Allegro",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Sharp",
@@ -13025,7 +13025,7 @@
     "season": 14,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=Fvc0uB0Emnc",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -13552,7 +13552,7 @@
     "games": [
       {
         "map": "Vermeer SE",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Soulkey",
@@ -13562,14 +13562,14 @@
     "season": 14,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=qPD1TYnJH5s",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
     "games": [
       {
         "map": "Neo Arkanoid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Nemesis",
@@ -13580,7 +13580,7 @@
         "winner": "SnOw"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group C",
     "score": null,
@@ -13626,7 +13626,7 @@
         "winner": "Soulkey"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group C",
     "score": null,
@@ -14349,7 +14349,7 @@
     "games": [
       {
         "map": "New Heartbreak Ridge",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Ruin",
@@ -14359,7 +14359,7 @@
     "season": 15,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=t4ed2cFyhjY",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -14383,7 +14383,7 @@
     "games": [
       {
         "map": "Nemesis",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Shine",
@@ -14393,7 +14393,7 @@
     "season": 15,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=t4ed2cFyhjY",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -14640,7 +14640,7 @@
         "winner": "JyJ"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group B",
     "score": null,
@@ -14679,11 +14679,11 @@
     "games": [
       {
         "map": "Heartbreak Ridge",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Dark Origin",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "BarrackS",
@@ -14693,14 +14693,14 @@
     "season": 15,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=vELbjTuBn7Q",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
     "games": [
       {
         "map": "Dark Origin",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Heartbreak Ridge",
@@ -14708,7 +14708,7 @@
       },
       {
         "map": "Retro",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Rush",
@@ -14718,7 +14718,7 @@
     "season": 15,
     "stage": "ro16",
     "vod": "https://www.youtube.com/watch?v=vELbjTuBn7Q",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -14960,7 +14960,7 @@
     "games": [
       {
         "map": "Neo Sylphid",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "76",
@@ -14972,14 +14972,14 @@
       },
       {
         "map": "Dark Origin",
-        "winner": "ZerO"
+        "winner": "Queen"
       },
       {
         "map": "Retro",
         "winner": "Mind"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "quarterfinal",
     "score": "3-2",
@@ -15505,7 +15505,7 @@
         "winner": "Ample"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group E",
     "score": null,
@@ -15553,7 +15553,7 @@
     "games": [
       {
         "map": "Invader",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Jaedong",
@@ -15563,7 +15563,7 @@
     "season": 16,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=Ut0_dYc1UdQ",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -15573,7 +15573,7 @@
         "winner": "Ample"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group E",
     "score": null,
@@ -17444,7 +17444,7 @@
     "games": [
       {
         "map": "Dominator",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "1127",
@@ -17454,7 +17454,7 @@
     "season": 18,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=KRM8g122ILw",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -17481,7 +17481,7 @@
         "winner": "BarrackS"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group A",
     "score": null,
@@ -17515,7 +17515,7 @@
         "winner": "Rain"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group A",
     "score": null,
@@ -18453,7 +18453,7 @@
     "score": "4-0",
     "season": 18,
     "stage": "playoffs",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=XbCYGj6j-Rg",
     "winner": "Rain",
     "winnerRace": "P"
   },
@@ -18490,7 +18490,7 @@
     "score": "4-2",
     "season": 18,
     "stage": "playoffs",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=CrFc8PoGQlo",
     "winner": "Sharp",
     "winnerRace": "T"
   },
@@ -18519,7 +18519,7 @@
     "score": "4-0",
     "season": 18,
     "stage": "playoffs",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=770ZQ3LVstM",
     "winner": "Soulkey",
     "winnerRace": "Z"
   },
@@ -18552,7 +18552,7 @@
     "score": "4-1",
     "season": 18,
     "stage": "playoffs",
-    "vod": null,
+    "vod": "https://www.youtube.com/watch?v=IckWDksioQE",
     "winner": "Sharp",
     "winnerRace": "T"
   },
@@ -21392,7 +21392,7 @@
         "winner": "Jaedong"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group F",
     "score": null,
@@ -21423,7 +21423,7 @@
     "games": [
       {
         "map": "Jane Doe",
-        "winner": "ZerO"
+        "winner": "Queen"
       }
     ],
     "loser": "Best",
@@ -21433,7 +21433,7 @@
     "season": 21,
     "stage": "ro24",
     "vod": "https://www.youtube.com/watch?v=skuDyLieOF0",
-    "winner": "ZerO",
+    "winner": "Queen",
     "winnerRace": "Z"
   },
   {
@@ -21443,7 +21443,7 @@
         "winner": "Leta"
       }
     ],
-    "loser": "ZerO",
+    "loser": "Queen",
     "loserRace": "Z",
     "round": "Group F",
     "score": null,

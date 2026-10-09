@@ -93,6 +93,8 @@ class MapAndVodTests(unittest.TestCase):
         self.assertEqual(slot("[ENG] 2024 SSL AUTUMN | Ro.24 Group B (Tastosis)"), (18, "ro24", "B"))
         self.assertEqual(slot("[ENG] ASL S16 RO.8 Match3 Sharp vs Mini (Tastosis)"),
                          (16, "ro8", (3, frozenset({"sharp", "mini"}))))
+        self.assertEqual(slot("[ENG] 2024 SSL AUTUMN | RO.8 M3 Rain vs Rush (Tastosis)"),
+                         (18, "ro8", (3, frozenset({"rain", "rush"}))))
         self.assertEqual(slot("[ENG] ASL Season16 Finals SoulKey vs Mini (Tastosis)"),
                          (16, "final", (None, frozenset({"soulkey", "mini"}))))
         self.assertEqual(slot("[ENG] AfreecaTV StarLeague(ASL) S8 3/4 Place Match")[:2], (8, "third"))
@@ -116,8 +118,8 @@ class MapAndVodTests(unittest.TestCase):
         self.assertIsNone(vods.url(("zzzzzzzzzzz", 0)))  # not known to exist any more
         self.assertEqual(vods.group(30, "ro24", "Group A"), "https://www.youtube.com/watch?v=aaaaaaaaaaa")
         self.assertIsNone(vods.group(30, "ro24", "Group B"))  # other channels are never matched by title
-        # Found by the two names, whatever the bracket slot; the casts call ZerO "Queen".
-        self.assertEqual(vods.playoff(30, "r1m4", "Soulkey", "ZerO"), "https://www.youtube.com/watch?v=bbbbbbbbbbb")
+        # Found by the two names, whatever the bracket slot or the capitals in the title.
+        self.assertEqual(vods.playoff(30, "r1m4", "Soulkey", "Queen"), "https://www.youtube.com/watch?v=bbbbbbbbbbb")
         self.assertIsNone(vods.playoff(30, "r1m2", "Flash", "Rain"))
         self.assertEqual(vods.by_day(30, "ro4"), [{"label": "Day 1", "url": "https://www.youtube.com/watch?v=ddddddddddd"}])
 

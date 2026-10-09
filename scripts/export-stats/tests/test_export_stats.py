@@ -178,7 +178,7 @@ class CliTests(unittest.TestCase):
         (src / "overrides.json").write_text(json.dumps({"names": {"Queen": "Queen!"}, "races": {"Queen!": "Z"}}), encoding="utf-8")
         self.assertEqual(self.run_cli(src, self.tmp / "ok", "--strict").returncode, 0)
         players = {p["player"]: p for p in json.loads((self.tmp / "ok" / "players.json").read_text(encoding="utf-8"))}
-        self.assertEqual((players["Queen!"]["race"], players["Queen!"]["aliases"]), ("Z", ["Queen"]))
+        self.assertEqual((players["Queen!"]["race"], players["Queen!"]["aliases"]), ("Z", ["Queen", "ZerO"]))
         results = json.loads((src / "liquipedia" / "results.json").read_text(encoding="utf-8"))
         results[4]["players"].pop()
         (src / "liquipedia" / "results.json").write_text(json.dumps(results), encoding="utf-8")
