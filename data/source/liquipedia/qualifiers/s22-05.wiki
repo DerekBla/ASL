@@ -1,0 +1,113 @@
+{{DISPLAYTITLE:ASL Season 22: Wild Card Qualifier}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/22/Tabs}}
+{{Infobox league
+|name=ASL Season 22: Wild Card Qualifier
+|series=ASL
+|abbreviation=
+|image=ASL 2026 icon lightmode.png
+|imagedark=ASL 2026 icon darkmode.png
+|icon=ASL 2026 icon lightmode.png
+|icondark=ASL 2026 icon darkmode.png
+|organizer=SOOP
+|sponsor=
+|type=Offline
+|country=South Korea
+|city=Seoul
+|venue=
+|localcurrency= 
+|prizepool= 
+|date=2026-07-11
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|afreeca=afstar1
+|bracket=
+|web=https://www.sooplive.com/station/afstar1/post/199637507
+|web2= 
+|player_number=4
+|protoss_number=
+|terran_number=
+|zerg_number=
+|map1=Attitude SE
+|map2=Jane Doe
+|map3=KnockOut
+|map4=Match Point
+|map5=Neo Sylphid
+|map6=Octagon SE
+|map7=Pole Star
+|previous=AfreecaTV/StarCraft League Remastered/17/Qualifiers/Wild Card{{!}}ASL Season 17: Wild Card Qualifier
+|next=
+}}
+
+<br>
+The '''ASL Season 22: Wild Card Qualifier''' was the tournament held on July 11th, 2026 to determine the seed for the [[ASL/22|ASL Season 22]] due to [[Flash]] deciding not to participate.
+
+==Participants==
+
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=From the [[ASL/21|ASL 21]] quarterfinals
+|p1=SnOw
+|p2=JD|p2link=Jaedong
+|p3=tulbo
+|p4=herO|p4link=hero
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 22: Wild Card Maps
+}}
+
+==Prize Pool==
+{{SoloPrizePool|qualifies1=ASL/22|noprize=true
+|{{Slot|place=1|qualified1=yes}}
+}}
+
+==Results==
+{{bracket|Bracket/4|id=ASL22WildC
+
+<!-- Semi-Finals -->
+|R1M1={{Match
+  |bestof=3
+  |date=2026-07-11 19:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.sooplive.com/player/201181887
+  |opponent1={{1v1Opponent|SnOw}}
+  |opponent2={{1v1Opponent|JD}}
+  |map1={{Map|winner=1 |map=KnockOut}}
+  |map2={{Map|winner=1 |map=Pole Star}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |date=2026-07-11 20:10 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.sooplive.com/player/201186137
+  |opponent1={{1v1Opponent|tulbo}}
+  |opponent2={{1v1Opponent|herO}}
+  |map1={{Map|winner=2 |map=Octagon SE}}
+  |map2={{Map|winner=2 |map=Match Point}}
+}}
+
+<!-- Final -->
+|R2M1={{Match
+  |bestof=3
+  |date=2026-07-11 20:55 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.sooplive.com/player/201193669
+  |vod1=https://vod.sooplive.com/player/201192475
+  |opponent1={{1v1Opponent|SnOw}}
+  |opponent2={{1v1Opponent|herO}}
+  |map1={{Map|winner=2 |map=Pole Star}}
+  |map2={{Map|winner=1 |map=Match Point}}
+  |map3={{Map|winner=1 |map=Neo Sylphid}}
+}}
+}}
+
+==VODs==
+*[https://www.sc2links.com/tournament/?t_id=878 Spoiler-free VODs on SC2Links.com]
+
+==External links==
+*{{Flag|kr}} [https://www.sooplive.com/station/afstar1/post/199637335 Soop.com - announcement]
+*{{Flag|us}} [https://www.sooplive.com/station/afstar1/post/199637507 Soop.com - announcement]
+*{{Flag|us}} [https://tl.net/forum/bw-tournaments/645699-asl22-wildcard-qualifier tl.net - announcement]

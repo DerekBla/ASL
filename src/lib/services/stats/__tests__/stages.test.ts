@@ -70,6 +70,29 @@ describe("buildBracket", () => {
     expect(buildBracket(getSeriesForSeason(21)).thirdPlace).toBeUndefined();
   });
 
+  it("adds a series that is set but not played, with nobody marked as the winner", () => {
+    const played = getSeriesForSeason(21).filter((s) => s.round !== "final");
+    const upcoming = [
+      {
+        round: "final" as const,
+        players: [
+          { player: "Flash", race: "T" as const },
+          { player: "soma", race: "Z" as const },
+        ],
+      },
+    ];
+    const final = buildBracket(played, upcoming).rounds.at(-1);
+    expect(final?.key).toBe("final");
+    // soma won the upper semifinal, so he goes on top whatever order the page lists them in.
+    expect(final?.matches[0]).toMatchObject({
+      top: { player: "soma", score: null, won: false },
+      bottom: { player: "Flash", score: null, won: false },
+      upcoming: true,
+      vod: null,
+    });
+    expect(buildBracket(played).rounds.map((r) => r.key)).toEqual(["quarterfinal", "semifinal"]);
+  });
+
   it("leaves out rounds that have not been played", () => {
     const bracket = buildBracket([
       series("playoffs", "quarterfinal", "A", "B", "3-0"),

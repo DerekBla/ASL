@@ -6,15 +6,15 @@
       "status": "final",
       "worst": 1
     },
-    "championships": 2,
-    "currentElo": 1801.8,
-    "finals": 3,
-    "player": "soma",
-    "prizeKrw": 84500000,
-    "quarterfinalsOrBetter": 6,
+    "championships": 4,
+    "currentElo": 1805.8,
+    "finals": 5,
+    "player": "Soulkey",
+    "prizeKrw": 144950000,
+    "quarterfinalsOrBetter": 12,
     "race": "Z",
-    "seasons": 11,
-    "semifinalsOrBetter": 5
+    "seasons": 20,
+    "semifinalsOrBetter": 7
   },
   {
     "bestFinish": {
@@ -35,36 +35,19 @@
   },
   {
     "bestFinish": {
-      "best": 2,
-      "label": "2nd",
-      "status": "final",
-      "worst": 2
-    },
-    "championships": 0,
-    "currentElo": 1736.0,
-    "finals": 3,
-    "player": "SnOw",
-    "prizeKrw": 56850000,
-    "quarterfinalsOrBetter": 10,
-    "race": "P",
-    "seasons": 19,
-    "semifinalsOrBetter": 6
-  },
-  {
-    "bestFinish": {
       "best": 1,
       "label": "1st",
       "status": "final",
       "worst": 1
     },
-    "championships": 4,
-    "currentElo": 1696.8,
-    "finals": 4,
-    "player": "Soulkey",
-    "prizeKrw": 144950000,
-    "quarterfinalsOrBetter": 11,
+    "championships": 2,
+    "currentElo": 1765.5,
+    "finals": 3,
+    "player": "soma",
+    "prizeKrw": 87500000,
+    "quarterfinalsOrBetter": 7,
     "race": "Z",
-    "seasons": 19,
+    "seasons": 12,
     "semifinalsOrBetter": 6
   },
   {
@@ -75,14 +58,82 @@
       "worst": 1
     },
     "championships": 1,
-    "currentElo": 1675.5,
+    "currentElo": 1662.1,
     "finals": 1,
     "player": "EffOrt",
-    "prizeKrw": 43500000,
-    "quarterfinalsOrBetter": 4,
+    "prizeKrw": 45500000,
+    "quarterfinalsOrBetter": 5,
     "race": "Z",
-    "seasons": 10,
+    "seasons": 11,
     "semifinalsOrBetter": 3
+  },
+  {
+    "bestFinish": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "championships": 0,
+    "currentElo": 1660.9,
+    "finals": 3,
+    "player": "SnOw",
+    "prizeKrw": 58350000,
+    "quarterfinalsOrBetter": 10,
+    "race": "P",
+    "seasons": 20,
+    "semifinalsOrBetter": 6
+  },
+  {
+    "bestFinish": {
+      "best": 1,
+      "label": "1st–2nd",
+      "status": "provisional",
+      "worst": 2
+    },
+    "championships": 0,
+    "currentElo": 1660.4,
+    "finals": 3,
+    "player": "Rush",
+    "prizeKrw": 44300000,
+    "quarterfinalsOrBetter": 10,
+    "race": "T",
+    "seasons": 20,
+    "semifinalsOrBetter": 4
+  },
+  {
+    "bestFinish": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "championships": 0,
+    "currentElo": 1652.6,
+    "finals": 0,
+    "player": "Jaedong",
+    "prizeKrw": 21600000,
+    "quarterfinalsOrBetter": 5,
+    "race": "Z",
+    "seasons": 16,
+    "semifinalsOrBetter": 1
+  },
+  {
+    "bestFinish": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "championships": 1,
+    "currentElo": 1642.0,
+    "finals": 2,
+    "player": "Light",
+    "prizeKrw": 68950000,
+    "quarterfinalsOrBetter": 9,
+    "race": "T",
+    "seasons": 21,
+    "semifinalsOrBetter": 5
   },
   {
     "bestFinish": {
@@ -103,57 +154,6 @@
   },
   {
     "bestFinish": {
-      "best": 3,
-      "label": "3rd",
-      "status": "final",
-      "worst": 3
-    },
-    "championships": 0,
-    "currentElo": 1634.5,
-    "finals": 0,
-    "player": "Jaedong",
-    "prizeKrw": 19600000,
-    "quarterfinalsOrBetter": 4,
-    "race": "Z",
-    "seasons": 15,
-    "semifinalsOrBetter": 1
-  },
-  {
-    "bestFinish": {
-      "best": 1,
-      "label": "1st",
-      "status": "final",
-      "worst": 1
-    },
-    "championships": 1,
-    "currentElo": 1620.9,
-    "finals": 2,
-    "player": "Light",
-    "prizeKrw": 65950000,
-    "quarterfinalsOrBetter": 8,
-    "race": "T",
-    "seasons": 20,
-    "semifinalsOrBetter": 4
-  },
-  {
-    "bestFinish": {
-      "best": 1,
-      "label": "1st",
-      "status": "final",
-      "worst": 1
-    },
-    "championships": 1,
-    "currentElo": 1619.2,
-    "finals": 4,
-    "player": "Mini",
-    "prizeKrw": 80350000,
-    "quarterfinalsOrBetter": 8,
-    "race": "P",
-    "seasons": 18,
-    "semifinalsOrBetter": 5
-  },
-  {
-    "bestFinish": {
       "best": 1,
       "label": "1st",
       "status": "final",
@@ -171,37 +171,20 @@
   },
   {
     "bestFinish": {
-      "best": 3,
-      "label": "3rd",
-      "status": "final",
-      "worst": 3
-    },
-    "championships": 0,
-    "currentElo": 1601.2,
-    "finals": 0,
-    "player": "Bisu",
-    "prizeKrw": 32500000,
-    "quarterfinalsOrBetter": 8,
-    "race": "P",
-    "seasons": 15,
-    "semifinalsOrBetter": 4
-  },
-  {
-    "bestFinish": {
       "best": 2,
       "label": "2nd",
       "status": "final",
       "worst": 2
     },
     "championships": 0,
-    "currentElo": 1599.7,
-    "finals": 2,
-    "player": "herO",
-    "prizeKrw": 63800000,
-    "quarterfinalsOrBetter": 12,
-    "race": "Z",
-    "seasons": 17,
-    "semifinalsOrBetter": 7
+    "currentElo": 1604.7,
+    "finals": 1,
+    "player": "Best",
+    "prizeKrw": 39450000,
+    "quarterfinalsOrBetter": 8,
+    "race": "P",
+    "seasons": 22,
+    "semifinalsOrBetter": 3
   },
   {
     "bestFinish": {
@@ -211,14 +194,14 @@
       "worst": 1
     },
     "championships": 1,
-    "currentElo": 1597.7,
-    "finals": 1,
-    "player": "Larva",
-    "prizeKrw": 45550000,
-    "quarterfinalsOrBetter": 6,
-    "race": "Z",
-    "seasons": 12,
-    "semifinalsOrBetter": 3
+    "currentElo": 1595.9,
+    "finals": 4,
+    "player": "Mini",
+    "prizeKrw": 81350000,
+    "quarterfinalsOrBetter": 8,
+    "race": "P",
+    "seasons": 19,
+    "semifinalsOrBetter": 5
   },
   {
     "bestFinish": {
@@ -228,14 +211,14 @@
       "worst": 2
     },
     "championships": 0,
-    "currentElo": 1594.9,
-    "finals": 1,
-    "player": "Best",
-    "prizeKrw": 37950000,
-    "quarterfinalsOrBetter": 8,
-    "race": "P",
-    "seasons": 21,
-    "semifinalsOrBetter": 3
+    "currentElo": 1583.2,
+    "finals": 2,
+    "player": "herO",
+    "prizeKrw": 65300000,
+    "quarterfinalsOrBetter": 12,
+    "race": "Z",
+    "seasons": 18,
+    "semifinalsOrBetter": 7
   },
   {
     "bestFinish": {
@@ -245,14 +228,48 @@
       "worst": 3
     },
     "championships": 0,
-    "currentElo": 1574.9,
+    "currentElo": 1578.2,
     "finals": 0,
     "player": "Leta",
-    "prizeKrw": 6500000,
-    "quarterfinalsOrBetter": 1,
+    "prizeKrw": 8500000,
+    "quarterfinalsOrBetter": 2,
     "race": "T",
-    "seasons": 4,
+    "seasons": 5,
     "semifinalsOrBetter": 1
+  },
+  {
+    "bestFinish": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "championships": 0,
+    "currentElo": 1573.2,
+    "finals": 0,
+    "player": "Bisu",
+    "prizeKrw": 33500000,
+    "quarterfinalsOrBetter": 8,
+    "race": "P",
+    "seasons": 16,
+    "semifinalsOrBetter": 4
+  },
+  {
+    "bestFinish": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "championships": 2,
+    "currentElo": 1570.0,
+    "finals": 2,
+    "player": "Queen",
+    "prizeKrw": 79250000,
+    "quarterfinalsOrBetter": 6,
+    "race": "Z",
+    "seasons": 14,
+    "semifinalsOrBetter": 4
   },
   {
     "bestFinish": {
@@ -278,49 +295,15 @@
       "status": "final",
       "worst": 1
     },
-    "championships": 2,
-    "currentElo": 1561.9,
-    "finals": 2,
-    "player": "Queen",
-    "prizeKrw": 77750000,
+    "championships": 1,
+    "currentElo": 1566.2,
+    "finals": 1,
+    "player": "Larva",
+    "prizeKrw": 46550000,
     "quarterfinalsOrBetter": 6,
     "race": "Z",
     "seasons": 13,
-    "semifinalsOrBetter": 4
-  },
-  {
-    "bestFinish": {
-      "best": 2,
-      "label": "2nd",
-      "status": "final",
-      "worst": 2
-    },
-    "championships": 0,
-    "currentElo": 1559.5,
-    "finals": 2,
-    "player": "Rush",
-    "prizeKrw": 44300000,
-    "quarterfinalsOrBetter": 9,
-    "race": "T",
-    "seasons": 19,
     "semifinalsOrBetter": 3
-  },
-  {
-    "bestFinish": {
-      "best": 4,
-      "label": "4th",
-      "status": "final",
-      "worst": 4
-    },
-    "championships": 0,
-    "currentElo": 1543.6,
-    "finals": 0,
-    "player": "Action",
-    "prizeKrw": 23500000,
-    "quarterfinalsOrBetter": 6,
-    "race": "Z",
-    "seasons": 15,
-    "semifinalsOrBetter": 1
   },
   {
     "bestFinish": {
@@ -347,14 +330,31 @@
       "worst": 2
     },
     "championships": 0,
-    "currentElo": 1535.8,
-    "finals": 2,
-    "player": "Sharp",
-    "prizeKrw": 36900000,
-    "quarterfinalsOrBetter": 7,
-    "race": "T",
-    "seasons": 19,
-    "semifinalsOrBetter": 3
+    "currentElo": 1540.3,
+    "finals": 1,
+    "player": "Shine",
+    "prizeKrw": 19300000,
+    "quarterfinalsOrBetter": 3,
+    "race": "Z",
+    "seasons": 13,
+    "semifinalsOrBetter": 1
+  },
+  {
+    "bestFinish": {
+      "best": 4,
+      "label": "4th",
+      "status": "final",
+      "worst": 4
+    },
+    "championships": 0,
+    "currentElo": 1520.9,
+    "finals": 0,
+    "player": "Action",
+    "prizeKrw": 24500000,
+    "quarterfinalsOrBetter": 6,
+    "race": "Z",
+    "seasons": 16,
+    "semifinalsOrBetter": 1
   },
   {
     "bestFinish": {
@@ -364,13 +364,13 @@
       "worst": 1
     },
     "championships": 1,
-    "currentElo": 1526.3,
+    "currentElo": 1515.9,
     "finals": 1,
     "player": "JyJ",
-    "prizeKrw": 48000000,
+    "prizeKrw": 49500000,
     "quarterfinalsOrBetter": 4,
     "race": "T",
-    "seasons": 14,
+    "seasons": 15,
     "semifinalsOrBetter": 1
   },
   {
@@ -426,6 +426,23 @@
   },
   {
     "bestFinish": {
+      "best": 2,
+      "label": "2nd",
+      "status": "final",
+      "worst": 2
+    },
+    "championships": 0,
+    "currentElo": 1502.3,
+    "finals": 2,
+    "player": "Sharp",
+    "prizeKrw": 37900000,
+    "quarterfinalsOrBetter": 7,
+    "race": "T",
+    "seasons": 20,
+    "semifinalsOrBetter": 3
+  },
+  {
+    "bestFinish": {
       "best": 1,
       "label": "1st",
       "status": "final",
@@ -443,23 +460,6 @@
   },
   {
     "bestFinish": {
-      "best": 5,
-      "label": "5th–8th",
-      "status": "final",
-      "worst": 8
-    },
-    "championships": 0,
-    "currentElo": 1496.5,
-    "finals": 0,
-    "player": "sSak",
-    "prizeKrw": 14300000,
-    "quarterfinalsOrBetter": 2,
-    "race": "T",
-    "seasons": 14,
-    "semifinalsOrBetter": 0
-  },
-  {
-    "bestFinish": {
       "best": 17,
       "label": "17th–22nd",
       "status": "final",
@@ -472,6 +472,40 @@
     "prizeKrw": 1000000,
     "quarterfinalsOrBetter": 0,
     "race": "Z",
+    "seasons": 1,
+    "semifinalsOrBetter": 0
+  },
+  {
+    "bestFinish": {
+      "best": 1,
+      "label": "1st",
+      "status": "final",
+      "worst": 1
+    },
+    "championships": 1,
+    "currentElo": 1491.5,
+    "finals": 1,
+    "player": "Shuttle",
+    "prizeKrw": 31750000,
+    "quarterfinalsOrBetter": 3,
+    "race": "P",
+    "seasons": 15,
+    "semifinalsOrBetter": 2
+  },
+  {
+    "bestFinish": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "championships": 0,
+    "currentElo": 1490.8,
+    "finals": 0,
+    "player": "Shinee",
+    "prizeKrw": 1500000,
+    "quarterfinalsOrBetter": 0,
+    "race": "T",
     "seasons": 1,
     "semifinalsOrBetter": 0
   },
@@ -545,19 +579,19 @@
   },
   {
     "bestFinish": {
-      "best": 9,
-      "label": "9th–12th",
+      "best": 5,
+      "label": "5th–8th",
       "status": "final",
-      "worst": 12
+      "worst": 8
     },
     "championships": 0,
-    "currentElo": 1482.6,
+    "currentElo": 1481.1,
     "finals": 0,
-    "player": "Speed",
-    "prizeKrw": 7500000,
-    "quarterfinalsOrBetter": 0,
+    "player": "sSak",
+    "prizeKrw": 15300000,
+    "quarterfinalsOrBetter": 2,
     "race": "T",
-    "seasons": 6,
+    "seasons": 15,
     "semifinalsOrBetter": 0
   },
   {
@@ -575,6 +609,23 @@
     "quarterfinalsOrBetter": 0,
     "race": "T",
     "seasons": 2,
+    "semifinalsOrBetter": 0
+  },
+  {
+    "bestFinish": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "championships": 0,
+    "currentElo": 1478.5,
+    "finals": 0,
+    "player": "Speed",
+    "prizeKrw": 8500000,
+    "quarterfinalsOrBetter": 0,
+    "race": "T",
+    "seasons": 7,
     "semifinalsOrBetter": 0
   },
   {
@@ -670,6 +721,23 @@
       "worst": 28
     },
     "championships": 0,
+    "currentElo": 1474.9,
+    "finals": 0,
+    "player": "Hm",
+    "prizeKrw": 1000000,
+    "quarterfinalsOrBetter": 0,
+    "race": "Z",
+    "seasons": 1,
+    "semifinalsOrBetter": 0
+  },
+  {
+    "bestFinish": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "championships": 0,
     "currentElo": 1473.9,
     "finals": 0,
     "player": "1127",
@@ -727,23 +795,6 @@
     "prizeKrw": 1000000,
     "quarterfinalsOrBetter": 0,
     "race": "T",
-    "seasons": 1,
-    "semifinalsOrBetter": 0
-  },
-  {
-    "bestFinish": {
-      "best": 23,
-      "label": "23rd–28th",
-      "status": "final",
-      "worst": 28
-    },
-    "championships": 0,
-    "currentElo": 1469.8,
-    "finals": 0,
-    "player": "Paralyze",
-    "prizeKrw": 1000000,
-    "quarterfinalsOrBetter": 0,
-    "race": "P",
     "seasons": 1,
     "semifinalsOrBetter": 0
   },
@@ -936,23 +987,6 @@
   },
   {
     "bestFinish": {
-      "best": 1,
-      "label": "1st",
-      "status": "final",
-      "worst": 1
-    },
-    "championships": 1,
-    "currentElo": 1461.7,
-    "finals": 1,
-    "player": "Shuttle",
-    "prizeKrw": 30250000,
-    "quarterfinalsOrBetter": 3,
-    "race": "P",
-    "seasons": 14,
-    "semifinalsOrBetter": 2
-  },
-  {
-    "bestFinish": {
       "best": 17,
       "label": "17th–22nd",
       "status": "final",
@@ -1072,6 +1106,23 @@
   },
   {
     "bestFinish": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "championships": 0,
+    "currentElo": 1443.9,
+    "finals": 0,
+    "player": "Paralyze",
+    "prizeKrw": 2000000,
+    "quarterfinalsOrBetter": 0,
+    "race": "P",
+    "seasons": 2,
+    "semifinalsOrBetter": 0
+  },
+  {
+    "bestFinish": {
       "best": 13,
       "label": "13th–16th",
       "status": "final",
@@ -1106,23 +1157,6 @@
   },
   {
     "bestFinish": {
-      "best": 5,
-      "label": "5th–8th",
-      "status": "final",
-      "worst": 8
-    },
-    "championships": 0,
-    "currentElo": 1438.9,
-    "finals": 0,
-    "player": "Calm",
-    "prizeKrw": 8800000,
-    "quarterfinalsOrBetter": 1,
-    "race": "Z",
-    "seasons": 8,
-    "semifinalsOrBetter": 0
-  },
-  {
-    "bestFinish": {
       "best": 23,
       "label": "23rd–28th",
       "status": "final",
@@ -1140,20 +1174,20 @@
   },
   {
     "bestFinish": {
-      "best": 2,
-      "label": "2nd",
+      "best": 13,
+      "label": "13th–16th",
       "status": "final",
-      "worst": 2
+      "worst": 16
     },
     "championships": 0,
-    "currentElo": 1438.4,
-    "finals": 1,
-    "player": "Shine",
-    "prizeKrw": 17300000,
-    "quarterfinalsOrBetter": 2,
+    "currentElo": 1437.0,
+    "finals": 0,
+    "player": "ggaemo",
+    "prizeKrw": 6300000,
+    "quarterfinalsOrBetter": 0,
     "race": "Z",
-    "seasons": 12,
-    "semifinalsOrBetter": 1
+    "seasons": 6,
+    "semifinalsOrBetter": 0
   },
   {
     "bestFinish": {
@@ -1242,23 +1276,6 @@
   },
   {
     "bestFinish": {
-      "best": 9,
-      "label": "9th–12th",
-      "status": "final",
-      "worst": 12
-    },
-    "championships": 0,
-    "currentElo": 1432.8,
-    "finals": 0,
-    "player": "PianO",
-    "prizeKrw": 6250000,
-    "quarterfinalsOrBetter": 0,
-    "race": "T",
-    "seasons": 6,
-    "semifinalsOrBetter": 0
-  },
-  {
-    "bestFinish": {
       "best": 17,
       "label": "17th–22nd",
       "status": "final",
@@ -1310,19 +1327,19 @@
   },
   {
     "bestFinish": {
-      "best": 13,
-      "label": "13th–16th",
+      "best": 5,
+      "label": "5th–8th",
       "status": "final",
-      "worst": 16
+      "worst": 8
     },
     "championships": 0,
-    "currentElo": 1418.8,
+    "currentElo": 1423.6,
     "finals": 0,
-    "player": "ggaemo",
-    "prizeKrw": 4800000,
-    "quarterfinalsOrBetter": 0,
+    "player": "Calm",
+    "prizeKrw": 9800000,
+    "quarterfinalsOrBetter": 1,
     "race": "Z",
-    "seasons": 5,
+    "seasons": 9,
     "semifinalsOrBetter": 0
   },
   {
@@ -1395,19 +1412,19 @@
   },
   {
     "bestFinish": {
-      "best": 5,
-      "label": "5th–8th",
+      "best": 9,
+      "label": "9th–12th",
       "status": "final",
-      "worst": 8
+      "worst": 12
     },
     "championships": 0,
-    "currentElo": 1387.7,
+    "currentElo": 1413.6,
     "finals": 0,
-    "player": "Mong",
-    "prizeKrw": 17000000,
-    "quarterfinalsOrBetter": 1,
+    "player": "PianO",
+    "prizeKrw": 7250000,
+    "quarterfinalsOrBetter": 0,
     "race": "T",
-    "seasons": 18,
+    "seasons": 7,
     "semifinalsOrBetter": 0
   },
   {
@@ -1425,6 +1442,23 @@
     "quarterfinalsOrBetter": 0,
     "race": "Z",
     "seasons": 8,
+    "semifinalsOrBetter": 0
+  },
+  {
+    "bestFinish": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "championships": 0,
+    "currentElo": 1372.5,
+    "finals": 0,
+    "player": "Mong",
+    "prizeKrw": 18000000,
+    "quarterfinalsOrBetter": 1,
+    "race": "T",
+    "seasons": 19,
     "semifinalsOrBetter": 0
   }
 ]

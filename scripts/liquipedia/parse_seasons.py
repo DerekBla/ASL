@@ -459,9 +459,17 @@ def parse_season(n: int, text: str, vods: Vods | None = None) -> dict:
     bracket = find_templates(text, "Bracket")
     _, bnamed = split_params(bracket[0][2]) if bracket else ([], {})
     rounds: dict[str, dict] = {}
+    # Bracket series that are set but not played yet (a season in progress): both players are
+    # known and share the places that series can still give them.
+    upcoming: list[dict] = []
+    open_places = {"r1": "1st-8th", "r2": "1st-4th", "r3": "1st-2nd"}
     for key in ("r1m1", "r1m2", "r1m3", "r1m4", "r2m1", "r2m2", "r3m1", "rxmtp"):
         found = find_templates(bnamed.get(key, ""), "Match")
         m = parse_match(found[0][2]) if found else None
+        if m and m["winner"] is None and key[:2] in open_places and not m["games"]:
+            a, b = see(m["a"]), see(m["b"])
+            upcoming.append({"key": key, "players": [a, b]})
+            continue
         if m and m["winner"]:
             a, b = see(m["a"]), see(m["b"])
             w, l = (a, b) if m["winner"] == 1 else (b, a)
@@ -487,6 +495,11 @@ def parse_season(n: int, text: str, vods: Vods | None = None) -> dict:
                 placements[rounds[key]["loser"]] = "3rd"
     if "r3m1" in rounds:
         placements[rounds["r3m1"]["winner"]], placements[rounds["r3m1"]["loser"]] = "1st", "2nd"
+    provisional = set()
+    for u in upcoming:
+        for name in u["players"]:
+            placements[name] = open_places[u["key"][:2]]
+            provisional.add(name)
 
     # ---- prize table (cross-check, and the only source for payouts)
     prize_by_place: dict[str, int] = {}
@@ -546,7 +559,9 @@ def parse_season(n: int, text: str, vods: Vods | None = None) -> dict:
             notes.append(f"{name} appears with more than one race: {dict(races[name])}")
         race_counts[race] += 1
         players.append({"player": name, "link": links.get(name), "race": race, "raceSource": race_source,
-                        "placement": placements[name], "prizeKrw": prize_for(placements[name])})
+                        "placement": placements[name],
+                        "prizeKrw": None if name in provisional else prize_for(placements[name]),
+                        **({"provisional": True} if name in provisional else {})})
     info_counts = {r: int(re.sub(r"[^\d]", "", info.get(f"{k}_number", "")) or 0)
                    for r, k in (("T", "terran"), ("Z", "zerg"), ("P", "protoss"))}
     if None not in race_counts and any(info_counts.values()) and dict(race_counts) != {k: v for k, v in info_counts.items() if v}:
@@ -561,6 +576,7 @@ def parse_season(n: int, text: str, vods: Vods | None = None) -> dict:
         "thirdPlaceMatch": "rxmtp" in rounds,
         "players": players,
         "bracket": rounds,
+        "upcoming": upcoming,
         "roundVods": round_vods,
         "groups": out_groups,
         "prizeByPlace": prize_by_place,

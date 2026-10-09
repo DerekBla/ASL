@@ -88,7 +88,8 @@ class BuildTests(unittest.TestCase):
 
     def test_season_sizes_and_tiers(self):
         per = Counter(r["season"] for r in self.data["placements.json"])
-        self.assertEqual(per, Counter({1: 16, **{n: 28 for n in range(2, 22)}}))
+        last = len(self.data["seasons.json"])
+        self.assertEqual(per, Counter({1: 16, **{n: 28 for n in range(2, last + 1)}}))
         for n in range(2, 22):
             tiers = Counter(r["placement"]["label"] for r in self.data["placements.json"] if r["season"] == n)
             self.assertEqual((tiers["1st"], tiers["2nd"], tiers["5th–8th"]), (1, 1, 4), f"S{n}")
@@ -152,7 +153,8 @@ class BuildTests(unittest.TestCase):
 
     def test_race_stats_are_consistent(self):
         rs = self.data["race-stats.json"]
-        self.assertEqual(sum(r["championships"] for r in rs["overall"]), 21)
+        complete = sum(s["status"] == "complete" for s in self.data["seasons.json"])
+        self.assertEqual(sum(r["championships"] for r in rs["overall"]), complete)
         for row in rs["participantsBySeason"]:
             self.assertEqual(row["T"] + row["Z"] + row["P"] + row["unknown"], row["total"])
         cross = {(r["race"], r["vs"]): r for r in rs["seriesByMatchup"]["allStages"]["crossRace"]}

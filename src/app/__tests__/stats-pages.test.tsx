@@ -21,10 +21,10 @@ describe("/seasons", () => {
     render(<SeasonsPage />);
     const rows = rowsOf(screen.getByRole("table"));
     expect(rows).toHaveLength(getSeasons().length);
-    expect(within(rows[0] as HTMLElement).getByRole("link", { name: /S21/ })).toHaveAttribute(
-      "href",
-      "/seasons/21",
-    );
+    const newest = getSeasons().at(-1)?.season ?? 0;
+    expect(
+      within(rows[0] as HTMLElement).getByRole("link", { name: new RegExp(`^S${newest} `) }),
+    ).toHaveAttribute("href", `/seasons/${newest}`);
   });
 });
 
@@ -100,6 +100,21 @@ describe("/seasons/[season]", () => {
       screen.getByRole("link", { name: "VOD: watch Round of 24 Group A on YouTube" }),
     ).toHaveAttribute("href", expect.stringContaining("youtube.com/watch"));
     expect(screen.getByRole("table", { name: "Round of 16, Group D" })).toBeInTheDocument();
+  });
+
+  it("shows a season in progress with its final still to play", async () => {
+    const live = getSeasons().find((s) => s.status === "in_progress");
+    if (!live) return; // every stored season is finished
+    render(await SeasonPage({ params: Promise.resolve({ season: String(live.season) }) }));
+    expect(screen.getByText("This season is still in progress.")).toBeInTheDocument();
+    const final = within(screen.getByRole("region", { name: "Final" }));
+    expect(final.getByText("Not played yet")).toBeInTheDocument();
+    for (const side of live.upcoming[0]?.players ?? []) {
+      expect(final.getByRole("link", { name: side.player })).toBeInTheDocument();
+    }
+    expect(final.queryByText("won")).not.toBeInTheDocument();
+    const placements = screen.getByRole("table", { name: /best finish first/ });
+    expect(within(placements).getAllByText("1st–2nd")).toHaveLength(2);
   });
 
   it("is a 404 for a season that does not exist", async () => {

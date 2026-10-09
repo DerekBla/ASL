@@ -1,406 +1,8 @@
 [
   {
-    "championships": 2,
-    "currentElo": 1801.8,
-    "games": 129,
-    "history": [
-      {
-        "elo": 1499.0,
-        "season": 8
-      },
-      {
-        "elo": 1532.1,
-        "season": 9
-      },
-      {
-        "elo": 1685.3,
-        "season": 10
-      },
-      {
-        "elo": 1619.8,
-        "season": 11
-      },
-      {
-        "elo": 1603.2,
-        "season": 12
-      },
-      {
-        "elo": 1633.0,
-        "season": 13
-      },
-      {
-        "elo": 1597.9,
-        "season": 14
-      },
-      {
-        "elo": 1555.7,
-        "season": 15
-      },
-      {
-        "elo": 1545.1,
-        "season": 16
-      },
-      {
-        "elo": 1726.9,
-        "season": 20
-      },
-      {
-        "elo": 1801.8,
-        "season": 21
-      }
-    ],
-    "peakElo": 1801.8,
-    "peakSeason": 21,
-    "player": "soma",
-    "race": "Z",
-    "rank": 1,
-    "seasons": 11,
-    "withQualifiers": {
-      "currentElo": 2138.1,
-      "games": 217,
-      "history": [
-        {
-          "elo": 1465.0,
-          "season": 5
-        },
-        {
-          "elo": 1477.6,
-          "season": 6
-        },
-        {
-          "elo": 1547.1,
-          "season": 7
-        },
-        {
-          "elo": 1655.9,
-          "season": 8
-        },
-        {
-          "elo": 1760.6,
-          "season": 9
-        },
-        {
-          "elo": 1914.4,
-          "season": 10
-        },
-        {
-          "elo": 1855.0,
-          "season": 11
-        },
-        {
-          "elo": 1847.6,
-          "season": 12
-        },
-        {
-          "elo": 1901.7,
-          "season": 13
-        },
-        {
-          "elo": 1865.1,
-          "season": 14
-        },
-        {
-          "elo": 1861.3,
-          "season": 15
-        },
-        {
-          "elo": 1866.8,
-          "season": 16
-        },
-        {
-          "elo": 2062.6,
-          "season": 20
-        },
-        {
-          "elo": 2138.1,
-          "season": 21
-        }
-      ],
-      "peakElo": 2138.1,
-      "peakSeason": 21,
-      "rank": 1
-    }
-  },
-  {
     "championships": 4,
-    "currentElo": 1788.5,
-    "games": 141,
-    "history": [
-      {
-        "elo": 1474.7,
-        "season": 1
-      },
-      {
-        "elo": 1615.7,
-        "season": 2
-      },
-      {
-        "elo": 1701.0,
-        "season": 3
-      },
-      {
-        "elo": 1755.5,
-        "season": 4
-      },
-      {
-        "elo": 1710.9,
-        "season": 5
-      },
-      {
-        "elo": 1716.8,
-        "season": 6
-      },
-      {
-        "elo": 1804.1,
-        "season": 8
-      },
-      {
-        "elo": 1759.2,
-        "season": 9
-      },
-      {
-        "elo": 1759.7,
-        "season": 10
-      },
-      {
-        "elo": 1788.5,
-        "season": 21
-      }
-    ],
-    "peakElo": 1804.1,
-    "peakSeason": 8,
-    "player": "Flash",
-    "race": "T",
-    "rank": 2,
-    "seasons": 10,
-    "withQualifiers": {
-      "currentElo": 2088.8,
-      "games": 159,
-      "history": [
-        {
-          "elo": 1474.7,
-          "season": 1
-        },
-        {
-          "elo": 1615.7,
-          "season": 2
-        },
-        {
-          "elo": 1701.0,
-          "season": 3
-        },
-        {
-          "elo": 1786.2,
-          "season": 4
-        },
-        {
-          "elo": 1777.5,
-          "season": 5
-        },
-        {
-          "elo": 1869.6,
-          "season": 6
-        },
-        {
-          "elo": 2011.5,
-          "season": 8
-        },
-        {
-          "elo": 1977.3,
-          "season": 9
-        },
-        {
-          "elo": 1988.7,
-          "season": 10
-        },
-        {
-          "elo": 2088.8,
-          "season": 21
-        }
-      ],
-      "peakElo": 2088.8,
-      "peakSeason": 21,
-      "rank": 2
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1736.0,
-    "games": 186,
-    "history": [
-      {
-        "elo": 1481.4,
-        "season": 3
-      },
-      {
-        "elo": 1468.2,
-        "season": 4
-      },
-      {
-        "elo": 1566.6,
-        "season": 5
-      },
-      {
-        "elo": 1547.7,
-        "season": 6
-      },
-      {
-        "elo": 1556.7,
-        "season": 7
-      },
-      {
-        "elo": 1624.0,
-        "season": 8
-      },
-      {
-        "elo": 1588.7,
-        "season": 9
-      },
-      {
-        "elo": 1548.5,
-        "season": 10
-      },
-      {
-        "elo": 1580.9,
-        "season": 11
-      },
-      {
-        "elo": 1582.2,
-        "season": 12
-      },
-      {
-        "elo": 1549.3,
-        "season": 13
-      },
-      {
-        "elo": 1566.4,
-        "season": 14
-      },
-      {
-        "elo": 1554.3,
-        "season": 15
-      },
-      {
-        "elo": 1519.8,
-        "season": 16
-      },
-      {
-        "elo": 1627.2,
-        "season": 17
-      },
-      {
-        "elo": 1627.7,
-        "season": 18
-      },
-      {
-        "elo": 1711.4,
-        "season": 19
-      },
-      {
-        "elo": 1738.7,
-        "season": 20
-      },
-      {
-        "elo": 1736.0,
-        "season": 21
-      }
-    ],
-    "peakElo": 1738.7,
-    "peakSeason": 20,
-    "player": "SnOw",
-    "race": "P",
-    "rank": 3,
-    "seasons": 19,
-    "withQualifiers": {
-      "currentElo": 2055.8,
-      "games": 297,
-      "history": [
-        {
-          "elo": 1481.4,
-          "season": 3
-        },
-        {
-          "elo": 1625.4,
-          "season": 4
-        },
-        {
-          "elo": 1742.8,
-          "season": 5
-        },
-        {
-          "elo": 1727.6,
-          "season": 6
-        },
-        {
-          "elo": 1783.4,
-          "season": 7
-        },
-        {
-          "elo": 1834.5,
-          "season": 8
-        },
-        {
-          "elo": 1822.1,
-          "season": 9
-        },
-        {
-          "elo": 1767.5,
-          "season": 10
-        },
-        {
-          "elo": 1812.3,
-          "season": 11
-        },
-        {
-          "elo": 1830.4,
-          "season": 12
-        },
-        {
-          "elo": 1809.7,
-          "season": 13
-        },
-        {
-          "elo": 1860.3,
-          "season": 14
-        },
-        {
-          "elo": 1848.6,
-          "season": 15
-        },
-        {
-          "elo": 1828.4,
-          "season": 16
-        },
-        {
-          "elo": 1972.6,
-          "season": 17
-        },
-        {
-          "elo": 1973.4,
-          "season": 18
-        },
-        {
-          "elo": 2046.1,
-          "season": 19
-        },
-        {
-          "elo": 2074.2,
-          "season": 20
-        },
-        {
-          "elo": 2055.8,
-          "season": 21
-        }
-      ],
-      "peakElo": 2074.2,
-      "peakSeason": 20,
-      "rank": 3
-    }
-  },
-  {
-    "championships": 4,
-    "currentElo": 1696.8,
-    "games": 218,
+    "currentElo": 1805.8,
+    "games": 234,
     "history": [
       {
         "elo": 1482.9,
@@ -477,17 +79,21 @@
       {
         "elo": 1696.8,
         "season": 21
+      },
+      {
+        "elo": 1805.8,
+        "season": 22
       }
     ],
     "peakElo": 1850.5,
     "peakSeason": 18,
     "player": "Soulkey",
     "race": "Z",
-    "rank": 4,
-    "seasons": 19,
+    "rank": 1,
+    "seasons": 20,
     "withQualifiers": {
-      "currentElo": 1982.5,
-      "games": 331,
+      "currentElo": 2123.6,
+      "games": 364,
       "history": [
         {
           "elo": 1482.9,
@@ -550,35 +156,271 @@
           "season": 16
         },
         {
-          "elo": 2108.7,
+          "elo": 2108.8,
           "season": 17
         },
         {
-          "elo": 2183.9,
+          "elo": 2184.0,
           "season": 18
         },
         {
-          "elo": 2143.5,
+          "elo": 2143.7,
           "season": 19
         },
         {
-          "elo": 2072.8,
+          "elo": 2073.0,
           "season": 20
         },
         {
-          "elo": 1982.5,
+          "elo": 1982.8,
+          "season": 21
+        },
+        {
+          "elo": 2123.6,
+          "season": 22
+        }
+      ],
+      "peakElo": 2184.0,
+      "peakSeason": 18,
+      "rank": 1
+    }
+  },
+  {
+    "championships": 4,
+    "currentElo": 1788.5,
+    "games": 141,
+    "history": [
+      {
+        "elo": 1474.7,
+        "season": 1
+      },
+      {
+        "elo": 1615.7,
+        "season": 2
+      },
+      {
+        "elo": 1701.0,
+        "season": 3
+      },
+      {
+        "elo": 1755.5,
+        "season": 4
+      },
+      {
+        "elo": 1710.9,
+        "season": 5
+      },
+      {
+        "elo": 1716.8,
+        "season": 6
+      },
+      {
+        "elo": 1804.1,
+        "season": 8
+      },
+      {
+        "elo": 1759.2,
+        "season": 9
+      },
+      {
+        "elo": 1759.7,
+        "season": 10
+      },
+      {
+        "elo": 1788.5,
+        "season": 21
+      }
+    ],
+    "peakElo": 1804.1,
+    "peakSeason": 8,
+    "player": "Flash",
+    "race": "T",
+    "rank": 2,
+    "seasons": 10,
+    "withQualifiers": {
+      "currentElo": 2089.0,
+      "games": 159,
+      "history": [
+        {
+          "elo": 1474.7,
+          "season": 1
+        },
+        {
+          "elo": 1615.7,
+          "season": 2
+        },
+        {
+          "elo": 1701.0,
+          "season": 3
+        },
+        {
+          "elo": 1786.2,
+          "season": 4
+        },
+        {
+          "elo": 1777.5,
+          "season": 5
+        },
+        {
+          "elo": 1869.6,
+          "season": 6
+        },
+        {
+          "elo": 2011.5,
+          "season": 8
+        },
+        {
+          "elo": 1977.3,
+          "season": 9
+        },
+        {
+          "elo": 1988.7,
+          "season": 10
+        },
+        {
+          "elo": 2089.0,
           "season": 21
         }
       ],
-      "peakElo": 2183.9,
-      "peakSeason": 18,
-      "rank": 5
+      "peakElo": 2089.0,
+      "peakSeason": 21,
+      "rank": 3
+    }
+  },
+  {
+    "championships": 2,
+    "currentElo": 1765.5,
+    "games": 143,
+    "history": [
+      {
+        "elo": 1499.0,
+        "season": 8
+      },
+      {
+        "elo": 1532.1,
+        "season": 9
+      },
+      {
+        "elo": 1685.3,
+        "season": 10
+      },
+      {
+        "elo": 1619.8,
+        "season": 11
+      },
+      {
+        "elo": 1603.2,
+        "season": 12
+      },
+      {
+        "elo": 1633.0,
+        "season": 13
+      },
+      {
+        "elo": 1597.9,
+        "season": 14
+      },
+      {
+        "elo": 1555.7,
+        "season": 15
+      },
+      {
+        "elo": 1545.1,
+        "season": 16
+      },
+      {
+        "elo": 1726.9,
+        "season": 20
+      },
+      {
+        "elo": 1801.8,
+        "season": 21
+      },
+      {
+        "elo": 1765.5,
+        "season": 22
+      }
+    ],
+    "peakElo": 1801.8,
+    "peakSeason": 21,
+    "player": "soma",
+    "race": "Z",
+    "rank": 3,
+    "seasons": 12,
+    "withQualifiers": {
+      "currentElo": 2097.0,
+      "games": 231,
+      "history": [
+        {
+          "elo": 1465.0,
+          "season": 5
+        },
+        {
+          "elo": 1477.6,
+          "season": 6
+        },
+        {
+          "elo": 1547.1,
+          "season": 7
+        },
+        {
+          "elo": 1655.9,
+          "season": 8
+        },
+        {
+          "elo": 1760.6,
+          "season": 9
+        },
+        {
+          "elo": 1914.4,
+          "season": 10
+        },
+        {
+          "elo": 1855.0,
+          "season": 11
+        },
+        {
+          "elo": 1847.6,
+          "season": 12
+        },
+        {
+          "elo": 1901.7,
+          "season": 13
+        },
+        {
+          "elo": 1865.1,
+          "season": 14
+        },
+        {
+          "elo": 1861.3,
+          "season": 15
+        },
+        {
+          "elo": 1866.8,
+          "season": 16
+        },
+        {
+          "elo": 2062.7,
+          "season": 20
+        },
+        {
+          "elo": 2138.3,
+          "season": 21
+        },
+        {
+          "elo": 2097.0,
+          "season": 22
+        }
+      ],
+      "peakElo": 2138.3,
+      "peakSeason": 21,
+      "rank": 2
     }
   },
   {
     "championships": 1,
-    "currentElo": 1675.5,
-    "games": 86,
+    "currentElo": 1662.1,
+    "games": 98,
     "history": [
       {
         "elo": 1485.5,
@@ -619,17 +461,21 @@
       {
         "elo": 1675.5,
         "season": 20
+      },
+      {
+        "elo": 1662.1,
+        "season": 22
       }
     ],
     "peakElo": 1688.8,
     "peakSeason": 7,
     "player": "EffOrt",
     "race": "Z",
-    "rank": 5,
-    "seasons": 10,
+    "rank": 4,
+    "seasons": 11,
     "withQualifiers": {
-      "currentElo": 1945.4,
-      "games": 162,
+      "currentElo": 1954.9,
+      "games": 198,
       "history": [
         {
           "elo": 1485.5,
@@ -668,113 +514,391 @@
           "season": 16
         },
         {
-          "elo": 1969.1,
+          "elo": 1969.2,
           "season": 20
         },
         {
-          "elo": 1945.4,
+          "elo": 1945.6,
           "season": 21
+        },
+        {
+          "elo": 1954.9,
+          "season": 22
         }
       ],
-      "peakElo": 1969.1,
+      "peakElo": 1969.2,
       "peakSeason": 20,
       "rank": 12
     }
   },
   {
-    "championships": 1,
-    "currentElo": 1636.1,
-    "games": 66,
+    "championships": 0,
+    "currentElo": 1660.9,
+    "games": 191,
     "history": [
       {
-        "elo": 1551.1,
-        "season": 1
-      },
-      {
-        "elo": 1531.8,
-        "season": 2
-      },
-      {
-        "elo": 1535.7,
+        "elo": 1481.4,
         "season": 3
       },
       {
-        "elo": 1514.7,
+        "elo": 1468.2,
         "season": 4
       },
       {
-        "elo": 1492.5,
+        "elo": 1566.6,
         "season": 5
       },
       {
-        "elo": 1617.3,
+        "elo": 1547.7,
         "season": 6
       },
       {
-        "elo": 1664.4,
+        "elo": 1556.7,
         "season": 7
       },
       {
-        "elo": 1636.1,
+        "elo": 1624.0,
         "season": 8
+      },
+      {
+        "elo": 1588.7,
+        "season": 9
+      },
+      {
+        "elo": 1548.5,
+        "season": 10
+      },
+      {
+        "elo": 1580.9,
+        "season": 11
+      },
+      {
+        "elo": 1582.2,
+        "season": 12
+      },
+      {
+        "elo": 1549.3,
+        "season": 13
+      },
+      {
+        "elo": 1566.4,
+        "season": 14
+      },
+      {
+        "elo": 1554.3,
+        "season": 15
+      },
+      {
+        "elo": 1519.8,
+        "season": 16
+      },
+      {
+        "elo": 1627.2,
+        "season": 17
+      },
+      {
+        "elo": 1627.7,
+        "season": 18
+      },
+      {
+        "elo": 1711.4,
+        "season": 19
+      },
+      {
+        "elo": 1738.7,
+        "season": 20
+      },
+      {
+        "elo": 1736.0,
+        "season": 21
+      },
+      {
+        "elo": 1660.9,
+        "season": 22
       }
     ],
-    "peakElo": 1664.4,
-    "peakSeason": 7,
-    "player": "Last",
-    "race": "T",
-    "rank": 6,
-    "seasons": 8,
+    "peakElo": 1738.7,
+    "peakSeason": 20,
+    "player": "SnOw",
+    "race": "P",
+    "rank": 5,
+    "seasons": 20,
     "withQualifiers": {
-      "currentElo": 1807.5,
-      "games": 105,
+      "currentElo": 2000.0,
+      "games": 307,
       "history": [
         {
-          "elo": 1551.1,
-          "season": 1
-        },
-        {
-          "elo": 1531.8,
-          "season": 2
-        },
-        {
-          "elo": 1535.7,
+          "elo": 1481.4,
           "season": 3
         },
         {
-          "elo": 1630.5,
+          "elo": 1625.4,
           "season": 4
         },
         {
-          "elo": 1687.7,
+          "elo": 1742.8,
           "season": 5
         },
         {
-          "elo": 1849.4,
+          "elo": 1727.6,
           "season": 6
         },
         {
-          "elo": 1892.1,
+          "elo": 1783.4,
           "season": 7
         },
         {
-          "elo": 1863.3,
+          "elo": 1834.5,
           "season": 8
         },
         {
-          "elo": 1807.5,
+          "elo": 1822.1,
+          "season": 9
+        },
+        {
+          "elo": 1767.5,
+          "season": 10
+        },
+        {
+          "elo": 1812.3,
+          "season": 11
+        },
+        {
+          "elo": 1830.4,
+          "season": 12
+        },
+        {
+          "elo": 1809.7,
+          "season": 13
+        },
+        {
+          "elo": 1860.3,
+          "season": 14
+        },
+        {
+          "elo": 1848.6,
           "season": 15
+        },
+        {
+          "elo": 1828.4,
+          "season": 16
+        },
+        {
+          "elo": 1972.8,
+          "season": 17
+        },
+        {
+          "elo": 1973.5,
+          "season": 18
+        },
+        {
+          "elo": 2046.3,
+          "season": 19
+        },
+        {
+          "elo": 2074.4,
+          "season": 20
+        },
+        {
+          "elo": 2056.1,
+          "season": 21
+        },
+        {
+          "elo": 2000.0,
+          "season": 22
         }
       ],
-      "peakElo": 1892.1,
-      "peakSeason": 7,
-      "rank": 26
+      "peakElo": 2074.4,
+      "peakSeason": 20,
+      "rank": 5
     }
   },
   {
     "championships": 0,
-    "currentElo": 1634.5,
-    "games": 94,
+    "currentElo": 1660.4,
+    "games": 194,
+    "history": [
+      {
+        "elo": 1485.6,
+        "season": 2
+      },
+      {
+        "elo": 1470.0,
+        "season": 4
+      },
+      {
+        "elo": 1442.2,
+        "season": 5
+      },
+      {
+        "elo": 1434.8,
+        "season": 6
+      },
+      {
+        "elo": 1406.6,
+        "season": 7
+      },
+      {
+        "elo": 1464.0,
+        "season": 8
+      },
+      {
+        "elo": 1451.6,
+        "season": 9
+      },
+      {
+        "elo": 1504.1,
+        "season": 10
+      },
+      {
+        "elo": 1520.8,
+        "season": 11
+      },
+      {
+        "elo": 1645.2,
+        "season": 12
+      },
+      {
+        "elo": 1578.0,
+        "season": 13
+      },
+      {
+        "elo": 1638.5,
+        "season": 14
+      },
+      {
+        "elo": 1603.8,
+        "season": 15
+      },
+      {
+        "elo": 1678.1,
+        "season": 16
+      },
+      {
+        "elo": 1646.4,
+        "season": 17
+      },
+      {
+        "elo": 1607.6,
+        "season": 18
+      },
+      {
+        "elo": 1635.9,
+        "season": 19
+      },
+      {
+        "elo": 1603.8,
+        "season": 20
+      },
+      {
+        "elo": 1559.5,
+        "season": 21
+      },
+      {
+        "elo": 1660.4,
+        "season": 22
+      }
+    ],
+    "peakElo": 1678.1,
+    "peakSeason": 16,
+    "player": "Rush",
+    "race": "T",
+    "rank": 6,
+    "seasons": 20,
+    "withQualifiers": {
+      "currentElo": 2046.3,
+      "games": 384,
+      "history": [
+        {
+          "elo": 1485.6,
+          "season": 2
+        },
+        {
+          "elo": 1642.4,
+          "season": 4
+        },
+        {
+          "elo": 1662.7,
+          "season": 5
+        },
+        {
+          "elo": 1706.2,
+          "season": 6
+        },
+        {
+          "elo": 1744.5,
+          "season": 7
+        },
+        {
+          "elo": 1796.0,
+          "season": 8
+        },
+        {
+          "elo": 1762.3,
+          "season": 9
+        },
+        {
+          "elo": 1807.3,
+          "season": 10
+        },
+        {
+          "elo": 1828.4,
+          "season": 11
+        },
+        {
+          "elo": 1932.5,
+          "season": 12
+        },
+        {
+          "elo": 1850.3,
+          "season": 13
+        },
+        {
+          "elo": 1942.2,
+          "season": 14
+        },
+        {
+          "elo": 1909.9,
+          "season": 15
+        },
+        {
+          "elo": 1987.7,
+          "season": 16
+        },
+        {
+          "elo": 1960.0,
+          "season": 17
+        },
+        {
+          "elo": 1915.4,
+          "season": 18
+        },
+        {
+          "elo": 1968.4,
+          "season": 19
+        },
+        {
+          "elo": 1954.8,
+          "season": 20
+        },
+        {
+          "elo": 1964.2,
+          "season": 21
+        },
+        {
+          "elo": 2046.3,
+          "season": 22
+        }
+      ],
+      "peakElo": 2046.3,
+      "peakSeason": 22,
+      "rank": 4
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1652.6,
+    "games": 106,
     "history": [
       {
         "elo": 1560.9,
@@ -835,17 +959,21 @@
       {
         "elo": 1634.5,
         "season": 21
+      },
+      {
+        "elo": 1652.6,
+        "season": 22
       }
     ],
-    "peakElo": 1634.5,
-    "peakSeason": 21,
+    "peakElo": 1652.6,
+    "peakSeason": 22,
     "player": "Jaedong",
     "race": "Z",
     "rank": 7,
-    "seasons": 15,
+    "seasons": 16,
     "withQualifiers": {
-      "currentElo": 1986.6,
-      "games": 198,
+      "currentElo": 1971.9,
+      "games": 229,
       "history": [
         {
           "elo": 1560.9,
@@ -892,31 +1020,35 @@
           "season": 17
         },
         {
-          "elo": 1858.9,
+          "elo": 1859.3,
           "season": 18
         },
         {
-          "elo": 1911.1,
+          "elo": 1911.4,
           "season": 19
         },
         {
-          "elo": 1958.8,
+          "elo": 1959.0,
           "season": 20
         },
         {
-          "elo": 1986.6,
+          "elo": 1987.4,
           "season": 21
+        },
+        {
+          "elo": 1971.9,
+          "season": 22
         }
       ],
-      "peakElo": 1986.6,
+      "peakElo": 1987.4,
       "peakSeason": 21,
-      "rank": 4
+      "rank": 10
     }
   },
   {
     "championships": 1,
-    "currentElo": 1620.9,
-    "games": 188,
+    "currentElo": 1642.0,
+    "games": 202,
     "history": [
       {
         "elo": 1504.2,
@@ -997,6 +1129,10 @@
       {
         "elo": 1620.9,
         "season": 21
+      },
+      {
+        "elo": 1642.0,
+        "season": 22
       }
     ],
     "peakElo": 1734.5,
@@ -1004,10 +1140,10 @@
     "player": "Light",
     "race": "T",
     "rank": 8,
-    "seasons": 20,
+    "seasons": 21,
     "withQualifiers": {
-      "currentElo": 1964.7,
-      "games": 307,
+      "currentElo": 1990.9,
+      "games": 321,
       "history": [
         {
           "elo": 1504.2,
@@ -1078,191 +1214,115 @@
           "season": 18
         },
         {
-          "elo": 2000.9,
+          "elo": 2001.1,
           "season": 19
         },
         {
-          "elo": 1958.2,
+          "elo": 1958.4,
           "season": 20
         },
         {
-          "elo": 1964.7,
+          "elo": 1965.0,
           "season": 21
+        },
+        {
+          "elo": 1990.9,
+          "season": 22
         }
       ],
       "peakElo": 2009.7,
       "peakSeason": 13,
-      "rank": 9
+      "rank": 6
     }
   },
   {
     "championships": 1,
-    "currentElo": 1619.2,
-    "games": 176,
+    "currentElo": 1636.1,
+    "games": 66,
     "history": [
       {
-        "elo": 1468.9,
+        "elo": 1551.1,
+        "season": 1
+      },
+      {
+        "elo": 1531.8,
+        "season": 2
+      },
+      {
+        "elo": 1535.7,
         "season": 3
       },
       {
-        "elo": 1458.0,
+        "elo": 1514.7,
         "season": 4
       },
       {
-        "elo": 1531.5,
+        "elo": 1492.5,
         "season": 5
       },
       {
-        "elo": 1537.3,
+        "elo": 1617.3,
         "season": 6
       },
       {
-        "elo": 1583.1,
+        "elo": 1664.4,
         "season": 7
       },
       {
-        "elo": 1522.0,
+        "elo": 1636.1,
         "season": 8
-      },
-      {
-        "elo": 1487.3,
-        "season": 9
-      },
-      {
-        "elo": 1480.3,
-        "season": 10
-      },
-      {
-        "elo": 1648.7,
-        "season": 11
-      },
-      {
-        "elo": 1714.5,
-        "season": 12
-      },
-      {
-        "elo": 1660.0,
-        "season": 13
-      },
-      {
-        "elo": 1628.6,
-        "season": 14
-      },
-      {
-        "elo": 1592.8,
-        "season": 15
-      },
-      {
-        "elo": 1669.8,
-        "season": 16
-      },
-      {
-        "elo": 1682.0,
-        "season": 17
-      },
-      {
-        "elo": 1621.1,
-        "season": 18
-      },
-      {
-        "elo": 1594.3,
-        "season": 19
-      },
-      {
-        "elo": 1619.2,
-        "season": 20
       }
     ],
-    "peakElo": 1714.5,
-    "peakSeason": 12,
-    "player": "Mini",
-    "race": "P",
+    "peakElo": 1664.4,
+    "peakSeason": 7,
+    "player": "Last",
+    "race": "T",
     "rank": 9,
-    "seasons": 18,
+    "seasons": 8,
     "withQualifiers": {
-      "currentElo": 1916.0,
-      "games": 276,
+      "currentElo": 1807.5,
+      "games": 105,
       "history": [
         {
-          "elo": 1468.9,
+          "elo": 1551.1,
+          "season": 1
+        },
+        {
+          "elo": 1531.8,
+          "season": 2
+        },
+        {
+          "elo": 1535.7,
           "season": 3
         },
         {
-          "elo": 1571.1,
+          "elo": 1630.5,
           "season": 4
         },
         {
-          "elo": 1706.4,
+          "elo": 1687.7,
           "season": 5
         },
         {
-          "elo": 1709.3,
+          "elo": 1849.4,
           "season": 6
         },
         {
-          "elo": 1784.6,
+          "elo": 1892.1,
           "season": 7
         },
         {
-          "elo": 1733.1,
+          "elo": 1863.3,
           "season": 8
         },
         {
-          "elo": 1742.8,
-          "season": 9
-        },
-        {
-          "elo": 1753.7,
-          "season": 10
-        },
-        {
-          "elo": 1894.4,
-          "season": 11
-        },
-        {
-          "elo": 1974.0,
-          "season": 12
-        },
-        {
-          "elo": 1928.7,
-          "season": 13
-        },
-        {
-          "elo": 1927.8,
-          "season": 14
-        },
-        {
-          "elo": 1921.0,
+          "elo": 1807.5,
           "season": 15
-        },
-        {
-          "elo": 2002.8,
-          "season": 16
-        },
-        {
-          "elo": 2018.1,
-          "season": 17
-        },
-        {
-          "elo": 1942.0,
-          "season": 18
-        },
-        {
-          "elo": 1917.4,
-          "season": 19
-        },
-        {
-          "elo": 1982.8,
-          "season": 20
-        },
-        {
-          "elo": 1916.0,
-          "season": 21
         }
       ],
-      "peakElo": 2018.1,
-      "peakSeason": 17,
-      "rank": 16
+      "peakElo": 1892.1,
+      "peakSeason": 7,
+      "rank": 29
     }
   },
   {
@@ -1330,7 +1390,7 @@
     "rank": 10,
     "seasons": 13,
     "withQualifiers": {
-      "currentElo": 1973.1,
+      "currentElo": 1973.3,
       "games": 195,
       "history": [
         {
@@ -1370,449 +1430,31 @@
           "season": 16
         },
         {
-          "elo": 1853.5,
+          "elo": 1854.1,
           "season": 17
         },
         {
-          "elo": 1949.4,
+          "elo": 1949.8,
           "season": 18
         },
         {
-          "elo": 1926.2,
+          "elo": 1926.5,
           "season": 19
         },
         {
-          "elo": 1973.1,
+          "elo": 1973.3,
           "season": 21
         }
       ],
-      "peakElo": 1973.1,
+      "peakElo": 1973.3,
       "peakSeason": 21,
-      "rank": 6
+      "rank": 9
     }
   },
   {
     "championships": 0,
-    "currentElo": 1601.2,
-    "games": 158,
-    "history": [
-      {
-        "elo": 1515.8,
-        "season": 2
-      },
-      {
-        "elo": 1574.9,
-        "season": 3
-      },
-      {
-        "elo": 1639.3,
-        "season": 4
-      },
-      {
-        "elo": 1599.0,
-        "season": 9
-      },
-      {
-        "elo": 1568.5,
-        "season": 10
-      },
-      {
-        "elo": 1561.6,
-        "season": 11
-      },
-      {
-        "elo": 1622.9,
-        "season": 13
-      },
-      {
-        "elo": 1631.6,
-        "season": 14
-      },
-      {
-        "elo": 1611.8,
-        "season": 15
-      },
-      {
-        "elo": 1565.6,
-        "season": 16
-      },
-      {
-        "elo": 1582.6,
-        "season": 17
-      },
-      {
-        "elo": 1581.9,
-        "season": 18
-      },
-      {
-        "elo": 1528.6,
-        "season": 19
-      },
-      {
-        "elo": 1644.7,
-        "season": 20
-      },
-      {
-        "elo": 1601.2,
-        "season": 21
-      }
-    ],
-    "peakElo": 1644.7,
-    "peakSeason": 20,
-    "player": "Bisu",
-    "race": "P",
-    "rank": 11,
-    "seasons": 15,
-    "withQualifiers": {
-      "currentElo": 1912.0,
-      "games": 248,
-      "history": [
-        {
-          "elo": 1515.8,
-          "season": 2
-        },
-        {
-          "elo": 1574.9,
-          "season": 3
-        },
-        {
-          "elo": 1674.3,
-          "season": 4
-        },
-        {
-          "elo": 1760.1,
-          "season": 9
-        },
-        {
-          "elo": 1741.7,
-          "season": 10
-        },
-        {
-          "elo": 1799.4,
-          "season": 11
-        },
-        {
-          "elo": 1896.2,
-          "season": 13
-        },
-        {
-          "elo": 1906.1,
-          "season": 14
-        },
-        {
-          "elo": 1906.5,
-          "season": 15
-        },
-        {
-          "elo": 1852.7,
-          "season": 16
-        },
-        {
-          "elo": 1894.3,
-          "season": 17
-        },
-        {
-          "elo": 1912.4,
-          "season": 18
-        },
-        {
-          "elo": 1845.8,
-          "season": 19
-        },
-        {
-          "elo": 1953.6,
-          "season": 20
-        },
-        {
-          "elo": 1912.0,
-          "season": 21
-        }
-      ],
-      "peakElo": 1953.6,
-      "peakSeason": 20,
-      "rank": 17
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1599.7,
-    "games": 207,
-    "history": [
-      {
-        "elo": 1501.5,
-        "season": 1
-      },
-      {
-        "elo": 1519.4,
-        "season": 2
-      },
-      {
-        "elo": 1502.6,
-        "season": 3
-      },
-      {
-        "elo": 1561.6,
-        "season": 4
-      },
-      {
-        "elo": 1569.9,
-        "season": 5
-      },
-      {
-        "elo": 1546.3,
-        "season": 10
-      },
-      {
-        "elo": 1608.7,
-        "season": 11
-      },
-      {
-        "elo": 1621.0,
-        "season": 12
-      },
-      {
-        "elo": 1567.7,
-        "season": 13
-      },
-      {
-        "elo": 1621.6,
-        "season": 14
-      },
-      {
-        "elo": 1638.3,
-        "season": 15
-      },
-      {
-        "elo": 1607.7,
-        "season": 16
-      },
-      {
-        "elo": 1719.1,
-        "season": 17
-      },
-      {
-        "elo": 1647.5,
-        "season": 18
-      },
-      {
-        "elo": 1624.2,
-        "season": 19
-      },
-      {
-        "elo": 1581.0,
-        "season": 20
-      },
-      {
-        "elo": 1599.7,
-        "season": 21
-      }
-    ],
-    "peakElo": 1719.1,
-    "peakSeason": 17,
-    "player": "herO",
-    "race": "Z",
-    "rank": 12,
-    "seasons": 17,
-    "withQualifiers": {
-      "currentElo": 1968.2,
-      "games": 290,
-      "history": [
-        {
-          "elo": 1501.5,
-          "season": 1
-        },
-        {
-          "elo": 1519.4,
-          "season": 2
-        },
-        {
-          "elo": 1502.6,
-          "season": 3
-        },
-        {
-          "elo": 1647.2,
-          "season": 4
-        },
-        {
-          "elo": 1704.4,
-          "season": 5
-        },
-        {
-          "elo": 1743.6,
-          "season": 10
-        },
-        {
-          "elo": 1829.5,
-          "season": 11
-        },
-        {
-          "elo": 1870.1,
-          "season": 12
-        },
-        {
-          "elo": 1820.8,
-          "season": 13
-        },
-        {
-          "elo": 1908.8,
-          "season": 14
-        },
-        {
-          "elo": 1929.9,
-          "season": 15
-        },
-        {
-          "elo": 1905.9,
-          "season": 16
-        },
-        {
-          "elo": 2052.6,
-          "season": 17
-        },
-        {
-          "elo": 1997.1,
-          "season": 18
-        },
-        {
-          "elo": 1951.4,
-          "season": 19
-        },
-        {
-          "elo": 1937.6,
-          "season": 20
-        },
-        {
-          "elo": 1968.2,
-          "season": 21
-        }
-      ],
-      "peakElo": 2052.6,
-      "peakSeason": 17,
-      "rank": 8
-    }
-  },
-  {
-    "championships": 1,
-    "currentElo": 1597.7,
-    "games": 113,
-    "history": [
-      {
-        "elo": 1454.9,
-        "season": 1
-      },
-      {
-        "elo": 1427.0,
-        "season": 2
-      },
-      {
-        "elo": 1421.8,
-        "season": 3
-      },
-      {
-        "elo": 1502.9,
-        "season": 4
-      },
-      {
-        "elo": 1481.5,
-        "season": 5
-      },
-      {
-        "elo": 1502.7,
-        "season": 7
-      },
-      {
-        "elo": 1485.4,
-        "season": 8
-      },
-      {
-        "elo": 1519.9,
-        "season": 9
-      },
-      {
-        "elo": 1556.8,
-        "season": 10
-      },
-      {
-        "elo": 1671.5,
-        "season": 11
-      },
-      {
-        "elo": 1647.3,
-        "season": 20
-      },
-      {
-        "elo": 1597.7,
-        "season": 21
-      }
-    ],
-    "peakElo": 1671.5,
-    "peakSeason": 11,
-    "player": "Larva",
-    "race": "Z",
-    "rank": 13,
-    "seasons": 12,
-    "withQualifiers": {
-      "currentElo": 1834.1,
-      "games": 182,
-      "history": [
-        {
-          "elo": 1454.9,
-          "season": 1
-        },
-        {
-          "elo": 1427.0,
-          "season": 2
-        },
-        {
-          "elo": 1421.8,
-          "season": 3
-        },
-        {
-          "elo": 1606.6,
-          "season": 4
-        },
-        {
-          "elo": 1605.3,
-          "season": 5
-        },
-        {
-          "elo": 1722.5,
-          "season": 7
-        },
-        {
-          "elo": 1745.4,
-          "season": 8
-        },
-        {
-          "elo": 1783.0,
-          "season": 9
-        },
-        {
-          "elo": 1814.7,
-          "season": 10
-        },
-        {
-          "elo": 1924.9,
-          "season": 11
-        },
-        {
-          "elo": 1955.1,
-          "season": 20
-        },
-        {
-          "elo": 1834.1,
-          "season": 21
-        }
-      ],
-      "peakElo": 1955.1,
-      "peakSeason": 20,
-      "rank": 24
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1594.9,
-    "games": 178,
+    "currentElo": 1604.7,
+    "games": 186,
     "history": [
       {
         "elo": 1485.5,
@@ -1897,17 +1539,21 @@
       {
         "elo": 1594.9,
         "season": 21
+      },
+      {
+        "elo": 1604.7,
+        "season": 22
       }
     ],
     "peakElo": 1698.0,
     "peakSeason": 19,
     "player": "Best",
     "race": "P",
-    "rank": 14,
-    "seasons": 21,
+    "rank": 11,
+    "seasons": 22,
     "withQualifiers": {
-      "currentElo": 1972.6,
-      "games": 328,
+      "currentElo": 1968.1,
+      "games": 345,
       "history": [
         {
           "elo": 1485.5,
@@ -1982,27 +1628,375 @@
           "season": 18
         },
         {
-          "elo": 2030.0,
+          "elo": 2030.1,
           "season": 19
         },
         {
-          "elo": 1955.2,
+          "elo": 1955.3,
           "season": 20
         },
         {
-          "elo": 1972.6,
+          "elo": 1972.8,
           "season": 21
+        },
+        {
+          "elo": 1968.1,
+          "season": 22
         }
       ],
-      "peakElo": 2030.0,
+      "peakElo": 2030.1,
       "peakSeason": 19,
+      "rank": 11
+    }
+  },
+  {
+    "championships": 1,
+    "currentElo": 1595.9,
+    "games": 179,
+    "history": [
+      {
+        "elo": 1468.9,
+        "season": 3
+      },
+      {
+        "elo": 1458.0,
+        "season": 4
+      },
+      {
+        "elo": 1531.5,
+        "season": 5
+      },
+      {
+        "elo": 1537.3,
+        "season": 6
+      },
+      {
+        "elo": 1583.1,
+        "season": 7
+      },
+      {
+        "elo": 1522.0,
+        "season": 8
+      },
+      {
+        "elo": 1487.3,
+        "season": 9
+      },
+      {
+        "elo": 1480.3,
+        "season": 10
+      },
+      {
+        "elo": 1648.7,
+        "season": 11
+      },
+      {
+        "elo": 1714.5,
+        "season": 12
+      },
+      {
+        "elo": 1660.0,
+        "season": 13
+      },
+      {
+        "elo": 1628.6,
+        "season": 14
+      },
+      {
+        "elo": 1592.8,
+        "season": 15
+      },
+      {
+        "elo": 1669.8,
+        "season": 16
+      },
+      {
+        "elo": 1682.0,
+        "season": 17
+      },
+      {
+        "elo": 1621.1,
+        "season": 18
+      },
+      {
+        "elo": 1594.3,
+        "season": 19
+      },
+      {
+        "elo": 1619.2,
+        "season": 20
+      },
+      {
+        "elo": 1595.9,
+        "season": 22
+      }
+    ],
+    "peakElo": 1714.5,
+    "peakSeason": 12,
+    "player": "Mini",
+    "race": "P",
+    "rank": 12,
+    "seasons": 19,
+    "withQualifiers": {
+      "currentElo": 1978.8,
+      "games": 290,
+      "history": [
+        {
+          "elo": 1468.9,
+          "season": 3
+        },
+        {
+          "elo": 1571.1,
+          "season": 4
+        },
+        {
+          "elo": 1706.4,
+          "season": 5
+        },
+        {
+          "elo": 1709.3,
+          "season": 6
+        },
+        {
+          "elo": 1784.6,
+          "season": 7
+        },
+        {
+          "elo": 1733.1,
+          "season": 8
+        },
+        {
+          "elo": 1742.8,
+          "season": 9
+        },
+        {
+          "elo": 1753.7,
+          "season": 10
+        },
+        {
+          "elo": 1894.4,
+          "season": 11
+        },
+        {
+          "elo": 1974.0,
+          "season": 12
+        },
+        {
+          "elo": 1928.7,
+          "season": 13
+        },
+        {
+          "elo": 1927.8,
+          "season": 14
+        },
+        {
+          "elo": 1921.0,
+          "season": 15
+        },
+        {
+          "elo": 2002.8,
+          "season": 16
+        },
+        {
+          "elo": 2018.1,
+          "season": 17
+        },
+        {
+          "elo": 1942.1,
+          "season": 18
+        },
+        {
+          "elo": 1917.6,
+          "season": 19
+        },
+        {
+          "elo": 1983.0,
+          "season": 20
+        },
+        {
+          "elo": 1916.2,
+          "season": 21
+        },
+        {
+          "elo": 1978.8,
+          "season": 22
+        }
+      ],
+      "peakElo": 2018.1,
+      "peakSeason": 17,
       "rank": 7
     }
   },
   {
     "championships": 0,
-    "currentElo": 1574.9,
-    "games": 25,
+    "currentElo": 1583.2,
+    "games": 216,
+    "history": [
+      {
+        "elo": 1501.5,
+        "season": 1
+      },
+      {
+        "elo": 1519.4,
+        "season": 2
+      },
+      {
+        "elo": 1502.6,
+        "season": 3
+      },
+      {
+        "elo": 1561.6,
+        "season": 4
+      },
+      {
+        "elo": 1569.9,
+        "season": 5
+      },
+      {
+        "elo": 1546.3,
+        "season": 10
+      },
+      {
+        "elo": 1608.7,
+        "season": 11
+      },
+      {
+        "elo": 1621.0,
+        "season": 12
+      },
+      {
+        "elo": 1567.7,
+        "season": 13
+      },
+      {
+        "elo": 1621.6,
+        "season": 14
+      },
+      {
+        "elo": 1638.3,
+        "season": 15
+      },
+      {
+        "elo": 1607.7,
+        "season": 16
+      },
+      {
+        "elo": 1719.1,
+        "season": 17
+      },
+      {
+        "elo": 1647.5,
+        "season": 18
+      },
+      {
+        "elo": 1624.2,
+        "season": 19
+      },
+      {
+        "elo": 1581.0,
+        "season": 20
+      },
+      {
+        "elo": 1599.7,
+        "season": 21
+      },
+      {
+        "elo": 1583.2,
+        "season": 22
+      }
+    ],
+    "peakElo": 1719.1,
+    "peakSeason": 17,
+    "player": "herO",
+    "race": "Z",
+    "rank": 13,
+    "seasons": 18,
+    "withQualifiers": {
+      "currentElo": 1935.0,
+      "games": 315,
+      "history": [
+        {
+          "elo": 1501.5,
+          "season": 1
+        },
+        {
+          "elo": 1519.4,
+          "season": 2
+        },
+        {
+          "elo": 1502.6,
+          "season": 3
+        },
+        {
+          "elo": 1647.2,
+          "season": 4
+        },
+        {
+          "elo": 1704.4,
+          "season": 5
+        },
+        {
+          "elo": 1743.6,
+          "season": 10
+        },
+        {
+          "elo": 1829.5,
+          "season": 11
+        },
+        {
+          "elo": 1870.1,
+          "season": 12
+        },
+        {
+          "elo": 1820.8,
+          "season": 13
+        },
+        {
+          "elo": 1908.8,
+          "season": 14
+        },
+        {
+          "elo": 1929.9,
+          "season": 15
+        },
+        {
+          "elo": 1905.9,
+          "season": 16
+        },
+        {
+          "elo": 2052.6,
+          "season": 17
+        },
+        {
+          "elo": 1997.1,
+          "season": 18
+        },
+        {
+          "elo": 1951.6,
+          "season": 19
+        },
+        {
+          "elo": 1937.8,
+          "season": 20
+        },
+        {
+          "elo": 1968.4,
+          "season": 21
+        },
+        {
+          "elo": 1935.0,
+          "season": 22
+        }
+      ],
+      "peakElo": 2052.6,
+      "peakSeason": 17,
+      "rank": 14
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1578.2,
+    "games": 32,
     "history": [
       {
         "elo": 1487.6,
@@ -2019,17 +2013,21 @@
       {
         "elo": 1574.9,
         "season": 21
+      },
+      {
+        "elo": 1578.2,
+        "season": 22
       }
     ],
-    "peakElo": 1574.9,
-    "peakSeason": 21,
+    "peakElo": 1578.2,
+    "peakSeason": 22,
     "player": "Leta",
     "race": "T",
-    "rank": 15,
-    "seasons": 4,
+    "rank": 14,
+    "seasons": 5,
     "withQualifiers": {
-      "currentElo": 1932.0,
-      "games": 217,
+      "currentElo": 1932.6,
+      "games": 224,
       "history": [
         {
           "elo": 1542.8,
@@ -2092,21 +2090,317 @@
           "season": 18
         },
         {
-          "elo": 1713.0,
+          "elo": 1713.8,
           "season": 19
         },
         {
-          "elo": 1720.9,
+          "elo": 1721.4,
           "season": 20
         },
         {
-          "elo": 1932.0,
+          "elo": 1932.5,
           "season": 21
+        },
+        {
+          "elo": 1932.6,
+          "season": 22
         }
       ],
-      "peakElo": 1932.0,
-      "peakSeason": 21,
-      "rank": 14
+      "peakElo": 1932.6,
+      "peakSeason": 22,
+      "rank": 15
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1573.2,
+    "games": 161,
+    "history": [
+      {
+        "elo": 1515.8,
+        "season": 2
+      },
+      {
+        "elo": 1574.9,
+        "season": 3
+      },
+      {
+        "elo": 1639.3,
+        "season": 4
+      },
+      {
+        "elo": 1599.0,
+        "season": 9
+      },
+      {
+        "elo": 1568.5,
+        "season": 10
+      },
+      {
+        "elo": 1561.6,
+        "season": 11
+      },
+      {
+        "elo": 1622.9,
+        "season": 13
+      },
+      {
+        "elo": 1631.6,
+        "season": 14
+      },
+      {
+        "elo": 1611.8,
+        "season": 15
+      },
+      {
+        "elo": 1565.6,
+        "season": 16
+      },
+      {
+        "elo": 1582.6,
+        "season": 17
+      },
+      {
+        "elo": 1581.9,
+        "season": 18
+      },
+      {
+        "elo": 1528.6,
+        "season": 19
+      },
+      {
+        "elo": 1644.7,
+        "season": 20
+      },
+      {
+        "elo": 1601.2,
+        "season": 21
+      },
+      {
+        "elo": 1573.2,
+        "season": 22
+      }
+    ],
+    "peakElo": 1644.7,
+    "peakSeason": 20,
+    "player": "Bisu",
+    "race": "P",
+    "rank": 15,
+    "seasons": 16,
+    "withQualifiers": {
+      "currentElo": 1974.3,
+      "games": 259,
+      "history": [
+        {
+          "elo": 1515.8,
+          "season": 2
+        },
+        {
+          "elo": 1574.9,
+          "season": 3
+        },
+        {
+          "elo": 1674.3,
+          "season": 4
+        },
+        {
+          "elo": 1760.1,
+          "season": 9
+        },
+        {
+          "elo": 1741.7,
+          "season": 10
+        },
+        {
+          "elo": 1799.4,
+          "season": 11
+        },
+        {
+          "elo": 1896.2,
+          "season": 13
+        },
+        {
+          "elo": 1906.1,
+          "season": 14
+        },
+        {
+          "elo": 1906.5,
+          "season": 15
+        },
+        {
+          "elo": 1852.7,
+          "season": 16
+        },
+        {
+          "elo": 1894.5,
+          "season": 17
+        },
+        {
+          "elo": 1912.5,
+          "season": 18
+        },
+        {
+          "elo": 1845.9,
+          "season": 19
+        },
+        {
+          "elo": 1953.7,
+          "season": 20
+        },
+        {
+          "elo": 1912.2,
+          "season": 21
+        },
+        {
+          "elo": 1974.3,
+          "season": 22
+        }
+      ],
+      "peakElo": 1974.3,
+      "peakSeason": 22,
+      "rank": 8
+    }
+  },
+  {
+    "championships": 2,
+    "currentElo": 1570.0,
+    "games": 146,
+    "history": [
+      {
+        "elo": 1485.5,
+        "season": 1
+      },
+      {
+        "elo": 1660.4,
+        "season": 9
+      },
+      {
+        "elo": 1727.6,
+        "season": 10
+      },
+      {
+        "elo": 1624.3,
+        "season": 11
+      },
+      {
+        "elo": 1570.9,
+        "season": 12
+      },
+      {
+        "elo": 1565.7,
+        "season": 13
+      },
+      {
+        "elo": 1560.7,
+        "season": 14
+      },
+      {
+        "elo": 1586.8,
+        "season": 15
+      },
+      {
+        "elo": 1555.2,
+        "season": 16
+      },
+      {
+        "elo": 1534.2,
+        "season": 18
+      },
+      {
+        "elo": 1599.0,
+        "season": 19
+      },
+      {
+        "elo": 1581.6,
+        "season": 20
+      },
+      {
+        "elo": 1561.9,
+        "season": 21
+      },
+      {
+        "elo": 1570.0,
+        "season": 22
+      }
+    ],
+    "peakElo": 1727.6,
+    "peakSeason": 10,
+    "player": "Queen",
+    "race": "Z",
+    "rank": 16,
+    "seasons": 14,
+    "withQualifiers": {
+      "currentElo": 1935.9,
+      "games": 260,
+      "history": [
+        {
+          "elo": 1485.5,
+          "season": 1
+        },
+        {
+          "elo": 1556.6,
+          "season": 8
+        },
+        {
+          "elo": 1887.3,
+          "season": 9
+        },
+        {
+          "elo": 1964.0,
+          "season": 10
+        },
+        {
+          "elo": 1862.1,
+          "season": 11
+        },
+        {
+          "elo": 1821.7,
+          "season": 12
+        },
+        {
+          "elo": 1823.1,
+          "season": 13
+        },
+        {
+          "elo": 1841.2,
+          "season": 14
+        },
+        {
+          "elo": 1892.6,
+          "season": 15
+        },
+        {
+          "elo": 1855.6,
+          "season": 16
+        },
+        {
+          "elo": 1796.5,
+          "season": 17
+        },
+        {
+          "elo": 1821.1,
+          "season": 18
+        },
+        {
+          "elo": 1912.8,
+          "season": 19
+        },
+        {
+          "elo": 1880.0,
+          "season": 20
+        },
+        {
+          "elo": 1904.7,
+          "season": 21
+        },
+        {
+          "elo": 1935.9,
+          "season": 22
+        }
+      ],
+      "peakElo": 1964.0,
+      "peakSeason": 10,
+      "rank": 13
     }
   },
   {
@@ -2167,11 +2461,11 @@
     "peakSeason": 20,
     "player": "BarrackS",
     "race": "T",
-    "rank": 16,
+    "rank": 17,
     "seasons": 12,
     "withQualifiers": {
-      "currentElo": 1932.5,
-      "games": 203,
+      "currentElo": 1861.9,
+      "games": 219,
       "history": [
         {
           "elo": 1667.7,
@@ -2210,339 +2504,357 @@
           "season": 17
         },
         {
-          "elo": 1923.5,
+          "elo": 1923.6,
           "season": 18
         },
         {
-          "elo": 1935.1,
+          "elo": 1935.3,
           "season": 19
         },
         {
-          "elo": 1984.4,
+          "elo": 1984.6,
           "season": 20
         },
         {
-          "elo": 1932.5,
+          "elo": 1932.7,
           "season": 21
+        },
+        {
+          "elo": 1861.9,
+          "season": 22
         }
       ],
-      "peakElo": 1984.4,
+      "peakElo": 1984.6,
       "peakSeason": 20,
-      "rank": 13
+      "rank": 21
     }
   },
   {
-    "championships": 2,
-    "currentElo": 1561.9,
-    "games": 138,
+    "championships": 1,
+    "currentElo": 1566.2,
+    "games": 116,
     "history": [
       {
-        "elo": 1485.5,
+        "elo": 1454.9,
         "season": 1
       },
       {
-        "elo": 1660.4,
-        "season": 9
-      },
-      {
-        "elo": 1727.6,
-        "season": 10
-      },
-      {
-        "elo": 1624.3,
-        "season": 11
-      },
-      {
-        "elo": 1570.9,
-        "season": 12
-      },
-      {
-        "elo": 1565.7,
-        "season": 13
-      },
-      {
-        "elo": 1560.7,
-        "season": 14
-      },
-      {
-        "elo": 1586.8,
-        "season": 15
-      },
-      {
-        "elo": 1555.2,
-        "season": 16
-      },
-      {
-        "elo": 1534.2,
-        "season": 18
-      },
-      {
-        "elo": 1599.0,
-        "season": 19
-      },
-      {
-        "elo": 1581.6,
-        "season": 20
-      },
-      {
-        "elo": 1561.9,
-        "season": 21
-      }
-    ],
-    "peakElo": 1727.6,
-    "peakSeason": 10,
-    "player": "Queen",
-    "race": "Z",
-    "rank": 17,
-    "seasons": 13,
-    "withQualifiers": {
-      "currentElo": 1904.4,
-      "games": 240,
-      "history": [
-        {
-          "elo": 1485.5,
-          "season": 1
-        },
-        {
-          "elo": 1556.6,
-          "season": 8
-        },
-        {
-          "elo": 1887.3,
-          "season": 9
-        },
-        {
-          "elo": 1964.0,
-          "season": 10
-        },
-        {
-          "elo": 1862.1,
-          "season": 11
-        },
-        {
-          "elo": 1821.7,
-          "season": 12
-        },
-        {
-          "elo": 1823.1,
-          "season": 13
-        },
-        {
-          "elo": 1841.2,
-          "season": 14
-        },
-        {
-          "elo": 1892.6,
-          "season": 15
-        },
-        {
-          "elo": 1855.6,
-          "season": 16
-        },
-        {
-          "elo": 1796.5,
-          "season": 17
-        },
-        {
-          "elo": 1821.1,
-          "season": 18
-        },
-        {
-          "elo": 1912.7,
-          "season": 19
-        },
-        {
-          "elo": 1879.8,
-          "season": 20
-        },
-        {
-          "elo": 1904.4,
-          "season": 21
-        }
-      ],
-      "peakElo": 1964.0,
-      "peakSeason": 10,
-      "rank": 18
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1559.5,
-    "games": 174,
-    "history": [
-      {
-        "elo": 1485.6,
+        "elo": 1427.0,
         "season": 2
       },
       {
-        "elo": 1470.0,
+        "elo": 1421.8,
+        "season": 3
+      },
+      {
+        "elo": 1502.9,
         "season": 4
       },
       {
-        "elo": 1442.2,
+        "elo": 1481.5,
         "season": 5
       },
       {
-        "elo": 1434.8,
-        "season": 6
-      },
-      {
-        "elo": 1406.6,
+        "elo": 1502.7,
         "season": 7
       },
       {
-        "elo": 1464.0,
+        "elo": 1485.4,
         "season": 8
       },
       {
-        "elo": 1451.6,
+        "elo": 1519.9,
         "season": 9
       },
       {
-        "elo": 1504.1,
+        "elo": 1556.8,
         "season": 10
       },
       {
-        "elo": 1520.8,
+        "elo": 1671.5,
         "season": 11
       },
       {
-        "elo": 1645.2,
-        "season": 12
-      },
-      {
-        "elo": 1578.0,
-        "season": 13
-      },
-      {
-        "elo": 1638.5,
-        "season": 14
-      },
-      {
-        "elo": 1603.8,
-        "season": 15
-      },
-      {
-        "elo": 1678.1,
-        "season": 16
-      },
-      {
-        "elo": 1646.4,
-        "season": 17
-      },
-      {
-        "elo": 1607.6,
-        "season": 18
-      },
-      {
-        "elo": 1635.9,
-        "season": 19
-      },
-      {
-        "elo": 1603.8,
+        "elo": 1647.3,
         "season": 20
       },
       {
-        "elo": 1559.5,
+        "elo": 1597.7,
         "season": 21
+      },
+      {
+        "elo": 1566.2,
+        "season": 22
       }
     ],
-    "peakElo": 1678.1,
-    "peakSeason": 16,
-    "player": "Rush",
-    "race": "T",
+    "peakElo": 1671.5,
+    "peakSeason": 11,
+    "player": "Larva",
+    "race": "Z",
     "rank": 18,
-    "seasons": 19,
+    "seasons": 13,
     "withQualifiers": {
-      "currentElo": 1963.7,
-      "games": 346,
+      "currentElo": 1862.7,
+      "games": 191,
       "history": [
         {
-          "elo": 1485.6,
+          "elo": 1454.9,
+          "season": 1
+        },
+        {
+          "elo": 1427.0,
           "season": 2
         },
         {
-          "elo": 1642.4,
+          "elo": 1421.8,
+          "season": 3
+        },
+        {
+          "elo": 1606.6,
           "season": 4
         },
         {
-          "elo": 1662.7,
+          "elo": 1605.3,
           "season": 5
         },
         {
-          "elo": 1706.2,
-          "season": 6
-        },
-        {
-          "elo": 1744.5,
+          "elo": 1722.5,
           "season": 7
         },
         {
-          "elo": 1796.0,
+          "elo": 1745.4,
           "season": 8
         },
         {
-          "elo": 1762.3,
+          "elo": 1783.0,
           "season": 9
         },
         {
-          "elo": 1807.3,
+          "elo": 1814.7,
           "season": 10
         },
         {
-          "elo": 1828.4,
+          "elo": 1924.9,
           "season": 11
         },
         {
-          "elo": 1932.5,
-          "season": 12
-        },
-        {
-          "elo": 1850.3,
-          "season": 13
-        },
-        {
-          "elo": 1942.2,
-          "season": 14
-        },
-        {
-          "elo": 1909.9,
-          "season": 15
-        },
-        {
-          "elo": 1987.7,
-          "season": 16
-        },
-        {
-          "elo": 1960.0,
-          "season": 17
-        },
-        {
-          "elo": 1914.8,
-          "season": 18
-        },
-        {
-          "elo": 1967.7,
-          "season": 19
-        },
-        {
-          "elo": 1954.4,
+          "elo": 1955.2,
           "season": 20
         },
         {
-          "elo": 1963.7,
+          "elo": 1834.4,
           "season": 21
+        },
+        {
+          "elo": 1862.7,
+          "season": 22
         }
       ],
-      "peakElo": 1987.7,
-      "peakSeason": 16,
-      "rank": 10
+      "peakElo": 1955.2,
+      "peakSeason": 20,
+      "rank": 20
     }
   },
   {
     "championships": 0,
-    "currentElo": 1543.6,
-    "games": 112,
+    "currentElo": 1543.1,
+    "games": 12,
+    "history": [
+      {
+        "elo": 1492.2,
+        "season": 19
+      },
+      {
+        "elo": 1543.1,
+        "season": 20
+      }
+    ],
+    "peakElo": 1543.1,
+    "peakSeason": 20,
+    "player": "BTS",
+    "race": "Z",
+    "rank": 19,
+    "seasons": 2,
+    "withQualifiers": {
+      "currentElo": 1785.2,
+      "games": 59,
+      "history": [
+        {
+          "elo": 1524.0,
+          "season": 19
+        },
+        {
+          "elo": 1719.5,
+          "season": 20
+        },
+        {
+          "elo": 1720.1,
+          "season": 21
+        },
+        {
+          "elo": 1785.2,
+          "season": 22
+        }
+      ],
+      "peakElo": 1785.2,
+      "peakSeason": 22,
+      "rank": 34
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1540.3,
+    "games": 77,
+    "history": [
+      {
+        "elo": 1558.0,
+        "season": 3
+      },
+      {
+        "elo": 1519.5,
+        "season": 4
+      },
+      {
+        "elo": 1535.7,
+        "season": 5
+      },
+      {
+        "elo": 1530.4,
+        "season": 6
+      },
+      {
+        "elo": 1496.7,
+        "season": 10
+      },
+      {
+        "elo": 1480.4,
+        "season": 11
+      },
+      {
+        "elo": 1464.9,
+        "season": 12
+      },
+      {
+        "elo": 1486.4,
+        "season": 14
+      },
+      {
+        "elo": 1482.4,
+        "season": 15
+      },
+      {
+        "elo": 1458.5,
+        "season": 17
+      },
+      {
+        "elo": 1442.0,
+        "season": 18
+      },
+      {
+        "elo": 1438.4,
+        "season": 21
+      },
+      {
+        "elo": 1540.3,
+        "season": 22
+      }
+    ],
+    "peakElo": 1558.0,
+    "peakSeason": 3,
+    "player": "Shine",
+    "race": "Z",
+    "rank": 20,
+    "seasons": 13,
+    "withQualifiers": {
+      "currentElo": 1929.4,
+      "games": 258,
+      "history": [
+        {
+          "elo": 1558.0,
+          "season": 3
+        },
+        {
+          "elo": 1530.5,
+          "season": 4
+        },
+        {
+          "elo": 1663.9,
+          "season": 5
+        },
+        {
+          "elo": 1712.6,
+          "season": 6
+        },
+        {
+          "elo": 1670.5,
+          "season": 7
+        },
+        {
+          "elo": 1654.3,
+          "season": 8
+        },
+        {
+          "elo": 1638.9,
+          "season": 10
+        },
+        {
+          "elo": 1728.1,
+          "season": 11
+        },
+        {
+          "elo": 1736.0,
+          "season": 12
+        },
+        {
+          "elo": 1705.6,
+          "season": 13
+        },
+        {
+          "elo": 1795.0,
+          "season": 14
+        },
+        {
+          "elo": 1812.3,
+          "season": 15
+        },
+        {
+          "elo": 1783.8,
+          "season": 16
+        },
+        {
+          "elo": 1825.5,
+          "season": 17
+        },
+        {
+          "elo": 1847.9,
+          "season": 18
+        },
+        {
+          "elo": 1792.0,
+          "season": 19
+        },
+        {
+          "elo": 1750.2,
+          "season": 20
+        },
+        {
+          "elo": 1786.3,
+          "season": 21
+        },
+        {
+          "elo": 1929.4,
+          "season": 22
+        }
+      ],
+      "peakElo": 1929.4,
+      "peakSeason": 22,
+      "rank": 16
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1520.9,
+    "games": 115,
     "history": [
       {
         "elo": 1497.0,
@@ -2603,17 +2915,21 @@
       {
         "elo": 1543.6,
         "season": 19
+      },
+      {
+        "elo": 1520.9,
+        "season": 22
       }
     ],
     "peakElo": 1598.6,
     "peakSeason": 9,
     "player": "Action",
     "race": "Z",
-    "rank": 19,
-    "seasons": 15,
+    "rank": 21,
+    "seasons": 16,
     "withQualifiers": {
-      "currentElo": 1760.1,
-      "games": 290,
+      "currentElo": 1790.2,
+      "games": 307,
       "history": [
         {
           "elo": 1612.8,
@@ -2668,7 +2984,7 @@
           "season": 16
         },
         {
-          "elo": 1912.4,
+          "elo": 1912.5,
           "season": 17
         },
         {
@@ -2676,69 +2992,443 @@
           "season": 18
         },
         {
-          "elo": 1874.4,
+          "elo": 1874.5,
           "season": 19
         },
         {
-          "elo": 1795.2,
+          "elo": 1795.3,
           "season": 20
         },
         {
-          "elo": 1760.1,
+          "elo": 1760.6,
           "season": 21
+        },
+        {
+          "elo": 1790.2,
+          "season": 22
         }
       ],
       "peakElo": 1934.4,
       "peakSeason": 16,
-      "rank": 35
+      "rank": 32
     }
   },
   {
-    "championships": 0,
-    "currentElo": 1543.1,
-    "games": 12,
+    "championships": 1,
+    "currentElo": 1515.9,
+    "games": 106,
     "history": [
       {
-        "elo": 1492.2,
-        "season": 19
+        "elo": 1469.0,
+        "season": 7
       },
       {
-        "elo": 1543.1,
+        "elo": 1452.2,
+        "season": 8
+      },
+      {
+        "elo": 1422.8,
+        "season": 9
+      },
+      {
+        "elo": 1464.0,
+        "season": 10
+      },
+      {
+        "elo": 1515.9,
+        "season": 11
+      },
+      {
+        "elo": 1496.5,
+        "season": 12
+      },
+      {
+        "elo": 1567.5,
+        "season": 13
+      },
+      {
+        "elo": 1539.1,
+        "season": 14
+      },
+      {
+        "elo": 1694.8,
+        "season": 15
+      },
+      {
+        "elo": 1664.2,
+        "season": 16
+      },
+      {
+        "elo": 1612.3,
+        "season": 17
+      },
+      {
+        "elo": 1610.1,
+        "season": 18
+      },
+      {
+        "elo": 1567.7,
         "season": 20
+      },
+      {
+        "elo": 1526.3,
+        "season": 21
+      },
+      {
+        "elo": 1515.9,
+        "season": 22
       }
     ],
-    "peakElo": 1543.1,
-    "peakSeason": 20,
-    "player": "BTS",
-    "race": "Z",
-    "rank": 20,
-    "seasons": 2,
+    "peakElo": 1694.8,
+    "peakSeason": 15,
+    "player": "JyJ",
+    "race": "T",
+    "rank": 22,
+    "seasons": 15,
     "withQualifiers": {
-      "currentElo": 1719.3,
-      "games": 41,
+      "currentElo": 1818.9,
+      "games": 259,
       "history": [
         {
-          "elo": 1524.0,
+          "elo": 1604.1,
+          "season": 7
+        },
+        {
+          "elo": 1656.8,
+          "season": 8
+        },
+        {
+          "elo": 1710.6,
+          "season": 9
+        },
+        {
+          "elo": 1746.6,
+          "season": 10
+        },
+        {
+          "elo": 1795.1,
+          "season": 11
+        },
+        {
+          "elo": 1756.2,
+          "season": 12
+        },
+        {
+          "elo": 1843.0,
+          "season": 13
+        },
+        {
+          "elo": 1783.6,
+          "season": 14
+        },
+        {
+          "elo": 1985.6,
+          "season": 15
+        },
+        {
+          "elo": 1956.5,
+          "season": 16
+        },
+        {
+          "elo": 1892.3,
+          "season": 17
+        },
+        {
+          "elo": 1903.5,
+          "season": 18
+        },
+        {
+          "elo": 1829.9,
           "season": 19
         },
         {
-          "elo": 1718.9,
+          "elo": 1799.7,
           "season": 20
         },
         {
-          "elo": 1719.3,
+          "elo": 1761.1,
           "season": 21
+        },
+        {
+          "elo": 1818.9,
+          "season": 22
         }
       ],
-      "peakElo": 1719.3,
-      "peakSeason": 21,
-      "rank": 43
+      "peakElo": 1985.6,
+      "peakSeason": 15,
+      "rank": 25
     }
   },
   {
     "championships": 0,
-    "currentElo": 1535.8,
-    "games": 139,
+    "currentElo": 1515.1,
+    "games": 9,
+    "history": [
+      {
+        "elo": 1515.1,
+        "season": 12
+      }
+    ],
+    "peakElo": 1515.1,
+    "peakSeason": 12,
+    "player": "815",
+    "race": "Z",
+    "rank": 23,
+    "seasons": 1,
+    "withQualifiers": {
+      "currentElo": 1568.1,
+      "games": 172,
+      "history": [
+        {
+          "elo": 1554.4,
+          "season": 6
+        },
+        {
+          "elo": 1616.7,
+          "season": 7
+        },
+        {
+          "elo": 1605.5,
+          "season": 8
+        },
+        {
+          "elo": 1592.7,
+          "season": 9
+        },
+        {
+          "elo": 1555.4,
+          "season": 10
+        },
+        {
+          "elo": 1579.5,
+          "season": 11
+        },
+        {
+          "elo": 1687.2,
+          "season": 12
+        },
+        {
+          "elo": 1667.8,
+          "season": 13
+        },
+        {
+          "elo": 1604.8,
+          "season": 14
+        },
+        {
+          "elo": 1620.7,
+          "season": 15
+        },
+        {
+          "elo": 1680.6,
+          "season": 16
+        },
+        {
+          "elo": 1674.4,
+          "season": 17
+        },
+        {
+          "elo": 1676.2,
+          "season": 18
+        },
+        {
+          "elo": 1685.7,
+          "season": 19
+        },
+        {
+          "elo": 1582.3,
+          "season": 20
+        },
+        {
+          "elo": 1560.9,
+          "season": 21
+        },
+        {
+          "elo": 1568.1,
+          "season": 22
+        }
+      ],
+      "peakElo": 1687.2,
+      "peakSeason": 12,
+      "rank": 78
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1509.0,
+    "games": 89,
+    "history": [
+      {
+        "elo": 1482.5,
+        "season": 1
+      },
+      {
+        "elo": 1486.7,
+        "season": 2
+      },
+      {
+        "elo": 1505.1,
+        "season": 4
+      },
+      {
+        "elo": 1550.3,
+        "season": 5
+      },
+      {
+        "elo": 1527.6,
+        "season": 6
+      },
+      {
+        "elo": 1554.8,
+        "season": 7
+      },
+      {
+        "elo": 1517.9,
+        "season": 9
+      },
+      {
+        "elo": 1597.2,
+        "season": 15
+      },
+      {
+        "elo": 1581.1,
+        "season": 16
+      },
+      {
+        "elo": 1579.6,
+        "season": 17
+      },
+      {
+        "elo": 1556.0,
+        "season": 18
+      },
+      {
+        "elo": 1524.1,
+        "season": 19
+      },
+      {
+        "elo": 1509.0,
+        "season": 21
+      }
+    ],
+    "peakElo": 1597.2,
+    "peakSeason": 15,
+    "player": "Mind",
+    "race": "T",
+    "rank": 24,
+    "seasons": 13,
+    "withQualifiers": {
+      "currentElo": 1813.4,
+      "games": 227,
+      "history": [
+        {
+          "elo": 1482.5,
+          "season": 1
+        },
+        {
+          "elo": 1486.7,
+          "season": 2
+        },
+        {
+          "elo": 1620.4,
+          "season": 4
+        },
+        {
+          "elo": 1708.6,
+          "season": 5
+        },
+        {
+          "elo": 1722.2,
+          "season": 6
+        },
+        {
+          "elo": 1806.6,
+          "season": 7
+        },
+        {
+          "elo": 1769.2,
+          "season": 9
+        },
+        {
+          "elo": 1735.9,
+          "season": 14
+        },
+        {
+          "elo": 1890.1,
+          "season": 15
+        },
+        {
+          "elo": 1883.6,
+          "season": 16
+        },
+        {
+          "elo": 1932.1,
+          "season": 17
+        },
+        {
+          "elo": 1894.1,
+          "season": 18
+        },
+        {
+          "elo": 1868.4,
+          "season": 19
+        },
+        {
+          "elo": 1779.3,
+          "season": 20
+        },
+        {
+          "elo": 1822.6,
+          "season": 21
+        },
+        {
+          "elo": 1813.4,
+          "season": 22
+        }
+      ],
+      "peakElo": 1932.1,
+      "peakSeason": 17,
+      "rank": 27
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1506.0,
+    "games": 8,
+    "history": [
+      {
+        "elo": 1506.0,
+        "season": 9
+      }
+    ],
+    "peakElo": 1506.0,
+    "peakSeason": 9,
+    "player": "Sea.KH",
+    "race": "P",
+    "rank": 25,
+    "seasons": 1,
+    "withQualifiers": {
+      "currentElo": 1633.2,
+      "games": 23,
+      "history": [
+        {
+          "elo": 1524.2,
+          "season": 4
+        },
+        {
+          "elo": 1633.2,
+          "season": 9
+        }
+      ],
+      "peakElo": 1633.2,
+      "peakSeason": 9,
+      "rank": 65
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1502.3,
+    "games": 141,
     "history": [
       {
         "elo": 1513.8,
@@ -2815,17 +3505,21 @@
       {
         "elo": 1535.8,
         "season": 21
+      },
+      {
+        "elo": 1502.3,
+        "season": 22
       }
     ],
     "peakElo": 1686.6,
     "peakSeason": 18,
     "player": "Sharp",
     "race": "T",
-    "rank": 21,
-    "seasons": 19,
+    "rank": 26,
+    "seasons": 20,
     "withQualifiers": {
-      "currentElo": 1955.2,
-      "games": 280,
+      "currentElo": 1905.9,
+      "games": 292,
       "history": [
         {
           "elo": 1513.8,
@@ -2888,425 +3582,33 @@
           "season": 16
         },
         {
-          "elo": 1964.5,
+          "elo": 1964.6,
           "season": 17
         },
         {
-          "elo": 2040.0,
+          "elo": 2040.2,
           "season": 18
         },
         {
-          "elo": 1976.3,
+          "elo": 1976.5,
           "season": 19
         },
         {
-          "elo": 1934.6,
+          "elo": 1934.8,
           "season": 20
         },
         {
-          "elo": 1955.2,
+          "elo": 1955.4,
           "season": 21
+        },
+        {
+          "elo": 1905.9,
+          "season": 22
         }
       ],
-      "peakElo": 2040.0,
+      "peakElo": 2040.2,
       "peakSeason": 18,
-      "rank": 11
-    }
-  },
-  {
-    "championships": 1,
-    "currentElo": 1526.3,
-    "games": 100,
-    "history": [
-      {
-        "elo": 1469.0,
-        "season": 7
-      },
-      {
-        "elo": 1452.2,
-        "season": 8
-      },
-      {
-        "elo": 1422.8,
-        "season": 9
-      },
-      {
-        "elo": 1464.0,
-        "season": 10
-      },
-      {
-        "elo": 1515.9,
-        "season": 11
-      },
-      {
-        "elo": 1496.5,
-        "season": 12
-      },
-      {
-        "elo": 1567.5,
-        "season": 13
-      },
-      {
-        "elo": 1539.1,
-        "season": 14
-      },
-      {
-        "elo": 1694.8,
-        "season": 15
-      },
-      {
-        "elo": 1664.2,
-        "season": 16
-      },
-      {
-        "elo": 1612.3,
-        "season": 17
-      },
-      {
-        "elo": 1610.1,
-        "season": 18
-      },
-      {
-        "elo": 1567.7,
-        "season": 20
-      },
-      {
-        "elo": 1526.3,
-        "season": 21
-      }
-    ],
-    "peakElo": 1694.8,
-    "peakSeason": 15,
-    "player": "JyJ",
-    "race": "T",
-    "rank": 22,
-    "seasons": 14,
-    "withQualifiers": {
-      "currentElo": 1760.6,
-      "games": 246,
-      "history": [
-        {
-          "elo": 1604.1,
-          "season": 7
-        },
-        {
-          "elo": 1656.8,
-          "season": 8
-        },
-        {
-          "elo": 1710.6,
-          "season": 9
-        },
-        {
-          "elo": 1746.6,
-          "season": 10
-        },
-        {
-          "elo": 1795.1,
-          "season": 11
-        },
-        {
-          "elo": 1756.2,
-          "season": 12
-        },
-        {
-          "elo": 1843.0,
-          "season": 13
-        },
-        {
-          "elo": 1783.6,
-          "season": 14
-        },
-        {
-          "elo": 1985.6,
-          "season": 15
-        },
-        {
-          "elo": 1956.5,
-          "season": 16
-        },
-        {
-          "elo": 1891.8,
-          "season": 17
-        },
-        {
-          "elo": 1903.0,
-          "season": 18
-        },
-        {
-          "elo": 1829.6,
-          "season": 19
-        },
-        {
-          "elo": 1799.4,
-          "season": 20
-        },
-        {
-          "elo": 1760.6,
-          "season": 21
-        }
-      ],
-      "peakElo": 1985.6,
-      "peakSeason": 15,
-      "rank": 34
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1515.1,
-    "games": 9,
-    "history": [
-      {
-        "elo": 1515.1,
-        "season": 12
-      }
-    ],
-    "peakElo": 1515.1,
-    "peakSeason": 12,
-    "player": "815",
-    "race": "Z",
-    "rank": 23,
-    "seasons": 1,
-    "withQualifiers": {
-      "currentElo": 1560.4,
-      "games": 160,
-      "history": [
-        {
-          "elo": 1554.4,
-          "season": 6
-        },
-        {
-          "elo": 1616.7,
-          "season": 7
-        },
-        {
-          "elo": 1605.5,
-          "season": 8
-        },
-        {
-          "elo": 1592.7,
-          "season": 9
-        },
-        {
-          "elo": 1555.4,
-          "season": 10
-        },
-        {
-          "elo": 1579.5,
-          "season": 11
-        },
-        {
-          "elo": 1687.2,
-          "season": 12
-        },
-        {
-          "elo": 1667.8,
-          "season": 13
-        },
-        {
-          "elo": 1604.8,
-          "season": 14
-        },
-        {
-          "elo": 1620.7,
-          "season": 15
-        },
-        {
-          "elo": 1680.6,
-          "season": 16
-        },
-        {
-          "elo": 1674.4,
-          "season": 17
-        },
-        {
-          "elo": 1675.4,
-          "season": 18
-        },
-        {
-          "elo": 1684.9,
-          "season": 19
-        },
-        {
-          "elo": 1581.8,
-          "season": 20
-        },
-        {
-          "elo": 1560.4,
-          "season": 21
-        }
-      ],
-      "peakElo": 1687.2,
-      "peakSeason": 12,
-      "rank": 76
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1509.0,
-    "games": 89,
-    "history": [
-      {
-        "elo": 1482.5,
-        "season": 1
-      },
-      {
-        "elo": 1486.7,
-        "season": 2
-      },
-      {
-        "elo": 1505.1,
-        "season": 4
-      },
-      {
-        "elo": 1550.3,
-        "season": 5
-      },
-      {
-        "elo": 1527.6,
-        "season": 6
-      },
-      {
-        "elo": 1554.8,
-        "season": 7
-      },
-      {
-        "elo": 1517.9,
-        "season": 9
-      },
-      {
-        "elo": 1597.2,
-        "season": 15
-      },
-      {
-        "elo": 1581.1,
-        "season": 16
-      },
-      {
-        "elo": 1579.6,
-        "season": 17
-      },
-      {
-        "elo": 1556.0,
-        "season": 18
-      },
-      {
-        "elo": 1524.1,
-        "season": 19
-      },
-      {
-        "elo": 1509.0,
-        "season": 21
-      }
-    ],
-    "peakElo": 1597.2,
-    "peakSeason": 15,
-    "player": "Mind",
-    "race": "T",
-    "rank": 24,
-    "seasons": 13,
-    "withQualifiers": {
-      "currentElo": 1822.4,
-      "games": 215,
-      "history": [
-        {
-          "elo": 1482.5,
-          "season": 1
-        },
-        {
-          "elo": 1486.7,
-          "season": 2
-        },
-        {
-          "elo": 1620.4,
-          "season": 4
-        },
-        {
-          "elo": 1708.6,
-          "season": 5
-        },
-        {
-          "elo": 1722.2,
-          "season": 6
-        },
-        {
-          "elo": 1806.6,
-          "season": 7
-        },
-        {
-          "elo": 1769.2,
-          "season": 9
-        },
-        {
-          "elo": 1735.9,
-          "season": 14
-        },
-        {
-          "elo": 1890.1,
-          "season": 15
-        },
-        {
-          "elo": 1883.6,
-          "season": 16
-        },
-        {
-          "elo": 1932.1,
-          "season": 17
-        },
-        {
-          "elo": 1894.1,
-          "season": 18
-        },
-        {
-          "elo": 1868.4,
-          "season": 19
-        },
-        {
-          "elo": 1779.3,
-          "season": 20
-        },
-        {
-          "elo": 1822.4,
-          "season": 21
-        }
-      ],
-      "peakElo": 1932.1,
-      "peakSeason": 17,
-      "rank": 25
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1506.0,
-    "games": 8,
-    "history": [
-      {
-        "elo": 1506.0,
-        "season": 9
-      }
-    ],
-    "peakElo": 1506.0,
-    "peakSeason": 9,
-    "player": "Sea.KH",
-    "race": "P",
-    "rank": 25,
-    "seasons": 1,
-    "withQualifiers": {
-      "currentElo": 1633.2,
-      "games": 23,
-      "history": [
-        {
-          "elo": 1524.2,
-          "season": 4
-        },
-        {
-          "elo": 1633.2,
-          "season": 9
-        }
-      ],
-      "peakElo": 1633.2,
-      "peakSeason": 9,
-      "rank": 64
+      "rank": 17
     }
   },
   {
@@ -3371,11 +3673,11 @@
     "peakSeason": 14,
     "player": "RoyaL",
     "race": "T",
-    "rank": 26,
+    "rank": 27,
     "seasons": 13,
     "withQualifiers": {
-      "currentElo": 1886.5,
-      "games": 211,
+      "currentElo": 1810.0,
+      "games": 226,
       "history": [
         {
           "elo": 1467.8,
@@ -3422,171 +3724,33 @@
           "season": 16
         },
         {
-          "elo": 1886.1,
+          "elo": 1886.2,
           "season": 17
         },
         {
-          "elo": 1882.1,
+          "elo": 1882.2,
           "season": 18
         },
         {
-          "elo": 1868.9,
+          "elo": 1869.1,
           "season": 19
         },
         {
-          "elo": 1846.9,
+          "elo": 1847.4,
           "season": 20
         },
         {
-          "elo": 1886.5,
+          "elo": 1886.9,
           "season": 21
+        },
+        {
+          "elo": 1810.0,
+          "season": 22
         }
       ],
       "peakElo": 1979.4,
       "peakSeason": 14,
-      "rank": 19
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1496.5,
-    "games": 63,
-    "history": [
-      {
-        "elo": 1487.3,
-        "season": 1
-      },
-      {
-        "elo": 1543.7,
-        "season": 3
-      },
-      {
-        "elo": 1537.7,
-        "season": 4
-      },
-      {
-        "elo": 1502.3,
-        "season": 10
-      },
-      {
-        "elo": 1486.2,
-        "season": 11
-      },
-      {
-        "elo": 1455.1,
-        "season": 12
-      },
-      {
-        "elo": 1447.7,
-        "season": 13
-      },
-      {
-        "elo": 1449.4,
-        "season": 14
-      },
-      {
-        "elo": 1448.2,
-        "season": 15
-      },
-      {
-        "elo": 1445.3,
-        "season": 17
-      },
-      {
-        "elo": 1445.4,
-        "season": 18
-      },
-      {
-        "elo": 1443.3,
-        "season": 19
-      },
-      {
-        "elo": 1440.4,
-        "season": 20
-      },
-      {
-        "elo": 1496.5,
-        "season": 21
-      }
-    ],
-    "peakElo": 1543.7,
-    "peakSeason": 3,
-    "player": "sSak",
-    "race": "T",
-    "rank": 27,
-    "seasons": 14,
-    "withQualifiers": {
-      "currentElo": 1928.7,
-      "games": 219,
-      "history": [
-        {
-          "elo": 1487.3,
-          "season": 1
-        },
-        {
-          "elo": 1543.7,
-          "season": 3
-        },
-        {
-          "elo": 1653.9,
-          "season": 4
-        },
-        {
-          "elo": 1659.2,
-          "season": 9
-        },
-        {
-          "elo": 1696.4,
-          "season": 10
-        },
-        {
-          "elo": 1715.9,
-          "season": 11
-        },
-        {
-          "elo": 1732.2,
-          "season": 12
-        },
-        {
-          "elo": 1715.8,
-          "season": 13
-        },
-        {
-          "elo": 1768.8,
-          "season": 14
-        },
-        {
-          "elo": 1787.1,
-          "season": 15
-        },
-        {
-          "elo": 1733.6,
-          "season": 16
-        },
-        {
-          "elo": 1778.5,
-          "season": 17
-        },
-        {
-          "elo": 1769.7,
-          "season": 18
-        },
-        {
-          "elo": 1843.5,
-          "season": 19
-        },
-        {
-          "elo": 1882.9,
-          "season": 20
-        },
-        {
-          "elo": 1928.7,
-          "season": 21
-        }
-      ],
-      "peakElo": 1928.7,
-      "peakSeason": 21,
-      "rank": 15
+      "rank": 28
     }
   },
   {
@@ -3606,8 +3770,8 @@
     "rank": 28,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1644.4,
-      "games": 89,
+      "currentElo": 1638.9,
+      "games": 96,
       "history": [
         {
           "elo": 1584.0,
@@ -3642,21 +3806,233 @@
           "season": 18
         },
         {
-          "elo": 1689.6,
+          "elo": 1689.8,
           "season": 19
         },
         {
-          "elo": 1686.4,
+          "elo": 1686.6,
           "season": 20
         },
         {
-          "elo": 1644.4,
+          "elo": 1644.6,
           "season": 21
+        },
+        {
+          "elo": 1638.9,
+          "season": 22
         }
       ],
-      "peakElo": 1689.6,
+      "peakElo": 1689.8,
       "peakSeason": 19,
-      "rank": 59
+      "rank": 63
+    }
+  },
+  {
+    "championships": 1,
+    "currentElo": 1491.5,
+    "games": 101,
+    "history": [
+      {
+        "elo": 1624.4,
+        "season": 1
+      },
+      {
+        "elo": 1582.8,
+        "season": 2
+      },
+      {
+        "elo": 1553.1,
+        "season": 3
+      },
+      {
+        "elo": 1560.4,
+        "season": 4
+      },
+      {
+        "elo": 1549.0,
+        "season": 5
+      },
+      {
+        "elo": 1516.0,
+        "season": 6
+      },
+      {
+        "elo": 1499.3,
+        "season": 10
+      },
+      {
+        "elo": 1517.9,
+        "season": 11
+      },
+      {
+        "elo": 1532.1,
+        "season": 13
+      },
+      {
+        "elo": 1502.9,
+        "season": 14
+      },
+      {
+        "elo": 1469.3,
+        "season": 15
+      },
+      {
+        "elo": 1463.9,
+        "season": 16
+      },
+      {
+        "elo": 1495.3,
+        "season": 17
+      },
+      {
+        "elo": 1461.7,
+        "season": 19
+      },
+      {
+        "elo": 1491.5,
+        "season": 22
+      }
+    ],
+    "peakElo": 1624.4,
+    "peakSeason": 1,
+    "player": "Shuttle",
+    "race": "P",
+    "rank": 29,
+    "seasons": 15,
+    "withQualifiers": {
+      "currentElo": 1860.7,
+      "games": 301,
+      "history": [
+        {
+          "elo": 1624.4,
+          "season": 1
+        },
+        {
+          "elo": 1582.8,
+          "season": 2
+        },
+        {
+          "elo": 1553.1,
+          "season": 3
+        },
+        {
+          "elo": 1657.4,
+          "season": 4
+        },
+        {
+          "elo": 1721.5,
+          "season": 5
+        },
+        {
+          "elo": 1708.1,
+          "season": 6
+        },
+        {
+          "elo": 1702.6,
+          "season": 10
+        },
+        {
+          "elo": 1757.9,
+          "season": 11
+        },
+        {
+          "elo": 1696.1,
+          "season": 12
+        },
+        {
+          "elo": 1720.4,
+          "season": 13
+        },
+        {
+          "elo": 1757.1,
+          "season": 14
+        },
+        {
+          "elo": 1735.2,
+          "season": 15
+        },
+        {
+          "elo": 1761.8,
+          "season": 16
+        },
+        {
+          "elo": 1808.5,
+          "season": 17
+        },
+        {
+          "elo": 1776.9,
+          "season": 18
+        },
+        {
+          "elo": 1766.8,
+          "season": 19
+        },
+        {
+          "elo": 1739.9,
+          "season": 20
+        },
+        {
+          "elo": 1692.7,
+          "season": 21
+        },
+        {
+          "elo": 1860.7,
+          "season": 22
+        }
+      ],
+      "peakElo": 1860.7,
+      "peakSeason": 22,
+      "rank": 22
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1490.8,
+    "games": 6,
+    "history": [
+      {
+        "elo": 1490.8,
+        "season": 22
+      }
+    ],
+    "peakElo": 1490.8,
+    "peakSeason": 22,
+    "player": "Shinee",
+    "race": "T",
+    "rank": 30,
+    "seasons": 1,
+    "withQualifiers": {
+      "currentElo": 1745.0,
+      "games": 52,
+      "history": [
+        {
+          "elo": 1481.5,
+          "season": 4
+        },
+        {
+          "elo": 1510.9,
+          "season": 5
+        },
+        {
+          "elo": 1476.8,
+          "season": 7
+        },
+        {
+          "elo": 1528.0,
+          "season": 8
+        },
+        {
+          "elo": 1614.2,
+          "season": 21
+        },
+        {
+          "elo": 1745.0,
+          "season": 22
+        }
+      ],
+      "peakElo": 1745.0,
+      "peakSeason": 22,
+      "rank": 42
     }
   },
   {
@@ -3673,7 +4049,7 @@
     "peakSeason": 9,
     "player": "fOrGG",
     "race": "T",
-    "rank": 29,
+    "rank": 31,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1644.1,
@@ -3702,7 +4078,7 @@
       ],
       "peakElo": 1710.8,
       "peakSeason": 9,
-      "rank": 60
+      "rank": 61
     }
   },
   {
@@ -3719,7 +4095,7 @@
     "peakSeason": 7,
     "player": "Modesty",
     "race": "Z",
-    "rank": 30,
+    "rank": 32,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1545.6,
@@ -3756,7 +4132,7 @@
       ],
       "peakElo": 1672.9,
       "peakSeason": 7,
-      "rank": 78
+      "rank": 80
     }
   },
   {
@@ -3801,11 +4177,11 @@
     "peakSeason": 21,
     "player": "Ample",
     "race": "T",
-    "rank": 31,
+    "rank": 33,
     "seasons": 8,
     "withQualifiers": {
-      "currentElo": 1860.5,
-      "games": 264,
+      "currentElo": 1824.3,
+      "games": 282,
       "history": [
         {
           "elo": 1483.8,
@@ -3876,17 +4252,21 @@
           "season": 19
         },
         {
-          "elo": 1790.9,
+          "elo": 1791.5,
           "season": 20
         },
         {
-          "elo": 1860.5,
+          "elo": 1860.9,
           "season": 21
+        },
+        {
+          "elo": 1824.3,
+          "season": 22
         }
       ],
-      "peakElo": 1860.5,
+      "peakElo": 1860.9,
       "peakSeason": 21,
-      "rank": 22
+      "rank": 24
     }
   },
   {
@@ -3903,7 +4283,7 @@
     "peakSeason": 2,
     "player": "Iris",
     "race": "T",
-    "rank": 32,
+    "rank": 34,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1594.5,
@@ -3940,13 +4320,205 @@
       ],
       "peakElo": 1616.4,
       "peakSeason": 9,
-      "rank": 70
+      "rank": 72
     }
   },
   {
     "championships": 0,
-    "currentElo": 1482.6,
-    "games": 28,
+    "currentElo": 1481.1,
+    "games": 66,
+    "history": [
+      {
+        "elo": 1487.3,
+        "season": 1
+      },
+      {
+        "elo": 1543.7,
+        "season": 3
+      },
+      {
+        "elo": 1537.7,
+        "season": 4
+      },
+      {
+        "elo": 1502.3,
+        "season": 10
+      },
+      {
+        "elo": 1486.2,
+        "season": 11
+      },
+      {
+        "elo": 1455.1,
+        "season": 12
+      },
+      {
+        "elo": 1447.7,
+        "season": 13
+      },
+      {
+        "elo": 1449.4,
+        "season": 14
+      },
+      {
+        "elo": 1448.2,
+        "season": 15
+      },
+      {
+        "elo": 1445.3,
+        "season": 17
+      },
+      {
+        "elo": 1445.4,
+        "season": 18
+      },
+      {
+        "elo": 1443.3,
+        "season": 19
+      },
+      {
+        "elo": 1440.4,
+        "season": 20
+      },
+      {
+        "elo": 1496.5,
+        "season": 21
+      },
+      {
+        "elo": 1481.1,
+        "season": 22
+      }
+    ],
+    "peakElo": 1543.7,
+    "peakSeason": 3,
+    "player": "sSak",
+    "race": "T",
+    "rank": 35,
+    "seasons": 15,
+    "withQualifiers": {
+      "currentElo": 1883.0,
+      "games": 240,
+      "history": [
+        {
+          "elo": 1487.3,
+          "season": 1
+        },
+        {
+          "elo": 1543.7,
+          "season": 3
+        },
+        {
+          "elo": 1653.9,
+          "season": 4
+        },
+        {
+          "elo": 1659.2,
+          "season": 9
+        },
+        {
+          "elo": 1696.4,
+          "season": 10
+        },
+        {
+          "elo": 1715.9,
+          "season": 11
+        },
+        {
+          "elo": 1732.2,
+          "season": 12
+        },
+        {
+          "elo": 1715.8,
+          "season": 13
+        },
+        {
+          "elo": 1768.8,
+          "season": 14
+        },
+        {
+          "elo": 1787.1,
+          "season": 15
+        },
+        {
+          "elo": 1733.6,
+          "season": 16
+        },
+        {
+          "elo": 1778.5,
+          "season": 17
+        },
+        {
+          "elo": 1769.7,
+          "season": 18
+        },
+        {
+          "elo": 1843.6,
+          "season": 19
+        },
+        {
+          "elo": 1883.2,
+          "season": 20
+        },
+        {
+          "elo": 1928.9,
+          "season": 21
+        },
+        {
+          "elo": 1883.0,
+          "season": 22
+        }
+      ],
+      "peakElo": 1928.9,
+      "peakSeason": 21,
+      "rank": 19
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1479.3,
+    "games": 6,
+    "history": [
+      {
+        "elo": 1488.3,
+        "season": 17
+      },
+      {
+        "elo": 1479.3,
+        "season": 20
+      }
+    ],
+    "peakElo": 1488.3,
+    "peakSeason": 17,
+    "player": "TY",
+    "race": "T",
+    "rank": 36,
+    "seasons": 2,
+    "withQualifiers": {
+      "currentElo": 1640.6,
+      "games": 27,
+      "history": [
+        {
+          "elo": 1520.0,
+          "season": 17
+        },
+        {
+          "elo": 1630.1,
+          "season": 19
+        },
+        {
+          "elo": 1640.6,
+          "season": 20
+        }
+      ],
+      "peakElo": 1640.6,
+      "peakSeason": 20,
+      "rank": 62
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1478.5,
+    "games": 31,
     "history": [
       {
         "elo": 1472.1,
@@ -3971,17 +4543,21 @@
       {
         "elo": 1482.6,
         "season": 21
+      },
+      {
+        "elo": 1478.5,
+        "season": 22
       }
     ],
     "peakElo": 1490.1,
     "peakSeason": 19,
     "player": "Speed",
     "race": "T",
-    "rank": 33,
-    "seasons": 6,
+    "rank": 37,
+    "seasons": 7,
     "withQualifiers": {
-      "currentElo": 1876.0,
-      "games": 134,
+      "currentElo": 1895.1,
+      "games": 154,
       "history": [
         {
           "elo": 1592.4,
@@ -4012,67 +4588,29 @@
           "season": 17
         },
         {
-          "elo": 1804.1,
+          "elo": 1804.2,
           "season": 18
         },
         {
-          "elo": 1840.1,
+          "elo": 1840.2,
           "season": 19
         },
         {
-          "elo": 1851.6,
+          "elo": 1851.7,
           "season": 20
         },
         {
-          "elo": 1876.0,
+          "elo": 1876.3,
           "season": 21
-        }
-      ],
-      "peakElo": 1876.0,
-      "peakSeason": 21,
-      "rank": 21
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1479.3,
-    "games": 6,
-    "history": [
-      {
-        "elo": 1488.3,
-        "season": 17
-      },
-      {
-        "elo": 1479.3,
-        "season": 20
-      }
-    ],
-    "peakElo": 1488.3,
-    "peakSeason": 17,
-    "player": "TY",
-    "race": "T",
-    "rank": 34,
-    "seasons": 2,
-    "withQualifiers": {
-      "currentElo": 1640.1,
-      "games": 27,
-      "history": [
-        {
-          "elo": 1520.0,
-          "season": 17
         },
         {
-          "elo": 1629.6,
-          "season": 19
-        },
-        {
-          "elo": 1640.1,
-          "season": 20
+          "elo": 1895.1,
+          "season": 22
         }
       ],
-      "peakElo": 1640.1,
-      "peakSeason": 20,
-      "rank": 61
+      "peakElo": 1895.1,
+      "peakSeason": 22,
+      "rank": 18
     }
   },
   {
@@ -4089,11 +4627,11 @@
     "peakSeason": 7,
     "player": "NaDa",
     "race": "T",
-    "rank": 35,
+    "rank": 38,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1591.4,
-      "games": 43,
+      "currentElo": 1556.3,
+      "games": 51,
       "history": [
         {
           "elo": 1542.4,
@@ -4110,11 +4648,15 @@
         {
           "elo": 1591.4,
           "season": 20
+        },
+        {
+          "elo": 1556.3,
+          "season": 22
         }
       ],
       "peakElo": 1621.4,
       "peakSeason": 7,
-      "rank": 71
+      "rank": 79
     }
   },
   {
@@ -4131,32 +4673,40 @@
     "peakSeason": 16,
     "player": "ivOry",
     "race": "T",
-    "rank": 36,
+    "rank": 39,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1583.9,
-      "games": 21,
+      "currentElo": 1689.3,
+      "games": 58,
       "history": [
         {
           "elo": 1622.8,
           "season": 16
         },
         {
-          "elo": 1614.6,
+          "elo": 1671.1,
+          "season": 17
+        },
+        {
+          "elo": 1639.7,
           "season": 19
         },
         {
-          "elo": 1587.3,
+          "elo": 1629.0,
           "season": 20
         },
         {
-          "elo": 1583.9,
+          "elo": 1624.8,
           "season": 21
+        },
+        {
+          "elo": 1689.3,
+          "season": 22
         }
       ],
-      "peakElo": 1622.8,
-      "peakSeason": 16,
-      "rank": 72
+      "peakElo": 1689.3,
+      "peakSeason": 22,
+      "rank": 51
     }
   },
   {
@@ -4173,7 +4723,7 @@
     "peakSeason": 14,
     "player": "DDasik",
     "race": "Z",
-    "rank": 37,
+    "rank": 40,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1571.8,
@@ -4198,7 +4748,7 @@
       ],
       "peakElo": 1628.0,
       "peakSeason": 17,
-      "rank": 74
+      "rank": 76
     }
   },
   {
@@ -4243,10 +4793,10 @@
     "peakSeason": 2,
     "player": "Sea",
     "race": "T",
-    "rank": 38,
+    "rank": 41,
     "seasons": 8,
     "withQualifiers": {
-      "currentElo": 1794.0,
+      "currentElo": 1794.1,
       "games": 144,
       "history": [
         {
@@ -4298,13 +4848,13 @@
           "season": 17
         },
         {
-          "elo": 1794.0,
+          "elo": 1794.1,
           "season": 18
         }
       ],
-      "peakElo": 1794.0,
+      "peakElo": 1794.1,
       "peakSeason": 18,
-      "rank": 27
+      "rank": 30
     }
   },
   {
@@ -4321,11 +4871,11 @@
     "peakSeason": 18,
     "player": "Motive",
     "race": "P",
-    "rank": 39,
+    "rank": 42,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1622.5,
-      "games": 140,
+      "currentElo": 1653.0,
+      "games": 150,
       "history": [
         {
           "elo": 1467.2,
@@ -4364,25 +4914,95 @@
           "season": 17
         },
         {
-          "elo": 1748.1,
+          "elo": 1748.2,
           "season": 18
         },
         {
-          "elo": 1695.7,
+          "elo": 1695.8,
           "season": 19
         },
         {
-          "elo": 1666.5,
+          "elo": 1666.8,
           "season": 20
         },
         {
-          "elo": 1622.5,
+          "elo": 1622.8,
           "season": 21
+        },
+        {
+          "elo": 1653.0,
+          "season": 22
         }
       ],
-      "peakElo": 1748.1,
+      "peakElo": 1748.2,
       "peakSeason": 18,
-      "rank": 67
+      "rank": 57
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1474.9,
+    "games": 2,
+    "history": [
+      {
+        "elo": 1474.9,
+        "season": 22
+      }
+    ],
+    "peakElo": 1474.9,
+    "peakSeason": 22,
+    "player": "Hm",
+    "race": "Z",
+    "rank": 43,
+    "seasons": 1,
+    "withQualifiers": {
+      "currentElo": 1765.9,
+      "games": 122,
+      "history": [
+        {
+          "elo": 1534.0,
+          "season": 13
+        },
+        {
+          "elo": 1646.2,
+          "season": 14
+        },
+        {
+          "elo": 1667.7,
+          "season": 15
+        },
+        {
+          "elo": 1712.5,
+          "season": 16
+        },
+        {
+          "elo": 1694.0,
+          "season": 17
+        },
+        {
+          "elo": 1633.1,
+          "season": 18
+        },
+        {
+          "elo": 1661.2,
+          "season": 19
+        },
+        {
+          "elo": 1674.4,
+          "season": 20
+        },
+        {
+          "elo": 1659.6,
+          "season": 21
+        },
+        {
+          "elo": 1765.9,
+          "season": 22
+        }
+      ],
+      "peakElo": 1765.9,
+      "peakSeason": 22,
+      "rank": 36
     }
   },
   {
@@ -4399,7 +5019,7 @@
     "peakSeason": 18,
     "player": "1127",
     "race": "T",
-    "rank": 40,
+    "rank": 44,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1624.0,
@@ -4412,7 +5032,7 @@
       ],
       "peakElo": 1624.0,
       "peakSeason": 18,
-      "rank": 66
+      "rank": 67
     }
   },
   {
@@ -4429,11 +5049,11 @@
     "peakSeason": 3,
     "player": "PURPOSE",
     "race": "Z",
-    "rank": 41,
+    "rank": 45,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1469.9,
-      "games": 27,
+      "currentElo": 1540.9,
+      "games": 42,
       "history": [
         {
           "elo": 1470.7,
@@ -4462,11 +5082,15 @@
         {
           "elo": 1469.9,
           "season": 17
+        },
+        {
+          "elo": 1540.9,
+          "season": 22
         }
       ],
-      "peakElo": 1470.7,
-      "peakSeason": 3,
-      "rank": 84
+      "peakElo": 1540.9,
+      "peakSeason": 22,
+      "rank": 81
     }
   },
   {
@@ -4491,7 +5115,7 @@
     "peakSeason": 1,
     "player": "Jaehoon",
     "race": "P",
-    "rank": 42,
+    "rank": 46,
     "seasons": 3,
     "withQualifiers": {
       "currentElo": 1644.4,
@@ -4528,7 +5152,7 @@
       ],
       "peakElo": 1691.0,
       "peakSeason": 8,
-      "rank": 58
+      "rank": 60
     }
   },
   {
@@ -4545,7 +5169,7 @@
     "peakSeason": 17,
     "player": "TaeNgGu",
     "race": "T",
-    "rank": 43,
+    "rank": 47,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1579.0,
@@ -4562,61 +5186,7 @@
       ],
       "peakElo": 1579.0,
       "peakSeason": 17,
-      "rank": 73
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1469.8,
-    "games": 2,
-    "history": [
-      {
-        "elo": 1469.8,
-        "season": 20
-      }
-    ],
-    "peakElo": 1469.8,
-    "peakSeason": 20,
-    "player": "Paralyze",
-    "race": "P",
-    "rank": 44,
-    "seasons": 1,
-    "withQualifiers": {
-      "currentElo": 1739.9,
-      "games": 80,
-      "history": [
-        {
-          "elo": 1545.5,
-          "season": 14
-        },
-        {
-          "elo": 1601.7,
-          "season": 15
-        },
-        {
-          "elo": 1648.5,
-          "season": 16
-        },
-        {
-          "elo": 1687.3,
-          "season": 17
-        },
-        {
-          "elo": 1668.3,
-          "season": 19
-        },
-        {
-          "elo": 1736.3,
-          "season": 20
-        },
-        {
-          "elo": 1739.9,
-          "season": 21
-        }
-      ],
-      "peakElo": 1739.9,
-      "peakSeason": 21,
-      "rank": 38
+      "rank": 74
     }
   },
   {
@@ -4633,11 +5203,11 @@
     "peakSeason": 20,
     "player": "Saber",
     "race": "Z",
-    "rank": 45,
+    "rank": 48,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1686.9,
-      "games": 54,
+      "currentElo": 1629.9,
+      "games": 65,
       "history": [
         {
           "elo": 1496.5,
@@ -4652,21 +5222,25 @@
           "season": 18
         },
         {
-          "elo": 1555.7,
+          "elo": 1555.8,
           "season": 19
         },
         {
-          "elo": 1671.5,
+          "elo": 1671.6,
           "season": 20
         },
         {
-          "elo": 1686.9,
+          "elo": 1687.0,
           "season": 21
+        },
+        {
+          "elo": 1629.9,
+          "season": 22
         }
       ],
-      "peakElo": 1686.9,
+      "peakElo": 1687.0,
       "peakSeason": 21,
-      "rank": 48
+      "rank": 66
     }
   },
   {
@@ -4683,7 +5257,7 @@
     "peakSeason": 7,
     "player": "Tinkle",
     "race": "T",
-    "rank": 46,
+    "rank": 49,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1614.2,
@@ -4716,7 +5290,7 @@
       ],
       "peakElo": 1631.9,
       "peakSeason": 9,
-      "rank": 68
+      "rank": 70
     }
   },
   {
@@ -4733,11 +5307,11 @@
     "peakSeason": 19,
     "player": "Skey",
     "race": "T",
-    "rank": 47,
+    "rank": 50,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1664.1,
-      "games": 61,
+      "currentElo": 1757.0,
+      "games": 78,
       "history": [
         {
           "elo": 1529.6,
@@ -4752,21 +5326,25 @@
           "season": 18
         },
         {
-          "elo": 1659.8,
+          "elo": 1659.9,
           "season": 19
         },
         {
-          "elo": 1651.3,
+          "elo": 1652.1,
           "season": 20
         },
         {
-          "elo": 1664.1,
+          "elo": 1664.8,
           "season": 21
+        },
+        {
+          "elo": 1757.0,
+          "season": 22
         }
       ],
-      "peakElo": 1664.1,
-      "peakSeason": 21,
-      "rank": 52
+      "peakElo": 1757.0,
+      "peakSeason": 22,
+      "rank": 38
     }
   },
   {
@@ -4783,7 +5361,7 @@
     "peakSeason": 2,
     "player": "force(Name)",
     "race": "Z",
-    "rank": 48,
+    "rank": 51,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1505.4,
@@ -4808,7 +5386,7 @@
       ],
       "peakElo": 1525.9,
       "peakSeason": 6,
-      "rank": 83
+      "rank": 86
     }
   },
   {
@@ -4841,11 +5419,11 @@
     "peakSeason": 3,
     "player": "HyuN",
     "race": "Z",
-    "rank": 49,
+    "rank": 52,
     "seasons": 5,
     "withQualifiers": {
-      "currentElo": 1793.4,
-      "games": 115,
+      "currentElo": 1774.9,
+      "games": 126,
       "history": [
         {
           "elo": 1503.3,
@@ -4880,25 +5458,29 @@
           "season": 16
         },
         {
-          "elo": 1686.4,
+          "elo": 1695.3,
           "season": 17
         },
         {
-          "elo": 1694.1,
+          "elo": 1701.2,
           "season": 18
         },
         {
-          "elo": 1707.3,
+          "elo": 1711.6,
           "season": 19
         },
         {
-          "elo": 1793.4,
+          "elo": 1795.7,
           "season": 20
+        },
+        {
+          "elo": 1774.9,
+          "season": 22
         }
       ],
-      "peakElo": 1793.4,
+      "peakElo": 1795.7,
       "peakSeason": 20,
-      "rank": 28
+      "rank": 35
     }
   },
   {
@@ -4915,11 +5497,11 @@
     "peakSeason": 2,
     "player": "Khala",
     "race": "P",
-    "rank": 50,
+    "rank": 53,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1531.4,
-      "games": 26,
+      "currentElo": 1536.9,
+      "games": 29,
       "history": [
         {
           "elo": 1467.2,
@@ -4936,11 +5518,15 @@
         {
           "elo": 1531.4,
           "season": 16
+        },
+        {
+          "elo": 1536.9,
+          "season": 22
         }
       ],
-      "peakElo": 1531.4,
-      "peakSeason": 16,
-      "rank": 81
+      "peakElo": 1536.9,
+      "peakSeason": 22,
+      "rank": 84
     }
   },
   {
@@ -4957,7 +5543,7 @@
     "peakSeason": 2,
     "player": "Terror",
     "race": "Z",
-    "rank": 51,
+    "rank": 54,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1540.1,
@@ -4980,7 +5566,7 @@
           "season": 18
         },
         {
-          "elo": 1528.1,
+          "elo": 1528.2,
           "season": 19
         },
         {
@@ -4990,7 +5576,7 @@
       ],
       "peakElo": 1540.8,
       "peakSeason": 18,
-      "rank": 79
+      "rank": 82
     }
   },
   {
@@ -5007,7 +5593,7 @@
     "peakSeason": 2,
     "player": "Hint",
     "race": "P",
-    "rank": 52,
+    "rank": 55,
     "seasons": 1,
     "withQualifiers": {
       "currentElo": 1537.8,
@@ -5028,7 +5614,7 @@
       ],
       "peakElo": 1537.8,
       "peakSeason": 7,
-      "rank": 80
+      "rank": 83
     }
   },
   {
@@ -5045,11 +5631,11 @@
     "peakSeason": 6,
     "player": "Yerim2",
     "race": "Z",
-    "rank": 53,
+    "rank": 56,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1596.1,
-      "games": 67,
+      "currentElo": 1578.1,
+      "games": 73,
       "history": [
         {
           "elo": 1565.8,
@@ -5076,21 +5662,25 @@
           "season": 15
         },
         {
-          "elo": 1617.8,
+          "elo": 1617.9,
           "season": 19
         },
         {
-          "elo": 1622.5,
+          "elo": 1623.3,
           "season": 20
         },
         {
-          "elo": 1596.1,
+          "elo": 1596.7,
           "season": 21
+        },
+        {
+          "elo": 1578.1,
+          "season": 22
         }
       ],
-      "peakElo": 1622.5,
+      "peakElo": 1623.3,
       "peakSeason": 20,
-      "rank": 69
+      "rank": 75
     }
   },
   {
@@ -5107,11 +5697,11 @@
     "peakSeason": 11,
     "player": "hani",
     "race": "T",
-    "rank": 54,
+    "rank": 57,
     "seasons": 1,
     "withQualifiers": {
-      "currentElo": 1627.2,
-      "games": 70,
+      "currentElo": 1594.1,
+      "games": 80,
       "history": [
         {
           "elo": 1485.4,
@@ -5142,21 +5732,25 @@
           "season": 18
         },
         {
-          "elo": 1593.1,
+          "elo": 1593.2,
           "season": 19
         },
         {
-          "elo": 1645.6,
+          "elo": 1645.7,
           "season": 20
         },
         {
-          "elo": 1627.2,
+          "elo": 1627.4,
           "season": 21
+        },
+        {
+          "elo": 1594.1,
+          "season": 22
         }
       ],
-      "peakElo": 1645.6,
+      "peakElo": 1645.7,
       "peakSeason": 20,
-      "rank": 65
+      "rank": 73
     }
   },
   {
@@ -5177,11 +5771,11 @@
     "peakSeason": 13,
     "player": "BishOp",
     "race": "T",
-    "rank": 55,
+    "rank": 58,
     "seasons": 2,
     "withQualifiers": {
-      "currentElo": 1695.6,
-      "games": 165,
+      "currentElo": 1716.0,
+      "games": 180,
       "history": [
         {
           "elo": 1513.5,
@@ -5224,179 +5818,33 @@
           "season": 16
         },
         {
-          "elo": 1680.5,
+          "elo": 1690.1,
           "season": 17
         },
         {
-          "elo": 1615.1,
+          "elo": 1623.2,
           "season": 18
         },
         {
-          "elo": 1619.4,
+          "elo": 1625.0,
           "season": 19
         },
         {
-          "elo": 1641.8,
+          "elo": 1645.3,
           "season": 20
         },
         {
-          "elo": 1695.6,
+          "elo": 1697.6,
           "season": 21
+        },
+        {
+          "elo": 1716.0,
+          "season": 22
         }
       ],
       "peakElo": 1731.3,
       "peakSeason": 16,
-      "rank": 45
-    }
-  },
-  {
-    "championships": 1,
-    "currentElo": 1461.7,
-    "games": 95,
-    "history": [
-      {
-        "elo": 1624.4,
-        "season": 1
-      },
-      {
-        "elo": 1582.8,
-        "season": 2
-      },
-      {
-        "elo": 1553.1,
-        "season": 3
-      },
-      {
-        "elo": 1560.4,
-        "season": 4
-      },
-      {
-        "elo": 1549.0,
-        "season": 5
-      },
-      {
-        "elo": 1516.0,
-        "season": 6
-      },
-      {
-        "elo": 1499.3,
-        "season": 10
-      },
-      {
-        "elo": 1517.9,
-        "season": 11
-      },
-      {
-        "elo": 1532.1,
-        "season": 13
-      },
-      {
-        "elo": 1502.9,
-        "season": 14
-      },
-      {
-        "elo": 1469.3,
-        "season": 15
-      },
-      {
-        "elo": 1463.9,
-        "season": 16
-      },
-      {
-        "elo": 1495.3,
-        "season": 17
-      },
-      {
-        "elo": 1461.7,
-        "season": 19
-      }
-    ],
-    "peakElo": 1624.4,
-    "peakSeason": 1,
-    "player": "Shuttle",
-    "race": "P",
-    "rank": 56,
-    "seasons": 14,
-    "withQualifiers": {
-      "currentElo": 1692.5,
-      "games": 270,
-      "history": [
-        {
-          "elo": 1624.4,
-          "season": 1
-        },
-        {
-          "elo": 1582.8,
-          "season": 2
-        },
-        {
-          "elo": 1553.1,
-          "season": 3
-        },
-        {
-          "elo": 1657.4,
-          "season": 4
-        },
-        {
-          "elo": 1721.5,
-          "season": 5
-        },
-        {
-          "elo": 1708.1,
-          "season": 6
-        },
-        {
-          "elo": 1702.6,
-          "season": 10
-        },
-        {
-          "elo": 1757.9,
-          "season": 11
-        },
-        {
-          "elo": 1696.1,
-          "season": 12
-        },
-        {
-          "elo": 1720.4,
-          "season": 13
-        },
-        {
-          "elo": 1757.1,
-          "season": 14
-        },
-        {
-          "elo": 1735.2,
-          "season": 15
-        },
-        {
-          "elo": 1761.8,
-          "season": 16
-        },
-        {
-          "elo": 1808.4,
-          "season": 17
-        },
-        {
-          "elo": 1776.9,
-          "season": 18
-        },
-        {
-          "elo": 1766.6,
-          "season": 19
-        },
-        {
-          "elo": 1739.8,
-          "season": 20
-        },
-        {
-          "elo": 1692.5,
-          "season": 21
-        }
-      ],
-      "peakElo": 1808.4,
-      "peakSeason": 17,
-      "rank": 46
+      "rank": 47
     }
   },
   {
@@ -5417,7 +5865,7 @@
     "peakSeason": 4,
     "player": "Sky",
     "race": "P",
-    "rank": 57,
+    "rank": 59,
     "seasons": 2,
     "withQualifiers": {
       "currentElo": 1662.2,
@@ -5434,7 +5882,7 @@
       ],
       "peakElo": 1662.2,
       "peakSeason": 5,
-      "rank": 53
+      "rank": 55
     }
   },
   {
@@ -5455,11 +5903,11 @@
     "peakSeason": 8,
     "player": "Hyuk",
     "race": "Z",
-    "rank": 58,
+    "rank": 60,
     "seasons": 2,
     "withQualifiers": {
-      "currentElo": 1634.0,
-      "games": 183,
+      "currentElo": 1638.6,
+      "games": 185,
       "history": [
         {
           "elo": 1563.8,
@@ -5518,17 +5966,21 @@
           "season": 17
         },
         {
-          "elo": 1649.8,
+          "elo": 1650.6,
           "season": 19
         },
         {
-          "elo": 1634.0,
+          "elo": 1634.7,
           "season": 20
+        },
+        {
+          "elo": 1638.6,
+          "season": 22
         }
       ],
       "peakElo": 1724.2,
       "peakSeason": 8,
-      "rank": 63
+      "rank": 64
     }
   },
   {
@@ -5549,11 +6001,11 @@
     "peakSeason": 3,
     "player": "Pusan",
     "race": "P",
-    "rank": 59,
+    "rank": 61,
     "seasons": 2,
     "withQualifiers": {
-      "currentElo": 1553.9,
-      "games": 97,
+      "currentElo": 1609.6,
+      "games": 106,
       "history": [
         {
           "elo": 1484.9,
@@ -5600,7 +6052,7 @@
           "season": 17
         },
         {
-          "elo": 1580.3,
+          "elo": 1580.4,
           "season": 19
         },
         {
@@ -5610,11 +6062,15 @@
         {
           "elo": 1553.9,
           "season": 21
+        },
+        {
+          "elo": 1609.6,
+          "season": 22
         }
       ],
-      "peakElo": 1584.3,
-      "peakSeason": 20,
-      "rank": 77
+      "peakElo": 1609.6,
+      "peakSeason": 22,
+      "rank": 71
     }
   },
   {
@@ -5687,11 +6143,11 @@
     "peakSeason": 9,
     "player": "Stork",
     "race": "P",
-    "rank": 60,
+    "rank": 62,
     "seasons": 15,
     "withQualifiers": {
-      "currentElo": 1791.1,
-      "games": 239,
+      "currentElo": 1734.5,
+      "games": 249,
       "history": [
         {
           "elo": 1513.9,
@@ -5762,17 +6218,21 @@
           "season": 19
         },
         {
-          "elo": 1823.3,
+          "elo": 1823.7,
           "season": 20
         },
         {
-          "elo": 1791.1,
+          "elo": 1791.4,
           "season": 21
+        },
+        {
+          "elo": 1734.5,
+          "season": 22
         }
       ],
       "peakElo": 1852.8,
       "peakSeason": 18,
-      "rank": 29
+      "rank": 43
     }
   },
   {
@@ -5805,11 +6265,11 @@
     "peakSeason": 9,
     "player": "tulbo",
     "race": "P",
-    "rank": 61,
+    "rank": 63,
     "seasons": 5,
     "withQualifiers": {
-      "currentElo": 1880.7,
-      "games": 223,
+      "currentElo": 1856.4,
+      "games": 228,
       "history": [
         {
           "elo": 1513.3,
@@ -5860,25 +6320,29 @@
           "season": 17
         },
         {
-          "elo": 1679.0,
+          "elo": 1679.2,
           "season": 18
         },
         {
-          "elo": 1736.7,
+          "elo": 1736.9,
           "season": 19
         },
         {
-          "elo": 1771.8,
+          "elo": 1771.9,
           "season": 20
         },
         {
-          "elo": 1880.7,
+          "elo": 1881.0,
           "season": 21
+        },
+        {
+          "elo": 1856.4,
+          "season": 22
         }
       ],
-      "peakElo": 1880.7,
+      "peakElo": 1881.0,
       "peakSeason": 21,
-      "rank": 20
+      "rank": 23
     }
   },
   {
@@ -5903,7 +6367,7 @@
     "peakSeason": 9,
     "player": "ss1nz",
     "race": "P",
-    "rank": 62,
+    "rank": 64,
     "seasons": 3,
     "withQualifiers": {
       "currentElo": 1675.2,
@@ -5932,7 +6396,7 @@
       ],
       "peakElo": 1698.1,
       "peakSeason": 12,
-      "rank": 50
+      "rank": 53
     }
   },
   {
@@ -5977,11 +6441,11 @@
     "peakSeason": 8,
     "player": "Sacsri",
     "race": "Z",
-    "rank": 63,
+    "rank": 65,
     "seasons": 8,
     "withQualifiers": {
-      "currentElo": 1733.6,
-      "games": 212,
+      "currentElo": 1725.4,
+      "games": 229,
       "history": [
         {
           "elo": 1582.8,
@@ -6040,21 +6504,87 @@
           "season": 18
         },
         {
-          "elo": 1766.8,
+          "elo": 1767.3,
           "season": 19
         },
         {
-          "elo": 1709.1,
+          "elo": 1709.8,
           "season": 20
         },
         {
-          "elo": 1733.6,
+          "elo": 1734.0,
           "season": 21
+        },
+        {
+          "elo": 1725.4,
+          "season": 22
         }
       ],
       "peakElo": 1811.2,
       "peakSeason": 14,
-      "rank": 41
+      "rank": 45
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1443.9,
+    "games": 4,
+    "history": [
+      {
+        "elo": 1469.8,
+        "season": 20
+      },
+      {
+        "elo": 1443.9,
+        "season": 22
+      }
+    ],
+    "peakElo": 1469.8,
+    "peakSeason": 20,
+    "player": "Paralyze",
+    "race": "P",
+    "rank": 66,
+    "seasons": 2,
+    "withQualifiers": {
+      "currentElo": 1790.1,
+      "games": 102,
+      "history": [
+        {
+          "elo": 1545.5,
+          "season": 14
+        },
+        {
+          "elo": 1601.7,
+          "season": 15
+        },
+        {
+          "elo": 1648.5,
+          "season": 16
+        },
+        {
+          "elo": 1687.3,
+          "season": 17
+        },
+        {
+          "elo": 1668.4,
+          "season": 19
+        },
+        {
+          "elo": 1736.1,
+          "season": 20
+        },
+        {
+          "elo": 1739.7,
+          "season": 21
+        },
+        {
+          "elo": 1790.1,
+          "season": 22
+        }
+      ],
+      "peakElo": 1790.1,
+      "peakSeason": 22,
+      "rank": 33
     }
   },
   {
@@ -6083,11 +6613,11 @@
     "peakSeason": 11,
     "player": "Scan",
     "race": "T",
-    "rank": 64,
+    "rank": 67,
     "seasons": 4,
     "withQualifiers": {
-      "currentElo": 1774.3,
-      "games": 160,
+      "currentElo": 1727.6,
+      "games": 178,
       "history": [
         {
           "elo": 1561.8,
@@ -6130,25 +6660,29 @@
           "season": 17
         },
         {
-          "elo": 1726.0,
+          "elo": 1726.7,
           "season": 18
         },
         {
-          "elo": 1739.9,
+          "elo": 1740.3,
           "season": 19
         },
         {
-          "elo": 1727.6,
+          "elo": 1727.9,
           "season": 20
         },
         {
-          "elo": 1774.3,
+          "elo": 1774.5,
           "season": 21
+        },
+        {
+          "elo": 1727.6,
+          "season": 22
         }
       ],
-      "peakElo": 1774.3,
+      "peakElo": 1774.5,
       "peakSeason": 21,
-      "rank": 33
+      "rank": 44
     }
   },
   {
@@ -6173,11 +6707,11 @@
     "peakSeason": 8,
     "player": "nOOB",
     "race": "P",
-    "rank": 65,
+    "rank": 68,
     "seasons": 3,
     "withQualifiers": {
-      "currentElo": 1673.2,
-      "games": 103,
+      "currentElo": 1689.5,
+      "games": 115,
       "history": [
         {
           "elo": 1514.9,
@@ -6216,23 +6750,915 @@
           "season": 19
         },
         {
-          "elo": 1667.7,
+          "elo": 1667.8,
           "season": 20
         },
         {
-          "elo": 1673.2,
+          "elo": 1673.7,
           "season": 21
+        },
+        {
+          "elo": 1689.5,
+          "season": 22
         }
       ],
-      "peakElo": 1673.2,
-      "peakSeason": 21,
-      "rank": 51
+      "peakElo": 1689.5,
+      "peakSeason": 22,
+      "rank": 50
     }
   },
   {
     "championships": 0,
-    "currentElo": 1438.9,
+    "currentElo": 1438.7,
+    "games": 4,
+    "history": [
+      {
+        "elo": 1468.7,
+        "season": 3
+      },
+      {
+        "elo": 1438.7,
+        "season": 4
+      }
+    ],
+    "peakElo": 1468.7,
+    "peakSeason": 3,
+    "player": "Lazy",
+    "race": "P",
+    "rank": 69,
+    "seasons": 2,
+    "withQualifiers": {
+      "currentElo": 1517.2,
+      "games": 30,
+      "history": [
+        {
+          "elo": 1468.7,
+          "season": 3
+        },
+        {
+          "elo": 1498.5,
+          "season": 4
+        },
+        {
+          "elo": 1517.2,
+          "season": 5
+        }
+      ],
+      "peakElo": 1517.2,
+      "peakSeason": 5,
+      "rank": 85
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1437.0,
+    "games": 22,
+    "history": [
+      {
+        "elo": 1498.9,
+        "season": 3
+      },
+      {
+        "elo": 1481.8,
+        "season": 7
+      },
+      {
+        "elo": 1448.3,
+        "season": 11
+      },
+      {
+        "elo": 1441.6,
+        "season": 13
+      },
+      {
+        "elo": 1418.8,
+        "season": 14
+      },
+      {
+        "elo": 1437.0,
+        "season": 22
+      }
+    ],
+    "peakElo": 1498.9,
+    "peakSeason": 3,
+    "player": "ggaemo",
+    "race": "Z",
+    "rank": 70,
+    "seasons": 6,
+    "withQualifiers": {
+      "currentElo": 1814.9,
+      "games": 207,
+      "history": [
+        {
+          "elo": 1498.9,
+          "season": 3
+        },
+        {
+          "elo": 1553.5,
+          "season": 4
+        },
+        {
+          "elo": 1559.1,
+          "season": 5
+        },
+        {
+          "elo": 1665.9,
+          "season": 7
+        },
+        {
+          "elo": 1645.3,
+          "season": 8
+        },
+        {
+          "elo": 1607.2,
+          "season": 9
+        },
+        {
+          "elo": 1673.2,
+          "season": 11
+        },
+        {
+          "elo": 1626.6,
+          "season": 12
+        },
+        {
+          "elo": 1642.5,
+          "season": 13
+        },
+        {
+          "elo": 1720.8,
+          "season": 14
+        },
+        {
+          "elo": 1712.2,
+          "season": 15
+        },
+        {
+          "elo": 1681.9,
+          "season": 16
+        },
+        {
+          "elo": 1706.0,
+          "season": 17
+        },
+        {
+          "elo": 1670.5,
+          "season": 18
+        },
+        {
+          "elo": 1681.4,
+          "season": 19
+        },
+        {
+          "elo": 1704.8,
+          "season": 20
+        },
+        {
+          "elo": 1737.5,
+          "season": 21
+        },
+        {
+          "elo": 1814.9,
+          "season": 22
+        }
+      ],
+      "peakElo": 1814.9,
+      "peakSeason": 22,
+      "rank": 26
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1436.9,
+    "games": 4,
+    "history": [
+      {
+        "elo": 1468.0,
+        "season": 6
+      },
+      {
+        "elo": 1436.9,
+        "season": 7
+      }
+    ],
+    "peakElo": 1468.0,
+    "peakSeason": 6,
+    "player": "ByuL",
+    "race": "T",
+    "rank": 71,
+    "seasons": 2,
+    "withQualifiers": {
+      "currentElo": 1614.4,
+      "games": 96,
+      "history": [
+        {
+          "elo": 1529.8,
+          "season": 6
+        },
+        {
+          "elo": 1599.8,
+          "season": 7
+        },
+        {
+          "elo": 1685.6,
+          "season": 8
+        },
+        {
+          "elo": 1662.1,
+          "season": 14
+        },
+        {
+          "elo": 1628.6,
+          "season": 15
+        },
+        {
+          "elo": 1583.8,
+          "season": 18
+        },
+        {
+          "elo": 1623.3,
+          "season": 19
+        },
+        {
+          "elo": 1605.3,
+          "season": 20
+        },
+        {
+          "elo": 1634.7,
+          "season": 21
+        },
+        {
+          "elo": 1614.4,
+          "season": 22
+        }
+      ],
+      "peakElo": 1685.6,
+      "peakSeason": 8,
+      "rank": 69
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1436.4,
     "games": 31,
+    "history": [
+      {
+        "elo": 1482.5,
+        "season": 1
+      },
+      {
+        "elo": 1468.8,
+        "season": 2
+      },
+      {
+        "elo": 1439.6,
+        "season": 3
+      },
+      {
+        "elo": 1490.7,
+        "season": 10
+      },
+      {
+        "elo": 1507.6,
+        "season": 12
+      },
+      {
+        "elo": 1474.8,
+        "season": 14
+      },
+      {
+        "elo": 1456.7,
+        "season": 16
+      },
+      {
+        "elo": 1436.4,
+        "season": 18
+      }
+    ],
+    "peakElo": 1507.6,
+    "peakSeason": 12,
+    "player": "free",
+    "race": "P",
+    "rank": 72,
+    "seasons": 8,
+    "withQualifiers": {
+      "currentElo": 1715.0,
+      "games": 154,
+      "history": [
+        {
+          "elo": 1482.5,
+          "season": 1
+        },
+        {
+          "elo": 1468.8,
+          "season": 2
+        },
+        {
+          "elo": 1439.6,
+          "season": 3
+        },
+        {
+          "elo": 1586.3,
+          "season": 10
+        },
+        {
+          "elo": 1597.3,
+          "season": 11
+        },
+        {
+          "elo": 1664.1,
+          "season": 12
+        },
+        {
+          "elo": 1736.6,
+          "season": 14
+        },
+        {
+          "elo": 1699.8,
+          "season": 15
+        },
+        {
+          "elo": 1744.9,
+          "season": 16
+        },
+        {
+          "elo": 1687.1,
+          "season": 17
+        },
+        {
+          "elo": 1752.6,
+          "season": 18
+        },
+        {
+          "elo": 1703.9,
+          "season": 19
+        },
+        {
+          "elo": 1760.1,
+          "season": 20
+        },
+        {
+          "elo": 1753.8,
+          "season": 21
+        },
+        {
+          "elo": 1715.0,
+          "season": 22
+        }
+      ],
+      "peakElo": 1760.1,
+      "peakSeason": 20,
+      "rank": 48
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1436.2,
+    "games": 4,
+    "history": [
+      {
+        "elo": 1469.5,
+        "season": 4
+      },
+      {
+        "elo": 1436.2,
+        "season": 9
+      }
+    ],
+    "peakElo": 1469.5,
+    "peakSeason": 4,
+    "player": "firebathero",
+    "race": "T",
+    "rank": 73,
+    "seasons": 2,
+    "withQualifiers": {
+      "currentElo": 1650.3,
+      "games": 36,
+      "history": [
+        {
+          "elo": 1567.7,
+          "season": 4
+        },
+        {
+          "elo": 1653.4,
+          "season": 9
+        },
+        {
+          "elo": 1650.3,
+          "season": 16
+        }
+      ],
+      "peakElo": 1653.4,
+      "peakSeason": 9,
+      "rank": 59
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1434.2,
+    "games": 9,
+    "history": [
+      {
+        "elo": 1467.3,
+        "season": 7
+      },
+      {
+        "elo": 1457.3,
+        "season": 8
+      },
+      {
+        "elo": 1434.2,
+        "season": 17
+      }
+    ],
+    "peakElo": 1467.3,
+    "peakSeason": 7,
+    "player": "ZeLoT",
+    "race": "Z",
+    "rank": 74,
+    "seasons": 3,
+    "withQualifiers": {
+      "currentElo": 1623.3,
+      "games": 174,
+      "history": [
+        {
+          "elo": 1532.6,
+          "season": 4
+        },
+        {
+          "elo": 1585.8,
+          "season": 7
+        },
+        {
+          "elo": 1667.4,
+          "season": 8
+        },
+        {
+          "elo": 1630.9,
+          "season": 9
+        },
+        {
+          "elo": 1626.4,
+          "season": 10
+        },
+        {
+          "elo": 1613.2,
+          "season": 11
+        },
+        {
+          "elo": 1633.0,
+          "season": 12
+        },
+        {
+          "elo": 1616.6,
+          "season": 13
+        },
+        {
+          "elo": 1647.1,
+          "season": 14
+        },
+        {
+          "elo": 1668.1,
+          "season": 15
+        },
+        {
+          "elo": 1682.2,
+          "season": 16
+        },
+        {
+          "elo": 1731.0,
+          "season": 17
+        },
+        {
+          "elo": 1738.7,
+          "season": 18
+        },
+        {
+          "elo": 1671.0,
+          "season": 19
+        },
+        {
+          "elo": 1701.2,
+          "season": 20
+        },
+        {
+          "elo": 1682.9,
+          "season": 21
+        },
+        {
+          "elo": 1623.3,
+          "season": 22
+        }
+      ],
+      "peakElo": 1738.7,
+      "peakSeason": 18,
+      "rank": 68
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1433.9,
+    "games": 7,
+    "history": [
+      {
+        "elo": 1480.6,
+        "season": 7
+      },
+      {
+        "elo": 1453.4,
+        "season": 13
+      },
+      {
+        "elo": 1433.9,
+        "season": 19
+      }
+    ],
+    "peakElo": 1480.6,
+    "peakSeason": 7,
+    "player": "Tyson",
+    "race": "P",
+    "rank": 75,
+    "seasons": 3,
+    "withQualifiers": {
+      "currentElo": 1678.2,
+      "games": 141,
+      "history": [
+        {
+          "elo": 1541.7,
+          "season": 4
+        },
+        {
+          "elo": 1508.9,
+          "season": 5
+        },
+        {
+          "elo": 1659.7,
+          "season": 7
+        },
+        {
+          "elo": 1597.6,
+          "season": 8
+        },
+        {
+          "elo": 1612.9,
+          "season": 13
+        },
+        {
+          "elo": 1712.3,
+          "season": 16
+        },
+        {
+          "elo": 1677.1,
+          "season": 17
+        },
+        {
+          "elo": 1673.1,
+          "season": 19
+        },
+        {
+          "elo": 1678.0,
+          "season": 20
+        },
+        {
+          "elo": 1650.8,
+          "season": 21
+        },
+        {
+          "elo": 1678.2,
+          "season": 22
+        }
+      ],
+      "peakElo": 1712.3,
+      "peakSeason": 16,
+      "rank": 52
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1430.7,
+    "games": 7,
+    "history": [
+      {
+        "elo": 1467.6,
+        "season": 12
+      },
+      {
+        "elo": 1440.8,
+        "season": 13
+      },
+      {
+        "elo": 1430.7,
+        "season": 15
+      }
+    ],
+    "peakElo": 1467.6,
+    "peakSeason": 12,
+    "player": "Ruin",
+    "race": "P",
+    "rank": 76,
+    "seasons": 3,
+    "withQualifiers": {
+      "currentElo": 1696.6,
+      "games": 133,
+      "history": [
+        {
+          "elo": 1485.3,
+          "season": 8
+        },
+        {
+          "elo": 1517.9,
+          "season": 9
+        },
+        {
+          "elo": 1579.5,
+          "season": 10
+        },
+        {
+          "elo": 1600.3,
+          "season": 11
+        },
+        {
+          "elo": 1626.0,
+          "season": 12
+        },
+        {
+          "elo": 1661.1,
+          "season": 13
+        },
+        {
+          "elo": 1702.6,
+          "season": 14
+        },
+        {
+          "elo": 1755.1,
+          "season": 15
+        },
+        {
+          "elo": 1764.8,
+          "season": 16
+        },
+        {
+          "elo": 1722.0,
+          "season": 17
+        },
+        {
+          "elo": 1654.8,
+          "season": 18
+        },
+        {
+          "elo": 1616.0,
+          "season": 19
+        },
+        {
+          "elo": 1588.7,
+          "season": 20
+        },
+        {
+          "elo": 1656.5,
+          "season": 21
+        },
+        {
+          "elo": 1696.6,
+          "season": 22
+        }
+      ],
+      "peakElo": 1764.8,
+      "peakSeason": 16,
+      "rank": 49
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1427.4,
+    "games": 25,
+    "history": [
+      {
+        "elo": 1513.7,
+        "season": 4
+      },
+      {
+        "elo": 1496.5,
+        "season": 6
+      },
+      {
+        "elo": 1464.8,
+        "season": 9
+      },
+      {
+        "elo": 1438.2,
+        "season": 10
+      },
+      {
+        "elo": 1445.4,
+        "season": 16
+      },
+      {
+        "elo": 1422.7,
+        "season": 17
+      },
+      {
+        "elo": 1427.4,
+        "season": 19
+      }
+    ],
+    "peakElo": 1513.7,
+    "peakSeason": 4,
+    "player": "Killer",
+    "race": "Z",
+    "rank": 77,
+    "seasons": 7,
+    "withQualifiers": {
+      "currentElo": 1661.2,
+      "games": 199,
+      "history": [
+        {
+          "elo": 1590.0,
+          "season": 4
+        },
+        {
+          "elo": 1575.4,
+          "season": 5
+        },
+        {
+          "elo": 1663.9,
+          "season": 6
+        },
+        {
+          "elo": 1679.6,
+          "season": 8
+        },
+        {
+          "elo": 1671.3,
+          "season": 9
+        },
+        {
+          "elo": 1677.0,
+          "season": 10
+        },
+        {
+          "elo": 1638.4,
+          "season": 11
+        },
+        {
+          "elo": 1628.8,
+          "season": 12
+        },
+        {
+          "elo": 1606.5,
+          "season": 13
+        },
+        {
+          "elo": 1600.6,
+          "season": 14
+        },
+        {
+          "elo": 1644.3,
+          "season": 15
+        },
+        {
+          "elo": 1741.7,
+          "season": 16
+        },
+        {
+          "elo": 1774.5,
+          "season": 17
+        },
+        {
+          "elo": 1714.3,
+          "season": 18
+        },
+        {
+          "elo": 1733.8,
+          "season": 19
+        },
+        {
+          "elo": 1692.6,
+          "season": 20
+        },
+        {
+          "elo": 1690.4,
+          "season": 21
+        },
+        {
+          "elo": 1661.2,
+          "season": 22
+        }
+      ],
+      "peakElo": 1774.5,
+      "peakSeason": 17,
+      "rank": 56
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1425.0,
+    "games": 17,
+    "history": [
+      {
+        "elo": 1471.2,
+        "season": 9
+      },
+      {
+        "elo": 1461.4,
+        "season": 10
+      },
+      {
+        "elo": 1437.6,
+        "season": 12
+      },
+      {
+        "elo": 1428.7,
+        "season": 13
+      },
+      {
+        "elo": 1425.0,
+        "season": 17
+      }
+    ],
+    "peakElo": 1471.2,
+    "peakSeason": 9,
+    "player": "beast",
+    "race": "Z",
+    "rank": 78,
+    "seasons": 5,
+    "withQualifiers": {
+      "currentElo": 1750.3,
+      "games": 207,
+      "history": [
+        {
+          "elo": 1575.1,
+          "season": 4
+        },
+        {
+          "elo": 1612.2,
+          "season": 5
+        },
+        {
+          "elo": 1654.1,
+          "season": 7
+        },
+        {
+          "elo": 1640.2,
+          "season": 8
+        },
+        {
+          "elo": 1679.4,
+          "season": 9
+        },
+        {
+          "elo": 1690.7,
+          "season": 10
+        },
+        {
+          "elo": 1673.8,
+          "season": 11
+        },
+        {
+          "elo": 1699.4,
+          "season": 12
+        },
+        {
+          "elo": 1731.8,
+          "season": 13
+        },
+        {
+          "elo": 1760.5,
+          "season": 14
+        },
+        {
+          "elo": 1780.4,
+          "season": 15
+        },
+        {
+          "elo": 1787.4,
+          "season": 16
+        },
+        {
+          "elo": 1869.5,
+          "season": 17
+        },
+        {
+          "elo": 1825.7,
+          "season": 18
+        },
+        {
+          "elo": 1819.7,
+          "season": 19
+        },
+        {
+          "elo": 1750.3,
+          "season": 20
+        }
+      ],
+      "peakElo": 1869.5,
+      "peakSeason": 17,
+      "rank": 41
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1423.6,
+    "games": 33,
     "history": [
       {
         "elo": 1486.5,
@@ -6265,17 +7691,21 @@
       {
         "elo": 1438.9,
         "season": 21
+      },
+      {
+        "elo": 1423.6,
+        "season": 22
       }
     ],
     "peakElo": 1502.9,
     "peakSeason": 16,
     "player": "Calm",
     "race": "Z",
-    "rank": 66,
-    "seasons": 8,
+    "rank": 79,
+    "seasons": 9,
     "withQualifiers": {
-      "currentElo": 1782.5,
-      "games": 271,
+      "currentElo": 1756.8,
+      "games": 284,
       "history": [
         {
           "elo": 1507.8,
@@ -6334,605 +7764,439 @@
           "season": 17
         },
         {
-          "elo": 1757.8,
+          "elo": 1758.4,
           "season": 18
         },
         {
-          "elo": 1738.3,
+          "elo": 1738.7,
           "season": 19
         },
         {
-          "elo": 1755.6,
+          "elo": 1756.0,
           "season": 20
         },
         {
-          "elo": 1782.5,
+          "elo": 1782.9,
           "season": 21
+        },
+        {
+          "elo": 1756.8,
+          "season": 22
         }
       ],
       "peakElo": 1795.1,
       "peakSeason": 16,
-      "rank": 31
+      "rank": 39
     }
   },
   {
     "championships": 0,
-    "currentElo": 1438.7,
-    "games": 4,
+    "currentElo": 1418.6,
+    "games": 28,
     "history": [
       {
-        "elo": 1468.7,
-        "season": 3
-      },
-      {
-        "elo": 1438.7,
-        "season": 4
-      }
-    ],
-    "peakElo": 1468.7,
-    "peakSeason": 3,
-    "player": "Lazy",
-    "race": "P",
-    "rank": 67,
-    "seasons": 2,
-    "withQualifiers": {
-      "currentElo": 1517.2,
-      "games": 30,
-      "history": [
-        {
-          "elo": 1468.7,
-          "season": 3
-        },
-        {
-          "elo": 1498.5,
-          "season": 4
-        },
-        {
-          "elo": 1517.2,
-          "season": 5
-        }
-      ],
-      "peakElo": 1517.2,
-      "peakSeason": 5,
-      "rank": 82
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1438.4,
-    "games": 67,
-    "history": [
-      {
-        "elo": 1558.0,
-        "season": 3
-      },
-      {
-        "elo": 1519.5,
-        "season": 4
-      },
-      {
-        "elo": 1535.7,
+        "elo": 1483.3,
         "season": 5
       },
       {
-        "elo": 1530.4,
+        "elo": 1453.8,
         "season": 6
       },
       {
-        "elo": 1496.7,
-        "season": 10
-      },
-      {
-        "elo": 1480.4,
-        "season": 11
-      },
-      {
-        "elo": 1464.9,
-        "season": 12
-      },
-      {
-        "elo": 1486.4,
-        "season": 14
-      },
-      {
-        "elo": 1482.4,
-        "season": 15
-      },
-      {
-        "elo": 1458.5,
-        "season": 17
-      },
-      {
-        "elo": 1442.0,
-        "season": 18
-      },
-      {
-        "elo": 1438.4,
-        "season": 21
-      }
-    ],
-    "peakElo": 1558.0,
-    "peakSeason": 3,
-    "player": "Shine",
-    "race": "Z",
-    "rank": 68,
-    "seasons": 12,
-    "withQualifiers": {
-      "currentElo": 1784.2,
-      "games": 231,
-      "history": [
-        {
-          "elo": 1558.0,
-          "season": 3
-        },
-        {
-          "elo": 1530.5,
-          "season": 4
-        },
-        {
-          "elo": 1663.9,
-          "season": 5
-        },
-        {
-          "elo": 1712.6,
-          "season": 6
-        },
-        {
-          "elo": 1670.5,
-          "season": 7
-        },
-        {
-          "elo": 1654.3,
-          "season": 8
-        },
-        {
-          "elo": 1638.9,
-          "season": 10
-        },
-        {
-          "elo": 1728.1,
-          "season": 11
-        },
-        {
-          "elo": 1736.0,
-          "season": 12
-        },
-        {
-          "elo": 1705.6,
-          "season": 13
-        },
-        {
-          "elo": 1795.0,
-          "season": 14
-        },
-        {
-          "elo": 1812.3,
-          "season": 15
-        },
-        {
-          "elo": 1783.8,
-          "season": 16
-        },
-        {
-          "elo": 1817.3,
-          "season": 17
-        },
-        {
-          "elo": 1843.3,
-          "season": 18
-        },
-        {
-          "elo": 1788.2,
-          "season": 19
-        },
-        {
-          "elo": 1747.1,
-          "season": 20
-        },
-        {
-          "elo": 1784.2,
-          "season": 21
-        }
-      ],
-      "peakElo": 1843.3,
-      "peakSeason": 18,
-      "rank": 30
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1436.9,
-    "games": 4,
-    "history": [
-      {
-        "elo": 1468.0,
-        "season": 6
-      },
-      {
-        "elo": 1436.9,
-        "season": 7
-      }
-    ],
-    "peakElo": 1468.0,
-    "peakSeason": 6,
-    "player": "ByuL",
-    "race": "T",
-    "rank": 69,
-    "seasons": 2,
-    "withQualifiers": {
-      "currentElo": 1634.2,
-      "games": 88,
-      "history": [
-        {
-          "elo": 1529.8,
-          "season": 6
-        },
-        {
-          "elo": 1599.8,
-          "season": 7
-        },
-        {
-          "elo": 1685.6,
-          "season": 8
-        },
-        {
-          "elo": 1662.1,
-          "season": 14
-        },
-        {
-          "elo": 1628.6,
-          "season": 15
-        },
-        {
-          "elo": 1583.8,
-          "season": 18
-        },
-        {
-          "elo": 1622.9,
-          "season": 19
-        },
-        {
-          "elo": 1604.6,
-          "season": 20
-        },
-        {
-          "elo": 1634.2,
-          "season": 21
-        }
-      ],
-      "peakElo": 1685.6,
-      "peakSeason": 8,
-      "rank": 62
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1436.4,
-    "games": 31,
-    "history": [
-      {
-        "elo": 1482.5,
-        "season": 1
-      },
-      {
-        "elo": 1468.8,
-        "season": 2
-      },
-      {
-        "elo": 1439.6,
-        "season": 3
-      },
-      {
-        "elo": 1490.7,
-        "season": 10
-      },
-      {
-        "elo": 1507.6,
-        "season": 12
-      },
-      {
-        "elo": 1474.8,
-        "season": 14
-      },
-      {
-        "elo": 1456.7,
-        "season": 16
-      },
-      {
-        "elo": 1436.4,
-        "season": 18
-      }
-    ],
-    "peakElo": 1507.6,
-    "peakSeason": 12,
-    "player": "free",
-    "race": "P",
-    "rank": 70,
-    "seasons": 8,
-    "withQualifiers": {
-      "currentElo": 1753.4,
-      "games": 137,
-      "history": [
-        {
-          "elo": 1482.5,
-          "season": 1
-        },
-        {
-          "elo": 1468.8,
-          "season": 2
-        },
-        {
-          "elo": 1439.6,
-          "season": 3
-        },
-        {
-          "elo": 1586.3,
-          "season": 10
-        },
-        {
-          "elo": 1597.3,
-          "season": 11
-        },
-        {
-          "elo": 1664.1,
-          "season": 12
-        },
-        {
-          "elo": 1736.6,
-          "season": 14
-        },
-        {
-          "elo": 1699.8,
-          "season": 15
-        },
-        {
-          "elo": 1744.9,
-          "season": 16
-        },
-        {
-          "elo": 1687.0,
-          "season": 17
-        },
-        {
-          "elo": 1752.5,
-          "season": 18
-        },
-        {
-          "elo": 1703.9,
-          "season": 19
-        },
-        {
-          "elo": 1759.7,
-          "season": 20
-        },
-        {
-          "elo": 1753.4,
-          "season": 21
-        }
-      ],
-      "peakElo": 1759.7,
-      "peakSeason": 20,
-      "rank": 36
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1436.2,
-    "games": 4,
-    "history": [
-      {
-        "elo": 1469.5,
-        "season": 4
-      },
-      {
-        "elo": 1436.2,
-        "season": 9
-      }
-    ],
-    "peakElo": 1469.5,
-    "peakSeason": 4,
-    "player": "firebathero",
-    "race": "T",
-    "rank": 71,
-    "seasons": 2,
-    "withQualifiers": {
-      "currentElo": 1650.3,
-      "games": 36,
-      "history": [
-        {
-          "elo": 1567.7,
-          "season": 4
-        },
-        {
-          "elo": 1653.4,
-          "season": 9
-        },
-        {
-          "elo": 1650.3,
-          "season": 16
-        }
-      ],
-      "peakElo": 1653.4,
-      "peakSeason": 9,
-      "rank": 57
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1434.2,
-    "games": 9,
-    "history": [
-      {
-        "elo": 1467.3,
+        "elo": 1468.6,
         "season": 7
       },
       {
-        "elo": 1457.3,
+        "elo": 1428.3,
         "season": 8
       },
       {
-        "elo": 1434.2,
-        "season": 17
-      }
-    ],
-    "peakElo": 1467.3,
-    "peakSeason": 7,
-    "player": "ZeLoT",
-    "race": "Z",
-    "rank": 72,
-    "seasons": 3,
-    "withQualifiers": {
-      "currentElo": 1682.7,
-      "games": 166,
-      "history": [
-        {
-          "elo": 1532.6,
-          "season": 4
-        },
-        {
-          "elo": 1585.8,
-          "season": 7
-        },
-        {
-          "elo": 1667.4,
-          "season": 8
-        },
-        {
-          "elo": 1630.9,
-          "season": 9
-        },
-        {
-          "elo": 1626.4,
-          "season": 10
-        },
-        {
-          "elo": 1613.2,
-          "season": 11
-        },
-        {
-          "elo": 1633.0,
-          "season": 12
-        },
-        {
-          "elo": 1616.6,
-          "season": 13
-        },
-        {
-          "elo": 1647.1,
-          "season": 14
-        },
-        {
-          "elo": 1668.1,
-          "season": 15
-        },
-        {
-          "elo": 1682.2,
-          "season": 16
-        },
-        {
-          "elo": 1731.0,
-          "season": 17
-        },
-        {
-          "elo": 1738.2,
-          "season": 18
-        },
-        {
-          "elo": 1670.6,
-          "season": 19
-        },
-        {
-          "elo": 1700.8,
-          "season": 20
-        },
-        {
-          "elo": 1682.7,
-          "season": 21
-        }
-      ],
-      "peakElo": 1738.2,
-      "peakSeason": 18,
-      "rank": 49
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1433.9,
-    "games": 7,
-    "history": [
-      {
-        "elo": 1480.6,
-        "season": 7
+        "elo": 1436.4,
+        "season": 9
       },
       {
-        "elo": 1453.4,
+        "elo": 1429.1,
         "season": 13
       },
       {
-        "elo": 1433.9,
-        "season": 19
+        "elo": 1418.6,
+        "season": 14
       }
     ],
-    "peakElo": 1480.6,
-    "peakSeason": 7,
-    "player": "Tyson",
+    "peakElo": 1483.3,
+    "peakSeason": 5,
+    "player": "Horang2",
     "race": "P",
-    "rank": 73,
-    "seasons": 3,
+    "rank": 80,
+    "seasons": 7,
     "withQualifiers": {
-      "currentElo": 1650.5,
-      "games": 132,
+      "currentElo": 1763.8,
+      "games": 228,
       "history": [
         {
-          "elo": 1541.7,
+          "elo": 1598.3,
           "season": 4
         },
         {
-          "elo": 1508.9,
+          "elo": 1681.7,
           "season": 5
         },
         {
-          "elo": 1659.7,
+          "elo": 1694.2,
+          "season": 6
+        },
+        {
+          "elo": 1718.4,
           "season": 7
         },
         {
-          "elo": 1597.6,
+          "elo": 1741.1,
           "season": 8
         },
         {
-          "elo": 1612.9,
+          "elo": 1772.2,
+          "season": 9
+        },
+        {
+          "elo": 1733.3,
+          "season": 10
+        },
+        {
+          "elo": 1689.8,
+          "season": 11
+        },
+        {
+          "elo": 1643.6,
+          "season": 12
+        },
+        {
+          "elo": 1656.9,
           "season": 13
         },
         {
-          "elo": 1712.3,
+          "elo": 1712.4,
+          "season": 14
+        },
+        {
+          "elo": 1699.6,
+          "season": 15
+        },
+        {
+          "elo": 1726.8,
           "season": 16
         },
         {
-          "elo": 1677.1,
+          "elo": 1691.4,
           "season": 17
         },
         {
-          "elo": 1673.0,
+          "elo": 1670.6,
+          "season": 18
+        },
+        {
+          "elo": 1725.1,
           "season": 19
         },
         {
-          "elo": 1677.7,
+          "elo": 1723.7,
           "season": 20
         },
         {
-          "elo": 1650.5,
+          "elo": 1738.9,
           "season": 21
+        },
+        {
+          "elo": 1763.8,
+          "season": 22
         }
       ],
-      "peakElo": 1712.3,
-      "peakSeason": 16,
-      "rank": 56
+      "peakElo": 1772.2,
+      "peakSeason": 9,
+      "rank": 37
     }
   },
   {
     "championships": 0,
-    "currentElo": 1432.8,
-    "games": 25,
+    "currentElo": 1418.0,
+    "games": 6,
+    "history": [
+      {
+        "elo": 1468.4,
+        "season": 4
+      },
+      {
+        "elo": 1442.0,
+        "season": 14
+      },
+      {
+        "elo": 1418.0,
+        "season": 15
+      }
+    ],
+    "peakElo": 1468.4,
+    "peakSeason": 4,
+    "player": "HiyA",
+    "race": "T",
+    "rank": 81,
+    "seasons": 3,
+    "withQualifiers": {
+      "currentElo": 1665.9,
+      "games": 114,
+      "history": [
+        {
+          "elo": 1548.6,
+          "season": 4
+        },
+        {
+          "elo": 1538.3,
+          "season": 9
+        },
+        {
+          "elo": 1538.4,
+          "season": 13
+        },
+        {
+          "elo": 1712.7,
+          "season": 14
+        },
+        {
+          "elo": 1757.1,
+          "season": 15
+        },
+        {
+          "elo": 1714.0,
+          "season": 17
+        },
+        {
+          "elo": 1705.8,
+          "season": 18
+        },
+        {
+          "elo": 1712.4,
+          "season": 19
+        },
+        {
+          "elo": 1722.8,
+          "season": 20
+        },
+        {
+          "elo": 1714.8,
+          "season": 21
+        },
+        {
+          "elo": 1665.9,
+          "season": 22
+        }
+      ],
+      "peakElo": 1757.1,
+      "peakSeason": 15,
+      "rank": 54
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1414.4,
+    "games": 31,
+    "history": [
+      {
+        "elo": 1507.3,
+        "season": 2
+      },
+      {
+        "elo": 1507.3,
+        "season": 3
+      },
+      {
+        "elo": 1473.6,
+        "season": 5
+      },
+      {
+        "elo": 1455.2,
+        "season": 6
+      },
+      {
+        "elo": 1467.9,
+        "season": 7
+      },
+      {
+        "elo": 1437.5,
+        "season": 8
+      },
+      {
+        "elo": 1414.4,
+        "season": 13
+      }
+    ],
+    "peakElo": 1507.3,
+    "peakSeason": 3,
+    "player": "GuemChi",
+    "race": "P",
+    "rank": 82,
+    "seasons": 7,
+    "withQualifiers": {
+      "currentElo": 1650.7,
+      "games": 116,
+      "history": [
+        {
+          "elo": 1507.3,
+          "season": 2
+        },
+        {
+          "elo": 1507.3,
+          "season": 3
+        },
+        {
+          "elo": 1613.1,
+          "season": 4
+        },
+        {
+          "elo": 1655.5,
+          "season": 5
+        },
+        {
+          "elo": 1668.9,
+          "season": 6
+        },
+        {
+          "elo": 1739.2,
+          "season": 7
+        },
+        {
+          "elo": 1731.4,
+          "season": 8
+        },
+        {
+          "elo": 1687.2,
+          "season": 9
+        },
+        {
+          "elo": 1676.0,
+          "season": 13
+        },
+        {
+          "elo": 1650.7,
+          "season": 17
+        }
+      ],
+      "peakElo": 1739.2,
+      "peakSeason": 7,
+      "rank": 58
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1414.1,
+    "games": 21,
+    "history": [
+      {
+        "elo": 1500.4,
+        "season": 2
+      },
+      {
+        "elo": 1465.3,
+        "season": 3
+      },
+      {
+        "elo": 1456.1,
+        "season": 5
+      },
+      {
+        "elo": 1448.9,
+        "season": 6
+      },
+      {
+        "elo": 1440.6,
+        "season": 12
+      },
+      {
+        "elo": 1414.1,
+        "season": 13
+      }
+    ],
+    "peakElo": 1500.4,
+    "peakSeason": 2,
+    "player": "Movie",
+    "race": "P",
+    "rank": 83,
+    "seasons": 6,
+    "withQualifiers": {
+      "currentElo": 1571.7,
+      "games": 150,
+      "history": [
+        {
+          "elo": 1500.4,
+          "season": 2
+        },
+        {
+          "elo": 1465.3,
+          "season": 3
+        },
+        {
+          "elo": 1541.8,
+          "season": 4
+        },
+        {
+          "elo": 1637.2,
+          "season": 5
+        },
+        {
+          "elo": 1685.5,
+          "season": 6
+        },
+        {
+          "elo": 1695.7,
+          "season": 7
+        },
+        {
+          "elo": 1696.3,
+          "season": 8
+        },
+        {
+          "elo": 1691.9,
+          "season": 12
+        },
+        {
+          "elo": 1719.2,
+          "season": 13
+        },
+        {
+          "elo": 1680.1,
+          "season": 14
+        },
+        {
+          "elo": 1647.4,
+          "season": 15
+        },
+        {
+          "elo": 1612.7,
+          "season": 17
+        },
+        {
+          "elo": 1583.6,
+          "season": 18
+        },
+        {
+          "elo": 1598.6,
+          "season": 19
+        },
+        {
+          "elo": 1599.9,
+          "season": 20
+        },
+        {
+          "elo": 1571.7,
+          "season": 21
+        }
+      ],
+      "peakElo": 1719.2,
+      "peakSeason": 13,
+      "rank": 77
+    }
+  },
+  {
+    "championships": 0,
+    "currentElo": 1413.6,
+    "games": 27,
     "history": [
       {
         "elo": 1485.1,
@@ -6957,17 +8221,21 @@
       {
         "elo": 1432.8,
         "season": 21
+      },
+      {
+        "elo": 1413.6,
+        "season": 22
       }
     ],
     "peakElo": 1485.1,
     "peakSeason": 1,
     "player": "PianO",
     "race": "T",
-    "rank": 74,
-    "seasons": 6,
+    "rank": 84,
+    "seasons": 7,
     "withQualifiers": {
-      "currentElo": 1780.2,
-      "games": 252,
+      "currentElo": 1756.8,
+      "games": 272,
       "history": [
         {
           "elo": 1485.1,
@@ -7038,843 +8306,129 @@
           "season": 19
         },
         {
-          "elo": 1683.7,
+          "elo": 1683.8,
           "season": 20
         },
         {
-          "elo": 1780.2,
+          "elo": 1780.3,
           "season": 21
+        },
+        {
+          "elo": 1756.8,
+          "season": 22
         }
       ],
-      "peakElo": 1780.2,
-      "peakSeason": 21,
-      "rank": 32
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1430.7,
-    "games": 7,
-    "history": [
-      {
-        "elo": 1467.6,
-        "season": 12
-      },
-      {
-        "elo": 1440.8,
-        "season": 13
-      },
-      {
-        "elo": 1430.7,
-        "season": 15
-      }
-    ],
-    "peakElo": 1467.6,
-    "peakSeason": 12,
-    "player": "Ruin",
-    "race": "P",
-    "rank": 75,
-    "seasons": 3,
-    "withQualifiers": {
-      "currentElo": 1656.4,
-      "games": 119,
-      "history": [
-        {
-          "elo": 1485.3,
-          "season": 8
-        },
-        {
-          "elo": 1517.9,
-          "season": 9
-        },
-        {
-          "elo": 1579.5,
-          "season": 10
-        },
-        {
-          "elo": 1600.3,
-          "season": 11
-        },
-        {
-          "elo": 1626.0,
-          "season": 12
-        },
-        {
-          "elo": 1661.1,
-          "season": 13
-        },
-        {
-          "elo": 1702.6,
-          "season": 14
-        },
-        {
-          "elo": 1755.1,
-          "season": 15
-        },
-        {
-          "elo": 1764.8,
-          "season": 16
-        },
-        {
-          "elo": 1722.0,
-          "season": 17
-        },
-        {
-          "elo": 1654.8,
-          "season": 18
-        },
-        {
-          "elo": 1616.0,
-          "season": 19
-        },
-        {
-          "elo": 1588.7,
-          "season": 20
-        },
-        {
-          "elo": 1656.4,
-          "season": 21
-        }
-      ],
-      "peakElo": 1764.8,
-      "peakSeason": 16,
-      "rank": 54
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1427.4,
-    "games": 25,
-    "history": [
-      {
-        "elo": 1513.7,
-        "season": 4
-      },
-      {
-        "elo": 1496.5,
-        "season": 6
-      },
-      {
-        "elo": 1464.8,
-        "season": 9
-      },
-      {
-        "elo": 1438.2,
-        "season": 10
-      },
-      {
-        "elo": 1445.4,
-        "season": 16
-      },
-      {
-        "elo": 1422.7,
-        "season": 17
-      },
-      {
-        "elo": 1427.4,
-        "season": 19
-      }
-    ],
-    "peakElo": 1513.7,
-    "peakSeason": 4,
-    "player": "Killer",
-    "race": "Z",
-    "rank": 76,
-    "seasons": 7,
-    "withQualifiers": {
-      "currentElo": 1690.1,
-      "games": 193,
-      "history": [
-        {
-          "elo": 1590.0,
-          "season": 4
-        },
-        {
-          "elo": 1575.4,
-          "season": 5
-        },
-        {
-          "elo": 1663.9,
-          "season": 6
-        },
-        {
-          "elo": 1679.6,
-          "season": 8
-        },
-        {
-          "elo": 1671.3,
-          "season": 9
-        },
-        {
-          "elo": 1677.0,
-          "season": 10
-        },
-        {
-          "elo": 1638.4,
-          "season": 11
-        },
-        {
-          "elo": 1628.8,
-          "season": 12
-        },
-        {
-          "elo": 1606.5,
-          "season": 13
-        },
-        {
-          "elo": 1600.6,
-          "season": 14
-        },
-        {
-          "elo": 1644.3,
-          "season": 15
-        },
-        {
-          "elo": 1741.7,
-          "season": 16
-        },
-        {
-          "elo": 1774.5,
-          "season": 17
-        },
-        {
-          "elo": 1714.3,
-          "season": 18
-        },
-        {
-          "elo": 1733.4,
-          "season": 19
-        },
-        {
-          "elo": 1692.3,
-          "season": 20
-        },
-        {
-          "elo": 1690.1,
-          "season": 21
-        }
-      ],
-      "peakElo": 1774.5,
-      "peakSeason": 17,
-      "rank": 47
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1425.0,
-    "games": 17,
-    "history": [
-      {
-        "elo": 1471.2,
-        "season": 9
-      },
-      {
-        "elo": 1461.4,
-        "season": 10
-      },
-      {
-        "elo": 1437.6,
-        "season": 12
-      },
-      {
-        "elo": 1428.7,
-        "season": 13
-      },
-      {
-        "elo": 1425.0,
-        "season": 17
-      }
-    ],
-    "peakElo": 1471.2,
-    "peakSeason": 9,
-    "player": "beast",
-    "race": "Z",
-    "rank": 77,
-    "seasons": 5,
-    "withQualifiers": {
-      "currentElo": 1750.2,
-      "games": 207,
-      "history": [
-        {
-          "elo": 1575.1,
-          "season": 4
-        },
-        {
-          "elo": 1612.2,
-          "season": 5
-        },
-        {
-          "elo": 1654.1,
-          "season": 7
-        },
-        {
-          "elo": 1640.2,
-          "season": 8
-        },
-        {
-          "elo": 1679.4,
-          "season": 9
-        },
-        {
-          "elo": 1690.7,
-          "season": 10
-        },
-        {
-          "elo": 1673.8,
-          "season": 11
-        },
-        {
-          "elo": 1699.4,
-          "season": 12
-        },
-        {
-          "elo": 1731.8,
-          "season": 13
-        },
-        {
-          "elo": 1760.5,
-          "season": 14
-        },
-        {
-          "elo": 1780.4,
-          "season": 15
-        },
-        {
-          "elo": 1787.4,
-          "season": 16
-        },
-        {
-          "elo": 1869.5,
-          "season": 17
-        },
-        {
-          "elo": 1825.7,
-          "season": 18
-        },
-        {
-          "elo": 1819.6,
-          "season": 19
-        },
-        {
-          "elo": 1750.2,
-          "season": 20
-        }
-      ],
-      "peakElo": 1869.5,
-      "peakSeason": 17,
-      "rank": 37
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1418.8,
-    "games": 17,
-    "history": [
-      {
-        "elo": 1498.9,
-        "season": 3
-      },
-      {
-        "elo": 1481.8,
-        "season": 7
-      },
-      {
-        "elo": 1448.3,
-        "season": 11
-      },
-      {
-        "elo": 1441.6,
-        "season": 13
-      },
-      {
-        "elo": 1418.8,
-        "season": 14
-      }
-    ],
-    "peakElo": 1498.9,
-    "peakSeason": 3,
-    "player": "ggaemo",
-    "race": "Z",
-    "rank": 78,
-    "seasons": 5,
-    "withQualifiers": {
-      "currentElo": 1735.8,
-      "games": 191,
-      "history": [
-        {
-          "elo": 1498.9,
-          "season": 3
-        },
-        {
-          "elo": 1553.5,
-          "season": 4
-        },
-        {
-          "elo": 1559.1,
-          "season": 5
-        },
-        {
-          "elo": 1665.9,
-          "season": 7
-        },
-        {
-          "elo": 1645.3,
-          "season": 8
-        },
-        {
-          "elo": 1607.2,
-          "season": 9
-        },
-        {
-          "elo": 1673.2,
-          "season": 11
-        },
-        {
-          "elo": 1626.6,
-          "season": 12
-        },
-        {
-          "elo": 1642.5,
-          "season": 13
-        },
-        {
-          "elo": 1720.8,
-          "season": 14
-        },
-        {
-          "elo": 1712.2,
-          "season": 15
-        },
-        {
-          "elo": 1681.9,
-          "season": 16
-        },
-        {
-          "elo": 1706.0,
-          "season": 17
-        },
-        {
-          "elo": 1670.5,
-          "season": 18
-        },
-        {
-          "elo": 1677.1,
-          "season": 19
-        },
-        {
-          "elo": 1702.1,
-          "season": 20
-        },
-        {
-          "elo": 1735.8,
-          "season": 21
-        }
-      ],
-      "peakElo": 1735.8,
+      "peakElo": 1780.3,
       "peakSeason": 21,
       "rank": 40
     }
   },
   {
     "championships": 0,
-    "currentElo": 1418.6,
-    "games": 28,
-    "history": [
-      {
-        "elo": 1483.3,
-        "season": 5
-      },
-      {
-        "elo": 1453.8,
-        "season": 6
-      },
-      {
-        "elo": 1468.6,
-        "season": 7
-      },
-      {
-        "elo": 1428.3,
-        "season": 8
-      },
-      {
-        "elo": 1436.4,
-        "season": 9
-      },
-      {
-        "elo": 1429.1,
-        "season": 13
-      },
-      {
-        "elo": 1418.6,
-        "season": 14
-      }
-    ],
-    "peakElo": 1483.3,
-    "peakSeason": 5,
-    "player": "Horang2",
-    "race": "P",
-    "rank": 79,
-    "seasons": 7,
-    "withQualifiers": {
-      "currentElo": 1738.7,
-      "games": 211,
-      "history": [
-        {
-          "elo": 1598.3,
-          "season": 4
-        },
-        {
-          "elo": 1681.7,
-          "season": 5
-        },
-        {
-          "elo": 1694.2,
-          "season": 6
-        },
-        {
-          "elo": 1718.4,
-          "season": 7
-        },
-        {
-          "elo": 1741.1,
-          "season": 8
-        },
-        {
-          "elo": 1772.2,
-          "season": 9
-        },
-        {
-          "elo": 1733.3,
-          "season": 10
-        },
-        {
-          "elo": 1689.8,
-          "season": 11
-        },
-        {
-          "elo": 1643.6,
-          "season": 12
-        },
-        {
-          "elo": 1656.9,
-          "season": 13
-        },
-        {
-          "elo": 1712.4,
-          "season": 14
-        },
-        {
-          "elo": 1699.6,
-          "season": 15
-        },
-        {
-          "elo": 1726.8,
-          "season": 16
-        },
-        {
-          "elo": 1691.4,
-          "season": 17
-        },
-        {
-          "elo": 1670.6,
-          "season": 18
-        },
-        {
-          "elo": 1725.1,
-          "season": 19
-        },
-        {
-          "elo": 1723.6,
-          "season": 20
-        },
-        {
-          "elo": 1738.7,
-          "season": 21
-        }
-      ],
-      "peakElo": 1772.2,
-      "peakSeason": 9,
-      "rank": 39
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1418.0,
-    "games": 6,
-    "history": [
-      {
-        "elo": 1468.4,
-        "season": 4
-      },
-      {
-        "elo": 1442.0,
-        "season": 14
-      },
-      {
-        "elo": 1418.0,
-        "season": 15
-      }
-    ],
-    "peakElo": 1468.4,
-    "peakSeason": 4,
-    "player": "HiyA",
-    "race": "T",
-    "rank": 80,
-    "seasons": 3,
-    "withQualifiers": {
-      "currentElo": 1714.5,
-      "games": 108,
-      "history": [
-        {
-          "elo": 1548.6,
-          "season": 4
-        },
-        {
-          "elo": 1538.3,
-          "season": 9
-        },
-        {
-          "elo": 1538.4,
-          "season": 13
-        },
-        {
-          "elo": 1712.7,
-          "season": 14
-        },
-        {
-          "elo": 1757.1,
-          "season": 15
-        },
-        {
-          "elo": 1714.0,
-          "season": 17
-        },
-        {
-          "elo": 1705.8,
-          "season": 18
-        },
-        {
-          "elo": 1712.4,
-          "season": 19
-        },
-        {
-          "elo": 1722.5,
-          "season": 20
-        },
-        {
-          "elo": 1714.5,
-          "season": 21
-        }
-      ],
-      "peakElo": 1757.1,
-      "peakSeason": 15,
-      "rank": 44
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1414.4,
-    "games": 31,
-    "history": [
-      {
-        "elo": 1507.3,
-        "season": 2
-      },
-      {
-        "elo": 1507.3,
-        "season": 3
-      },
-      {
-        "elo": 1473.6,
-        "season": 5
-      },
-      {
-        "elo": 1455.2,
-        "season": 6
-      },
-      {
-        "elo": 1467.9,
-        "season": 7
-      },
-      {
-        "elo": 1437.5,
-        "season": 8
-      },
-      {
-        "elo": 1414.4,
-        "season": 13
-      }
-    ],
-    "peakElo": 1507.3,
-    "peakSeason": 3,
-    "player": "GuemChi",
-    "race": "P",
-    "rank": 81,
-    "seasons": 7,
-    "withQualifiers": {
-      "currentElo": 1650.7,
-      "games": 116,
-      "history": [
-        {
-          "elo": 1507.3,
-          "season": 2
-        },
-        {
-          "elo": 1507.3,
-          "season": 3
-        },
-        {
-          "elo": 1613.1,
-          "season": 4
-        },
-        {
-          "elo": 1655.5,
-          "season": 5
-        },
-        {
-          "elo": 1668.9,
-          "season": 6
-        },
-        {
-          "elo": 1739.2,
-          "season": 7
-        },
-        {
-          "elo": 1731.4,
-          "season": 8
-        },
-        {
-          "elo": 1687.2,
-          "season": 9
-        },
-        {
-          "elo": 1676.0,
-          "season": 13
-        },
-        {
-          "elo": 1650.7,
-          "season": 17
-        }
-      ],
-      "peakElo": 1739.2,
-      "peakSeason": 7,
-      "rank": 55
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1414.1,
+    "currentElo": 1375.1,
     "games": 21,
     "history": [
       {
-        "elo": 1500.4,
+        "elo": 1467.2,
         "season": 2
       },
       {
-        "elo": 1465.3,
-        "season": 3
+        "elo": 1439.0,
+        "season": 4
       },
       {
-        "elo": 1456.1,
+        "elo": 1449.9,
         "season": 5
       },
       {
-        "elo": 1448.9,
+        "elo": 1444.0,
         "season": 6
       },
       {
-        "elo": 1440.6,
-        "season": 12
+        "elo": 1431.6,
+        "season": 7
       },
       {
-        "elo": 1414.1,
-        "season": 13
+        "elo": 1400.8,
+        "season": 8
+      },
+      {
+        "elo": 1394.4,
+        "season": 11
+      },
+      {
+        "elo": 1375.1,
+        "season": 14
       }
     ],
-    "peakElo": 1500.4,
+    "peakElo": 1467.2,
     "peakSeason": 2,
-    "player": "Movie",
-    "race": "P",
-    "rank": 82,
-    "seasons": 6,
+    "player": "MIsO",
+    "race": "Z",
+    "rank": 85,
+    "seasons": 8,
     "withQualifiers": {
-      "currentElo": 1571.6,
-      "games": 150,
+      "currentElo": 1724.9,
+      "games": 143,
       "history": [
         {
-          "elo": 1500.4,
+          "elo": 1467.2,
           "season": 2
         },
         {
-          "elo": 1465.3,
-          "season": 3
-        },
-        {
-          "elo": 1541.8,
+          "elo": 1588.6,
           "season": 4
         },
         {
-          "elo": 1637.2,
+          "elo": 1689.2,
           "season": 5
         },
         {
-          "elo": 1685.5,
+          "elo": 1713.4,
           "season": 6
         },
         {
-          "elo": 1695.7,
+          "elo": 1725.2,
           "season": 7
         },
         {
-          "elo": 1696.3,
+          "elo": 1759.0,
           "season": 8
         },
         {
-          "elo": 1691.9,
+          "elo": 1708.4,
+          "season": 10
+        },
+        {
+          "elo": 1687.3,
+          "season": 11
+        },
+        {
+          "elo": 1697.7,
           "season": 12
         },
         {
-          "elo": 1719.2,
+          "elo": 1675.8,
           "season": 13
         },
         {
-          "elo": 1680.1,
+          "elo": 1740.0,
           "season": 14
         },
         {
-          "elo": 1647.4,
-          "season": 15
-        },
-        {
-          "elo": 1612.7,
+          "elo": 1724.9,
           "season": 17
-        },
-        {
-          "elo": 1583.6,
-          "season": 18
-        },
-        {
-          "elo": 1598.5,
-          "season": 19
-        },
-        {
-          "elo": 1599.9,
-          "season": 20
-        },
-        {
-          "elo": 1571.6,
-          "season": 21
         }
       ],
-      "peakElo": 1719.2,
-      "peakSeason": 13,
-      "rank": 75
+      "peakElo": 1759.0,
+      "peakSeason": 8,
+      "rank": 46
     }
   },
   {
     "championships": 0,
-    "currentElo": 1387.7,
-    "games": 70,
+    "currentElo": 1372.5,
+    "games": 72,
     "history": [
       {
         "elo": 1453.5,
@@ -7947,17 +8501,21 @@
       {
         "elo": 1387.7,
         "season": 21
+      },
+      {
+        "elo": 1372.5,
+        "season": 22
       }
     ],
     "peakElo": 1495.4,
     "peakSeason": 4,
     "player": "Mong",
     "race": "T",
-    "rank": 83,
-    "seasons": 18,
+    "rank": 86,
+    "seasons": 19,
     "withQualifiers": {
-      "currentElo": 1851.7,
-      "games": 267,
+      "currentElo": 1791.9,
+      "games": 279,
       "history": [
         {
           "elo": 1453.5,
@@ -8024,131 +8582,33 @@
           "season": 16
         },
         {
-          "elo": 1844.2,
+          "elo": 1844.9,
           "season": 17
         },
         {
-          "elo": 1775.7,
+          "elo": 1776.4,
           "season": 18
         },
         {
-          "elo": 1734.5,
+          "elo": 1735.0,
           "season": 19
         },
         {
-          "elo": 1794.8,
+          "elo": 1795.1,
           "season": 20
         },
         {
-          "elo": 1851.7,
+          "elo": 1852.0,
           "season": 21
+        },
+        {
+          "elo": 1791.9,
+          "season": 22
         }
       ],
-      "peakElo": 1851.7,
+      "peakElo": 1852.0,
       "peakSeason": 21,
-      "rank": 23
-    }
-  },
-  {
-    "championships": 0,
-    "currentElo": 1375.1,
-    "games": 21,
-    "history": [
-      {
-        "elo": 1467.2,
-        "season": 2
-      },
-      {
-        "elo": 1439.0,
-        "season": 4
-      },
-      {
-        "elo": 1449.9,
-        "season": 5
-      },
-      {
-        "elo": 1444.0,
-        "season": 6
-      },
-      {
-        "elo": 1431.6,
-        "season": 7
-      },
-      {
-        "elo": 1400.8,
-        "season": 8
-      },
-      {
-        "elo": 1394.4,
-        "season": 11
-      },
-      {
-        "elo": 1375.1,
-        "season": 14
-      }
-    ],
-    "peakElo": 1467.2,
-    "peakSeason": 2,
-    "player": "MIsO",
-    "race": "Z",
-    "rank": 84,
-    "seasons": 8,
-    "withQualifiers": {
-      "currentElo": 1724.9,
-      "games": 143,
-      "history": [
-        {
-          "elo": 1467.2,
-          "season": 2
-        },
-        {
-          "elo": 1588.6,
-          "season": 4
-        },
-        {
-          "elo": 1689.2,
-          "season": 5
-        },
-        {
-          "elo": 1713.4,
-          "season": 6
-        },
-        {
-          "elo": 1725.2,
-          "season": 7
-        },
-        {
-          "elo": 1759.0,
-          "season": 8
-        },
-        {
-          "elo": 1708.4,
-          "season": 10
-        },
-        {
-          "elo": 1687.3,
-          "season": 11
-        },
-        {
-          "elo": 1697.7,
-          "season": 12
-        },
-        {
-          "elo": 1675.8,
-          "season": 13
-        },
-        {
-          "elo": 1740.0,
-          "season": 14
-        },
-        {
-          "elo": 1724.9,
-          "season": 17
-        }
-      ],
-      "peakElo": 1759.0,
-      "peakSeason": 8,
-      "rank": 42
+      "rank": 31
     }
   }
 ]

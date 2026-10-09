@@ -32,7 +32,7 @@ const PLACEMENT_COLUMNS: DataTableColumn[] = [
 export function SeasonDetail({ season }: Props): ReactElement {
   const placements = getPlacementsForSeason(season.season);
   const series = getSeriesForSeason(season.season);
-  const bracket = buildBracket(series);
+  const bracket = buildBracket(series, season.upcoming);
   const stages = buildGroupStages(series);
 
   const rows: DataTableRow[] = placements.map((p) => ({

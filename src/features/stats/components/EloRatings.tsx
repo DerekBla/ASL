@@ -42,7 +42,7 @@ export function EloRatings({ withQualifiers }: Props): ReactElement {
           ELO from individual games. Every player starts at {formatInteger(elo.start)}. Each game
           moves the winner up and the loser down by the same amount, and by more when the result was
           an upset (K = {elo.k}). It counts all {formatInteger(elo.games)} games played in the ASL
-          across {seasons.complete} seasons.
+          across {seasons.count} seasons.
         </p>
         <nav aria-label="Games counted" className="flex flex-wrap gap-1.5">
           {VIEWS.map((view) => {

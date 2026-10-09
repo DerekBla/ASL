@@ -6910,5 +6910,341 @@
     "prizeKrw": 1000000,
     "race": "T",
     "season": 21
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st–2nd",
+      "status": "provisional",
+      "worst": 2
+    },
+    "player": "Rush",
+    "prizeKrw": null,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 1,
+      "label": "1st–2nd",
+      "status": "provisional",
+      "worst": 2
+    },
+    "player": "Soulkey",
+    "prizeKrw": null,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "Light",
+    "prizeKrw": 3000000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 3,
+      "label": "3rd",
+      "status": "final",
+      "worst": 3
+    },
+    "player": "soma",
+    "prizeKrw": 3000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "EffOrt",
+    "prizeKrw": 2000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Jaedong",
+    "prizeKrw": 2000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Leta",
+    "prizeKrw": 2000000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 5,
+      "label": "5th–8th",
+      "status": "final",
+      "worst": 8
+    },
+    "player": "Shine",
+    "prizeKrw": 2000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Best",
+    "prizeKrw": 1500000,
+    "race": "P",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "herO",
+    "prizeKrw": 1500000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "Queen",
+    "prizeKrw": 1500000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 9,
+      "label": "9th–12th",
+      "status": "final",
+      "worst": 12
+    },
+    "player": "SnOw",
+    "prizeKrw": 1500000,
+    "race": "P",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "ggaemo",
+    "prizeKrw": 1500000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "JyJ",
+    "prizeKrw": 1500000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Shinee",
+    "prizeKrw": 1500000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 13,
+      "label": "13th–16th",
+      "status": "final",
+      "worst": 16
+    },
+    "player": "Shuttle",
+    "prizeKrw": 1500000,
+    "race": "P",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Action",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Bisu",
+    "prizeKrw": 1000000,
+    "race": "P",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Larva",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Mini",
+    "prizeKrw": 1000000,
+    "race": "P",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "Speed",
+    "prizeKrw": 1000000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 17,
+      "label": "17th–22nd",
+      "status": "final",
+      "worst": 22
+    },
+    "player": "sSak",
+    "prizeKrw": 1000000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Calm",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Hm",
+    "prizeKrw": 1000000,
+    "race": "Z",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Mong",
+    "prizeKrw": 1000000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Paralyze",
+    "prizeKrw": 1000000,
+    "race": "P",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "PianO",
+    "prizeKrw": 1000000,
+    "race": "T",
+    "season": 22
+  },
+  {
+    "placement": {
+      "best": 23,
+      "label": "23rd–28th",
+      "status": "final",
+      "worst": 28
+    },
+    "player": "Sharp",
+    "prizeKrw": 1000000,
+    "race": "T",
+    "season": 22
   }
 ]

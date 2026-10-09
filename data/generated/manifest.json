@@ -1,18 +1,18 @@
 {
   "counts": {
-    "elo": 84,
-    "placements": 576,
-    "player-stats": 84,
-    "players": 84,
-    "seasons": 21,
-    "series": 1189,
+    "elo": 86,
+    "placements": 604,
+    "player-stats": 86,
+    "players": 86,
+    "seasons": 22,
+    "series": 1245,
     "validation": 7
   },
   "elo": {
     "basis": "game",
-    "games": 1998,
+    "games": 2092,
     "k": 32,
-    "qualifierGames": 9848,
+    "qualifierGames": 10487,
     "qualifierSeasons": [
       4,
       5,
@@ -31,14 +31,15 @@
       18,
       19,
       20,
-      21
+      21,
+      22
     ],
     "start": 1500.0
   },
   "schemaVersion": 3,
   "seasons": {
     "complete": 21,
-    "count": 21
+    "count": 22
   },
   "source": {
     "kind": "liquipedia",
@@ -169,9 +170,15 @@
         "season": 21,
         "title": "ASL/21",
         "url": "https://liquipedia.net/starcraft/ASL/21"
+      },
+      {
+        "revid": 541117,
+        "season": 22,
+        "title": "ASL/22",
+        "url": "https://liquipedia.net/starcraft/ASL/22"
       }
     ],
-    "wikitextSha256": "bf39ab7a643cbf5292c1f4851a84d3d1b7e75f04d247820dc1ae0f7c18c8d0fc"
+    "wikitextSha256": "45660e2bc81ba1c7929d68c8569d0077015498d2d0e3dac1d435618ef6116bfe"
   },
   "warnings": 7
 }

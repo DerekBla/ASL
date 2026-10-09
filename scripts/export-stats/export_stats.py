@@ -26,7 +26,7 @@ SCHEMA_VERSION = 3  # 3: elo.json rows carry a per-season history
 RACES = ("T", "Z", "P")
 ELO_START, ELO_K = 1500.0, 32
 # Validation codes that mean the output may be wrong (fail under --strict).
-PROBLEM_CODES = {"PARSE_PROBLEM", "PLAYER_COUNT", "FINALS_MISSING"}
+PROBLEM_CODES = {"PARSE_PROBLEM", "PLAYER_COUNT"}
 
 
 class InputError(Exception):
@@ -163,6 +163,7 @@ def build(source_dir: Path) -> dict[str, Any]:
         warn("OVERRIDE_UNUSED", f"overrides.json has a race for {name!r}, who is not in the results")
 
     seasons, placements, series = [], [], []
+    rounds_of = {"r1": "quarterfinal", "r2": "semifinal", "r3": "final", "rx": "third_place"}
     for s in sorted(results, key=lambda x: x["season"]):
         n = s["season"]
         for note in s["notes"]:
@@ -175,10 +176,12 @@ def build(source_dir: Path) -> dict[str, Any]:
             warn("PLAYER_COUNT", f"S{n}: {len(s['players'])} players placed, expected {expected}")
         final = s["bracket"].get("r3m1")
         if not final:
-            warn("FINALS_MISSING", f"S{n}: no grand final result")
+            warn("IN_PROGRESS", f"S{n}: no grand final result yet; the season is exported as in progress")
         for p in s["players"]:
             name = nm(p["player"])
             pl = to_placement(p["placement"])
+            if p.get("provisional"):  # still playing: the range of places still open to them
+                pl["status"] = "provisional"
             placements.append({"player": name, "race": race_of[name], "season": n, "placement": pl,
                                "prizeKrw": p["prizeKrw"]})
         winner, runner = (nm(final["winner"]), nm(final["loser"])) if final else (None, None)
@@ -189,6 +192,8 @@ def build(source_dir: Path) -> dict[str, Any]:
             "finalScore": final["score"] if final else None, "thirdPlaceMatch": s["thirdPlaceMatch"],
             "status": "complete" if final else "in_progress",
             "roundVods": s.get("roundVods", []),
+            "upcoming": [{"round": rounds_of[u["key"][:2]], "players": [
+                {"player": nm(x), "race": race_of.get(nm(x))} for x in u["players"]]} for u in s.get("upcoming", [])],
             "source": {"title": index[f"s{n:02d}"]["title"], "url": index[f"s{n:02d}"]["url"], "revid": index[f"s{n:02d}"]["revid"]},
         })
         def played(m: dict) -> dict:
@@ -200,10 +205,9 @@ def build(source_dir: Path) -> dict[str, Any]:
             for m in g["series"]:
                 series.append({"season": n, "stage": g["stage"], "round": g["title"], "score": None,
                                "winner": nm(m["winner"]), "loser": nm(m["loser"]), **played(m)})
-        rounds = {"r1": "quarterfinal", "r2": "semifinal", "r3": "final", "rx": "third_place"}
         for key in sorted(s["bracket"]):
             m = s["bracket"][key]
-            series.append({"season": n, "stage": "playoffs", "round": rounds[key[:2]], "score": m["score"],
+            series.append({"season": n, "stage": "playoffs", "round": rounds_of[key[:2]], "score": m["score"],
                            "winner": nm(m["winner"]), "loser": nm(m["loser"]), **played(m)})
     for m in series:
         m["winnerRace"], m["loserRace"] = race_of.get(m["winner"]), race_of.get(m["loser"])
@@ -241,14 +245,15 @@ def build(source_dir: Path) -> dict[str, Any]:
         rows = by_player[name]
         best = min(rows, key=lambda r: (r["placement"]["best"], r["placement"]["worst"]))["placement"]
         ranks = [r["placement"]["best"] for r in rows]
+        titles = sum(r["placement"]["best"] == r["placement"]["worst"] == 1 for r in rows)
         stats.append({
             "player": name, "race": race_of[name], "seasons": len(rows), "bestFinish": best,
-            "championships": ranks.count(1), "finals": sum(x <= 2 for x in ranks),
+            "championships": titles, "finals": sum(x <= 2 for x in ranks),
             "semifinalsOrBetter": sum(x <= 4 for x in ranks), "quarterfinalsOrBetter": sum(x <= 8 for x in ranks),
             "prizeKrw": sum(r["prizeKrw"] or 0 for r in rows), "currentElo": round(rating[name], 1),
         })
-        if ranks.count(1) != champs.get(name, 0):
-            warn("PARSE_PROBLEM", f"{name}: {ranks.count(1)} first places but {champs.get(name, 0)} finals won")
+        if titles != champs.get(name, 0):
+            warn("PARSE_PROBLEM", f"{name}: {titles} first places but {champs.get(name, 0)} finals won")
     stats.sort(key=lambda r: (-r["currentElo"], *name_key(r["player"])))
     # Only players who entered an ASL season are listed, in both versions: qualifier opponents
     # move the ratings but have no page on the site.

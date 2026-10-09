@@ -167,35 +167,43 @@
       "runnerUpRace": "T",
       "score": "4-3",
       "season": 21
+    },
+    {
+      "champion": null,
+      "championRace": null,
+      "runnerUp": null,
+      "runnerUpRace": null,
+      "score": null,
+      "season": 22
     }
   ],
   "overall": [
     {
       "championships": 8,
       "finalsAppearances": 17,
-      "participantSeasons": 216,
-      "participantShare": 0.375,
+      "participantSeasons": 226,
+      "participantShare": 0.3742,
       "race": "T",
       "runnerUps": 9,
-      "titleShare": 0.381
+      "titleShare": 0.3636
     },
     {
       "championships": 10,
       "finalsAppearances": 14,
-      "participantSeasons": 186,
-      "participantShare": 0.3229,
+      "participantSeasons": 198,
+      "participantShare": 0.3278,
       "race": "Z",
       "runnerUps": 4,
-      "titleShare": 0.4762
+      "titleShare": 0.4545
     },
     {
       "championships": 3,
       "finalsAppearances": 11,
-      "participantSeasons": 174,
-      "participantShare": 0.3021,
+      "participantSeasons": 180,
+      "participantShare": 0.298,
       "race": "P",
       "runnerUps": 8,
-      "titleShare": 0.1429
+      "titleShare": 0.1364
     }
   ],
   "participantsBySeason": [
@@ -366,58 +374,66 @@
       "season": 21,
       "total": 28,
       "unknown": 0
+    },
+    {
+      "P": 6,
+      "T": 10,
+      "Z": 12,
+      "season": 22,
+      "total": 28,
+      "unknown": 0
     }
   ],
   "seriesByMatchup": {
     "allStages": {
       "crossRace": [
         {
-          "losses": 151,
+          "losses": 162,
           "race": "T",
           "vs": "Z",
-          "winRate": 0.5,
-          "wins": 151
+          "winRate": 0.4938,
+          "wins": 158
         },
         {
-          "losses": 157,
+          "losses": 160,
           "race": "T",
           "vs": "P",
-          "winRate": 0.4549,
-          "wins": 131
+          "winRate": 0.4576,
+          "wins": 135
         },
         {
-          "losses": 151,
+          "losses": 158,
           "race": "Z",
           "vs": "T",
-          "winRate": 0.5,
-          "wins": 151
+          "winRate": 0.5062,
+          "wins": 162
         },
         {
-          "losses": 131,
+          "losses": 134,
           "race": "Z",
           "vs": "P",
-          "winRate": 0.5483,
-          "wins": 159
+          "winRate": 0.5518,
+          "wins": 165
         },
         {
-          "losses": 131,
+          "losses": 135,
           "race": "P",
           "vs": "T",
-          "winRate": 0.5451,
-          "wins": 157
+          "winRate": 0.5424,
+          "wins": 160
         },
         {
-          "losses": 159,
+          "losses": 165,
           "race": "P",
           "vs": "Z",
-          "winRate": 0.4517,
-          "wins": 131
+          "winRate": 0.4482,
+          "wins": 134
         }
       ],
       "mirrors": {
-        "PvP": 73,
-        "TvT": 140,
-        "ZvZ": 96
+        "PvP": 75,
+        "TvT": 146,
+        "ZvZ": 110
       },
       "unknownRace": 0
     },
@@ -476,11 +492,11 @@
     "playoffs": {
       "crossRace": [
         {
-          "losses": 22,
+          "losses": 23,
           "race": "T",
           "vs": "Z",
-          "winRate": 0.5,
-          "wins": 22
+          "winRate": 0.5106,
+          "wins": 24
         },
         {
           "losses": 13,
@@ -490,11 +506,11 @@
           "wins": 20
         },
         {
-          "losses": 22,
+          "losses": 24,
           "race": "Z",
           "vs": "T",
-          "winRate": 0.5,
-          "wins": 22
+          "winRate": 0.4894,
+          "wins": 23
         },
         {
           "losses": 22,
@@ -520,8 +536,8 @@
       ],
       "mirrors": {
         "PvP": 8,
-        "TvT": 14,
-        "ZvZ": 15
+        "TvT": 15,
+        "ZvZ": 17
       },
       "unknownRace": 0
     }

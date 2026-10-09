@@ -5,7 +5,7 @@
 
 
 ## Key thoughts
-A fan-made site for the ASL (StarCraft: Brood War league, S1–S21+) with two halves:
+A fan-made site for the ASL (StarCraft: Brood War league, S1–S22+) with two halves:
 
 1. **Stats** — publishes ASL history built from Liquipedia's season pages (`data/source/liquipedia/`):
    seasons, player placements, ELO, career stats, race matchup stats, every series played.
@@ -68,7 +68,8 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   Derek on 2026-10-07 (alias → canonical): `Snow` → `SnOw` (Jang Yoon-chul), `hero` → `herO`
   (Zerg), `BeSt` → `Best`, `Effort`/`effOrt` → `EffOrt`, `Hyun` → `HyuN`,
   `huro`/`Yoon Soo-chul` → `tulbo` (Protoss), `JD` → `Jaedong` (Zerg). Confirmed by Derek on
-  2026-10-08: `ZerO` → `Queen` (Zerg; Queen is his newer handle). Any **new** case
+  2026-10-08: `ZerO` → `Queen` (Zerg; Queen is his newer handle). Confirmed on 2026-10-09:
+  `IvOry` (as qualifier pages write it) → `ivOry`. Any **new** case
   variant the exporter flags **must not be merged without Derek's confirmation**.
 - **Races** come from Liquipedia, one per player. Confirmed by Derek: `sSak`, `Ample`, `Speed` are
   Terran; `Shine` is Zerg; `tulbo` is Protoss; `Jaedong` is Zerg. Liquipedia gives no race for
@@ -223,6 +224,7 @@ draft → approved → in-progress → implemented
 | `pnpm db:go-live <id>` | Make that user admin and open the ASL S22 final market (idempotent) |
 | `pnpm test:ledger-concurrency` | 50 simultaneous trades against `DATABASE_URL_TEST` (wipes that branch) |
 | `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
+| `pnpm stats:season <n>` | Download one season's page again, for updating a season in progress (network) |
 | `pnpm stats:qualifiers` | Download the qualifier pages into `data/source/liquipedia/qualifiers/` (network, about 5 minutes) |
 | `pnpm stats:vods` | List the English casts on YouTube into `data/source/youtube/videos.json` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |

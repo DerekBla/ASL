@@ -38,6 +38,9 @@ function Match({ match }: { match: BracketMatch }): ReactElement {
     <div className="bracket-match">
       <Side side={match.top} />
       <Side side={match.bottom} />
+      {match.upcoming ? (
+        <div className="px-2 py-1 text-caption text-ink-muted">Not played yet</div>
+      ) : null}
       {maps.length > 0 || match.vod ? (
         // The cast button sits over the top right corner so the map list can use the full width.
         <div className="relative min-h-7 px-2 py-1 text-caption">

@@ -47,7 +47,7 @@ type PlacementValue = {
 };
 
 type Season = {
-  season: number;                // 1..21
+  season: number;                // 1..22
   name: string;                  // as Liquipedia's infobox has it, e.g. "ASL Season 5"
   start: string; end: string;    // ISO dates
   prizePoolKrw: number | null;
@@ -187,3 +187,23 @@ the linked videos that are gone. It is built by `pnpm stats:vods` (`scripts/yout
 which checks each linked video with YouTube's oEmbed endpoint and searches the channel once per
 season and stage. A link to a video that is gone is never exported. Run `pnpm stats:vods` and then
 `pnpm stats:export` after a season ends.
+
+## A season in progress
+
+The newest season may be exported before it ends (Derek, 2026-10-09; S22 was added with its final
+still to play). What changes for that season:
+
+- `status` is `in_progress`, and `winner`, `runnerUp` and `finalScore` are null.
+- `upcoming` lists playoff series that are set but not played: the round and the two players. The
+  season page draws them in the bracket with no score.
+- The players in those series get a **provisional** placement covering the places still open to
+  them (`1st–2nd` for finalists, `1st–4th` for semifinalists), with `status: "provisional"` and no
+  prize. A provisional placement never counts as a championship.
+- ELO counts the games played so far.
+- The export prints an `IN_PROGRESS` note for the season. It is not a problem under `--strict`.
+
+To update: `pnpm stats:season 22`, then `pnpm stats:export`, check the notes, run the tests, deploy.
+Add `pnpm stats:vods 22` for new casts. This has been used with the group stages finished; a season
+caught in the middle of a group stage has not been tried, and its unfinished groups will produce
+notes that need reading before the result is published. A new season also needs its page title
+added to `TITLES` in `scripts/liquipedia/fetch_seasons.py`.

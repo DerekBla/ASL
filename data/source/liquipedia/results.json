@@ -187,6 +187,7 @@
         "vod": null
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -888,6 +889,7 @@
         "vod": "https://www.youtube.com/watch?v=MuhjA_Fv0VI"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -1874,6 +1876,7 @@
         "vod": null
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -2861,6 +2864,7 @@
         "vod": null
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -3848,6 +3852,7 @@
         "vod": "https://www.youtube.com/watch?v=EAWKXw3n7C8"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -4838,6 +4843,7 @@
         "vod": "https://www.youtube.com/watch?v=QCwwyiUvg54"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -5815,6 +5821,7 @@
         "vod": "https://www.youtube.com/watch?v=jFrM0qSWViw"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -6802,6 +6809,7 @@
         "vod": "https://www.youtube.com/watch?v=LNUJUivnPzY"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -8005,6 +8013,7 @@
         "vod": "https://www.youtube.com/watch?v=MTVJy2_Yjp4"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -9064,6 +9073,7 @@
         "vod": "https://www.youtube.com/watch?v=Abq7gWLc2gU"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -10125,6 +10135,7 @@
         "vod": "https://www.youtube.com/watch?v=5eYwe2rOmyk"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -11344,6 +11355,7 @@
         "vod": "https://www.youtube.com/watch?v=ObjBD2Q3E6g"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -12555,6 +12567,7 @@
         "vod": "https://www.youtube.com/watch?v=rhjBZTIST84"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -13782,6 +13795,7 @@
         "vod": "https://www.youtube.com/watch?v=Ff-3dA77Xow"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -14989,6 +15003,7 @@
         "vod": "https://www.youtube.com/watch?v=Xwez26aXo4A"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -16171,6 +16186,7 @@
         "vod": "https://www.youtube.com/watch?v=KwcdXblqYlc"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -17369,6 +17385,7 @@
         "vod": "https://www.youtube.com/watch?v=U90VDu2X-yw"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -18559,6 +18576,7 @@
         "vod": "https://www.youtube.com/watch?v=lnrfZMy6is4"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -19789,6 +19807,7 @@
         "vod": "https://www.youtube.com/watch?v=LuA-zF5D0No"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -20999,6 +21018,7 @@
         "vod": "https://www.youtube.com/watch?v=LqeJOt4-dds"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -22185,6 +22205,7 @@
         "vod": "https://www.youtube.com/watch?v=HIpLl2W2chg"
       }
     },
+    "upcoming": [],
     "roundVods": [],
     "groups": [
       {
@@ -22936,6 +22957,1171 @@
               }
             ],
             "vod": "https://www.youtube.com/watch?v=5mswend4uwE"
+          }
+        ]
+      }
+    ],
+    "prizeByPlace": {
+      "1": 30000000,
+      "2": 10000000,
+      "3-4": 3000000,
+      "5-8": 2000000,
+      "9-12": 1500000,
+      "13-16": 1500000,
+      "17-22": 1000000,
+      "23-28": 1000000
+    },
+    "notes": []
+  },
+  {
+    "season": 22,
+    "name": "ASL Season 22",
+    "start": "2026-08-17",
+    "end": "2026-10-17",
+    "prizePoolKrw": 78000000,
+    "thirdPlaceMatch": false,
+    "players": [
+      {
+        "player": "Rush",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "1st-2nd",
+        "prizeKrw": null,
+        "provisional": true
+      },
+      {
+        "player": "Soulkey",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "1st-2nd",
+        "prizeKrw": null,
+        "provisional": true
+      },
+      {
+        "player": "Light",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "3rd",
+        "prizeKrw": 3000000
+      },
+      {
+        "player": "soma",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "3rd",
+        "prizeKrw": 3000000
+      },
+      {
+        "player": "EffOrt",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "5th-8th",
+        "prizeKrw": 2000000
+      },
+      {
+        "player": "Jaedong",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "5th-8th",
+        "prizeKrw": 2000000
+      },
+      {
+        "player": "Leta",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "5th-8th",
+        "prizeKrw": 2000000
+      },
+      {
+        "player": "Shine",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "5th-8th",
+        "prizeKrw": 2000000
+      },
+      {
+        "player": "Best",
+        "link": null,
+        "race": "P",
+        "raceSource": "other seasons",
+        "placement": "9th-12th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "herO",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "9th-12th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "Queen",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "9th-12th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "SnOw",
+        "link": null,
+        "race": "P",
+        "raceSource": "other seasons",
+        "placement": "9th-12th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "ggaemo",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "13th-16th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "JyJ",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "13th-16th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "Shinee",
+        "link": null,
+        "race": "T",
+        "raceSource": "player page",
+        "placement": "13th-16th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "Shuttle",
+        "link": null,
+        "race": "P",
+        "raceSource": "other seasons",
+        "placement": "13th-16th",
+        "prizeKrw": 1500000
+      },
+      {
+        "player": "Action",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "17th-22nd",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Bisu",
+        "link": null,
+        "race": "P",
+        "raceSource": "other seasons",
+        "placement": "17th-22nd",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Larva",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "17th-22nd",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Mini",
+        "link": null,
+        "race": "P",
+        "raceSource": "other seasons",
+        "placement": "17th-22nd",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Speed",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "17th-22nd",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "sSak",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "17th-22nd",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Calm",
+        "link": null,
+        "race": "Z",
+        "raceSource": "other seasons",
+        "placement": "23rd-28th",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Hm",
+        "link": null,
+        "race": "Z",
+        "raceSource": "player page",
+        "placement": "23rd-28th",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Mong",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "23rd-28th",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Paralyze",
+        "link": null,
+        "race": "P",
+        "raceSource": "player page",
+        "placement": "23rd-28th",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "PianO",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "23rd-28th",
+        "prizeKrw": 1000000
+      },
+      {
+        "player": "Sharp",
+        "link": null,
+        "race": "T",
+        "raceSource": "other seasons",
+        "placement": "23rd-28th",
+        "prizeKrw": 1000000
+      }
+    ],
+    "bracket": {
+      "r1m1": {
+        "winner": "Rush",
+        "loser": "Shine",
+        "score": "3-2",
+        "games": [
+          {
+            "map": "Colorless Fate",
+            "winner": "Shine"
+          },
+          {
+            "map": "Backrooms",
+            "winner": "Shine"
+          },
+          {
+            "map": "Octagon SE",
+            "winner": "Rush"
+          },
+          {
+            "map": "Aiolos",
+            "winner": "Rush"
+          },
+          {
+            "map": "Attitude SE",
+            "winner": "Rush"
+          }
+        ],
+        "vod": "https://www.youtube.com/watch?v=LlBdSzn_aXg"
+      },
+      "r1m2": {
+        "winner": "Light",
+        "loser": "EffOrt",
+        "score": "3-1",
+        "games": [
+          {
+            "map": "Odyssey RE",
+            "winner": "EffOrt"
+          },
+          {
+            "map": "Backrooms",
+            "winner": "Light"
+          },
+          {
+            "map": "Colorless Fate",
+            "winner": "Light"
+          },
+          {
+            "map": "Octagon SE",
+            "winner": "Light"
+          }
+        ],
+        "vod": "https://www.youtube.com/watch?v=WRdXRPI-PAM"
+      },
+      "r1m3": {
+        "winner": "soma",
+        "loser": "Jaedong",
+        "score": "3-1",
+        "games": [
+          {
+            "map": "Attitude SE",
+            "winner": "Jaedong"
+          },
+          {
+            "map": "Backrooms",
+            "winner": "soma"
+          },
+          {
+            "map": "Odyssey RE",
+            "winner": "soma"
+          },
+          {
+            "map": "Octagon SE",
+            "winner": "soma"
+          }
+        ],
+        "vod": "https://www.youtube.com/watch?v=Ny9U-VGPV3M"
+      },
+      "r1m4": {
+        "winner": "Soulkey",
+        "loser": "Leta",
+        "score": "3-0",
+        "games": [
+          {
+            "map": "Backrooms",
+            "winner": "Soulkey"
+          },
+          {
+            "map": "Odyssey RE",
+            "winner": "Soulkey"
+          },
+          {
+            "map": "Colorless Fate",
+            "winner": "Soulkey"
+          }
+        ],
+        "vod": "https://www.youtube.com/watch?v=K1DUbSAuqBY"
+      },
+      "r2m1": {
+        "winner": "Rush",
+        "loser": "Light",
+        "score": "4-2",
+        "games": [
+          {
+            "map": "Attitude SE",
+            "winner": "Rush"
+          },
+          {
+            "map": "Backrooms",
+            "winner": "Light"
+          },
+          {
+            "map": "Odyssey RE",
+            "winner": "Light"
+          },
+          {
+            "map": "Aiolos",
+            "winner": "Rush"
+          },
+          {
+            "map": "Octagon SE",
+            "winner": "Rush"
+          },
+          {
+            "map": "KnockOut",
+            "winner": "Rush"
+          }
+        ],
+        "vod": "https://www.youtube.com/watch?v=Dl6CG5ktXaM"
+      },
+      "r2m2": {
+        "winner": "Soulkey",
+        "loser": "soma",
+        "score": "4-2",
+        "games": [
+          {
+            "map": "Backrooms",
+            "winner": "soma"
+          },
+          {
+            "map": "Attitude SE",
+            "winner": "soma"
+          },
+          {
+            "map": "KnockOut",
+            "winner": "Soulkey"
+          },
+          {
+            "map": "Aiolos",
+            "winner": "Soulkey"
+          },
+          {
+            "map": "Odyssey RE",
+            "winner": "Soulkey"
+          },
+          {
+            "map": "Colorless Fate",
+            "winner": "Soulkey"
+          }
+        ],
+        "vod": "https://www.youtube.com/watch?v=YlZ_S_dS8bY"
+      }
+    },
+    "upcoming": [
+      {
+        "key": "r3m1",
+        "players": [
+          "Rush",
+          "Soulkey"
+        ]
+      }
+    ],
+    "roundVods": [],
+    "groups": [
+      {
+        "stage": "ro24",
+        "title": "Group A",
+        "standing": [
+          "Shuttle",
+          "Rush",
+          "Bisu",
+          "Hm"
+        ],
+        "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM",
+        "series": [
+          {
+            "winner": "Rush",
+            "loser": "Hm",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Rush"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM"
+          },
+          {
+            "winner": "Shuttle",
+            "loser": "Bisu",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Shuttle"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM"
+          },
+          {
+            "winner": "Shuttle",
+            "loser": "Rush",
+            "games": [
+              {
+                "map": "Odyssey RE",
+                "winner": "Shuttle"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM"
+          },
+          {
+            "winner": "Bisu",
+            "loser": "Hm",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "Bisu"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM"
+          },
+          {
+            "winner": "Rush",
+            "loser": "Bisu",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Rush"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM"
+          }
+        ]
+      },
+      {
+        "stage": "ro24",
+        "title": "Group B",
+        "standing": [
+          "Shine",
+          "Shinee",
+          "Action",
+          "Sharp"
+        ],
+        "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A",
+        "series": [
+          {
+            "winner": "Shinee",
+            "loser": "Sharp",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Shinee"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A"
+          },
+          {
+            "winner": "Shine",
+            "loser": "Action",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Shine"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A"
+          },
+          {
+            "winner": "Shine",
+            "loser": "Shinee",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "Shine"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A"
+          },
+          {
+            "winner": "Action",
+            "loser": "Sharp",
+            "games": [
+              {
+                "map": "Odyssey RE",
+                "winner": "Action"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A"
+          },
+          {
+            "winner": "Shinee",
+            "loser": "Action",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Shinee"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A"
+          }
+        ]
+      },
+      {
+        "stage": "ro24",
+        "title": "Group C",
+        "standing": [
+          "Best",
+          "Jaedong",
+          "Speed",
+          "Paralyze"
+        ],
+        "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q",
+        "series": [
+          {
+            "winner": "Best",
+            "loser": "Paralyze",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Best"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q"
+          },
+          {
+            "winner": "Jaedong",
+            "loser": "Speed",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Jaedong"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q"
+          },
+          {
+            "winner": "Best",
+            "loser": "Jaedong",
+            "games": [
+              {
+                "map": "Colorless Fate",
+                "winner": "Best"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q"
+          },
+          {
+            "winner": "Speed",
+            "loser": "Paralyze",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "Speed"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q"
+          },
+          {
+            "winner": "Jaedong",
+            "loser": "Speed",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Jaedong"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q"
+          }
+        ]
+      },
+      {
+        "stage": "ro24",
+        "title": "Group D",
+        "standing": [
+          "ggaemo",
+          "herO",
+          "Larva",
+          "Mong"
+        ],
+        "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo",
+        "series": [
+          {
+            "winner": "ggaemo",
+            "loser": "herO",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "ggaemo"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo"
+          },
+          {
+            "winner": "Larva",
+            "loser": "Mong",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Larva"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo"
+          },
+          {
+            "winner": "ggaemo",
+            "loser": "Larva",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "ggaemo"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo"
+          },
+          {
+            "winner": "herO",
+            "loser": "Mong",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "herO"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo"
+          },
+          {
+            "winner": "herO",
+            "loser": "Larva",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "herO"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo"
+          }
+        ]
+      },
+      {
+        "stage": "ro24",
+        "title": "Group E",
+        "standing": [
+          "Soulkey",
+          "JyJ",
+          "sSak",
+          "PianO"
+        ],
+        "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo",
+        "series": [
+          {
+            "winner": "Soulkey",
+            "loser": "PianO",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Soulkey"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo"
+          },
+          {
+            "winner": "JyJ",
+            "loser": "sSak",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "JyJ"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo"
+          },
+          {
+            "winner": "Soulkey",
+            "loser": "JyJ",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "Soulkey"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo"
+          },
+          {
+            "winner": "sSak",
+            "loser": "PianO",
+            "games": [
+              {
+                "map": "Colorless Fate",
+                "winner": "sSak"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo"
+          },
+          {
+            "winner": "JyJ",
+            "loser": "sSak",
+            "games": [
+              {
+                "map": "Backrooms",
+                "winner": "JyJ"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo"
+          }
+        ]
+      },
+      {
+        "stage": "ro24",
+        "title": "Group F",
+        "standing": [
+          "Queen",
+          "EffOrt",
+          "Mini",
+          "Calm"
+        ],
+        "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o",
+        "series": [
+          {
+            "winner": "Mini",
+            "loser": "Calm",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Mini"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o"
+          },
+          {
+            "winner": "Queen",
+            "loser": "EffOrt",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Queen"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o"
+          },
+          {
+            "winner": "Queen",
+            "loser": "Mini",
+            "games": [
+              {
+                "map": "Colorless Fate",
+                "winner": "Queen"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o"
+          },
+          {
+            "winner": "EffOrt",
+            "loser": "Calm",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "EffOrt"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o"
+          },
+          {
+            "winner": "EffOrt",
+            "loser": "Mini",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "EffOrt"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o"
+          }
+        ]
+      },
+      {
+        "stage": "ro16",
+        "title": "Group A",
+        "standing": [
+          "soma",
+          "Rush",
+          "Best",
+          "Shuttle"
+        ],
+        "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY",
+        "series": [
+          {
+            "winner": "soma",
+            "loser": "Shuttle",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "soma"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY"
+          },
+          {
+            "winner": "Best",
+            "loser": "Rush",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "Best"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY"
+          },
+          {
+            "winner": "soma",
+            "loser": "Best",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "soma"
+              },
+              {
+                "map": "Octagon SE",
+                "winner": "Best"
+              },
+              {
+                "map": "Backrooms",
+                "winner": "soma"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY"
+          },
+          {
+            "winner": "Rush",
+            "loser": "Shuttle",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "Rush"
+              },
+              {
+                "map": "Odyssey RE",
+                "winner": "Shuttle"
+              },
+              {
+                "map": "Octagon SE",
+                "winner": "Rush"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY"
+          },
+          {
+            "winner": "Rush",
+            "loser": "Best",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Rush"
+              },
+              {
+                "map": "KnockOut",
+                "winner": "Rush"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY"
+          }
+        ]
+      },
+      {
+        "stage": "ro16",
+        "title": "Group B",
+        "standing": [
+          "Leta",
+          "Jaedong",
+          "Queen",
+          "ggaemo"
+        ],
+        "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc",
+        "series": [
+          {
+            "winner": "Leta",
+            "loser": "ggaemo",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "Leta"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc"
+          },
+          {
+            "winner": "Queen",
+            "loser": "Jaedong",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "Queen"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc"
+          },
+          {
+            "winner": "Leta",
+            "loser": "Queen",
+            "games": [
+              {
+                "map": "KnockOut",
+                "winner": "Queen"
+              },
+              {
+                "map": "Backrooms",
+                "winner": "Leta"
+              },
+              {
+                "map": "Attitude SE",
+                "winner": "Leta"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc"
+          },
+          {
+            "winner": "Jaedong",
+            "loser": "ggaemo",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Jaedong"
+              },
+              {
+                "map": "KnockOut",
+                "winner": "Jaedong"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc"
+          },
+          {
+            "winner": "Jaedong",
+            "loser": "Queen",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Jaedong"
+              },
+              {
+                "map": "Colorless Fate",
+                "winner": "Jaedong"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc"
+          }
+        ]
+      },
+      {
+        "stage": "ro16",
+        "title": "Group C",
+        "standing": [
+          "Light",
+          "Soulkey",
+          "herO",
+          "JyJ"
+        ],
+        "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA",
+        "series": [
+          {
+            "winner": "Light",
+            "loser": "JyJ",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "Light"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA"
+          },
+          {
+            "winner": "herO",
+            "loser": "Soulkey",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "herO"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA"
+          },
+          {
+            "winner": "Light",
+            "loser": "herO",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "herO"
+              },
+              {
+                "map": "KnockOut",
+                "winner": "Light"
+              },
+              {
+                "map": "Backrooms",
+                "winner": "Light"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA"
+          },
+          {
+            "winner": "Soulkey",
+            "loser": "JyJ",
+            "games": [
+              {
+                "map": "Attitude SE",
+                "winner": "Soulkey"
+              },
+              {
+                "map": "Backrooms",
+                "winner": "Soulkey"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA"
+          },
+          {
+            "winner": "Soulkey",
+            "loser": "herO",
+            "games": [
+              {
+                "map": "Colorless Fate",
+                "winner": "Soulkey"
+              },
+              {
+                "map": "KnockOut",
+                "winner": "Soulkey"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA"
+          }
+        ]
+      },
+      {
+        "stage": "ro16",
+        "title": "Group D",
+        "standing": [
+          "Shine",
+          "EffOrt",
+          "SnOw",
+          "Shinee"
+        ],
+        "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk",
+        "series": [
+          {
+            "winner": "SnOw",
+            "loser": "Shinee",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "SnOw"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk"
+          },
+          {
+            "winner": "Shine",
+            "loser": "EffOrt",
+            "games": [
+              {
+                "map": "Aiolos",
+                "winner": "Shine"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk"
+          },
+          {
+            "winner": "Shine",
+            "loser": "SnOw",
+            "games": [
+              {
+                "map": "Octagon SE",
+                "winner": "Shine"
+              },
+              {
+                "map": "Colorless Fate",
+                "winner": "Shine"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk"
+          },
+          {
+            "winner": "EffOrt",
+            "loser": "Shinee",
+            "games": [
+              {
+                "map": "Colorless Fate",
+                "winner": "EffOrt"
+              },
+              {
+                "map": "Backrooms",
+                "winner": "EffOrt"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk"
+          },
+          {
+            "winner": "EffOrt",
+            "loser": "SnOw",
+            "games": [
+              {
+                "map": "Backrooms",
+                "winner": "EffOrt"
+              },
+              {
+                "map": "Colorless Fate",
+                "winner": "EffOrt"
+              }
+            ],
+            "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk"
           }
         ]
       }

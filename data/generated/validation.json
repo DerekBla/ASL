@@ -24,7 +24,7 @@
     "message": "S10: race counts {'Z': 11, 'T': 9, 'P': 8} differ from infobox {'T': 8, 'Z': 11, 'P': 8}"
   },
   {
-    "code": "QUALIFIER_NAME_VARIANT",
-    "message": "qualifier pages write 'IvOry'; not counted as 'ivOry'"
+    "code": "IN_PROGRESS",
+    "message": "S22: no grand final result yet; the season is exported as in progress"
   }
 ]

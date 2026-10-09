@@ -184,7 +184,26 @@ class RealSeasonTests(unittest.TestCase):
         return {p["player"]: p["placement"] for p in self.seasons[n]["players"]}
 
     def test_player_counts(self):
-        self.assertEqual({n: len(s["players"]) for n, s in self.seasons.items()}, {1: 16, **{n: 28 for n in range(2, 22)}})
+        self.assertEqual({n: len(s["players"]) for n, s in self.seasons.items()}, {1: 16, **{n: 28 for n in range(2, len(self.seasons) + 1)}})
+
+    def test_a_season_in_progress_keeps_its_finalists_open(self):
+        text = (ps.SRC / "s21.wiki").read_text(encoding="utf-8")
+        start = text.index("|R3M1={{Match")
+        end = text.index("\n}}", start)
+        # Season 21 again, as its page stood before the final was played.
+        unplayed = "|R3M1={{Match\n\t|opponent1={{1Opponent|soma}}\n\t|opponent2={{1Opponent|Flash}}\n\t|map1={{Map|winner=|map=}}"
+        s = ps.parse_season(21, text[:start] + unplayed + text[end:])
+        self.assertEqual(s["upcoming"], [{"key": "r3m1", "players": ["soma", "Flash"]}])
+        self.assertNotIn("r3m1", s["bracket"])
+        by_name = {p["player"]: p for p in s["players"]}
+        for name in ("soma", "Flash"):
+            self.assertEqual(by_name[name]["placement"], "1st-2nd")
+            self.assertTrue(by_name[name]["provisional"])
+            self.assertIsNone(by_name[name]["prizeKrw"])
+        self.assertEqual(by_name["Light"]["placement"], "3rd")
+        self.assertEqual(len(s["players"]), 28)
+        self.assertFalse([n for n in s["notes"] if "R3M1" in n])
+        self.assertEqual(self.seasons[21]["upcoming"], [])
 
     def test_spellings_and_renames_resolve_to_one_player(self):
         self.assertEqual(self.identities["Best"], ["BeSt"])

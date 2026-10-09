@@ -142,6 +142,11 @@
   },
   {
     "aliases": [],
+    "player": "Hm",
+    "race": "Z"
+  },
+  {
+    "aliases": [],
     "player": "Horang2",
     "race": "P"
   },
@@ -164,6 +169,7 @@
   },
   {
     "aliases": [
+      "IvOry",
       "ivOry 인치호"
     ],
     "player": "ivOry",
@@ -274,7 +280,9 @@
     "race": "P"
   },
   {
-    "aliases": [],
+    "aliases": [
+      "Organ"
+    ],
     "player": "PianO",
     "race": "T"
   },
@@ -352,6 +360,11 @@
     "aliases": [],
     "player": "Shine",
     "race": "Z"
+  },
+  {
+    "aliases": [],
+    "player": "Shinee",
+    "race": "T"
   },
   {
     "aliases": [],

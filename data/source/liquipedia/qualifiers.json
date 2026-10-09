@@ -478,5 +478,45 @@
     "timestamp": "2026-09-20T08:54:14Z",
     "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/SEASON_OPEN/2/Qualifier",
     "license": "CC-BY-SA 3.0"
+  },
+  "s22-01": {
+    "season": 22,
+    "title": "ASL/22/Qualifier/Day 1",
+    "revid": 540725,
+    "timestamp": "2026-09-29T15:15:21Z",
+    "url": "https://liquipedia.net/starcraft/ASL/22/Qualifier/Day_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s22-02": {
+    "season": 22,
+    "title": "ASL/22/Qualifier/Day 2",
+    "revid": 540279,
+    "timestamp": "2026-09-22T02:51:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/22/Qualifier/Day_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s22-03": {
+    "season": 22,
+    "title": "ASL/22/Qualifier/SEASON OPEN/1",
+    "revid": 539926,
+    "timestamp": "2026-09-20T09:29:14Z",
+    "url": "https://liquipedia.net/starcraft/ASL/22/Qualifier/SEASON_OPEN/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s22-04": {
+    "season": 22,
+    "title": "ASL/22/Qualifier/SEASON OPEN/2",
+    "revid": 539927,
+    "timestamp": "2026-09-20T09:29:44Z",
+    "url": "https://liquipedia.net/starcraft/ASL/22/Qualifier/SEASON_OPEN/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s22-05": {
+    "season": 22,
+    "title": "ASL/22/Qualifier/Wild Card",
+    "revid": 539922,
+    "timestamp": "2026-09-20T09:27:14Z",
+    "url": "https://liquipedia.net/starcraft/ASL/22/Qualifier/Wild_Card",
+    "license": "CC-BY-SA 3.0"
   }
 }

@@ -22083,5 +22083,1109 @@
     "vod": "https://www.youtube.com/watch?v=HIpLl2W2chg",
     "winner": "soma",
     "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Rush"
+      }
+    ],
+    "loser": "Hm",
+    "loserRace": "Z",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM",
+    "winner": "Rush",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Shuttle"
+      }
+    ],
+    "loser": "Bisu",
+    "loserRace": "P",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM",
+    "winner": "Shuttle",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "Odyssey RE",
+        "winner": "Shuttle"
+      }
+    ],
+    "loser": "Rush",
+    "loserRace": "T",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM",
+    "winner": "Shuttle",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Bisu"
+      }
+    ],
+    "loser": "Hm",
+    "loserRace": "Z",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM",
+    "winner": "Bisu",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Rush"
+      }
+    ],
+    "loser": "Bisu",
+    "loserRace": "P",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=7S4aTmFDqVM",
+    "winner": "Rush",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Shinee"
+      }
+    ],
+    "loser": "Sharp",
+    "loserRace": "T",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A",
+    "winner": "Shinee",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Shine"
+      }
+    ],
+    "loser": "Action",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A",
+    "winner": "Shine",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Shine"
+      }
+    ],
+    "loser": "Shinee",
+    "loserRace": "T",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A",
+    "winner": "Shine",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Odyssey RE",
+        "winner": "Action"
+      }
+    ],
+    "loser": "Sharp",
+    "loserRace": "T",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A",
+    "winner": "Action",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Shinee"
+      }
+    ],
+    "loser": "Action",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=51Qguzi1G7A",
+    "winner": "Shinee",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Best"
+      }
+    ],
+    "loser": "Paralyze",
+    "loserRace": "P",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q",
+    "winner": "Best",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Jaedong"
+      }
+    ],
+    "loser": "Speed",
+    "loserRace": "T",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q",
+    "winner": "Jaedong",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Colorless Fate",
+        "winner": "Best"
+      }
+    ],
+    "loser": "Jaedong",
+    "loserRace": "Z",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q",
+    "winner": "Best",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Speed"
+      }
+    ],
+    "loser": "Paralyze",
+    "loserRace": "P",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q",
+    "winner": "Speed",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Jaedong"
+      }
+    ],
+    "loser": "Speed",
+    "loserRace": "T",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=ayJSDUWbT_Q",
+    "winner": "Jaedong",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "ggaemo"
+      }
+    ],
+    "loser": "herO",
+    "loserRace": "Z",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo",
+    "winner": "ggaemo",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Larva"
+      }
+    ],
+    "loser": "Mong",
+    "loserRace": "T",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo",
+    "winner": "Larva",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "ggaemo"
+      }
+    ],
+    "loser": "Larva",
+    "loserRace": "Z",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo",
+    "winner": "ggaemo",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "herO"
+      }
+    ],
+    "loser": "Mong",
+    "loserRace": "T",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo",
+    "winner": "herO",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "herO"
+      }
+    ],
+    "loser": "Larva",
+    "loserRace": "Z",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=0Qg-cLpwCBo",
+    "winner": "herO",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Soulkey"
+      }
+    ],
+    "loser": "PianO",
+    "loserRace": "T",
+    "round": "Group E",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo",
+    "winner": "Soulkey",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "JyJ"
+      }
+    ],
+    "loser": "sSak",
+    "loserRace": "T",
+    "round": "Group E",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo",
+    "winner": "JyJ",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Soulkey"
+      }
+    ],
+    "loser": "JyJ",
+    "loserRace": "T",
+    "round": "Group E",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo",
+    "winner": "Soulkey",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Colorless Fate",
+        "winner": "sSak"
+      }
+    ],
+    "loser": "PianO",
+    "loserRace": "T",
+    "round": "Group E",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo",
+    "winner": "sSak",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Backrooms",
+        "winner": "JyJ"
+      }
+    ],
+    "loser": "sSak",
+    "loserRace": "T",
+    "round": "Group E",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=suR3QCh1Guo",
+    "winner": "JyJ",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Mini"
+      }
+    ],
+    "loser": "Calm",
+    "loserRace": "Z",
+    "round": "Group F",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o",
+    "winner": "Mini",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Queen"
+      }
+    ],
+    "loser": "EffOrt",
+    "loserRace": "Z",
+    "round": "Group F",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o",
+    "winner": "Queen",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Colorless Fate",
+        "winner": "Queen"
+      }
+    ],
+    "loser": "Mini",
+    "loserRace": "P",
+    "round": "Group F",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o",
+    "winner": "Queen",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "EffOrt"
+      }
+    ],
+    "loser": "Calm",
+    "loserRace": "Z",
+    "round": "Group F",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o",
+    "winner": "EffOrt",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "EffOrt"
+      }
+    ],
+    "loser": "Mini",
+    "loserRace": "P",
+    "round": "Group F",
+    "score": null,
+    "season": 22,
+    "stage": "ro24",
+    "vod": "https://www.youtube.com/watch?v=a7MJWzHmZ9o",
+    "winner": "EffOrt",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "soma"
+      }
+    ],
+    "loser": "Shuttle",
+    "loserRace": "P",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY",
+    "winner": "soma",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "Best"
+      }
+    ],
+    "loser": "Rush",
+    "loserRace": "T",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY",
+    "winner": "Best",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "soma"
+      },
+      {
+        "map": "Octagon SE",
+        "winner": "Best"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "soma"
+      }
+    ],
+    "loser": "Best",
+    "loserRace": "P",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY",
+    "winner": "soma",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Rush"
+      },
+      {
+        "map": "Odyssey RE",
+        "winner": "Shuttle"
+      },
+      {
+        "map": "Octagon SE",
+        "winner": "Rush"
+      }
+    ],
+    "loser": "Shuttle",
+    "loserRace": "P",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY",
+    "winner": "Rush",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Rush"
+      },
+      {
+        "map": "KnockOut",
+        "winner": "Rush"
+      }
+    ],
+    "loser": "Best",
+    "loserRace": "P",
+    "round": "Group A",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=-PCYSmVEheY",
+    "winner": "Rush",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "Leta"
+      }
+    ],
+    "loser": "ggaemo",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc",
+    "winner": "Leta",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "Queen"
+      }
+    ],
+    "loser": "Jaedong",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc",
+    "winner": "Queen",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "KnockOut",
+        "winner": "Queen"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "Leta"
+      },
+      {
+        "map": "Attitude SE",
+        "winner": "Leta"
+      }
+    ],
+    "loser": "Queen",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc",
+    "winner": "Leta",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Jaedong"
+      },
+      {
+        "map": "KnockOut",
+        "winner": "Jaedong"
+      }
+    ],
+    "loser": "ggaemo",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc",
+    "winner": "Jaedong",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Jaedong"
+      },
+      {
+        "map": "Colorless Fate",
+        "winner": "Jaedong"
+      }
+    ],
+    "loser": "Queen",
+    "loserRace": "Z",
+    "round": "Group B",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=1YwtzqF3tLc",
+    "winner": "Jaedong",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "Light"
+      }
+    ],
+    "loser": "JyJ",
+    "loserRace": "T",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA",
+    "winner": "Light",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "herO"
+      }
+    ],
+    "loser": "Soulkey",
+    "loserRace": "Z",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA",
+    "winner": "herO",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "herO"
+      },
+      {
+        "map": "KnockOut",
+        "winner": "Light"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "Light"
+      }
+    ],
+    "loser": "herO",
+    "loserRace": "Z",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA",
+    "winner": "Light",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "Soulkey"
+      }
+    ],
+    "loser": "JyJ",
+    "loserRace": "T",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA",
+    "winner": "Soulkey",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Colorless Fate",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "KnockOut",
+        "winner": "Soulkey"
+      }
+    ],
+    "loser": "herO",
+    "loserRace": "Z",
+    "round": "Group C",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=NPFzTtJaYiA",
+    "winner": "Soulkey",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "SnOw"
+      }
+    ],
+    "loser": "Shinee",
+    "loserRace": "T",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk",
+    "winner": "SnOw",
+    "winnerRace": "P"
+  },
+  {
+    "games": [
+      {
+        "map": "Aiolos",
+        "winner": "Shine"
+      }
+    ],
+    "loser": "EffOrt",
+    "loserRace": "Z",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk",
+    "winner": "Shine",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Octagon SE",
+        "winner": "Shine"
+      },
+      {
+        "map": "Colorless Fate",
+        "winner": "Shine"
+      }
+    ],
+    "loser": "SnOw",
+    "loserRace": "P",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk",
+    "winner": "Shine",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Colorless Fate",
+        "winner": "EffOrt"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "EffOrt"
+      }
+    ],
+    "loser": "Shinee",
+    "loserRace": "T",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk",
+    "winner": "EffOrt",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Backrooms",
+        "winner": "EffOrt"
+      },
+      {
+        "map": "Colorless Fate",
+        "winner": "EffOrt"
+      }
+    ],
+    "loser": "SnOw",
+    "loserRace": "P",
+    "round": "Group D",
+    "score": null,
+    "season": 22,
+    "stage": "ro16",
+    "vod": "https://www.youtube.com/watch?v=mn8MN4AwlHk",
+    "winner": "EffOrt",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Colorless Fate",
+        "winner": "Shine"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "Shine"
+      },
+      {
+        "map": "Octagon SE",
+        "winner": "Rush"
+      },
+      {
+        "map": "Aiolos",
+        "winner": "Rush"
+      },
+      {
+        "map": "Attitude SE",
+        "winner": "Rush"
+      }
+    ],
+    "loser": "Shine",
+    "loserRace": "Z",
+    "round": "quarterfinal",
+    "score": "3-2",
+    "season": 22,
+    "stage": "playoffs",
+    "vod": "https://www.youtube.com/watch?v=LlBdSzn_aXg",
+    "winner": "Rush",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Odyssey RE",
+        "winner": "EffOrt"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "Light"
+      },
+      {
+        "map": "Colorless Fate",
+        "winner": "Light"
+      },
+      {
+        "map": "Octagon SE",
+        "winner": "Light"
+      }
+    ],
+    "loser": "EffOrt",
+    "loserRace": "Z",
+    "round": "quarterfinal",
+    "score": "3-1",
+    "season": 22,
+    "stage": "playoffs",
+    "vod": "https://www.youtube.com/watch?v=WRdXRPI-PAM",
+    "winner": "Light",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Jaedong"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "soma"
+      },
+      {
+        "map": "Odyssey RE",
+        "winner": "soma"
+      },
+      {
+        "map": "Octagon SE",
+        "winner": "soma"
+      }
+    ],
+    "loser": "Jaedong",
+    "loserRace": "Z",
+    "round": "quarterfinal",
+    "score": "3-1",
+    "season": 22,
+    "stage": "playoffs",
+    "vod": "https://www.youtube.com/watch?v=Ny9U-VGPV3M",
+    "winner": "soma",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Backrooms",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "Odyssey RE",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "Colorless Fate",
+        "winner": "Soulkey"
+      }
+    ],
+    "loser": "Leta",
+    "loserRace": "T",
+    "round": "quarterfinal",
+    "score": "3-0",
+    "season": 22,
+    "stage": "playoffs",
+    "vod": "https://www.youtube.com/watch?v=K1DUbSAuqBY",
+    "winner": "Soulkey",
+    "winnerRace": "Z"
+  },
+  {
+    "games": [
+      {
+        "map": "Attitude SE",
+        "winner": "Rush"
+      },
+      {
+        "map": "Backrooms",
+        "winner": "Light"
+      },
+      {
+        "map": "Odyssey RE",
+        "winner": "Light"
+      },
+      {
+        "map": "Aiolos",
+        "winner": "Rush"
+      },
+      {
+        "map": "Octagon SE",
+        "winner": "Rush"
+      },
+      {
+        "map": "KnockOut",
+        "winner": "Rush"
+      }
+    ],
+    "loser": "Light",
+    "loserRace": "T",
+    "round": "semifinal",
+    "score": "4-2",
+    "season": 22,
+    "stage": "playoffs",
+    "vod": "https://www.youtube.com/watch?v=Dl6CG5ktXaM",
+    "winner": "Rush",
+    "winnerRace": "T"
+  },
+  {
+    "games": [
+      {
+        "map": "Backrooms",
+        "winner": "soma"
+      },
+      {
+        "map": "Attitude SE",
+        "winner": "soma"
+      },
+      {
+        "map": "KnockOut",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "Aiolos",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "Odyssey RE",
+        "winner": "Soulkey"
+      },
+      {
+        "map": "Colorless Fate",
+        "winner": "Soulkey"
+      }
+    ],
+    "loser": "soma",
+    "loserRace": "Z",
+    "round": "semifinal",
+    "score": "4-2",
+    "season": 22,
+    "stage": "playoffs",
+    "vod": "https://www.youtube.com/watch?v=YlZ_S_dS8bY",
+    "winner": "Soulkey",
+    "winnerRace": "Z"
   }
 ]

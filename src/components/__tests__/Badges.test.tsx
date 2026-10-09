@@ -30,6 +30,15 @@ describe("RaceBadge", () => {
 });
 
 describe("PlacementBadge", () => {
+  it("keeps gold for a title: a finalist still to play is not a champion", () => {
+    render(
+      <PlacementBadge placement={{ label: "1st–2nd", best: 1, worst: 2, status: "provisional" }} />,
+    );
+    const badge = screen.getByText("1st–2nd");
+    expect(badge).not.toHaveClass("bg-medal-gold");
+    expect(badge).toHaveAttribute("title", "Still playing this season");
+  });
+
   it("shows the label it is given", () => {
     render(<PlacementBadge placement={{ label: "9th–12th", best: 9, worst: 12 }} />);
     expect(screen.getByText("9th–12th")).toBeInTheDocument();

@@ -197,6 +197,12 @@
     "race": "T",
     "isPlayerPage": true
   },
+  "Hm": {
+    "page": "Hm",
+    "id": "Hm",
+    "race": "Z",
+    "isPlayerPage": true
+  },
   "Horang2": {
     "page": "Horang2",
     "id": "Horang2",
@@ -365,6 +371,12 @@
     "race": "P",
     "isPlayerPage": true
   },
+  "Organ": {
+    "page": "PianO",
+    "id": "PianO",
+    "race": "T",
+    "isPlayerPage": true
+  },
   "Paralyze": {
     "page": "Paralyze",
     "id": "Paralyze",
@@ -465,6 +477,12 @@
     "page": "Shine",
     "id": "Shine",
     "race": "Z",
+    "isPlayerPage": true
+  },
+  "Shinee": {
+    "page": "Shinee",
+    "id": "Shinee",
+    "race": "T",
     "isPlayerPage": true
   },
   "Shuttle": {

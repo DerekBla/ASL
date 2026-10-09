@@ -1,0 +1,500 @@
+{{DISPLAYTITLE:ASL S22 SEASON OPEN Day 2}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/22/Tabs}}
+{{Infobox league
+|name=ASL S22 SEASON OPEN Day 2
+|series=
+|abbreviation=
+|image=ASL season_open lightmode.png
+|imagedark=ASL season open darkmode.png
+|icon=ASL 2026 icon lightmode.png
+|icondark=ASL 2026 icon darkmode.png
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|venue=
+|localcurrency=KRW
+|prizepool=1,000,000
+|date=2026-07-25
+|liquipediatier=2
+|afreeca=afstar1
+|bracket=https://esports.sooplive.com/gggl/tournament/afstar1/2615/table
+|web=https://www.sooplive.com/station/afstar1/post/200879527
+|web2= 
+|player_number=68
+|protoss_number=18
+|terran_number=20
+|zerg_number=30
+|map1=Aiolos
+|map2=Attitude SE
+|map3=Backrooms
+|map4=Colorless Fate
+|map5=KnockOut
+|map6=Octagon SE
+|map7=Odyssey RE
+|previous=ASL/21/Qualifier/OPEN/2{{!}}ASL 21 OPEN Day 2
+|next=
+}}
+
+==Overview==
+The '''ASL S22 SEASON OPEN Day 2'''  (Korean: [ASL 시즌22] 시즌오픈  ) is an online tournament organized by SOOP.
+
+==Format==
+*'''Qualifiers'''
+**4 Single-elimination brackets.
+**Finals of each bracket advances to the Main Event.
+*'''Main Event'''
+**Single-elimination bracket.
+**Quarterfinals are {{Abbr/Bo1}}. Semifinals and Grand Finals are {{Abbr/Bo3}}.
+
+===Maps===
+{{MapPoolTable}}
+
+==Prize Pool==
+The Prize pool of ₩1,000,000 will be distributed as follows:
+{{SoloPrizePool|localcurrency=KRW|qualifies1=ASL/22
+|{{Slot|place=1|localprize=1,000,000|qualified1=yes}}
+|{{Slot|place=2|localprize=}}
+}}
+
+==Participants==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection
+|815		|p1link=815 (Player)
+|Shuttle	|p2link=Shuttle (Player)
+|Queen		|p3link=Queen (Player)
+|Probe 유성민|p4flag=kr|p4race=p
+|홍광민|p5flag=kr|p5race=z
+|안정환|p6flag=kr|p6race=z
+|김용환|p7flag=kr|p7race=z
+|박재현|p8flag=kr|p8race=p
+|sAi 선우도현|p9flag=kr|p9race=z
+|BCM 배창민|p10flag=kr|p10race=t
+|Judge 박현선|p11flag=kr|p11race=z
+|유병훈|p12flag=kr|p12race=p
+|전태진|p13flag=kr|p13race=p
+|황원섭|p14flag=kr|p14race=t
+|허유|p15flag=kr|p15race=p
+|SEXXYZERG 박하악|p16flag=kr|p16race=z
+|차종환|p17flag=kr|p17race=t
+|손장락|p18flag=kr|p18race=p
+|이상조|p19flag=kr|p19race=z
+|이준혁|p20flag=kr|p20race=t
+|김근형|p21flag=kr|p21race=z
+|이현빈|p22flag=kr|p22race=z
+|김수현|p23flag=kr|p23race=p
+|Overclass 조덕제|p24flag=kr|p24race=z
+|정규만|p25flag=kr|p25race=t
+|이경재|p26flag=kr|p26race=p
+|고한민|p27flag=kr|p27race=z
+|Paralyze
+|sSak
+|Ample
+|Action
+|Best
+|BishOp
+|Vm
+|BarrackS
+|Calm
+|Dewalt
+|effOrt
+|free
+|GoRush
+|hero
+|Speed
+|Hm
+|JD
+|Mini
+|Organ
+|RoyaL
+|Rush
+|Saber
+|Sacsri
+|Scan
+|Sharp
+|Skey
+|KOp
+|Stork
+|ByuL
+|Bale
+|ggaemo
+|Absolute
+|BTS
+|Shinee
+|huro
+|Mong
+|n.Die_soO
+|IrOn
+|Horang2
+|Soulkey
+|Shine
+}}
+}}
+
+==Results==
+==={{Stage|Preliminary round}}===
+{{tabs dynamic
+|name1=Group A
+|name2=Group B
+|name3=Group C
+|name4=Group D
+|content1=
+{{bracket|Bracket/4L2DH4LS-1Q-2L1DH2LH4L-1Q|id=asl22op201
+<!-- -->
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|Probe 유성민|score=0}}
+	|opponent2={{1v1Opponent|홍광민|score=1}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|안정환|score=0}}
+	|opponent2={{1v1Opponent|KOp|score=1}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|김용환|score=1}}
+	|opponent2={{1v1Opponent|박재현|score=0}}
+}}
+
+<!-- -->
+|R2M1={{Match
+	|opponent1={{1v1Opponent|홍광민|score=0}}
+	|opponent2={{1v1Opponent|JD|score=1}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|sAi 선우도현|score=1}}
+	|opponent2={{1v1Opponent|free|score=0}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|KOp|score=0}}
+	|opponent2={{1v1Opponent|Sacsri|score=1}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|BCM 배창민|score=0}}
+	|opponent2={{1v1Opponent|BTS|score=1}}
+}}
+|R2M5={{Match
+	|opponent1={{1v1Opponent|김용환|score=0}}
+	|opponent2={{1v1Opponent|Scan|score=1}}
+}}
+|R2M6={{Match
+	|opponent1={{1v1Opponent|Judge 박현선|score=1}}
+	|opponent2={{1v1Opponent|815|score=0}}
+}}
+|R2M7={{Match
+	|opponent1={{1v1Opponent|유병훈|score=0}}
+	|opponent2={{1v1Opponent|Mini|score=1}}
+}}
+|R2M8={{Match
+	|opponent1={{1v1Opponent|전태진|score=0}}
+	|opponent2={{1v1Opponent|Sharp|score=1}}
+}}
+
+<!-- -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|JD|score=1}}
+	|opponent2={{1v1Opponent|sAi 선우도현|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Sacsri|score=0}}
+	|opponent2={{1v1Opponent|BTS|score=1}}
+}}
+|R3M3={{Match
+	|opponent1={{1v1Opponent|Scan|score=0}}
+	|opponent2={{1v1Opponent|Judge 박현선|score=1}}
+}}
+|R3M4={{Match
+	|opponent1={{1v1Opponent|Mini|score=1}}
+	|opponent2={{1v1Opponent|Sharp|score=0}}
+}}
+
+<!-- -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|JD|score=0}}
+	|opponent2={{1v1Opponent|BTS|score=1}}
+}}
+|R4M2={{Match
+	|opponent1={{1v1Opponent|Judge 박현선|score=0}}
+	|opponent2={{1v1Opponent|Mini|score=1}}
+}}
+}}
+*[https://esports.sooplive.com/gggl/tournament/afstar1/2615/table Group A Bracket]
+|content2=
+{{bracket|Bracket/8-1Q-4H2L1DL-1Q|id=asl22op202
+<!-- -->
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|Mong|score=0}}
+	|opponent2={{1v1Opponent|Skey|score=1}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Bale|score=1}}
+	|opponent2={{1v1Opponent|Action|score=0}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|황원섭|score=0}}
+	|opponent2={{1v1Opponent|GoRush|score=1}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Paralyze|score=1}}
+	|opponent2={{1v1Opponent|Speed|score=0}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|허유|score=0}}
+	|opponent2={{1v1Opponent|huro|score=1}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|SEXXYZERG 박하악|score=0}}
+	|opponent2={{1v1Opponent|Calm|score=1}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Saber|score=1}}
+	|opponent2={{1v1Opponent|차종환|score=0}}
+}}
+
+<!-- -->
+|R2M1={{Match
+	|opponent1={{1v1Opponent|Skey|score=1}}
+	|opponent2={{1v1Opponent|Bale|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|GoRush|score=0}}
+	|opponent2={{1v1Opponent|Paralyze|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|huro|score=1}}
+	|opponent2={{1v1Opponent|Calm|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Saber|score=0}}
+	|opponent2={{1v1Opponent|effOrt|score=1}}
+}}
+
+<!-- -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Skey|score=0}}
+	|opponent2={{1v1Opponent|Paralyze|score=1}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|huro|score=0}}
+	|opponent2={{1v1Opponent|effOrt|score=1}}
+}}
+}}
+*[https://esports.sooplive.com/gggl/tournament/afstar1/2615/table Group B Bracket]
+|content3=	
+{{bracket|Bracket/4H2L1DL-1Q-4L2DS-1Q|id=asl22op203
+<!-- -->
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|n.Die_soO|score=1}}
+	|opponent2={{1v1Opponent|Dewalt|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Absolute|score=0}}
+	|opponent2={{1v1Opponent|RoyaL|score=1}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|BishOp|score=1}}
+	|opponent2={{1v1Opponent|손장락|score=0}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|이상조|score=0}}
+	|opponent2={{1v1Opponent|sSak|score=1}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|이준혁|score=0}}
+	|opponent2={{1v1Opponent|Organ|score=1}}
+}}
+
+<!-- -->
+|R2M1={{Match
+	|opponent1={{1v1Opponent|n.Die_soO|score=0}}
+	|opponent2={{1v1Opponent|RoyaL|score=1}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|BishOp|score=0}}
+	|opponent2={{1v1Opponent|Soulkey|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|sSak|score=1}}
+	|opponent2={{1v1Opponent|Stork|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Organ|score=0}}
+	|opponent2={{1v1Opponent|hero|score=1}}
+}}
+
+<!-- -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|RoyaL|score=0}}
+	|opponent2={{1v1Opponent|Soulkey|score=1}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|sSak|score=1}}
+	|opponent2={{1v1Opponent|hero|score=0}}
+}}
+}}
+*[https://esports.sooplive.com/gggl/tournament/afstar1/2615/table Group C Bracket]
+|content4=
+{{bracket|Bracket/4L2DSH2L1DH2LL-1Q-4L2DH4LS-1Q|id=asl22op204
+<!-- -->
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|김근형|score=0}}
+	|opponent2={{1v1Opponent|Hm|score=1}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|ByuL|score=0}}
+	|opponent2={{1v1Opponent|Horang2|score=1}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|IrOn|score=1}}
+	|opponent2={{1v1Opponent|이현빈|score=0}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|ggaemo|score=1}}
+	|opponent2={{1v1Opponent|Vm|score=0}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|김수현|score=0}}
+	|opponent2={{1v1Opponent|Overclass 조덕제|score=1}}
+}}
+
+<!-- -->
+|R2M1={{Match
+	|opponent1={{1v1Opponent|Hm|score=1}}
+	|opponent2={{1v1Opponent|Best|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Horang2|score=0}}
+	|opponent2={{1v1Opponent|BarrackS|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|IrOn|score=0}}
+	|opponent2={{1v1Opponent|Ample|score=1}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Shuttle|score=1}}
+	|opponent2={{1v1Opponent|정규만|score=0}}
+}}
+|R2M5={{Match
+	|opponent1={{1v1Opponent|ggaemo|score=0}}
+	|opponent2={{1v1Opponent|Shine|score=1}}
+}}
+|R2M6={{Match
+	|opponent1={{1v1Opponent|이경재|score=0}}
+	|opponent2={{1v1Opponent|Rush|score=1}}
+}}
+|R2M7={{Match
+	|opponent1={{1v1Opponent|Overclass 조덕제|score=0}}
+	|opponent2={{1v1Opponent|Queen|score=1}}
+}}
+|R2M8={{Match
+	|opponent1={{1v1Opponent|고한민|score=0}}
+	|opponent2={{1v1Opponent|Shinee|score=1}}
+}}
+
+<!-- -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Hm|score=0}}
+	|opponent2={{1v1Opponent|BarrackS|score=1}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Ample|score=1}}
+	|opponent2={{1v1Opponent|Shuttle|score=0}}
+}}
+|R3M3={{Match
+	|opponent1={{1v1Opponent|Shine|score=0}}
+	|opponent2={{1v1Opponent|Rush|score=1}}
+}}
+|R3M4={{Match
+	|opponent1={{1v1Opponent|Queen|score=1}}
+	|opponent2={{1v1Opponent|Shinee|score=0}}
+}}
+
+<!-- -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|BarrackS|score=1}}
+	|opponent2={{1v1Opponent|Ample|score=0}}
+}}
+|R4M2={{Match
+	|opponent1={{1v1Opponent|Rush|score=1}}
+	|opponent2={{1v1Opponent|Queen|score=0}}
+}}
+}}
+*[https://esports.sooplive.com/gggl/tournament/afstar1/2615/table Group D Bracket]
+}}
+
+==={{Stage|Main round}}===
+{{Bracket|Bracket/8|id=ASL22OP2of
+
+<!-- Quarterfinals -->
+|R1M1={{Match|bestof=1
+	|date=2026-07-25 14:03 {{Abbr/KST}}
+    |opponent1={{SoloOpponent|p1=BTS|score=0}}
+    |opponent2={{SoloOpponent|p1=Mini|score=1}}
+    |map1={{Map|map=Octagon SE|winner=2}}
+}}
+|R1M2={{Match|bestof=1
+    |opponent1={{SoloOpponent|p1=Paralyze|score=0}}
+    |opponent2={{SoloOpponent|p1=effOrt|score=1}}
+    |map1={{Map|map=Octagon SE|winner=2}}
+}}
+|R1M3={{Match|bestof=1
+    |opponent1={{SoloOpponent|p1=Soulkey|score=1}}
+    |opponent2={{SoloOpponent|p1=sSak|score=0}}
+    |map1={{Map|map=Octagon SE|winner=1}}
+}}
+|R1M4={{Match|bestof=1
+    |opponent1={{SoloOpponent|p1=BarrackS|score=0}}
+    |opponent2={{SoloOpponent|p1=Rush|score=1}}
+    |map1={{Map|map=Octagon SE|winner=2}}
+}}
+
+<!-- Semifinals -->
+|R2M1={{Match|bestof=3
+    |opponent1={{SoloOpponent|p1=Mini|score=2}}
+    |opponent2={{SoloOpponent|p1=effOrt|score=0}}
+    |map1={{Map|map=Odyssey RE|winner=1}}
+	|map2={{Map|map=Octagon SE|winner=1}}
+}}
+|R2M2={{Match|bestof=3
+    |opponent1={{SoloOpponent|p1=Soulkey|score=2}}
+    |opponent2={{SoloOpponent|p1=Rush|score=1}}
+    |map1={{Map|map=KnockOut|winner=2}}
+	|map2={{Map|map=Octagon SE|winner=1}}
+	|map3={{Map|map=Backrooms|winner=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match|bestof=3
+    |opponent1={{SoloOpponent|p1=Mini|score=2}}
+    |opponent2={{SoloOpponent|p1=Soulkey|score=0}}
+    |map1={{Map|map=Aiolos|winner=1}}
+    |map2={{Map|map=Octagon SE|winner=1}}
+}}
+}}
+
+==Racial Distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Talents==
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won
+|b2=IntoTheRain
+}}
+{{box|end}}
+
+==VOD==
+*{{Flag|kr}} [https://vod.sooplive.com/player/202431767 AfreecaTV - VOD]
+
+==External Links==
+*{{Flag|kr}} [https://www.sooplive.com/station/afstar1/post/200878969 Announcement on SOOP]
+*{{Flag|us}} [https://www.sooplive.com/station/afstar1/post/200879527 Announcement on SOOP]
+*{{Flag|us}} [  tl.net - ASL 22 Open Day 2]

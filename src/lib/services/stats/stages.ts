@@ -5,12 +5,12 @@
  */
 import type { Race } from "@/lib/types/race";
 
-import type { Series } from "./schemas";
+import type { Season, Series } from "./schemas";
 
 export type BracketSide = {
   player: string;
   race: Race | null;
-  /** Games won in the series; null when the export has no score. */
+  /** Games won in the series; null when the export has no score or it is not played yet. */
   score: number | null;
   won: boolean;
 };
@@ -21,6 +21,8 @@ export type BracketMatch = {
   /** Games in the order played; empty when the source lists none. */
   games: Series["games"];
   vod: string | null;
+  /** Set but not played yet: neither side has won. */
+  upcoming: boolean;
 };
 
 export type BracketRound = {
@@ -51,7 +53,7 @@ function toMatch(s: Series, topIsWinner: boolean): BracketMatch {
   const winner = { player: s.winner, race: s.winnerRace, score: games(s.score, 0), won: true };
   const loser = { player: s.loser, race: s.loserRace, score: games(s.score, 1), won: false };
   const sides = topIsWinner ? { top: winner, bottom: loser } : { top: loser, bottom: winner };
-  return { ...sides, games: s.games, vod: s.vod };
+  return { ...sides, games: s.games, vod: s.vod, upcoming: false };
 }
 
 const played = (s: Series, player: string): boolean => s.winner === player || s.loser === player;
@@ -72,7 +74,20 @@ function feeders(round: readonly Series[], later: readonly BracketMatch[]): Seri
   return [...ordered, ...round.filter((s) => !ordered.includes(s))];
 }
 
-export function buildBracket(series: readonly Series[]): Bracket {
+/** A series that is set but not played: both players, no score, nobody marked as the winner. */
+function toUpcoming(u: Season["upcoming"][number], upper: Series | undefined): BracketMatch {
+  const sides = u.players.map((p) => ({ ...p, score: null, won: false }));
+  const [a, b] = sides;
+  if (!a || !b) throw new Error("an upcoming series needs two players");
+  // The player from the upper series of the round before goes on top.
+  const flip = upper !== undefined && !played(upper, a.player) && played(upper, b.player);
+  return { top: flip ? b : a, bottom: flip ? a : b, games: [], vod: null, upcoming: true };
+}
+
+export function buildBracket(
+  series: readonly Series[],
+  upcoming: Season["upcoming"] = [],
+): Bracket {
   const playoffs = series.filter((s) => s.stage === "playoffs");
   const of = (round: string): Series[] => playoffs.filter((s) => s.round === round);
 
@@ -82,8 +97,14 @@ export function buildBracket(series: readonly Series[]): Bracket {
     const upper = semis[0];
     return toMatch(s, upper ? played(upper, s.winner) : true);
   });
-  const semiMatches = semis.map((s) => toMatch(s, true));
-  const quarterMatches = feeders(of("quarterfinal"), semiMatches).map((s) => toMatch(s, true));
+  const next = (round: string): BracketMatch[] =>
+    upcoming.filter((u) => u.round === round).map((u) => toUpcoming(u, semis[0]));
+  final.push(...next("final"));
+  const semiMatches = [...semis.map((s) => toMatch(s, true)), ...next("semifinal")];
+  const quarterMatches = [
+    ...feeders(of("quarterfinal"), semiMatches).map((s) => toMatch(s, true)),
+    ...next("quarterfinal"),
+  ];
 
   const byKey = { quarterfinal: quarterMatches, semifinal: semiMatches, final };
   const third = of("third_place")[0];

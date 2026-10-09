@@ -22,7 +22,8 @@ export const placementValueSchema = z
     label: z.string().min(1),
     best: z.number().int().positive(),
     worst: z.number().int().positive(),
-    status: z.literal("final"),
+    /** Provisional while the player is still in a season in progress: the places still open. */
+    status: z.enum(["final", "provisional"]),
   })
   .refine((p) => p.best <= p.worst, "placement best must not be below worst");
 
@@ -40,6 +41,13 @@ export const seasonSchema = z.strictObject({
   finalScore: z.string().nullable(),
   thirdPlaceMatch: z.boolean(),
   status: z.enum(["complete", "in_progress"]),
+  /** Playoff series that are set but not played yet. Empty once a season is complete. */
+  upcoming: z.array(
+    z.strictObject({
+      round: z.enum(["quarterfinal", "semifinal", "final"]),
+      players: z.array(z.strictObject({ player: z.string().min(1), race: nullableRace })).length(2),
+    }),
+  ),
   /** Casts of a playoff round that are titled by broadcast day, so no single series owns them. */
   roundVods: z.array(
     z.strictObject({

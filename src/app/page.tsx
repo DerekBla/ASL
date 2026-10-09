@@ -24,7 +24,7 @@ const STATS: readonly Card[] = [
   {
     href: "/elo",
     title: "ELO ratings",
-    blurb: "A rating for every player, built from where they finished each season.",
+    blurb: "A rating for every player, built from every game they have played in the ASL.",
   },
   {
     href: "/head-to-head",
