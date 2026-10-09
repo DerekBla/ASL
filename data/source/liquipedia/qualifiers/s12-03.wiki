@@ -1,0 +1,132 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 12: Wild Card Qualifier}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+
+{{tabs static
+|name1=Main Event
+|link1=AfreecaTV StarCraft League Remastered/12
+|name2=Qualifiers
+|link2=AfreecaTV StarCraft League Remastered/12/Qualifiers
+|name3=Statistics
+|link3=AfreecaTV_StarCraft_League_Remastered/12/Statistics
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=AfreecaTV StarCraft League Remastered/12/Qualifiers
+|name2=Wild Card Qualifier
+|link2=AfreecaTV StarCraft League Remastered/12/Qualifiers/Wild Card
+|name3=Online Qualifier Day 1
+|link3=AfreecaTV StarCraft League Remastered/12/Qualifiers/Online 1
+|name4=Online Qualifier Day 2
+|link4=AfreecaTV StarCraft League Remastered/12/Qualifiers/Online 2
+|This=2
+}}
+
+{{Infobox league
+|name=ASL Season 12: Wild Card Qualifier
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=
+|server=
+|type=Offline
+|prizepool=
+|prizepoolusd=
+|country=South Korea
+|format=Single-Elimination
+|city=Seoul
+|date=2021-08-08
+|sdate=
+|edate=
+|edition=
+|tlpd=
+|web=
+|afreeca=afstar1
+|player_number=4
+|protoss_number=2
+|terran_number=2
+|zerg_number=
+|map1=Ascension
+|map2=Eclipse
+|map3=Polypoid
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV StarCraft League Remastered/11/Qualifiers/Wild Card{{!}}ASL Season 11: Wild Card Qualifier
+|next=AfreecaTV StarCraft League Remastered/14/Qualifiers/Wild Card{{!}}ASL Season 14: Wild Card Qualifier
+}}
+<br>
+The '''AfreecaTV StarCraft League Remastered Season 12: Wild Card Qualifier''' was the tournament held on August 8, 2021 to determine the seed for the [[2021 AfreecaTV StarCraft League Remastered Season 12|AfreecaTV StarCraft League Remastered Season 12]].
+
+==Participants==
+
+{{ParticipantTable|countByFaction=true|disable_teams=true
+|{{ParticipantSection
+|p1=JyJ
+|p2=Snow
+|p3=Rush
+|p4=BeSt
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 12: Qualifier Maps
+}}
+
+==Prize Pool==
+{{prize pool start|noprize=true|points=seed|disable_teams=true}}
+{{prize pool slot|place=1
+|Rush |flag1=kr |race1=t |points=16 |link=2021 AfreecaTV StarCraft League Remastered Season 12 |lastvs1=BeSt |lastscore1=2 |lastvsscore1=0 |lastvsrace1=p |lastvsflag1=kr
+}}
+{{prize pool slot|place=2
+|BeSt |flag1=kr |race1=p |lastvs1=Rush |lastscore1=0 |lastvsscore1=2 |lastvsrace1=t |lastvsflag1=kr
+}}
+{{prize pool slot|place=3-4
+|JyJ |flag1=kr |race1=t |lastvs1=BeSt |lastscore1=0 |lastvsscore1=2 |lastvsrace1=p |lastvsflag1=kr
+|Snow |flag2=kr |race2=p |lastvs2=Rush |lastscore2=1 |lastvsscore2=2 |lastvsrace2=t |lastvsflag2=kr
+}}
+{{LegacyPrizePoolEnd|}}
+
+==Results==
+{{bracket|Bracket/4|id=nWyuorymWz
+<!-- Semi-Finals -->
+
+|R1M1={{Match
+  |bestof=3
+  |date=2021-08-08 21:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/PLAYER/STATION/76122167
+  |opponent1={{1v1Opponent|JyJ}}
+  |opponent2={{1v1Opponent|BeSt}}
+  |map1={{Map|map=Polypoid|winner=2}}
+  |map2={{Map|map=Ascension|winner=2}}
+  |map3={{Map|map=Eclipse|finished=skip}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |date=2021-08-08 21:42 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/PLAYER/STATION/76122167
+  |opponent1={{1v1Opponent|Snow}}
+  |opponent2={{1v1Opponent|Rush}}
+  |map1={{Map|map=Ascension|winner=2}}
+  |map2={{Map|map=Eclipse|winner=1}}
+  |map3={{Map|map=Polypoid|winner=2}}
+}}
+
+<!-- Final -->
+
+|R2M1={{Match
+  |bestof=3
+  |date=2021-08-08 23:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/PLAYER/STATION/76122167
+  |opponent1={{1v1Opponent|BeSt}}
+  |opponent2={{1v1Opponent|Rush}}
+  |map1={{Map|map=Polypoid|winner=2}}
+  |map2={{Map|map=Eclipse|winner=2}}
+  |map3={{Map|map=Ascension|finished=skip}}
+}}
+}}
+
+==External links==
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/75980493 afreecatv.com - announcement]

@@ -1,0 +1,501 @@
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 11: Online Qualifier Day 2}}
+{{TOClimit}}
+
+{{tabs static
+|name1=Main Event
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11
+|name2=Qualifiers
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|name2=Wild Card Qualifier
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Wild Card
+|name3=Online Qualifier Day 1
+|link3=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 1
+|name4=Online Qualifier Day 2
+|link4=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 2
+|name5=Online Qualifier Day 3
+|link5=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 3
+|This=4
+}}
+
+{{Infobox league
+|name=ASL Season 11: Online Qualifier Day 2
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6], [https://www.lg.com/us/gaming-monitors LG Ultragear]
+|type=Online
+|country=South Korea
+|format=Single-Elimination
+|date=2021-03-13
+|tlpd=
+|web=
+|bracket=https://challonge.com/users/asl_s11/tournaments.html
+|player_number=226
+|map1=Polypoid
+|map2=Eclipse
+|map3=Fighting Spirit
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV StarCraft League Remastered/10/Qualifiers/2{{!}}ASL Season 10: Gwangju qualifier
+|next=AfreecaTV StarCraft League Remastered/12/Qualifiers/2{{!}}ASL Season 12: Online qualifier day 2
+}}
+
+==Qualified Players==
+{{ParticipantTable|countByFaction=true|disable_teams=true
+|{{ParticipantSection
+|p1=PianO |p1race=t |p1flag=kr
+|p2=EffOrt |p2race=z |p2flag=kr
+|p3=Mini |p3race=p |p3flag=kr
+|p4=JyJ |p4race=t |p4flag=kr
+|p5=Mong |p5race=t |p5flag=kr
+|p6=hani |p6race=t |p6flag=kr
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 11: Qualifier Maps
+|map1=Polypoid|map1displayName=Polypoid
+|map2=Eclipse|map2displayName=Eclipse
+|map3=Fighting Spirit|map3displayName=Fighting Spirit
+}}
+
+==Results==
+===Notable unclassified participants===
+{{ParticipantTable|countByFaction=true|disable_teams=true
+|{{ParticipantSection
+|p1= |p1race= |p1flag=
+}}
+}}
+
+===Detailed Results===
+{{QualifierOverlay|group=A|done=1
+|win1={{InlinePlayer|1=EffOrt|flag=kr|link=EffOrt|faction=z}}
+|bracket={{Bracket|Bracket/64|id=0EHnkRo8Li
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김태현|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=조성용|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M9={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M10={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M11={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M12={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M13={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M14={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M15={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M16={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M17={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M18={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M19={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M20={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M21={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M22={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M23={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M24={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M25={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M26={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M27={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M28={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M29={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M30={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M31={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M32={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Round 2 -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김태현|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M9={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M10={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M11={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M12={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M13={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M14={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M15={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M16={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Round 3 -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=한상봉|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R3M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R3M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R3M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R3M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R3M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R3M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=변형태|score=0}}
+}}
+
+|R4M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R4M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R4M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Semifinals -->
+|R5M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=홍덕|score=0}}
+}}
+
+|R5M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Grand Final -->
+|R6M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=황병영|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=B|done=1
+|win1={{InlinePlayer|1=PianO|flag=kr|link=PianO|faction=t}}
+|bracket=
+}}
+
+{{QualifierOverlay|group=C|done=1
+|win1={{InlinePlayer|1=JyJ|flag=kr|link=JyJ|faction=t}}
+|bracket=
+}}
+
+{{QualifierOverlay|group=D|done=1
+|win1={{InlinePlayer|1=Mong|flag=kr|link=Mong|faction=t}}
+|bracket=
+}}
+
+{{QualifierOverlay|group=E|done=1
+|win1={{InlinePlayer|1=Mini|flag=kr|link=Mini|faction=p}}
+|bracket=
+}}
+
+{{QualifierOverlay|group=F|done=1
+|win1={{InlinePlayer|1=hani|flag=kr|link=Hani|faction=t}}
+|bracket=
+}}
+
+==External links==
+*[https://tl.net/forum/bw-tournaments/570583-asl-11-qualifier-2 tl.net - ASL Season 11 Qualifier 2]
+*[https://challonge.com/ASL_S1_DAY2_GROUP1 ASL11 Online Qualifier Day 2: Group A]
+*[https://challonge.com/ASL_S1_DAY2_GROUP2 ASL11 Online Qualifier Day 2: Group B]
+*[https://challonge.com/ASL_S1_DAY2_GROUP3 ASL11 Online Qualifier Day 2: Group C]
+*[https://challonge.com/ASL_S1_DAY2_GROUP4 ASL11 Online Qualifier Day 2: Group D]
+*[https://challonge.com/ASL_S1_DAY2_GROUP5 ASL11 Online Qualifier Day 2: Group E]
+*[https://challonge.com/ASL_S1_DAY2_GROUP6 ASL11 Online Qualifier Day 2: Group F]
+*{{Flag|kr}} [https://vod.afreecatv.com/PLAYER/STATION/69806579 afreecatv.com - VOD]

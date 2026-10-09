@@ -102,6 +102,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 ### Archive
 
+- [implemented 2026-10-09] Game-based ELO with a qualifiers option — requested by Derek after feedback from friends. ELO is now one update per game (it replaced the placement rating), the table has a Games column, and `/elo/with-qualifiers` also counts the qualifier games Liquipedia has from S4 on (`compute_game_elo`, `fetch_qualifiers.py`, `EloRatings`). Spec: `Docs/foundation-specs/stats-data.md`
 - [implemented 2026-10-08] Top 10 ELO chart — requested by Derek. `/elo` opens with the ten highest rated players' ELO across every season: one color per player (ten validated chart colors), the picked player thickened and labeled, hover and arrow key readout, table view (`EloTopChart`)
 - [implemented 2026-10-08] Maps and VODs on the season page — requested by Derek. Group matches open on a click, every match shows its map, and VOD buttons link the English casts on YouTube for each group and playoff series (`games` and `vod` on `Series`, `roundVods` on `Season`; `scripts/youtube/fetch_vods.py`). Spec: `Docs/foundation-specs/stats-data.md`, Maps and VODs
 - [implemented 2026-10-08] Season page bracket, group tables and logo — requested by Derek after feedback from a friend. Playoffs drawn as a bracket and each group as a standings table with its matches (`src/lib/services/stats/stages.ts`, `PlayoffBracket`, `GroupStages`), a coin and star logo in the header and as the tab icon (`src/components/Logo.tsx`), and the Stats and Play labels removed from the navigation

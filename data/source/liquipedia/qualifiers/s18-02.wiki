@@ -1,0 +1,1079 @@
+{{DISPLAYTITLE:2024 SSL AUTUMN: Online Qualifier Day 2}}
+{{SOOP StarCraft League Navbox}}
+{{SOOP/StarCraft League/2024/AUTUMN/Tabs}}
+{{TOClimit}}
+{{Infobox league
+|name=2024 SSL AUTUMN: Online Qualifier Day 2
+|tickername=2024 SSL AUTUMN: Qualifier #2
+|image=Soop_starcraft_league_icon_allmode.png
+|icon=Soop starcraft league icon allmode.png
+|series=SOOP StarCraft League
+|organizer=SOOP
+|sponsor=[https://www.liivm.com/ KB Liiv M]
+|server=South Korea
+|type=Online
+|country=South Korea
+|format=Single-Elimination
+|date=2024-08-11
+|tlpd=
+|web=https://bj.afreecatv.com/afstar1/post/131386821
+|bracket=https://esports.afreecatv.com/gggl/tournament/afstar1/509/table
+|afreeca=afstar1
+|player_number=
+|map1=Radeon
+|map2=Apocalypse
+|map3=Retro
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV/StarCraft_League_Remastered/17/Qualifiers/Online_2{{!}}ASL Season 17: Online qualifier day 2
+|next=SOOP/StarCraft_League/2025/SPRING/Qualifiers/Online_2{{!}}SSL 2025 SPRING: Online qualifier day 2
+}}
+
+==Qualified Players==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection
+|Shine
+|huro
+|Sacsri
+|Mind
+|Speed
+|Scan
+|Action
+|free
+|Sea
+|Motive
+|1127
+|sSak
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=2024 SSL AUTUMN: Qualifier Maps
+}}
+
+==Participants==
+{{ParticipantTable|disable_teams=true
+|{{ParticipantSection|title=Notable Korean Participants
+|ZeLoT
+|beast
+|Mong
+|Sacsri 
+|Scan
+|free
+|Movie 
+|Killer
+|huro 
+|BarrackS
+|Speed 
+|BishOp
+|Ample
+|Motive
+|Horang2
+|Action
+|Hm
+|Saber
+|Shine
+|fOrGG 
+|ggaemo
+|Leta
+|Midas
+|Mind 
+|Calm
+|Sea
+|Hani
+|SsaL 
+|Skey
+|PianO 
+|1127
+|nOOB
+|Quickly|p33race=p |p33flag=kr
+|815 |p34link=815 (Player)
+|Shuttle|p35race=p |p35link=Shuttle (Player)
+|Yoon|p36link=Yoon (Amateur) 
+|Ruin
+|Absolute
+|9Drone|p39race=z |p39flag=kr
+|Ridesky
+|sSak 
+|Bale
+|BackHo
+|KOp
+|ByuL
+|Dove
+|Fleta
+|Cola
+|yabsab
+|HyuN
+|Terror
+|HiyA
+|Alen
+|Sobenz
+|
+|
+|
+|
+|
+}}
+|{{ParticipantSection|title=Foreign Participants
+|LCYDH
+|Mihu
+|XiaoShuai
+|QiaoGege
+|
+}}
+}}
+
+==Detailed Results==
+{{tabs dynamic
+|name1=Group 1
+|name2=Group 2
+|name3=Group 3
+|name4=Group 4
+|name5=Group 5
+|name6=Group 6
+|name7=Group 7
+|name8=Group 8
+|name9=Group 9
+|name10=Group 10
+|name11=Group 11
+|name12=Group 12
+|content1=
+*{{InlinePlayer|1=huro|flag=kr|link=Huro|faction=p}} advances. ([ Group 1 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gA
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|huro|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Hani|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|huro|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|STONE 윤준석|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=1}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Hani|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|huro|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|이선재|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|STONE 윤준석|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Hani|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|huro|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Hani|flag=|race=|score=1}}
+}}
+}}
+
+{{Bracket|Bracket/2|id=SSL24Aq3gA
+<!-- Final -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|p1=huro|score=2}}
+	|opponent2={{1v1Opponent|p1=Quickly|score=0}}
+}}
+}}
+
+|content2=
+*{{InlinePlayer|1=Shine|flag=kr|link=Shine|faction=z}} advances. ([ Group 2 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gB
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Shine|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|강동혁|flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|김준호|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Dove|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|PaDo 파도|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|QiaoGege|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|ZeLoT|flag=|race=|score=2}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|김여는|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|ByuL|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|PianO|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Shine|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|김준호|flag=|race=|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Dove|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|PaDo 파도|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|ZeLoT|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|김여는|flag=|race=|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|ByuL|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|PianO|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Shine|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|PaDo 파도|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|ZeLoT|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|PianO|flag=|race=|score=0}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Shine|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|ZeLoT|flag=|race=|score=0}}
+}}
+}}
+
+|content3=
+*{{InlinePlayer|1=Sacsri|flag=kr|link=Sacsri|faction=z}} advances. ([ Group 3 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gC
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Ample|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Sacsri|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Letitbe|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|fOrGG|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Ample|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=1}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Hm|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Absolute |flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Sacsri|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|fOrGG|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|nOOB|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Ample |flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Absolute |flag=|race=|score=2}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Sacsri|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|nOOB|flag=|race=|score=0}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Absolute|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Sacsri|flag=|race=|score=2}}
+}}
+}}
+
+|content4=
+*{{InlinePlayer|1=Mind|flag=kr|link=Mind|faction=t}} advances. ([ Group 4 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gD
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|박정만|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Vex 최창현|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|박정만|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Mind|flag=|race=|score=2}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|싸까|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent| |flag=|race=|score=0}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|오효상|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Yoon|flag=|race=|score=2}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Vex 최창현|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Mind|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|싸까|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Yoon|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Vex 최창현|flag=|race=|score=0}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Mind|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Yoon|flag=|race=|score=0}}
+}}
+}}
+
+|content5=
+*{{InlinePlayer|1=Speed|flag=kr|link=Speed|faction=t}} advances. ([ Group 5 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gE
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Killer|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Speed|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Killer|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Skey|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Speed|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|ArtUser|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=1}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Killer|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Skey|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Speed|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|ArtUser|flag=|race=|score=0}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Killer|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Speed|flag=|race=|score=2}}
+}}
+}}
+
+|content6=
+*{{InlinePlayer|1=Scan|flag=kr|link=Scan|faction=t}} advances. ([ Group 6 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gF
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Mong|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|BishOp|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Scan|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Mong|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|JW4040 장준우|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|BishOp|flag=|race=|score=2}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Scan|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Mong|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|JW4040 장준우|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|BishOp|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Scan|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Mong|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Scan|flag=|race=|score=2}}
+}}
+}}
+
+|content7=
+*{{InlinePlayer|1=Action|flag=kr|link=Action|faction=z}} advances. ([ Group 7 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gG
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Cola|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|IRISWHITE 박영덕|flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Action|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|SsaL|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|송지섭|flag=|race=|score=0}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Cola|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Action|flag=|race=|score=2}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Fleta|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|임태묵|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|SsaL|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Mihu|flag=|race=|score=2}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|yabsab|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|815|flag=|race=|score=1}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Action|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|임태묵|flag=|race=|score=1}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Mihu|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|yabsab|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Action|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|yabsab|flag=|race=|score=0}}
+}}
+}}
+
+|content8=
+*{{InlinePlayer|1=Sea|flag=kr|link=Sea|faction=t}} advances. ([ Group 8 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gH
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Sea|flag=|race=|score=2}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Horang2|flag=|race=|score=2}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Sea|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=1}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Fresh 이경재|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|KOp|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent||flag=|race=|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Horang2|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Sea|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Fresh 이경재|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|KOp|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Horang2|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Sea|flag=|race=|score=2 }}
+	|opponent2={{1v1Opponent|Horang2|flag=|race=|score=0 }}
+}}
+}}
+
+|content9=
+*{{InlinePlayer|1=Motive|flag=kr|link=Motive|faction=p}} advances. ([ Group 9 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gI
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Ruin|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Motive|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Ruin|flag=|race=|score=2}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Motive|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Alen|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent||flag=|race=|score=2}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent||flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Leta|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Ruin|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Motive|flag=|race=|score=2}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Alen|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Leta|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Motive|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Leta|flag=|race=|score=0}}
+}}
+}}
+
+|content10=
+*{{InlinePlayer|1=free|flag=kr|link=Free|faction=p}} advances. ([ Group 10 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gJ
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|beast|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|강수현|flag=|race=|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|안철환|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|장기훈|flag=|race=|score=}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|BJ안아♥|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|Movie|flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|박철순|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|조하늘|flag=|race=|score=}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|액션구드론|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|홍진표|flag=|race=|score=}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|BJ킁식이형|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|박한별|flag=|race=|score=}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|안원근|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|유태호|flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|free|flag=|race=|score=}}
+	|opponent2={{1v1Opponent||flag=|race=|score=}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|beast|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|안철환|flag=|race=|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Movie|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|조하늘|flag=|race=|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|9Drone|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Sobenz|flag=|race=|score=2}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|유태호|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|free|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|beast|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Movie|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Sobenz|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|free|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|beast|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|free|flag=|race=|score=2}}
+}}
+}}
+
+|content11=
+*{{InlinePlayer|1=sSak|flag=kr|link=SSak|faction=t}} advances. ([ Group 11 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gK
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|황정현|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Shuttle|flag=|race=|score=2}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|BCM 배창민|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|박정길|flag=|race=|score=0}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|고속도로호준|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|Myway59 이화진|flag=|race=|score=}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|곽우철|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|HiyA|flag=|race=|score=2}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|김대한|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|Jomso 김세환|flag=|race=|score=2}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Midas|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|황동희|flag=|race=|score=0}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|조영래|flag=|race=|score=}}
+	|opponent2={{1v1Opponent|BJ건욱이|flag=|race=|score=}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|박준혁|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|sSak|flag=|race=|score=2}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Shuttle|flag=|race=|score=2 }}
+	|opponent2={{1v1Opponent|BCM 배창민|flag=|race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|김대한|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|HiyA|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Jomso 김세환|flag=|race=|score=2 }}
+	|opponent2={{1v1Opponent|Midas|flag=|race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|박준혁|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|sSak|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Shuttle |flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|HiyA|flag=|race=|score=2}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Jomso 김세환 |flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|sSak|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|HiyA|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|sSak|flag=|race=|score=2}}
+}}
+}}
+
+|content12=
+*{{InlinePlayer|1=1127|flag=kr|link=1127|faction=t}} advances. ([ Group 12 Bracket detailed])
+{{bracket|Bracket/16|id=SSL24Aq2gL
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|정재우|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Calm|flag=|race=|score=2}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|XiaoShuai|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|박상욱|flag=|race=|score=0}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Saber|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|ahBin 박수현|flag=|race=|score=2}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|HyuN|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|JUP 빡죠스|flag=|race=|score=0}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|사나이장현|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Terror|flag=|race=|score=2}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|조명식|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|Psycho 백민기|flag=|race=|score=2}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|장민준|flag=|race=|score=1}}
+	|opponent2={{1v1Opponent|윤희찬|flag=|race=|score=2}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|1127|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|ggaemo|flag=|race=|score=1}}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Calm|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|XiaoShuai|flag=|race=|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|ahBin 박수현|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|HyuN|flag=|race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Terror|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|Psycho 백민기|flag=|race=|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|윤희찬|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|1127|flag=|race=|score=2}}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Calm|flag=|race=|score=2}}
+	|opponent2={{1v1Opponent|HyuN|flag=|race=|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Terror|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|1127|flag=|race=|score=2}}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Calm|flag=|race=|score=0}}
+	|opponent2={{1v1Opponent|1127|flag=|race=|score=2}}
+}}
+}}
+}}
+
+==VOD==
+*{{Flag|kr}} [https://vod.afreecatv.com/player/132976275 AfreecaTV - VOD]
+
+==External links==
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/131386821 AfreecaTV - Info]
+*{{Flag|kr}} [https://esports.afreecatv.com/gggl/tournament/afstar1/509/table 2024 SSL AUTUMN Online Qualifier Day 1]

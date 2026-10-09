@@ -1,0 +1,482 @@
+{
+  "s04-01": {
+    "season": 4,
+    "title": "2017 AfreecaTV Starleague Season 4/Qualifier/Busan",
+    "revid": 536278,
+    "timestamp": "2026-08-03T08:55:38Z",
+    "url": "https://liquipedia.net/starcraft/2017_AfreecaTV_Starleague_Season_4/Qualifier/Busan",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s04-02": {
+    "season": 4,
+    "title": "2017 AfreecaTV Starleague Season 4/Qualifier/Daegu",
+    "revid": 533467,
+    "timestamp": "2026-06-08T07:55:05Z",
+    "url": "https://liquipedia.net/starcraft/2017_AfreecaTV_Starleague_Season_4/Qualifier/Daegu",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s04-03": {
+    "season": 4,
+    "title": "2017 AfreecaTV Starleague Season 4/Qualifier/Seoul",
+    "revid": 533466,
+    "timestamp": "2026-06-08T07:54:20Z",
+    "url": "https://liquipedia.net/starcraft/2017_AfreecaTV_Starleague_Season_4/Qualifier/Seoul",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s05-01": {
+    "season": 5,
+    "title": "2018 AfreecaTV Starleague Season 5/Qualifier/Busan",
+    "revid": 533506,
+    "timestamp": "2026-06-08T08:24:20Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_5/Qualifier/Busan",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s05-02": {
+    "season": 5,
+    "title": "2018 AfreecaTV Starleague Season 5/Qualifier/Gwangju",
+    "revid": 533505,
+    "timestamp": "2026-06-08T08:23:35Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_5/Qualifier/Gwangju",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s05-03": {
+    "season": 5,
+    "title": "2018 AfreecaTV Starleague Season 5/Qualifier/Seoul",
+    "revid": 533504,
+    "timestamp": "2026-06-08T08:22:50Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_5/Qualifier/Seoul",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s05-04": {
+    "season": 5,
+    "title": "2018 AfreecaTV Starleague Season 5/Qualifier/Wildcard",
+    "revid": 533503,
+    "timestamp": "2026-06-08T08:22:05Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_5/Qualifier/Wildcard",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s06-01": {
+    "season": 6,
+    "title": "2018 AfreecaTV Starleague Season 6/Qualifier/Busan",
+    "revid": 533528,
+    "timestamp": "2026-06-08T08:40:50Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_6/Qualifier/Busan",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s06-02": {
+    "season": 6,
+    "title": "2018 AfreecaTV Starleague Season 6/Qualifier/Gwangju",
+    "revid": 533527,
+    "timestamp": "2026-06-08T08:40:05Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_6/Qualifier/Gwangju",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s06-03": {
+    "season": 6,
+    "title": "2018 AfreecaTV Starleague Season 6/Qualifier/Seoul",
+    "revid": 533526,
+    "timestamp": "2026-06-08T08:39:20Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_6/Qualifier/Seoul",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s06-04": {
+    "season": 6,
+    "title": "2018 AfreecaTV Starleague Season 6/Qualifier/Wildcard",
+    "revid": 533525,
+    "timestamp": "2026-06-08T08:38:35Z",
+    "url": "https://liquipedia.net/starcraft/2018_AfreecaTV_Starleague_Season_6/Qualifier/Wildcard",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s07-01": {
+    "season": 7,
+    "title": "2019 AfreecaTV Starleague Season 7/Qualifier/1",
+    "revid": 533541,
+    "timestamp": "2026-06-08T08:50:35Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_7/Qualifier/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s07-02": {
+    "season": 7,
+    "title": "2019 AfreecaTV Starleague Season 7/Qualifier/2",
+    "revid": 533542,
+    "timestamp": "2026-06-08T08:51:20Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_7/Qualifier/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s07-03": {
+    "season": 7,
+    "title": "2019 AfreecaTV Starleague Season 7/Qualifier/3",
+    "revid": 533543,
+    "timestamp": "2026-06-08T08:52:05Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_7/Qualifier/3",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s08-01": {
+    "season": 8,
+    "title": "2019 AfreecaTV Starleague Season 8/Qualifier/Busan",
+    "revid": 533605,
+    "timestamp": "2026-06-08T09:38:35Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_8/Qualifier/Busan",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s08-02": {
+    "season": 8,
+    "title": "2019 AfreecaTV Starleague Season 8/Qualifier/Jeonju",
+    "revid": 533604,
+    "timestamp": "2026-06-08T09:37:50Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_8/Qualifier/Jeonju",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s08-03": {
+    "season": 8,
+    "title": "2019 AfreecaTV Starleague Season 8/Qualifier/Seoul",
+    "revid": 533603,
+    "timestamp": "2026-06-08T09:37:05Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_8/Qualifier/Seoul",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s08-04": {
+    "season": 8,
+    "title": "2019 AfreecaTV Starleague Season 8/Qualifier/Wildcard",
+    "revid": 533602,
+    "timestamp": "2026-06-08T09:36:20Z",
+    "url": "https://liquipedia.net/starcraft/2019_AfreecaTV_Starleague_Season_8/Qualifier/Wildcard",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s09-01": {
+    "season": 9,
+    "title": "AfreecaTV StarCraft League Remastered/9/Qualifiers/1",
+    "revid": 541354,
+    "timestamp": "2026-10-09T15:46:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/9/Qualifiers/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s09-02": {
+    "season": 9,
+    "title": "AfreecaTV StarCraft League Remastered/9/Qualifiers/2",
+    "revid": 541355,
+    "timestamp": "2026-10-09T15:47:36Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/9/Qualifiers/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s09-03": {
+    "season": 9,
+    "title": "AfreecaTV StarCraft League Remastered/9/Qualifiers/3",
+    "revid": 541356,
+    "timestamp": "2026-10-09T15:48:16Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/9/Qualifiers/3",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s09-04": {
+    "season": 9,
+    "title": "AfreecaTV StarCraft League Remastered/9/Qualifiers/Wild Card",
+    "revid": 541351,
+    "timestamp": "2026-10-09T15:44:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/9/Qualifiers/Wild_Card",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s10-01": {
+    "season": 10,
+    "title": "AfreecaTV StarCraft League Remastered/10/Qualifiers/1",
+    "revid": 541391,
+    "timestamp": "2026-10-09T16:11:36Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/10/Qualifiers/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s10-02": {
+    "season": 10,
+    "title": "AfreecaTV StarCraft League Remastered/10/Qualifiers/2",
+    "revid": 541392,
+    "timestamp": "2026-10-09T16:12:16Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/10/Qualifiers/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s10-03": {
+    "season": 10,
+    "title": "AfreecaTV StarCraft League Remastered/10/Qualifiers/3",
+    "revid": 541393,
+    "timestamp": "2026-10-09T16:12:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/10/Qualifiers/3",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s11-01": {
+    "season": 11,
+    "title": "AfreecaTV StarCraft League Remastered/11/Qualifiers/1",
+    "revid": 541436,
+    "timestamp": "2026-10-09T16:41:36Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/11/Qualifiers/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s11-02": {
+    "season": 11,
+    "title": "AfreecaTV StarCraft League Remastered/11/Qualifiers/2",
+    "revid": 541437,
+    "timestamp": "2026-10-09T16:42:16Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/11/Qualifiers/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s11-03": {
+    "season": 11,
+    "title": "AfreecaTV StarCraft League Remastered/11/Qualifiers/3",
+    "revid": 541438,
+    "timestamp": "2026-10-09T16:42:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/11/Qualifiers/3",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s11-04": {
+    "season": 11,
+    "title": "AfreecaTV StarCraft League Remastered/11/Qualifiers/Wild Card",
+    "revid": 541435,
+    "timestamp": "2026-10-09T16:40:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/11/Qualifiers/Wild_Card",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s12-01": {
+    "season": 12,
+    "title": "AfreecaTV StarCraft League Remastered/12/Qualifiers/1",
+    "revid": 541510,
+    "timestamp": "2026-10-09T17:30:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/12/Qualifiers/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s12-02": {
+    "season": 12,
+    "title": "AfreecaTV StarCraft League Remastered/12/Qualifiers/2",
+    "revid": 541511,
+    "timestamp": "2026-10-09T17:31:36Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/12/Qualifiers/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s12-03": {
+    "season": 12,
+    "title": "AfreecaTV StarCraft League Remastered/12/Qualifiers/Wild Card",
+    "revid": 541507,
+    "timestamp": "2026-10-09T17:28:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/12/Qualifiers/Wild_Card",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s13-01": {
+    "season": 13,
+    "title": "AfreecaTV StarCraft League Remastered/13/Qualifiers/1",
+    "revid": 541573,
+    "timestamp": "2026-10-09T18:12:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/13/Qualifiers/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s13-02": {
+    "season": 13,
+    "title": "AfreecaTV StarCraft League Remastered/13/Qualifiers/2",
+    "revid": 541575,
+    "timestamp": "2026-10-09T18:14:16Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/13/Qualifiers/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s14-01": {
+    "season": 14,
+    "title": "AfreecaTV StarCraft League Remastered/14/Qualifiers/Online 1",
+    "revid": 540037,
+    "timestamp": "2026-09-20T10:25:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/14/Qualifiers/Online_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s14-02": {
+    "season": 14,
+    "title": "AfreecaTV StarCraft League Remastered/14/Qualifiers/Online 2",
+    "revid": 540038,
+    "timestamp": "2026-09-20T10:26:26Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/14/Qualifiers/Online_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s14-03": {
+    "season": 14,
+    "title": "AfreecaTV StarCraft League Remastered/14/Qualifiers/Wild Card",
+    "revid": 539079,
+    "timestamp": "2026-09-20T02:29:44Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/14/Qualifiers/Wild_Card",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s15-01": {
+    "season": 15,
+    "title": "AfreecaTV StarCraft League Remastered/15/Qualifiers/Online 1",
+    "revid": 540047,
+    "timestamp": "2026-09-20T10:30:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/15/Qualifiers/Online_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s15-02": {
+    "season": 15,
+    "title": "AfreecaTV StarCraft League Remastered/15/Qualifiers/Online 2",
+    "revid": 540048,
+    "timestamp": "2026-09-20T10:31:26Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV_StarCraft_League_Remastered/15/Qualifiers/Online_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s16-01": {
+    "season": 16,
+    "title": "AfreecaTV/StarCraft League Remastered/16/Qualifiers/Online 1",
+    "revid": 540059,
+    "timestamp": "2026-09-20T10:36:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/16/Qualifiers/Online_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s16-02": {
+    "season": 16,
+    "title": "AfreecaTV/StarCraft League Remastered/16/Qualifiers/Online 2",
+    "revid": 540060,
+    "timestamp": "2026-09-20T10:37:26Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/16/Qualifiers/Online_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s17-01": {
+    "season": 17,
+    "title": "AfreecaTV/StarCraft League Remastered/17/Qualifiers/Online 1",
+    "revid": 540076,
+    "timestamp": "2026-09-20T10:45:26Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/17/Qualifiers/Online_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s17-02": {
+    "season": 17,
+    "title": "AfreecaTV/StarCraft League Remastered/17/Qualifiers/Online 2",
+    "revid": 540077,
+    "timestamp": "2026-09-20T10:45:56Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/17/Qualifiers/Online_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s17-03": {
+    "season": 17,
+    "title": "AfreecaTV/StarCraft League Remastered/17/Qualifiers/Wild Card",
+    "revid": 539554,
+    "timestamp": "2026-09-20T06:27:14Z",
+    "url": "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/17/Qualifiers/Wild_Card",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s18-01": {
+    "season": 18,
+    "title": "SOOP/StarCraft League/2024/AUTUMN/Qualifiers/Online 1",
+    "revid": 540089,
+    "timestamp": "2026-09-20T10:51:56Z",
+    "url": "https://liquipedia.net/starcraft/SOOP/StarCraft_League/2024/AUTUMN/Qualifiers/Online_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s18-02": {
+    "season": 18,
+    "title": "SOOP/StarCraft League/2024/AUTUMN/Qualifiers/Online 2",
+    "revid": 540090,
+    "timestamp": "2026-09-20T10:52:26Z",
+    "url": "https://liquipedia.net/starcraft/SOOP/StarCraft_League/2024/AUTUMN/Qualifiers/Online_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s19-01": {
+    "season": 19,
+    "title": "ASL/19/Qualifier/Day 1",
+    "revid": 540249,
+    "timestamp": "2026-09-22T02:21:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/19/Qualifier/Day_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s19-02": {
+    "season": 19,
+    "title": "ASL/19/Qualifier/Day 2",
+    "revid": 540250,
+    "timestamp": "2026-09-22T02:22:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/19/Qualifier/Day_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s19-03": {
+    "season": 19,
+    "title": "ASL/19/Qualifier/SCS/2025/SPRING",
+    "revid": 539699,
+    "timestamp": "2026-09-20T07:35:44Z",
+    "url": "https://liquipedia.net/starcraft/ASL/19/Qualifier/SCS/2025/SPRING",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s19-04": {
+    "season": 19,
+    "title": "ASL/19/Qualifier/SCS/2025/SPRING/Qualifier",
+    "revid": 539700,
+    "timestamp": "2026-09-20T07:36:14Z",
+    "url": "https://liquipedia.net/starcraft/ASL/19/Qualifier/SCS/2025/SPRING/Qualifier",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s20-01": {
+    "season": 20,
+    "title": "ASL/20/Qualifier/ACS/2025/2",
+    "revid": 539750,
+    "timestamp": "2026-09-20T08:01:14Z",
+    "url": "https://liquipedia.net/starcraft/ASL/20/Qualifier/ACS/2025/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s20-02": {
+    "season": 20,
+    "title": "ASL/20/Qualifier/ACS/2025/2/Qualifier",
+    "revid": 539751,
+    "timestamp": "2026-09-20T08:01:44Z",
+    "url": "https://liquipedia.net/starcraft/ASL/20/Qualifier/ACS/2025/2/Qualifier",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s20-03": {
+    "season": 20,
+    "title": "ASL/20/Qualifier/Day 1",
+    "revid": 540258,
+    "timestamp": "2026-09-22T02:30:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/20/Qualifier/Day_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s20-04": {
+    "season": 20,
+    "title": "ASL/20/Qualifier/Day 2",
+    "revid": 540259,
+    "timestamp": "2026-09-22T02:31:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/20/Qualifier/Day_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s21-01": {
+    "season": 21,
+    "title": "ASL/21/Qualifier/Day 1",
+    "revid": 540270,
+    "timestamp": "2026-09-22T02:42:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/Day_1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s21-02": {
+    "season": 21,
+    "title": "ASL/21/Qualifier/Day 2",
+    "revid": 540271,
+    "timestamp": "2026-09-22T02:43:15Z",
+    "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/Day_2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s21-03": {
+    "season": 21,
+    "title": "ASL/21/Qualifier/SEASON OPEN/1",
+    "revid": 539853,
+    "timestamp": "2026-09-20T08:52:44Z",
+    "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/SEASON_OPEN/1",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s21-04": {
+    "season": 21,
+    "title": "ASL/21/Qualifier/SEASON OPEN/1/Qualifier",
+    "revid": 539855,
+    "timestamp": "2026-09-20T08:53:44Z",
+    "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/SEASON_OPEN/1/Qualifier",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s21-05": {
+    "season": 21,
+    "title": "ASL/21/Qualifier/SEASON OPEN/2",
+    "revid": 539854,
+    "timestamp": "2026-09-20T08:53:14Z",
+    "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/SEASON_OPEN/2",
+    "license": "CC-BY-SA 3.0"
+  },
+  "s21-06": {
+    "season": 21,
+    "title": "ASL/21/Qualifier/SEASON OPEN/2/Qualifier",
+    "revid": 539856,
+    "timestamp": "2026-09-20T08:54:14Z",
+    "url": "https://liquipedia.net/starcraft/ASL/21/Qualifier/SEASON_OPEN/2/Qualifier",
+    "license": "CC-BY-SA 3.0"
+  }
+}

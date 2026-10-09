@@ -1,0 +1,141 @@
+{{DISPLAYTITLE:2025 ACS Season 2}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/20/Tabs}}
+{{Infobox league
+|name=2025 ACS Season 2
+|series=ACS
+|abbreviation=ACS
+|image= 
+|icon=Soop icon alt allmode.png
+|organizer=SOOP
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|venue= 
+|localcurrency=KRW
+|prizepool=1,000,000
+|date=2025-07-19
+|liquipediatier=2
+|afreeca=afstar1
+|bracket= 
+|web=https://ch.sooplive.co.kr/afstar1/post/164818577
+|web2= 
+|player_number=4
+|protoss_number= 
+|terran_number= 
+|zerg_number= 
+|map1=Radeon
+|map2=Metropolis
+|map3=Pole Star
+|previous=ASL/19/Qualifier/SCS/2025/SPRING{{!}}2025 SCS SPRING
+|next=ASL/21/Qualifier/OPEN/1{{!}}[S:21] ASL SEASON OPEN
+}}
+
+==Overview==
+The '''2025 ACS Season 2'''  (Korean: 2025 챌린저스 스타리그(ACS) 시즌2) is an online tournament for amateur players organized by SOOP.
+
+==Format==
+*'''Qualifiers'''
+**4 single-elimination brackets.
+**Winner of each bracket advances to the Main Event.
+*'''Main Event'''
+**Single-elimination bracket.
+**All matches are {{Abbr/Bo3}}.
+
+===Maps===
+{{MapPoolTable}}
+
+==Prize Pool==
+The Prize pool of ₩1,000,000 will be distributed as follows:
+{{SoloPrizePool|localcurrency=KRW|qualifies1=ASL/20
+|{{Slot|place=1|localprize=1,000,000|qualified1=yes}}
+|{{Slot|place=2|localprize= }}
+}}
+
+==Participants==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=From the [[ACS/2025/2/Qualifier|Qualifier]] ''(4)''
+|p1=soO |p1link=N.Die_soO
+|p2=Saber 
+|p3=Youngjoo 김영주|p3flag=kr|p3race=t|p3link=Youngjoo  
+|p4=Hm 
+}}
+}}
+
+==Results==
+{{Bracket|Bracket/4|id=acs2502UzA
+<!-- For more information on Bracket parameters see Liquipedia:Brackets -->
+<!-- For Opponent Copy-Paste-Code see Liquipedia:Brackets/Opponents#Copy-Paste -->
+
+<!-- Semifinals -->
+
+|R1M1={{Match|bestof=3
+	|date=2025-07-19 19:00 {{Abbr/KST}}
+	|afreeca=afstar1
+	|preview= 
+	|vod=https://vod.sooplive.co.kr/player/166428927
+	|opponent1={{1v1Opponent|soO}}
+	|opponent2={{1v1Opponent|Saber}}
+	|map1={{Map|winner=2|map=}}
+	|map2={{Map|winner=2|map=}}
+	|map3={{Map|winner=|map=}}
+}}
+|R1M2={{Match
+	|date=2025-07-19 20:00 {{Abbr/KST}}
+	|afreeca=afstar1
+	|preview= 
+	|vod=https://vod.sooplive.co.kr/player/166431505
+	|opponent1={{1v1Opponent|Youngjoo 김영주}}
+	|opponent2={{1v1Opponent|Hm}}
+	|map1={{Map|winner=2|map=}}
+	|map2={{Map|winner=2|map=}}
+	|map3={{Map|winner=|map=}}
+}}
+
+<!-- Grand Final -->
+
+|R2M1={{Match
+	|date=2025-07-19 21:00 {{Abbr/KST}}
+	|afreeca=afstar1
+	|preview= 
+	|vod=https://vod.sooplive.co.kr/player/166436123
+	|opponent1={{1v1Opponent|Saber}}
+	|opponent2={{1v1Opponent|Hm}}
+	|map1={{Map|winner=1|map=}}
+	|map2={{Map|winner=2|map=}}
+	|map3={{Map|winner=1|map=}}
+}}
+
+<!-- Third Place Match -->
+
+<!--
+|RxMTP={{Match
+|winner=
+|date=
+|twitch=
+|opponent1=
+|opponent2=
+|map1={{Map|winner=|map=}}
+|map2={{Map|winner=|map=}}
+|map3={{Map|winner=|map=}}
+}}
+-->
+}}
+
+==Talents==
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{box|end}}
+
+==External Links==
+*[https://ch.sooplive.co.kr/afstar1/post/164818577 Announcement on SOOP]

@@ -4,6 +4,7 @@ import { describe, expect, it } from "vitest";
 import { getElo, getPlayers, getSeasons } from "@/lib/services/stats";
 
 import EloPage from "../elo/page";
+import EloWithQualifiersPage from "../elo/with-qualifiers/page";
 import HeadToHeadPage from "../head-to-head/page";
 import PlayerPage, { generateStaticParams as playerParams } from "../players/[slug]/page";
 import PlayersPage from "../players/page";
@@ -147,7 +148,7 @@ describe("/players/[slug]", () => {
 });
 
 describe("/elo", () => {
-  it("shows the spreadsheet's columns, in rank order, and says it is placement-based", () => {
+  it("shows every column in rank order and says the rating comes from games", () => {
     render(<EloPage />);
     const table = screen.getByRole("table", { name: /All players by current ELO/ });
     expect(screen.getByText("Top 10 players over time")).toBeInTheDocument();
@@ -159,6 +160,7 @@ describe("/elo", () => {
       "Current ELO",
       "Peak ELO",
       "Peak season",
+      "Games",
       "Seasons",
       "Championships",
     ]) {
@@ -170,7 +172,38 @@ describe("/elo", () => {
     expect(
       within(rowsOf(table)[0] as HTMLElement).getByText(top?.player ?? ""),
     ).toBeInTheDocument();
-    expect(screen.getByText(/ELO from season placements/)).toBeInTheDocument();
+    expect(screen.getByText(/ELO from individual games/)).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "ASL games only" })).toHaveAttribute(
+      "aria-current",
+      "page",
+    );
+    expect(screen.getByRole("link", { name: "Including qualifiers" })).toHaveAttribute(
+      "href",
+      "/elo/with-qualifiers",
+    );
+  });
+
+  it("rates players on their games, so one bad season does not sink a champion", () => {
+    const rank = new Map(getElo().map((r) => [r.player, r.rank]));
+    expect(rank.get("Soulkey")).toBeLessThanOrEqual(5);
+    expect(rank.get("Flash")).toBeLessThanOrEqual(3);
+  });
+});
+
+describe("/elo/with-qualifiers", () => {
+  it("ranks by the rating that counts qualifier games and says what that adds", () => {
+    render(<EloWithQualifiersPage />);
+    expect(screen.getByRole("link", { name: "Including qualifiers" })).toHaveAttribute(
+      "aria-current",
+      "page",
+    );
+    expect(screen.getByText(/also counts .* qualifier games, from S4 on/)).toBeInTheDocument();
+    const table = screen.getByRole("table", { name: /qualifier games included/ });
+    const best = [...getElo()].sort((a, b) => a.withQualifiers.rank - b.withQualifiers.rank)[0];
+    const first = within(rowsOf(table)[0] as HTMLElement);
+    expect(first.getByText(best?.player ?? "")).toBeInTheDocument();
+    expect(first.getByText(String(best?.withQualifiers.games))).toBeInTheDocument();
+    expect(best?.withQualifiers.games).toBeGreaterThan(best?.games ?? 0);
   });
 });
 

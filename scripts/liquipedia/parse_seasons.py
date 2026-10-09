@@ -114,7 +114,7 @@ RACES = {"t": "T", "z": "Z", "p": "P", "terran": "T", "zerg": "Z", "protoss": "P
 
 
 def opponent(raw: str) -> dict | None:
-    for tname in ("SoloOpponent", "1Opponent"):
+    for tname in ("SoloOpponent", "1Opponent", "1v1Opponent"):
         found = find_templates(raw, tname)
         if found:
             pos, named = split_params(found[0][2])
@@ -628,8 +628,38 @@ def parse_all() -> tuple[list[dict], dict[str, list[str]]]:
     return seasons, dict(sorted(identities.items(), key=lambda kv: kv[0].lower()))
 
 
+def parse_qualifiers() -> list[dict]:
+    """Every decided series on the stored qualifier pages, in page order (fetch_qualifiers.py).
+
+    Call after parse_all, which decides how names are spelled. Walkovers and series with no
+    score are left out: nothing was played. Most qualifier players never reached an ASL season;
+    their names are kept as the page writes them.
+    """
+    index_path = SRC / "qualifiers.json"
+    index = json.loads(index_path.read_text(encoding="utf-8")) if index_path.exists() else {}
+    out = []
+    for key, meta in sorted(index.items()):
+        text = clean((SRC / "qualifiers" / f"{key}.wiki").read_text(encoding="utf-8"))
+        for _, _, body in find_templates(text, "Match"):
+            m = parse_match(body)
+            if not m or m["winner"] is None or m["how"] == "walkover" or not m["score"]:
+                continue
+            if min(m["score"]) < 0 or not sum(m["score"]):  # -1 marks a forfeit
+                continue
+            a, b = m["a"]["name"], m["b"]["name"]
+            if a == b:
+                continue
+            w, l = (a, b) if m["winner"] == 1 else (b, a)
+            s = sorted(m["score"], reverse=True)
+            out.append({"season": meta["season"], "page": key, "winner": w, "loser": l,
+                        "score": f"{s[0]}-{s[1]}", "games": games_of(m, a, b)})
+    return out
+
+
 def main() -> None:
     seasons, identities = parse_all()
+    qualifiers = parse_qualifiers()
+    (SRC / "qualifier-results.json").write_text(json.dumps(qualifiers, indent=1, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     (SRC / "identities.json").write_text(json.dumps(identities, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     (SRC / "results.json").write_text(json.dumps(seasons, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     if "--quiet" in sys.argv[1:]:

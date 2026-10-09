@@ -15,7 +15,6 @@ Exit:  0 ok, 1 unusable input, 2 problems under --strict
 from __future__ import annotations
 
 import hashlib
-import itertools
 import json
 import re
 import sys
@@ -63,37 +62,56 @@ def ratio(wins: int, losses: int) -> float | None:
     return round(wins / (wins + losses), 4) if wins + losses else None
 
 
-def compute_elo(tiers_by_season: list[dict[str, int]]) -> tuple[dict[str, float], dict[str, tuple[float, int]]]:
-    rating, peak, _ = compute_elo_history(tiers_by_season)
-    return rating, peak
+def games_of(series: dict) -> list[tuple[str, str]]:
+    """(winner, loser) of each game in a series, in the order played.
+
+    When the page lists no games, they are rebuilt from the score with the loser's wins spread
+    between the winner's (3-1 becomes W L W W): the order is unknown, and this keeps the
+    series winner taking the last game. With no score either, the series counts as one game.
+    """
+    w, l = series["winner"], series["loser"]
+    if series.get("games"):
+        return [(g["winner"], l if g["winner"] == w else w) for g in series["games"]]
+    if not series.get("score"):
+        return [(w, l)]
+    won, lost = (int(x) for x in series["score"].split("-"))
+    out: list[tuple[str, str]] = []
+    for i in range(won):
+        out.append((w, l))
+        if i < lost and i < won - 1:
+            out.append((l, w))
+    out[-1:-1] = [(l, w)] * max(0, lost - (won - 1))
+    return out
 
 
-def compute_elo_history(
-    tiers_by_season: list[dict[str, int]],
-) -> tuple[dict[str, float], dict[str, tuple[float, int]], dict[str, list[tuple[int, float]]]]:
-    """Placement-based ELO. Start 1500, K=32.
+def compute_game_elo(
+    games_by_season: list[list[tuple[str, str]]],
+) -> tuple[dict[str, float], dict[str, tuple[float, int]], dict[str, list[tuple[int, float]]], dict[str, int]]:
+    """Game-based ELO. Start 1500, K=32 (Derek, 2026-10-09; it replaced the placement ELO).
 
-    tiers_by_season[i] maps player -> best rank of their placement tier in season i+1.
-    Each season, participants are ordered by (tier, name). Every pair in different tiers is
-    one game won by the better-placed player; same-tier pairs are skipped. Ratings update
-    after each pair. Peak is the best rating after any season played.
+    games_by_season[i] lists season i+1's games as (winner, loser), in the order played. Each
+    game moves the winner up and the loser down by K times how unexpected the result was.
+    Returns the rating, the peak (best rating at the end of any season played, and that
+    season), the rating after each season played, and the number of games played.
     """
     rating: dict[str, float] = defaultdict(lambda: ELO_START)
     peak: dict[str, tuple[float, int]] = {}
     history: dict[str, list[tuple[int, float]]] = defaultdict(list)
-    for i, tiers in enumerate(tiers_by_season):
-        part = sorted(tiers, key=lambda n: (tiers[n], *name_key(n)))
-        for a, b in itertools.combinations(part, 2):
-            if tiers[a] == tiers[b]:
-                continue
-            delta = ELO_K * (1 - 1 / (1 + 10 ** ((rating[b] - rating[a]) / 400)))
-            rating[a] += delta
-            rating[b] -= delta
-        for n in part:
+    played: dict[str, int] = defaultdict(int)
+    for i, games in enumerate(games_by_season):
+        seen: dict[str, None] = {}
+        for winner, loser in games:
+            delta = ELO_K * (1 - 1 / (1 + 10 ** ((rating[loser] - rating[winner]) / 400)))
+            rating[winner] += delta
+            rating[loser] -= delta
+            for n in (winner, loser):
+                played[n] += 1
+                seen[n] = None
+        for n in seen:
             if n not in peak or rating[n] > peak[n][0]:
                 peak[n] = (rating[n], i + 1)
             history[n].append((i + 1, rating[n]))
-    return dict(rating), peak, dict(history)
+    return dict(rating), peak, dict(history), dict(played)
 
 
 # --------------------------------------------------------------------------- build
@@ -145,7 +163,6 @@ def build(source_dir: Path) -> dict[str, Any]:
         warn("OVERRIDE_UNUSED", f"overrides.json has a race for {name!r}, who is not in the results")
 
     seasons, placements, series = [], [], []
-    tiers_by_season: list[dict[str, int]] = []
     for s in sorted(results, key=lambda x: x["season"]):
         n = s["season"]
         for note in s["notes"]:
@@ -159,14 +176,11 @@ def build(source_dir: Path) -> dict[str, Any]:
         final = s["bracket"].get("r3m1")
         if not final:
             warn("FINALS_MISSING", f"S{n}: no grand final result")
-        tiers: dict[str, int] = {}
         for p in s["players"]:
             name = nm(p["player"])
             pl = to_placement(p["placement"])
-            tiers[name] = pl["best"]
             placements.append({"player": name, "race": race_of[name], "season": n, "placement": pl,
                                "prizeKrw": p["prizeKrw"]})
-        tiers_by_season.append(tiers)
         winner, runner = (nm(final["winner"]), nm(final["loser"])) if final else (None, None)
         seasons.append({
             "season": n, "name": s["name"], "start": s["start"], "end": s["end"],
@@ -194,8 +208,30 @@ def build(source_dir: Path) -> dict[str, Any]:
     for m in series:
         m["winnerRace"], m["loserRace"] = race_of.get(m["winner"]), race_of.get(m["loser"])
 
-    # ---- career stats and ELO
-    rating, peak, history = compute_elo_history(tiers_by_season)
+    # ---- career stats and ELO: once on the ASL's own games, once with each season's qualifier
+    # games played before them
+    qualifiers_path = lp / "qualifier-results.json"
+    qualifiers = json.loads(qualifiers_path.read_text(encoding="utf-8")) if qualifiers_path.exists() else []
+    numbers = [s["season"] for s in seasons]
+    main_games = [[g for m in series if m["season"] == n for g in games_of(m)] for n in numbers]
+    known = set(all_players)
+    lower = {n.lower(): n for n in all_players}
+
+    def qualifier_name(raw: str) -> str:
+        """Newer qualifier pages write "ID Korean name". An ASL player is matched by the exact ID."""
+        base = nm(re.sub(r"\s+[\uac00-\ud7a3 ]+$", "", raw).strip() or raw)
+        return base if base in known else raw
+
+    # A name that differs from an ASL player's only by capitals is not merged without Derek's
+    # say-so (CLAUDE.md): it is rated as someone else and reported.
+    for raw in sorted({n for q in qualifiers for n in (q["winner"], q["loser"])}, key=name_key):
+        name = qualifier_name(raw)
+        if name not in known and name.lower() in lower:
+            warn("QUALIFIER_NAME_VARIANT", f"qualifier pages write {name!r}; not counted as {lower[name.lower()]!r}")
+    qualifier_games = [[(qualifier_name(w), qualifier_name(l)) for q in qualifiers if q["season"] == n
+                        for w, l in games_of(q)] for n in numbers]
+    rating, peak, history, played = compute_game_elo(main_games)
+    q_rating, q_peak, q_history, q_played = compute_game_elo([q + m for q, m in zip(qualifier_games, main_games)])
     champs = Counter(s["winner"] for s in seasons if s["winner"])
     by_player: dict[str, list[dict[str, Any]]] = defaultdict(list)
     for r in placements:
@@ -214,10 +250,23 @@ def build(source_dir: Path) -> dict[str, Any]:
         if ranks.count(1) != champs.get(name, 0):
             warn("PARSE_PROBLEM", f"{name}: {ranks.count(1)} first places but {champs.get(name, 0)} finals won")
     stats.sort(key=lambda r: (-r["currentElo"], *name_key(r["player"])))
+    # Only players who entered an ASL season are listed, in both versions: qualifier opponents
+    # move the ratings but have no page on the site.
+    q_order = sorted(all_players, key=lambda n: (-round(q_rating[n], 1), *name_key(n)))
+    q_rank = {n: i + 1 for i, n in enumerate(q_order)}
+
+    def points(h: list[tuple[int, float]]) -> list[dict[str, Any]]:
+        return [{"season": n, "elo": round(v, 1)} for n, v in h]
+
     elo = [{"rank": i + 1, "player": r["player"], "race": r["race"], "currentElo": r["currentElo"],
             "peakElo": round(peak[r["player"]][0], 1), "peakSeason": peak[r["player"]][1],
-            "seasons": r["seasons"], "championships": r["championships"],
-            "history": [{"season": n, "elo": round(v, 1)} for n, v in history[r["player"]]]} for i, r in enumerate(stats)]
+            "seasons": r["seasons"], "championships": r["championships"], "games": played[r["player"]],
+            "history": points(history[r["player"]]),
+            "withQualifiers": {
+                "rank": q_rank[r["player"]], "currentElo": round(q_rating[r["player"]], 1),
+                "peakElo": round(q_peak[r["player"]][0], 1), "peakSeason": q_peak[r["player"]][1],
+                "games": q_played[r["player"]], "history": points(q_history[r["player"]]),
+            }} for i, r in enumerate(stats)]
 
     aliases: dict[str, list[str]] = defaultdict(list)
     for canonical, others in identities.items():
@@ -245,7 +294,10 @@ def build(source_dir: Path) -> dict[str, Any]:
                    "pages": [{"season": s["season"], **s["source"]} for s in seasons]},
         "seasons": {"count": len(seasons), "complete": sum(s["status"] == "complete" for s in seasons)},
         "counts": {k.removesuffix(".json"): len(v) for k, v in data.items() if isinstance(v, list)},
-        "elo": {"start": ELO_START, "k": ELO_K, "basis": "placement"},
+        "elo": {"start": ELO_START, "k": ELO_K, "basis": "game",
+                "games": sum(len(g) for g in main_games),
+                "qualifierGames": sum(len(g) for g in qualifier_games),
+                "qualifierSeasons": [n for n, g in zip(numbers, qualifier_games) if g]},
         "warnings": len(warnings),
     }
     return data

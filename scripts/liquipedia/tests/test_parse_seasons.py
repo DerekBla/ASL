@@ -127,6 +127,26 @@ class MapAndVodTests(unittest.TestCase):
         self.assertIsNone(vods.playoff(30, "r2m2", "Bisu", "Mini"))
 
 
+class QualifierTests(unittest.TestCase):
+    def test_newer_pages_write_opponents_as_1v1opponent(self):
+        text = "{{Match|bestof=3|opponent1={{1v1Opponent|Larva|flag=|race=|score=2}}|opponent2={{1v1Opponent|bartlett|flag=kr|race=p|score=0}}}}"
+        m = ps.parse_match(ps.find_templates(text, "Match")[0][2])
+        self.assertEqual((m["a"]["name"], m["b"]["name"], m["winner"], m["score"]), ("Larva", "bartlett", 1, [2, 0]))
+        empty = "{{Match|opponent1={{1v1Opponent||flag=kr|score=2}}|opponent2={{1v1Opponent|A|score=0}}}}"
+        self.assertIsNone(ps.parse_match(ps.find_templates(empty, "Match")[0][2]))
+
+    @unittest.skipUnless((ps.SRC / "qualifiers.json").exists(), "qualifier pages not present")
+    def test_stored_qualifiers_are_decided_series_with_real_scores(self):
+        ps.parse_all()
+        series = ps.parse_qualifiers()
+        self.assertGreater(len(series), 4000)
+        self.assertEqual(min(q["season"] for q in series), 4)
+        for q in series:
+            won, lost = (int(x) for x in q["score"].split("-"))
+            self.assertTrue(won > lost >= 0, q)
+            self.assertNotEqual(q["winner"], q["loser"])
+
+
 class GroupStandingTests(unittest.TestCase):
     def test_dual_tournament(self):
         # A beats B, C beats D, A beats C (1st), B beats D (D 4th), C beats B (C 2nd, B 3rd)

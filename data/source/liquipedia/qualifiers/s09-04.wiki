@@ -1,0 +1,124 @@
+<noinclude>{{DISPLAYTITLE:AfreecaTV Starleague Season 9: Wild Card Qualifier}}
+{{KSL Navbox}}
+
+{{tabs static
+|name1=Main Event
+|link1=2020 AfreecaTV Starleague Season 9
+|name2=Qualifiers
+|link2=2020 AfreecaTV Starleague Season 9/Qualifiers
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=2020 AfreecaTV Starleague Season 9/Qualifiers
+|name2=Wildcard Qualifier
+|link2=2020 AfreecaTV Starleague Season 9/Qualifiers/Wildcard
+|name3=Seoul Qualifier
+|link3=2020 AfreecaTV Starleague Season 9/Qualifiers/Seoul
+|name4=Gwangju Qualifier
+|link4=2020 AfreecaTV Starleague Season 9/Qualifiers/Gwangju
+|name5=Busan Qualifier
+|link5=2020 AfreecaTV Starleague Season 9/Qualifiers/Busan
+|This=2}}
+
+{{Infobox league
+|name=AfreecaTV Starleague Season 9: Wild Card Qualifier
+|image=
+|series=ASL
+|organizer=Kongdoo
+|organizer2=AfreecaTV
+|sponsor=
+|server=
+|type=Offline
+|prizepool=
+|prizepoolusd=
+|country=South Korea
+|city=Seoul
+|date=2020-01-21
+|sdate=
+|edate=
+|edition=
+|tlpd=
+|web=
+|player_number=3
+|protoss_number=
+|terran_number=2
+|zerg_number=1
+|map1=Fighting Spirit
+|map2=Match Point
+|map3=Neo Sylphid
+|map4=Whiteout
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=2019 AfreecaTV Starleague Season 8/Qualifier/Wildcard{{!}}ASL Season 8: Wild Card Qualifier
+|next=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Wild Card{{!}}ASL Season 11: Wild Card Qualifier
+}}
+<br>
+The '''AfreecaTV Starleague Season 9: Wild Card Qualifier''' was the tournament held on January 21, 2020 to determine the seed for the [[AfreecaTV Starleague Season 9]].
+
+==Participants==
+{{ParticipantTable|countByFaction=true
+|{{ParticipantSection|title=Participants
+|Light
+|Sacsri
+|Sharp
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=AfreecaTV Starleague Season 9: Wildcard Qualifier Maps
+|map1=Fighting Spirit|map1displayName=Fighting Spirit
+|map2=Match Point|map2displayName=Match Point
+|map3=Neo Sylphid|map3displayName=Neo Sylphid
+|map4=Whiteout|map4displayName=Whiteout
+}}
+
+====Results====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Round Robin
+|width=300px
+|vod1=https://vod.afreecatv.com/PLAYER/STATION/51365414
+|vod2=https://vod.afreecatv.com/PLAYER/STATION/51367233
+|vod3=https://vod.afreecatv.com/PLAYER/STATION/51369256
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=2|temp_lose_g1=0|temp_lose_m1=1|temp_win_m1=4|{{soloOpponent|p1race=t |p1flag=kr|p1=Sharp}}
+|bg2=down|pbg2=down|temp_tie2=48|temp_win_g2=1|temp_lose_g2=1|temp_lose_m2=2|temp_win_m2=2|{{soloOpponent|p1race=t |p1flag=kr|p1=Light}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=0|temp_lose_g3=0|temp_lose_m3=4|temp_win_m3=1|{{soloOpponent|p1race=z |p1flag=kr|p1=Sacsri}}
+}}
+{{Matchlist|id=tKOlPPA6Cm
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/554992-asl-season-9-wild-card-qualifier|winner=1
+    |opponent1={{SoloOpponent|name=Light|race=t}}
+    |opponent2={{SoloOpponent|name=Sacsri|race=z}}
+    |map1={{Map|map=Whiteout|winner=1}}
+    |map2={{Map|map=Fighting Spirit|winner=1}}
+    |map3={{Map|map=Match Point|winner=skip}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/554992-asl-season-9-wild-card-qualifier|winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Light|race=t}}
+    |map1={{Map|map=Match Point|winner=1}}
+    |map2={{Map|map=Neo Sylphid|winner=1}}
+    |map3={{Map|map=Fighting Spirit|winner=skip}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/bw-tournaments/554992-asl-season-9-wild-card-qualifier|winner=1
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Sascri|race=z}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=Fighting Spirit|winner=1}}
+    |map3={{Map|map=Match Point|winner=1}}
+}}
+}}
+
+{{Box|break|padding=2em}}
+<noinclude>
+
+====Media====
+* [https://vod.sooplive.co.kr/player/51365414 Match 1 VOD on AfreecaTV]
+* [https://vod.sooplive.co.kr/player/51367233 Match 2 VOD on AfreecaTV]
+* [https://vod.sooplive.co.kr/player/51369256 Match 3 VOD on AfreecaTV]
+<noinclude>

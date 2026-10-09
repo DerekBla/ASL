@@ -1,0 +1,127 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 14: Wild Card Qualifier}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+
+{{tabs static
+|name1=Main Event
+|link1=AfreecaTV StarCraft League Remastered/14
+|name2=Qualifiers
+|link2=AfreecaTV StarCraft League Remastered/14/Qualifiers
+|name3=Statistics
+|link3=AfreecaTV_StarCraft_League_Remastered/14/Statistics
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=AfreecaTV StarCraft League Remastered/14/Qualifiers
+|name2=Wild Card Qualifier
+|link2=AfreecaTV StarCraft League Remastered/14/Qualifiers/Wild Card
+|name3=Online Qualifier Day 1
+|link3=AfreecaTV StarCraft League Remastered/14/Qualifiers/Online 1
+|name4=Online Qualifier Day 2
+|link4=AfreecaTV StarCraft League Remastered/14/Qualifiers/Online 2
+|This=2
+}}
+
+{{Infobox league
+|name=ASL Season 14: Wild Card Qualifier
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=
+|server=
+|type=Offline
+|prizepool=
+|prizepoolusd=
+|country=South Korea
+|format=Single-Elimination
+|city=Seoul
+|date=2022-07-17
+|sdate=
+|edate=
+|edition=
+|tlpd=
+|web=
+|afreeca=afstar1
+|player_number=4
+|protoss_number=
+|terran_number=2
+|zerg_number=2
+|map1=Butter
+|map2=Eclipse
+|map3=Metaverse
+|map4=Vermeer SE
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV StarCraft League Remastered/12/Qualifiers/Wild Card{{!}}ASL Season 12: Wild Card Qualifier
+|next=
+}}
+<br>
+The '''AfreecaTV StarCraft League Remastered Season 14: Wild Card Qualifier''' was the tournament held on July 17, 2022 to determine the seed for the [[AfreecaTV_StarCraft_League_Remastered/14|AfreecaTV StarCraft League Remastered Season 14]]. Because [[Rain]] decided not to participate, due to a wrist injury.
+
+==Participants==
+
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection
+|p1=JyJ
+|p2=Action
+|p3=Rush
+|p4=Soulkey
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 14: Qualifier Maps
+}}
+
+==Prize Pool==
+{{prize pool start|noprize=true|points=seed|disable_teams=true}}
+{{prize pool slot|place=1
+|points=ASL 14 Ro16 |link=2022 AfreecaTV StarCraft League Remastered Season 14
+}}
+{{LegacyPrizePoolEnd|}}
+
+==Results==
+{{bracket|Bracket/4|id=ASL14WildC
+<!-- Semi-Finals -->
+
+|R1M1={{Match
+  |bestof=3
+  |date=2022-07-17 13:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/player/89817700
+  |opponent1={{1v1Opponent|Action}}
+  |opponent2={{1v1Opponent|JyJ}}
+  |map1={{Map|winner=1|map=Metaverse}}
+  |map2={{Map|winner=1|map=Vermeer SE}}
+  |map3={{Map|finished=skip|map=Eclipse}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |date=2022-07-17 13:30 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/player/89818680
+  |opponent1={{1v1Opponent|Rush}}
+  |opponent2={{1v1Opponent|Soulkey}}
+  |map1={{Map|winner=1|map=Butter}}
+  |map2={{Map|winner=1|map=Vermeer SE}}
+  |map3={{Map|finished=skip|map=Eclipse}}
+}}
+
+<!-- Final -->
+
+|R2M1={{Match
+  |bestof=3
+  |date=2022-07-17 14:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/player/89820065
+  |opponent1={{1v1Opponent|Action|flag=kr}}
+  |opponent2={{1v1Opponent|Rush|flag=kr}}
+  |map1={{Map|winner=1|map=Allegro}}
+  |map2={{Map|winner=2|map=Metaverse}}
+  |map3={{Map|winner=1|map=Vermeer SE}}
+}}
+}}
+
+==External links==
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/89358184 afreecatv.com - announcement]
+*{{Flag|us}} [https://tl.net/forum/brood-war/595914-asl14-wild-card tl.net - announcement]

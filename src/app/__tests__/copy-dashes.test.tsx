@@ -9,6 +9,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
 import EloPage from "../elo/page";
+import EloWithQualifiersPage from "../elo/with-qualifiers/page";
 import HeadToHeadPage from "../head-to-head/page";
 import MarketsPage from "../markets/page";
 import HomePage from "../page";
@@ -57,6 +58,7 @@ describe("site copy has no dashes in ordinary sentences", () => {
     ["/players", () => PlayersPage()],
     ["/players/flash", () => PlayerPage({ params: Promise.resolve({ slug: "flash" }) })],
     ["/elo", () => EloPage()],
+    ["/elo/with-qualifiers", () => EloWithQualifiersPage()],
     ["/races", () => RacesPage()],
     [
       "/head-to-head",

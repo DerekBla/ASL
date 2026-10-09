@@ -35,29 +35,39 @@ class PlacementTests(unittest.TestCase):
 
 
 class EloTests(unittest.TestCase):
-    def test_zero_sum_and_ordering(self):
-        rating, peak = ex.compute_elo([{"A": 1, "B": 2, "C": 3, "D": 3}])
-        self.assertAlmostEqual(sum(rating.values()), 4 * ex.ELO_START)
-        self.assertGreater(rating["A"], rating["B"])
-        self.assertGreater(rating["B"], rating["C"])
+    def test_zero_sum_and_an_upset_moves_more(self):
+        rating, peak, history, played = ex.compute_game_elo([[("A", "B"), ("A", "B"), ("B", "A")]])
+        self.assertAlmostEqual(sum(rating.values()), 2 * ex.ELO_START)
+        self.assertEqual(played, {"A": 3, "B": 3})
+        # A won twice as the favourite, then lost once as the favourite: the loss cost more.
+        first = ex.compute_game_elo([[("A", "B")]])[0]["A"] - ex.ELO_START
+        self.assertAlmostEqual(first, ex.ELO_K / 2)
+        self.assertLess(rating["A"] - ex.ELO_START, first)
         self.assertEqual(peak["A"][1], 1)
-
-    def test_same_tier_pairs_do_not_play(self):
-        rating, _ = ex.compute_elo([{"A": 5, "B": 5}])
-        self.assertEqual(rating, {"A": ex.ELO_START, "B": ex.ELO_START})
+        self.assertEqual(history["A"], [(1, rating["A"])])
 
     def test_history_has_one_point_per_season_played(self):
-        rating, peak, history = ex.compute_elo_history([{"A": 1, "B": 2}, {"B": 1, "C": 2}, {"A": 1, "C": 2}])
+        rating, peak, history, _ = ex.compute_game_elo([[("A", "B")], [("B", "C")], [("A", "C")]])
         self.assertEqual([n for n, _ in history["A"]], [1, 3])
         self.assertEqual([n for n, _ in history["B"]], [1, 2])
         self.assertEqual(history["A"][-1][1], rating["A"])
         self.assertEqual(max(history["B"], key=lambda x: x[1]), (peak["B"][1], peak["B"][0]))
 
     def test_absent_players_keep_their_rating(self):
-        rating, peak = ex.compute_elo([{"A": 1, "B": 2}, {"B": 1, "C": 2}])
-        first, _ = ex.compute_elo([{"A": 1, "B": 2}])
+        rating, peak, _, _ = ex.compute_game_elo([[("A", "B")], [("B", "C")]])
+        first = ex.compute_game_elo([[("A", "B")]])[0]
         self.assertEqual(rating["A"], first["A"])
         self.assertEqual(peak["A"][1], 1)
+
+    def test_games_come_from_the_page_then_the_score_then_one_game(self):
+        listed = {"winner": "A", "loser": "B", "score": "2-1",
+                  "games": [{"map": "X", "winner": "B"}, {"map": "Y", "winner": "A"}, {"map": "Z", "winner": "A"}]}
+        self.assertEqual(ex.games_of(listed), [("B", "A"), ("A", "B"), ("A", "B")])
+        w, l = ("A", "B"), ("B", "A")
+        self.assertEqual(ex.games_of({"winner": "A", "loser": "B", "score": "3-1", "games": []}), [w, l, w, w])
+        self.assertEqual(ex.games_of({"winner": "A", "loser": "B", "score": "4-3", "games": []}), [w, l, w, l, w, l, w])
+        self.assertEqual(ex.games_of({"winner": "A", "loser": "B", "score": "2-0", "games": []}), [w, w])
+        self.assertEqual(ex.games_of({"winner": "A", "loser": "B", "score": None, "games": []}), [w])
 
 
 @unittest.skipUnless((SOURCE / "liquipedia" / "results.json").exists(), "Liquipedia results not present")
@@ -113,6 +123,19 @@ class BuildTests(unittest.TestCase):
             self.assertTrue(all((row["player"], p["season"]) in seasons for p in points), row["player"])
             self.assertAlmostEqual(points[-1]["elo"], row["currentElo"], places=1)
             self.assertAlmostEqual(max(p["elo"] for p in points), row["peakElo"], places=1)
+            with_q = row["withQualifiers"]
+            self.assertGreaterEqual(with_q["games"], row["games"], row["player"])
+            self.assertGreaterEqual(len(with_q["history"]), len(points), row["player"])
+            self.assertAlmostEqual(with_q["history"][-1]["elo"], with_q["currentElo"], places=1)
+        elo = self.data["elo.json"]
+        self.assertEqual(sorted(r["withQualifiers"]["rank"] for r in elo), list(range(1, len(elo) + 1)))
+        # Every game has two players, and all of them are listed when qualifiers are left out.
+        self.assertEqual(sum(r["games"] for r in elo), 2 * self.data["manifest.json"]["elo"]["games"])
+        self.assertAlmostEqual(sum(r["currentElo"] for r in elo) / len(elo), ex.ELO_START, places=0)
+
+    def test_soulkey_is_rated_on_his_games_not_his_last_two_placements(self):
+        rank = {r["player"]: r["rank"] for r in self.data["elo.json"]}
+        self.assertLessEqual(rank["Soulkey"], 5)
 
     def test_career_stats_agree_with_seasons(self):
         champs = Counter(s["winner"] for s in self.data["seasons.json"])

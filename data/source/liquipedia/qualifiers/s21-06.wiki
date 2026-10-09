@@ -1,0 +1,414 @@
+{{DISPLAYTITLE:[S:21] ASL SEASON OPEN 2nd Round Qualifier}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/21/Tabs}}
+{{Infobox league
+|name=[S:21] ASL SEASON OPEN 2nd Round Qualifier
+|series=
+|abbreviation=
+|image=ASL21 season open lightmode.png
+|imagedark=ASL21 season open darkmode.png
+|icon=ASL 2026 icon lightmode.png
+|icondark=ASL 2026 icon darkmode.png
+|organizer=SOOP
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|sdate=2026-02-28
+|edate=2026-02-28
+|liquipediatier=2|liquipediatiertype=Qualifier
+|afreeca=afstar1
+|bracket=https://esports.sooplive.co.kr/gggl/tournament/afstar1/2200/table
+|web=https://www.sooplive.co.kr/station/afstar1/post/186524687
+|player_number=
+|map1=Attitude
+|map2=Jane Doe
+|map3=Octagon
+|map4=Match Point
+|map5=Neo Sylphid
+|map6=KnockOut
+}}<br>
+
+==Format==
+*4 single-elimination brackets.
+*All matches are {{Abbr/Bo1}}.
+*Winner of each bracket advances to the [[ASL/21/Qualifier/OPEN/2|Main Event]].
+
+===Maps===
+{{MapPoolTable}}
+
+==Qualified Players==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Qualified ''(4)''
+|p1=Mong
+|p2=Sharp  
+|p3=Rush 
+|p4=huro  
+}}
+}}
+
+==Participants==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=
+|p1=Shuttle|p1link=Shuttle (Player)
+|p2=JD|p2link=Jaedong
+|p3=Larva|p3link=Larva (Player)
+|p4=herO|p4link=hero
+|p5=신재형|p5flag=kr|p5race=z
+|p6=전태훈|p6flag=kr|p6race=p
+|p7=kiwian 김정훈|p7flag=kr|p7race=t
+|p8=MulTi 남승호|p8flag=kr|p8race=t
+|p9=YoungJoo 김영주|p9flag=kr|p9race=t
+|p10=sAi 선우도현|p10flag=kr|p10race=z
+|p11=정규만|p11flag=kr|p11race=t
+|p12=박정빈|p12flag=kr|p12race=z
+|p13=신대산|p13flag=kr|p13race=p
+|p14=김용환|p14flag=kr|p14race=z
+|p15=Mudogi 김용학|p15flag=kr|p15race=p
+|p16=양원웅|p16flag=kr|p16race=r
+|p17=이호열|p17flag=kr|p17race=p
+|p18=Judge 박현선|p18flag=kr|p18race=z
+|p19=현정민|p19flag=kr|p19race=z
+|p20=조영철|p20flag=kr|p20race=p
+|p21=윤민구|p21flag=kr|p21race=t
+|p22=gypsy|p22link=gypsy|p22flag=ca|p22race=t
+|RoyaL
+|Tyson
+|Prime
+|Leta
+|Soulkey
+|Bale
+|Mong
+|ggaemo
+|Calm
+|Hm
+|Horang2
+|STONE
+|Mini
+|sSak
+|RuBy
+|kOp
+|Sharp
+|n.Die_soO
+|nOOB
+|Action
+|Killer
+|Stork
+|Rush
+|Absolute
+|Movie
+|Ample
+|Motive
+|huro
+|BishOp
+|EffOrt
+|BTS
+|BackHo
+|Sacsri
+|Olympus
+|ArtUser
+|Scan
+|Shinee
+|Dewalt
+|XuanXuan
+|QiaoGege
+}}
+}}
+
+==Results==
+==Detailed Results==
+{{tabs dynamic
+|name1=Group A
+|name2=Group B
+|name3=Group C
+|name4=Group D
+|content1=
+{{bracket|Bracket/4H2L1DLH4L2DSL-1Q|id=asl21op201
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|RoyaL|score=1}}
+	|opponent2={{1v1Opponent|신재형|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Tyson|score=0}}
+	|opponent2={{1v1Opponent|Prime|score=1}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Leta|score=1}}
+	|opponent2={{1v1Opponent|전태훈|score=0}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Shuttle|score=1}}
+	|opponent2={{1v1Opponent|Bale|score=0}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|ggaemo|score=1}}
+	|opponent2={{1v1Opponent|kiwian 김정훈|score=0}}
+}}
+
+<!-- -->
+|R2M1={{Match
+	|opponent1={{1v1Opponent|RoyaL|score=1}}
+	|opponent2={{1v1Opponent|Bale|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Leta|score=0}}
+	|opponent2={{1v1Opponent|Soulkey|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Shuttle|score=0}}
+	|opponent2={{1v1Opponent|Mong|score=1}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|ggaemo|score=1}}
+	|opponent2={{1v1Opponent|Calm|score=0}}
+}}
+|R3M1={{Match
+	|opponent1={{1v1Opponent|RoyaL|score=1}}
+	|opponent2={{1v1Opponent|Soulkey|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Mong|score=1}}
+	|opponent2={{1v1Opponent|ggaemo|score=0}}
+}}
+|R4M1={{Match
+	|opponent1={{1v1Opponent|RoyaL|score=0}}
+	|opponent2={{1v1Opponent|Mong|score=1}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/2200/table Group A Bracket]
+|content2=
+{{bracket|Bracket/8L4DSSH4L2DSH2L1DH2LLL-1Q|id=asl21op202
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|손장락|score=0}}
+	|opponent2={{1v1Opponent|Hm|score=1}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|MulTi 남승호|score=1}}
+	|opponent2={{1v1Opponent|Dewalt|score=0}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|김근형|score=0}}
+	|opponent2={{1v1Opponent|STONE|score=1}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|배창민|score=0}}
+	|opponent2={{1v1Opponent|sSak|score=1}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|kOp|score=1}}
+	|opponent2={{1v1Opponent|최덕규|score=0}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|배지웅|score=0}}
+	|opponent2={{1v1Opponent|n.Die_soO|score=1}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|YoungJoo 김영주|score=1}}
+	|opponent2={{1v1Opponent|고한민|score=0}}
+}}
+
+<!-- -->
+|R2M1={{Match
+	|opponent1={{1v1Opponent|Hm|score=0}}
+	|opponent2={{1v1Opponent|Horang2|score=1}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|MulTi 남승호|score=0}}
+	|opponent2={{1v1Opponent|herO|score=1}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|STONE|score=0}}
+	|opponent2={{1v1Opponent|Mini|score=1}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|sSak|score=1}}
+	|opponent2={{1v1Opponent|RuBy|score=0}}
+}}
+|R2M5={{Match
+	|opponent1={{1v1Opponent|kOp|score=0}}
+	|opponent2={{1v1Opponent|Sharp|score=1}}
+}}
+|R2M6={{Match
+	|opponent1={{1v1Opponent|n.Die_soO|score=0}}
+	|opponent2={{1v1Opponent|nOOB|score=1}}
+}}
+|R2M7={{Match
+	|opponent1={{1v1Opponent|YoungJoo 김영주|score=0}}
+	|opponent2={{1v1Opponent|sAi 선우도현|score=1}}
+}}
+|R2M8={{Match
+	|opponent1={{1v1Opponent|정규만|score=0}}
+	|opponent2={{1v1Opponent|Action|score=1}}
+}}
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Horang2|score=0}}
+	|opponent2={{1v1Opponent|herO|score=1}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Mini|score=0}}
+	|opponent2={{1v1Opponent|sSak|score=1}}
+}}
+|R3M3={{Match
+	|opponent1={{1v1Opponent|Sharp|score=1}}
+	|opponent2={{1v1Opponent|nOOB|score=0}}
+}}
+|R3M4={{Match
+	|opponent1={{1v1Opponent|sAi 선우도현|score=0}}
+	|opponent2={{1v1Opponent|Action|score=1}}
+}}
+|R4M1={{Match
+	|opponent1={{1v1Opponent|herO|score=1}}
+	|opponent2={{1v1Opponent|sSak|score=0}}
+}}
+|R4M2={{Match
+	|opponent1={{1v1Opponent|Sharp|score=1}}
+	|opponent2={{1v1Opponent|Action|score=0}}
+}}
+|R5M1={{Match
+	|opponent1={{1v1Opponent|herO|score=0}}
+	|opponent2={{1v1Opponent|Sharp|score=1}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/2200/table Group B Bracket]
+|content3=  
+{{bracket|Bracket/16-1Q|id=asl21op203
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|Killer|score=1}}
+	|opponent2={{1v1Opponent|XuanXuan|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Stork|score=1}}
+	|opponent2={{1v1Opponent|QiaoGege|score=0}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Rush|score=1}}
+	|opponent2={{1v1Opponent|박정빈|score=0}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Absolute|score=1}}
+	|opponent2={{1v1Opponent|신대산|score=0}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|김용환|score=0}}
+	|opponent2={{1v1Opponent|Movie|score=1}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Ample|score=1}}
+	|opponent2={{1v1Opponent|Mudogi 김용학|score=0}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|양원웅|score=0}}
+	|opponent2={{1v1Opponent|Motive|score=1}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|이호열|score=0}}
+	|opponent2={{1v1Opponent|JD|score=1}}
+}}
+|R2M1={{Match
+	|opponent1={{1v1Opponent|Killer|score=0}}
+	|opponent2={{1v1Opponent|Stork|score=1}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Rush|score=1}}
+	|opponent2={{1v1Opponent|Absolute|score=0}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Movie|score=0}}
+	|opponent2={{1v1Opponent|Ample|score=1}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Motive|score=0}}
+	|opponent2={{1v1Opponent|JD|score=1}}
+}}
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Stork|score=0}}
+	|opponent2={{1v1Opponent|Rush|score=1}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Ample|score=1}}
+	|opponent2={{1v1Opponent|JD|score=0}}
+}}
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Rush|score=1}}
+	|opponent2={{1v1Opponent|Ample|score=0}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/2200/table Group C Bracket]
+|content4=
+{{bracket|Bracket/16-1Q|id=asl21op204
+|R1M1={{Match|bestof=1
+	|opponent1={{1v1Opponent|huro|score=1}}
+	|opponent2={{1v1Opponent|Judge 박현선|score=0}}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|현정민|score=0}}
+	|opponent2={{1v1Opponent|BishOp|score=1}}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|EffOrt|score=1}}
+	|opponent2={{1v1Opponent|조영철|score=0}}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|윤민구|score=0}}
+	|opponent2={{1v1Opponent|BTS|score=1}}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|BackHo|score=0}}
+	|opponent2={{1v1Opponent|Sacsri|score=1}}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Olympus|score=1}}
+	|opponent2={{1v1Opponent|ArtUser|score=0}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|gypsy|score=0}}
+	|opponent2={{1v1Opponent|Scan|score=1}}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Larva|score=1}}
+	|opponent2={{1v1Opponent|Shinee|score=0}}
+}}
+|R2M1={{Match
+	|opponent1={{1v1Opponent|huro|score=1}}
+	|opponent2={{1v1Opponent|BishOp|score=0}}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|EffOrt|score=1}}
+	|opponent2={{1v1Opponent|BTS|score=0}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Sacsri|score=1}}
+	|opponent2={{1v1Opponent|Olympus|score=0}}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Scan|score=0}}
+	|opponent2={{1v1Opponent|Larva|score=1}}
+}}
+|R3M1={{Match
+	|opponent1={{1v1Opponent|huro|score=1}}
+	|opponent2={{1v1Opponent|EffOrt|score=0}}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Sacsri|score=1}}
+	|opponent2={{1v1Opponent|Larva|score=0}}
+}}
+|R4M1={{Match
+	|opponent1={{1v1Opponent|huro|score=1}}
+	|opponent2={{1v1Opponent|Sacsri|score=0}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/2200/table Group D Bracket]
+}}
+
+==Racial Distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==VOD==
+*{{Flag|kr}} [https://vod.sooplive.co.kr/player/188258209 AfreecaTV - VOD]
+
+==External Links==
+*[https://www.sooplive.co.kr/station/afstar1/post/186524687 Announcement on SOOP]

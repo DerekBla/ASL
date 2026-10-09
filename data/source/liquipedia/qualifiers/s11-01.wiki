@@ -1,0 +1,1309 @@
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 11: Online Qualifier Day 1}}
+{{TOClimit}}
+
+{{tabs static
+|name1=Main Event
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11
+|name2=Qualifiers
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|name2=Wild Card Qualifier
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Wild Card
+|name3=Online Qualifier Day 1
+|link3=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 1
+|name4=Online Qualifier Day 2
+|link4=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 2
+|name5=Online Qualifier Day 3
+|link5=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 3
+|This=3
+}}
+
+{{Infobox league
+|name=ASL Season 11: Online Qualifier Day 1
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=[https://company.lottechilsung.co.kr/eng/brand/hot6/contentsid/779/index.do Hot6], [https://www.lg.com/us/gaming-monitors LG Ultragear]
+|type=Online
+|country=South Korea
+|format=Single-Elimination
+|date=2021-03-12
+|tlpd=
+|web=
+|bracket=https://challonge.com/users/asl_s11/tournaments.html
+|player_number=222
+|map1=Polypoid
+|map2=Eclipse
+|map3=Fighting Spirit
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV StarCraft League Remastered/10/Qualifiers/Seoul{{!}}ASL Season 10: Seoul qualifier
+|next=AfreecaTV StarCraft League Remastered/12/Qualifiers/Online 2{{!}}ASL Season 12: Online qualifier day1
+}}
+
+==Qualified Players==
+{{ParticipantTable|countByFaction=true|disable_teams=true
+|{{ParticipantSection
+|p1=BeSt |p1race=p |p1flag=kr
+|p2=sSak |p2race=t |p2flag=kr
+|p3=Bisu |p3race=p |p3flag=kr
+|p4=Ss1nz |p4race=p |p4flag=kr
+|p5=ggaemo |p5race=z |p5flag=kr
+|p6=Shuttle |p6link=Shuttle (Player) |p6race=p |p6flag=kr
+|p7=Snow |p7race=p |p7flag=kr
+|p8=Sharp |p8race=t |p8flag=kr
+|p9=Shine |p9race=z |p9flag=kr
+|p10=sOrry |p10race=t |p10flag=kr
+|p11=Action |p11race=z |p11flag=kr
+|p12=Light |p12race=t |p12flag=kr
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 11: Qualifier Maps
+|map1=Polypoid|map1displayName=Polypoid
+|map2=Eclipse|map2displayName=Eclipse
+|map3=Fighting Spirit|map3displayName=Fighting Spirit
+}}
+
+==Results==
+===Notable unclassified participants===
+{{ParticipantTable|countByFaction=true|disable_teams=true
+|{{ParticipantSection
+|p1= |p1race= |p1flag=
+}}
+}}
+
+===Detailed Results===
+{{QualifierOverlay|group=A|done=1
+|win1={{InlinePlayer|1=Bisu|flag=kr|link=Bisu|faction=p}}
+|bracket={{Bracket|Bracket/16|id=uzucsYhwKw
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Noble|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=us|name=Artosis|race=t|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=하성훈|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=조경섭|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이영철|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Yangachi|race=p|score=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박장필|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=By.Spire|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=우수민|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=조성용|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이창승|score=0}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ToSsGirL|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박현호|score=1}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Bisu|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이상조|score=0}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Noble|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=하성훈|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이영철|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=By.Spire|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=조성용|score=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=ToSsGirL|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Bisu|race=p|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Noble|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=By.Spire|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Bisu|race=p|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=MIsO|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Bisu|race=p|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=B|done=1
+|win1={{InlinePlayer|1=BeSt|flag=kr|link=Best|faction=p}}
+|bracket={{Bracket|Bracket/16|id=QWa5U1WFTM
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=고동혁|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=한정현|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=정민기|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김선일|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김호성|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=안순환|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=홍준호|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=강동휘|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=전재영|score=2|win=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김태형|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=서동신|score=2|win=1}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=PianO|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김현종|score=0}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BeSt|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=고동혁|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=정민기|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=김호성|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=전재영|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=서동신|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=PianO|race=t|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BeSt|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=marvel|race=t|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=PianO|race=t|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Best|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=C|done=1
+|win1={{InlinePlayer|1=sSak|flag=kr|link=SSak|faction=t}}
+|bracket={{Bracket|Bracket/16|id=Bp8XmJnLr5
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=sSak|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=yerim2|race=z|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Ruin|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Horang2|race=p|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=sSak|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ruin|race=p|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=D|done=1
+|win1={{InlinePlayer|1=Ss1nz|flag=kr|link=Ss1nz|faction=p}}
+|bracket={{Bracket|Bracket/16|id=QbecMcuRla
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Ss1nz|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=BarrackS|race=t|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Stork|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=free|race=p|score=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Ss1nz|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Stork|race=p|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=E|done=1
+|win1={{InlinePlayer|1=Sharp|flag=kr|link=Sharp|faction=t}}
+|bracket={{Bracket|Bracket/16|id=HQSiStUD3Q
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=yabsab|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Calm|race=z|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Scan|race=t|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ample|race=t|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Olympus|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2|win=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=MulTi|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=yC|race=z|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=yabsab|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ample|race=t|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=yC|race=z|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=yabsab|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=F|done=1
+|win1={{InlinePlayer|1=Shuttle|flag=kr|link=Shuttle (Player)|faction=p}}
+|bracket={{Bracket|Bracket/16|id=5CQH392aNB
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R2M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김성호|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=YooTaeHo|race=t|score=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=황경선|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김성호|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=G|done=1
+|win1={{InlinePlayer|1=ggaemo|flag=kr|link=Ggaemo|faction=z}}
+|bracket={{Bracket|Bracket/16|id=VKcohyaiIr
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=FiNaLize|race=t|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김동민|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이준용|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ggaemo|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Pianist|race=p|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=jy|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sea|race=t|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김동민|race=z|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ggaemo|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sea|race=t|score=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=hero|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=ggaemo|race=z|score=2|win=1}}
+}}
+}}
+}}
+
+{{StorePlayerLink|Yoon|link=Yoon (Amateur)}}{{QualifierOverlay|group=H|done=1
+|win1={{InlinePlayer|1=Snow|flag=kr|link=SnOw|faction=p}}
+|bracket={{Bracket|Bracket/16|id=eEyKFxuGuN
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=cOre[kaL]|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=1996jasal|race=z|score=2|win=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Yoon|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Killer|race=z|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이진욱|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=huro|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Maestro|race=z|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=1996jasal|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Yoon|race=z|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=huro|race=p|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Yoon|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=I|done=1
+|win1={{InlinePlayer|1=Shine|flag=kr|link=Shine|faction=z}}
+|bracket={{Bracket|Bracket/16|id=hNnIlJY1h3
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=o.O|race=p|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=한민석|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=손희도|score=2|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=815|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|name=김신현|race=z|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=CleanGirlLe|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=ru|name=Dewalt|race=p|score=2|win=1}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Oblivion|race=z|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Eun|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이건희|score=0}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Leta|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=YoungJoo|race=z|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=고우연|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=LearN..1023|race=t|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=Z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=손희도|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=815|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=ru|name=Dewalt|race=p|score=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Eun|race=t|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Leta|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=LearN..1023|race=t|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=815|race=z|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Leta|race=t|score=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=J|done=1
+|win1={{InlinePlayer|1=sOrry|flag=kr|link=RoyaL|faction=t}}
+|bracket={{Bracket|Bracket/16|id=vDADORAWSN
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=윤호준|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=PitBull|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이범혁|score=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=beast|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Snail|race=z|score=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=sOrry|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=XTTR|race=t|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=PitBull|race=z|score=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=beast|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=sOrry|race=t|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=sOrry|race=t|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=K|done=1
+|win1={{InlinePlayer|1=Action|flag=kr|link=Action|faction=z}}
+|bracket={{Bracket|Bracket/16|id=nVIRQ0tcat
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Terminateher|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Kop|race=p|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이대연|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Motive|race=p|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Iris|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Action|race=z|score=2|win=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Prime|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=mangnani|race=t|score=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Terminateher|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Motive|race=p|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Action|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Prime|race=t|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Motive|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Action|race=z|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=L|done=1
+|win1={{InlinePlayer|1=Light|flag=kr|link=Light|faction=t}}
+|bracket={{Bracket|Bracket/16|id=pYFUJk92DS
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M2={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M3={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M4={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M5={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M6={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M7={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+|R1M8={{Match
+    |finished=true
+    |opponent1=
+    |opponent2=
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=`iops].. s2|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Hyuk|race=z|score=2|win=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ZeLoT|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김형곤|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이재욱|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정성민|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Nansu(장영근)|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Hyuk|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=ZeLoT|race=z|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이재욱|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Hyuk|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+}}
+}}
+}}
+
+==External links==
+*[https://tl.net/forum/bw-tournaments/570540-asl-11-qualifier-1 tl.net - ASL Season 11 Qualifier 1]
+*[https://challonge.com/ASL_S1_DAY1_GROUP1 ASL11 Online Qualifier Day 1: Group A]
+*[https://challonge.com/ASL_S1_DAY1_GROUP2 ASL11 Online Qualifier Day 1: Group B]
+*[https://challonge.com/ASL_S1_DAY1_GROUP3 ASL11 Online Qualifier Day 1: Group C]
+*[https://challonge.com/ASL_S1_DAY1_GROUP4 ASL11 Online Qualifier Day 1: Group D]
+*[https://challonge.com/ASL_S1_DAY1_GROUP5 ASL11 Online Qualifier Day 1: Group E]
+*[https://challonge.com/ASL_S1_DAY1_GROUP6 ASL11 Online Qualifier Day 1: Group F]
+*[https://challonge.com/ASL_S1_DAY1_GROUP7 ASL11 Online Qualifier Day 1: Group G]
+*[https://challonge.com/ASL_S1_DAY1_GROUP8 ASL11 Online Qualifier Day 1: Group H]
+*[https://challonge.com/ASL_S1_DAY1_GROUP9 ASL11 Online Qualifier Day 1: Group I]
+*[https://challonge.com/ASL_S1_DAY1_GROUP10 ASL11 Online Qualifier Day 1: Group J]
+*[https://challonge.com/ASL_S1_DAY1_GROUP11 ASL11 Online Qualifier Day 1: Group K]
+*[https://challonge.com/ASL_S1_DAY1_GROUP12 ASL11 Online Qualifier Day 1: Group L]
+*{{Flag|kr}} [https://vod.afreecatv.com/PLAYER/STATION/69764168 afreecatv.com - VOD]

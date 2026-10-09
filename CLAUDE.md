@@ -81,8 +81,11 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   enforces it on the main pages; URLs like `/head-to-head` are unaffected.
 - **Attribution**: stats text and results derive from Liquipedia (CC-BY-SA 3.0). The site must
   credit Liquipedia and link the source pages (`seasons.json` carries each URL).
-- **ELO** is placement-based (start 1500, K=32, pairwise by placement tier), not match-based.
-  Label it that way in the UI. It is computed by `compute_elo` in the exporter.
+- **ELO** is game-based (Derek, 2026-10-09; it replaced a placement-based rating that dropped
+  Soulkey 560 points for two early exits): start 1500, K=32, one update per game (map) in the
+  order played, computed by `compute_game_elo` in the exporter. `/elo` counts ASL games only;
+  `/elo/with-qualifiers` also counts the qualifier games Liquipedia has (S4 on). Only players
+  who entered an ASL season are listed. Say which games a rating counts wherever it is shown.
 - **Branding**: unofficial fan project. No ASL/SOOP/AfreecaTV logos or trade dress. Footer
   carries a "fan project, not affiliated" disclaimer.
 
@@ -220,6 +223,7 @@ draft → approved → in-progress → implemented
 | `pnpm db:go-live <id>` | Make that user admin and open the ASL S22 final market (idempotent) |
 | `pnpm test:ledger-concurrency` | 50 simultaneous trades against `DATABASE_URL_TEST` (wipes that branch) |
 | `pnpm stats:fetch` | Download season and player pages from Liquipedia into `data/source/liquipedia/` (network) |
+| `pnpm stats:qualifiers` | Download the qualifier pages into `data/source/liquipedia/qualifiers/` (network, about 5 minutes) |
 | `pnpm stats:vods` | List the English casts on YouTube into `data/source/youtube/videos.json` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

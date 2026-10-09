@@ -9,7 +9,6 @@ import { RaceBadge } from "@/components/RaceBadge";
 
 import { PlayerLink } from "./PlayerLink";
 
-// Same columns as the old spreadsheet's ELO Ratings tab.
 const COLUMNS: DataTableColumn[] = [
   { key: "rank", header: "Rank", align: "right" },
   { key: "player", header: "Player" },
@@ -17,37 +16,52 @@ const COLUMNS: DataTableColumn[] = [
   { key: "current", header: "Current ELO", align: "right", firstSort: "desc" },
   { key: "peak", header: "Peak ELO", align: "right", firstSort: "desc" },
   { key: "peakSeason", header: "Peak season", align: "right" },
+  { key: "games", header: "Games", align: "right", firstSort: "desc" },
   { key: "seasons", header: "Seasons", align: "right", firstSort: "desc" },
   { key: "titles", header: "Championships", align: "right", firstSort: "desc" },
 ];
 
-export function EloTable(): ReactElement {
-  const rows: DataTableRow[] = getElo().map((r) => ({
-    id: r.player,
-    cells: {
-      rank: r.rank,
-      player: <PlayerLink name={r.player} />,
-      race: <RaceBadge race={r.race} />,
-      current: <strong>{formatElo(r.currentElo)}</strong>,
-      peak: formatElo(r.peakElo),
-      peakSeason: formatSeason(r.peakSeason),
-      seasons: r.seasons,
-      titles: r.championships,
-    },
-    sort: {
-      rank: r.rank,
-      player: r.player,
-      race: r.race,
-      current: r.currentElo,
-      peak: r.peakElo,
-      peakSeason: r.peakSeason,
-      seasons: r.seasons,
-      titles: r.championships,
-    },
-  }));
+type Props = {
+  /** Show the rating that also counts qualifier games, ranked by it. */
+  withQualifiers?: boolean;
+};
+
+export function EloTable({ withQualifiers = false }: Props): ReactElement {
+  const rows: DataTableRow[] = getElo()
+    .map((row) => (withQualifiers ? { ...row, ...row.withQualifiers } : row))
+    .sort((a, b) => a.rank - b.rank)
+    .map((r) => ({
+      id: r.player,
+      cells: {
+        rank: r.rank,
+        player: <PlayerLink name={r.player} />,
+        race: <RaceBadge race={r.race} />,
+        current: <strong>{formatElo(r.currentElo)}</strong>,
+        peak: formatElo(r.peakElo),
+        peakSeason: formatSeason(r.peakSeason),
+        games: r.games,
+        seasons: r.seasons,
+        titles: r.championships,
+      },
+      sort: {
+        rank: r.rank,
+        player: r.player,
+        race: r.race,
+        current: r.currentElo,
+        peak: r.peakElo,
+        peakSeason: r.peakSeason,
+        games: r.games,
+        seasons: r.seasons,
+        titles: r.championships,
+      },
+    }));
   return (
     <DataTable
-      caption="All players by current ELO. Select a column to sort."
+      caption={
+        withQualifiers
+          ? "All players by current ELO, qualifier games included. Select a column to sort."
+          : "All players by current ELO. Select a column to sort."
+      }
       columns={COLUMNS}
       rows={rows}
       initialSort={{ key: "rank", dir: "asc" }}

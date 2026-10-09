@@ -25,7 +25,7 @@ stats) is computed by the exporter.
 
 | File | Shape |
 |---|---|
-| `manifest.json` | `{ schemaVersion, source: { kind, license, wikitextSha256, pages[] }, seasons: { count, complete }, counts, elo: { start, k, basis }, warnings }` |
+| `manifest.json` | `{ schemaVersion, source: { kind, license, wikitextSha256, pages[] }, seasons: { count, complete }, counts, elo: { start, k, basis, games, qualifierGames, qualifierSeasons }, warnings }` |
 | `seasons.json` | `Season[]` |
 | `players.json` | `Player[]` |
 | `placements.json` | `Placement[]`, one row per player per season entered |
@@ -116,9 +116,15 @@ Ratios are 0–1 numbers.
   for third and fourth in a Ro16 group, 17th–22nd and 23rd–28th for a Ro24 group.
 - **Prize money** is the payout Liquipedia lists for that placement in that season, in KRW.
   No USD values are exported.
-- **ELO** is placement-based, not match-based: start 1500, K=32. Each season every pair of
-  players in different placement tiers counts as one game won by the better-placed player.
-  Label it that way in the UI. The algorithm is `compute_elo` in the exporter.
+- **ELO** is game-based (Derek, 2026-10-09): start 1500, K=32, one update per game (map) in the
+  order played. A series with no games listed is rebuilt from its score, the loser's wins spread
+  between the winner's; with no score it counts as one game. Two versions are exported for each
+  player: the ASL's own games (`currentElo`, `games`, `history`) and the same with each season's
+  qualifier games played first (`withQualifiers`, S4 on). Peak is the best rating at the end of a
+  season. Only players who entered an ASL season are listed. The algorithm is `compute_game_elo`
+  in the exporter. Qualifier series come from `data/source/liquipedia/qualifier-results.json`
+  (`pnpm stats:qualifiers`, then `pnpm stats:export`); forfeits and walkovers are left out, and a
+  qualifier name is matched to an ASL player only by exact ID.
 - **Race stats count series, not games**: a best-of-seven final is one series.
 
 ## Reading the data in the app

@@ -1,0 +1,413 @@
+{{DISPLAYTITLE:2025 ACS Season 2: Qualifier}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/20/Tabs}}
+{{Infobox league
+|name=2025 ACS Season 2: Qualifier
+|series=ACS
+|abbreviation=ACS
+|image= 
+|icon=Soop icon alt allmode.png
+|organizer=SOOP
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|sdate=2025-07-12
+|edate=2025-07-13
+|liquipediatier=2|liquipediatiertype=Qualifier
+|afreeca=afstar1
+|bracket=https://esports.sooplive.co.kr/gggl/tournament/afstar1/1365/table 
+|web=https://ch.sooplive.co.kr/afstar1/post/164818577
+|player_number=
+|map1=Radeon
+|map2=Metropolis
+|map3=Pole Star
+}}<br>
+
+==Format==
+*4 single-elimination brackets.
+*All matches are {{Abbr/Bo3}}.
+*Winner of each bracket advances to the [[ACS/2025/2|Main Event]].
+
+===Maps===
+{{MapPoolTable}}
+
+==Qualified Players==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Qualified ''(4)''
+|p1=soO |p1link=N.Die_soO
+|p2=Saber 
+|p3=Youngjoo 김영주|p3flag=kr|p3race=t|p3link=Youngjoo  
+|p4=Hm 
+}}
+}}
+
+==Notable Participants==
+{{ParticipantTable|disable_teams=true
+|{{ParticipantSection|title=
+|p1=soO |p1link=N.Die_soO
+|p2=Zhanhun
+|p3=Ginewda
+|p4=ArtUser
+|p5=IvOry
+|p6=Absolute
+|p7=SsaL
+|p8=Sobenz
+|p9=815|p9link=815_(Player)
+|p10=Saber
+|p11=Paralyze
+|p12=JJabNewDa
+|p13=Bale
+|p14=STONE
+|p15=KaSsooW
+|p16=Dy
+|p17=XuanXuan
+|p18=ProMise
+|p19=Pusan
+|p20=July
+|p21=Mihu
+|p22=Motive
+|p23=Myway59 이화진|p23flag=kr|p23race=z|p23link=Myway59
+|p24=Youngjoo 김영주|p24flag=kr|p24race=t|p24link=Youngjoo
+|p25=cOre 박준혁 |p25flag=kr|p25race=p|p25link=cOre
+|p26=Jomso 김세환 |p26flag=kr|p26race=t|p26link=Jomso
+|p27=Hm
+|p28=SKY 조하늘|p28flag=kr|p28race=p|p28link=SKY
+|p29=XiaoShuai
+|p30=
+|p31=
+|p32=
+|p33=
+|p34=
+|p35=
+}}
+}}
+
+==Results==
+==Detailed Results==
+{{tabs dynamic
+|name1=Group A
+|name2=Group B
+|name3=Group C
+|name4=Group D
+|content1=
+{{bracket|Bracket/16-1Q|id=25acs02G01
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|최준형  |score=2}}
+  |opponent2={{1v1Opponent|Ginewda  |score=0}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Air   |score=0}}
+  |opponent2={{1v1Opponent|ArtUser   |score=2}}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|안승배 |score=1}}
+  |opponent2={{1v1Opponent|Zhanhun  |score=2}}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|soO  |score=2}}
+  |opponent2={{1v1Opponent|김수호  |score=0}}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Chobo 권혁찬  |score=2}}
+  |opponent2={{1v1Opponent|IvOry  |score= 1}}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|김기원  |score=0}}
+  |opponent2={{1v1Opponent|Absolute  |score=2}}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Taeza 안정우  |score=1}}
+  |opponent2={{1v1Opponent|Spa 유태호|score=2}}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|SsaL  |score=0}}
+  |opponent2={{1v1Opponent|Sobenz  |score=2}}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|최준형  |score=0}}
+  |opponent2={{1v1Opponent|ArtUser  |score=2}}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Zhanhun  |score=0}}
+  |opponent2={{1v1Opponent|soO  |score=2}}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Chobo 권혁찬  |score=0}}
+  |opponent2={{1v1Opponent|Absolute  |score=2}}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Spa 유태호  |score=1}}
+  |opponent2={{1v1Opponent|Sobenz  |score=2}}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|ArtUser  |score=0}}
+  |opponent2={{1v1Opponent|soO  |score=2}}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Absolute  |score=0}}
+  |opponent2={{1v1Opponent|Sobenz  |score=2}}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|soO  |score=2}}
+  |opponent2={{1v1Opponent|Sobenz  |score=1}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/1365/table Group A Bracket]
+|content2=
+{{bracket|Bracket/16-1Q|id=25acs02G02
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|이무현   |score=1}}
+  |opponent2={{1v1Opponent|STONE |score=2}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Chosim 구동주   |score=1}}
+  |opponent2={{1v1Opponent|815  |score=2}}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Dy |score=1}}
+  |opponent2={{1v1Opponent|Saber  |score=2}}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|장기훈  |score=2}}
+  |opponent2={{1v1Opponent|김태형  |score=1}}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|KaSsooW  |score=0}}
+  |opponent2={{1v1Opponent|sAi 선우도현  |score=2}}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|정용락  |score=0}}
+  |opponent2={{1v1Opponent|Paralyze  |score=2}}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Olympus  |score=0}}
+  |opponent2={{1v1Opponent|JJabNewDa  |score=2}}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|이준용  |score=0}}
+  |opponent2={{1v1Opponent|Bale |score=2}}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|STONE  |score=0}}
+  |opponent2={{1v1Opponent|815  |score=2}}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Saber  |score=2}}
+  |opponent2={{1v1Opponent|장기훈  |score=}}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|sAi 선우도현  |score=1}}
+  |opponent2={{1v1Opponent|Paralyze  |score=2}}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|JJabNewDa  |score=2}}
+  |opponent2={{1v1Opponent|Bale  |score=0}}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|815  |score=0}}
+  |opponent2={{1v1Opponent|Saber |score=2}}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Paralyze  |score=2}}
+  |opponent2={{1v1Opponent|JJabNewDa  |score=1}}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Saber  |score=2}}
+  |opponent2={{1v1Opponent|Paralyze  |score=0}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/1365/table Group B Bracket]
+|content3=  
+{{bracket|Bracket/16-1Q|id=25acs02G03
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|BCM 배창민  |score=0}}
+  |opponent2={{1v1Opponent|Youngjoo 김영주  |score=2}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Jomso 김세환  |score=2}}
+  |opponent2={{1v1Opponent|9Drone 김동민  |score=1}}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|김유환  |score=0}}
+  |opponent2={{1v1Opponent|Yabsab  |score=2}}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|cOre 박준혁  |score=2}}
+  |opponent2={{1v1Opponent|ByuL  |score=0}}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|XuanXuan  |score=1}}
+  |opponent2={{1v1Opponent|ProMise  |score=2}}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Myway59 이화진  |score=2}}
+  |opponent2={{1v1Opponent|Invade 김민우  |score=0}}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|김회창  |score=0}}
+  |opponent2={{1v1Opponent|Pusan  |score=2}}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|현정민  |score=0}}
+  |opponent2={{1v1Opponent|July  |score=2}}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Youngjoo 김영주  |score=2}}
+  |opponent2={{1v1Opponent|Jomso 김세환  |score=1}}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Yabsab  |score=1}}
+  |opponent2={{1v1Opponent|cOre 박준혁  |score=2}}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|ProMise  |score=1}}
+  |opponent2={{1v1Opponent|Myway59 이화진  |score=2}}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Pusan  |score=1}}
+  |opponent2={{1v1Opponent|July |score=2}}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Youngjoo 김영주  |score=2}}
+  |opponent2={{1v1Opponent|cOre 박준혁  |score=0}}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Myway59 이화진  |score=2}}
+  |opponent2={{1v1Opponent|July  |score=0}}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Youngjoo 김영주  |score=2}}
+  |opponent2={{1v1Opponent|Myway59 이화진   |score=1}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/1365/table Group C Bracket]
+|content4=
+{{bracket|Bracket/16-1Q|id=25acs02G04
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Judge 박현선  |score=1}}
+  |opponent2={{1v1Opponent|Ridesky  |score=2}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|pCs  |score=0}}
+  |opponent2={{1v1Opponent|Quickly  |score=2}}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Nesty 박대민  |score=0}}
+  |opponent2={{1v1Opponent|Hm  |score=2}}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|XiaoShuai  |score=1}}
+  |opponent2={{1v1Opponent|Mihu  |score=2}}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|SKY 조하늘  |score=2}}
+  |opponent2={{1v1Opponent|유규민  |score=0}}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|고한민  |score=0}}
+  |opponent2={{1v1Opponent|허유진  |score=2}}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|김영훈  |score=2}}
+  |opponent2={{1v1Opponent|박수미  |score=0}}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|임현준  |score=0}}
+  |opponent2={{1v1Opponent|Motive   |score=2}}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Ridesky  |score=0}}
+  |opponent2={{1v1Opponent|Quickly  |score=2}}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Hm  |score=2}}
+  |opponent2={{1v1Opponent|Mihu  |score=1}}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|SKY 조하늘   |score=2}}
+  |opponent2={{1v1Opponent|허유진  |score=1}}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|김영훈  |score=0}}
+  |opponent2={{1v1Opponent|Motive  |score=2}}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Quickly  |score=1}}
+  |opponent2={{1v1Opponent|Hm  |score=2}}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|SKY 조하늘   |score=1}}
+  |opponent2={{1v1Opponent|Motive  |score=2}}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Hm  |score=2}}
+  |opponent2={{1v1Opponent|Motive  |score=0}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/1365/table Group D Bracket]
+}}
+
+==External Links==
+*[https://ch.sooplive.co.kr/afstar1/post/164818577 Announcement on SOOP]

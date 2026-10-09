@@ -1,0 +1,106 @@
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 17: Wild Card Qualifier}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{AfreecaTV/StarCraft League Remastered/17/Tabs}}
+{{Infobox league
+|name=ASL Season 17: Wild Card Qualifier
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=
+|server=
+|type=Offline
+|prizepool=
+|prizepoolusd=
+|country=South Korea
+|format=Single-Elimination
+|city=Seoul
+|date=2024-01-23
+|sdate=
+|edate=
+|edition=
+|tlpd=
+|web=
+|afreeca=afstar1
+|player_number=4
+|protoss_number=
+|terran_number=2
+|zerg_number=2
+|map1=Invader
+|map2=Neo Dark Origin
+|map3=Apocalypse
+|map4=La Campanella
+|map5=Polypoid
+|map6=Retro
+|map7=Tempest (Map)
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV StarCraft League Remastered/14/Qualifiers/Wild Card{{!}}ASL Season 14: Wild Card Qualifier
+|next=
+}}
+<br>
+The '''AfreecaTV StarCraft League Remastered Season 17: Wild Card Qualifier''' was the tournament held on January 23rd, 2024 to determine the seed for the [[AfreecaTV_StarCraft_League_Remastered/17|AfreecaTV StarCraft League Remastered Season 17]] due to [[EffOrt]] deciding not to participate, due to a wrist injury.
+
+==Participants==
+
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection
+|p1=JyJ
+|p2=Action
+|p3=Sharp 
+|p4=hero
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 17: Qualifier Maps
+}}
+
+==Prize Pool==
+{{SoloPrizePool|noprize=true}}
+
+==Results==
+{{bracket|Bracket/4|id=ASL17WildC
+
+<!-- Semi-Finals -->
+|R1M1={{Match
+  |bestof=3
+  |date=2024-01-23 19:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/player/114226657
+  |opponent1={{1v1Opponent|Sharp}}
+  |opponent2={{1v1Opponent|JyJ}}
+  |map1={{Map|winner=1|map=Retro}}
+  |map2={{Map|winner=2|map=La Campanella}}
+  |map3={{Map|winner=1|map=Polypoid}}
+}}
+|R1M2={{Match
+  |bestof=3
+  |date=2024-01-23 20:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/player/114228881
+  |opponent1={{1v1Opponent|Action}}
+  |opponent2={{1v1Opponent|hero}}
+  |map1={{Map|winner=1|map=La Campanella}}
+  |map2={{Map|winner=1|map=Retro}}
+  |map3={{Map|finished=skip|map=Tempest (Map)}}
+}}
+
+<!-- Final -->
+|R2M1={{Match
+  |bestof=3
+  |date=2024-01-23 21:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |vod=https://vod.afreecatv.com/player/114232349
+  |opponent1={{1v1Opponent|Sharp}}
+  |opponent2={{1v1Opponent|Action}}
+  |map1={{Map|winner=1|map=Invader}}
+  |map2={{Map|winner=1|map=La Campanella}}
+  |map3={{Map|finished=skip|map=Retro}}
+}}
+}}
+==VODs==
+[https://sc2casts.com/event1384-2024-Afreeca-Starleague-S17 Spoiler-Free Official YouTube VODs] at [https://sc2casts.com SC2Casts]
+==External links==
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/113517417 afreecatv.com - announcement]
+*{{Flag|us}} [https://tl.net/forum/bw-tournaments/620106-asl17-wildcard tl.net - announcement]

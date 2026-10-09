@@ -1,0 +1,139 @@
+{{DISPLAYTITLE:[S:21] ASL SEASON OPEN 2nd Round}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/21/Tabs}}
+{{Infobox league
+|name=[S:21] ASL SEASON OPEN 2nd Round
+|series= 
+|abbreviation= 
+|image=ASL21 season open lightmode.png
+|imagedark=ASL21 season open darkmode.png
+|icon=ASL21 season open lightmode.png
+|icondark=ASL 2026 icon darkmode.png
+|organizer=SOOP
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|venue= 
+|localcurrency=KRW
+|prizepool=1,000,000
+|date=2026-02-28
+|liquipediatier=2
+|afreeca=afstar1
+|bracket= 
+|web=https://www.sooplive.co.kr/station/afstar1/post/186524687
+|web2= 
+|player_number=4
+|protoss_number= 
+|terran_number= 
+|zerg_number= 
+|map1=Attitude
+|map2=Jane Doe
+|map3=Octagon
+|map4=Match Point
+|map5=Neo Sylphid
+|map6=KnockOut
+|previous=ASL/20/Qualifier/ACS/2025/2{{!}}2025 ACS Season2
+|next=ASL/22/Qualifier/OPEN/2{{!}}ASL S22 SEASON OPEN Day 2
+}}
+
+==Overview==
+The '''[S:21] ASL SEASON OPEN'''  (Korean: [S:21] ASL 시즌오픈 ) is an online tournament organized by SOOP.
+
+==Format==
+*'''Qualifiers'''
+**4 Single-elimination brackets.
+**Winner of each bracket advances to the Main Event.
+*'''Main Event'''
+**Double-elimination bracket.
+**All matches are {{Abbr/Bo1}} except the Grand Finals, which is {{Abbr/Bo3}}.
+
+===Maps===
+{{MapPoolTable}}
+
+==Prize Pool==
+The Prize pool of ₩1,000,000 will be distributed as follows:
+{{SoloPrizePool|localcurrency=KRW|qualifies1=ASL/21
+|{{Slot|place=1|localprize=1,000,000|qualified1=yes}}
+|{{Slot|place=2|localprize= }}
+}}
+
+==Participants==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=From the [[ASL/21/Qualifier/OPEN/2/Qualifier|Qualifier]] ''(4)''
+|p1=Mong
+|p2=Sharp  
+|p3=Rush 
+|p4=huro  
+}}
+}}
+
+==Results==
+{{Bracket|Bracket/4U2L1D|id=ASL21OP2of
+
+<!-- Upper Bracket Semifinals -->
+|R1M1={{Match
+    |bestof=1
+	|date=2026-02-28 14:09 {{Abbr/KST}}
+    |opponent1={{SoloOpponent|p1=Mong|score=0}}
+    |opponent2={{SoloOpponent|p1=Sharp|score=1}}
+    |map1={{Map|map=Jane Doe|winner=2}}
+}}
+|R1M2={{Match
+    |opponent1={{SoloOpponent|p1=Rush|score=1}}
+    |opponent2={{SoloOpponent|p1=huro|score=0}}
+    |map1={{Map|map=Jane Doe|winner=1}}
+}}
+
+<!-- Upper Bracket Final -->
+|R2M1={{Match
+    |opponent1={{SoloOpponent|p1=Sharp|score=0}}
+    |opponent2={{SoloOpponent|p1=Rush|score=1}}
+    |map1={{Map|map=Octagon|winner=2}}
+}}
+
+<!-- Lower Bracket Semifinal -->
+|R1M3={{Match
+    |opponent1={{SoloOpponent|p1=Mong|score=1}}
+    |opponent2={{SoloOpponent|p1=huro|score=0}}
+    |map1={{Map|map=Octagon|winner=1}}
+}}
+
+<!-- Lower Bracket Final -->
+|R2M2={{Match
+    |opponent1={{SoloOpponent|p1=Sharp|score=1}}
+    |opponent2={{SoloOpponent|p1=Mong|score=0}}
+    |map1={{Map|map=Attitude|winner=1}}
+}}
+
+<!-- Grand Final -->
+|R3M1={{Match|bestof=3
+    |opponent1={{SoloOpponent|p1=Rush|score=0}}
+    |opponent2={{SoloOpponent|p1=Sharp|score=2}}
+    |map1={{Map|map=Pole Star|winner=2}}
+    |map2={{Map|map=Neo Sylphid|winner=2}}
+}}
+}}
+
+==Racial Distribution==
+{{RaceDist|last=1}}
+
+==Statistics==
+{{Tournament_statistics}}
+
+==Talents==
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=PianO
+|b2=TY
+}}
+{{box|end}}
+
+==VOD==
+*{{Flag|kr}} [https://vod.sooplive.co.kr/player/188258209 AfreecaTV - VOD]
+
+==External Links==
+*[https://www.sooplive.co.kr/station/afstar1/post/186524687 Announcement on SOOP]
+*{{Flag|us}} [https://tl.net/forum/brood-war/643495-acs-replaced-by-asl-season-open-starts-21-02 tl.net - Announcement]

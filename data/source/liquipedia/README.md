@@ -11,6 +11,8 @@ page title, URL, and revision each file came from.
 | `index.json` | Page title, URL, revision id, timestamp per season | `fetch_seasons.py` |
 | `players.json` | Each name as written → Liquipedia player page, handle, race | `scripts/liquipedia/fetch_players.py` |
 | `identities.json` | Canonical name → other spellings of the same person | `scripts/liquipedia/parse_seasons.py` |
+| `qualifiers/sNN-KK.wiki`, `qualifiers.json` | Raw wikitext of each season's qualifier pages, and where each came from | `scripts/liquipedia/fetch_qualifiers.py` |
+| `qualifier-results.json` | Every decided qualifier series, used only for the ELO that counts qualifiers | `parse_seasons.py` |
 | `results.json` | Per season: dates, prize pool, payouts, every player's race and placement, group standings, bracket | `parse_seasons.py` |
 
 Do not hand-edit. To refresh: run `fetch_seasons.py`, `parse_seasons.py`, `fetch_players.py`,

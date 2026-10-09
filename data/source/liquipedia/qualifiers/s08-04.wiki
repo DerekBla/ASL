@@ -1,0 +1,121 @@
+<noinclude>{{DISPLAYTITLE:Afreeca Starleague Season 8: Wild Card Qualifier}}
+{{KSL Navbox}}
+
+{{tabs static
+|name1=Main Event
+|link1=Afreeca Starleague Season 8
+|name2=Qualifier
+|link2=Afreeca Starleague Season 8/Qualifier
+|name3=Tournament Statistics
+|link3=Afreeca Starleague Season 8/Tournament Statistics
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=Afreeca Starleague Season 8/Qualifier
+|name2=Wildcard Qualifier
+|link2=Afreeca Starleague Season 8/Qualifier/Wildcard
+|name3=Seoul Qualifier
+|link3=Afreeca Starleague Season 8/Qualifier/Seoul
+|name4=Jeonju Qualifier
+|link4=Afreeca Starleague Season 8/Qualifier/Jeonju
+|name5=Busan Qualifier
+|link5=Afreeca Starleague Season 8/Qualifier/Busan
+|This=2}}
+
+{{Infobox league
+|name=Afreeca Starleague Season 8: Wild Card Qualifier
+|image=
+|series=ASL
+|organizer=Kongdoo
+|organizer2=Afreeca
+|sponsor=
+|server=
+|type=Offline
+|prizepool=
+|prizepoolusd=
+|country=South Korea
+|city=Seoul
+|date=2019-06-12
+|sdate=
+|edate=
+|edition=
+|tlpd=
+|web=
+|player_number=3
+|protoss_number=1
+|terran_number=1
+|zerg_number=1
+|map1=Block Chain SE
+|map2=Neo Ground Zero
+|map3=Neo Sylphid
+|map4=Overwatch
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=2019 AfreecaTV Starleague Season 7/Qualifier/Wildcard{{!}}ASL Season 7: Wild Card Qualifier
+|next=2020 AfreecaTV Starleague Season 9/Qualifiers/Wildcard{{!}}ASL Season 9: Wild Card Qualifier
+}}
+<br>
+The '''Afreeca Starleague Season 8: Wild Card Qualifier''' is the tournament held on June 12, 2019 to determine the seed for the [[Afreeca Starleague Season 8]].
+
+Initially, [[Last]], the winner of [[Afreeca Starleague Season 7|ASL Season 7]], had to be joined by fellow top-four finishers [[Mini]], [[EffOrt]] and [[Rain]] in the round of 16 in Season 8. EffOrt, who has recently enlisted in the military to fulfill his mandatory military service, could not participate and his slot will be determined by a wild card match between 5th-8th finishers of the Season 7. [[Mind]] withdrew from the Wildcard qualifier thus leaving only three contenders for the spot.
+</noinclude>
+
+====Participants====
+
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:140px;text-align:center;" | '''{{p}} Protoss (1)
+|class="{{RaceColor2|t}}" style="width:140px;text-align:center;" | '''{{t}} Terran (1)
+|class="{{RaceColor2|z}}" style="width:140px;text-align:center;" | '''{{z}} Zerg (1)
+|-
+|----
+|'''{{InlinePlayer|1=Horang2|flag=kr|link=Horang2|faction=u}}'''
+|'''{{InlinePlayer|1=Sharp|flag=kr|link=Sharp|faction=u}}'''
+|'''{{InlinePlayer|1=Calm|flag=kr|link=Calm|faction=u}}'''
+|----
+|}
+<noinclude>
+
+====Results====
+{{GroupTableLeague|finished=true|import=false
+<!--converted from manual group table-->
+|tiebreaker1=finalTiebreak|tiebreaker2=finalTiebreak
+|title=Round Robin
+|width=300px
+|bg1=up|pbg1=up|temp_tie1=49|temp_win_g1=2|temp_lose_g1=0|temp_lose_m1=0|temp_win_m1=4|{{soloOpponent|p1race=p |p1flag=kr|p1=Horang2}}
+|bg2=down|pbg2=down|temp_tie2=48|temp_win_g2=1|temp_lose_g2=1|temp_lose_m2=3|temp_win_m2=2|{{soloOpponent|p1race=z |p1flag=kr|p1=Calm}}
+|bg3=down|pbg3=down|temp_tie3=47|temp_win_g3=2|temp_lose_g3=0|temp_lose_m3=4|temp_win_m3=1|{{soloOpponent|p1race=t |p1flag=kr|p1=Sharp}}
+}}
+{{Matchlist|id=We32yn8ADi
+|attached=true|collapsed=true|store=true|title=Detailed Results
+|M1={{Match
+    |lrthread=https://tl.net/forum/brood-war/548282-asl-season-8-announced-starts-june-30th|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Calm|race=z}}
+    |map1={{Map|map=Neo Ground Zero|winner=2}}
+    |map2={{Map|map=Block Chain SE|winner=1}}
+    |map3={{Map|map=Neo Sylphid|winner=2}}
+}}
+|M2={{Match
+    |lrthread=https://tl.net/forum/brood-war/548282-asl-season-8-announced-starts-june-30th|winner=2
+    |opponent1={{SoloOpponent|name=Sharp|race=t}}
+    |opponent2={{SoloOpponent|name=Horang2|race=p}}
+    |map1={{Map|map=Neo Sylphid|winner=2}}
+    |map2={{Map|map=Overwatch|winner=2}}
+    |map3={{Map|map=Neo Ground Zero}}
+}}
+|M3={{Match
+    |lrthread=https://tl.net/forum/brood-war/548282-asl-season-8-announced-starts-june-30th|winner=1
+    |opponent1={{SoloOpponent|name=Horang2|race=p}}
+    |opponent2={{SoloOpponent|name=Calm|race=z}}
+    |map1={{Map|map=Overwatch|winner=1}}
+    |map2={{Map|map=Neo Ground Zero|winner=1}}
+    |map3={{Map|map=Block Chain SE}}
+}}
+}}
+
+{{Box|break|padding=2em}}
+<noinclude>
+
+====Media====
+* [https://vod.sooplive.co.kr/player/45033562 AfreecaTV VOD]
+<noinclude>

@@ -1,0 +1,401 @@
+{{DISPLAYTITLE:SCS 2025 SPRING: Qualifier}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/19/Tabs}}
+{{Infobox league
+|name=2025 SCS SPRING: Qualifier
+|series=ACS
+|abbreviation=ACS
+|image= 
+|icon=Soop icon alt allmode.png
+|organizer=SOOP
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|sdate=2025-01-18
+|edate=2025-01-19
+|liquipediatier=2|liquipediatiertype=Qualifier
+|afreeca=afstar1
+|bracket=https://esports.sooplive.co.kr/gggl/tournament/afstar1/977/table
+|web=https://ch.sooplive.co.kr/afstar1/post/147541031
+|player_number=
+|map1=Radeon
+|map2=Dominator
+|map3=Deja Vu
+}}<br>
+
+==Format==
+*4 single-elimination brackets.
+*All matches are {{Abbr/Bo3}}.
+*Winner of each bracket advances to the [[SOOP/Challengers Starleague/2025/SPRING|Main Event]].
+
+===Maps===
+{{MapPoolTable}}
+
+==Qualified Players==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=Qualified ''(4)''
+|p1=Yoon |p1link=Yoon_(Amateur)
+|p2=Hm
+|p3=IrOn
+|p4=Alone
+}}
+}}
+
+==Notable Participants==
+{{ParticipantTable|disable_teams=true
+|{{ParticipantSection|title=
+|p1=Yoon |p1link=Yoon_(Amateur)
+|p2=Paralyze 
+|p3=soO |p3link=N.Die_soO
+|p4=Skey 
+|p5=Sobenz 
+|p6=ProMise 
+|p7=ByuL 
+|p8=Hm 
+|p9=Quickly 
+|p10=TY 
+|p11=9Drone 김동민 |p11link=9Drone|p11race=z |p11flag=kr
+|p12=Prime 
+|p13=Tyson
+|p14=sAi 선우도현 |p14link=sAi|p14race=z |p14flag=kr
+|p15=815|p15link=815 (Player) 
+|p16=IrOn
+|p17=XiaoShuai
+|p18=
+|p19=
+}}
+}}
+
+==Results==
+{{QualifierOverlay|group=A|done=0
+|win1=Yoon   
+|bracket={{bracket|Bracket/16|id=25SCS01G01
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Yoon |score=2  }}
+  |opponent2={{1v1Opponent|Prime  |score=1    }}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Paralyze  |score=2  }}
+  |opponent2={{1v1Opponent|Youngjoo 김영주 |score=0  }}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|soO |score=2 }}
+  |opponent2={{1v1Opponent|tmwjq;;;; 신대산 |score=0  }}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Skey |score=2 }}
+  |opponent2={{1v1Opponent|Tyson |score=1  }}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Yoon |score=2  }}
+  |opponent2={{1v1Opponent|Paralyze |score=1  }}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|soO |score=0 }}
+  |opponent2={{1v1Opponent|Skey  |score=2   }}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Yoon  |score=2  }}
+  |opponent2={{1v1Opponent|Skey  |score=0   }}
+}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/977/table  Group A Bracket]
+
+{{QualifierOverlay|group=B|done=0
+|win1=Hm 
+|bracket={{bracket|Bracket/16|id=25SCS02G02
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|허유진 |score=0  }}
+  |opponent2={{1v1Opponent|Sobenz |score=2  }}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|ProMise |score=0 }}
+  |opponent2={{1v1Opponent|ByuL  |score=2   }}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Hm |score=2 }}
+  |opponent2={{1v1Opponent|Quickly  |score=0  }}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|9Drone 김동민 |score=0 }}
+  |opponent2={{1v1Opponent|TY |score=2  }}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Sobenz |score=1 }}
+  |opponent2={{1v1Opponent|ByuL |score=2   }}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Hm |score=2 }}
+  |opponent2={{1v1Opponent|TY |score=1   }}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|ByuL |score=1 }}
+  |opponent2={{1v1Opponent|Hm |score=2   }}
+}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/977/table  Group B Bracket]
+
+{{QualifierOverlay|group=C|done=0
+|win1=IrOn
+|bracket={{bracket|Bracket/16|id=25SCS02G03
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Brain |score=2 }}
+  |opponent2={{1v1Opponent|정진우 |score=0   }}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Disco |score=0  }}
+  |opponent2={{1v1Opponent|XiaoShuai |score=2   }}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Spa 유태호 |score=1  }}
+  |opponent2={{1v1Opponent|sAi 선우도현 |score=2   }}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|KOp|score=2  }}
+  |opponent2={{1v1Opponent|이호열 |score=1   }}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|JJabNewDa |score=1 }}
+  |opponent2={{1v1Opponent|STONE 윤준석 |score=2  }}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|IrOn |score=2 }}
+  |opponent2={{1v1Opponent|Saber  |score=1  }}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|PitBull |score=1 }}
+  |opponent2={{1v1Opponent|Famas2 김동현 |score=2  }}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=0 }}
+  |opponent2={{1v1Opponent|IvOry |score=2  }}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Brain |score=0 }}
+  |opponent2={{1v1Opponent|XiaoShuai |score=2   }}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|sAi 선우도현 |score=2 }}
+  |opponent2={{1v1Opponent|KOp |score=1  }}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|STONE 윤준석 |score=0  }}
+  |opponent2={{1v1Opponent|IrOn  |score=2   }}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Famas2 김동현 |score=0  }}
+  |opponent2={{1v1Opponent|IvOry |score= 2  }}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|XiaoShuai |score=1   }}
+  |opponent2={{1v1Opponent|sAi 선우도현   |score=2    }}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|IrOn   |score=2   }}
+  |opponent2={{1v1Opponent|IvOry   |score=1    }}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|sAi 선우도현  |score=1 }}
+  |opponent2={{1v1Opponent|IrOn  |score=2  }}
+}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/977/table  Group C Bracket]
+
+{{QualifierOverlay|group=D|done=0
+|win1=Alone
+|bracket={{bracket|Bracket/16|id=25SCS02G04
+|R1M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M5={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M6={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M7={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R1M8={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|  |score=  }}
+  |opponent2={{1v1Opponent|  |score=   }}
+}}
+|R2M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|SsaL |score=1 }}
+  |opponent2={{1v1Opponent|Hani |score=2  }}
+}}
+|R2M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|MD 박준영 |score=0  }}
+  |opponent2={{1v1Opponent|815 |score=2  }}
+}}
+|R2M3={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Gaeko |score=2 }}
+  |opponent2={{1v1Opponent|Ridesky |score=1  }}
+}}
+|R2M4={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Fleta |score=0 }}
+  |opponent2={{1v1Opponent|Alone |score=2  }}
+}}
+|R3M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Hani |score=0 }}
+  |opponent2={{1v1Opponent|815 |score=2   }}
+}}
+|R3M2={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|Gaeko |score=0  }}
+  |opponent2={{1v1Opponent|Alone |score=2  }}
+}}
+|R4M1={{Match
+  |bestof=3
+  |opponent1={{1v1Opponent|815 |score=0 }}
+  |opponent2={{1v1Opponent|Alone |score=2   }}
+}}
+}}
+}}
+*[https://esports.sooplive.co.kr/gggl/tournament/afstar1/977/table Group D Bracket]
+
+==External Links==
+*[https://ch.sooplive.co.kr/afstar1/post/147541031 Announcement on SOOP]

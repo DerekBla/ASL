@@ -1,0 +1,1131 @@
+{{AfreecaTV StarCraft League Remastered Navbox}}
+{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 15: Online Qualifier Day 2}}
+{{TOClimit}}
+
+{{tabs static
+|name1=Main Event
+|link1=AfreecaTV StarCraft League Remastered/15
+|name2=Qualifiers
+|link2=AfreecaTV StarCraft League Remastered/15/Qualifiers
+|name3=Statistics
+|link3=AfreecaTV_StarCraft_League_Remastered/15/Statistics
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=AfreecaTV StarCraft League Remastered/15/Qualifiers
+|name2=Online Qualifier Day 1
+|link2=AfreecaTV StarCraft League Remastered/15/Qualifiers/Online 1
+|name3=Online Qualifier Day 2
+|link3=AfreecaTV StarCraft League Remastered/15/Qualifiers/Online 2
+|This=3
+}}
+
+{{Infobox league
+|name=ASL Season 15: Online Qualifier Day 2
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=
+|type=Online
+|country=South Korea
+|format=Single-Elimination
+|date=2023-01-29
+|tlpd=
+|web=https://bj.afreecatv.com/afstar1/post/97072142
+|bracket=https://challonge.com/users/daypd06/tournaments
+|afreeca=afstar1
+|player_number=
+|map1=Vermeer SE 
+|map2=Neo Sylphid
+|map3=Polypoid
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=AfreecaTV_StarCraft_League_Remastered/14/Qualifiers/Online_2{{!}}ASL Season 14: Online qualifier day 2
+|next=AfreecaTV/StarCraft_League_Remastered/16/Qualifiers/Online_2{{!}}ASL Season 16: Online qualifier day 2
+}}
+
+==Qualified Players==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection
+|SSak
+|HyuN
+|Ruin
+|Shuttle|p4link=Shuttle (Player)
+|HiyA 
+|Mong
+|Shine
+|Stork
+|Mind 
+|Jaedong 
+|BarrackS
+|Sacsri
+}}
+}}
+
+==Maps==
+{{MapPoolTable
+|title=ASL Season 15: Qualifier Maps
+}}
+
+==Participants==
+{{ParticipantTable|disable_teams=true
+|{{ParticipantSection|title=Notable Korean Participants
+|p1=Free
+|p2=Paralyze
+|p3=Dear
+|p4=Ruin
+|p5=Khala
+|p6=Stork
+|p7=Ridesky
+|p8=Fleta
+|p9=Mind
+|p10=Mong
+|p11=Saint
+|p12=HiyA
+|p13=Bale
+|p14=Fresh 이경재|p14race=p|p14flag=kr
+|p15=Blade 권오현|p15race=p|p15flag=kr
+|p16=PURPOSE 문기호|p16race=z|p16flag=kr
+|p17=Sea
+|p18=Hani
+|p19=Sacsri
+|p20=ZeLoT
+|p21=Modesty
+|p22=GoRush
+|p23=BaBy
+|p24=SSak
+|p25=Scan
+|p26=Absolute
+|p27=ByungSoo
+|p28=Jaedong
+|p29=SRiCH
+|p30=Movie
+|p31=ToSsGirL
+|p32=9Drone 김동민
+|p33=815|p33link=815 (Player)
+|p34=Light
+|p35=Yerim2
+|p36=Yabsab
+|p37=Horang2
+|p38=Maze 김기환
+|p39=SaiR 김영진
+|p40=Nani 나환희
+|p41=Firstnight 김재원
+|p42=Hyuk
+|p43=Shine
+|p44=IcaruS|p44link=IcaruS (Player)
+|p45=Minus)Eagle
+|p46=Killer 
+|p47=tmwjq;;;; 신대산
+|p48=Sobenz
+|p49=Pusan
+|p50=Kwon 홍지석
+|p51=Calm
+|p52=Notice
+|p53=BarrackS
+|p54=Ggaemo
+|p55=Alone
+|p56=effort59 이화진
+|p57=Last
+|p58=Tank 박단원
+|p59=Motive
+|p60=PCs
+|p61=Leta
+|p62=
+|p63=Goodbye
+|p64=ByuL
+|p65=Beast
+|p66=HyuN
+|p67=KaSsooW
+|p68=Shuttle|p68link=Shuttle (Player)
+|p69=PianO
+|p70=Huro
+|p71=Kim Carrier
+|p72=Spire|p72link=By.Spire
+|p73=Hm
+|p74=MoolSo 전제민
+|p75=ZZ56
+|p76=HerO(jOin)
+|p77=Rock
+|p78=
+|p79=
+|p80=
+|p81=
+|p82=
+|p83=
+|p84=
+|p85=
+|p86=
+|p87=
+|p88=
+}}
+|{{ParticipantSection|title=Foreign Participants
+|p1=Mihu 
+|p2=Ziggy
+|p3=Kid
+|p4=DuGu
+|p5=Fengzi
+|p6=RushGoon
+|p7=XiaoShuai
+|p8=Dewalt
+|p9=Shibaterran|p9race=t|p9flag=Germany
+|p10=Xin.
+}}
+}}
+
+==Detailed Results==
+{{tabs dynamic
+|name1=Group M
+|name2=Group N
+|name3=Group O
+|name4=Group P
+|name5=Group Q
+|name6=Group R
+|name7=Group S
+|name8=Group T
+|name9=Group U
+|name10=Group V
+|name11=Group W
+|name12=Group X
+|content1=
+*{{InlinePlayer|1=SSak|flag=kr|link=SSak|faction=t}} advances. ([https://challonge.com/ASL_S15_M Group M Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrA
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|SSak|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|effort59 이화진|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|윤대섭|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|김태현|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|남원석|flag= |race=|score= }}
+	|opponent2={{1v1Opponent|장기훈|flag= |race=|score= }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|허유진|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김대성|flag= |race=|score=0 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Horang2|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|김성민|flag= |race=|score=2 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Shibaterran|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|조중구|flag= |race=|score=0 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Kop 지동원|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Center 박현호|flag= |race=|score=2 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|주정환|flag= |race=|score= }}
+	|opponent2={{1v1Opponent|김상수|flag= |race=|score= }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|SSak|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김태현|flag= |race=|score=1 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|장기훈|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|허유진|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|김성민|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Shibaterran|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Center 박현호|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김상수|flag= |race=|score=1 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|SSak|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|허유진|flag= |race=|score=1 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|김성민|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Center 박현호|flag= |race=|score=0 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|SSak|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김성민|flag= |race=|score=0 }}
+}}
+}}
+
+|content2=
+*{{InlinePlayer|1=HyuN|flag=kr|link=HyuN|faction=z}} advances. ([https://challonge.com/ASL_S15_N Group N Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrB
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent||flag= |race=|score= }}
+	|opponent2={{1v1Opponent||flag= |race=|score= }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|전성원|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Sdiee 강민기|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Yerim2|flag= |race=|score= 2}}
+	|opponent2={{1v1Opponent|최어진|flag= |race=|score=0 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|최혜성|flag= |race=|score= }}
+	|opponent2={{1v1Opponent|한민석|flag= |race=|score= }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent||flag= |race=|score= }}
+	|opponent2={{1v1Opponent||flag= |race=|score= }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Tana 이대연|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Goodbye|flag= |race=|score=2 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|GoRush|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|최은정|flag= |race=|score=0 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|강현우|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Kid|flag= |race=|score=2 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Ggaemo|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Sdiee 강민기|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Yerim2|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|최혜성|flag= |race=|score=0 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|HyuN|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Goodbye|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|GoRush|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Kid|flag= |race=|score=0 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Ggaemo|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Yerim2|flag= |race=|score=2 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|HyuN|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|GoRush|flag= |race=|score=1 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Yerim2|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|HyuN|flag= |race=|score=2 }}
+}}
+}}
+
+
+|content3=
+*{{InlinePlayer|1=Shuttle|flag=kr|link=Shuttle|faction=p}} advances. ([https://challonge.com/ASL_S15_O Group O Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrC
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Shuttle|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|최주현|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|김준형|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|윤민구|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Fengzi|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|윤준석|flag= |race=|score=1 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Prime 이인극|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|최성민|flag= |race=|score=0 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Sea|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|배대혁|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Alen 김기덕|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이기수|flag= |race=|score=0 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|815|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|문성제|flag= |race=|score=0 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|KaSsooW|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Xin.|flag= |race=|score=0 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Shuttle|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|윤민구|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Fengzi|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Prime 이인극|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Sea|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Alen 김기덕|flag= |race=|score=1 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|815|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|KaSsooW|flag= |race=|score=0 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Shuttle|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Prime 이인극|flag= |race=|score=1 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Sea|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|815|flag= |race=|score=1 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Shuttle|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Sea|flag= |race=|score=0 }}
+}}
+}}
+
+|content4=
+*{{InlinePlayer|1=Ruin|flag=kr|link=Ruin|faction=p}} advances. ([https://challonge.com/ASL_S15_P Group P Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrD
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Free|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|정호준|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|SaiR 김영진|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Mudogi 김용학|flag= |race=|score=1 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|유성민 |flag= |race=|score= }}
+	|opponent2={{1v1Opponent|이윤후|flag= |race=|score= }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|변성근|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|ZeLoT|flag= |race=|score=2 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Hyuk|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이근제|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|MoolSo 전제민|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이경민 hoho#32669|flag= |race=|score=1 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Ruin|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Dewalt|flag= |race=|score=0 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Ziggy|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|홍광민|flag= |race=|score=2 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Free|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|SaiR 김영진|flag= |race=|score=1 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|이윤후|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|ZeLoT|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Hyuk|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|MoolSo 전제민|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Ruin|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|홍광민|flag= |race=|score=0 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Free|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|ZeLoT|flag= |race=|score=2 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Hyuk|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Ruin|flag= |race=|score=2 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|ZeLoT|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Ruin|flag= |race=|score=2 }}
+}}
+}}
+
+|content5=
+*{{InlinePlayer|1=HiyA|flag=kr|link=HiyA|faction=t}} advances. ([https://challonge.com/ASL_S15_Q Group Q Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrE
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|HiyA|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이준석|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|이태승|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|RushGoon|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|김강석|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Khala|flag= |race=|score=2 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Mikhail|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Bale|flag= |race=|score=2 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Kim Carrier|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|ToSsGirL|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|한재상|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|최강문|flag= |race=|score=2 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Tryant 김재영|flag= |race=|score=2}}
+	|opponent2={{1v1Opponent|장태주|flag= |race=|score=1 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Rhfkqkf 손준석|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|BaBy|flag= |race=|score=2 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|HiyA|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|RushGoon|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Khala|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Bale|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Kim Carrier|flag= |race=|score=1}}
+	|opponent2={{1v1Opponent|최강문|flag= |race=|score=2 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Tryant 김재영|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|BaBy|flag= |race=|score=2 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|HiyA|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Bale|flag= |race=|score=0 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|최강문|flag= |race=|score=0  }}
+	|opponent2={{1v1Opponent|BaBy|flag= |race=|score=2  }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|HiyA |flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|BaBy |flag= |race=|score=1 }}
+}}
+}}
+
+|content6=
+*{{InlinePlayer|1=Shine|flag=kr|link=Shine|faction=z}} advances. ([https://challonge.com/ASL_S15_R Group R Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrF
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Shine|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|진웅|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|박정길|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|LSQS 오현명|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Scan|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Absolute|flag= |race=|score=0 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Movie|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|유병완|flag= |race=|score=0 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Calm|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이호열|flag= |race=|score=1 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Wico 백승환|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Mihu|flag= |race=|score=2 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Invade 김민우|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|PURPOSE 문기호|flag= |race=|score=2 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Paralyze|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|류규환|flag= |race=|score=0 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Shine|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|LSQS 오현명|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Scan|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Movie|flag= |race=|score=0 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Calm|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Mihu|flag= |race=|score=2 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|PURPOSE 문기호|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Paralyze|flag= |race=|score=2 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Shine|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Scan|flag= |race=|score=0 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Mihu|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Paralyze|flag= |race=|score=2 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Shine|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Paralyze|flag= |race=|score=1 }}
+}}
+}}
+
+|content7=
+*{{InlinePlayer|1=Mong|flag=kr|link=Mong|faction=t}} advances. ([https://challonge.com/ASL_S15_S Group S Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrG
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Mong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이창우|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|박민수|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|천영필|flag= |race=|score=1 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|이학준|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Saint|flag= |race=|score=2 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|오언식|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|ByungSoo|flag= |race=|score=2 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Beast|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이상조|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|First 고종완|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|ZZ56|flag= |race=|score=2 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|ByuL|flag= |race=|score= }}
+	|opponent2={{1v1Opponent|Nansu 장영근|flag= |race=|score= }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Yabsab|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Overclass 조덕제|flag= |race=|score=1 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Mong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|박민수|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Saint|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|ByungSoo|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Beast|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|ZZ56|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|강태완|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Yabsab|flag= |race=|score=2 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Mong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|ByungSoo|flag= |race=|score=1 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Beast|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Yabsab|flag= |race=|score=0 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Mong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Beast|flag= |race=|score=0 }}
+}}
+}}
+
+|content8=
+*{{InlinePlayer|1=Stork|flag=kr|link=Stork|faction=p}} advances. ([https://challonge.com/ASL_S15_T Group T Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrH
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Stork|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|유태호|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|강한구|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Hani|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|SRiCH|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|홍창성|flag= |race=|score=1 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|임원기|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Killer|flag= |race=|score=2 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Leta|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|XiaoShuai|flag= |race=|score=1 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|Ice 윤수웅|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김서하|flag= |race=|score=0}}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Spire|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|곽우철|flag= |race=|score=0 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Saint|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Sobenz|flag= |race=|score=2 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Stork|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Hani|flag= |race=|score=1 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|SRiCH|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Killer|flag= |race=|score=2}}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Leta|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Ice 윤수웅|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Spire|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Sobenz|flag= |race=|score=2 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Stork|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Killer|flag= |race=|score=1 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Leta|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Sobenz|flag= |race=|score=0 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Stork|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Leta|flag= |race=|score=0 }}
+}}
+}}
+
+|content9=
+*{{InlinePlayer|1=Mind|flag=kr|link=Mind|faction=t}} advances. ([https://challonge.com/ASL_S15_U Group U Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrI
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Mind|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|정혜준|flag= |race=|score=1 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|이제우|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김태준|flag= |race=|score=0 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|전흥식|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김재홍|flag= |race=|score=0 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|PCs|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|JAzZ 김동훈|flag= |race=|score=1 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Huro|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|변도섭|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|우수민|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|장재혁|flag= |race=|score=2 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|장승철|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Ridesky|flag= |race=|score=2 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|홍지석|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Firstnight 김재원|flag= |race=|score=2 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Mind|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이제우|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|전흥식|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|PCs|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Huro|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|장재혁|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|Ridesky|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Firstnight 김재원|flag= |race=|score=0 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Mind|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|PCs|flag= |race=|score=0 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Huro|flag= |race=|score=2}}
+	|opponent2={{1v1Opponent|Ridesky|flag= |race=|score=1 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Mind|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Huro|flag= |race=|score=0 }}
+}}
+}}
+
+|content10=
+*{{InlinePlayer|1=Jaedong|flag=kr|link=Jaedong|faction=z}} advances. ([https://challonge.com/ASL_S15_V Group V Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrJ
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|Jaedong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김현승|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|Pusan|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Rock|flag= |race=|score=2 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Tkvk 정구범|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|ilikeoov 장승수|flag= |race=|score=2 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|조현진|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Anaconda 김규정|flag= |race=|score=1 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Motive|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|홍진표|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|장현|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|tmwjq;;;; 신대산|flag= |race=|score=1 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|9Drone 김동민|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|유재환|flag= |race=|score=0 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Oblivion 인치호|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|남상원|flag= |race=|score=0 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Jaedong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Rock|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|ilikeoov 장승수|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|조현진|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Motive|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|장현|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|9Drone 김동민|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Oblivion 인치호|flag= |race=|score=1 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Jaedong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|조현진|flag= |race=|score=0 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Motive|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|9Drone 김동민|flag= |race=|score=1 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Jaedong|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Motive|flag= |race=|score=0 }}
+}}
+}}
+
+|content11=
+*{{InlinePlayer|1=BarrackS|flag=kr|link=BarrackS|faction=t}} advances. ([https://challonge.com/ASL_S15_W Group W Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrK
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent|BarrackS|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|김기환|flag= |race=|score=0 }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|이석찬|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|1GGUN 이재우|flag= |race=|score=0 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Alone|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|백민기|flag= |race=|score=0 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Notice|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|윤석호|flag= |race=|score=2 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|Hm|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|박준영|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|강건욱|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|SIMPLEWHITE 서주원|flag= |race=|score=0 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|Pretty 이태희|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|이경재|flag= |race=|score=2 }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|Nani 나환희|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Tank 박단원|flag= |race=|score=2 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|BarrackS|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이석찬|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|Alone|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|윤석호|flag= |race=|score=0 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|Hm|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|강건욱|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|이경재|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|Tank 박단원|flag= |race=|score=2 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|BarrackS|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Alone|flag= |race=|score=0 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|Hm|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Tank 박단원|flag= |race=|score=0 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|BarrackS|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Hm|flag= |race=|score=0 }}
+}}
+}}
+
+|content12=
+*{{InlinePlayer|1=Sacsri|flag=kr|link=Sacsri|faction=z}} advances. ([https://challonge.com/ASL_S15_X Group X Bracket detailed])
+{{bracket|Bracket/16|id=ASL15Q2GrL
+|R1M1header=Round of 16 ({{Bo|3}})
+|R2M1header=Quarterfinals ({{Bo|3}})
+|R3M1header=Semifinals ({{Bo|3}})
+|R4M1header=Finals ({{Bo|3}})
+
+<!-- Round of 16 -->
+|R1M1={{Match
+	|opponent1={{1v1Opponent||flag= |race=|score= }}
+	|opponent2={{1v1Opponent||flag= |race=|score= }}
+}}
+|R1M2={{Match
+	|opponent1={{1v1Opponent|백재훈|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|이성화|flag= |race=|score=0 }}
+}}
+|R1M3={{Match
+	|opponent1={{1v1Opponent|Taeza 안정우|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|IcaruS|flag= |race=|score=2 }}
+}}
+|R1M4={{Match
+	|opponent1={{1v1Opponent|Dear|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Miracle 현기주|flag= |race=|score=0 }}
+}}
+|R1M5={{Match
+	|opponent1={{1v1Opponent|PianO|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Korail 허재성|flag= |race=|score=0 }}
+}}
+|R1M6={{Match
+	|opponent1={{1v1Opponent|지준영|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Modesty|flag= |race=|score=2 }}
+}}
+|R1M7={{Match
+	|opponent1={{1v1Opponent|김경래|flag= |race=|score= }}
+	|opponent2={{1v1Opponent|Blade 권오현|flag= |race=|score= }}
+}}
+|R1M8={{Match
+	|opponent1={{1v1Opponent|곽훈일|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|DuGu|flag= |race=|score=0 }}
+}}
+
+<!-- Quarter-Finals -->
+|R2M1={{Match|bestof=3
+	|opponent1={{1v1Opponent|Sacsri|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|백재훈|flag= |race=|score=0 }}
+}}
+|R2M2={{Match
+	|opponent1={{1v1Opponent|IcaruS|flag= |race=|score=0 }}
+	|opponent2={{1v1Opponent|Dear|flag= |race=|score=2 }}
+}}
+|R2M3={{Match
+	|opponent1={{1v1Opponent|PianO|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Modesty|flag= |race=|score=0 }}
+}}
+|R2M4={{Match
+	|opponent1={{1v1Opponent|김경래|flag= |race=|score=1 }}
+	|opponent2={{1v1Opponent|곽훈일|flag= |race=|score=2 }}
+}}
+
+<!-- Semi-Finals -->
+|R3M1={{Match
+	|opponent1={{1v1Opponent|Sacsri|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|Dear|flag= |race=|score=0 }}
+}}
+|R3M2={{Match
+	|opponent1={{1v1Opponent|PianO|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|곽훈일|flag= |race=|score=1 }}
+}}
+
+<!-- Final -->
+|R4M1={{Match
+	|opponent1={{1v1Opponent|Sacsri|flag= |race=|score=2 }}
+	|opponent2={{1v1Opponent|PianO|flag= |race=|score=0 }}
+}}
+}}
+}}
+
+==External links==
+*{{Flag|kr}} [https://vod.afreecatv.com/player/97622340 afreecatv.com - VOD part.1]
+*{{Flag|kr}} [https://vod.afreecatv.com/player/97624350 afreecatv.com - VOD part.2]
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/97544356 afreecatv.com - ASL Season 15 Qualifier Broadcast]
+*[https://challonge.com/ASL_S15_M ASL15 Online Qualifier Day 2: Group M]
+*[https://challonge.com/ASL_S15_N ASL15 Online Qualifier Day 2: Group N]
+*[https://challonge.com/ASL_S15_O ASL15 Online Qualifier Day 2: Group O]
+*[https://challonge.com/ASL_S15_P ASL15 Online Qualifier Day 2: Group P]
+*[https://challonge.com/ASL_S15_Q ASL15 Online Qualifier Day 2: Group Q]
+*[https://challonge.com/ASL_S15_R ASL15 Online Qualifier Day 2: Group R]
+*[https://challonge.com/ASL_S15_S ASL15 Online Qualifier Day 2: Group S]
+*[https://challonge.com/ASL_S15_T ASL15 Online Qualifier Day 2: Group T]
+*[https://challonge.com/ASL_S15_U ASL15 Online Qualifier Day 2: Group U]
+*[https://challonge.com/ASL_S15_V ASL15 Online Qualifier Day 2: Group V]
+*[https://challonge.com/ASL_S15_W ASL15 Online Qualifier Day 2: Group W]
+*[https://challonge.com/ASL_S15_X ASL15 Online Qualifier Day 2: Group X]

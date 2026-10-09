@@ -125,8 +125,8 @@ export function PlayerProfile({ player }: Props): ReactElement {
       </dl>
       {elo ? (
         <p className="-mt-5 text-caption text-ink-muted">
-          ELO rank {elo.rank}, peak in {formatSeason(elo.peakSeason)}. This ELO comes from season
-          placements: it rates where a player finished each season, not individual games.
+          ELO rank {elo.rank}, peak in {formatSeason(elo.peakSeason)}. This ELO comes from the{" "}
+          {elo.games} games this player has played in the ASL, not from qualifiers.
         </p>
       ) : null}
 

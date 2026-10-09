@@ -1,0 +1,1296 @@
+{{KSL Navbox}}
+{{DISPLAYTITLE: Afreeca Starleague Season 5: Seoul Qualifier}}
+{{TOClimit}}
+<br>
+{{tabs static
+|name1=Main Event
+|link1=Afreeca Starleague Season 5
+|name2=Qualifier
+|link2=Afreeca Starleague Season 5/Qualifier
+|name3=Tournament Statistics
+|link3=Afreeca Starleague Season 5/Tournament Statistics
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=Afreeca Starleague Season 5/Qualifier
+|name2=Wildcard Qualifier
+|link2=Afreeca Starleague Season 5/Qualifier/Wildcard
+|name3=Seoul Qualifier
+|link3=Afreeca Starleague Season 5/Qualifier/Seoul
+|name4=Busan Qualifier
+|link4=Afreeca Starleague Season 5/Qualifier/Busan
+|name5=Gwangju Qualifier
+|link5=Afreeca Starleague Season 5/Qualifier/Gwangju
+|This=3
+}}
+
+
+{{Infobox league
+|name=Afreeca Starleague Season 5: Seoul Qualifier
+|image=
+|series=ASL
+|organizer=Kongdoo
+|organizer2=Afreeca
+|type=Offline
+|country=South Korea
+|city=Seoul
+|format=Single-Elimination
+|date=2018-02-24
+|player_number=215
+|map1=Fighting Spirit
+|map2=Gladiator
+|map3=Match Point
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+}}
+
+==Qualified Players==
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:140px;text-align:center;" | '''{{p}} Protoss ''(4)''
+|class="{{RaceColor2|t}}" style="width:140px;text-align:center;" | '''{{t}} Terran ''(4)''
+|class="{{RaceColor2|z}}" style="width:140px;text-align:center;" | '''{{z}} Zerg ''(4)''
+|-
+|'''{{InlinePlayer|1=BeSt|flag=kr|link=Best|faction=u}}'''
+|'''{{InlinePlayer|1=Light|flag=kr|link=Light|faction=u}}'''
+|'''{{InlinePlayer|1=EffOrt|flag=kr|link=EffOrt|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Horang2|flag=kr|link=Horang2|faction=u}}'''
+|'''{{InlinePlayer|1=Mind|flag=kr|link=Mind|faction=u}}'''
+|'''{{InlinePlayer|1=Jaedong|flag=kr|link=Jaedong|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Sky|flag=kr|link=Sky|faction=u}}'''
+|'''{{InlinePlayer|1=Rush|flag=kr|link=Rush|faction=u}}'''
+|'''{{InlinePlayer|1=MIsO|flag=kr|link=MIsO|faction=u}}'''
+|-
+|'''{{InlinePlayer|1=Snow|flag=kr|link=SnOw|faction=u}}'''
+|'''{{InlinePlayer|1=Sea|flag=kr|link=Sea|faction=u}}'''
+|'''{{InlinePlayer|1=Shine_(Player)Shine|flag=kr|link=Shine (Player)Shine|faction=u}}'''
+|}
+
+==Results==
+===Notable Participants===
+
+{| class="wikitable participantstable"
+|class="{{RaceColor2|p}}" style="width:140px;text-align:center;" | '''{{p}} Protoss 
+|class="{{RaceColor2|t}}" style="width:140px;text-align:center;" | '''{{t}} Terran 
+|class="{{RaceColor2|z}}" style="width:140px;text-align:center;" | '''{{z}} Zerg
+|-
+|
+|
+|
+|}
+
+===Detailed Results===
+{{StorePlayerLink|Shuttle|Shuttle (Player)}}
+''[https://challonge.com/users/asl_s5 Complete bracket]''
+{{QualifierOverlay|group=A|done=1
+|win1={{InlinePlayer|1=BeSt|flag=kr|link=Best|faction=p}}
+|bracket={{Bracket|Bracket/16|id=pQwRDbwFPC
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BeSt|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=류황희|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=박교덕|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=권준혁|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=연재모|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=이동민|score=2|win=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=서재필|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=최지호|score=2|win=1}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=여하람|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=d.villa|race=z|score=2|win=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=홍석기|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=서원빈|score=2|win=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이광희|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Calm|race=z|score=2|win=1}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=조성용|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=정혜준|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BeSt|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박교덕|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=박교덕|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이동민|score=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=d.villa|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=서원빈|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Calm|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정혜준|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BeSt|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박교덕|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=d.villa|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Calm|race=z|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BeSt|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Calm|race=z|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=B|done=1
+|win1={{InlinePlayer|1=Rush|flag=kr|link=Rush|faction=t}}
+|bracket={{Bracket|Bracket/16|id=CzbfeNzdJS
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=sleeq|race=p|score=W|win=1}}
+    |opponent2={{SoloOpponent|name=BYE|race=bye|score=L}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=나인채|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Lazy|race=p|score=2|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rush|race=t|score=W|win=1}}
+    |opponent2={{SoloOpponent|name=BYE|race=bye|score=L}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Study|race=z|score=W|win=1}}
+    |opponent2={{SoloOpponent|name=BYE|race=bye|score=L}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=문성규|score=W|win=1}}
+    |opponent2={{SoloOpponent|name=BYE|race=bye|score=L}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김재원|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=우종범|score=0}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=W|win=1}}
+    |opponent2={{SoloOpponent|name=BYE|race=bye|score=L}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=윤재오|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김수관|score=0}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=sleeq|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Lazy|race=p|score=2|win=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rush|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Study|race=z|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=문성규|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=김재원|score=2|win=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=윤재오|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Lazy|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rush|race=t|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김재원|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rush|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=C|done=1
+|win1={{InlinePlayer|1=Snow|flag=kr|link=SnOw|faction=p}}
+|bracket={{Bracket|Bracket/16|id=Qe1TUxEQD7
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=서근택|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이건희|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이지원|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=kangTaeWan|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=ByungSoo|race=z|score=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=인치호|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이철희|score=1}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이지우|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박은우|score=2|win=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Peace|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Noble|race=p|score=2|win=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=huCk|race=t|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=표준영|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Notice|race=t|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이건희|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=kangTaeWan|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=인치호|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=박은우|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Noble|race=p|score=2|win=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Notice|race=t|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=kangTaeWan|race=t|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Noble|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sharp|race=t|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sharp|race=t|score=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=D|done=1
+|win1={{InlinePlayer|1=MIsO|flag=kr|link=MIsO|faction=z}}
+|bracket={{Bracket|Bracket/16|id=IBg20gjPBe
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ment|race=t|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김상민|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=김은호|score=2|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김당연|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=나환희|score=2|win=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=서현수|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=TA|race=p|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Jaehoon|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=beast|race=z|score=2|win=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=황승용|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이내건|score=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=홍기현|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=김너른|score=2|win=1}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김은기|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김은호|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=나환희|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=서현수|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=beast|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=황승용|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김너른|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=서현수|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=beast|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Shuttle|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=MIsO|race=z|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=E|done=1
+|win1={{InlinePlayer|1=Mind|flag=kr|link=Mind|faction=t}}
+|bracket={{Bracket|Bracket/16|id=9j6N6XI10H
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=박민수|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정현우|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=백민기|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=구동주|score=2|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=강민찬|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=하예희|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mong|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김상혁|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Black|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=신법규|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=함석우|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박병욱|score=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이수호|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=장원희|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mind|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=유찬봉|score=0}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=박민수|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=구동주|score=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=강민찬|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mong|race=t|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Black|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=함석우|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이수호|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mind|race=t|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=박민수|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mong|race=t|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Black|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mind|race=t|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Mong|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mind|race=t|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=F|done=1
+|win1={{InlinePlayer|1=EffOrt|flag=kr|link=EffOrt|faction=z}}
+|bracket={{Bracket|Bracket/16|id=nB8Q3z2OXn
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=박주영|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2|win=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=노대현|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=민경훈|score=2|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Spire|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=권준석|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김호성|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=안성빈|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=고휘성|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=오원교|score=2|win=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=최승필|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김진섭|score=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=허훈|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ample|race=t|score=2|win=1}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=정재홍|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=한재민|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=민경훈|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Spire|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김호성|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=오원교|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=최승필|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Ample|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=한재민|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Spire|race=z|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=오원교|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ample|race=t|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=EffOrt|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Ample|race=t|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=G|done=1
+|win1={{InlinePlayer|1=Sea|flag=kr|link=Sea|faction=t}}
+|bracket={{Bracket|Bracket/16|id=kUoV8uZYzV
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이준구|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=노민준|score=2|win=1}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=PianO|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=유재환|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박태수|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Pusan|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이준용|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sea|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이영민|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=조성은|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=정현석|score=2|win=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Tyson|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=오민혁|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=강민기|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박철순|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=노민준|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=PianO|race=t|score=2|win=1}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Pusan|race=p|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sea|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정현석|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Tyson|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=박철순|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=PianO|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sea|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박철순|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Sacsri|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sea|race=t|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=H|done=1
+|win1={{InlinePlayer|1=Horang2|flag=kr|link=Horang2|faction=p}}
+|bracket={{Bracket|Bracket/16|id=lsCkPvbIgU
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Horang2|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=FanTaStic|race=t|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=고영훈|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=이명준|score=2|win=1}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sexy|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=fresh|race=p|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=강광규|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=최제택|score=2|win=1}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=trOt|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이원형|score=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김경완|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=백영진|score=0}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Stork|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이승민|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=임재균|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=YoungJoo|race=t|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Horang2|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이명준|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sexy|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=최제택|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=trOt|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김경완|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Stork|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=YoungJoo|race=t|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Horang2|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sexy|race=t|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=trOt|race=t|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=YoungJoo|race=t|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Horang2|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=YoungJoo|race=t|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=I|done=1
+|win1={{InlinePlayer|1=Jaedong|flag=kr|link=Jaedong|faction=z}}
+|bracket={{Bracket|Bracket/16|id=slFRCRENzb
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Jaedong|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이창윤|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이영근|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=sc|name=Zoe Summers|race=z|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=정도안|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=강현|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=정승호|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=송치원|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=최윤철|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=이희성|score=2|win=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김형진|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=양성욱|score=0}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Pure|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이정무|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=김산|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Force(Name)|race=z|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Jaedong|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이영근|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=정도안|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정승호|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이희성|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김형진|score=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Pure|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Force(Name)|race=z|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Jaedong|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정도안|score=0}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이희성|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Pure|race=p|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Jaedong|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Pure|race=p|score=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=J|done=1
+|win1={{InlinePlayer|1=Shine|flag=kr|link=Shine|faction=z}}
+|bracket={{Bracket|Bracket/16|id=Pb44P3IGBS
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BlisS|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=신민철|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=김진수|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=fOru|race=p|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이지웅|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mini|race=p|score=2|win=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=k1j2h3|race=t|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Tinkle|race=t|score=2|win=1}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=나용현|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=강동우|score=2|win=1}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=황도섭|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김성환|score=2|win=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=장성우|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=최주형|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=양준우|score=2|win=1}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BlisS|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김진수|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Tinkle|race=t|score=0}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=강동우|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김성환|score=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=양준우|score=0}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=BlisS|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Mini|race=p|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=강동우|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Mini|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Shine|race=z|score=2|win=1}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=K|done=1
+|win1={{InlinePlayer|1=Sky|flag=kr|link=Sky|faction=p}}
+|bracket={{Bracket|Bracket/16|id=I8Bay6oQcl
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ZergMaN|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=장명수|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=정병조|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=유기훈|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이인극|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=남원석|score=0}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sky|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=홍석진|score=0}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Last|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=강한구|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=이호정|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정재현|score=1}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Check|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박준영|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Action|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이찬우|score=0}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=ZergMaN|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=정병조|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=이인극|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sky|race=p|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Last|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이호정|score=0}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Check|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Action|race=z|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=ZergMaN|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Sky|race=p|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Last|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Action|race=z|score=0}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Sky|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Last|race=t|score=0}}
+}}
+}}
+}}
+
+{{QualifierOverlay|group=L|done=1
+|win1={{InlinePlayer|1=Light|flag=kr|link=Light|faction=t}}
+|bracket={{Bracket|Bracket/16|id=KJadqFSbbV
+
+
+<!-- Round 1 -->
+|R1M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Saint|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=이세중|score=0}}
+}}
+
+|R1M2={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=윤학열|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=송태영|score=0}}
+}}
+
+|R1M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=박성민|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=권정일|score=2|win=1}}
+}}
+
+|R1M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=나종찬|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+}}
+
+|R1M5={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=BishOp|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=노도현|score=0}}
+}}
+
+|R1M6={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=배성흠|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=박성언|score=0}}
+}}
+
+|R1M7={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Luna|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=유두열|score=0}}
+}}
+
+|R1M8={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=GuemChi|race=p|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=김찬영|score=0}}
+}}
+
+<!-- Quarterfinals -->
+|R2M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Saint|race=z|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=윤학열|score=0}}
+}}
+
+|R2M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=권정일|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+}}
+
+|R2M3={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=BishOp|race=t|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=배성흠|score=2|win=1}}
+}}
+
+|R2M4={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Luna|race=p|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=GuemChi|race=p|score=2|win=1}}
+}}
+
+<!-- Semifinals -->
+|R3M1={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Saint|race=z|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+}}
+
+|R3M2={{Match
+    |finished=true|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=배성흠|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=GuemChi|race=p|score=2|win=1}}
+}}
+
+<!-- Grand Final -->
+|R4M1={{Match
+    |finished=true|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Light|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=GuemChi|race=p|score=1}}
+}}
+}}
+}}

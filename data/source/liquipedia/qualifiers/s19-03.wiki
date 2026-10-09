@@ -1,0 +1,141 @@
+{{DISPLAYTITLE:2025 SCS SPRING}}
+{{ASL Navbox}}
+{{ACS Navbox}}
+{{ASL/19/Tabs}}
+{{Infobox league
+|name=2025 SCS SPRING
+|series=ACS
+|abbreviation=ACS
+|image= 
+|icon=Soop icon alt allmode.png
+|organizer=SOOP
+|sponsor=
+|type=Online
+|country=South Korea
+|city=Seoul
+|venue= 
+|localcurrency=KRW
+|prizepool=1,000,000
+|date=2025-01-25
+|liquipediatier=2
+|afreeca=afstar1
+|bracket=https://esports.sooplive.co.kr/gggl/tournament/afstar1/977/table
+|web=https://ch.sooplive.co.kr/afstar1/post/147541031
+|web2= 
+|player_number=4
+|protoss_number= 
+|terran_number= 
+|zerg_number= 
+|map1=Radeon
+|map2=Dominator
+|map3=Deja Vu
+|previous=AfreecaTV Challengers Starleague/2024/2{{!}}2024 ACS Season 2
+|next=ACS/2025/2{{!}}2025 ACS Season 2
+}}
+
+==Overview==
+The '''SOOP Challengers Starleague 2025 SPRING''' ('''2025 SCS SPRING''') (Korean: 2025 SOOP 챌린저스 스타리그(SCS) SPRING) is an online tournament for amateur players organized by SOOP.
+
+==Format==
+*'''Qualifiers'''
+**4 single-elimination brackets.
+**Winner of each bracket advances to the Main Event.
+*'''Main Event'''
+**Single-elimination bracket.
+**All matches are {{Abbr/Bo3}}.
+
+===Maps===
+{{MapPoolTable}}
+
+==Prize Pool==
+The Prize pool of ₩1,000,000 will be distributed as follows:
+{{SoloPrizePool|localcurrency=KRW
+|{{Slot|place=1|localprize=1,000,000}}
+|{{Slot|place=2|localprize= }}
+}}
+
+==Participants==
+{{ParticipantTable|count=true|disable_teams=true
+|{{ParticipantSection|title=From the [[SOOP/Challengers Starleague/2025/SPRING/Qualifier|Qualifier]] ''(4)''
+|p1=Yoon |p1link=Yoon_(Amateur)
+|p2=Hm
+|p3=MC |p3link=IrOn
+|p4=Alone
+}}
+}}
+
+==Results==
+{{Bracket|Bracket/4|id=scs2501UzA
+<!-- For more information on Bracket parameters see Liquipedia:Brackets -->
+<!-- For Opponent Copy-Paste-Code see Liquipedia:Brackets/Opponents#Copy-Paste -->
+
+<!-- Semifinals -->
+
+|R1M1={{Match |bestof=3
+  |date=2025-01-25 19:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |preview= 
+  |vod=https://vod.sooplive.co.kr/player/149249349 
+  |opponent1={{1v1Opponent|Yoon}}
+  |opponent2={{1v1Opponent|Hm }}
+  |map1={{Map|map=Radeon |winner=2 }}
+  |map2={{Map|map=Dominator |winner=1 }}
+  |map3={{Map|map=Deja Vu |winner=1 }}
+}}
+|R1M2={{Match
+  |date=2025-01-25 20:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |preview= 
+  |vod=https://vod.sooplive.co.kr/player/149256149
+  |opponent1={{1v1Opponent|MC }}
+  |opponent2={{1v1Opponent|Alone }}
+  |map1={{Map|map=Radeon  |winner=1 }}
+  |map2={{Map|map=Dominator  |winner=2 }}
+  |map3={{Map|map=Deja Vu |winner=2 }}
+}}
+
+<!-- Grand Final -->
+
+|R2M1={{Match
+  |date=2025-01-25 21:00 {{Abbr/KST}}
+  |afreeca=afstar1
+  |preview= 
+  |vod=https://vod.sooplive.co.kr/player/149261463 
+  |opponent1={{1v1Opponent|Yoon }}
+  |opponent2={{1v1Opponent|Alone   }}
+  |map1={{Map|map=Radeon   |winner=2 }}
+  |map2={{Map|map=Dominator   |winner=1 }}
+  |map3={{Map|map=Deja Vu |winner=2 }}
+}}
+
+<!-- Third Place Match -->
+
+<!--
+|RxMTP={{Match
+  |winner=
+  |date=
+  |twitch=
+  |opponent1=
+  |opponent2=
+  |map1={{Map|map=|winner=}}
+  |map2={{Map|map=|winner=}}
+  |map3={{Map|map=|winner=}}
+}}
+-->
+}}
+
+==Talents==
+{{box|start|padding=2em}}
+{{BroadcasterCard
+|position=Korean Play-by-play
+|b1=Park Sang-hyun |b1flag=kr
+}}
+{{BroadcasterCard
+|position=Korean Analyst
+|b1=Lee Seung-won |b1flag=kr
+|b2=IntoTheRain
+}}
+{{box|end}}
+
+==External Links==
+*[https://ch.sooplive.co.kr/afstar1/post/147541031 Announcement on SOOP]

@@ -80,6 +80,8 @@ export const seriesSchema = z.strictObject({
   vod: z.url().nullable(),
 });
 
+const eloHistory = z.array(z.strictObject({ season: seasonNumber, elo: z.number() }));
+
 export const eloRowSchema = z.strictObject({
   rank: z.number().int().positive(),
   player: z.string().min(1),
@@ -89,8 +91,20 @@ export const eloRowSchema = z.strictObject({
   peakSeason: seasonNumber,
   seasons: count,
   championships: count,
+  /** Games played in ASL seasons: what the rating is built from. */
+  games: count,
   /** Rating after each season the player entered, oldest first. */
-  history: z.array(z.strictObject({ season: seasonNumber, elo: z.number() })),
+  history: eloHistory,
+  /** The same rating with each season's qualifier games counted too. Its own rank and peak. */
+  withQualifiers: z.strictObject({
+    rank: z.number().int().positive(),
+    currentElo: z.number(),
+    peakElo: z.number(),
+    peakSeason: seasonNumber,
+    games: count,
+    /** Rating after each season in which the player played a qualifier or ASL game. */
+    history: eloHistory,
+  }),
 });
 
 export const playerStatsSchema = z.strictObject({
@@ -173,7 +187,15 @@ export const manifestSchema = z.strictObject({
   }),
   seasons: z.strictObject({ count, complete: count }),
   counts: z.record(z.string(), count),
-  elo: z.strictObject({ start: z.number(), k: z.number(), basis: z.literal("placement") }),
+  elo: z.strictObject({
+    start: z.number(),
+    k: z.number(),
+    basis: z.literal("game"),
+    /** Games in ASL seasons, and in the qualifiers Liquipedia has results for. */
+    games: count,
+    qualifierGames: count,
+    qualifierSeasons: z.array(seasonNumber),
+  }),
   warnings: count,
 });
 

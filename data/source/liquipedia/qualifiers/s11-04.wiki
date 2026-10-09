@@ -1,0 +1,144 @@
+<noinclude>{{DISPLAYTITLE:AfreecaTV StarCraft League Remastered Season 11: Wild Card Qualifier}}
+{{AfreecaTV StarCraft League Remastered Navbox}}
+
+{{tabs static
+|name1=Main Event
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11
+|name2=Qualifiers
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|This=2}}
+{{tabs static
+|name1=Overview
+|link1=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers
+|name2=Wild Card Qualifier
+|link2=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Wild Card
+|name3=Online Qualifier Day 1
+|link3=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 1
+|name4=Online Qualifier Day 2
+|link4=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 2
+|name5=Online Qualifier Day 3
+|link5=2021 AfreecaTV StarCraft League Remastered Season 11/Qualifiers/Online 3
+|This=2
+}}
+
+{{Infobox league
+|name=ASL Season 11: Wild Card Qualifier
+|image=
+|series=ASL
+|organizer=AfreecaTV
+|sponsor=
+|server=
+|type=Offline
+|prizepool=
+|prizepoolusd=
+|country=South Korea
+|format=Single-Elimination
+|city=Seoul
+|date=2021-03-09
+|sdate=
+|edate=
+|edition=
+|tlpd=
+|web=
+|idfirst=Rush  |racefirst=t  |flagfirst=kr
+|afreeca=afstar1
+|player_number=4
+|protoss_number=2
+|terran_number=1
+|zerg_number=1
+|map1=Benzene
+|map2=Eclipse
+|map3=Optimizer
+|map4=Plasma
+|map5=Polypoid
+|map6=Ringing Bloom SE
+|map7=Shakuras Temple
+|liquipediatier=1
+|liquipediatiertype=Qualifier
+|previous=2020 AfreecaTV Starleague Season 9/Qualifiers/Wildcard{{!}}ASL Season 9: Wild Card Qualifier
+|next=2021 AfreecaTV Starleague Season 12/Qualifiers/Wildcard{{!}}ASL Season 12: Wild Card Qualifier
+}}
+<br>
+The '''AfreecaTV StarCraft League Remastered Season 11: Wild Card Qualifier''' was the tournament held on March 9, 2021 to determine the seed for the [[2021 AfreecaTV StarCraft League Remastered Season 11|AfreecaTV StarCraft League Remastered Season 11]].
+
+==Participants==
+
+{{ParticipantTable|countByFaction=true|disable_teams=true
+|{{ParticipantSection
+|p1=Snow |p1race=p |p1flag=kr
+|p2=Soulkey |p2race=z |p2flag=kr
+|p3=Rush |p3race=t |p3flag=kr
+|p4=BeSt |p4race=p |p4flag=kr
+}}
+}}
+
+==Map Pool==
+{{MapPoolTable
+|title=ASL Season 11: Wild Card Qualifier
+|map1=Benzene|map1displayName=Benzene
+|map2=Eclipse|map2displayName=Eclipse
+|map3=Optimizer|map3displayName=Optimizer
+|map4=Plasma|map4displayName=Plasma
+|map5=Polypoid|map5displayName=Polypoid
+|map6=Ringing Bloom|map6displayName=Ringing Bloom SE
+|map7=Shakuras Temple|map7displayName=Shakuras Temple
+}}
+
+==Results==
+{{prize pool start|noprize=true|points=seed|disable_teams=true}}
+{{prize pool slot|place=1
+|Rush |flag1=kr |race1=t |points=16 |link=2021 AfreecaTV StarCraft League Remastered Season 11 |lastvs1=Soulkey |lastscore1=2 |lastvsscore1=1 |lastvsrace1=z |lastvsflag1=kr
+}}
+{{prize pool slot|place=2
+|Soulkey |flag1=kr |race1=z |lastvs1=Rush |lastscore1=1 |lastvsscore1=2 |lastvsrace1=t |lastvsflag1=kr
+}}
+{{prize pool slot|place=3-4
+|Snow |flag1=kr |race1=p |lastvs1=Soulkey |lastscore1=0 |lastvsscore1=2 |lastvsrace1=z |lastvsflag1=kr
+|BeSt |flag2=kr |race2=p |lastvs2=Rush |lastscore2=1 |lastvsscore2=2 |lastvsrace2=t |lastvsflag2=kr
+}}
+{{LegacyPrizePoolEnd|}}
+
+==Bracket==
+{{Bracket|Bracket/4|id=xOVu3xTy3w
+|R1M1header=Semifinals (Bo3)|R2M1header=To ASL 11 (Bo3)
+
+<!-- Semifinals -->
+|R1M1={{Match
+    |date=March 9, 2021 - 19:00 {{Abbr/KST}}|finished=true|vod=https://vod.afreecatv.com/PLAYER/STATION/69638659|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Snow|race=p|score=0}}
+    |opponent2={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=2|win=1}}
+    |map1={{Map|map=Polypoid|winner=2}}
+    |map2={{Map|map=Eclipse|winner=2}}
+    |map3={{Map|map=Ringing Bloom SE|winner=skip}}
+}}
+
+|R1M2={{Match
+    |date=March 9, 2021 - 19:40 {{Abbr/KST}}|finished=true|vod=https://vod.afreecatv.com/PLAYER/STATION/69638659|winner=1
+    |opponent1={{SoloOpponent|flag=kr|name=Rush|race=t|score=2|win=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=BeSt|race=p|score=1}}
+    |map1={{Map|map=Polypoid|winner=1}}
+    |map2={{Map|map=Benzene|winner=2}}
+    |map3={{Map|map=Eclipse|winner=1}}
+}}
+
+<!-- Grand Final -->
+|R2M1={{Match
+    |date=March 9, 2021 - 21:00 {{Abbr/KST}}|finished=true|veto1=Benzene|veto2=Plasma|veto3=Ringing Bloom|veto4=Optimizer|vetoplayer1=2|vetoplayer2=1|vetoplayer3=2|vetoplayer4=1|vod=https://vod.afreecatv.com/PLAYER/STATION/69638659|winner=2
+    |opponent1={{SoloOpponent|flag=kr|name=Soulkey|race=z|score=1}}
+    |opponent2={{SoloOpponent|flag=kr|name=Rush|race=t|score=2|win=1}}
+    |map1={{Map|map=Polypoid|winner=1}}
+    |map2={{Map|map=Eclipse|winner=2}}
+    |map3={{Map|map=Shakuras Temple|winner=2}}
+}}
+}}
+
+==External links==
+*{{Flag|kr}} [https://bj.afreecatv.com/afstar1/post/69538191 afreecatv.com - announcement]
+<noinclude>
+
+====Media====
+* [https://vod.sooplive.co.kr/player/69638659 Full wildcard tournament VOD on AfreecaTV]
+* [https://vod.sooplive.co.kr/player/69630663 Match 1 VOD on AfreecaTV]
+* [https://vod.sooplive.co.kr/player/69634064 Match 2 VOD on AfreecaTV]
+* [https://vod.sooplive.co.kr/player/69638227 Match 3 VOD on AfreecaTV]
+<noinclude>

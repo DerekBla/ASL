@@ -22,5 +22,9 @@
   {
     "code": "SOURCE_TABLE_MISMATCH",
     "message": "S10: race counts {'Z': 11, 'T': 9, 'P': 8} differ from infobox {'T': 8, 'Z': 11, 'P': 8}"
+  },
+  {
+    "code": "QUALIFIER_NAME_VARIANT",
+    "message": "qualifier pages write 'IvOry'; not counted as 'ivOry'"
   }
 ]

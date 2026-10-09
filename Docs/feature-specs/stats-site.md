@@ -13,7 +13,7 @@
 | `/seasons/[season]` | static, 21 pages (`dynamicParams = false`) | Final, playoff series, all placements with prize, every group-stage series, Liquipedia source link |
 | `/players` | static | Career table for every player, sortable on every number |
 | `/players/[slug]` | static, one page per player | Career figures, ELO (current, peak, rank), season-by-season placements, series record overall and by opponent race, every opponent with a head-to-head link, other spellings |
-| `/elo` | static | ELO table with the old spreadsheet's columns: Rank, Player, Race, Current ELO, Peak ELO, Peak season, Seasons, Championships. Explains that it is placement-based |
+| `/elo`, `/elo/with-qualifiers` | static | Top 10 chart, then the ELO table: Rank, Player, Race, Current ELO, Peak ELO, Peak season, Games, Seasons, Championships. Explains that the rating comes from individual games. Two versions with a link switch: ASL games only, and with qualifier games counted (`EloRatings`). |
 | `/races` | static | Titles and field share by race, series matchup matrices (all stages, playoffs, finals), race counts per season |
 | `/head-to-head?a=&b=` | dynamic (reads search params) | Two-player lookup: series record, every series, seasons both entered with placements |
 

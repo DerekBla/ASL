@@ -53,7 +53,7 @@ share at the margin.
 
 For a binary match market between A and B, `P(A) = 1 / (1 + 10^((R_B − R_A) / 400))`, then
 `clampPrior([P, 1−P], 0.05)`. Caveats to show admins:
-- Workbook ELO is **placement-based** (tiers, not match results), so it's a weak predictor.
+- ELO is game-based since 2026-10-09 (ASL games only, about 2,000 of them), so it is still a rough predictor.
 - Identity splits in the workbook (see Data roadmap) distort some ratings.
 - Admin can always override with a manual prior or uniform.
 

@@ -6,11 +6,33 @@
     "players": 84,
     "seasons": 21,
     "series": 1189,
-    "validation": 6
+    "validation": 7
   },
   "elo": {
-    "basis": "placement",
+    "basis": "game",
+    "games": 1998,
     "k": 32,
+    "qualifierGames": 9848,
+    "qualifierSeasons": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
     "start": 1500.0
   },
   "schemaVersion": 3,
@@ -151,5 +173,5 @@
     ],
     "wikitextSha256": "bf39ab7a643cbf5292c1f4851a84d3d1b7e75f04d247820dc1ae0f7c18c8d0fc"
   },
-  "warnings": 6
+  "warnings": 7
 }
