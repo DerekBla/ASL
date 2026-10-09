@@ -12,11 +12,11 @@ function token(name: string): string | undefined {
 describe("race color tokens", () => {
   // Values fixed by CLAUDE.md Domain Rules. Swapped race colors are a recurring bug.
   it.each([
-    ["color-race-terran-pale", "#EAF3FB"],
+    ["color-race-terran-pale", "#CFE2F7"],
     ["color-race-terran-dark", "#3A6EA8"],
-    ["color-race-zerg-pale", "#F0EAF9"],
+    ["color-race-zerg-pale", "#E0D3F5"],
     ["color-race-zerg-dark", "#6B4FA0"],
-    ["color-race-protoss-pale", "#E6F4EC"],
+    ["color-race-protoss-pale", "#CDEBD7"],
     ["color-race-protoss-dark", "#3D7A52"],
   ])("%s is %s", (name, hex) => {
     expect(token(name)).toBe(hex);

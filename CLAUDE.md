@@ -46,13 +46,14 @@ and a ROADMAP entry before work begins.
 Facts about the ASL data that are easy to get wrong. Follow them everywhere.
 
 - **Races** are stored as letter codes `T` / `Z` / `P`. Display names: Terran / Zerg / Protoss.
-- **Race colors** (from the spreadsheet; used site-wide as design tokens):
+- **Race colors** (used site-wide as design tokens; the pale set was made stronger by Derek
+  on 2026-10-08 so it stands out from the page background, like Liquipedia's):
 
   | Race | Pale (player/data cells) | Dark (section headers only) |
   |---|---|---|
-  | Terran | `#EAF3FB` | `#3A6EA8` |
-  | Zerg | `#F0EAF9` | `#6B4FA0` |
-  | Protoss | `#E6F4EC` | `#3D7A52` |
+  | Terran | `#CFE2F7` | `#3A6EA8` |
+  | Zerg | `#E0D3F5` | `#6B4FA0` |
+  | Protoss | `#CDEBD7` | `#3D7A52` |
 
   Swapped or inconsistent race colors are a recurring bug. Use the tokens, never literals.
 - **Placement labels** use an en-dash: `9th–12th`, `23rd–28th`. The exporter normalizes hyphens.

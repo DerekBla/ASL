@@ -13,9 +13,9 @@ Fixed by CLAUDE.md Domain Rules. The test fails if a value changes or is defined
 
 | Race | Pale: player and data cells | Dark: section headers only |
 |---|---|---|
-| Terran | `bg-race-terran-pale` `#EAF3FB` | `bg-race-terran-dark` `#3A6EA8` |
-| Zerg | `bg-race-zerg-pale` `#F0EAF9` | `bg-race-zerg-dark` `#6B4FA0` |
-| Protoss | `bg-race-protoss-pale` `#E6F4EC` | `bg-race-protoss-dark` `#3D7A52` |
+| Terran | `bg-race-terran-pale` `#CFE2F7` | `bg-race-terran-dark` `#3A6EA8` |
+| Zerg | `bg-race-zerg-pale` `#E0D3F5` | `bg-race-zerg-dark` `#6B4FA0` |
+| Protoss | `bg-race-protoss-pale` `#CDEBD7` | `bg-race-protoss-dark` `#3D7A52` |
 
 - Text on a pale race color is `text-race-ink`; text on a dark race color is `text-race-on-dark`.
   Both are fixed, so race cells stay readable in light and dark mode.

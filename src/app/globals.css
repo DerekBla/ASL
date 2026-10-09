@@ -11,11 +11,11 @@
  * compact bordered tables, small corners, flat bordered panels, no pills.
  */
 @theme {
-  --color-race-terran-pale: #eaf3fb;
+  --color-race-terran-pale: #cfe2f7;
   --color-race-terran-dark: #3a6ea8;
-  --color-race-zerg-pale: #f0eaf9;
+  --color-race-zerg-pale: #e0d3f5;
   --color-race-zerg-dark: #6b4fa0;
-  --color-race-protoss-pale: #e6f4ec;
+  --color-race-protoss-pale: #cdebd7;
   --color-race-protoss-dark: #3d7a52;
 
   /* Medal tiers, from the old spreadsheet's placement fills: 1st, 2nd, 3rd/4th. */
