@@ -56,6 +56,9 @@ For a binary match market between A and B, `P(A) = 1 / (1 + 10^((R_B − R_A) / 
 - ELO is game-based since 2026-10-09 (ASL games only, about 2,000 of them), so it is still a rough predictor.
 - Identity splits in the workbook (see Data roadmap) distort some ratings.
 - Admin can always override with a manual prior or uniform.
+- Since 2026-10-09 the prior scales the rating gap by `manifest.elo.probabilityScale` (the plain
+  formula overstated favorites) and, for a series, uses `seriesWinProbability(p, bestOf)`. The
+  admin form's "Suggest odds from ELO" button fills it for a two player market.
 
 Season-winner markets: uniform over remaining players, or softmax of ELO / 400·ln10 with the
 same floor.

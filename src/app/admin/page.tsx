@@ -9,7 +9,13 @@ import { listMarkets } from "@/lib/services/markets-read";
 import { getPickem, listPickems } from "@/lib/services/pickem";
 import { formatKoreaTime, formatProbability } from "@/lib/utils/format";
 
-import { CreateMarketForm, MarketControls, s22FinalPreset } from "@/features/admin";
+import {
+  CreateMarketForm,
+  eloRatings,
+  eloScale,
+  MarketControls,
+  s22FinalPreset,
+} from "@/features/admin";
 import { GameWinsEditor } from "@/features/draft";
 import { MarketsOff } from "@/features/markets";
 import { PickemForm, pickemStatusLine, ResultsEditor } from "@/features/pickem";
@@ -40,7 +46,11 @@ export default async function AdminPage(): Promise<ReactElement> {
       <h1>Admin</h1>
       <section aria-labelledby="create-heading" className="flex flex-col gap-3">
         <h2 id="create-heading">New market</h2>
-        <CreateMarketForm presets={[{ name: "ASL S22 Grand Final", input: s22FinalPreset() }]} />
+        <CreateMarketForm
+          presets={[{ name: "ASL S22 Grand Final", input: s22FinalPreset() }]}
+          ratings={eloRatings()}
+          scale={eloScale()}
+        />
       </section>
       <section aria-labelledby="manage-heading" className="flex flex-col gap-4">
         <h2 id="manage-heading">Markets</h2>

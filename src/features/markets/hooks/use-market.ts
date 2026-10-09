@@ -9,7 +9,7 @@ import type { ActionResult } from "@/lib/types/result";
 
 import { placeTrade } from "../actions/place-trade";
 import type { PlaceTradeInput } from "../actions/place-trade";
-import type { MarketView, MyMarketState } from "../types";
+import type { MarketSummary, MarketView, MyMarketState } from "../types";
 
 async function getJson<T>(url: string): Promise<T> {
   const response = await fetch(url, { cache: "no-store" });
@@ -23,6 +23,15 @@ export function useMarket(slug: string): UseQueryResult<MarketView> {
     queryKey: queryKeys.markets.detail(slug),
     queryFn: () => getJson<MarketView>(`/api/markets/${encodeURIComponent(slug)}`),
     refetchInterval: (query) => (query.state.data?.status === "open" ? 10_000 : false),
+  });
+}
+
+/** Every market with its current prices. */
+export function useMarkets(): UseQueryResult<MarketSummary[]> {
+  return useQuery({
+    queryKey: queryKeys.markets.all,
+    queryFn: () => getJson<MarketSummary[]>("/api/markets"),
+    retry: false,
   });
 }
 

@@ -16,6 +16,9 @@ Thumbs.db
 .~lock.*
 tsconfig.tsbuildinfo
 
+# Log of the scheduled stats refresh (scripts/refresh)
+.logs/
+
 # Next.js
 next-env.d.ts
 

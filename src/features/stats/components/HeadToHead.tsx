@@ -1,27 +1,89 @@
 import Link from "next/link";
 import type { ReactElement } from "react";
 
-import { getPlayers } from "@/lib/services/stats";
+import { seriesWinProbability } from "@/lib/market/priors";
+import { getManifest, getPlayers, getWinChance } from "@/lib/services/stats";
 import type { HeadToHead as HeadToHeadData } from "@/lib/services/stats";
-import { formatScore, formatSeason } from "@/lib/utils/format";
+import { formatElo, formatProbability, formatScore, formatSeason } from "@/lib/utils/format";
 
 import { Button } from "@/components/Button";
 import { PlacementBadge } from "@/components/PlacementBadge";
 import { RaceBadge } from "@/components/RaceBadge";
 
 import { PlayerLink } from "./PlayerLink";
+import { PLAYOFF_ROUND_LABEL as ROUND, STAGE_LABEL as STAGE } from "./series-text";
 
-const STAGE: Record<string, string> = {
-  ro24: "Round of 24",
-  ro16: "Round of 16",
-  playoffs: "Playoffs",
-};
-const ROUND: Record<string, string> = {
-  final: "Final",
-  third_place: "Third place match",
-  semifinal: "Semifinal",
-  quarterfinal: "Quarterfinal",
-};
+/** Series lengths the ASL uses, for the chances table. */
+const LENGTHS = [
+  { bestOf: 1, label: "One game" },
+  { bestOf: 3, label: "Best of 3" },
+  { bestOf: 5, label: "Best of 5" },
+  { bestOf: 7, label: "Best of 7" },
+] as const;
+
+/**
+ * What the ratings say would happen if the two played now, for each series length the ASL
+ * uses. The chance of one game is scaled to how ASL games have gone (see getWinChance).
+ */
+function Chances({ h2h }: { h2h: HeadToHeadData }): ReactElement | null {
+  const { a, b } = h2h;
+  const chance = getWinChance(a.player, b.player);
+  if (!chance) return null;
+  const { favoriteGames, favoriteWins } = getManifest().elo;
+  const sides = [
+    { player: a.player, elo: chance.eloA, game: chance.game },
+    { player: b.player, elo: chance.eloB, game: 1 - chance.game },
+  ];
+  return (
+    <section aria-labelledby="h2h-chances" className="flex flex-col gap-2">
+      <h3 id="h2h-chances">If they played now</h3>
+      <div className="card overflow-x-auto">
+        <table className="w-full border-collapse text-data tabular-nums">
+          <caption className="px-2 py-1.5 text-left text-caption text-ink-muted">
+            Each player&apos;s chance of winning, from their current ELO.
+          </caption>
+          <thead className="bg-table-head">
+            <tr>
+              <th scope="col" className="px-2 py-1 text-left">
+                Player
+              </th>
+              <th scope="col" className="px-2 py-1 text-right">
+                ELO
+              </th>
+              {LENGTHS.map((l) => (
+                <th key={l.bestOf} scope="col" className="px-2 py-1 text-right">
+                  {l.label}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {sides.map((side) => (
+              <tr key={side.player} className="border-t border-line">
+                <th scope="row" className="px-2 py-1 text-left font-normal">
+                  {side.player}
+                </th>
+                <td className="px-2 py-1 text-right">{formatElo(side.elo)}</td>
+                {LENGTHS.map((l) => (
+                  <td key={l.bestOf} className="px-2 py-1 text-right">
+                    <strong>{formatProbability(seriesWinProbability(side.game, l.bestOf))}</strong>
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <p className="text-caption text-ink-muted">
+        A rough guide, not a forecast. ELO knows results and nothing about matchups, maps, form or
+        preparation, and it is a weak predictor in the ASL: across every game so far, the higher
+        rated player won {formatProbability(favoriteGames > 0 ? favoriteWins / favoriteGames : 0.5)}{" "}
+        of the time. The chances are scaled down to match that, so they sit closer to even than the
+        usual ELO formula would put them.
+      </p>
+    </section>
+  );
+}
 
 type FormProps = {
   a: string;
@@ -90,6 +152,8 @@ export function HeadToHeadResult({ h2h }: ResultProps): ReactElement {
           {h2h.finishedAboveA} times and {b.player} {h2h.finishedAboveB} times.
         </p>
       </section>
+
+      <Chances h2h={h2h} />
 
       {h2h.series.length > 0 ? (
         <section aria-labelledby="h2h-series" className="flex flex-col gap-2">

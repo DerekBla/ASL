@@ -8,7 +8,11 @@ import {
   SITE_DESCRIPTION,
   SITE_NAME,
 } from "@/lib/config/site";
-import { getLatestCompleteSeason, getManifest } from "@/lib/services/stats";
+import { isMarketsEnabled } from "@/lib/config/env";
+import { getLatestCompleteSeason, getManifest, getSeasonInProgress } from "@/lib/services/stats";
+
+import { SeasonMarkets } from "@/features/markets";
+import { LiveSeason } from "@/features/stats";
 
 const numberFormat = new Intl.NumberFormat("en-US");
 
@@ -24,17 +28,29 @@ const STATS: readonly Card[] = [
   {
     href: "/elo",
     title: "ELO ratings",
-    blurb: "A rating for every player, built from every game they have played in the ASL.",
+    blurb:
+      "A rating for every player, built from every game they have played in the ASL. Overall and by matchup.",
   },
   {
     href: "/head-to-head",
     title: "Head to head",
-    blurb: "Pick any two players and see every ASL series between them.",
+    blurb:
+      "Pick any two players: every ASL series between them, and their chances if they played now.",
   },
   {
     href: "/races",
     title: "Race stats",
     blurb: "How Terran, Zerg and Protoss have done: titles and series against each other.",
+  },
+  {
+    href: "/maps",
+    title: "Maps",
+    blurb: "Every map: how the races have done on it, and each player's record there.",
+  },
+  {
+    href: "/records",
+    title: "Records",
+    blurb: "Longest winning streaks, biggest upsets, title runs, youngest and oldest champions.",
   },
 ];
 
@@ -80,6 +96,7 @@ function Cards({ cards }: { cards: readonly Card[] }): ReactElement {
 export default function HomePage(): ReactElement {
   const { counts } = getManifest();
   const latest = getLatestCompleteSeason();
+  const live = getSeasonInProgress();
   const facts = [
     { label: "Seasons", value: counts.seasons },
     { label: "Players", value: counts.players },
@@ -105,6 +122,10 @@ export default function HomePage(): ReactElement {
           .
         </p>
       </header>
+
+      <LiveSeason
+        markets={live && isMarketsEnabled() ? <SeasonMarkets season={live.season} /> : null}
+      />
 
       <section aria-labelledby="coverage-heading" className="flex flex-col gap-3">
         <h2 id="coverage-heading">What the data covers</h2>

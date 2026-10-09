@@ -31,6 +31,13 @@ export function formatElo(n: number): string {
   return oneDecimal.format(n);
 }
 
+/** A change in ELO with its sign: "+14.2", "−8.1" (a real minus sign), "0.0". */
+export function formatEloChange(n: number): string {
+  const rounded = Math.round(n * 10) / 10;
+  const sign = rounded > 0 ? "+" : rounded < 0 ? "−" : "";
+  return `${sign}${oneDecimal.format(Math.abs(rounded))}`;
+}
+
 /** A 0–1 ratio as a percentage with one decimal: 0.5233 -> "52.3%". */
 export function formatPercent(ratio: number | null): string {
   return ratio === null ? "–" : `${oneDecimal.format(ratio * 100)}%`;

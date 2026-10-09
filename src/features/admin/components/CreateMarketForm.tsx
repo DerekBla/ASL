@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { useState, useTransition } from "react";
 import type { FormEvent, ReactElement } from "react";
 
+import { eloWinProbability, seriesWinProbability } from "@/lib/market/priors";
 import { ACTION_ERROR_MESSAGES } from "@/lib/types/result";
 import { fromKoreaLocal, toKoreaLocal } from "@/lib/utils/format";
 
@@ -14,7 +15,23 @@ import type { CreateMarketInput } from "../actions/market-admin";
 
 type Props = {
   presets: readonly { name: string; input: CreateMarketInput }[];
+  /** Current ELO by lowercased player name, for suggesting opening odds. */
+  ratings?: Readonly<Record<string, number>>;
+  /** How much of a rating gap to believe (manifest.elo.probabilityScale). */
+  scale?: number;
 };
+
+/** "Label" or "Label | Player", one outcome per line. */
+function parseOutcomes(text: string): { label: string; player: string | null }[] {
+  return text
+    .split("\n")
+    .map((line) => line.trim())
+    .filter(Boolean)
+    .map((line) => {
+      const [label = "", player] = line.split("|").map((s) => s.trim());
+      return { label, player: player ?? (label || null) };
+    });
+}
 
 type Draft = {
   slug: string;
@@ -53,9 +70,10 @@ function toDraft(input: CreateMarketInput): Draft {
   };
 }
 
-export function CreateMarketForm({ presets }: Props): ReactElement {
+export function CreateMarketForm({ presets, ratings = {}, scale = 1 }: Props): ReactElement {
   const router = useRouter();
   const [draft, setDraft] = useState<Draft>(EMPTY);
+  const [bestOf, setBestOf] = useState("7");
   const [message, setMessage] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
   const set = (field: keyof Draft) => (e: { target: { value: string } }) =>
@@ -63,14 +81,7 @@ export function CreateMarketForm({ presets }: Props): ReactElement {
 
   function submit(event: FormEvent): void {
     event.preventDefault();
-    const outcomes = draft.outcomes
-      .split("\n")
-      .map((line) => line.trim())
-      .filter(Boolean)
-      .map((line) => {
-        const [label = "", player] = line.split("|").map((s) => s.trim());
-        return { label, player: player ?? (label || null) };
-      });
+    const outcomes = parseOutcomes(draft.outcomes);
     const prior = draft.prior.trim()
       ? draft.prior.split(",").map((p) => Number(p) / 100)
       : undefined;
@@ -97,6 +108,19 @@ export function CreateMarketForm({ presets }: Props): ReactElement {
       setDraft(EMPTY);
       router.push(`/markets/${result.data.slug}`);
     });
+  }
+
+  /** Fills the opening odds for a two player market from the players' current ELO. */
+  function suggest(): void {
+    const outcomes = parseOutcomes(draft.outcomes);
+    const [a, b] = outcomes.map((o) => ratings[(o.player ?? "").toLowerCase()]);
+    if (outcomes.length !== 2 || a === undefined || b === undefined) {
+      setMessage("ELO odds need exactly two outcomes, each an ASL player.");
+      return;
+    }
+    const pa = seriesWinProbability(eloWinProbability(a, b, scale), Number(bestOf));
+    setMessage(null);
+    setDraft({ ...draft, prior: [pa, 1 - pa].map((p) => (p * 100).toFixed(1)).join(", ") });
   }
 
   const field = "field";
@@ -163,6 +187,20 @@ export function CreateMarketForm({ presets }: Props): ReactElement {
         Opening odds in %, comma-separated (blank for even; each is floored at 2%)
         <input value={draft.prior} onChange={set("prior")} className={field} />
       </label>
+      <div className="flex flex-wrap items-end gap-3">
+        <label className="flex flex-col gap-1">
+          Series length
+          <select value={bestOf} onChange={(e) => setBestOf(e.target.value)} className={field}>
+            <option value="1">One game</option>
+            <option value="3">Best of 3</option>
+            <option value="5">Best of 5</option>
+            <option value="7">Best of 7</option>
+          </select>
+        </label>
+        <Button variant="secondary" onClick={suggest}>
+          Suggest odds from ELO
+        </Button>
+      </div>
       <label className="flex flex-col gap-1">
         Rules and description
         <textarea

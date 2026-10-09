@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ReactElement } from "react";
 
 import { getElo, getManifest } from "@/lib/services/stats";
-import { formatInteger, formatSeason } from "@/lib/utils/format";
+import { formatInteger, formatPercent, formatSeason } from "@/lib/utils/format";
 
 import { EloTable } from "./EloTable";
 import { EloTopChart } from "./EloTopChart";
@@ -59,6 +59,12 @@ export function EloRatings({ withQualifiers }: Props): ReactElement {
             );
           })}
         </nav>
+        <p className="text-caption text-ink-muted">
+          In games where the two ratings differed, the higher rated player won{" "}
+          {formatPercent(elo.favoriteGames > 0 ? elo.favoriteWins / elo.favoriteGames : null)} of
+          the time. Each player&apos;s page shows what every series did to their rating. There is
+          also a separate <Link href="/elo/matchups">ELO for each matchup</Link>.
+        </p>
         {withQualifiers ? (
           <p className="text-caption text-ink-muted">
             This version also counts {formatInteger(elo.qualifierGames)} qualifier games

@@ -9,6 +9,7 @@ import { SITE_DESCRIPTION, SITE_NAME } from "@/lib/config/site";
 import { QueryProvider } from "@/lib/queries/QueryProvider";
 
 import { AccountMenu } from "@/features/markets/components/AccountMenu";
+import { PlayerSearch } from "@/features/stats/components/PlayerSearch";
 
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: Props): ReactElement {
     <html lang="en" className={openSans.variable}>
       <body className="flex min-h-screen flex-col">
         <QueryProvider>
-          <SiteHeader account={auth ? <AccountMenu /> : null} />
+          <SiteHeader account={auth ? <AccountMenu /> : null} search={<PlayerSearch />} />
           <main className="mx-auto w-full max-w-5xl flex-1 px-4 pt-6 pb-6">{children}</main>
           <SiteFooter />
         </QueryProvider>

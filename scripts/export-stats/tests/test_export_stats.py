@@ -70,6 +70,70 @@ class EloTests(unittest.TestCase):
         self.assertEqual(ex.games_of({"winner": "A", "loser": "B", "score": None, "games": []}), [w])
 
 
+class DerivedTests(unittest.TestCase):
+    def test_trace_records_each_game_before_it_is_applied(self):
+        trace = []
+        rating, *_ = ex.compute_game_elo([[("A", "B"), ("B", "A")]], trace)
+        self.assertEqual(trace[0], (ex.ELO_START, ex.ELO_START, ex.ELO_K / 2))
+        # The second game starts from where the first left the two players.
+        self.assertEqual(trace[1][:2], (ex.ELO_START - 16, ex.ELO_START + 16))
+        self.assertAlmostEqual(rating["B"], trace[1][0] + trace[1][2])
+
+    def test_probability_scale_follows_how_often_the_favorite_really_won(self):
+        # A 200 point favorite who wins 3 games in 4, as the formula says: believe the gap as it is.
+        fair = [(1700.0, 1500.0, 0.0)] * 76 + [(1500.0, 1700.0, 0.0)] * 24
+        self.assertAlmostEqual(ex.fit_probability_scale(fair), 1.0, delta=0.03)
+        # The same favorite winning only 6 in 10: believe much less of it.
+        self.assertLess(ex.fit_probability_scale([(1700.0, 1500.0, 0.0)] * 6 + [(1500.0, 1700.0, 0.0)] * 4), 0.5)
+        # Coin flips: the gap says nothing. No games: leave the formula alone.
+        self.assertEqual(ex.fit_probability_scale([(1700.0, 1500.0, 0.0), (1500.0, 1700.0, 0.0)]), 0.0)
+        self.assertEqual(ex.fit_probability_scale([]), 1.0)
+
+    def test_matchup_elo_rates_each_opponent_race_on_its_own(self):
+        race = {"T1": "T", "Z1": "Z", "P1": "P", "X": None}
+        out = ex.compute_matchup_elo([("T1", "Z1"), ("T1", "Z1"), ("P1", "T1"), ("X", "T1")], race)
+        self.assertEqual(out["T1"]["Z"]["games"], 2)
+        self.assertEqual(out["T1"]["Z"]["wins"], 2)
+        self.assertGreater(out["T1"]["Z"]["elo"], ex.ELO_START)
+        # Losing to a Protoss does not touch the rating against Zerg, and the other way round.
+        self.assertEqual(out["T1"]["P"], {"elo": ex.ELO_START - 16, "games": 1, "wins": 0})
+        self.assertEqual(out["Z1"]["T"]["elo"], round(2 * ex.ELO_START - out["T1"]["Z"]["elo"], 1))
+        # No games against a race gives no rating; a game against an unknown race is left out.
+        self.assertEqual(out["T1"]["T"], {"elo": None, "games": 0, "wins": 0})
+        self.assertEqual(sum(v["games"] for v in out["X"].values()), 0)
+
+    def test_win_streaks_find_every_run_and_mark_one_still_going(self):
+        runs = ex.win_streaks({
+            "A": [(1, True), (1, True), (2, False), (3, True), (3, True), (4, True)],
+            "B": [(1, False), (2, True)],
+        })
+        self.assertEqual(runs, [
+            {"player": "A", "length": 3, "fromSeason": 3, "toSeason": 4, "active": True},
+            {"player": "A", "length": 2, "fromSeason": 1, "toSeason": 1, "active": False},
+            {"player": "B", "length": 1, "fromSeason": 2, "toSeason": 2, "active": True},
+        ])
+        self.assertEqual(len(ex.win_streaks({"A": [(1, True), (1, False)] * 30}, top=10)), 10)
+
+    def test_age_counts_whole_years_and_the_days_after_the_birthday(self):
+        self.assertEqual(ex.age_on("1992-07-05", "2017-01-22"), {"years": 24, "extraDays": 201, "days": 8967})
+        self.assertEqual(ex.age_on("1992-07-05", "2017-07-05")["extraDays"], 0)
+        self.assertEqual(ex.age_on("1992-07-05", "2017-07-04")["years"], 24)
+        self.assertEqual(ex.age_on("1992-02-29", "2017-03-01"), {"years": 25, "extraDays": 1, "days": 9132})
+
+    def test_map_stats_count_races_players_and_seasons(self):
+        race = {"A": "T", "B": "Z", "C": None}
+        series = [
+            {"season": 2, "winner": "A", "loser": "B",
+             "games": [{"map": "X", "winner": "A"}, {"map": "Y", "winner": "B"}, {"map": "X", "winner": "A"}]},
+            {"season": 5, "winner": "C", "loser": "A", "games": [{"map": "X", "winner": "C"}, {"map": None, "winner": "C"}]},
+        ]
+        x, y = ex.map_stats(series, race)
+        self.assertEqual((x["map"], x["games"], x["seasons"], x["unknownRace"]), ("X", 3, [2, 5], 1))
+        self.assertEqual(x["matchups"][0], {"race": "T", "vs": "Z", "wins": 2, "losses": 0, "winRate": 1.0})
+        self.assertEqual(x["players"][0], {"player": "A", "race": "T", "wins": 2, "losses": 1})
+        self.assertEqual((y["map"], y["matchups"][0]["losses"]), ("Y", 1))
+
+
 @unittest.skipUnless((SOURCE / "liquipedia" / "results.json").exists(), "Liquipedia results not present")
 class BuildTests(unittest.TestCase):
     @classmethod
@@ -78,8 +142,8 @@ class BuildTests(unittest.TestCase):
 
     def test_every_file_is_built(self):
         self.assertEqual(sorted(self.data), [
-            "elo.json", "manifest.json", "placements.json", "player-stats.json", "players.json",
-            "race-stats.json", "seasons.json", "series.json", "validation.json"])
+            "elo.json", "manifest.json", "maps.json", "placements.json", "player-stats.json", "players.json",
+            "race-stats.json", "records.json", "seasons.json", "series.json", "validation.json"])
         self.assertEqual(self.data["manifest.json"]["schemaVersion"], ex.SCHEMA_VERSION)
 
     def test_no_problems_in_committed_source(self):
@@ -150,6 +214,67 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(s21, 78_000_000)
         self.assertEqual(sum(r["prizeKrw"] for r in self.data["player-stats.json"]),
                          sum(r["prizeKrw"] or 0 for r in self.data["placements.json"]))
+
+    def test_series_carry_the_elo_they_moved(self):
+        last = {}
+        for m in self.data["series.json"]:
+            e = m["elo"]
+            # ELO is zero sum: what the winner gained, the loser lost.
+            self.assertAlmostEqual(e["winnerAfter"] - e["winnerBefore"], e["loserBefore"] - e["loserAfter"], places=0)
+            for who, side in ((m["winner"], "winner"), (m["loser"], "loser")):
+                if who in last:  # a series starts where the player's series before it ended
+                    self.assertAlmostEqual(e[side + "Before"], last[who], places=1, msg=f"{who} S{m['season']}")
+                last[who] = e[side + "After"]
+        for row in self.data["elo.json"]:
+            self.assertAlmostEqual(last[row["player"]], row["currentElo"], places=1, msg=row["player"])
+        # A series win can still cost points: at least it never costs more than it could gain.
+        self.assertTrue(any(m["elo"]["winnerAfter"] > m["elo"]["winnerBefore"] for m in self.data["series.json"]))
+        elo = self.data["manifest.json"]["elo"]
+        self.assertLessEqual(elo["favoriteGames"], elo["games"])
+        self.assertGreater(elo["favoriteWins"] / elo["favoriteGames"], 0.5)
+        # The ratings carry some signal, and less than the textbook formula assumes.
+        self.assertGreater(elo["probabilityScale"], 0.3)
+        self.assertLess(elo["probabilityScale"], 1.0)
+
+    def test_games_won_and_lost_and_matchup_ratings_add_up(self):
+        stats = {r["player"]: r for r in self.data["player-stats.json"]}
+        for row in self.data["elo.json"]:
+            s = stats[row["player"]]
+            self.assertEqual(s["gamesWon"] + s["gamesLost"], row["games"], row["player"])
+            vs = row["vsRace"]
+            self.assertLessEqual(sum(v["games"] for v in vs.values()), row["games"])
+            for v in vs.values():
+                self.assertEqual(v["elo"] is None, v["games"] == 0)
+        self.assertEqual(sum(r["gamesWon"] for r in stats.values()), sum(r["gamesLost"] for r in stats.values()))
+
+    def test_maps_cover_every_named_game(self):
+        maps = self.data["maps.json"]
+        named = sum(1 for m in self.data["series.json"] for g in m["games"] if g["map"])
+        self.assertEqual(sum(m["games"] for m in maps), named)
+        names = [m["map"] for m in maps]
+        self.assertEqual(len(names), len({n.lower() for n in names}))
+        self.assertNotIn("Matchpoint", names)
+        for m in maps:
+            counted = sum(x["wins"] + x["losses"] for x in m["matchups"]) + sum(m["mirrors"].values()) + m["unknownRace"]
+            self.assertEqual(counted, m["games"], m["map"])
+            self.assertEqual(sum(p["wins"] for p in m["players"]), m["games"], m["map"])
+
+    def test_records(self):
+        rec = self.data["records.json"]
+        complete = [s for s in self.data["seasons.json"] if s["status"] == "complete"]
+        self.assertEqual([r["season"] for r in rec["titleRuns"]], [s["season"] for s in complete])
+        self.assertEqual([r["player"] for r in rec["titleRuns"]], [s["winner"] for s in complete])
+        for key in ("gameStreaks", "seriesStreaks"):
+            lengths = [r["length"] for r in rec[key]]
+            self.assertEqual(lengths, sorted(lengths, reverse=True))
+            self.assertEqual(len(lengths), 10)
+        gaps = [u["loserElo"] - u["winnerElo"] for u in rec["upsets"]]
+        self.assertEqual(gaps, sorted(gaps, reverse=True))
+        self.assertTrue(all(g > 0 for g in gaps))
+        # Queen's birth date is on the page of his old name, ZerO.
+        ages = {(a["season"], a["player"]): a for a in rec["championAges"]}
+        self.assertEqual(ages[(9, "Queen")]["birth"], "1990-02-18")
+        self.assertEqual(ages[(2, "Flash")]["years"], 24)
 
     def test_race_stats_are_consistent(self):
         rs = self.data["race-stats.json"]

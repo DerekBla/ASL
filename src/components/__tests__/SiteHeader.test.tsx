@@ -25,6 +25,8 @@ describe("SiteHeader", () => {
       "ELO ratings",
       "Head to head",
       "Race stats",
+      "Maps",
+      "Records",
       "Markets",
       "Market leaderboard",
       "Pick'em",
@@ -32,5 +34,11 @@ describe("SiteHeader", () => {
     ]);
     expect(within(nav).queryByText("Stats")).not.toBeInTheDocument();
     expect(within(nav).queryByText("Play")).not.toBeInTheDocument();
+  });
+
+  it("puts the search box the layout supplies next to the account control", () => {
+    render(<SiteHeader search={<input aria-label="Find a player" />} account={<span>Me</span>} />);
+    const box = screen.getByRole("textbox", { name: "Find a player" });
+    expect(box.parentElement).toContainElement(screen.getByText("Me"));
   });
 });

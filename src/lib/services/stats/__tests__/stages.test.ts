@@ -21,6 +21,7 @@ function series(
     score,
     games: [],
     vod: null,
+    elo: { winnerBefore: 1500, winnerAfter: 1516, loserBefore: 1500, loserAfter: 1484 },
   };
 }
 

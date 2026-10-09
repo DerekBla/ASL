@@ -102,6 +102,14 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 ### Archive
 
+- [implemented 2026-10-09] ELO change per series on player pages — requested by Derek. Each series shows the opponent's ELO, the result and the rating before and after. Spec: `Docs/foundation-specs/stats-data.md`, Schema version 4
+- [implemented 2026-10-09] Win chances from ELO — on head to head, on unplayed bracket series and as suggested opening odds in the admin form. Scaled to real results (`probabilityScale`) after the plain formula proved overconfident. Spec: `CLAUDE.md`, Chances from ELO
+- [implemented 2026-10-09] Maps pages — `/maps` and a page per map: race against race and each player's record. Player pages list their maps
+- [implemented 2026-10-09] ELO by matchup — `/elo/matchups`, a separate rating against each race
+- [implemented 2026-10-09] Records page — `/records`: streaks, upsets, title runs, champions by age, career leaders
+- [implemented 2026-10-09] Home page panel for a season in progress — series to play, bracket, open markets
+- [implemented 2026-10-09] Player search in the header — `/search`
+- [implemented 2026-10-09] Scheduled stats refresh — `pnpm stats:refresh`, a Windows task every 3 hours. Spec: `Docs/tooling-specs/stats-refresh.md`
 - [implemented 2026-10-09] Season 22 and seasons in progress — requested by Derek. S22 is in the data with its final still to play: provisional placements for the finalists, the unplayed final drawn in the bracket, ELO counting the games so far. `pnpm stats:season <n>` refreshes one season. Spec: `Docs/foundation-specs/stats-data.md`, A season in progress
 - [implemented 2026-10-09] Game-based ELO with a qualifiers option — requested by Derek after feedback from friends. ELO is now one update per game (it replaced the placement rating), the table has a Games column, and `/elo/with-qualifiers` also counts the qualifier games Liquipedia has from S4 on (`compute_game_elo`, `fetch_qualifiers.py`, `EloRatings`). Spec: `Docs/foundation-specs/stats-data.md`
 - [implemented 2026-10-08] Top 10 ELO chart — requested by Derek. `/elo` opens with the ten highest rated players' ELO across every season: one color per player (ten validated chart colors), the picked player thickened and labeled, hover and arrow key readout, table view (`EloTopChart`)

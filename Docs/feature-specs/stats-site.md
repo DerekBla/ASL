@@ -14,6 +14,10 @@
 | `/players` | static | Career table for every player, sortable on every number |
 | `/players/[slug]` | static, one page per player | Career figures, ELO (current, peak, rank), season-by-season placements, series record overall and by opponent race, every opponent with a head-to-head link, other spellings |
 | `/elo`, `/elo/with-qualifiers` | static | Top 10 chart, then the ELO table: Rank, Player, Race, Current ELO, Peak ELO, Peak season, Games, Seasons, Championships. Explains that the rating comes from individual games. Two versions with a link switch: ASL games only, and with qualifier games counted (`EloRatings`). |
+| `/elo/matchups` | static | A separate ELO for each matchup: top 5 in each of the nine race pairings (from 10 games), then every player's three ratings (`MatchupRatings`) |
+| `/maps`, `/maps/[slug]` | static, one page per map | Every map with games and race against race records; a map's page adds every player's record there (`MapsTable`, `MapDetail`) |
+| `/records` | static | Career leaders, longest series and game streaks, biggest upsets by ELO gap, title runs, youngest and oldest champions (`RecordsPanels`) |
+| `/search?q=` | dynamic | Where the header search box lands: redirects to the player on one match (exact name or old spelling), else lists matches |
 | `/races` | static | Titles and field share by race, series matchup matrices (all stages, playoffs, finals), race counts per season |
 | `/head-to-head?a=&b=` | dynamic (reads search params) | Two-player lookup: series record, every series, seasons both entered with placements |
 
@@ -59,3 +63,18 @@ renders on the server in one pass from bundled data.
 `src/app/__tests__/stats-pages.test.tsx` renders every route (including the 404 and error
 states); `src/lib/services/stats/__tests__/lookups.test.ts` covers slugs and head-to-head;
 component tests cover `DataTable` sorting and the badges.
+
+## Added 2026-10-09
+
+- **Player page**: a table of every series with the opponent's ELO, the result, and the player's
+  ELO before, the change and after (newest first); a record by opponent race with the matchup
+  ELO; and the player's record on every map.
+- **Head to head**: "If they played now", each player's chance in one game and a best of 3, 5
+  and 7, from `getWinChance` and `seriesWinProbability`. The note under it says how weak a
+  predictor ELO is here. Chances are never shown without that note.
+- **Bracket**: a series still to play shows each player's chance in place of the score.
+- **Home page**: while a season is in progress, an "On now" panel (`LiveSeason`) with the series
+  still to play, the bracket so far, and open markets on that season (`SeasonMarkets`, loaded in
+  the browser from `/api/markets` so the page stays static). Nothing is shown between seasons.
+- **Header search** (`PlayerSearch`): a GET form to `/search`. Names for the suggestions load
+  from `/api/players` the first time the box is used.

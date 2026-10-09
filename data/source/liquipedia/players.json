@@ -3,642 +3,749 @@
     "page": "1127",
     "id": "1127",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "815": {
     "page": "815",
     "id": null,
     "race": null,
-    "isPlayerPage": false
+    "isPlayerPage": false,
+    "birth": null
   },
   "Action": {
     "page": "Action",
     "id": "Action",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-04-23"
   },
   "Ample": {
     "page": "Ample",
     "id": "Ample",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-07-16"
   },
   "BarrackS": {
     "page": "BarrackS",
     "id": "BarrackS",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-07-24"
   },
   "beast": {
     "page": "Beast",
     "id": "beast",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-12-06"
   },
   "BeSt": {
     "page": "Best",
     "id": "Best",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-10-06"
   },
   "Best": {
     "page": "Best",
     "id": "Best",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-10-06"
   },
   "BishOp": {
     "page": "BishOp",
     "id": "BishOp",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-03-16"
   },
   "Bisu": {
     "page": "Bisu",
     "id": "Bisu",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-11-03"
   },
   "BTS": {
     "page": "BTS",
     "id": "BTS",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-04-15"
   },
   "ByuL": {
     "page": "ByuL",
     "id": "ByuL",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-05-01"
   },
   "Calm": {
     "page": "Calm",
     "id": "Calm",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-06-13"
   },
   "DDasik": {
     "page": "DDasik",
     "id": "DDasik",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "EffOrt": {
     "page": "EffOrt",
     "id": "effOrt",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-01-30"
   },
   "Effort": {
     "page": "EffOrt",
     "id": "effOrt",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-01-30"
   },
   "effOrt": {
     "page": "EffOrt",
     "id": "effOrt",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-01-30"
   },
   "ErOs_ByuL": {
     "page": "ByuL",
     "id": "ByuL",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-05-01"
   },
   "firebathero": {
     "page": "Firebathero",
     "id": "firebathero",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-03-02"
   },
   "FlaSh": {
     "page": "Flash",
     "id": "Flash",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-07-05"
   },
   "Flash": {
     "page": "Flash",
     "id": "Flash",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-07-05"
   },
   "Force(Name)": {
     "page": "Force(Name)",
     "id": "force(Name)",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "Force(name)": {
     "page": "Force(Name)",
     "id": "force(Name)",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "ForGG": {
     "page": "FOrGG",
     "id": "fOrGG",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-02-13"
   },
   "free": {
     "page": "Free",
     "id": "free",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-07-14"
   },
   "ggaemo": {
     "page": "Ggaemo",
     "id": "ggaemo",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-09-08"
   },
   "GuemChi": {
     "page": "GuemChi",
     "id": "GuemChi",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-11-08"
   },
   "Guemchi": {
     "page": "GuemChi",
     "id": "GuemChi",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-11-08"
   },
   "hani": {
     "page": "Hani",
     "id": "hani",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "herO": {
     "page": "Hero",
     "id": "herO",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-06-20"
   },
   "hero": {
     "page": "Hero",
     "id": "herO",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-06-20"
   },
   "Hint": {
     "page": "Hint",
     "id": "Hint",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-01-06"
   },
   "HiyA": {
     "page": "HiyA",
     "id": "HiyA",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-07-21"
   },
   "Hm": {
     "page": "Hm",
     "id": "Hm",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-08-17"
   },
   "Horang2": {
     "page": "Horang2",
     "id": "Horang2",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-01-15"
   },
   "huro": {
     "page": "Huro",
     "id": "huro",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-12-14"
   },
   "Hyuk": {
     "page": "Hyuk",
     "id": "Hyuk",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1987-04-11"
   },
   "HyuN": {
     "page": "HyuN",
     "id": "HyuN",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-01-15"
   },
   "Hyun": {
     "page": "HyuN",
     "id": "HyuN",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-01-15"
   },
   "Iris": {
     "page": "Iris",
     "id": "Iris",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1987-02-05"
   },
   "ivOry 인치호": {
     "page": null,
     "id": null,
     "race": null,
-    "isPlayerPage": false
+    "isPlayerPage": false,
+    "birth": null
   },
   "Jaedong": {
     "page": "Jaedong",
     "id": "Jaedong",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-01-09"
   },
   "Jaehoon": {
     "page": "Jaehoon",
     "id": "Jaehoon",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-09-21"
   },
   "JD": {
     "page": "Jaedong",
     "id": "Jaedong",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-01-09"
   },
   "JyJ": {
     "page": "JyJ",
     "id": "JyJ",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-01-24"
   },
   "Khala": {
     "page": "Khala",
     "id": "Khala",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "Killer": {
     "page": "Killer",
     "id": "Killer",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-06-24"
   },
   "Larva": {
     "page": "Larva (Player)",
     "id": "Larva",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-07-19"
   },
   "Last": {
     "page": "Last",
     "id": "Last",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-12-25"
   },
   "Lazy": {
     "page": "Lazy",
     "id": "Lazy",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-05-11"
   },
   "Leta": {
     "page": "Leta",
     "id": "Leta",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-11-21"
   },
   "Light": {
     "page": "Light",
     "id": "Light",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-03-28"
   },
   "Mind": {
     "page": "Mind",
     "id": "Mind",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-10-03"
   },
   "Mini": {
     "page": "Mini",
     "id": "Mini",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-01-28"
   },
   "MIsO": {
     "page": "MIsO",
     "id": "MIsO",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-12-08"
   },
   "Modesty": {
     "page": "Modesty",
     "id": "Modesty",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-02-10"
   },
   "Mong": {
     "page": "Mong",
     "id": "Mong",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-05-17"
   },
   "Motive": {
     "page": "Motive",
     "id": "Motive",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-07-12"
   },
   "Movie": {
     "page": "Movie",
     "id": "Movie",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-08-30"
   },
   "NaDa": {
     "page": "NaDa",
     "id": "NaDa",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1984-11-20"
   },
   "Neo.G_Soulkey": {
     "page": "Soulkey",
     "id": "Soulkey",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-12-10"
   },
   "nOOB": {
     "page": "NOOB",
     "id": "nOOB",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-01-02"
   },
   "Organ": {
     "page": "PianO",
     "id": "PianO",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-01-29"
   },
   "Paralyze": {
     "page": "Paralyze",
     "id": "Paralyze",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-10-15"
   },
   "PianO": {
     "page": "PianO",
     "id": "PianO",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-01-29"
   },
   "PURPOSE": {
     "page": null,
     "id": null,
     "race": null,
-    "isPlayerPage": false
+    "isPlayerPage": false,
+    "birth": null
   },
   "Pusan": {
     "page": "Pusan",
     "id": "Pusan",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1985-01-14"
   },
   "Queen": {
     "page": "Queen",
     "id": null,
     "race": null,
-    "isPlayerPage": false
+    "isPlayerPage": false,
+    "birth": null
   },
   "Rain": {
     "page": "Rain",
     "id": "Rain",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-08-14"
   },
   "RoyaL": {
     "page": "RoyaL",
     "id": "RoyaL",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-08-10"
   },
   "Ruin": {
     "page": "Ruin",
     "id": "Ruin",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-08-21"
   },
   "Rush": {
     "page": "Rush",
     "id": "Rush",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-11-30"
   },
   "Saber": {
     "page": "Saber",
     "id": "Saber",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-11-08"
   },
   "Sacsri": {
     "page": "Sacsri",
     "id": "Sacsri",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-02-18"
   },
   "Scan": {
     "page": "Scan",
     "id": "Scan",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-10-14"
   },
   "Sea": {
     "page": "Sea",
     "id": "Sea",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-03-29"
   },
   "Sea.KH": {
     "page": "Brain",
     "id": "Brain",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-03-03"
   },
   "Sexy": {
     "page": "Speed",
     "id": "Speed",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-01-24"
   },
   "Sharp": {
     "page": "Sharp",
     "id": "Sharp",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-06-15"
   },
   "Shine": {
     "page": "Shine",
     "id": "Shine",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-08-24"
   },
   "Shinee": {
     "page": "Shinee",
     "id": "Shinee",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-04-16"
   },
   "Shuttle": {
     "page": "Shuttle (Player)",
     "id": "Shuttle",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-07-04"
   },
   "Skey": {
     "page": "Skey",
     "id": "Skey",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "Sky": {
     "page": "Sky",
     "id": "Sky",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-02-01"
   },
   "SnOw": {
     "page": "SnOw",
     "id": "SnOw",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-04-01"
   },
   "Snow": {
     "page": "SnOw",
     "id": "SnOw",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-04-01"
   },
   "Soma": {
     "page": "Soma",
     "id": "soma",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-08-22"
   },
   "soma": {
     "page": "Soma",
     "id": "soma",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-08-22"
   },
   "Sorry": {
     "page": "RoyaL",
     "id": "RoyaL",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-08-10"
   },
   "sOrry": {
     "page": "RoyaL",
     "id": "RoyaL",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1995-08-10"
   },
   "Soulkey": {
     "page": "Soulkey",
     "id": "Soulkey",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1991-12-10"
   },
   "Speed": {
     "page": "Speed",
     "id": "Speed",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-01-24"
   },
   "Ss1nz": {
     "page": "Ss1nz",
     "id": "ss1nz",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "sSak": {
     "page": "SSak",
     "id": "sSak",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-02-14"
   },
   "Stork": {
     "page": "Stork",
     "id": "Stork",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1988-08-04"
   },
   "TaeNgGu": {
     "page": "TaeNgGu",
     "id": "TaeNgGu",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-04-06"
   },
   "Terror": {
     "page": "Terror",
     "id": "Terror",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1989-10-19"
   },
   "Tinkle": {
     "page": "Tinkle",
     "id": "Tinkle",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-08-03"
   },
   "tulbo": {
     "page": "Huro",
     "id": "huro",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-12-14"
   },
   "TY": {
     "page": "TY",
     "id": "TY",
     "race": "T",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1994-09-18"
   },
   "Tyson": {
     "page": "Tyson",
     "id": "Tyson",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-12-10"
   },
   "Where": {
     "page": "MIsO",
     "id": "MIsO",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1992-12-08"
   },
   "Yerim2": {
     "page": "Yerim2",
     "id": "Yerim2",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "Yoon": {
     "page": "Yoon (Amateur)",
     "id": "Yoon",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": null
   },
   "YSC": {
     "page": "Huro",
     "id": "huro",
     "race": "P",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-12-14"
   },
   "ZeLoT": {
     "page": "ZeLoT",
     "id": "ZeLoT",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1993-03-19"
   },
   "ZerO": {
     "page": "ZerO",
     "id": "Queen",
     "race": "Z",
-    "isPlayerPage": true
+    "isPlayerPage": true,
+    "birth": "1990-02-18"
   }
 }

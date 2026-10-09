@@ -8,14 +8,19 @@ import { proseDashes, readableText } from "@/test/prose-dashes";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
 
+import EloMatchupsPage from "../elo/matchups/page";
 import EloPage from "../elo/page";
 import EloWithQualifiersPage from "../elo/with-qualifiers/page";
 import HeadToHeadPage from "../head-to-head/page";
+import MapPage from "../maps/[slug]/page";
+import MapsPage from "../maps/page";
 import MarketsPage from "../markets/page";
 import HomePage from "../page";
 import PlayerPage from "../players/[slug]/page";
 import PlayersPage from "../players/page";
 import RacesPage from "../races/page";
+import RecordsPage from "../records/page";
+import SearchPage from "../search/page";
 import SeasonPage from "../seasons/[season]/page";
 import SeasonsPage from "../seasons/page";
 
@@ -59,6 +64,12 @@ describe("site copy has no dashes in ordinary sentences", () => {
     ["/players/flash", () => PlayerPage({ params: Promise.resolve({ slug: "flash" }) })],
     ["/elo", () => EloPage()],
     ["/elo/with-qualifiers", () => EloWithQualifiersPage()],
+    ["/elo/matchups", () => EloMatchupsPage()],
+    ["/maps", () => MapsPage()],
+    ["/maps/neo-sylphid", () => MapPage({ params: Promise.resolve({ slug: "neo-sylphid" }) })],
+    ["/records", () => RecordsPage()],
+    ["/search", () => SearchPage({ searchParams: Promise.resolve({ q: "so" }) })],
+    ["/players/soulkey", () => PlayerPage({ params: Promise.resolve({ slug: "soulkey" }) })],
     ["/races", () => RacesPage()],
     [
       "/head-to-head",

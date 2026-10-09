@@ -9,7 +9,7 @@ import { z } from "zod";
 import { RACES } from "@/lib/types/race";
 
 /** The only manifest.schemaVersion this loader understands. */
-export const SUPPORTED_SCHEMA_VERSION = 3;
+export const SUPPORTED_SCHEMA_VERSION = 4;
 
 const raceSchema = z.enum(RACES);
 const nullableRace = raceSchema.nullable();
@@ -86,7 +86,20 @@ export const seriesSchema = z.strictObject({
   games: z.array(z.strictObject({ map: z.string().min(1).nullable(), winner: z.string().min(1) })),
   /** The English cast on YouTube, starting at this series when the source says where. */
   vod: z.url().nullable(),
+  /**
+   * Each player's ELO (ASL games only) before and after the series. The two changes mirror
+   * each other. A series winner can lose points: a narrow win over a much lower rated player.
+   */
+  elo: z.strictObject({
+    winnerBefore: z.number(),
+    winnerAfter: z.number(),
+    loserBefore: z.number(),
+    loserAfter: z.number(),
+  }),
 });
+
+/** A rating against one race: null until the player has a game against it. */
+const matchupRating = z.strictObject({ elo: z.number().nullable(), games: count, wins: count });
 
 const eloHistory = z.array(z.strictObject({ season: seasonNumber, elo: z.number() }));
 
@@ -103,6 +116,8 @@ export const eloRowSchema = z.strictObject({
   games: count,
   /** Rating after each season the player entered, oldest first. */
   history: eloHistory,
+  /** The same ELO counting only the games against each race, so each matchup is rated alone. */
+  vsRace: z.strictObject({ T: matchupRating, Z: matchupRating, P: matchupRating }),
   /** The same rating with each season's qualifier games counted too. Its own rank and peak. */
   withQualifiers: z.strictObject({
     rank: z.number().int().positive(),
@@ -126,6 +141,9 @@ export const playerStatsSchema = z.strictObject({
   quarterfinalsOrBetter: count,
   prizeKrw: count,
   currentElo: z.number(),
+  /** Games (maps) in ASL seasons. Where a page gives only a score, the games come from it. */
+  gamesWon: count,
+  gamesLost: count,
 });
 
 const matchupsSchema = z.strictObject({
@@ -181,6 +199,84 @@ export const raceStatsSchema = z.strictObject({
   }),
 });
 
+const crossRaceRecord = z.strictObject({
+  race: raceSchema,
+  vs: raceSchema,
+  wins: count,
+  losses: count,
+  winRate: share.nullable(),
+});
+
+/** One map: every game played on it that the season pages name. */
+export const mapSchema = z.strictObject({
+  map: z.string().min(1),
+  games: count,
+  seasons: z.array(seasonNumber).min(1),
+  /** Terran against Zerg, Zerg against Protoss, Protoss against Terran, from the first race's side. */
+  matchups: z.array(crossRaceRecord).length(3),
+  mirrors: z.strictObject({ TvT: count, ZvZ: count, PvP: count }),
+  unknownRace: count,
+  /** Most games first. */
+  players: z.array(
+    z.strictObject({ player: z.string().min(1), race: nullableRace, wins: count, losses: count }),
+  ),
+});
+
+const streakSchema = z.strictObject({
+  player: z.string().min(1),
+  race: nullableRace,
+  length: z.number().int().positive(),
+  fromSeason: seasonNumber,
+  toSeason: seasonNumber,
+  /** Still running: the player has not lost since. */
+  active: z.boolean(),
+});
+
+export const recordsSchema = z.strictObject({
+  /** Longest runs of games won, and of series won. Ten each. */
+  gameStreaks: z.array(streakSchema),
+  seriesStreaks: z.array(streakSchema),
+  /** Series won by the lower rated player, widest ELO gap first. */
+  upsets: z.array(
+    z.strictObject({
+      season: seasonNumber,
+      stage: z.enum(["ro24", "ro16", "playoffs"]),
+      round: z.string().min(1),
+      score: z.string().nullable(),
+      winner: z.string().min(1),
+      winnerRace: nullableRace,
+      winnerElo: z.number(),
+      loser: z.string().min(1),
+      loserRace: nullableRace,
+      loserElo: z.number(),
+    }),
+  ),
+  /** Each champion's games in the season they won, oldest season first. */
+  titleRuns: z.array(
+    z.strictObject({
+      season: seasonNumber,
+      player: z.string().min(1),
+      race: nullableRace,
+      gamesWon: count,
+      gamesLost: count,
+      winRate: share.nullable(),
+    }),
+  ),
+  /** Each champion's age on the day of the final, where Liquipedia has a birth date. */
+  championAges: z.array(
+    z.strictObject({
+      season: seasonNumber,
+      player: z.string().min(1),
+      race: nullableRace,
+      birth: z.iso.date(),
+      wonOn: z.iso.date(),
+      years: count,
+      extraDays: count,
+      days: count,
+    }),
+  ),
+});
+
 export const validationNoteSchema = z.strictObject({ code: z.string(), message: z.string() });
 
 export const manifestSchema = z.strictObject({
@@ -203,6 +299,14 @@ export const manifestSchema = z.strictObject({
     games: count,
     qualifierGames: count,
     qualifierSeasons: z.array(seasonNumber),
+    /** Games where the two ratings differed, and how many of them the higher rated player won. */
+    favoriteGames: count,
+    favoriteWins: count,
+    /**
+     * Factor on a rating gap when it is turned into a chance of winning, fitted to the games
+     * played: the plain ELO formula overstates the favorite. 1 would be the plain formula.
+     */
+    probabilityScale: z.number().min(0).max(2),
   }),
   warnings: count,
 });
@@ -215,6 +319,8 @@ export type Series = z.infer<typeof seriesSchema>;
 export type EloRow = z.infer<typeof eloRowSchema>;
 export type PlayerStats = z.infer<typeof playerStatsSchema>;
 export type RaceStats = z.infer<typeof raceStatsSchema>;
+export type MapStats = z.infer<typeof mapSchema>;
+export type Records = z.infer<typeof recordsSchema>;
 export type Matchups = z.infer<typeof matchupsSchema>;
 export type ValidationNote = z.infer<typeof validationNoteSchema>;
 export type Manifest = z.infer<typeof manifestSchema>;

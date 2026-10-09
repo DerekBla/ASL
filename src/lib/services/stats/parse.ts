@@ -3,10 +3,12 @@ import { z } from "zod";
 import {
   eloRowSchema,
   manifestSchema,
+  mapSchema,
   placementSchema,
   playerSchema,
   playerStatsSchema,
   raceStatsSchema,
+  recordsSchema,
   seasonSchema,
   seriesSchema,
   SUPPORTED_SCHEMA_VERSION,
@@ -15,10 +17,12 @@ import {
 import type {
   EloRow,
   Manifest,
+  MapStats,
   Placement,
   Player,
   PlayerStats,
   RaceStats,
+  Records,
   Season,
   Series,
   ValidationNote,
@@ -34,6 +38,8 @@ export type RawStats = {
   elo: unknown;
   playerStats: unknown;
   raceStats: unknown;
+  maps: unknown;
+  records: unknown;
   validation: unknown;
 };
 
@@ -46,6 +52,8 @@ export type StatsData = {
   elo: EloRow[];
   playerStats: PlayerStats[];
   raceStats: RaceStats;
+  maps: MapStats[];
+  records: Records;
   validation: ValidationNote[];
 };
 
@@ -91,6 +99,8 @@ export function parseStats(raw: RawStats): StatsData {
     elo: check("elo.json", z.array(eloRowSchema), raw.elo),
     playerStats: check("player-stats.json", z.array(playerStatsSchema), raw.playerStats),
     raceStats: check("race-stats.json", raceStatsSchema, raw.raceStats),
+    maps: check("maps.json", z.array(mapSchema), raw.maps),
+    records: check("records.json", recordsSchema, raw.records),
     validation: check("validation.json", z.array(validationNoteSchema), raw.validation),
   };
 }

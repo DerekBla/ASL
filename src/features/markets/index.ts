@@ -5,4 +5,5 @@ export { MarketLive, MarketSkeleton } from "./components/MarketLive";
 export { MarketsList } from "./components/MarketsList";
 export { MarketsOff } from "./components/MarketsOff";
 export { MatchContext } from "./components/MatchContext";
+export { SeasonMarkets } from "./components/SeasonMarkets";
 export type { MarketSummary, MarketView, MyMarketState } from "./types";

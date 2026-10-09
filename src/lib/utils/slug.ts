@@ -1,3 +1,8 @@
+/** URL slug for a map name, made the same way as a player's: "Neo Sylphid" -> "neo-sylphid". */
+export function mapSlug(name: string): string {
+  return playerSlug(name);
+}
+
 /**
  * URL slug for a player name: lowercase, runs of anything but a-z and 0-9 become one hyphen.
  * "force(Name)" -> "force-name", "SnOw" -> "snow". Names are unique ignoring case, and the

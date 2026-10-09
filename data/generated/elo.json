@@ -91,6 +91,23 @@
     "race": "Z",
     "rank": 1,
     "seasons": 20,
+    "vsRace": {
+      "P": {
+        "elo": 1667.4,
+        "games": 86,
+        "wins": 56
+      },
+      "T": {
+        "elo": 1710.3,
+        "games": 84,
+        "wins": 55
+      },
+      "Z": {
+        "elo": 1593.1,
+        "games": 64,
+        "wins": 33
+      }
+    },
     "withQualifiers": {
       "currentElo": 2123.6,
       "games": 364,
@@ -237,6 +254,23 @@
     "race": "T",
     "rank": 2,
     "seasons": 10,
+    "vsRace": {
+      "P": {
+        "elo": 1748.4,
+        "games": 37,
+        "wins": 30
+      },
+      "T": {
+        "elo": 1761.8,
+        "games": 37,
+        "wins": 31
+      },
+      "Z": {
+        "elo": 1553.4,
+        "games": 67,
+        "wins": 43
+      }
+    },
     "withQualifiers": {
       "currentElo": 2089.0,
       "games": 159,
@@ -347,6 +381,23 @@
     "race": "Z",
     "rank": 3,
     "seasons": 12,
+    "vsRace": {
+      "P": {
+        "elo": 1664.1,
+        "games": 57,
+        "wins": 37
+      },
+      "T": {
+        "elo": 1597.4,
+        "games": 49,
+        "wins": 26
+      },
+      "Z": {
+        "elo": 1550.2,
+        "games": 37,
+        "wins": 21
+      }
+    },
     "withQualifiers": {
       "currentElo": 2097.0,
       "games": 231,
@@ -473,6 +524,23 @@
     "race": "Z",
     "rank": 4,
     "seasons": 11,
+    "vsRace": {
+      "P": {
+        "elo": 1539.2,
+        "games": 44,
+        "wins": 24
+      },
+      "T": {
+        "elo": 1622.2,
+        "games": 32,
+        "wins": 21
+      },
+      "Z": {
+        "elo": 1566.9,
+        "games": 22,
+        "wins": 13
+      }
+    },
     "withQualifiers": {
       "currentElo": 1954.9,
       "games": 198,
@@ -623,6 +691,23 @@
     "race": "P",
     "rank": 5,
     "seasons": 20,
+    "vsRace": {
+      "P": {
+        "elo": 1701.5,
+        "games": 49,
+        "wins": 36
+      },
+      "T": {
+        "elo": 1661.0,
+        "games": 53,
+        "wins": 33
+      },
+      "Z": {
+        "elo": 1515.9,
+        "games": 89,
+        "wins": 35
+      }
+    },
     "withQualifiers": {
       "currentElo": 2000.0,
       "games": 307,
@@ -805,6 +890,23 @@
     "race": "T",
     "rank": 6,
     "seasons": 20,
+    "vsRace": {
+      "P": {
+        "elo": 1594.5,
+        "games": 46,
+        "wins": 26
+      },
+      "T": {
+        "elo": 1554.5,
+        "games": 65,
+        "wins": 34
+      },
+      "Z": {
+        "elo": 1537.4,
+        "games": 83,
+        "wins": 40
+      }
+    },
     "withQualifiers": {
       "currentElo": 2046.3,
       "games": 384,
@@ -971,6 +1073,23 @@
     "race": "Z",
     "rank": 7,
     "seasons": 16,
+    "vsRace": {
+      "P": {
+        "elo": 1510.8,
+        "games": 24,
+        "wins": 12
+      },
+      "T": {
+        "elo": 1589.1,
+        "games": 46,
+        "wins": 27
+      },
+      "Z": {
+        "elo": 1504.4,
+        "games": 36,
+        "wins": 16
+      }
+    },
     "withQualifiers": {
       "currentElo": 1971.9,
       "games": 229,
@@ -1141,6 +1260,23 @@
     "race": "T",
     "rank": 8,
     "seasons": 21,
+    "vsRace": {
+      "P": {
+        "elo": 1587.8,
+        "games": 67,
+        "wins": 39
+      },
+      "T": {
+        "elo": 1528.2,
+        "games": 52,
+        "wins": 28
+      },
+      "Z": {
+        "elo": 1620.6,
+        "games": 83,
+        "wins": 43
+      }
+    },
     "withQualifiers": {
       "currentElo": 1990.9,
       "games": 321,
@@ -1279,6 +1415,23 @@
     "race": "T",
     "rank": 9,
     "seasons": 8,
+    "vsRace": {
+      "P": {
+        "elo": 1516.3,
+        "games": 27,
+        "wins": 14
+      },
+      "T": {
+        "elo": 1592.4,
+        "games": 22,
+        "wins": 15
+      },
+      "Z": {
+        "elo": 1551.3,
+        "games": 17,
+        "wins": 11
+      }
+    },
     "withQualifiers": {
       "currentElo": 1807.5,
       "games": 105,
@@ -1389,6 +1542,23 @@
     "race": "P",
     "rank": 10,
     "seasons": 13,
+    "vsRace": {
+      "P": {
+        "elo": 1654.3,
+        "games": 26,
+        "wins": 19
+      },
+      "T": {
+        "elo": 1575.8,
+        "games": 45,
+        "wins": 23
+      },
+      "Z": {
+        "elo": 1568.0,
+        "games": 57,
+        "wins": 31
+      }
+    },
     "withQualifiers": {
       "currentElo": 1973.3,
       "games": 195,
@@ -1551,6 +1721,23 @@
     "race": "P",
     "rank": 11,
     "seasons": 22,
+    "vsRace": {
+      "P": {
+        "elo": 1465.5,
+        "games": 26,
+        "wins": 11
+      },
+      "T": {
+        "elo": 1574.9,
+        "games": 76,
+        "wins": 42
+      },
+      "Z": {
+        "elo": 1547.8,
+        "games": 84,
+        "wins": 44
+      }
+    },
     "withQualifiers": {
       "currentElo": 1968.1,
       "games": 345,
@@ -1737,6 +1924,23 @@
     "race": "P",
     "rank": 12,
     "seasons": 19,
+    "vsRace": {
+      "P": {
+        "elo": 1472.8,
+        "games": 20,
+        "wins": 7
+      },
+      "T": {
+        "elo": 1558.9,
+        "games": 68,
+        "wins": 38
+      },
+      "Z": {
+        "elo": 1622.7,
+        "games": 91,
+        "wins": 54
+      }
+    },
     "withQualifiers": {
       "currentElo": 1978.8,
       "games": 290,
@@ -1911,6 +2115,23 @@
     "race": "Z",
     "rank": 13,
     "seasons": 18,
+    "vsRace": {
+      "P": {
+        "elo": 1658.3,
+        "games": 57,
+        "wins": 37
+      },
+      "T": {
+        "elo": 1511.0,
+        "games": 95,
+        "wins": 48
+      },
+      "Z": {
+        "elo": 1479.6,
+        "games": 64,
+        "wins": 32
+      }
+    },
     "withQualifiers": {
       "currentElo": 1935.0,
       "games": 315,
@@ -2025,6 +2246,23 @@
     "race": "T",
     "rank": 14,
     "seasons": 5,
+    "vsRace": {
+      "P": {
+        "elo": 1538.8,
+        "games": 8,
+        "wins": 5
+      },
+      "T": {
+        "elo": 1533.9,
+        "games": 7,
+        "wins": 5
+      },
+      "Z": {
+        "elo": 1481.5,
+        "games": 17,
+        "wins": 6
+      }
+    },
     "withQualifiers": {
       "currentElo": 1932.6,
       "games": 224,
@@ -2187,6 +2425,23 @@
     "race": "P",
     "rank": 15,
     "seasons": 16,
+    "vsRace": {
+      "P": {
+        "elo": 1504.1,
+        "games": 20,
+        "wins": 10
+      },
+      "T": {
+        "elo": 1563.7,
+        "games": 60,
+        "wins": 34
+      },
+      "Z": {
+        "elo": 1562.7,
+        "games": 81,
+        "wins": 43
+      }
+    },
     "withQualifiers": {
       "currentElo": 1974.3,
       "games": 259,
@@ -2329,6 +2584,23 @@
     "race": "Z",
     "rank": 16,
     "seasons": 14,
+    "vsRace": {
+      "P": {
+        "elo": 1555.4,
+        "games": 55,
+        "wins": 30
+      },
+      "T": {
+        "elo": 1509.4,
+        "games": 46,
+        "wins": 26
+      },
+      "Z": {
+        "elo": 1523.8,
+        "games": 45,
+        "wins": 25
+      }
+    },
     "withQualifiers": {
       "currentElo": 1935.9,
       "games": 260,
@@ -2463,6 +2735,23 @@
     "race": "T",
     "rank": 17,
     "seasons": 12,
+    "vsRace": {
+      "P": {
+        "elo": 1516.5,
+        "games": 31,
+        "wins": 14
+      },
+      "T": {
+        "elo": 1472.5,
+        "games": 28,
+        "wins": 12
+      },
+      "Z": {
+        "elo": 1507.9,
+        "games": 22,
+        "wins": 10
+      }
+    },
     "withQualifiers": {
       "currentElo": 1861.9,
       "games": 219,
@@ -2593,6 +2882,23 @@
     "race": "Z",
     "rank": 18,
     "seasons": 13,
+    "vsRace": {
+      "P": {
+        "elo": 1524.6,
+        "games": 53,
+        "wins": 27
+      },
+      "T": {
+        "elo": 1554.5,
+        "games": 26,
+        "wins": 14
+      },
+      "Z": {
+        "elo": 1479.2,
+        "games": 37,
+        "wins": 18
+      }
+    },
     "withQualifiers": {
       "currentElo": 1862.7,
       "games": 191,
@@ -2675,6 +2981,23 @@
     "race": "Z",
     "rank": 19,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1496.8,
+        "games": 9,
+        "wins": 4
+      },
+      "T": {
+        "elo": 1500.0,
+        "games": 2,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1518.0,
+        "games": 1,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1785.2,
       "games": 59,
@@ -2765,6 +3088,23 @@
     "race": "Z",
     "rank": 20,
     "seasons": 13,
+    "vsRace": {
+      "P": {
+        "elo": 1551.4,
+        "games": 19,
+        "wins": 12
+      },
+      "T": {
+        "elo": 1460.7,
+        "games": 37,
+        "wins": 15
+      },
+      "Z": {
+        "elo": 1480.1,
+        "games": 21,
+        "wins": 10
+      }
+    },
     "withQualifiers": {
       "currentElo": 1929.4,
       "games": 258,
@@ -2927,6 +3267,23 @@
     "race": "Z",
     "rank": 21,
     "seasons": 16,
+    "vsRace": {
+      "P": {
+        "elo": 1514.9,
+        "games": 49,
+        "wins": 21
+      },
+      "T": {
+        "elo": 1513.6,
+        "games": 45,
+        "wins": 25
+      },
+      "Z": {
+        "elo": 1477.1,
+        "games": 21,
+        "wins": 11
+      }
+    },
     "withQualifiers": {
       "currentElo": 1790.2,
       "games": 307,
@@ -3085,6 +3442,23 @@
     "race": "T",
     "rank": 22,
     "seasons": 15,
+    "vsRace": {
+      "P": {
+        "elo": 1446.6,
+        "games": 24,
+        "wins": 9
+      },
+      "T": {
+        "elo": 1502.4,
+        "games": 38,
+        "wins": 20
+      },
+      "Z": {
+        "elo": 1545.0,
+        "games": 44,
+        "wins": 24
+      }
+    },
     "withQualifiers": {
       "currentElo": 1818.9,
       "games": 259,
@@ -3175,6 +3549,23 @@
     "race": "Z",
     "rank": 23,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1499.9,
+        "games": 5,
+        "wins": 2
+      },
+      "T": {
+        "elo": 1516.7,
+        "games": 1,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1489.7,
+        "games": 3,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1568.1,
       "games": 172,
@@ -3317,6 +3708,23 @@
     "race": "T",
     "rank": 24,
     "seasons": 13,
+    "vsRace": {
+      "P": {
+        "elo": 1515.7,
+        "games": 25,
+        "wins": 13
+      },
+      "T": {
+        "elo": 1368.5,
+        "games": 32,
+        "wins": 10
+      },
+      "Z": {
+        "elo": 1632.6,
+        "games": 32,
+        "wins": 20
+      }
+    },
     "withQualifiers": {
       "currentElo": 1813.4,
       "games": 227,
@@ -3407,6 +3815,23 @@
     "race": "P",
     "rank": 25,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1531.5,
+        "games": 2,
+        "wins": 2
+      },
+      "Z": {
+        "elo": 1468.4,
+        "games": 6,
+        "wins": 2
+      }
+    },
     "withQualifiers": {
       "currentElo": 1633.2,
       "games": 23,
@@ -3517,6 +3942,23 @@
     "race": "T",
     "rank": 26,
     "seasons": 20,
+    "vsRace": {
+      "P": {
+        "elo": 1493.4,
+        "games": 49,
+        "wins": 22
+      },
+      "T": {
+        "elo": 1540.4,
+        "games": 49,
+        "wins": 27
+      },
+      "Z": {
+        "elo": 1461.3,
+        "games": 43,
+        "wins": 18
+      }
+    },
     "withQualifiers": {
       "currentElo": 1905.9,
       "games": 292,
@@ -3675,6 +4117,23 @@
     "race": "T",
     "rank": 27,
     "seasons": 13,
+    "vsRace": {
+      "P": {
+        "elo": 1445.1,
+        "games": 23,
+        "wins": 8
+      },
+      "T": {
+        "elo": 1441.4,
+        "games": 29,
+        "wins": 11
+      },
+      "Z": {
+        "elo": 1544.7,
+        "games": 35,
+        "wins": 22
+      }
+    },
     "withQualifiers": {
       "currentElo": 1810.0,
       "games": 226,
@@ -3769,6 +4228,23 @@
     "race": "Z",
     "rank": 28,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1465.1,
+        "games": 2,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1517.5,
+        "games": 1,
+        "wins": 1
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1638.9,
       "games": 96,
@@ -3899,6 +4375,23 @@
     "race": "P",
     "rank": 29,
     "seasons": 15,
+    "vsRace": {
+      "P": {
+        "elo": 1479.1,
+        "games": 20,
+        "wins": 9
+      },
+      "T": {
+        "elo": 1470.6,
+        "games": 49,
+        "wins": 23
+      },
+      "Z": {
+        "elo": 1507.1,
+        "games": 32,
+        "wins": 17
+      }
+    },
     "withQualifiers": {
       "currentElo": 1860.7,
       "games": 301,
@@ -4001,6 +4494,23 @@
     "race": "T",
     "rank": 30,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1490.6,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1518.7,
+        "games": 1,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1481.9,
+        "games": 4,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1745.0,
       "games": 52,
@@ -4051,6 +4561,23 @@
     "race": "T",
     "rank": 31,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1483.9,
+        "games": 3,
+        "wins": 1
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1644.1,
       "games": 66,
@@ -4097,6 +4624,23 @@
     "race": "Z",
     "rank": 32,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1486.6,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1484.8,
+        "games": 3,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1514.6,
+        "games": 1,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1545.6,
       "games": 59,
@@ -4179,6 +4723,23 @@
     "race": "T",
     "rank": 33,
     "seasons": 8,
+    "vsRace": {
+      "P": {
+        "elo": 1455.8,
+        "games": 13,
+        "wins": 4
+      },
+      "T": {
+        "elo": 1458.7,
+        "games": 8,
+        "wins": 2
+      },
+      "Z": {
+        "elo": 1507.0,
+        "games": 11,
+        "wins": 5
+      }
+    },
     "withQualifiers": {
       "currentElo": 1824.3,
       "games": 282,
@@ -4285,6 +4846,23 @@
     "race": "T",
     "rank": 34,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1516.0,
+        "games": 1,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1483.9,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1484.2,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1594.5,
       "games": 72,
@@ -4395,6 +4973,23 @@
     "race": "T",
     "rank": 35,
     "seasons": 15,
+    "vsRace": {
+      "P": {
+        "elo": 1418.4,
+        "games": 24,
+        "wins": 8
+      },
+      "T": {
+        "elo": 1547.6,
+        "games": 21,
+        "wins": 12
+      },
+      "Z": {
+        "elo": 1444.8,
+        "games": 21,
+        "wins": 7
+      }
+    },
     "withQualifiers": {
       "currentElo": 1883.0,
       "games": 240,
@@ -4493,6 +5088,23 @@
     "race": "T",
     "rank": 36,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1470.4,
+        "games": 2,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1490.7,
+        "games": 3,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1517.5,
+        "games": 1,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1640.6,
       "games": 27,
@@ -4555,6 +5167,23 @@
     "race": "T",
     "rank": 37,
     "seasons": 7,
+    "vsRace": {
+      "P": {
+        "elo": 1454.5,
+        "games": 13,
+        "wins": 4
+      },
+      "T": {
+        "elo": 1544.3,
+        "games": 11,
+        "wins": 7
+      },
+      "Z": {
+        "elo": 1410.9,
+        "games": 7,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1895.1,
       "games": 154,
@@ -4629,6 +5258,23 @@
     "race": "T",
     "rank": 38,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1484.1,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1514.8,
+        "games": 1,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1483.6,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1556.3,
       "games": 51,
@@ -4675,6 +5321,23 @@
     "race": "T",
     "rank": 39,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1486.2,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1485.1,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1689.3,
       "games": 58,
@@ -4725,6 +5388,23 @@
     "race": "Z",
     "rank": 40,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1486.4,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1483.5,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1571.8,
       "games": 32,
@@ -4795,6 +5475,23 @@
     "race": "T",
     "rank": 41,
     "seasons": 8,
+    "vsRace": {
+      "P": {
+        "elo": 1508.9,
+        "games": 17,
+        "wins": 10
+      },
+      "T": {
+        "elo": 1405.6,
+        "games": 18,
+        "wins": 5
+      },
+      "Z": {
+        "elo": 1521.7,
+        "games": 15,
+        "wins": 8
+      }
+    },
     "withQualifiers": {
       "currentElo": 1794.1,
       "games": 144,
@@ -4873,6 +5570,23 @@
     "race": "P",
     "rank": 42,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1469.4,
+        "games": 2,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1653.0,
       "games": 150,
@@ -4955,6 +5669,23 @@
     "race": "Z",
     "rank": 43,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1486.2,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1484.5,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1765.9,
       "games": 122,
@@ -5021,6 +5752,23 @@
     "race": "T",
     "rank": 44,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1481.7,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1486.1,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1624.0,
       "games": 13,
@@ -5051,6 +5799,23 @@
     "race": "Z",
     "rank": 45,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1484.7,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1484.0,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1540.9,
       "games": 42,
@@ -5117,6 +5882,23 @@
     "race": "P",
     "rank": 46,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": 1422.3,
+        "games": 8,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1559.9,
+        "games": 8,
+        "wins": 6
+      },
+      "Z": {
+        "elo": 1501.1,
+        "games": 2,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1644.4,
       "games": 84,
@@ -5171,6 +5953,23 @@
     "race": "T",
     "rank": 47,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1486.1,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1484.5,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1579.0,
       "games": 15,
@@ -5205,6 +6004,23 @@
     "race": "Z",
     "rank": 48,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1490.0,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1479.7,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1629.9,
       "games": 65,
@@ -5259,6 +6075,23 @@
     "race": "T",
     "rank": 49,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1487.0,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1483.3,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1614.2,
       "games": 62,
@@ -5309,6 +6142,23 @@
     "race": "T",
     "rank": 50,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1470.4,
+        "games": 2,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1757.0,
       "games": 78,
@@ -5363,6 +6213,23 @@
     "race": "Z",
     "rank": 51,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1484.0,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1483.2,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1505.4,
       "games": 34,
@@ -5421,6 +6288,23 @@
     "race": "Z",
     "rank": 52,
     "seasons": 5,
+    "vsRace": {
+      "P": {
+        "elo": 1503.6,
+        "games": 2,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1458.9,
+        "games": 9,
+        "wins": 3
+      },
+      "Z": {
+        "elo": 1487.5,
+        "games": 7,
+        "wins": 3
+      }
+    },
     "withQualifiers": {
       "currentElo": 1774.9,
       "games": 126,
@@ -5499,6 +6383,23 @@
     "race": "P",
     "rank": 53,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1468.7,
+        "games": 2,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1536.9,
       "games": 29,
@@ -5545,6 +6446,23 @@
     "race": "Z",
     "rank": 54,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1483.3,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1484.7,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1540.1,
       "games": 42,
@@ -5595,6 +6513,23 @@
     "race": "P",
     "rank": 55,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1484.0,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1483.2,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1537.8,
       "games": 13,
@@ -5633,6 +6568,23 @@
     "race": "Z",
     "rank": 56,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1465.7,
+        "games": 2,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1578.1,
       "games": 73,
@@ -5699,6 +6651,23 @@
     "race": "T",
     "rank": 57,
     "seasons": 1,
+    "vsRace": {
+      "P": {
+        "elo": 1481.3,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1481.9,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1594.1,
       "games": 80,
@@ -5773,6 +6742,23 @@
     "race": "T",
     "rank": 58,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1475.6,
+        "games": 4,
+        "wins": 1
+      },
+      "T": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1485.7,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1716.0,
       "games": 180,
@@ -5867,6 +6853,23 @@
     "race": "P",
     "rank": 59,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1499.3,
+        "games": 2,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1483.0,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1471.4,
+        "games": 2,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1662.2,
       "games": 33,
@@ -5905,6 +6908,23 @@
     "race": "Z",
     "rank": 60,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1466.2,
+        "games": 2,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1468.2,
+        "games": 2,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1517.3,
+        "games": 1,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1638.6,
       "games": 185,
@@ -6003,6 +7023,23 @@
     "race": "P",
     "rank": 61,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1486.2,
+        "games": 3,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1486.6,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1484.8,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1609.6,
       "games": 106,
@@ -6145,6 +7182,23 @@
     "race": "P",
     "rank": 62,
     "seasons": 15,
+    "vsRace": {
+      "P": {
+        "elo": 1497.9,
+        "games": 20,
+        "wins": 9
+      },
+      "T": {
+        "elo": 1446.4,
+        "games": 25,
+        "wins": 11
+      },
+      "Z": {
+        "elo": 1469.7,
+        "games": 20,
+        "wins": 8
+      }
+    },
     "withQualifiers": {
       "currentElo": 1734.5,
       "games": 249,
@@ -6267,6 +7321,23 @@
     "race": "P",
     "rank": 63,
     "seasons": 5,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1462.0,
+        "games": 12,
+        "wins": 5
+      },
+      "Z": {
+        "elo": 1450.7,
+        "games": 10,
+        "wins": 2
+      }
+    },
     "withQualifiers": {
       "currentElo": 1856.4,
       "games": 228,
@@ -6369,6 +7440,23 @@
     "race": "P",
     "rank": 64,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1497.6,
+        "games": 4,
+        "wins": 2
+      },
+      "Z": {
+        "elo": 1453.6,
+        "games": 4,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1675.2,
       "games": 31,
@@ -6443,6 +7531,23 @@
     "race": "Z",
     "rank": 65,
     "seasons": 8,
+    "vsRace": {
+      "P": {
+        "elo": 1404.2,
+        "games": 15,
+        "wins": 3
+      },
+      "T": {
+        "elo": 1480.6,
+        "games": 14,
+        "wins": 6
+      },
+      "Z": {
+        "elo": 1528.5,
+        "games": 2,
+        "wins": 2
+      }
+    },
     "withQualifiers": {
       "currentElo": 1725.4,
       "games": 229,
@@ -6545,6 +7650,23 @@
     "race": "P",
     "rank": 66,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1481.6,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1456.1,
+        "games": 3,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1790.1,
       "games": 102,
@@ -6615,6 +7737,23 @@
     "race": "T",
     "rank": 67,
     "seasons": 4,
+    "vsRace": {
+      "P": {
+        "elo": 1481.0,
+        "games": 4,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1431.7,
+        "games": 7,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1504.7,
+        "games": 2,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1727.6,
       "games": 178,
@@ -6709,6 +7848,23 @@
     "race": "P",
     "rank": 68,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": 1451.5,
+        "games": 3,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1546.9,
+        "games": 3,
+        "wins": 3
+      },
+      "Z": {
+        "elo": 1429.5,
+        "games": 5,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1689.5,
       "games": 115,
@@ -6787,6 +7943,23 @@
     "race": "P",
     "rank": 69,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1483.3,
+        "games": 1,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1483.9,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1466.9,
+        "games": 2,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1517.2,
       "games": 30,
@@ -6845,6 +8018,23 @@
     "race": "Z",
     "rank": 70,
     "seasons": 6,
+    "vsRace": {
+      "P": {
+        "elo": 1506.5,
+        "games": 7,
+        "wins": 4
+      },
+      "T": {
+        "elo": 1429.1,
+        "games": 7,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1445.7,
+        "games": 8,
+        "wins": 2
+      }
+    },
     "withQualifiers": {
       "currentElo": 1814.9,
       "games": 207,
@@ -6947,6 +8137,23 @@
     "race": "T",
     "rank": 71,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1454.2,
+        "games": 3,
+        "wins": 0
+      },
+      "T": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1482.9,
+        "games": 1,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1614.4,
       "games": 96,
@@ -7041,6 +8248,23 @@
     "race": "P",
     "rank": 72,
     "seasons": 8,
+    "vsRace": {
+      "P": {
+        "elo": 1501.1,
+        "games": 9,
+        "wins": 4
+      },
+      "T": {
+        "elo": 1432.9,
+        "games": 11,
+        "wins": 3
+      },
+      "Z": {
+        "elo": 1468.2,
+        "games": 11,
+        "wins": 4
+      }
+    },
     "withQualifiers": {
       "currentElo": 1715.0,
       "games": 154,
@@ -7131,6 +8355,23 @@
     "race": "T",
     "rank": 73,
     "seasons": 2,
+    "vsRace": {
+      "P": {
+        "elo": 1455.0,
+        "games": 3,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1481.2,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1650.3,
       "games": 36,
@@ -7177,6 +8418,23 @@
     "race": "Z",
     "rank": 74,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": 1498.8,
+        "games": 2,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1411.0,
+        "games": 6,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1514.7,
+        "games": 1,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1623.3,
       "games": 174,
@@ -7279,6 +8537,23 @@
     "race": "P",
     "rank": 75,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": 1469.6,
+        "games": 2,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1488.9,
+        "games": 3,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1464.2,
+        "games": 2,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1678.2,
       "games": 141,
@@ -7357,6 +8632,23 @@
     "race": "P",
     "rank": 76,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": null,
+        "games": 0,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1471.9,
+        "games": 4,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1459.8,
+        "games": 3,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1696.6,
       "games": 133,
@@ -7467,6 +8759,23 @@
     "race": "Z",
     "rank": 77,
     "seasons": 7,
+    "vsRace": {
+      "P": {
+        "elo": 1487.2,
+        "games": 12,
+        "wins": 5
+      },
+      "T": {
+        "elo": 1447.7,
+        "games": 8,
+        "wins": 2
+      },
+      "Z": {
+        "elo": 1454.8,
+        "games": 5,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1661.2,
       "games": 199,
@@ -7581,6 +8890,23 @@
     "race": "Z",
     "rank": 78,
     "seasons": 5,
+    "vsRace": {
+      "P": {
+        "elo": 1432.1,
+        "games": 5,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1485.4,
+        "games": 9,
+        "wins": 4
+      },
+      "Z": {
+        "elo": 1485.0,
+        "games": 3,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1750.3,
       "games": 207,
@@ -7703,6 +9029,23 @@
     "race": "Z",
     "rank": 79,
     "seasons": 9,
+    "vsRace": {
+      "P": {
+        "elo": 1483.4,
+        "games": 13,
+        "wins": 5
+      },
+      "T": {
+        "elo": 1406.9,
+        "games": 10,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1494.8,
+        "games": 10,
+        "wins": 5
+      }
+    },
     "withQualifiers": {
       "currentElo": 1756.8,
       "games": 284,
@@ -7829,6 +9172,23 @@
     "race": "P",
     "rank": 80,
     "seasons": 7,
+    "vsRace": {
+      "P": {
+        "elo": 1464.4,
+        "games": 8,
+        "wins": 2
+      },
+      "T": {
+        "elo": 1540.2,
+        "games": 9,
+        "wins": 6
+      },
+      "Z": {
+        "elo": 1374.4,
+        "games": 11,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1763.8,
       "games": 228,
@@ -7939,6 +9299,23 @@
     "race": "T",
     "rank": 81,
     "seasons": 3,
+    "vsRace": {
+      "P": {
+        "elo": 1455.5,
+        "games": 3,
+        "wins": 0
+      },
+      "T": {
+        "elo": 1483.8,
+        "games": 1,
+        "wins": 0
+      },
+      "Z": {
+        "elo": 1470.2,
+        "games": 2,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1665.9,
       "games": 114,
@@ -8033,6 +9410,23 @@
     "race": "P",
     "rank": 82,
     "seasons": 7,
+    "vsRace": {
+      "P": {
+        "elo": 1498.3,
+        "games": 10,
+        "wins": 5
+      },
+      "T": {
+        "elo": 1470.5,
+        "games": 14,
+        "wins": 6
+      },
+      "Z": {
+        "elo": 1425.1,
+        "games": 7,
+        "wins": 1
+      }
+    },
     "withQualifiers": {
       "currentElo": 1650.7,
       "games": 116,
@@ -8119,6 +9513,23 @@
     "race": "P",
     "rank": 83,
     "seasons": 6,
+    "vsRace": {
+      "P": {
+        "elo": 1483.4,
+        "games": 5,
+        "wins": 2
+      },
+      "T": {
+        "elo": 1432.6,
+        "games": 7,
+        "wins": 1
+      },
+      "Z": {
+        "elo": 1489.8,
+        "games": 9,
+        "wins": 4
+      }
+    },
     "withQualifiers": {
       "currentElo": 1571.7,
       "games": 150,
@@ -8233,6 +9644,23 @@
     "race": "T",
     "rank": 84,
     "seasons": 7,
+    "vsRace": {
+      "P": {
+        "elo": 1388.2,
+        "games": 11,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1501.6,
+        "games": 9,
+        "wins": 4
+      },
+      "Z": {
+        "elo": 1492.5,
+        "games": 7,
+        "wins": 3
+      }
+    },
     "withQualifiers": {
       "currentElo": 1756.8,
       "games": 272,
@@ -8367,6 +9795,23 @@
     "race": "Z",
     "rank": 85,
     "seasons": 8,
+    "vsRace": {
+      "P": {
+        "elo": 1453.5,
+        "games": 5,
+        "wins": 1
+      },
+      "T": {
+        "elo": 1460.1,
+        "games": 11,
+        "wins": 4
+      },
+      "Z": {
+        "elo": 1427.4,
+        "games": 5,
+        "wins": 0
+      }
+    },
     "withQualifiers": {
       "currentElo": 1724.9,
       "games": 143,
@@ -8513,6 +9958,23 @@
     "race": "T",
     "rank": 86,
     "seasons": 19,
+    "vsRace": {
+      "P": {
+        "elo": 1549.3,
+        "games": 22,
+        "wins": 14
+      },
+      "T": {
+        "elo": 1404.4,
+        "games": 21,
+        "wins": 6
+      },
+      "Z": {
+        "elo": 1319.1,
+        "games": 29,
+        "wins": 5
+      }
+    },
     "withQualifiers": {
       "currentElo": 1791.9,
       "games": 279,

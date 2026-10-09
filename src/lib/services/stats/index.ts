@@ -6,14 +6,17 @@
  */
 import "server-only";
 
-import { playerSlug } from "@/lib/utils/slug";
+import { eloWinProbability } from "@/lib/market/priors";
+import { mapSlug, playerSlug } from "@/lib/utils/slug";
 
 import elo from "../../../../data/generated/elo.json";
 import manifest from "../../../../data/generated/manifest.json";
+import maps from "../../../../data/generated/maps.json";
 import placements from "../../../../data/generated/placements.json";
 import playerStats from "../../../../data/generated/player-stats.json";
 import players from "../../../../data/generated/players.json";
 import raceStats from "../../../../data/generated/race-stats.json";
+import records from "../../../../data/generated/records.json";
 import seasons from "../../../../data/generated/seasons.json";
 import series from "../../../../data/generated/series.json";
 import validation from "../../../../data/generated/validation.json";
@@ -22,10 +25,12 @@ import type { StatsData } from "./parse";
 import type {
   EloRow,
   Manifest,
+  MapStats,
   Placement,
   Player,
   PlayerStats,
   RaceStats,
+  Records,
   Season,
   Series,
   ValidationNote,
@@ -34,11 +39,13 @@ import type {
 export { StatsDataError } from "./parse";
 export { buildBracket, buildGroupStages } from "./stages";
 export type { Bracket, BracketMatch, BracketSide, GroupStage, StageGroup } from "./stages";
-export { playerSlug } from "@/lib/utils/slug";
+export { mapSlug, playerSlug } from "@/lib/utils/slug";
 export type {
   EloRow,
   Manifest,
+  MapStats,
   Matchups,
+  Records,
   Placement,
   PlacementValue,
   Player,
@@ -60,6 +67,25 @@ type Indexed = StatsData & {
   seriesBySeason: Map<number, Series[]>;
   playerBySlug: Map<string, Player>;
   seriesByPlayer: Map<string, Series[]>;
+  mapBySlug: Map<string, MapStats>;
+  mapsByPlayer: Map<string, PlayerMapRecord[]>;
+};
+
+/** One player's games on one map. */
+export type PlayerMapRecord = { map: string; wins: number; losses: number };
+
+/** A matchup rating needs this many games before the site ranks it. */
+export const MIN_MATCHUP_GAMES = 10;
+
+/** What the ratings say about a game between two players. */
+export type WinChance = {
+  /**
+   * Chance that A wins one game, from the two current ELO ratings (ASL games only), with the
+   * gap scaled by manifest.elo.probabilityScale so it matches how games have actually gone.
+   */
+  game: number;
+  eloA: number;
+  eloB: number;
 };
 
 /** Everything two players did against each other, and in the seasons both entered. */
@@ -101,6 +127,8 @@ function load(): Indexed {
     elo,
     playerStats,
     raceStats,
+    maps,
+    records,
     validation,
   });
   const playerByAlias = new Map<string, Player>();
@@ -121,8 +149,24 @@ function load(): Indexed {
       else seriesByPlayer.set(name, [row]);
     }
   }
+  const mapBySlug = new Map<string, MapStats>();
+  const mapsByPlayer = new Map<string, PlayerMapRecord[]>();
+  for (const m of data.maps) {
+    const slug = mapSlug(m.map);
+    const clash = mapBySlug.get(slug);
+    if (clash) throw new Error(`maps "${clash.map}" and "${m.map}" share the URL slug "${slug}"`);
+    mapBySlug.set(slug, m);
+    for (const p of m.players) {
+      const row = { map: m.map, wins: p.wins, losses: p.losses };
+      const list = mapsByPlayer.get(p.player);
+      if (list) list.push(row);
+      else mapsByPlayer.set(p.player, [row]);
+    }
+  }
   cache = {
     ...data,
+    mapBySlug,
+    mapsByPlayer,
     seasonByNumber: new Map(data.seasons.map((s) => [s.season, s])),
     playerByName: new Map(data.players.map((p) => [p.player, p])),
     playerByAlias,
@@ -155,6 +199,24 @@ export function getLatestCompleteSeason(): Season | undefined {
   return load()
     .seasons.filter((s) => s.status === "complete")
     .at(-1);
+}
+
+/** The season being played now, if the newest one has no champion yet. */
+export function getSeasonInProgress(): Season | undefined {
+  const newest = load().seasons.at(-1);
+  return newest?.status === "in_progress" ? newest : undefined;
+}
+
+/**
+ * How long a playoff round's series are, read from the most recent one played with a score
+ * (the format has changed over the years, so the newest is the best guide).
+ */
+export function getBestOf(round: Season["upcoming"][number]["round"]): number | undefined {
+  const last = load()
+    .series.filter((s) => s.stage === "playoffs" && s.round === round && s.score !== null)
+    .at(-1);
+  const wins = Number(last?.score?.split("-")[0]);
+  return Number.isInteger(wins) && wins > 0 ? wins * 2 - 1 : undefined;
 }
 
 /** Players in name order. */
@@ -194,7 +256,7 @@ export function getSeriesForSeason(season: number): readonly Series[] {
   return load().seriesBySeason.get(season) ?? [];
 }
 
-/** ELO table in rank order. Placement-based: label it that way in the UI. */
+/** ELO table in rank order. Game based, ASL games only: say so wherever it is shown. */
 export function getElo(): readonly EloRow[] {
   return load().elo;
 }
@@ -219,6 +281,62 @@ export function getRaceStats(): RaceStats {
 /** Notes the exporter recorded about the source data. */
 export function getValidationNotes(): readonly ValidationNote[] {
   return load().validation;
+}
+
+/** Every map with a named game, most played first. */
+export function getMaps(): readonly MapStats[] {
+  return load().maps;
+}
+
+/** Looks a map up by the slug used in /maps/[slug] URLs. */
+export function getMapBySlug(slug: string): MapStats | undefined {
+  return load().mapBySlug.get(slug);
+}
+
+/** One player's record on every map they have a named game on, most played map first. */
+export function getMapsForPlayer(name: string): readonly PlayerMapRecord[] {
+  return load().mapsByPlayer.get(name) ?? [];
+}
+
+export function getRecords(): Records {
+  return load().records;
+}
+
+/**
+ * What the ratings say about one game between two players, by canonical name or alias.
+ * Undefined when either is unknown or they are the same player.
+ */
+export function getWinChance(nameA: string, nameB: string): WinChance | undefined {
+  const a = findPlayer(nameA);
+  const b = findPlayer(nameB);
+  const eloA = a && getEloForPlayer(a.player);
+  const eloB = b && getEloForPlayer(b.player);
+  if (!a || !b || !eloA || !eloB || a.player === b.player) return undefined;
+  return {
+    game: eloWinProbability(eloA.currentElo, eloB.currentElo, load().manifest.elo.probabilityScale),
+    eloA: eloA.currentElo,
+    eloB: eloB.currentElo,
+  };
+}
+
+/**
+ * Players matching what someone typed. An exact name or old spelling gives that one player.
+ * Otherwise every player whose name or old spelling contains the text, names that start with
+ * it first.
+ */
+export function searchPlayers(query: string): readonly Player[] {
+  const q = query.trim().toLowerCase();
+  if (!q) return [];
+  const exact = load().playerByAlias.get(q);
+  if (exact) return [exact];
+  const rank = (p: Player): number => {
+    const names = [p.player, ...p.aliases].map((n) => n.toLowerCase());
+    if (names.some((n) => n.startsWith(q))) return 0;
+    return names.some((n) => n.includes(q)) ? 1 : 2;
+  };
+  return load()
+    .players.filter((p) => rank(p) < 2)
+    .sort((x, y) => rank(x) - rank(y) || x.player.localeCompare(y.player));
 }
 
 /** Looks a player up by the slug used in /players/[slug] URLs. */

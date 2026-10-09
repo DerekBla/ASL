@@ -161,6 +161,33 @@ the data is static, so there is no runtime state a page could recover into.
 | `UNKNOWN_RACE` | No race found; add it to `overrides.json` | no |
 | `RACE_VARIES` / `RACE_OVERRIDDEN` / `OVERRIDE_UNUSED` | Informational | no |
 
+## Schema version 4 (2026-10-09)
+
+New in this version. Field by field types are in `src/lib/services/stats/schemas.ts`.
+
+- `series.json`: `elo: { winnerBefore, winnerAfter, loserBefore, loserAfter }`. Each player's
+  ELO (ASL games only) going into the series and coming out. The two changes mirror each other.
+  The winner of a series can lose points (a 4–3 win over a much lower rated player).
+- `elo.json`: `vsRace: { T, Z, P }`, each `{ elo, games, wins }`. The same ELO counting only the
+  games against that race (`compute_matchup_elo`), so each of the six matchups is rated alone.
+  `elo` is null with no games. The site shows a matchup rating from 10 games (`MIN_MATCHUP_GAMES`).
+- `player-stats.json`: `gamesWon`, `gamesLost`.
+- `manifest.json` `elo`: `favoriteGames`, `favoriteWins` (how often the higher rated player won)
+  and `probabilityScale`, the factor on a rating gap that makes the games played most likely
+  (`fit_probability_scale`). Chances shown on the site use it: see `getWinChance`.
+- `maps.json` (new): one row per map with a named game. `games`, `seasons`, `matchups` (Terran
+  against Zerg, Zerg against Protoss, Protoss against Terran, from the first race's side),
+  `mirrors`, `unknownRace`, and `players` (each player's wins and losses there). Group games are
+  covered for every season; playoff maps only where the page lists them (S9, S12 on).
+- `records.json` (new): `gameStreaks` and `seriesStreaks` (ten each, with `active` for a run
+  still going), `upsets` (series won by the lower rated player, widest gap first, ten),
+  `titleRuns` (each champion's games in the season they won), `championAges` (age on the day of
+  the final, from the birth date on the player's Liquipedia page; `players.json` in the source
+  folder now stores `birth`).
+
+Game order inside a series that has only a score is rebuilt (`games_of`), so a game streak
+through one of the 78 older playoff series can be off by a game. The records page says so.
+
 ## Changing the contract
 
 Bump `SCHEMA_VERSION` in the exporter on any breaking shape change. Update this file and the
@@ -202,7 +229,9 @@ still to play). What changes for that season:
 - ELO counts the games played so far.
 - The export prints an `IN_PROGRESS` note for the season. It is not a problem under `--strict`.
 
-To update: `pnpm stats:season 22`, then `pnpm stats:export`, check the notes, run the tests, deploy.
+`pnpm stats:refresh` does all of the following in one go and runs on a schedule
+(`Docs/tooling-specs/stats-refresh.md`). By hand:
+`pnpm stats:season 22`, then `pnpm stats:export`, check the notes, run the tests, deploy.
 Add `pnpm stats:vods 22` for new casts. This has been used with the group stages finished; a season
 caught in the middle of a group stage has not been tried, and its unfinished groups will produce
 notes that need reading before the result is published. A new season also needs its page title

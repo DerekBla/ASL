@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 
 import { getEloForPlayer } from "@/lib/services/stats";
 
-import { eloPrior, s22FinalPreset } from "../presets";
+import { eloPrior, eloRatings, eloSeriesPrior, s22FinalPreset } from "../presets";
 
 describe("eloPrior", () => {
   it("sums to 1 and favours the higher-rated player", () => {
@@ -25,7 +25,21 @@ describe("s22FinalPreset", () => {
     expect(preset.closesAt).toBe("2026-10-17T06:00:00.000Z");
     expect(preset.b).toBe(10);
     expect(preset.season).toBe(22);
-    expect(preset.prior).toEqual(eloPrior("Rush", "Soulkey"));
+    // A best of seven: the chance of winning the series, which favours the better player more
+    // than one game does.
+    expect(preset.prior).toEqual(eloSeriesPrior("Rush", "Soulkey", 7));
+    const [game] = eloPrior("Rush", "Soulkey");
+    const [series = 0] = preset.prior ?? [];
+    expect(Math.abs(series - 0.5)).toBeGreaterThan(Math.abs(game - 0.5));
+  });
+});
+
+describe("eloRatings", () => {
+  it("finds a player by any spelling, in lower case", () => {
+    const ratings = eloRatings();
+    expect(ratings.soulkey).toBe(getEloForPlayer("Soulkey")?.currentElo);
+    expect(ratings.zero).toBe(getEloForPlayer("Queen")?.currentElo);
+    expect(ratings.nobody).toBeUndefined();
   });
 });
 

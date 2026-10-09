@@ -1,6 +1,9 @@
 import type { ReactElement } from "react";
 
+import { seriesWinProbability } from "@/lib/market/priors";
+import { getBestOf, getWinChance } from "@/lib/services/stats";
 import type { Bracket, BracketMatch, BracketSide, Season } from "@/lib/services/stats";
+import { formatProbability } from "@/lib/utils/format";
 
 import { RaceBadge } from "@/components/RaceBadge";
 
@@ -15,7 +18,8 @@ type Props = {
 
 const ROUND_VOD_LABEL = { quarterfinal: "Quarterfinal casts", semifinal: "Semifinal casts" };
 
-function Side({ side }: { side: BracketSide }): ReactElement {
+/** `chance` replaces the score for a series that has not been played. */
+function Side({ side, chance }: { side: BracketSide; chance?: string }): ReactElement {
   return (
     <div
       className={`flex items-center gap-2 px-2 py-1 ${side.won ? "bg-surface-muted font-semibold" : ""}`}
@@ -26,20 +30,40 @@ function Side({ side }: { side: BracketSide }): ReactElement {
       </span>
       {side.won ? <span className="sr-only">won</span> : null}
       <span className={`tabular-nums ${side.won ? "" : "text-ink-muted"}`}>
-        {side.score ?? "–"}
+        {chance ?? side.score ?? "–"}
       </span>
     </div>
   );
 }
 
-function Match({ match }: { match: BracketMatch }): ReactElement {
+type MatchProps = {
+  match: BracketMatch;
+  /** The round, which sets the length of a series still to be played. */
+  round?: Season["upcoming"][number]["round"];
+};
+
+function Match({ match, round }: MatchProps): ReactElement {
   const maps = match.games.filter((g) => g.map !== null);
+  // For a series still to play: each side's chance of winning it, from current ELO.
+  const game = match.upcoming
+    ? getWinChance(match.top.player, match.bottom.player)?.game
+    : undefined;
+  const bestOf = (round && getBestOf(round)) ?? 1;
+  const top = game === undefined ? undefined : seriesWinProbability(game, bestOf);
   return (
     <div className="bracket-match">
-      <Side side={match.top} />
-      <Side side={match.bottom} />
+      <Side side={match.top} {...(top === undefined ? {} : { chance: formatProbability(top) })} />
+      <Side
+        side={match.bottom}
+        {...(top === undefined ? {} : { chance: formatProbability(1 - top) })}
+      />
       {match.upcoming ? (
-        <div className="px-2 py-1 text-caption text-ink-muted">Not played yet</div>
+        <div className="px-2 py-1 text-caption text-ink-muted">
+          Not played yet
+          {top === undefined
+            ? ""
+            : `. The numbers are each player's chance from ELO${bestOf > 1 ? ` in a best of ${bestOf}` : ""}.`}
+        </div>
       ) : null}
       {maps.length > 0 || match.vod ? (
         // The cast button sits over the top right corner so the map list can use the full width.
@@ -90,7 +114,7 @@ export function PlayoffBracket({ bracket, roundVods = [] }: Props): ReactElement
               <ol className="bracket-slots">
                 {round.matches.map((match) => (
                   <li key={`${match.top.player}-${match.bottom.player}`} className="bracket-slot">
-                    <Match match={match} />
+                    <Match match={match} round={round.key} />
                   </li>
                 ))}
               </ol>

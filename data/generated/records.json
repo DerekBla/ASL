@@ -1,0 +1,670 @@
+{
+  "championAges": [
+    {
+      "birth": "1990-07-04",
+      "days": 9565,
+      "extraDays": 68,
+      "player": "Shuttle",
+      "race": "P",
+      "season": 1,
+      "wonOn": "2016-09-10",
+      "years": 26
+    },
+    {
+      "birth": "1992-07-05",
+      "days": 8967,
+      "extraDays": 201,
+      "player": "Flash",
+      "race": "T",
+      "season": 2,
+      "wonOn": "2017-01-22",
+      "years": 24
+    },
+    {
+      "birth": "1992-07-05",
+      "days": 9100,
+      "extraDays": 334,
+      "player": "Flash",
+      "race": "T",
+      "season": 3,
+      "wonOn": "2017-06-04",
+      "years": 24
+    },
+    {
+      "birth": "1992-07-05",
+      "days": 9261,
+      "extraDays": 130,
+      "player": "Flash",
+      "race": "T",
+      "season": 4,
+      "wonOn": "2017-11-12",
+      "years": 25
+    },
+    {
+      "birth": "1992-08-14",
+      "days": 9417,
+      "extraDays": 286,
+      "player": "Rain",
+      "race": "P",
+      "season": 5,
+      "wonOn": "2018-05-27",
+      "years": 25
+    },
+    {
+      "birth": "1991-01-30",
+      "days": 10133,
+      "extraDays": 271,
+      "player": "EffOrt",
+      "race": "Z",
+      "season": 6,
+      "wonOn": "2018-10-28",
+      "years": 27
+    },
+    {
+      "birth": "1992-12-25",
+      "days": 9578,
+      "extraDays": 82,
+      "player": "Last",
+      "race": "T",
+      "season": 7,
+      "wonOn": "2019-03-17",
+      "years": 26
+    },
+    {
+      "birth": "1992-07-05",
+      "days": 9919,
+      "extraDays": 58,
+      "player": "Flash",
+      "race": "T",
+      "season": 8,
+      "wonOn": "2019-09-01",
+      "years": 27
+    },
+    {
+      "birth": "1990-02-18",
+      "days": 11025,
+      "extraDays": 68,
+      "player": "Queen",
+      "race": "Z",
+      "season": 9,
+      "wonOn": "2020-04-26",
+      "years": 30
+    },
+    {
+      "birth": "1990-02-18",
+      "days": 11228,
+      "extraDays": 271,
+      "player": "Queen",
+      "race": "Z",
+      "season": 10,
+      "wonOn": "2020-11-15",
+      "years": 30
+    },
+    {
+      "birth": "1994-07-19",
+      "days": 9819,
+      "extraDays": 322,
+      "player": "Larva",
+      "race": "Z",
+      "season": 11,
+      "wonOn": "2021-06-06",
+      "years": 26
+    },
+    {
+      "birth": "1994-01-28",
+      "days": 10145,
+      "extraDays": 283,
+      "player": "Mini",
+      "race": "P",
+      "season": 12,
+      "wonOn": "2021-11-07",
+      "years": 27
+    },
+    {
+      "birth": "1990-03-28",
+      "days": 11700,
+      "extraDays": 12,
+      "player": "Light",
+      "race": "T",
+      "season": 13,
+      "wonOn": "2022-04-09",
+      "years": 32
+    },
+    {
+      "birth": "1995-08-10",
+      "days": 9922,
+      "extraDays": 60,
+      "player": "RoyaL",
+      "race": "T",
+      "season": 14,
+      "wonOn": "2022-10-09",
+      "years": 27
+    },
+    {
+      "birth": "1993-01-24",
+      "days": 11051,
+      "extraDays": 94,
+      "player": "JyJ",
+      "race": "T",
+      "season": 15,
+      "wonOn": "2023-04-28",
+      "years": 30
+    },
+    {
+      "birth": "1991-12-10",
+      "days": 11632,
+      "extraDays": 309,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 16,
+      "wonOn": "2023-10-15",
+      "years": 31
+    },
+    {
+      "birth": "1991-12-10",
+      "days": 11827,
+      "extraDays": 139,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 17,
+      "wonOn": "2024-04-27",
+      "years": 32
+    },
+    {
+      "birth": "1991-12-10",
+      "days": 12016,
+      "extraDays": 328,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 18,
+      "wonOn": "2024-11-02",
+      "years": 32
+    },
+    {
+      "birth": "1991-12-10",
+      "days": 12220,
+      "extraDays": 166,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 19,
+      "wonOn": "2025-05-25",
+      "years": 33
+    },
+    {
+      "birth": "1995-08-22",
+      "days": 11023,
+      "extraDays": 65,
+      "player": "soma",
+      "race": "Z",
+      "season": 20,
+      "wonOn": "2025-10-26",
+      "years": 30
+    },
+    {
+      "birth": "1995-08-22",
+      "days": 11233,
+      "extraDays": 275,
+      "player": "soma",
+      "race": "Z",
+      "season": 21,
+      "wonOn": "2026-05-24",
+      "years": 30
+    }
+  ],
+  "gameStreaks": [
+    {
+      "active": false,
+      "fromSeason": 8,
+      "length": 12,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 9
+    },
+    {
+      "active": false,
+      "fromSeason": 3,
+      "length": 10,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 4
+    },
+    {
+      "active": false,
+      "fromSeason": 9,
+      "length": 9,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 10
+    },
+    {
+      "active": false,
+      "fromSeason": 18,
+      "length": 9,
+      "player": "Rain",
+      "race": "P",
+      "toSeason": 18
+    },
+    {
+      "active": false,
+      "fromSeason": 2,
+      "length": 8,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 3
+    },
+    {
+      "active": false,
+      "fromSeason": 6,
+      "length": 8,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 6
+    },
+    {
+      "active": false,
+      "fromSeason": 8,
+      "length": 8,
+      "player": "SnOw",
+      "race": "P",
+      "toSeason": 8
+    },
+    {
+      "active": false,
+      "fromSeason": 12,
+      "length": 8,
+      "player": "Mini",
+      "race": "P",
+      "toSeason": 12
+    },
+    {
+      "active": false,
+      "fromSeason": 14,
+      "length": 8,
+      "player": "RoyaL",
+      "race": "T",
+      "toSeason": 14
+    },
+    {
+      "active": false,
+      "fromSeason": 16,
+      "length": 8,
+      "player": "EffOrt",
+      "race": "Z",
+      "toSeason": 16
+    }
+  ],
+  "seriesStreaks": [
+    {
+      "active": false,
+      "fromSeason": 16,
+      "length": 22,
+      "player": "Soulkey",
+      "race": "Z",
+      "toSeason": 19
+    },
+    {
+      "active": false,
+      "fromSeason": 2,
+      "length": 19,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 5
+    },
+    {
+      "active": false,
+      "fromSeason": 20,
+      "length": 15,
+      "player": "soma",
+      "race": "Z",
+      "toSeason": 22
+    },
+    {
+      "active": false,
+      "fromSeason": 9,
+      "length": 13,
+      "player": "Queen",
+      "race": "Z",
+      "toSeason": 11
+    },
+    {
+      "active": false,
+      "fromSeason": 6,
+      "length": 10,
+      "player": "EffOrt",
+      "race": "Z",
+      "toSeason": 7
+    },
+    {
+      "active": false,
+      "fromSeason": 8,
+      "length": 9,
+      "player": "Flash",
+      "race": "T",
+      "toSeason": 9
+    },
+    {
+      "active": false,
+      "fromSeason": 15,
+      "length": 8,
+      "player": "JyJ",
+      "race": "T",
+      "toSeason": 16
+    },
+    {
+      "active": false,
+      "fromSeason": 7,
+      "length": 7,
+      "player": "Last",
+      "race": "T",
+      "toSeason": 8
+    },
+    {
+      "active": false,
+      "fromSeason": 8,
+      "length": 7,
+      "player": "Rain",
+      "race": "P",
+      "toSeason": 13
+    },
+    {
+      "active": false,
+      "fromSeason": 11,
+      "length": 7,
+      "player": "Larva",
+      "race": "Z",
+      "toSeason": 20
+    }
+  ],
+  "titleRuns": [
+    {
+      "gamesLost": 3,
+      "gamesWon": 11,
+      "player": "Shuttle",
+      "race": "P",
+      "season": 1,
+      "winRate": 0.7857
+    },
+    {
+      "gamesLost": 4,
+      "gamesWon": 13,
+      "player": "Flash",
+      "race": "T",
+      "season": 2,
+      "winRate": 0.7647
+    },
+    {
+      "gamesLost": 2,
+      "gamesWon": 11,
+      "player": "Flash",
+      "race": "T",
+      "season": 3,
+      "winRate": 0.8462
+    },
+    {
+      "gamesLost": 2,
+      "gamesWon": 11,
+      "player": "Flash",
+      "race": "T",
+      "season": 4,
+      "winRate": 0.8462
+    },
+    {
+      "gamesLost": 4,
+      "gamesWon": 11,
+      "player": "Rain",
+      "race": "P",
+      "season": 5,
+      "winRate": 0.7333
+    },
+    {
+      "gamesLost": 6,
+      "gamesWon": 13,
+      "player": "EffOrt",
+      "race": "Z",
+      "season": 6,
+      "winRate": 0.6842
+    },
+    {
+      "gamesLost": 6,
+      "gamesWon": 11,
+      "player": "Last",
+      "race": "T",
+      "season": 7,
+      "winRate": 0.6471
+    },
+    {
+      "gamesLost": 2,
+      "gamesWon": 15,
+      "player": "Flash",
+      "race": "T",
+      "season": 8,
+      "winRate": 0.8824
+    },
+    {
+      "gamesLost": 6,
+      "gamesWon": 15,
+      "player": "Queen",
+      "race": "Z",
+      "season": 9,
+      "winRate": 0.7143
+    },
+    {
+      "gamesLost": 5,
+      "gamesWon": 14,
+      "player": "Queen",
+      "race": "Z",
+      "season": 10,
+      "winRate": 0.7368
+    },
+    {
+      "gamesLost": 6,
+      "gamesWon": 14,
+      "player": "Larva",
+      "race": "Z",
+      "season": 11,
+      "winRate": 0.7
+    },
+    {
+      "gamesLost": 5,
+      "gamesWon": 15,
+      "player": "Mini",
+      "race": "P",
+      "season": 12,
+      "winRate": 0.75
+    },
+    {
+      "gamesLost": 7,
+      "gamesWon": 17,
+      "player": "Light",
+      "race": "T",
+      "season": 13,
+      "winRate": 0.7083
+    },
+    {
+      "gamesLost": 6,
+      "gamesWon": 16,
+      "player": "RoyaL",
+      "race": "T",
+      "season": 14,
+      "winRate": 0.7273
+    },
+    {
+      "gamesLost": 8,
+      "gamesWon": 16,
+      "player": "JyJ",
+      "race": "T",
+      "season": 15,
+      "winRate": 0.6667
+    },
+    {
+      "gamesLost": 8,
+      "gamesWon": 16,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 16,
+      "winRate": 0.6667
+    },
+    {
+      "gamesLost": 7,
+      "gamesWon": 14,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 17,
+      "winRate": 0.6667
+    },
+    {
+      "gamesLost": 3,
+      "gamesWon": 15,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 18,
+      "winRate": 0.8333
+    },
+    {
+      "gamesLost": 8,
+      "gamesWon": 15,
+      "player": "Soulkey",
+      "race": "Z",
+      "season": 19,
+      "winRate": 0.6522
+    },
+    {
+      "gamesLost": 8,
+      "gamesWon": 17,
+      "player": "soma",
+      "race": "Z",
+      "season": 20,
+      "winRate": 0.68
+    },
+    {
+      "gamesLost": 5,
+      "gamesWon": 14,
+      "player": "soma",
+      "race": "Z",
+      "season": 21,
+      "winRate": 0.7368
+    }
+  ],
+  "upsets": [
+    {
+      "loser": "Soulkey",
+      "loserElo": 1749.2,
+      "loserRace": "Z",
+      "round": "Group B",
+      "score": null,
+      "season": 21,
+      "stage": "ro24",
+      "winner": "sSak",
+      "winnerElo": 1462.0,
+      "winnerRace": "T"
+    },
+    {
+      "loser": "Flash",
+      "loserElo": 1770.1,
+      "loserRace": "T",
+      "round": "quarterfinal",
+      "score": "3-2",
+      "season": 5,
+      "stage": "playoffs",
+      "winner": "SnOw",
+      "winnerElo": 1508.7,
+      "winnerRace": "P"
+    },
+    {
+      "loser": "Flash",
+      "loserElo": 1724.0,
+      "loserRace": "T",
+      "round": "Group A",
+      "score": null,
+      "season": 8,
+      "stage": "ro24",
+      "winner": "Sacsri",
+      "winnerElo": 1477.4,
+      "winnerRace": "Z"
+    },
+    {
+      "loser": "Soulkey",
+      "loserElo": 1811.3,
+      "loserRace": "Z",
+      "round": "Group A",
+      "score": null,
+      "season": 20,
+      "stage": "ro16",
+      "winner": "BarrackS",
+      "winnerElo": 1568.0,
+      "winnerRace": "T"
+    },
+    {
+      "loser": "SnOw",
+      "loserElo": 1743.1,
+      "loserRace": "P",
+      "round": "Group D",
+      "score": null,
+      "season": 22,
+      "stage": "ro16",
+      "winner": "Shine",
+      "winnerElo": 1502.0,
+      "winnerRace": "Z"
+    },
+    {
+      "loser": "Soulkey",
+      "loserElo": 1722.4,
+      "loserRace": "Z",
+      "round": "Group B",
+      "score": null,
+      "season": 21,
+      "stage": "ro24",
+      "winner": "Ample",
+      "winnerElo": 1483.1,
+      "winnerRace": "T"
+    },
+    {
+      "loser": "Flash",
+      "loserElo": 1793.7,
+      "loserRace": "T",
+      "round": "semifinal",
+      "score": "3-2",
+      "season": 9,
+      "stage": "playoffs",
+      "winner": "Queen",
+      "winnerElo": 1566.9,
+      "winnerRace": "Z"
+    },
+    {
+      "loser": "Larva",
+      "loserElo": 1622.8,
+      "loserRace": "Z",
+      "round": "Group C",
+      "score": null,
+      "season": 21,
+      "stage": "ro24",
+      "winner": "tulbo",
+      "winnerElo": 1397.6,
+      "winnerRace": "P"
+    },
+    {
+      "loser": "Queen",
+      "loserElo": 1733.7,
+      "loserRace": "Z",
+      "round": "Group A",
+      "score": null,
+      "season": 11,
+      "stage": "ro16",
+      "winner": "Mini",
+      "winnerElo": 1509.3,
+      "winnerRace": "P"
+    },
+    {
+      "loser": "herO",
+      "loserElo": 1719.1,
+      "loserRace": "Z",
+      "round": "Group B",
+      "score": null,
+      "season": 18,
+      "stage": "ro16",
+      "winner": "BarrackS",
+      "winnerElo": 1508.4,
+      "winnerRace": "T"
+    }
+  ]
+}

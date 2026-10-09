@@ -22,11 +22,15 @@ from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Any
 
-SCHEMA_VERSION = 3  # 3: elo.json rows carry a per-season history
+SCHEMA_VERSION = 4  # 4: ELO per series and per matchup, maps.json, records.json
 RACES = ("T", "Z", "P")
 ELO_START, ELO_K = 1500.0, 32
 # Validation codes that mean the output may be wrong (fail under --strict).
 PROBLEM_CODES = {"PARSE_PROBLEM", "PLAYER_COUNT"}
+# One map spelled two ways on the season pages. Versions of a map (SE, Neo, RE) stay separate.
+MAP_NAMES = {"Matchpoint": "Match Point"}
+# The three cross race matchups, each named from the first race's side.
+MAP_MATCHUPS = (("T", "Z"), ("Z", "P"), ("P", "T"))
 
 
 class InputError(Exception):
@@ -86,13 +90,15 @@ def games_of(series: dict) -> list[tuple[str, str]]:
 
 def compute_game_elo(
     games_by_season: list[list[tuple[str, str]]],
+    trace: list[tuple[float, float, float]] | None = None,
 ) -> tuple[dict[str, float], dict[str, tuple[float, int]], dict[str, list[tuple[int, float]]], dict[str, int]]:
     """Game-based ELO. Start 1500, K=32 (Derek, 2026-10-09; it replaced the placement ELO).
 
     games_by_season[i] lists season i+1's games as (winner, loser), in the order played. Each
     game moves the winner up and the loser down by K times how unexpected the result was.
     Returns the rating, the peak (best rating at the end of any season played, and that
-    season), the rating after each season played, and the number of games played.
+    season), the rating after each season played, and the number of games played. With
+    `trace`, each game appends the winner's and loser's rating before it and the points moved.
     """
     rating: dict[str, float] = defaultdict(lambda: ELO_START)
     peak: dict[str, tuple[float, int]] = {}
@@ -102,6 +108,8 @@ def compute_game_elo(
         seen: dict[str, None] = {}
         for winner, loser in games:
             delta = ELO_K * (1 - 1 / (1 + 10 ** ((rating[loser] - rating[winner]) / 400)))
+            if trace is not None:
+                trace.append((rating[winner], rating[loser], delta))
             rating[winner] += delta
             rating[loser] -= delta
             for n in (winner, loser):
@@ -112,6 +120,117 @@ def compute_game_elo(
                 peak[n] = (rating[n], i + 1)
             history[n].append((i + 1, rating[n]))
     return dict(rating), peak, dict(history), dict(played)
+
+
+def fit_probability_scale(trace: list[tuple[float, float, float]]) -> float:
+    """How much of a rating gap to believe when turning it into a chance of winning.
+
+    The textbook formula, 1 / (1 + 10^(-gap / 400)), overstates the favorite here: K=32 makes
+    ratings swing, so gaps run wider than the results justify. This finds the factor on the gap
+    (0.00 to 2.00, in steps of 0.01) that makes the games already played most likely. 1 would
+    mean the formula is right as it stands; 0 that ratings say nothing.
+    """
+    import math
+
+    def loss(scale: float) -> float:
+        return sum(math.log1p(10 ** (-scale * (w - l) / 400)) for w, l, _ in trace)
+
+    return min((round(loss(i / 100), 9), i / 100) for i in range(0, 201))[1] if trace else 1.0
+
+
+def compute_matchup_elo(
+    games: list[tuple[str, str]], race_of: dict[str, str | None],
+) -> dict[str, dict[str, dict[str, Any]]]:
+    """A rating for each player against each race: the same ELO, counting only those games.
+
+    A Terran's rating against Zerg and a Zerg's rating against Terran come from the games
+    between Terrans and Zergs and nothing else, so each of the six matchups is rated on its
+    own. Games with a player of unknown race are left out. Returns, per player and opponent
+    race, the rating (None with no games), the games played and the games won.
+    """
+    rating: dict[tuple[str, str], float] = defaultdict(lambda: ELO_START)
+    played: Counter = Counter()
+    won: Counter = Counter()
+    for winner, loser in games:
+        rw, rl = race_of.get(winner), race_of.get(loser)
+        if not rw or not rl:
+            continue
+        kw, kl = (winner, rl), (loser, rw)
+        delta = ELO_K * (1 - 1 / (1 + 10 ** ((rating[kl] - rating[kw]) / 400)))
+        rating[kw] += delta
+        rating[kl] -= delta
+        played[kw] += 1
+        played[kl] += 1
+        won[kw] += 1
+    return {name: {r: {"elo": round(rating[(name, r)], 1) if played[(name, r)] else None,
+                       "games": played[(name, r)], "wins": won[(name, r)]} for r in RACES}
+            for name in race_of}
+
+
+def win_streaks(results: dict[str, list[tuple[int, bool]]], top: int = 10) -> list[dict[str, Any]]:
+    """The longest runs of wins. results: per player, (season, won) in the order played."""
+    runs = []
+    for name, rows in results.items():
+        start = None
+        for i, (_, won) in enumerate([*rows, (0, False)]):
+            if won and start is None:
+                start = i
+            elif not won and start is not None:
+                runs.append({"player": name, "length": i - start, "fromSeason": rows[start][0],
+                             "toSeason": rows[i - 1][0], "active": i == len(rows)})
+                start = None
+    runs.sort(key=lambda r: (-r["length"], r["fromSeason"], *name_key(r["player"])))
+    return runs[:top]
+
+
+def age_on(birth: str, day: str) -> dict[str, int]:
+    """Age on a day as whole years and the days since that birthday; `days` is the total."""
+    from datetime import date
+
+    b, d = date.fromisoformat(birth), date.fromisoformat(day)
+
+    def birthday(year: int) -> date:
+        try:
+            return b.replace(year=year)
+        except ValueError:  # born on February 29
+            return b.replace(year=year, day=28)
+
+    years = d.year - b.year - (d < birthday(d.year))
+    return {"years": years, "extraDays": (d - birthday(b.year + years)).days, "days": (d - b).days}
+
+
+def map_stats(series: list[dict], race_of: dict[str, str | None]) -> list[dict[str, Any]]:
+    """For every map with a named game: games, seasons, race against race, and each player's record."""
+    maps: dict[str, dict[str, Any]] = {}
+    for m in series:
+        for g in m["games"]:
+            if not g["map"]:
+                continue
+            winner = g["winner"]
+            loser = m["loser"] if winner == m["winner"] else m["winner"]
+            row = maps.setdefault(g["map"], {"seasons": set(), "races": Counter(), "players": defaultdict(lambda: [0, 0]),
+                                             "games": 0, "unknown": 0})
+            row["games"] += 1
+            row["seasons"].add(m["season"])
+            row["players"][winner][0] += 1
+            row["players"][loser][1] += 1
+            if race_of.get(winner) and race_of.get(loser):
+                row["races"][(race_of[winner], race_of[loser])] += 1
+            else:
+                row["unknown"] += 1
+    out = []
+    for name, row in maps.items():
+        wins = row["races"]
+        out.append({
+            "map": name, "games": row["games"], "seasons": sorted(row["seasons"]),
+            "matchups": [{"race": a, "vs": b, "wins": wins[(a, b)], "losses": wins[(b, a)],
+                          "winRate": ratio(wins[(a, b)], wins[(b, a)])} for a, b in MAP_MATCHUPS],
+            "mirrors": {f"{r}v{r}": wins[(r, r)] for r in RACES}, "unknownRace": row["unknown"],
+            "players": sorted(({"player": p, "race": race_of.get(p), "wins": w, "losses": l}
+                               for p, (w, l) in row["players"].items()),
+                              key=lambda r: (-(r["wins"] + r["losses"]), -r["wins"], *name_key(r["player"]))),
+        })
+    return sorted(out, key=lambda r: (-r["games"], *name_key(r["map"])))
 
 
 # --------------------------------------------------------------------------- build
@@ -198,7 +317,8 @@ def build(source_dir: Path) -> dict[str, Any]:
         })
         def played(m: dict) -> dict:
             """Maps in the order played, each with its winner, and the English cast if there is one."""
-            return {"games": [{"map": g["map"], "winner": nm(g["winner"])} for g in m.get("games", [])],
+            return {"games": [{"map": MAP_NAMES.get(g["map"], g["map"]), "winner": nm(g["winner"])}
+                              for g in m.get("games", [])],
                     "vod": m.get("vod")}
 
         for g in s["groups"]:
@@ -217,7 +337,9 @@ def build(source_dir: Path) -> dict[str, Any]:
     qualifiers_path = lp / "qualifier-results.json"
     qualifiers = json.loads(qualifiers_path.read_text(encoding="utf-8")) if qualifiers_path.exists() else []
     numbers = [s["season"] for s in seasons]
-    main_games = [[g for m in series if m["season"] == n for g in games_of(m)] for n in numbers]
+    # Every game with the series it belongs to, so the rating change can be put on the series.
+    owned = [[(m, g) for m in series if m["season"] == n for g in games_of(m)] for n in numbers]
+    main_games = [[g for _, g in season] for season in owned]
     known = set(all_players)
     lower = {n.lower(): n for n in all_players}
 
@@ -234,7 +356,26 @@ def build(source_dir: Path) -> dict[str, Any]:
             warn("QUALIFIER_NAME_VARIANT", f"qualifier pages write {name!r}; not counted as {lower[name.lower()]!r}")
     qualifier_games = [[(qualifier_name(w), qualifier_name(l)) for q in qualifiers if q["season"] == n
                         for w, l in games_of(q)] for n in numbers]
-    rating, peak, history, played = compute_game_elo(main_games)
+    trace: list[tuple[float, float, float]] = []
+    rating, peak, history, played = compute_game_elo(main_games, trace)
+    game_results: dict[str, list[tuple[int, bool]]] = defaultdict(list)
+    favorite_games = favorite_wins = 0
+    for (m, (w, l)), (w_before, l_before, delta) in zip((x for season in owned for x in season), trace):
+        won = w == m["winner"]  # this game went to the player who won the series
+        e = m.setdefault("_elo", {"before": (w_before, l_before) if won else (l_before, w_before), "change": 0.0})
+        e["change"] += delta if won else -delta
+        game_results[w].append((m["season"], True))
+        game_results[l].append((m["season"], False))
+        if w_before != l_before:
+            favorite_games += 1
+            favorite_wins += w_before > l_before
+    for m in series:
+        e = m.pop("_elo")
+        (a, b), change = e["before"], e["change"]
+        # The series winner can lose points: a 3-2 win over a much lower rated player.
+        m["elo"] = {"winnerBefore": round(a, 1), "winnerAfter": round(a + change, 1),
+                    "loserBefore": round(b, 1), "loserAfter": round(b - change, 1)}
+    vs_race = compute_matchup_elo([g for season in main_games for g in season], race_of)
     q_rating, q_peak, q_history, q_played = compute_game_elo([q + m for q, m in zip(qualifier_games, main_games)])
     champs = Counter(s["winner"] for s in seasons if s["winner"])
     by_player: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -251,6 +392,8 @@ def build(source_dir: Path) -> dict[str, Any]:
             "championships": titles, "finals": sum(x <= 2 for x in ranks),
             "semifinalsOrBetter": sum(x <= 4 for x in ranks), "quarterfinalsOrBetter": sum(x <= 8 for x in ranks),
             "prizeKrw": sum(r["prizeKrw"] or 0 for r in rows), "currentElo": round(rating[name], 1),
+            "gamesWon": sum(won for _, won in game_results[name]),
+            "gamesLost": sum(not won for _, won in game_results[name]),
         })
         if titles != champs.get(name, 0):
             warn("PARSE_PROBLEM", f"{name}: {titles} first places but {champs.get(name, 0)} finals won")
@@ -267,6 +410,7 @@ def build(source_dir: Path) -> dict[str, Any]:
             "peakElo": round(peak[r["player"]][0], 1), "peakSeason": peak[r["player"]][1],
             "seasons": r["seasons"], "championships": r["championships"], "games": played[r["player"]],
             "history": points(history[r["player"]]),
+            "vsRace": vs_race[r["player"]],
             "withQualifiers": {
                 "rank": q_rank[r["player"]], "currentElo": round(q_rating[r["player"]], 1),
                 "peakElo": round(q_peak[r["player"]][0], 1), "peakSeason": q_peak[r["player"]][1],
@@ -280,6 +424,48 @@ def build(source_dir: Path) -> dict[str, Any]:
         aliases[shown].append(raw)
     players = [{"player": n, "race": race_of[n], "aliases": sorted(set(aliases.get(n, [])), key=name_key)} for n in all_players]
 
+    # ---- records: streaks, upsets, title runs, champions by age
+    series_results: dict[str, list[tuple[int, bool]]] = defaultdict(list)
+    for m in series:
+        series_results[m["winner"]].append((m["season"], True))
+        series_results[m["loser"]].append((m["season"], False))
+
+    def with_race(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+        return [{**r, "race": race_of.get(r["player"])} for r in rows]
+
+    upsets = sorted((m for m in series if m["elo"]["loserBefore"] > m["elo"]["winnerBefore"]),
+                    key=lambda m: (-(m["elo"]["loserBefore"] - m["elo"]["winnerBefore"]), m["season"], *name_key(m["winner"])))
+    pages_path = lp / "players.json"
+    pages = json.loads(pages_path.read_text(encoding="utf-8")) if pages_path.exists() else {}
+
+    def birth_of(name: str) -> str | None:
+        """From the player's Liquipedia page, under any spelling the season pages use."""
+        return next((b for raw in [name, *sorted(set(aliases.get(name, [])), key=name_key)]
+                     if (b := pages.get(raw, {}).get("birth"))), None)
+
+    title_runs, champion_ages = [], []
+    for s, games in zip(seasons, main_games):
+        champion = s["winner"]
+        if not champion:
+            continue
+        w, l = sum(g[0] == champion for g in games), sum(g[1] == champion for g in games)
+        title_runs.append({"season": s["season"], "player": champion, "race": race_of.get(champion),
+                           "gamesWon": w, "gamesLost": l, "winRate": ratio(w, l)})
+        born = birth_of(champion)
+        if born:
+            champion_ages.append({"season": s["season"], "player": champion, "race": race_of.get(champion),
+                                  "birth": born, "wonOn": s["end"], **age_on(born, s["end"])})
+    records = {
+        "gameStreaks": with_race(win_streaks(game_results)),
+        "seriesStreaks": with_race(win_streaks(series_results)),
+        "upsets": [{"season": m["season"], "stage": m["stage"], "round": m["round"], "score": m["score"],
+                    "winner": m["winner"], "winnerRace": m["winnerRace"], "winnerElo": m["elo"]["winnerBefore"],
+                    "loser": m["loser"], "loserRace": m["loserRace"], "loserElo": m["elo"]["loserBefore"]}
+                   for m in upsets[:10]],
+        "titleRuns": title_runs,
+        "championAges": champion_ages,
+    }
+
     data = {
         "seasons.json": seasons,
         "players.json": players,
@@ -288,6 +474,8 @@ def build(source_dir: Path) -> dict[str, Any]:
         "player-stats.json": stats,
         "race-stats.json": race_stats(seasons, placements, series),
         "series.json": series,
+        "maps.json": map_stats(series, race_of),
+        "records.json": records,
     }
     data["validation.json"] = warnings
     sha = hashlib.sha256()
@@ -302,7 +490,10 @@ def build(source_dir: Path) -> dict[str, Any]:
         "elo": {"start": ELO_START, "k": ELO_K, "basis": "game",
                 "games": sum(len(g) for g in main_games),
                 "qualifierGames": sum(len(g) for g in qualifier_games),
-                "qualifierSeasons": [n for n, g in zip(numbers, qualifier_games) if g]},
+                "qualifierSeasons": [n for n, g in zip(numbers, qualifier_games) if g],
+                # How often the higher rated player won, over the games where the ratings differed.
+                "favoriteGames": favorite_games, "favoriteWins": favorite_wins,
+                "probabilityScale": fit_probability_scale(trace)},
         "warnings": len(warnings),
     }
     return data

@@ -1,6 +1,7 @@
 {
   "counts": {
     "elo": 86,
+    "maps": 95,
     "placements": 604,
     "player-stats": 86,
     "players": 86,
@@ -10,8 +11,11 @@
   },
   "elo": {
     "basis": "game",
+    "favoriteGames": 2072,
+    "favoriteWins": 1144,
     "games": 2092,
     "k": 32,
+    "probabilityScale": 0.7,
     "qualifierGames": 10487,
     "qualifierSeasons": [
       4,
@@ -36,7 +40,7 @@
     ],
     "start": 1500.0
   },
-  "schemaVersion": 3,
+  "schemaVersion": 4,
   "seasons": {
     "complete": 21,
     "count": 22

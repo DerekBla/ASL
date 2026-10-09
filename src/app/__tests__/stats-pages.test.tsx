@@ -1,14 +1,28 @@
 import { render, screen, within } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 
-import { getElo, getPlayers, getSeasons } from "@/lib/services/stats";
+import {
+  getElo,
+  getMaps,
+  getPlayers,
+  getRecords,
+  getSeasons,
+  getSeriesForPlayer,
+  mapSlug,
+} from "@/lib/services/stats";
+import { formatElo, formatEloChange } from "@/lib/utils/format";
 
+import EloMatchupsPage from "../elo/matchups/page";
 import EloPage from "../elo/page";
 import EloWithQualifiersPage from "../elo/with-qualifiers/page";
 import HeadToHeadPage from "../head-to-head/page";
+import MapPage, { generateStaticParams as mapParams } from "../maps/[slug]/page";
+import MapsPage from "../maps/page";
 import PlayerPage, { generateStaticParams as playerParams } from "../players/[slug]/page";
 import PlayersPage from "../players/page";
 import RacesPage from "../races/page";
+import RecordsPage from "../records/page";
+import SearchPage from "../search/page";
 import SeasonPage, { generateStaticParams as seasonParams } from "../seasons/[season]/page";
 import SeasonsPage from "../seasons/page";
 
@@ -108,7 +122,11 @@ describe("/seasons/[season]", () => {
     render(await SeasonPage({ params: Promise.resolve({ season: String(live.season) }) }));
     expect(screen.getByText("This season is still in progress.")).toBeInTheDocument();
     const final = within(screen.getByRole("region", { name: "Final" }));
-    expect(final.getByText("Not played yet")).toBeInTheDocument();
+    expect(
+      final.getByText(
+        /^Not played yet\. The numbers are each player's chance from ELO in a best of 7/,
+      ),
+    ).toBeInTheDocument();
     for (const side of live.upcoming[0]?.players ?? []) {
       expect(final.getByRole("link", { name: side.player })).toBeInTheDocument();
     }
@@ -145,11 +163,48 @@ describe("/players/[slug]", () => {
 
   it("shows win rates by opponent race and an ELO chart", async () => {
     render(await PlayerPage({ params: Promise.resolve({ slug: "flash" }) }));
-    const byRace = screen.getByRole("list", { name: "Series record by opponent race" });
-    const items = within(byRace).getAllByRole("listitem");
+    const byRace = screen.getByRole("table", { name: "Record by opponent race" });
+    const items = rowsOf(byRace);
     expect(items).toHaveLength(3);
-    for (const item of items) expect(item.textContent).toMatch(/\d+–\d+\d+\.\d%|no series/);
+    // Series record, series win rate, games record, then the rating in that matchup.
+    for (const item of items) {
+      expect(item.textContent).toMatch(/\d+–\d+\d+\.\d%\d+–\d+\d,\d{3}\.\d$/);
+    }
     expect(screen.getByRole("img", { name: /Flash's ELO after each of/ })).toBeInTheDocument();
+  });
+
+  it("lists every series with what it did to the ELO, newest first", async () => {
+    render(await PlayerPage({ params: Promise.resolve({ slug: "soulkey" }) }));
+    const log = screen.getByRole("table", { name: /series, newest first/ });
+    const played = getSeriesForPlayer("Soulkey");
+    const rows = rowsOf(log);
+    expect(rows).toHaveLength(played.length);
+    const last = played.at(-1);
+    if (!last) throw new Error("expected Soulkey to have played");
+    const cells = within(rows[0] as HTMLElement).getAllByRole("cell");
+    // The newest series, read from the data so a refreshed season does not break the test.
+    const won = last.winner === "Soulkey";
+    const before = won ? last.elo.winnerBefore : last.elo.loserBefore;
+    const after = won ? last.elo.winnerAfter : last.elo.loserAfter;
+    expect(cells[0]).toHaveTextContent(`S${last.season}`);
+    expect(cells[2]).toHaveTextContent(won ? last.loser : last.winner);
+    expect(cells[4]?.textContent).toMatch(won ? /^Won( \d–\d)?$/ : /^Lost( \d–\d)?$/);
+    expect(cells[5]).toHaveTextContent(formatElo(before));
+    expect(cells[6]).toHaveTextContent(formatEloChange(after - before));
+    expect(cells[7]).toHaveTextContent(formatElo(after));
+    // What the table ends on is the rating the ELO page shows.
+    expect(after).toBe(getElo().find((r) => r.player === "Soulkey")?.currentElo);
+    // A loss shows a real minus sign, not a hyphen.
+    expect(within(log).getAllByText(/^−\d+\.\d$/).length).toBeGreaterThan(0);
+  });
+
+  it("lists the player's maps with a link to each", async () => {
+    render(await PlayerPage({ params: Promise.resolve({ slug: "flash" }) }));
+    const maps = screen.getByRole("table", { name: /^Games on \d+ maps/ });
+    expect(within(maps).getByRole("link", { name: "Fighting Spirit" })).toHaveAttribute(
+      "href",
+      "/maps/fighting-spirit",
+    );
   });
 
   it("lists the other spellings of a merged player", async () => {
@@ -159,6 +214,102 @@ describe("/players/[slug]", () => {
 
   it("is a 404 for an unknown player", async () => {
     await expect(PlayerPage({ params: Promise.resolve({ slug: "nobody" }) })).rejects.toThrow();
+  });
+});
+
+describe("/maps", () => {
+  it("lists every map with the three matchups, most played first", () => {
+    render(<MapsPage />);
+    const table = screen.getByRole("table");
+    const rows = rowsOf(table);
+    expect(rows).toHaveLength(getMaps().length);
+    const top = getMaps()[0];
+    if (!top) throw new Error("expected at least one map");
+    expect(within(rows[0] as HTMLElement).getByRole("link", { name: top.map })).toHaveAttribute(
+      "href",
+      `/maps/${mapSlug(top.map)}`,
+    );
+    for (const header of ["Terran vs Zerg", "Zerg vs Protoss", "Protoss vs Terran"]) {
+      expect(within(table).getByRole("columnheader", { name: new RegExp(header) })).toBeVisible();
+    }
+    expect(rows[0]?.textContent).toMatch(/\d+–\d+ \(\d+\.\d%\)/);
+  });
+
+  it("pre-renders a page per map, with race results and every player's record", async () => {
+    expect(mapParams()).toHaveLength(getMaps().length);
+    render(await MapPage({ params: Promise.resolve({ slug: "eclipse" }) }));
+    expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Eclipse");
+    const eclipse = getMaps().find((m) => m.map === "Eclipse");
+    const races = screen.getByRole("table", { name: "Games between the races on this map" });
+    expect(rowsOf(races)).toHaveLength(6);
+    expect(rowsOf(races)[0]?.textContent).toMatch(/Terran won \d+, Zerg won \d+/);
+    const players = screen.getByRole("table", { name: /players with a game here/ });
+    expect(rowsOf(players)).toHaveLength(eclipse?.players.length ?? 0);
+    await expect(MapPage({ params: Promise.resolve({ slug: "nowhere" }) })).rejects.toThrow();
+  });
+});
+
+describe("/records", () => {
+  it("shows streaks, upsets, title runs, ages and career leaders", () => {
+    render(<RecordsPage />);
+    const records = getRecords();
+    const series = screen.getByRole("table", { name: "Most series won in a row" });
+    const first = records.seriesStreaks[0];
+    expect(rowsOf(series)).toHaveLength(records.seriesStreaks.length);
+    expect(rowsOf(series)[0]).toHaveTextContent(`${first?.player}${first?.length}`);
+    expect(rowsOf(screen.getByRole("table", { name: "Biggest upsets by ELO gap" }))).toHaveLength(
+      records.upsets.length,
+    );
+    expect(rowsOf(screen.getByRole("table", { name: /Every champion's games/ }))).toHaveLength(
+      records.titleRuns.length,
+    );
+    const youngest = [...records.championAges].sort((a, b) => a.days - b.days)[0];
+    expect(rowsOf(screen.getByRole("table", { name: "Youngest champions" }))[0]).toHaveTextContent(
+      `${youngest?.player}S${youngest?.season}${youngest?.years} years`,
+    );
+    const titles = screen.getByRole("region", { name: "Most championships" });
+    expect(within(titles).getAllByRole("listitem")).toHaveLength(5);
+  });
+});
+
+describe("/elo/matchups", () => {
+  it("ranks each of the nine matchups and lists every player", () => {
+    render(<EloMatchupsPage />);
+    expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("ELO by matchup");
+    for (const name of ["Terran vs Zerg", "Zerg mirror", "Protoss vs Terran"]) {
+      const card = screen.getByRole("region", { name });
+      expect(within(card).getAllByRole("listitem").length).toBeGreaterThan(0);
+    }
+    // Only Zerg players are ranked in a Zerg matchup.
+    const zvt = within(screen.getByRole("region", { name: "Zerg vs Terran" }));
+    const zergs = new Set(
+      getPlayers()
+        .filter((p) => p.race === "Z")
+        .map((p) => p.player),
+    );
+    for (const link of zvt.getAllByRole("link"))
+      expect(zergs.has(link.textContent ?? "")).toBe(true);
+    expect(rowsOf(screen.getByRole("table"))).toHaveLength(getElo().length);
+  });
+});
+
+describe("/search", () => {
+  it("goes straight to the player on an exact name or old spelling", async () => {
+    await expect(SearchPage({ searchParams: Promise.resolve({ q: "zero" }) })).rejects.toThrow(
+      /NEXT_REDIRECT/,
+    );
+  });
+
+  it("lists the matches when there are several, and says so when there are none", async () => {
+    const { unmount } = render(await SearchPage({ searchParams: Promise.resolve({ q: "so" }) }));
+    expect(screen.getByRole("link", { name: "Soulkey" })).toHaveAttribute(
+      "href",
+      "/players/soulkey",
+    );
+    expect(screen.getByRole("link", { name: "soma" })).toBeInTheDocument();
+    unmount();
+    render(await SearchPage({ searchParams: Promise.resolve({ q: "zzzzqq" }) }));
+    expect(screen.getByText(/No ASL player matches/)).toBeInTheDocument();
   });
 });
 

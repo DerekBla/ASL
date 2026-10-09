@@ -1,7 +1,8 @@
 """Resolve every player name on the season pages to a Liquipedia player page.
 
 Writes data/source/liquipedia/players.json: for each name as written on a season page, the
-player page it resolves to (after redirects), and the race and ID from that page's infobox.
+player page it resolves to (after redirects), and the race, ID and birth date from that page's
+infobox.
 Two names that resolve to the same page are the same person according to Liquipedia.
 
 Same API terms as fetch_seasons.py: identified User-Agent, gzip, one request per 3 seconds.
@@ -68,6 +69,17 @@ def infobox_field(text: str, field: str) -> str | None:
     return m.group(1).strip() or None if m else None
 
 
+def birth_date(text: str) -> str | None:
+    """The infobox birth date as YYYY-MM-DD: written plainly or as {{Birth date and age|y|m|d}}."""
+    m = re.search(r"^\s*\|\s*birth_date\s*=\s*(.*)$", text or "", re.M | re.I)
+    if not m:
+        return None
+    nums = [int(x) for x in re.findall(r"\d+", m.group(1))[:3]]
+    if len(nums) != 3 or not (1950 < nums[0] < 2020 and 1 <= nums[1] <= 12 and 1 <= nums[2] <= 31):
+        return None
+    return f"{nums[0]:04d}-{nums[1]:02d}-{nums[2]:02d}"
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     parse_seasons.CANON.clear()
@@ -98,6 +110,7 @@ def main() -> None:
             "id": infobox_field(text, "id"),
             "race": race,
             "isPlayerPage": bool(re.search(r"\{\{\s*Infobox player", text, re.I)),
+            "birth": birth_date(text),
         }
     (SRC / "players.json").write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n")
     bad = {n: v["page"] for n, v in out.items() if not v["isPlayerPage"]}

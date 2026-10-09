@@ -24,6 +24,8 @@ function rawStats(): RawStats {
     elo: read("elo.json"),
     playerStats: read("player-stats.json"),
     raceStats: read("race-stats.json"),
+    maps: read("maps.json"),
+    records: read("records.json"),
     validation: read("validation.json"),
   };
 }
@@ -48,7 +50,7 @@ describe("parseStats", () => {
     const raw = rawStats();
     (raw.manifest as Record<string, unknown>).schemaVersion = SUPPORTED_SCHEMA_VERSION + 1;
     expect(() => parseStats(raw)).toThrow(StatsDataError);
-    expect(() => parseStats(raw)).toThrow(/schema version 4.*supports only 3/);
+    expect(() => parseStats(raw)).toThrow(/schema version 5.*supports only 4/);
   });
 
   it("refuses a manifest with no schema version", () => {

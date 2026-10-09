@@ -87,6 +87,15 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   order played, computed by `compute_game_elo` in the exporter. `/elo` counts ASL games only;
   `/elo/with-qualifiers` also counts the qualifier games Liquipedia has (S4 on). Only players
   who entered an ASL season are listed. Say which games a rating counts wherever it is shown.
+  Every series carries the ELO it moved (`series.json` `elo`), and each player has a separate
+  rating against each race (`vsRace`, `/elo/matchups`; shown only from 10 games).
+- **Chances from ELO** (2026-10-09): never turn a rating gap into a win chance with the plain
+  formula. It overstates the favorite (it gave Soulkey 87% in the S22 final; the higher rated
+  player wins about 55% of ASL games). Use `getWinChance` or pass `manifest.elo.probabilityScale`
+  (0.7, fitted by the exporter to the games played) to `eloWinProbability`, and
+  `seriesWinProbability` for a best of N. Label every chance as a rough guide.
+- **Maps** keep Liquipedia's names. Versions stay separate (`Sylphid`, `Neo Sylphid`, `Vermeer SE`).
+  One spelling fix is applied in the exporter (`MAP_NAMES`): `Matchpoint` → `Match Point`.
 - **Branding**: unofficial fan project. No ASL/SOOP/AfreecaTV logos or trade dress. Footer
   carries a "fan project, not affiliated" disclaimer.
 
@@ -184,6 +193,16 @@ TypeScript 7 and would have taken ESLint 10, but `typescript-eslint` supports Ty
 6.1 and `eslint-config-next@15` supports ESLint up to 9. TypeScript is pinned to 5.9 and ESLint
 to 9. Don't bump either without checking those two peer ranges, or until Next.js itself moves.
 
+**[2026-10-09] ELO win chances were overconfident** — the textbook formula on K=32 ratings
+predicted 67% for favorites who won 62%, and a best of seven stretched that into 87%. Check a
+predicted chance against what actually happened (bucket by gap, compare) before showing it.
+The exporter now fits `probabilityScale`; matchup ratings were tested too and predict no better
+than the overall rating, so they are shown as ratings and never used for chances.
+
+**[2026-10-09] Tests that quote current results break the refresh job** — the scheduled refresh
+runs the tests before it publishes, so a test that hard-codes the newest series or today's
+ELO fails the moment a match is played. Read expected values from the data.
+
 ---
 
 ## ROADMAP Status Lifecycle
@@ -228,4 +247,5 @@ draft → approved → in-progress → implemented
 | `pnpm stats:qualifiers` | Download the qualifier pages into `data/source/liquipedia/qualifiers/` (network, about 5 minutes) |
 | `pnpm stats:vods` | List the English casts on YouTube into `data/source/youtube/videos.json` (network) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
+| `pnpm stats:refresh` | Update the season in progress and publish it, or stop if anything looks off. Runs on a schedule: `Docs/tooling-specs/stats-refresh.md` |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

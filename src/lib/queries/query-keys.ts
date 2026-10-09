@@ -7,6 +7,9 @@ export const queryKeys = {
   drafts: {
     detail: (id: number) => ["drafts", id] as const,
   },
+  players: {
+    names: ["players", "names"] as const,
+  },
   me: {
     market: (slug: string) => ["me", "market", slug] as const,
   },
