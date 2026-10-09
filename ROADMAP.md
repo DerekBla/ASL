@@ -102,5 +102,6 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 ### Archive
 
+- [implemented 2026-10-08] Season page bracket, group tables and logo — requested by Derek after feedback from a friend. Playoffs drawn as a bracket and each group as a standings table with its matches (`src/lib/services/stats/stages.ts`, `PlayoffBracket`, `GroupStages`), a coin and star logo in the header and as the tab icon (`src/components/Logo.tsx`), and the Stats and Play labels removed from the navigation
 - [implemented 2026-10-08] Landing page and clearer labels — requested by Derek after feedback from a friend. Intro leads with stats and explains the three games, navigation in two labeled groups (Stats, Play), nav labels match page headings, a plain intro on every index page
 - [implemented 2026-10-07] Price history chart — Line chart per outcome on the market page. Works once the Neon and Clerk keys are set

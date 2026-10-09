@@ -2,6 +2,10 @@
 
 **File**: `src/components/SiteHeader.tsx` · **Status**: built
 
-Site name (links home) and the main navigation, in `<nav aria-label="Main">`. Rendered once by
-`src/app/layout.tsx`. Links sit in two labeled groups, **Stats** first and then **Play** (`NAV_GROUPS`), and each
-label matches the heading of the page it opens. Add a page by adding an entry to a group.
+The logo and site name (link home) and the main navigation, in `<nav aria-label="Main">`. Rendered
+once by `src/app/layout.tsx`. One row of links with no group labels (Derek, 2026-10-08), stats pages
+first and then the games (`NAV_ITEMS`). Each label matches the heading of the page it opens. Add a
+page by adding an entry.
+
+The logo is `src/components/Logo.tsx`: a gold coin with a star, drawn in SVG with the `coin` color
+tokens. The same drawing is the browser tab icon, `src/app/icon.svg`.

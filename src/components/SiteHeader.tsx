@@ -3,30 +3,22 @@ import type { ReactElement, ReactNode } from "react";
 
 import { SITE_NAME } from "@/lib/config/site";
 
+import { Logo } from "./Logo";
+
 /**
- * Two labeled groups, stats first: the site is a stats site that also has games to play
- * (Derek, 2026-10-08). Each label matches the heading of the page it opens.
+ * One row of links, stats first and then the games (Derek, 2026-10-08: no group labels). Each
+ * label matches the heading of the page it opens.
  */
-const NAV_GROUPS = [
-  {
-    label: "Stats",
-    items: [
-      { href: "/seasons", label: "Seasons" },
-      { href: "/players", label: "Players" },
-      { href: "/elo", label: "ELO ratings" },
-      { href: "/head-to-head", label: "Head to head" },
-      { href: "/races", label: "Race stats" },
-    ],
-  },
-  {
-    label: "Play",
-    items: [
-      { href: "/markets", label: "Markets" },
-      { href: "/leaderboard", label: "Market leaderboard" },
-      { href: "/pickem", label: "Pick'em" },
-      { href: "/drafts", label: "Drafts" },
-    ],
-  },
+const NAV_ITEMS = [
+  { href: "/seasons", label: "Seasons" },
+  { href: "/players", label: "Players" },
+  { href: "/elo", label: "ELO ratings" },
+  { href: "/head-to-head", label: "Head to head" },
+  { href: "/races", label: "Race stats" },
+  { href: "/markets", label: "Markets" },
+  { href: "/leaderboard", label: "Market leaderboard" },
+  { href: "/pickem", label: "Pick'em" },
+  { href: "/drafts", label: "Drafts" },
 ] as const;
 
 type Props = {
@@ -40,36 +32,24 @@ export function SiteHeader({ account }: Props): ReactElement {
       <div className="mx-auto flex min-h-[3.125rem] w-full max-w-5xl flex-wrap items-center gap-x-5 gap-y-1 px-4 py-1">
         <Link
           href="/"
-          className="text-[1.125rem] font-semibold text-on-nav no-underline hover:no-underline"
+          className="flex items-center gap-2 text-[1.125rem] font-semibold text-on-nav no-underline hover:no-underline"
         >
+          <Logo />
           {SITE_NAME}
         </Link>
-        <nav aria-label="Main" className="flex flex-wrap items-center gap-x-5 gap-y-1">
-          {NAV_GROUPS.map((group) => {
-            const labelId = `nav-${group.label.toLowerCase()}`;
-            return (
-              <div key={group.label} className="flex flex-wrap items-center gap-1">
-                <span
-                  id={labelId}
-                  className="text-caption font-semibold tracking-wide text-on-nav/70 uppercase"
+        <nav aria-label="Main">
+          <ul className="flex flex-wrap gap-1">
+            {NAV_ITEMS.map((item) => (
+              <li key={item.href}>
+                <Link
+                  href={item.href}
+                  className="rounded px-2 py-1.5 text-data font-semibold text-on-nav/90 no-underline transition-colors hover:bg-nav-hover hover:text-on-nav-hover hover:no-underline"
                 >
-                  {group.label}
-                </span>
-                <ul aria-labelledby={labelId} className="flex flex-wrap gap-1">
-                  {group.items.map((item) => (
-                    <li key={item.href}>
-                      <Link
-                        href={item.href}
-                        className="rounded px-2 py-1.5 text-data font-semibold text-on-nav/90 no-underline transition-colors hover:bg-nav-hover hover:text-on-nav-hover hover:no-underline"
-                      >
-                        {item.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            );
-          })}
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </nav>
         {account ? <div className="ml-auto">{account}</div> : null}
       </div>

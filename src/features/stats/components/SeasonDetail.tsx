@@ -1,15 +1,22 @@
 import type { ReactElement } from "react";
 
-import { getPlacementsForSeason, getSeriesForSeason } from "@/lib/services/stats";
-import type { Season, Series } from "@/lib/services/stats";
-import { formatDateRange, formatInteger, formatKrw, formatScore } from "@/lib/utils/format";
+import {
+  buildBracket,
+  buildGroupStages,
+  getPlacementsForSeason,
+  getSeriesForSeason,
+} from "@/lib/services/stats";
+import type { Season } from "@/lib/services/stats";
+import { formatDateRange, formatInteger, formatKrw } from "@/lib/utils/format";
 
 import { DataTable } from "@/components/DataTable";
 import type { DataTableColumn, DataTableRow } from "@/components/DataTable";
 import { PlacementBadge } from "@/components/PlacementBadge";
 import { RaceBadge } from "@/components/RaceBadge";
 
+import { GroupStages } from "./GroupStages";
 import { PlayerLink } from "./PlayerLink";
+import { PlayoffBracket } from "./PlayoffBracket";
 
 type Props = {
   season: Season;
@@ -22,38 +29,11 @@ const PLACEMENT_COLUMNS: DataTableColumn[] = [
   { key: "prize", header: "Prize", align: "right", firstSort: "desc" },
 ];
 
-const ROUND_ORDER = ["final", "third_place", "semifinal", "quarterfinal"];
-const ROUND_LABEL: Record<string, string> = {
-  final: "Final",
-  third_place: "Third place match",
-  semifinal: "Semifinal",
-  quarterfinal: "Quarterfinal",
-};
-
-function SeriesLine({ s }: { s: Series }): ReactElement {
-  return (
-    <li className="flex flex-wrap items-center gap-2">
-      <RaceBadge race={s.winnerRace} />
-      <PlayerLink name={s.winner} />
-      <span className="text-ink-muted">beat</span>
-      <RaceBadge race={s.loserRace} />
-      <PlayerLink name={s.loser} />
-      {s.score ? <span className="tabular-nums">{formatScore(s.score)}</span> : null}
-    </li>
-  );
-}
-
 export function SeasonDetail({ season }: Props): ReactElement {
   const placements = getPlacementsForSeason(season.season);
   const series = getSeriesForSeason(season.season);
-  const playoffs = series
-    .filter((s) => s.stage === "playoffs")
-    .sort((a, b) => ROUND_ORDER.indexOf(a.round) - ROUND_ORDER.indexOf(b.round));
-  const groups = new Map<string, Series[]>();
-  for (const s of series.filter((x) => x.stage !== "playoffs")) {
-    const key = `${s.stage === "ro24" ? "Round of 24" : "Round of 16"} · ${s.round}`;
-    groups.set(key, [...(groups.get(key) ?? []), s]);
-  }
+  const bracket = buildBracket(series);
+  const stages = buildGroupStages(series);
 
   const rows: DataTableRow[] = placements.map((p) => ({
     id: p.player,
@@ -90,20 +70,11 @@ export function SeasonDetail({ season }: Props): ReactElement {
 
       <section aria-labelledby="playoffs-heading" className="flex flex-col gap-3">
         <h2 id="playoffs-heading">Playoffs</h2>
-        {ROUND_ORDER.map((round) => {
-          const matches = playoffs.filter((s) => s.round === round);
-          if (matches.length === 0) return null;
-          return (
-            <div key={round} className="flex flex-col gap-1">
-              <h3>{ROUND_LABEL[round]}</h3>
-              <ul className="flex flex-col gap-1">
-                {matches.map((s) => (
-                  <SeriesLine key={`${s.winner}-${s.loser}`} s={s} />
-                ))}
-              </ul>
-            </div>
-          );
-        })}
+        {bracket.rounds.length > 0 ? (
+          <PlayoffBracket bracket={bracket} />
+        ) : (
+          <p className="text-ink-muted">The playoffs have not started.</p>
+        )}
         {season.thirdPlaceMatch ? null : (
           <p className="text-caption text-ink-muted">
             No third place match this season, so both semifinal losers share 3rd.
@@ -122,18 +93,11 @@ export function SeasonDetail({ season }: Props): ReactElement {
 
       <section aria-labelledby="groups-heading" className="flex flex-col gap-3">
         <h2 id="groups-heading">Group stages</h2>
-        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          {[...groups].map(([name, matches]) => (
-            <div key={name} className="card p-4">
-              <h3 className="mb-2">{name}</h3>
-              <ul className="flex flex-col gap-1 text-data">
-                {matches.map((s, i) => (
-                  <SeriesLine key={i} s={s} />
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        <p className="text-caption text-ink-muted">
+          Players are listed by their record in the group. A green bar marks the players who
+          advanced.
+        </p>
+        <GroupStages stages={stages} />
       </section>
 
       <p className="text-caption text-ink-muted">

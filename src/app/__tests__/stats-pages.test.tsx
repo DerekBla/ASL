@@ -45,6 +45,37 @@ describe("/seasons/[season]", () => {
     );
   });
 
+  it("draws the playoffs as a bracket", async () => {
+    render(await SeasonPage({ params: Promise.resolve({ season: "5" }) }));
+    const final = screen.getByRole("region", { name: "Final" });
+    expect(within(final).getAllByRole("listitem")).toHaveLength(1);
+    expect(within(final).getByRole("listitem")).toHaveTextContent("Rainwon3");
+    expect(within(final).getByRole("listitem")).toHaveTextContent("SnOw1");
+    expect(
+      within(screen.getByRole("region", { name: "Quarterfinals" })).getAllByRole("listitem"),
+    ).toHaveLength(4);
+    expect(
+      within(screen.getByRole("region", { name: "Semifinals" })).getAllByRole("listitem"),
+    ).toHaveLength(2);
+    expect(screen.getByRole("region", { name: "Third place match" })).toHaveTextContent("herO");
+  });
+
+  it("shows each group as a table with who advanced, then its matches", async () => {
+    render(await SeasonPage({ params: Promise.resolve({ season: "5" }) }));
+    const group = screen.getByRole("table", { name: "Round of 24, Group A" });
+    const rows = within(group).getAllByRole("row").slice(1);
+    expect(rows.map((r) => r.textContent)).toEqual([
+      "1.ZZergShine2–0Advanced",
+      "2.PProtossShuttle2–1Advanced",
+      "3.PProtossSky1–2Out",
+      "4.TTerranLight0–2Out",
+    ]);
+    const matches = screen.getByRole("list", { name: "Round of 24 Group A matches" });
+    expect(within(matches).getAllByRole("listitem")).toHaveLength(5);
+    expect(within(matches).getByText("Decider match")).toBeInTheDocument();
+    expect(screen.getByRole("table", { name: "Round of 16, Group D" })).toBeInTheDocument();
+  });
+
   it("is a 404 for a season that does not exist", async () => {
     await expect(SeasonPage({ params: Promise.resolve({ season: "99" }) })).rejects.toThrow();
   });

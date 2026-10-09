@@ -32,6 +32,8 @@ import type {
 } from "./schemas";
 
 export { StatsDataError } from "./parse";
+export { buildBracket, buildGroupStages } from "./stages";
+export type { Bracket, BracketMatch, BracketSide, GroupStage, StageGroup } from "./stages";
 export { playerSlug } from "@/lib/utils/slug";
 export type {
   EloRow,

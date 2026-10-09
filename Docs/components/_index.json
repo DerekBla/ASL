@@ -27,7 +27,7 @@
   },
   {
     "file": "site-header.md",
-    "purpose": "Site name and main navigation (Seasons, Players, ELO, Head-to-head, Races). Rendered once by the root layout.",
+    "purpose": "Logo (Logo.tsx, a coin with a star), site name and main navigation: one row of links, stats pages first and then the games, with no group labels. Rendered once by the root layout.",
     "readWhen": "Adding a top-level section to the site, or changing the main navigation."
   }
 ]

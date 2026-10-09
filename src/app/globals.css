@@ -27,6 +27,11 @@
   --color-race-ink: #1a1f2b;
   --color-race-on-dark: #ffffff;
 
+  /* The logo: a gold coin with a star, the same in light and dark mode. */
+  --color-coin: #f6c244;
+  --color-coin-rim: #b9790b;
+  --color-coin-star: #2b3f7a;
+
   --font-mono: ui-monospace, "Cascadia Mono", "SFMono-Regular", Menlo, Consolas, monospace;
 
   /*
@@ -75,6 +80,7 @@
   --nav-hover: #d9e2ff; /* --clr-wiki-primary-container */
   --on-nav-hover: #00184a; /* --clr-wiki-on-primary-container */
   --shadow-soft: 0 1px 2px rgb(0 24 74 / 0.05), 0 6px 20px rgb(0 24 74 / 0.06);
+  --advance: #2e8b47; /* marks a player who got out of a group */
   /* Chart series, validated with the dataviz palette checks against --card (fixed order). */
   --series-1: #2a78d6;
   --series-2: #eb6834;
@@ -100,6 +106,7 @@
     --nav-hover: #002d52; /* --wiki-nav-background-color */
     --on-nav-hover: #ffffff;
     --shadow-soft: 0 1px 2px rgb(0 0 0 / 0.35), 0 6px 20px rgb(0 0 0 / 0.3);
+    --advance: #5fbf77;
     --series-1: #3987e5;
     --series-2: #d95926;
     --series-3: #199e70;
@@ -125,6 +132,7 @@
   --color-on-nav-hover: var(--on-nav-hover);
   /* Text on an accent fill (primary buttons): white on light, near-black on the light dark-mode accent. */
   --color-on-accent: var(--on-accent);
+  --color-advance: var(--advance);
   --color-series-1: var(--series-1);
   --color-series-2: var(--series-2);
   --color-series-3: var(--series-3);
@@ -180,6 +188,54 @@
 
   .notice {
     @apply rounded-[var(--radius-card)] border border-line bg-surface-muted px-3 py-2;
+  }
+
+  /*
+   * Playoff bracket: one column per round, each match centered between the two that feed it.
+   * A slot draws half of the elbow to the next round; the next round draws the line in.
+   */
+  .bracket {
+    @apply flex min-w-max;
+  }
+
+  .bracket-round {
+    @apply flex flex-col px-5 first:pl-0 last:pr-0;
+  }
+
+  .bracket-heading {
+    @apply mb-1 rounded bg-table-head px-2 py-1 text-center text-caption font-semibold;
+  }
+
+  .bracket-slots {
+    @apply flex flex-1 flex-col;
+  }
+
+  .bracket-slot {
+    @apply relative flex flex-1 items-center py-1.5;
+  }
+
+  .bracket-match {
+    @apply w-48 overflow-hidden rounded border border-line-strong bg-card text-data;
+  }
+
+  .bracket-match > * + * {
+    @apply border-t border-line;
+  }
+
+  .bracket-round:not(:last-child) .bracket-slot::after {
+    @apply absolute left-full h-1/2 w-5 border-r border-line-strong content-[""];
+  }
+
+  .bracket-round:not(:last-child) .bracket-slot:nth-child(odd)::after {
+    @apply top-1/2 border-t;
+  }
+
+  .bracket-round:not(:last-child) .bracket-slot:nth-child(even)::after {
+    @apply bottom-1/2 border-b;
+  }
+
+  .bracket-round:not(:first-child) .bracket-slot::before {
+    @apply absolute top-1/2 right-full w-5 border-t border-line-strong content-[""];
   }
 
   .field {
