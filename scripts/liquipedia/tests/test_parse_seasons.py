@@ -122,6 +122,9 @@ class MapAndVodTests(unittest.TestCase):
         self.assertEqual(vods.playoff(30, "r1m4", "Soulkey", "Queen"), "https://www.youtube.com/watch?v=bbbbbbbbbbb")
         self.assertIsNone(vods.playoff(30, "r1m2", "Flash", "Rain"))
         self.assertEqual(vods.by_day(30, "ro4"), [{"label": "Day 1", "url": "https://www.youtube.com/watch?v=ddddddddddd"}])
+        # A cast titled by day belongs to the match of the same number in its round.
+        self.assertEqual(vods.playoff(30, "r2m1", "Flash", "Rain"), "https://www.youtube.com/watch?v=ddddddddddd")
+        self.assertIsNone(vods.playoff(30, "r2m2", "Bisu", "Mini"))
 
 
 class GroupStandingTests(unittest.TestCase):
@@ -198,9 +201,9 @@ class RealSeasonTests(unittest.TestCase):
         first = self.seasons[3]["groups"][0]["series"][0]
         self.assertEqual(first["games"], [{"map": "Camelot", "winner": "Shuttle"}])
         self.assertEqual(first["vod"], "https://www.youtube.com/watch?v=6TTGeGWY6hQ&t=2040s")
-        # Older playoff casts are titled by day, so they hang off the round, not a series.
-        self.assertEqual([v["label"] for v in self.seasons[4]["roundVods"] if v["round"] == "quarterfinal"],
-                         ["Day 1", "Day 2", "Day 3", "Day 4"])
+        # Older playoff casts are titled by day: day 2 is the round's second match.
+        self.assertEqual(self.seasons[4]["bracket"]["r1m2"]["vod"], "https://www.youtube.com/watch?v=toURJRI-K-k")
+        self.assertEqual(self.seasons[4]["roundVods"], [])
         self.assertEqual(self.seasons[21]["roundVods"], [])
 
 

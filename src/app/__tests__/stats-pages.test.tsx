@@ -58,10 +58,9 @@ describe("/seasons/[season]", () => {
       within(screen.getByRole("region", { name: "Semifinals" })).getAllByRole("listitem"),
     ).toHaveLength(2);
     expect(screen.getByRole("region", { name: "Third place match" })).toHaveTextContent("herO");
-    // S5's playoff casts are titled by day, so they are listed under the bracket.
-    expect(
-      screen.getByRole("link", { name: "Day 1: watch Quarterfinal casts, Day 1 on YouTube" }),
-    ).toHaveAttribute("href", expect.stringContaining("youtube.com/watch"));
+    // S5's playoff casts are titled by day: each goes to the match of the same number.
+    const quarters = screen.getByRole("region", { name: "Quarterfinals" });
+    expect(within(quarters).getAllByRole("link", { name: /^VOD: watch/ })).toHaveLength(4);
   });
 
   it("lists the maps of a playoff series and links its cast", async () => {

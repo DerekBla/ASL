@@ -172,7 +172,8 @@ per group and per playoff series, in this order:
    start time. Links to other sites (the Korean SOOP broadcast) are ignored.
 2. Otherwise a video of the SOOP esports EN channel whose title names the season and the group
    (`Ro.24 Group A`) or the two players of a playoff series (`title_slot`, `Vods`).
-3. Playoff casts titled only by broadcast day cannot be tied to one series; they become the
+3. Playoff casts titled only by broadcast day go to the match of the same number in their round
+   (day 1 is the first quarterfinal; Derek, 2026-10-08). Any left over become the
    season's `roundVods`.
 
 `data/source/youtube/videos.json` lists every video known to exist, with title and channel, and

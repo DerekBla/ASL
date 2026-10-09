@@ -265,7 +265,8 @@ class Vods:
     """Picks the English cast for a group or a playoff series.
 
     A link on the Liquipedia page wins when its video still exists. Otherwise the cast is
-    matched by title among the channel's videos. Links to videos that are gone are dropped.
+    matched by title among the channel's videos: by the two players' names, then by match
+    number, then by broadcast day. Links to videos that are gone are dropped.
     """
 
     def __init__(self, videos: dict[str, dict] | None = None):
@@ -307,7 +308,12 @@ class Vods:
         if len(by_name) == 1:
             return self.url((by_name[0], 0))
         nameless = [vid for vid, (num, names) in options if names is None and (num == number or stage in ("final", "third"))]
-        return self.url((nameless[0], 0)) if len(nameless) == 1 and not by_name else None
+        if len(nameless) == 1 and not by_name:
+            return self.url((nameless[0], 0))
+        # Casts titled by broadcast day: day 1 is the round's first match, day 2 its second, and
+        # so on (the channel's naming convention, confirmed by Derek 2026-10-08).
+        day = self.days.get((season, stage), {}).get(number, []) if not by_name and not nameless else []
+        return self.url((day[0], 0)) if len(day) == 1 else None
 
 
 # --------------------------------------------------------------------------- season
@@ -464,7 +470,8 @@ def parse_season(n: int, text: str, vods: Vods | None = None) -> dict:
                            "games": games_of(m, a, b), "vod": vods.url(m["vod"]) or vods.playoff(n, key, a, b)}
         elif key != "rxmtp":
             notes.append(f"bracket: could not read {key.upper()}")
-    # A round whose casts are titled by day cannot be tied to single matches: list the days.
+    # Day casts go to the match of the same number (Vods.playoff). If a round still has a match
+    # without a cast, list its days under the bracket as well.
     round_vods = []
     for prefix, stage, label in (("r1", "ro8", "quarterfinal"), ("r2", "ro4", "semifinal")):
         if any(not m["vod"] for k, m in rounds.items() if k.startswith(prefix)):

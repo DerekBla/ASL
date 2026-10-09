@@ -843,42 +843,42 @@
         "loser": "Bisu",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=1DyxE2d8Prw"
       },
       "r1m2": {
         "winner": "Best",
         "loser": "herO",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=54m-FiISEJQ"
       },
       "r1m3": {
         "winner": "Flash",
         "loser": "GuemChi",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=jkE5QdrZVfc"
       },
       "r1m4": {
         "winner": "Jaedong",
         "loser": "Stork",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=2JcyHnZd1lA"
       },
       "r2m1": {
         "winner": "Sea",
         "loser": "Best",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=WlYSqcKdkHI"
       },
       "r2m2": {
         "winner": "Flash",
         "loser": "Jaedong",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=vC-pPMOrsKw"
       },
       "r3m1": {
         "winner": "Flash",
@@ -888,38 +888,7 @@
         "vod": "https://www.youtube.com/watch?v=MuhjA_Fv0VI"
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=1DyxE2d8Prw"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=54m-FiISEJQ"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=jkE5QdrZVfc"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=2JcyHnZd1lA"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=WlYSqcKdkHI"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=vC-pPMOrsKw"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -1853,42 +1822,42 @@
         "loser": "sSak",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=voO-r-FFCl8"
       },
       "r1m2": {
         "winner": "Shine",
         "loser": "Mong",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=Gk3uDIjF_B0"
       },
       "r1m3": {
         "winner": "Soulkey",
         "loser": "Best",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=QScWinD4lPY"
       },
       "r1m4": {
         "winner": "Flash",
         "loser": "Last",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=ioW8_X5SAN4"
       },
       "r2m1": {
         "winner": "Shine",
         "loser": "Bisu",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=vxcnz8EHi_o"
       },
       "r2m2": {
         "winner": "Flash",
         "loser": "Soulkey",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=VtbiRiO3nBE"
       },
       "r3m1": {
         "winner": "Flash",
@@ -1905,38 +1874,7 @@
         "vod": null
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=voO-r-FFCl8"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=Gk3uDIjF_B0"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=QScWinD4lPY"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=ioW8_X5SAN4"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=vxcnz8EHi_o"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=VtbiRiO3nBE"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -2871,42 +2809,42 @@
         "loser": "Rain",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=e9eCGElQJIM"
       },
       "r1m2": {
         "winner": "herO",
         "loser": "Soulkey",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=toURJRI-K-k"
       },
       "r1m3": {
         "winner": "Bisu",
         "loser": "Killer",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=0jjULjQ_cqA"
       },
       "r1m4": {
         "winner": "Flash",
         "loser": "Mind",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=PZ5VyM1JOk0"
       },
       "r2m1": {
         "winner": "herO",
         "loser": "Larva",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=0T5OQqP-7CU"
       },
       "r2m2": {
         "winner": "Flash",
         "loser": "Bisu",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=ENnIpOtrgP0"
       },
       "r3m1": {
         "winner": "Flash",
@@ -2923,38 +2861,7 @@
         "vod": null
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=e9eCGElQJIM"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=toURJRI-K-k"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=0jjULjQ_cqA"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=PZ5VyM1JOk0"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=0T5OQqP-7CU"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=ENnIpOtrgP0"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -3889,42 +3796,42 @@
         "loser": "Shuttle",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=5kvNatT3PuU"
       },
       "r1m2": {
         "winner": "herO",
         "loser": "Mind",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=Pezx79kVWXc"
       },
       "r1m3": {
         "winner": "Mini",
         "loser": "Larva",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=rmyFbSGWUig"
       },
       "r1m4": {
         "winner": "SnOw",
         "loser": "Flash",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=8uXbRfYeDZY"
       },
       "r2m1": {
         "winner": "Rain",
         "loser": "herO",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=o-tCmswwP6k"
       },
       "r2m2": {
         "winner": "SnOw",
         "loser": "Mini",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=dCn9WWIk4so"
       },
       "r3m1": {
         "winner": "Rain",
@@ -3941,38 +3848,7 @@
         "vod": "https://www.youtube.com/watch?v=EAWKXw3n7C8"
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=5kvNatT3PuU"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=Pezx79kVWXc"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=rmyFbSGWUig"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=8uXbRfYeDZY"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=o-tCmswwP6k"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=dCn9WWIk4so"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -4910,42 +4786,42 @@
         "loser": "Sharp",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=v34taOKBTgY"
       },
       "r1m2": {
         "winner": "EffOrt",
         "loser": "Rain",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=Qv3oYNRtATI"
       },
       "r1m3": {
         "winner": "Shuttle",
         "loser": "Action",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=aYxDwfu1Hr8"
       },
       "r1m4": {
         "winner": "Flash",
         "loser": "Mini",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=4HPWt0VBvSo"
       },
       "r2m1": {
         "winner": "EffOrt",
         "loser": "Last",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=iceVygnINGo"
       },
       "r2m2": {
         "winner": "Flash",
         "loser": "Shuttle",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=aQhEKnrN_bg"
       },
       "r3m1": {
         "winner": "EffOrt",
@@ -4962,38 +4838,7 @@
         "vod": "https://www.youtube.com/watch?v=QCwwyiUvg54"
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=v34taOKBTgY"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=Qv3oYNRtATI"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=aYxDwfu1Hr8"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=4HPWt0VBvSo"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=iceVygnINGo"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=aQhEKnrN_bg"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -5918,42 +5763,42 @@
         "loser": "Calm",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=SRGyrxANxVo"
       },
       "r1m2": {
         "winner": "EffOrt",
         "loser": "Mind",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=4h0IOd-BVTk"
       },
       "r1m3": {
         "winner": "Last",
         "loser": "Sharp",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=x-2V1uj2F34"
       },
       "r1m4": {
         "winner": "Rain",
         "loser": "Horang2",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=iogKNMMgfqU"
       },
       "r2m1": {
         "winner": "Mini",
         "loser": "EffOrt",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=VXun-vUEjw8"
       },
       "r2m2": {
         "winner": "Last",
         "loser": "Rain",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=oPLSoFyVjes"
       },
       "r3m1": {
         "winner": "Last",
@@ -5970,38 +5815,7 @@
         "vod": "https://www.youtube.com/watch?v=jFrM0qSWViw"
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=SRGyrxANxVo"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=4h0IOd-BVTk"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=x-2V1uj2F34"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=iogKNMMgfqU"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=VXun-vUEjw8"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=oPLSoFyVjes"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -6936,42 +6750,42 @@
         "loser": "Last",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=vwXsPimVYkQ"
       },
       "r1m2": {
         "winner": "Action",
         "loser": "Sharp",
         "score": "3-2",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=SMN1GPC_iMA"
       },
       "r1m3": {
         "winner": "Flash",
         "loser": "Light",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=tgc5lEU9e7s"
       },
       "r1m4": {
         "winner": "Rain",
         "loser": "Sacsri",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=xxAEcWFBtRg"
       },
       "r2m1": {
         "winner": "SnOw",
         "loser": "Action",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=nqsQa3-i4Gk"
       },
       "r2m2": {
         "winner": "Flash",
         "loser": "Rain",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=ufQ6gsB2pis"
       },
       "r3m1": {
         "winner": "Flash",
@@ -6988,38 +6802,7 @@
         "vod": "https://www.youtube.com/watch?v=LNUJUivnPzY"
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=vwXsPimVYkQ"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=SMN1GPC_iMA"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=tgc5lEU9e7s"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=xxAEcWFBtRg"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=nqsQa3-i4Gk"
-      },
-      {
-        "round": "semifinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=ufQ6gsB2pis"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
@@ -9229,28 +9012,28 @@
         "loser": "Rush",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=4wzgArbZPx8"
       },
       "r1m2": {
         "winner": "soma",
         "loser": "SnOw",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=zfXGHmBPppg"
       },
       "r1m3": {
         "winner": "Larva",
         "loser": "Soulkey",
         "score": "3-1",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=GgPfoDM4HN0"
       },
       "r1m4": {
         "winner": "Queen",
         "loser": "Best",
         "score": "3-0",
         "games": [],
-        "vod": null
+        "vod": "https://www.youtube.com/watch?v=Vhnb9XV93NM"
       },
       "r2m1": {
         "winner": "soma",
@@ -9281,28 +9064,7 @@
         "vod": "https://www.youtube.com/watch?v=Abq7gWLc2gU"
       }
     },
-    "roundVods": [
-      {
-        "round": "quarterfinal",
-        "label": "Day 1",
-        "url": "https://www.youtube.com/watch?v=4wzgArbZPx8"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 2",
-        "url": "https://www.youtube.com/watch?v=zfXGHmBPppg"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 3",
-        "url": "https://www.youtube.com/watch?v=GgPfoDM4HN0"
-      },
-      {
-        "round": "quarterfinal",
-        "label": "Day 4",
-        "url": "https://www.youtube.com/watch?v=Vhnb9XV93NM"
-      }
-    ],
+    "roundVods": [],
     "groups": [
       {
         "stage": "ro24",
