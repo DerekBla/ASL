@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
 import type { ReactElement } from "react";
 
-import { getManifest } from "@/lib/services/stats";
+import { getElo, getManifest } from "@/lib/services/stats";
 import { formatInteger } from "@/lib/utils/format";
 
-import { EloTable } from "@/features/stats";
+import { EloTable, EloTopChart } from "@/features/stats";
 
 export const metadata: Metadata = {
   title: "ELO ratings",
   description: "ELO from season placements for every ASL player, current and peak.",
 };
 
+/** Players drawn on the chart: the best current ratings. */
+const TOP = 10;
+
 export default function EloPage(): ReactElement {
   const { elo, seasons } = getManifest();
+  const top = getElo()
+    .slice(0, TOP)
+    .map((row) => ({ rank: row.rank, player: row.player, history: row.history }));
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-2">
@@ -24,7 +30,11 @@ export default function EloPage(): ReactElement {
           players go, not individual game results.
         </p>
       </header>
-      <EloTable />
+      <EloTopChart players={top} lastSeason={seasons.count} start={elo.start} />
+      <section aria-labelledby="all-ratings" className="flex flex-col gap-3">
+        <h2 id="all-ratings">All ratings</h2>
+        <EloTable />
+      </section>
     </div>
   );
 }

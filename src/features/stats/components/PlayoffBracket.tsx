@@ -39,27 +39,28 @@ function Match({ match }: { match: BracketMatch }): ReactElement {
       <Side side={match.top} />
       <Side side={match.bottom} />
       {maps.length > 0 || match.vod ? (
-        <div className="flex items-start gap-2 px-2 py-1 text-caption">
+        // The cast button sits over the top right corner so the map list can use the full width.
+        <div className="relative min-h-7 px-2 py-1 text-caption">
           {maps.length > 0 ? (
-            <details className="group min-w-0 flex-1">
-              <summary className="cursor-pointer font-semibold text-link select-none">
+            <details className="group">
+              <summary className="cursor-pointer pr-16 leading-5 font-semibold text-link select-none">
                 <span className="group-open:hidden">Show maps</span>
                 <span className="hidden group-open:inline">Hide maps</span>
               </summary>
-              <ol className="mt-1 flex flex-col gap-0.5">
+              <ol className="mt-1.5 flex flex-col gap-1">
                 {maps.map((g, i) => (
-                  <li key={i} className="flex justify-between gap-2">
-                    <span className="truncate">{g.map}</span>
+                  <li key={i} className="flex items-baseline justify-between gap-3">
+                    <span>{g.map}</span>
                     <span className="shrink-0 text-ink-muted">{g.winner}</span>
                   </li>
                 ))}
               </ol>
             </details>
-          ) : (
-            <span className="flex-1" />
-          )}
+          ) : null}
           {match.vod ? (
-            <VodLink url={match.vod} of={`${match.top.player} against ${match.bottom.player}`} />
+            <span className="absolute top-1 right-2">
+              <VodLink url={match.vod} of={`${match.top.player} against ${match.bottom.player}`} />
+            </span>
           ) : null}
         </div>
       ) : null}
@@ -96,7 +97,7 @@ export function PlayoffBracket({ bracket, roundVods = [] }: Props): ReactElement
       </div>
       {bracket.thirdPlace ? (
         <section aria-label="Third place match" className="flex flex-col gap-1">
-          <h3 className="bracket-heading w-48">Third place match</h3>
+          <h3 className="bracket-heading w-52">Third place match</h3>
           <Match match={bracket.thirdPlace} />
         </section>
       ) : null}

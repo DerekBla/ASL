@@ -215,7 +215,7 @@
   }
 
   .bracket-match {
-    @apply w-48 overflow-hidden rounded border border-line-strong bg-card text-data;
+    @apply w-52 overflow-hidden rounded border border-line-strong bg-card text-data;
   }
 
   .bracket-match > * + * {

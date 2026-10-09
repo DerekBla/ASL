@@ -150,7 +150,9 @@ describe("/players/[slug]", () => {
 describe("/elo", () => {
   it("shows the spreadsheet's columns, in rank order, and says it is placement-based", () => {
     render(<EloPage />);
-    const table = screen.getByRole("table");
+    const table = screen.getByRole("table", { name: /All players by current ELO/ });
+    expect(screen.getByText("Top 10 players over time")).toBeInTheDocument();
+    expect(screen.getByRole("group", { name: "Highlight a player" }).children).toHaveLength(10);
     for (const header of [
       "Rank",
       "Player",

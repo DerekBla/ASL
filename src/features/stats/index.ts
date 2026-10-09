@@ -1,5 +1,6 @@
 // Public API of the stats feature. Routes import from here.
 export { EloTable } from "./components/EloTable";
+export { EloTopChart } from "./components/EloTopChart";
 export { HeadToHeadForm, HeadToHeadResult } from "./components/HeadToHead";
 export { PlayerLink } from "./components/PlayerLink";
 export { PlayerProfile } from "./components/PlayerProfile";
