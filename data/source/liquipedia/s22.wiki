@@ -77,7 +77,7 @@ The '''Google Play ASL Season 22''' ('''Google Play ASL 시즌22''') , is an off
 }}
 
 ===Participants===
-{{ParticipantTable|count=true|disable_teams=true
+{{ParticipantTable|countByFaction=true|disable_teams=true
 |{{ParticipantSection|title=Ro16 Seeds from [[ASL/21|ASL Season 21]] (4)
 |soma
 |Flash|p2note=1 |p2dq=true
