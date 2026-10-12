@@ -59,11 +59,11 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Build orders from replays | Requested by Derek 2026-10-12. Built on branch `replay-builds`: `/builds` and a page per game, ten recent ladder replays each for Rush and Light from cwal.gg stored under `public/replays/`, build orders with times and estimated supply (`src/lib/replay/`, `pnpm replays:fetch`, `pnpm replays:export`), and `/builds/upload` to read a replay of your own in the browser. Rush and Light are filtered to their Terran games. Not deployed yet. Feature spec: `Docs/feature-specs/builds.md` <!-- updated: 2026-10-12 --> |
 | in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive
 
+- [implemented 2026-10-12] Build orders from replays — requested and approved by Derek. `/builds` and a page per game: ten recent Terran ladder replays each for Rush and Light from cwal.gg, stored under `public/replays/`, with build orders (exact times, estimated supply). `/builds/upload` reads a replay of your own in the browser. `src/lib/replay/`, `pnpm replays:fetch`, `pnpm replays:export`. Feature spec: `Docs/feature-specs/builds.md`
 - [implemented 2026-10-08] Drafts: fantasy ASL leagues — requested and approved by Derek. `/drafts`, invite links, snake draft with a 60 second clock and a sound on your pick, 1 point per game win plus a bonus point for the round of 8, round of 4, final and title, game wins fetched from Liquipedia in `/admin`, Draft champion. Feature spec: `Docs/feature-specs/drafts.md`
 - [implemented 2026-10-08] Pick'em: season brackets, public standings, achievements — requested and approved by Derek. `/pickem`, `/pickem/[season]`, bracket pages, admin setup and results. Feature spec: `Docs/feature-specs/pickem.md`. First use is S23
 - [implemented 2026-10-07] Markets: list + market detail with trade panel — `/markets`, `/markets/[slug]`, live polling, trade panel with preview. Works once the Neon and Clerk keys are set

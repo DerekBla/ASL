@@ -1,6 +1,6 @@
 # Feature Spec: Build orders from replays
 
-**Status**: in-progress
+**Status**: implemented
 **Last updated**: 2026-10-12
 **Requested by**: Derek, 2026-10-12
 
