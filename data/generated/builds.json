@@ -1547,6 +1547,14 @@
               "count": 1
             },
             {
+              "frame": 1773,
+              "supply": 9,
+              "supplyCap": 10,
+              "kind": "building",
+              "name": "Command Center",
+              "count": 1
+            },
+            {
               "frame": 2098,
               "supply": 10,
               "supplyCap": 18,
@@ -1580,291 +1588,315 @@
             },
             {
               "frame": 3994,
-              "supply": 18,
-              "supplyCap": 18,
+              "supply": 20,
+              "supplyCap": 28,
               "kind": "building",
               "name": "Bunker",
               "count": 1
             },
             {
               "frame": 4123,
-              "supply": 18,
-              "supplyCap": 18,
+              "supply": 20,
+              "supplyCap": 28,
               "kind": "building",
               "name": "Factory",
               "count": 2
             },
             {
               "frame": 4354,
-              "supply": 18,
-              "supplyCap": 18,
+              "supply": 22,
+              "supplyCap": 28,
               "kind": "building",
               "name": "Supply Depot",
               "count": 2
             },
             {
+              "frame": 4563,
+              "supply": 24,
+              "supplyCap": 28,
+              "kind": "building",
+              "name": "Factory",
+              "count": 3
+            },
+            {
               "frame": 4752,
-              "supply": 18,
-              "supplyCap": 18,
+              "supply": 24,
+              "supplyCap": 28,
               "kind": "building",
               "name": "Machine Shop",
               "count": 1
             },
             {
               "frame": 5103,
-              "supply": 21,
-              "supplyCap": 26,
+              "supply": 26,
+              "supplyCap": 36,
               "kind": "building",
               "name": "Supply Depot",
               "count": 3
             },
             {
               "frame": 5207,
-              "supply": 21,
-              "supplyCap": 26,
+              "supply": 28,
+              "supplyCap": 36,
               "kind": "building",
               "name": "Supply Depot",
               "count": 4
             },
             {
               "frame": 5367,
-              "supply": 23,
-              "supplyCap": 26,
+              "supply": 28,
+              "supplyCap": 36,
               "kind": "unit",
               "name": "Vulture",
               "count": 1
             },
             {
               "frame": 5383,
-              "supply": 25,
-              "supplyCap": 26,
+              "supply": 30,
+              "supplyCap": 36,
               "kind": "research",
               "name": "Vulture Speed",
               "count": 1
             },
             {
               "frame": 5666,
-              "supply": 26,
-              "supplyCap": 26,
+              "supply": 31,
+              "supplyCap": 36,
               "kind": "building",
               "name": "Supply Depot",
               "count": 5
             },
             {
               "frame": 6011,
-              "supply": 31,
-              "supplyCap": 42,
+              "supply": 37,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Armory",
               "count": 1
             },
             {
               "frame": 6061,
-              "supply": 31,
-              "supplyCap": 42,
+              "supply": 37,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Refinery",
               "count": 2
             },
             {
               "frame": 6237,
-              "supply": 31,
-              "supplyCap": 42,
+              "supply": 39,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Supply Depot",
               "count": 6
             },
             {
               "frame": 6889,
-              "supply": 40,
-              "supplyCap": 58,
+              "supply": 55,
+              "supplyCap": 68,
               "kind": "research",
               "name": "Spider Mines",
               "count": 1
             },
             {
               "frame": 7277,
-              "supply": 43,
-              "supplyCap": 58,
+              "supply": 56,
+              "supplyCap": 68,
               "kind": "unit",
               "name": "Siege Tank",
               "count": 1
             },
             {
               "frame": 7305,
-              "supply": 45,
-              "supplyCap": 58,
+              "supply": 58,
+              "supplyCap": 68,
               "kind": "building",
               "name": "Machine Shop",
               "count": 2
             },
             {
+              "frame": 7402,
+              "supply": 60,
+              "supplyCap": 68,
+              "kind": "building",
+              "name": "Command Center",
+              "count": 2
+            },
+            {
               "frame": 7535,
-              "supply": 47,
-              "supplyCap": 58,
+              "supply": 60,
+              "supplyCap": 68,
               "kind": "unit",
               "name": "Goliath",
               "count": 1
             },
             {
               "frame": 7595,
-              "supply": 49,
-              "supplyCap": 58,
+              "supply": 62,
+              "supplyCap": 68,
               "kind": "building",
               "name": "Supply Depot",
               "count": 7
             },
             {
               "frame": 7611,
-              "supply": 49,
-              "supplyCap": 58,
+              "supply": 62,
+              "supplyCap": 68,
               "kind": "building",
               "name": "Supply Depot",
               "count": 8
             },
             {
               "frame": 7732,
-              "supply": 49,
-              "supplyCap": 58,
+              "supply": 62,
+              "supplyCap": 68,
               "kind": "building",
               "name": "Engineering Bay",
               "count": 1
             },
             {
               "frame": 7937,
-              "supply": 50,
-              "supplyCap": 58,
+              "supply": 64,
+              "supplyCap": 68,
               "kind": "research",
               "name": "Goliath Range",
               "count": 1
             },
             {
               "frame": 8436,
-              "supply": 55,
-              "supplyCap": 74,
+              "supply": 72,
+              "supplyCap": 84,
               "kind": "building",
               "name": "Supply Depot",
               "count": 9
             },
             {
               "frame": 8770,
-              "supply": 57,
-              "supplyCap": 74,
+              "supply": 74,
+              "supplyCap": 84,
               "kind": "building",
               "name": "Missile Turret",
               "count": 1
             },
             {
               "frame": 8804,
-              "supply": 57,
-              "supplyCap": 74,
+              "supply": 74,
+              "supplyCap": 84,
               "kind": "building",
               "name": "Missile Turret",
               "count": 2
             },
             {
               "frame": 8955,
-              "supply": 57,
-              "supplyCap": 74,
+              "supply": 74,
+              "supplyCap": 84,
               "kind": "building",
               "name": "Missile Turret",
               "count": 3
             },
             {
               "frame": 9306,
-              "supply": 60,
-              "supplyCap": 82,
+              "supply": 81,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Factory",
-              "count": 3
+              "count": 4
             },
             {
               "frame": 9419,
-              "supply": 60,
-              "supplyCap": 82,
+              "supply": 81,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Academy",
               "count": 1
             },
             {
               "frame": 9662,
-              "supply": 60,
-              "supplyCap": 82,
+              "supply": 81,
+              "supplyCap": 102,
               "kind": "research",
               "name": "Siege Mode",
               "count": 1
             },
             {
               "frame": 10375,
-              "supply": 65,
-              "supplyCap": 82,
+              "supply": 91,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Missile Turret",
               "count": 4
             },
             {
               "frame": 11125,
-              "supply": 76,
-              "supplyCap": 82,
+              "supply": 102,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Comsat Station",
               "count": 1
             },
             {
               "frame": 11133,
-              "supply": 76,
-              "supplyCap": 82,
+              "supply": 102,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Supply Depot",
               "count": 10
             },
             {
               "frame": 11146,
-              "supply": 76,
-              "supplyCap": 82,
+              "supply": 102,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Supply Depot",
               "count": 11
             },
             {
               "frame": 11156,
-              "supply": 76,
-              "supplyCap": 82,
+              "supply": 102,
+              "supplyCap": 102,
               "kind": "research",
               "name": "Vehicle Weapons",
               "count": 1
             },
             {
               "frame": 11427,
-              "supply": 76,
-              "supplyCap": 82,
+              "supply": 102,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Supply Depot",
               "count": 12
             },
             {
               "frame": 11456,
-              "supply": 76,
-              "supplyCap": 82,
+              "supply": 102,
+              "supplyCap": 102,
               "kind": "building",
               "name": "Supply Depot",
               "count": 13
             },
             {
               "frame": 12470,
-              "supply": 84,
-              "supplyCap": 114,
+              "supply": 114,
+              "supplyCap": 134,
               "kind": "building",
               "name": "Barracks",
               "count": 2
             },
             {
               "frame": 14092,
-              "supply": 108,
-              "supplyCap": 114,
+              "supply": 134,
+              "supplyCap": 134,
               "kind": "building",
               "name": "Factory",
-              "count": 4
+              "count": 5
+            },
+            {
+              "frame": 14100,
+              "supply": 134,
+              "supplyCap": 134,
+              "kind": "building",
+              "name": "Factory",
+              "count": 6
             }
           ]
         },
@@ -1906,6 +1938,14 @@
               "supplyCap": 26,
               "kind": "building",
               "name": "Refinery",
+              "count": 1
+            },
+            {
+              "frame": 2530,
+              "supply": 9,
+              "supplyCap": 26,
+              "kind": "building",
+              "name": "Command Center",
               "count": 1
             },
             {
@@ -1967,7 +2007,7 @@
             {
               "frame": 4570,
               "supply": 16,
-              "supplyCap": 42,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Supply Depot",
               "count": 5
@@ -1975,7 +2015,7 @@
             {
               "frame": 4912,
               "supply": 16,
-              "supplyCap": 42,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Starport",
               "count": 1
@@ -1983,7 +2023,7 @@
             {
               "frame": 5002,
               "supply": 16,
-              "supplyCap": 42,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Armory",
               "count": 1
@@ -1991,7 +2031,7 @@
             {
               "frame": 5020,
               "supply": 16,
-              "supplyCap": 42,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Machine Shop",
               "count": 1
@@ -1999,103 +2039,119 @@
             {
               "frame": 5092,
               "supply": 16,
-              "supplyCap": 42,
+              "supplyCap": 52,
               "kind": "building",
               "name": "Engineering Bay",
               "count": 1
             },
             {
+              "frame": 5392,
+              "supply": 17,
+              "supplyCap": 60,
+              "kind": "building",
+              "name": "Starport",
+              "count": 2
+            },
+            {
               "frame": 5680,
               "supply": 19,
-              "supplyCap": 50,
+              "supplyCap": 60,
               "kind": "building",
               "name": "Bunker",
               "count": 4
             },
             {
-              "frame": 5824,
-              "supply": 19,
-              "supplyCap": 50,
-              "kind": "building",
-              "name": "Armory",
-              "count": 2
-            },
-            {
               "frame": 6088,
-              "supply": 19,
-              "supplyCap": 50,
+              "supply": 21,
+              "supplyCap": 60,
               "kind": "building",
               "name": "Supply Depot",
               "count": 6
             },
             {
               "frame": 6100,
-              "supply": 19,
-              "supplyCap": 50,
+              "supply": 21,
+              "supplyCap": 60,
               "kind": "building",
               "name": "Control Tower",
               "count": 1
             },
             {
               "frame": 6220,
-              "supply": 19,
-              "supplyCap": 50,
+              "supply": 21,
+              "supplyCap": 60,
               "kind": "building",
               "name": "Academy",
               "count": 1
             },
             {
               "frame": 6574,
-              "supply": 21,
-              "supplyCap": 50,
+              "supply": 22,
+              "supplyCap": 60,
               "kind": "building",
               "name": "Supply Depot",
               "count": 7
             },
             {
+              "frame": 6658,
+              "supply": 22,
+              "supplyCap": 60,
+              "kind": "building",
+              "name": "Engineering Bay",
+              "count": 2
+            },
+            {
               "frame": 7012,
-              "supply": 25,
-              "supplyCap": 58,
+              "supply": 23,
+              "supplyCap": 68,
               "kind": "research",
               "name": "Cloaking Field",
               "count": 1
             },
             {
               "frame": 7396,
-              "supply": 27,
-              "supplyCap": 66,
+              "supply": 25,
+              "supplyCap": 76,
               "kind": "unit",
               "name": "Wraith",
               "count": 1
             },
             {
               "frame": 7804,
-              "supply": 31,
-              "supplyCap": 66,
+              "supply": 29,
+              "supplyCap": 76,
               "kind": "building",
               "name": "Supply Depot",
               "count": 8
             },
             {
               "frame": 8014,
-              "supply": 32,
-              "supplyCap": 66,
+              "supply": 30,
+              "supplyCap": 76,
               "kind": "research",
               "name": "Siege Mode",
               "count": 1
             },
             {
               "frame": 8278,
-              "supply": 32,
-              "supplyCap": 66,
+              "supply": 30,
+              "supplyCap": 76,
               "kind": "building",
               "name": "Supply Depot",
               "count": 9
             },
             {
+              "frame": 8290,
+              "supply": 30,
+              "supplyCap": 76,
+              "kind": "unit",
+              "name": "Siege Tank",
+              "count": 1
+            },
+            {
               "frame": 8404,
               "supply": 32,
-              "supplyCap": 74,
+              "supplyCap": 84,
               "kind": "building",
               "name": "Comsat Station",
               "count": 1
@@ -2103,127 +2159,127 @@
             {
               "frame": 8590,
               "supply": 33,
-              "supplyCap": 74,
+              "supplyCap": 84,
               "kind": "building",
               "name": "Supply Depot",
               "count": 10
             },
             {
-              "frame": 9046,
-              "supply": 34,
-              "supplyCap": 82,
-              "kind": "unit",
-              "name": "Siege Tank",
-              "count": 1
-            },
-            {
-              "frame": 9167,
-              "supply": 37,
-              "supplyCap": 82,
-              "kind": "building",
-              "name": "Supply Depot",
-              "count": 11
-            },
-            {
-              "frame": 9280,
-              "supply": 38,
-              "supplyCap": 90,
+              "frame": 8626,
+              "supply": 33,
+              "supplyCap": 84,
               "kind": "unit",
               "name": "Medic",
               "count": 1
             },
             {
+              "frame": 9167,
+              "supply": 38,
+              "supplyCap": 92,
+              "kind": "building",
+              "name": "Supply Depot",
+              "count": 11
+            },
+            {
               "frame": 9340,
-              "supply": 39,
-              "supplyCap": 90,
+              "supply": 42,
+              "supplyCap": 100,
               "kind": "building",
               "name": "Barracks",
               "count": 2
             },
             {
               "frame": 9880,
-              "supply": 43,
-              "supplyCap": 98,
+              "supply": 48,
+              "supplyCap": 108,
               "kind": "building",
               "name": "Supply Depot",
               "count": 12
             },
             {
               "frame": 9934,
-              "supply": 43,
-              "supplyCap": 98,
+              "supply": 48,
+              "supplyCap": 108,
               "kind": "building",
               "name": "Comsat Station",
               "count": 2
             },
             {
               "frame": 10468,
-              "supply": 50,
-              "supplyCap": 98,
+              "supply": 52,
+              "supplyCap": 108,
               "kind": "research",
               "name": "Marine Range",
               "count": 1
             },
             {
               "frame": 10522,
-              "supply": 50,
-              "supplyCap": 106,
+              "supply": 52,
+              "supplyCap": 116,
               "kind": "building",
               "name": "Barracks",
               "count": 3
             },
             {
               "frame": 10625,
-              "supply": 50,
-              "supplyCap": 106,
+              "supply": 52,
+              "supplyCap": 116,
               "kind": "building",
               "name": "Barracks",
               "count": 4
             },
             {
               "frame": 11686,
-              "supply": 59,
-              "supplyCap": 106,
+              "supply": 62,
+              "supplyCap": 116,
               "kind": "building",
               "name": "Comsat Station",
               "count": 3
             },
             {
               "frame": 11746,
-              "supply": 60,
-              "supplyCap": 106,
+              "supply": 65,
+              "supplyCap": 116,
               "kind": "building",
               "name": "Supply Depot",
               "count": 13
             },
             {
               "frame": 12089,
-              "supply": 63,
-              "supplyCap": 106,
+              "supply": 69,
+              "supplyCap": 116,
               "kind": "building",
               "name": "Supply Depot",
               "count": 14
             },
             {
+              "frame": 12238,
+              "supply": 71,
+              "supplyCap": 116,
+              "kind": "building",
+              "name": "Command Center",
+              "count": 2
+            },
+            {
               "frame": 12394,
-              "supply": 65,
-              "supplyCap": 114,
+              "supply": 71,
+              "supplyCap": 124,
               "kind": "building",
               "name": "Comsat Station",
               "count": 4
             },
             {
               "frame": 12460,
-              "supply": 67,
-              "supplyCap": 114,
+              "supply": 74,
+              "supplyCap": 124,
               "kind": "building",
               "name": "Bunker",
               "count": 5
             },
             {
               "frame": 14166,
-              "supply": 89,
-              "supplyCap": 122,
+              "supply": 99,
+              "supplyCap": 142,
               "kind": "building",
               "name": "Comsat Station",
               "count": 5
@@ -9727,6 +9783,14 @@
               "count": 2
             },
             {
+              "frame": 2553,
+              "supply": 10,
+              "supplyCap": 25,
+              "kind": "building",
+              "name": "Nexus",
+              "count": 1
+            },
+            {
               "frame": 2848,
               "supply": 10,
               "supplyCap": 25,
@@ -9784,64 +9848,72 @@
             },
             {
               "frame": 5251,
-              "supply": 21,
-              "supplyCap": 41,
+              "supply": 20,
+              "supplyCap": 50,
               "kind": "building",
               "name": "Shield Battery",
               "count": 1
             },
             {
               "frame": 5377,
-              "supply": 21,
-              "supplyCap": 41,
+              "supply": 20,
+              "supplyCap": 50,
               "kind": "building",
               "name": "Citadel of Adun",
               "count": 1
             },
             {
               "frame": 5827,
-              "supply": 25,
-              "supplyCap": 41,
+              "supply": 24,
+              "supplyCap": 50,
               "kind": "unit",
               "name": "Dragoon",
               "count": 1
             },
             {
               "frame": 5881,
-              "supply": 27,
-              "supplyCap": 41,
+              "supply": 26,
+              "supplyCap": 50,
               "kind": "building",
               "name": "Pylon",
               "count": 5
             },
             {
               "frame": 6067,
-              "supply": 28,
-              "supplyCap": 41,
+              "supply": 27,
+              "supplyCap": 50,
               "kind": "building",
               "name": "Shield Battery",
               "count": 2
             },
             {
               "frame": 6403,
-              "supply": 28,
-              "supplyCap": 41,
+              "supply": 27,
+              "supplyCap": 58,
               "kind": "building",
               "name": "Templar Archives",
               "count": 1
             },
             {
               "frame": 6415,
-              "supply": 28,
-              "supplyCap": 49,
+              "supply": 27,
+              "supplyCap": 58,
               "kind": "building",
               "name": "Assimilator",
               "count": 3
             },
             {
+              "frame": 6855,
+              "supply": 30,
+              "supplyCap": 58,
+              "kind": "building",
+              "name": "Assimilator",
+              "count": 4
+            },
+            {
               "frame": 6874,
               "supply": 30,
-              "supplyCap": 49,
+              "supplyCap": 58,
               "kind": "building",
               "name": "Pylon",
               "count": 6
@@ -9849,7 +9921,7 @@
             {
               "frame": 6892,
               "supply": 30,
-              "supplyCap": 49,
+              "supplyCap": 58,
               "kind": "building",
               "name": "Pylon",
               "count": 7
@@ -9857,175 +9929,191 @@
             {
               "frame": 6970,
               "supply": 30,
-              "supplyCap": 49,
+              "supplyCap": 58,
               "kind": "building",
               "name": "Forge",
               "count": 3
             },
             {
-              "frame": 7204,
+              "frame": 7210,
               "supply": 30,
-              "supplyCap": 49,
+              "supplyCap": 58,
               "kind": "building",
-              "name": "Assimilator",
-              "count": 4
+              "name": "Nexus",
+              "count": 2
             },
             {
               "frame": 7751,
-              "supply": 32,
-              "supplyCap": 65,
+              "supply": 34,
+              "supplyCap": 74,
               "kind": "building",
               "name": "Pylon",
               "count": 8
             },
             {
-              "frame": 7757,
-              "supply": 32,
-              "supplyCap": 65,
-              "kind": "building",
-              "name": "Shield Battery",
-              "count": 3
-            },
-            {
-              "frame": 7990,
-              "supply": 33,
-              "supplyCap": 65,
+              "frame": 7836,
+              "supply": 34,
+              "supplyCap": 74,
               "kind": "building",
               "name": "Pylon",
               "count": 9
             },
             {
+              "frame": 7990,
+              "supply": 35,
+              "supplyCap": 74,
+              "kind": "building",
+              "name": "Pylon",
+              "count": 10
+            },
+            {
               "frame": 8075,
-              "supply": 33,
-              "supplyCap": 65,
+              "supply": 35,
+              "supplyCap": 74,
               "kind": "research",
               "name": "Dragoon Range",
               "count": 1
             },
             {
+              "frame": 8111,
+              "supply": 35,
+              "supplyCap": 74,
+              "kind": "building",
+              "name": "Pylon",
+              "count": 11
+            },
+            {
               "frame": 8526,
-              "supply": 34,
-              "supplyCap": 81,
+              "supply": 36,
+              "supplyCap": 98,
               "kind": "building",
               "name": "Gateway",
               "count": 3
             },
             {
               "frame": 8623,
-              "supply": 34,
-              "supplyCap": 81,
+              "supply": 36,
+              "supplyCap": 98,
               "kind": "building",
               "name": "Assimilator",
               "count": 5
             },
             {
               "frame": 8647,
-              "supply": 34,
-              "supplyCap": 81,
+              "supply": 36,
+              "supplyCap": 98,
               "kind": "building",
               "name": "Gateway",
               "count": 4
             },
             {
               "frame": 8726,
-              "supply": 34,
-              "supplyCap": 81,
+              "supply": 36,
+              "supplyCap": 106,
               "kind": "building",
               "name": "Gateway",
               "count": 5
             },
             {
-              "frame": 9202,
-              "supply": 35,
-              "supplyCap": 81,
-              "kind": "building",
-              "name": "Assimilator",
-              "count": 6
-            },
-            {
-              "frame": 9208,
-              "supply": 35,
-              "supplyCap": 81,
-              "kind": "building",
-              "name": "Assimilator",
-              "count": 7
-            },
-            {
               "frame": 9221,
-              "supply": 35,
-              "supplyCap": 81,
+              "supply": 39,
+              "supplyCap": 115,
               "kind": "building",
               "name": "Robotics Facility",
               "count": 1
             },
             {
-              "frame": 9385,
-              "supply": 35,
-              "supplyCap": 81,
-              "kind": "building",
-              "name": "Pylon",
-              "count": 10
-            },
-            {
-              "frame": 9511,
-              "supply": 36,
-              "supplyCap": 81,
+              "frame": 9301,
+              "supply": 39,
+              "supplyCap": 115,
               "kind": "building",
               "name": "Gateway",
               "count": 6
             },
             {
-              "frame": 9658,
-              "supply": 36,
-              "supplyCap": 81,
-              "kind": "building",
-              "name": "Pylon",
-              "count": 11
-            },
-            {
-              "frame": 9901,
-              "supply": 36,
-              "supplyCap": 89,
+              "frame": 9385,
+              "supply": 39,
+              "supplyCap": 115,
               "kind": "building",
               "name": "Pylon",
               "count": 12
             },
             {
-              "frame": 10013,
-              "supply": 36,
-              "supplyCap": 89,
+              "frame": 9511,
+              "supply": 39,
+              "supplyCap": 115,
+              "kind": "building",
+              "name": "Gateway",
+              "count": 7
+            },
+            {
+              "frame": 9658,
+              "supply": 39,
+              "supplyCap": 115,
               "kind": "building",
               "name": "Pylon",
               "count": 13
             },
             {
+              "frame": 9830,
+              "supply": 39,
+              "supplyCap": 115,
+              "kind": "building",
+              "name": "Assimilator",
+              "count": 6
+            },
+            {
+              "frame": 9901,
+              "supply": 39,
+              "supplyCap": 123,
+              "kind": "building",
+              "name": "Pylon",
+              "count": 14
+            },
+            {
+              "frame": 10000,
+              "supply": 39,
+              "supplyCap": 123,
+              "kind": "building",
+              "name": "Pylon",
+              "count": 15
+            },
+            {
+              "frame": 10013,
+              "supply": 39,
+              "supplyCap": 123,
+              "kind": "building",
+              "name": "Pylon",
+              "count": 16
+            },
+            {
               "frame": 10311,
-              "supply": 37,
-              "supplyCap": 97,
+              "supply": 40,
+              "supplyCap": 131,
               "kind": "unit",
               "name": "High Templar",
               "count": 1
             },
             {
               "frame": 10603,
-              "supply": 40,
-              "supplyCap": 113,
+              "supply": 47,
+              "supplyCap": 155,
               "kind": "building",
               "name": "Pylon",
-              "count": 14
+              "count": 17
             },
             {
               "frame": 10689,
-              "supply": 40,
-              "supplyCap": 113,
+              "supply": 47,
+              "supplyCap": 155,
               "kind": "research",
               "name": "Psionic Storm",
               "count": 1
             },
             {
               "frame": 10721,
-              "supply": 40,
-              "supplyCap": 113,
+              "supply": 47,
+              "supplyCap": 155,
               "kind": "building",
               "name": "Observatory",
               "count": 1
@@ -11212,6 +11300,14 @@
               "count": 1
             },
             {
+              "frame": 2650,
+              "supply": 10,
+              "supplyCap": 33,
+              "kind": "building",
+              "name": "Nexus",
+              "count": 1
+            },
+            {
               "frame": 3136,
               "supply": 11,
               "supplyCap": 41,
@@ -11244,137 +11340,169 @@
               "count": 6
             },
             {
-              "frame": 4762,
-              "supply": 16,
-              "supplyCap": 57,
-              "kind": "building",
-              "name": "Gateway",
-              "count": 2
-            },
-            {
               "frame": 4996,
-              "supply": 16,
-              "supplyCap": 57,
+              "supply": 17,
+              "supplyCap": 66,
               "kind": "building",
               "name": "Assimilator",
               "count": 3
             },
             {
               "frame": 5326,
-              "supply": 17,
-              "supplyCap": 57,
+              "supply": 18,
+              "supplyCap": 66,
               "kind": "building",
               "name": "Pylon",
               "count": 7
             },
             {
               "frame": 5488,
-              "supply": 18,
-              "supplyCap": 57,
+              "supply": 19,
+              "supplyCap": 66,
               "kind": "building",
               "name": "Assimilator",
               "count": 4
             },
             {
               "frame": 5944,
-              "supply": 19,
-              "supplyCap": 65,
+              "supply": 20,
+              "supplyCap": 74,
               "kind": "building",
               "name": "Cybernetics Core",
               "count": 1
             },
             {
-              "frame": 5998,
-              "supply": 19,
-              "supplyCap": 65,
-              "kind": "building",
-              "name": "Assimilator",
-              "count": 5
+              "frame": 5968,
+              "supply": 20,
+              "supplyCap": 74,
+              "kind": "unit",
+              "name": "Zealot",
+              "count": 1
             },
             {
               "frame": 6358,
-              "supply": 21,
-              "supplyCap": 65,
+              "supply": 24,
+              "supplyCap": 74,
               "kind": "building",
               "name": "Pylon",
               "count": 8
             },
             {
-              "frame": 7096,
-              "supply": 22,
-              "supplyCap": 73,
+              "frame": 6706,
+              "supply": 26,
+              "supplyCap": 74,
               "kind": "building",
               "name": "Shield Battery",
               "count": 1
             },
             {
-              "frame": 7474,
-              "supply": 22,
-              "supplyCap": 73,
+              "frame": 6988,
+              "supply": 26,
+              "supplyCap": 82,
+              "kind": "building",
+              "name": "Nexus",
+              "count": 2
+            },
+            {
+              "frame": 7096,
+              "supply": 26,
+              "supplyCap": 82,
               "kind": "building",
               "name": "Shield Battery",
               "count": 2
             },
             {
+              "frame": 7108,
+              "supply": 26,
+              "supplyCap": 82,
+              "kind": "building",
+              "name": "Shield Battery",
+              "count": 3
+            },
+            {
+              "frame": 7222,
+              "supply": 26,
+              "supplyCap": 82,
+              "kind": "building",
+              "name": "Gateway",
+              "count": 2
+            },
+            {
+              "frame": 7474,
+              "supply": 26,
+              "supplyCap": 82,
+              "kind": "building",
+              "name": "Shield Battery",
+              "count": 4
+            },
+            {
               "frame": 7660,
-              "supply": 22,
-              "supplyCap": 73,
+              "supply": 26,
+              "supplyCap": 82,
               "kind": "building",
               "name": "Citadel of Adun",
               "count": 1
             },
             {
               "frame": 7828,
-              "supply": 22,
-              "supplyCap": 73,
+              "supply": 26,
+              "supplyCap": 82,
               "kind": "building",
               "name": "Pylon",
               "count": 9
             },
             {
               "frame": 8236,
-              "supply": 22,
-              "supplyCap": 73,
+              "supply": 26,
+              "supplyCap": 82,
               "kind": "building",
               "name": "Pylon",
               "count": 10
             },
             {
+              "frame": 8386,
+              "supply": 26,
+              "supplyCap": 90,
+              "kind": "building",
+              "name": "Shield Battery",
+              "count": 5
+            },
+            {
               "frame": 8524,
-              "supply": 22,
-              "supplyCap": 81,
+              "supply": 26,
+              "supplyCap": 90,
               "kind": "building",
               "name": "Gateway",
               "count": 3
             },
             {
               "frame": 8734,
-              "supply": 22,
-              "supplyCap": 89,
+              "supply": 26,
+              "supplyCap": 98,
               "kind": "building",
               "name": "Templar Archives",
               "count": 1
             },
             {
               "frame": 9484,
-              "supply": 24,
-              "supplyCap": 89,
+              "supply": 27,
+              "supplyCap": 107,
               "kind": "building",
               "name": "Shield Battery",
-              "count": 3
+              "count": 6
             },
             {
               "frame": 9520,
-              "supply": 24,
-              "supplyCap": 89,
+              "supply": 27,
+              "supplyCap": 107,
               "kind": "building",
               "name": "Shield Battery",
-              "count": 4
+              "count": 7
             },
             {
-              "frame": 10900,
-              "supply": 27,
-              "supplyCap": 89,
+              "frame": 9820,
+              "supply": 28,
+              "supplyCap": 107,
               "kind": "unit",
               "name": "Dark Templar",
               "count": 1

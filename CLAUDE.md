@@ -260,6 +260,7 @@ draft → approved → in-progress → implemented
 | `pnpm stats:vods` | List the English casts on YouTube into `data/source/youtube/videos.json` (network) |
 | `pnpm replays:fetch` | Download the ten newest ladder replays of each chosen pro from cwal.gg into `public/replays/` (network; replaces the stored set) |
 | `pnpm replays:export` | Parse the stored replays → `data/generated/builds.json` (offline) |
+| `pnpm replays:refresh` | Fetch, export, test, commit and deploy the stored replays, or stop if anything fails. Runs weekly: `Docs/tooling-specs/replays-refresh.md` |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
 | `pnpm stats:refresh` | Update the season in progress and publish it, or stop if anything looks off. Runs on a schedule: `Docs/tooling-specs/stats-refresh.md` |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

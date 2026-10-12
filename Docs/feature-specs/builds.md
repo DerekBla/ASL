@@ -26,7 +26,8 @@ pnpm replays:export (screp-js parses each replay; lib/replay estimates the build
 data/generated/builds.json (committed) → lib/services/builds (Zod) → RSC pages
 ```
 
-No database and no client fetching. Both scripts are run by hand; nothing is scheduled.
+No database and no client fetching. A weekly task runs both scripts and publishes the result
+(`Docs/tooling-specs/replays-refresh.md`).
 
 ## Which replays
 
@@ -69,11 +70,12 @@ Each build order can be copied as plain text.
 
 ## Known limits
 
-- The income model can drop a real building, most often an expansion placed by an SCV sent
-  ahead of the money (seen in Derek's own Odyssey replay, 2026-10-12).
+- The income model can drop a real building. A dropped production building comes back once
+  it is seen at work (a second Command Center training an SCV), which fixed the expansion
+  missing from Derek's own Odyssey replay. A dropped building that never trains anything, such
+  as a Supply Depot or a Bunker, stays dropped.
 - Players who spam build commands still get a few doubtful steps.
 
 ## Not built yet
 
 - Keeping uploaded replays or sharing a link to one.
-- A scheduled refresh of the stored replays.

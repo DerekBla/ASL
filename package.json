@@ -24,6 +24,7 @@
     "stats:fetch": "python scripts/liquipedia/fetch_seasons.py && python scripts/liquipedia/parse_seasons.py --quiet && python scripts/liquipedia/fetch_players.py && python scripts/liquipedia/parse_seasons.py --quiet",
     "replays:fetch": "tsx scripts/replays/fetch-cwal.ts",
     "replays:export": "tsx scripts/replays/export-builds.ts",
+    "replays:refresh": "python scripts/refresh/refresh_replays.py",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "tsx scripts/db/migrate.ts",
     "db:make-admin": "tsx scripts/db/make-admin.ts",

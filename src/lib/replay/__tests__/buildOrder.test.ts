@@ -99,6 +99,26 @@ describe("estimateBuildOrder, Terran", () => {
     ]);
   });
 
+  it("puts back a dropped expansion when a second Command Center trains a worker", () => {
+    const steps = estimateBuildOrder(
+      [
+        select(1, 1),
+        unit(3, "Train", "SCV"),
+        select(190, 2),
+        build(200, "Command Center", 30, 30),
+        select(2990, 50), // a Command Center with a tag of its own
+        unit(3000, "Train", "SCV"),
+      ],
+      ME,
+      "Terran",
+    );
+    expect(steps.map((step) => [step.name, step.frame])).toEqual([
+      ["SCV", 3],
+      ["Command Center", 200],
+      ["SCV", 3000],
+    ]);
+  });
+
   it("ignores research clicked before any gas building exists", () => {
     const steps = estimateBuildOrder(
       [

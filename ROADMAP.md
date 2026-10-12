@@ -38,12 +38,12 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 | Status | Item | Notes |
 |---|---|---|
 | draft | Workbook-era player questions | `Byun`, `Jo Il-jang`, `Kim Myung-woon` were workbook rows in S10–S11 that match no Liquipedia player. Nothing is missing from the site's data; this is only a question of whether Derek knows who they were <!-- updated: 2026-10-07 --> |
-| approved | In-progress season support | The pipeline assumes finished seasons. S22 needs partial placements, a live status, and a refresh routine <!-- approved by Derek 2026-10-07 --> |
-| approved | Game-level stats | Series are parsed; individual maps (winner per map, map win rates by matchup) are in the wikitext but not exported <!-- approved by Derek 2026-10-07 --> |
 | draft | Remove the old workbook | `data/source/ASL_Complete_S1_S21.xlsx` and `scripts/workbook-fixes/` are reference only. Delete once Derek no longer wants them |
 
 ### Archive
 
+- [implemented 2026-10-09] In-progress season support — approved by Derek 2026-10-07. Built as "Season 22 and seasons in progress" and "Scheduled stats refresh" (see the Design archive): partial placements, a live status and the refresh routine. Row moved here 2026-10-12
+- [implemented 2026-10-09] Game-level stats — approved by Derek 2026-10-07. Built as "Maps and VODs on the season page", "Maps pages" and "Game-based ELO" (see the Design archive): every game with its map and winner, and race against race per map. Row moved here 2026-10-12
 - [implemented 2026-10-07] Liquipedia as the stats source — `scripts/liquipedia/` + `scripts/export-stats/`, schema version 2, 18 parser + 19 exporter tests. Approved by Derek after the audit (`Docs/reports/2026-10-07-liquipedia-audit.md`). Races for `815`, `ivOry`, `Queen` supplied by Derek in `data/source/overrides.json`
 - [superseded 2026-10-07] Resolve exporter validation warnings — replaced by "Liquipedia as the stats source"
 - [superseded 2026-10-07] S21 final results — replaced by "Liquipedia as the stats source"

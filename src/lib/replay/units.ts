@@ -243,3 +243,14 @@ export const REQUIRES: Readonly<Record<string, readonly string[]>> = {
   "Templar Archives": ["Citadel of Adun"],
   "Arbiter Tribunal": ["Templar Archives", "Stargate"],
 };
+
+/** The building each Terran and Protoss unit is trained from. */
+export const PRODUCERS: Readonly<Record<string, string>> = {
+  SCV: "Command Center",
+  Probe: "Nexus",
+  ...Object.fromEntries(
+    Object.entries(REQUIRES)
+      .filter(([name]) => name in UNITS)
+      .map(([name, needs]) => [name, needs[0] ?? ""]),
+  ),
+};

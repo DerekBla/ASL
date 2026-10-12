@@ -10,7 +10,7 @@
  *
  * Be polite: one request at a time with a pause, and an identified User-Agent.
  */
-import { mkdir, readdir, rm, writeFile } from "node:fs/promises";
+import { access, mkdir, readdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const API = "https://api.aws.cwal.gg";
@@ -153,15 +153,20 @@ async function main(): Promise<void> {
       // "MM-BE84E84C-C574-11F1-..." -> "be84e84c-c574": short, and still unique per game.
       const id = match.matchId.replace(/^MM-/, "").split("-").slice(0, 2).join("-").toLowerCase();
       const fileName = `${id}.rep`;
-      let bytes: Buffer;
-      try {
-        const response = await get(`${API}/api/replay/${encodeURIComponent(match.matchId)}/file`);
-        bytes = Buffer.from(await response.arrayBuffer());
-      } catch (error) {
-        console.warn(`  no replay for ${match.matchId}: ${String(error)}`);
-        continue;
+      // A replay never changes, so one already stored is not downloaded again.
+      const stored = await access(path.join(dir, fileName)).then(
+        () => true,
+        () => false,
+      );
+      if (!stored) {
+        try {
+          const response = await get(`${API}/api/replay/${encodeURIComponent(match.matchId)}/file`);
+          await writeFile(path.join(dir, fileName), Buffer.from(await response.arrayBuffer()));
+        } catch (error) {
+          console.warn(`  no replay for ${match.matchId}: ${String(error)}`);
+          continue;
+        }
       }
-      await writeFile(path.join(dir, fileName), bytes);
       kept.add(fileName);
       count++;
       saved.push({

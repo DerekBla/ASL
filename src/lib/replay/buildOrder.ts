@@ -20,7 +20,8 @@
  * - Terran and Protoss units: a queue of five per building, paid for from the same model.
  * - The tech tree overrules the model. The game only offers a command once what it needs is
  *   standing, so training a Wraith proves a Starport. If the model dropped the order for that
- *   Starport, the order is put back.
+ *   Starport, the order is put back. Counting works the same way: workers trained from two
+ *   different Command Centers prove two Command Centers, so a dropped expansion comes back.
  *
  * Pure: no I/O, no clock. The export script uses it, and a page can run it in the browser.
  */
@@ -29,6 +30,7 @@ import {
   DEFAULT_RESEARCH_COST,
   EVOLUTIONS,
   GAS_BUILDINGS,
+  PRODUCERS,
   REQUIRES,
   RESEARCH_COSTS,
   TOWN_HALLS,
@@ -266,6 +268,7 @@ export function estimateBuildOrder(
     ["Nexus", [Number.NEGATIVE_INFINITY]],
   ]);
   const dropped: Waiting[] = [];
+  const seenProducers = new Map<string, Set<number>>();
   // Zerg: larvae that became something, eggs still hatching, Drones that became buildings.
   const hatched = new Set<number>();
   const morphed = new Set<string>();
@@ -345,15 +348,17 @@ export function estimateBuildOrder(
   };
 
   /**
-   * A command that needs these buildings was given, so each was finished by now. If the model
-   * has none old enough, put back the newest order for one that it turned down.
+   * A command that needs these buildings was given, so each was finished by now: `count` of
+   * them, when that many different buildings have been seen at work. If the model has too few
+   * old enough, put back the newest orders for one that it turned down.
    */
-  const prove = (names: readonly string[] | undefined, at: number): void => {
+  const prove = (names: readonly string[] | undefined, at: number, count = 1): void => {
     for (const name of names ?? []) {
       const cost = BUILDINGS[name];
       if (!cost) continue;
       const latestStart = at - cost.frames + PROOF_SLACK_FRAMES;
-      if ((built.get(name) ?? []).some((start) => start <= latestStart)) continue;
+      const have = (built.get(name) ?? []).filter((start) => start <= latestStart).length;
+      if (have >= count) continue;
       let found = -1;
       for (let i = dropped.length - 1; i >= 0 && found < 0; i--) {
         const order = dropped[i];
@@ -367,6 +372,7 @@ export function estimateBuildOrder(
       built.set(name, [...(built.get(name) ?? []), order.step.frame]);
       finishBuilding(name, cost);
       prove(REQUIRES[name], order.step.frame);
+      if (have + 1 < count) prove([name], at, count);
     }
   };
 
@@ -475,6 +481,14 @@ export function estimateBuildOrder(
   const train = (name: string, cost: UnitCost): void => {
     prove(REQUIRES[name], frame);
     const producer = selection[0] ?? -1;
+    // Each building that trains has its own tag, so the tags seen count the buildings.
+    const home = PRODUCERS[name];
+    if (home !== undefined && selection[0] !== undefined) {
+      const tags = seenProducers.get(home) ?? new Set<number>();
+      tags.add(selection[0]);
+      seenProducers.set(home, tags);
+      prove([home], frame, tags.size);
+    }
     let queue = queues.get(producer);
     if (!queue) {
       queue = [];
