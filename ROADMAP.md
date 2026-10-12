@@ -59,7 +59,7 @@ Add items here via the operations defined in [CLAUDE.md](CLAUDE.md).
 
 | Status | Item | Notes |
 |---|---|---|
-| in-progress | Build orders from replays | Requested by Derek 2026-10-12. Built on branch `replay-builds`: `/builds` and a page per game, ten recent ladder replays each for Rush and Light from cwal.gg stored under `public/replays/`, build orders with times and estimated supply (`src/lib/replay/`, `pnpm replays:fetch`, `pnpm replays:export`). Not deployed yet. Next: upload your own replay. Feature spec: `Docs/feature-specs/builds.md` <!-- updated: 2026-10-12 --> |
+| in-progress | Build orders from replays | Requested by Derek 2026-10-12. Built on branch `replay-builds`: `/builds` and a page per game, ten recent ladder replays each for Rush and Light from cwal.gg stored under `public/replays/`, build orders with times and estimated supply (`src/lib/replay/`, `pnpm replays:fetch`, `pnpm replays:export`), and `/builds/upload` to read a replay of your own in the browser. Rush and Light are filtered to their Terran games. Not deployed yet. Feature spec: `Docs/feature-specs/builds.md` <!-- updated: 2026-10-12 --> |
 | in-progress | First market: ASL S22 Grand Final | Built: `/admin` preset (Rush vs Soulkey, closes 2026-10-17 15:00 KST, ELO opening odds). Waiting on Derek: Neon + Clerk keys, `pnpm db:migrate`, `pnpm db:make-admin`, then create it from `/admin`. Public trading also needs a deployment <!-- updated: 2026-10-07 --> |
 
 ### Archive

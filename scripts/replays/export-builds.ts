@@ -11,26 +11,9 @@ import path from "node:path";
 
 import Screp from "screp-js";
 
-import { estimateBuildOrder, summarizeBuildOrder } from "../../src/lib/replay/buildOrder";
-import type { BuildStep, ReplayRace } from "../../src/lib/replay/buildOrder";
+import { BUILD_ORDER_MAX_FRAME, readBuildOrders } from "../../src/lib/replay/readReplay";
 
 import type { SavedReplay } from "./fetch-cwal";
-
-/** Build orders stop here: ten minutes on Fastest. Later supply is too far off to be useful. */
-const MAX_FRAME = 14286;
-
-const RACE_CODES: Record<string, "T" | "Z" | "P"> = { Terran: "T", Zerg: "Z", Protoss: "P" };
-
-type PlayerOut = {
-  name: string;
-  pro: string | null;
-  race: "T" | "Z" | "P";
-  subject: boolean;
-  apm: number;
-  /** Start position as a clock hour, 1 to 12. */
-  start: number;
-  steps: BuildStep[];
-};
 
 async function main(): Promise<void> {
   const root = process.cwd();
@@ -41,38 +24,32 @@ async function main(): Promise<void> {
   const replays = [];
   for (const saved of index.replays) {
     const bytes = await readFile(path.join(root, "public", saved.file));
-    const replay = await Screp.parseBuffer(new Uint8Array(bytes), { cmds: true });
-    if (replay.Header.Speed.Name !== "Fastest") {
-      throw new Error(`${saved.id}: speed is ${replay.Header.Speed.Name}, times assume Fastest`);
+    const parsed = await Screp.parseBuffer(new Uint8Array(bytes), { cmds: true });
+    const game = readBuildOrders(parsed);
+    if (game.speed !== "Fastest") {
+      throw new Error(`${saved.id}: speed is ${game.speed}, times assume Fastest`);
     }
-    const humans = replay.Header.Players.filter((p) => p.Type.Name === "Human");
-    if (humans.length !== 2) throw new Error(`${saved.id}: expected 2 players, got ${humans.length}`);
-    const subject = humans.find((p) => p.Name.toLowerCase() === saved.toon.toLowerCase());
+    if (game.players.length !== 2) {
+      throw new Error(`${saved.id}: expected 2 players, got ${game.players.length}`);
+    }
+    const subject = game.players.find((p) => p.name.toLowerCase() === saved.toon.toLowerCase());
     if (!subject) throw new Error(`${saved.id}: ${saved.toon} is not in the replay`);
 
-    const players: PlayerOut[] = humans.map((player) => {
-      const race = RACE_CODES[player.Race.Name];
-      if (!race) throw new Error(`${saved.id}: unknown race ${player.Race.Name}`);
-      const desc = replay.Computed.PlayerDescs.find((d) => d.PlayerID === player.ID);
-      const all = estimateBuildOrder(
-        replay.Commands.Cmds,
-        player.ID,
-        player.Race.Name as ReplayRace,
-        MAX_FRAME,
-      );
-      const isSubject = player.ID === subject.ID;
-      return {
-        name: player.Name,
-        pro: isSubject ? saved.pro : saved.opponentPro,
-        race,
-        subject: isSubject,
-        apm: desc?.APM ?? 0,
-        start: desc?.StartDirection ?? 0,
-        steps: summarizeBuildOrder(all),
-      };
-    });
-    // The pro first, then the opponent.
-    players.sort((a, b) => Number(b.subject) - Number(a.subject));
+    const players = game.players
+      .map((player) => {
+        const isSubject = player.id === subject.id;
+        return {
+          name: player.name,
+          pro: isSubject ? saved.pro : saved.opponentPro,
+          race: player.race,
+          subject: isSubject,
+          apm: player.apm,
+          start: player.start,
+          steps: player.steps,
+        };
+      })
+      // The pro first, then the opponent.
+      .sort((a, b) => Number(b.subject) - Number(a.subject));
 
     replays.push({
       id: saved.id,
@@ -80,7 +57,7 @@ async function main(): Promise<void> {
       proSlug: saved.proSlug,
       playedAt: saved.playedAt,
       durationSeconds: saved.durationSeconds,
-      map: replay.Header.Map,
+      map: game.map,
       result: saved.result,
       mmr: saved.mmr,
       opponentMmr: saved.opponentMmr,
@@ -95,7 +72,7 @@ async function main(): Promise<void> {
     schemaVersion: 1,
     source: { name: "cwal.gg", url: index.source },
     minDurationSeconds: index.minDurationSeconds,
-    maxFrame: MAX_FRAME,
+    maxFrame: BUILD_ORDER_MAX_FRAME,
     replays,
   };
   await writeFile(

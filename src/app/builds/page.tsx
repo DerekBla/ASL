@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import type { ReactElement } from "react";
 
 import { getBuildsInfo } from "@/lib/services/builds";
@@ -28,9 +29,14 @@ export default function BuildsPage(): ReactElement {
             {info.source.name}
           </a>
           , which also says which ladder accounts belong to which player. These are each
-          player&apos;s newest ladder games, whatever race they picked. Games shorter than{" "}
+          player&apos;s newest ladder games as their own race. Games shorter than{" "}
           {Math.round(info.minDurationSeconds / 60)} minutes are left out, since someone left at the
           start.
+        </p>
+        <p>
+          <Link href="/builds/upload" className="font-medium">
+            Get the build order from a replay of your own
+          </Link>
         </p>
       </header>
       <BuildsIndex />

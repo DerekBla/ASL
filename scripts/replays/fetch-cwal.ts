@@ -5,7 +5,7 @@
  *
  * For each player in PLAYERS it finds the ladder accounts cwal.gg lists under that pro id, reads
  * their recent matches, skips games that ended almost at once (a leaver or a dodge) and saves the
- * newest GAMES_PER_PLAYER replays into public/replays/<player>/. The list of what was saved goes
+ * newest GAMES_PER_PLAYER replays played as the player's own race into public/replays/<player>/. The list of what was saved goes
  * to data/source/cwal/replays.json, which `pnpm replays:export` reads.
  *
  * Be polite: one request at a time with a pause, and an identified User-Agent.
@@ -17,16 +17,20 @@ const API = "https://api.aws.cwal.gg";
 const USER_AGENT = "StarCoins fan site (replay build orders; github.com/DerekBla/ASL)";
 const PAUSE_MS = 400;
 
-/** Pro ids as cwal.gg writes them. The slug names the folder and links the ASL player page. */
-const PLAYERS = [
-  { proId: "Rush", slug: "rush" },
-  { proId: "Light", slug: "light" },
-] as const;
+/**
+ * Pro ids as cwal.gg writes them. The slug names the folder and links the ASL player page.
+ * `race` keeps only the games the player played as that race: pros ladder off race too, and
+ * Derek wants their own race (2026-10-12, after Rush's newest ten all came back as Zerg).
+ */
+const PLAYERS: readonly { proId: string; slug: string; race: "T" | "Z" | "P" }[] = [
+  { proId: "Rush", slug: "rush", race: "T" },
+  { proId: "Light", slug: "light", race: "T" },
+];
 
 const GAMES_PER_PLAYER = 10;
 /** Shorter games count as an instant leave and are skipped. */
 const MIN_DURATION_SECONDS = 120;
-const MATCH_PAGES_PER_ACCOUNT = 2;
+const MATCH_PAGES_PER_ACCOUNT = 3;
 
 type SearchResult = { proId: string | null; gateway: number; toon: string };
 type Handle = { gateway: number; toon: string; proId?: string | null };
@@ -143,6 +147,7 @@ async function main(): Promise<void> {
       if (seen.has(match.matchId)) continue;
       seen.add(match.matchId);
       if (match.duration < MIN_DURATION_SECONDS) continue;
+      if (match.race !== player.race) continue;
       if (match.result !== "win" && match.result !== "loss") continue;
 
       // "MM-BE84E84C-C574-11F1-..." -> "be84e84c-c574": short, and still unique per game.

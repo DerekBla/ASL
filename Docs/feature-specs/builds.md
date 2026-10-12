@@ -13,6 +13,7 @@ the replay: what was built, when, and at about what supply.
 |---|---|---|
 | `/builds` | static | Every stored replay, grouped by pro, with a link to its build order and a download |
 | `/builds/[id]` | static (`generateStaticParams`) | One game: both players' build orders side by side, download, link to cwal.gg |
+| `/builds/upload` | static shell, client component | Pick or drop a replay and get every player's build order. Read in the browser; nothing is sent to the server |
 | `/replays/<pro>/<id>.rep` | static file (`public/`) | The replay itself |
 
 ## Data flow
@@ -31,7 +32,8 @@ No database and no client fetching. Both scripts are run by hand; nothing is sch
 
 Set in `scripts/replays/fetch-cwal.ts`: the players (`PLAYERS`, by cwal.gg pro id), ten games
 each (`GAMES_PER_PLAYER`), newest first across every ladder account cwal.gg lists for that
-pro, whatever race was played. Games under two minutes (`MIN_DURATION_SECONDS`) are skipped
+pro, and only games played as the race set for the player (`race`; Derek, 2026-10-12, after
+Rush's newest ten all came back as off race Zerg). Games under two minutes (`MIN_DURATION_SECONDS`) are skipped
 as instant leaves. A fetch replaces the stored set: replays that fall out of the newest ten
 are deleted.
 
@@ -53,12 +55,25 @@ commands, not outcomes, so:
 
 - Credit cwal.gg and link it wherever the replays are listed.
 - Supply is always labeled a rough guide. Never present it as read from the replay.
-- `screp-js` is a dev dependency used only by the export script and tests. It is unmaintained
-  on npm (it wraps the Go parser `screp`); if it breaks, the replacement is another build of
-  screp, not a rewrite.
+- `screp-js` is unmaintained on npm (it wraps the Go parser `screp`); if it breaks, the
+  replacement is another build of screp, not a rewrite.
+
+## Upload
+
+`ReplayUpload` (client) → `parseReplayFile` → `screp-js`, imported on demand so its 370 KB
+loads only when a file is picked → `readBuildOrders` in `src/lib/replay/readReplay.ts`, the
+same function the export script uses. No Server Action, no storage: an uploaded replay is
+never kept. Files must end in `.rep` and be under 5 MB. Team games work (every human player
+gets a build order). A game not played on Fastest gets a warning that the times are off.
+Each build order can be copied as plain text.
+
+## Known limits
+
+- The income model can drop a real building, most often an expansion placed by an SCV sent
+  ahead of the money (seen in Derek's own Odyssey replay, 2026-10-12).
+- Players who spam build commands still get a few doubtful steps.
 
 ## Not built yet
 
-- Uploading your own replay for a build order (the estimator is pure and can run in the
-  browser; `screp-js` would then move to a runtime dependency, loaded only on that page).
-- A scheduled refresh.
+- Keeping uploaded replays or sharing a link to one.
+- A scheduled refresh of the stored replays.

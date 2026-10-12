@@ -13,7 +13,8 @@
  *   another one later must have been refused. The last attempt on each larva is the one that
  *   worked, and the same holds for a Drone told to build. No income model is needed.
  * - Terran buildings: the SCV has to stay and build. An SCV given something else to do within
- *   a few seconds did not start the building.
+ *   a few seconds did not start the building. One left alone for the whole build time gets
+ *   longer to reach the spot, since it was probably sent across the map.
  * - Terran and Protoss buildings also have to be affordable, by a simple income model, when the
  *   worker gets there. This drops the build commands players use to move a scout around.
  * - Terran and Protoss units: a queue of five per building, paid for from the same model.
@@ -68,7 +69,7 @@ export type BuildStep = {
   /** 1 for the first of this name, 2 for the second, and so on. For research, the level. */
   count: number;
   /** A Zerg building the player cancelled, such as the Extractor of an extractor trick. */
-  cancelled?: true;
+  cancelled?: true | undefined;
 };
 
 /** Milliseconds per frame on Fastest, the speed every ladder game runs at. */
@@ -85,6 +86,10 @@ const GAS_PER_WORKER_FRAME = 0.072;
 const WORKERS_PER_GAS = 3;
 /** An SCV given another order this soon after a build order did not start the building. */
 const ABANDON_FRAMES = 240;
+/** An SCV left alone for this share of the build time stayed and built. */
+const COMMITTED_SHARE = 0.9;
+/** The same, for an SCV that then stayed away for the whole build time: a walk to an expansion. */
+const COMMITTED_ARRIVAL_FRAMES = 400;
 /** How long a worker may take to reach the spot; the money has to be there by then. */
 const ARRIVAL_FRAMES = 150;
 /** The income model is rough, so a building counts as affordable at this share of its cost. */
@@ -145,6 +150,8 @@ type Foresight = {
   droneBuilds: Set<string>;
   /** Terran: build orders the SCV (or, for an add-on, the building) walked away from. */
   abandoned: Set<string>;
+  /** Terran: build orders after which the SCV got no other order for the whole build time. */
+  committed: Set<string>;
   /** Frames at which each research was clicked. */
   research: Map<string, number[]>;
 };
@@ -158,8 +165,9 @@ function lookAhead(commands: readonly ReplayCommand[], playerId: number): Foresi
   const runs = new Map<string, { start: number; last: number }>();
   const lastDroneOrder = new Map<number, number>();
   const droneBuilds = new Set<string>();
-  const openBuilds = new Map<number, { frame: number; addon: boolean }>();
+  const openBuilds = new Map<number, { frame: number; addon: boolean; frames: number }>();
   const abandoned = new Set<string>();
+  const committed = new Set<string>();
   const research = new Map<string, number[]>();
 
   for (const command of commands) {
@@ -175,7 +183,11 @@ function lookAhead(commands: readonly ReplayCommand[], playerId: number): Foresi
         const open = openBuilds.get(tag);
         if (!open) continue;
         if (open.addon && !ADDON_ENDERS.has(type)) continue;
-        if (command.Frame - open.frame <= ABANDON_FRAMES) abandoned.add(orderKey(tag, open.frame));
+        const gap = command.Frame - open.frame;
+        if (gap <= ABANDON_FRAMES) abandoned.add(orderKey(tag, open.frame));
+        else if (!open.addon && gap >= open.frames * COMMITTED_SHARE) {
+          committed.add(orderKey(tag, open.frame));
+        }
         openBuilds.delete(tag);
       }
     }
@@ -202,14 +214,18 @@ function lookAhead(commands: readonly ReplayCommand[], playerId: number): Foresi
       }
     } else if (type === "Build" && first !== undefined) {
       lastDroneOrder.set(first, command.Frame);
-      openBuilds.set(first, { frame: command.Frame, addon: command.Order?.Name === "PlaceAddon" });
+      openBuilds.set(first, {
+        frame: command.Frame,
+        addon: command.Order?.Name === "PlaceAddon",
+        frames: BUILDINGS[unitName]?.frames ?? Number.POSITIVE_INFINITY,
+      });
     }
   }
 
   for (const [tag, frame] of lastDroneOrder) droneBuilds.add(orderKey(tag, frame));
   const morph = new Map<string, number>();
   for (const [key, run] of runs) morph.set(key, run.start);
-  return { morph, droneBuilds, abandoned, research };
+  return { morph, droneBuilds, abandoned, committed, research };
 }
 
 /**
@@ -422,7 +438,11 @@ export function estimateBuildOrder(
       name,
       cost,
       step: newStep("building", name),
-      deadline: frame + ARRIVAL_FRAMES,
+      deadline:
+        frame +
+        (terran && foresight.committed.has(orderKey(builder, frame))
+          ? COMMITTED_ARRIVAL_FRAMES
+          : ARRIVAL_FRAMES),
       pos,
     };
 

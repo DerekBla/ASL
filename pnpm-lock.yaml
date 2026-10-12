@@ -29,6 +29,9 @@ importers:
       react-dom:
         specifier: ^19.3.0
         version: 19.3.0(react@19.3.0)
+      screp-js:
+        specifier: 0.3.0
+        version: 0.3.0(esbuild@0.28.2)(postcss@8.5.29)
       server-only:
         specifier: ^0.0.1
         version: 0.0.1
@@ -93,9 +96,6 @@ importers:
       prettier:
         specifier: ^3.9.9
         version: 3.9.9
-      screp-js:
-        specifier: 0.3.0
-        version: 0.3.0(esbuild@0.28.2)(postcss@8.5.29)
       tailwindcss:
         specifier: ^4.3.3
         version: 4.3.3
