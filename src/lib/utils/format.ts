@@ -101,3 +101,13 @@ export function toKoreaLocal(iso: string): string {
 export function fromKoreaLocal(local: string): string {
   return new Date(new Date(`${local}:00Z`).getTime() - 9 * 3600_000).toISOString();
 }
+
+/** A UTC moment as its day: "Oct 12, 2026". */
+export function formatDay(iso: string): string {
+  return monthDayYear.format(new Date(iso));
+}
+
+/** A length in seconds as minutes and seconds: 779 -> "12:59". */
+export function formatGameLength(seconds: number): string {
+  return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, "0")}`;
+}

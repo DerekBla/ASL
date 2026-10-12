@@ -27,6 +27,7 @@ describe("SiteHeader", () => {
       "Race stats",
       "Maps",
       "Records",
+      "Build orders",
       "Markets",
       "Market leaderboard",
       "Pick'em",

@@ -17,6 +17,7 @@ const FOUNDATION = [
   "./src/lib/market",
   "./src/lib/pickem",
   "./src/lib/draft",
+  "./src/lib/replay",
   "./src/lib/types",
   "./src/lib/utils",
   "./src/lib/config",
@@ -30,6 +31,7 @@ const FEATURE_DOMAINS = [
   "admin",
   "pickem",
   "draft",
+  "builds",
 ];
 
 const forbid = (targets, from, message) =>

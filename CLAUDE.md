@@ -96,6 +96,9 @@ Facts about the ASL data that are easy to get wrong. Follow them everywhere.
   `seriesWinProbability` for a best of N. Label every chance as a rough guide.
 - **Maps** keep Liquipedia's names. Versions stay separate (`Sylphid`, `Neo Sylphid`, `Vermeer SE`).
   One spelling fix is applied in the exporter (`MAP_NAMES`): `Matchpoint` → `Match Point`.
+- **Build orders** (2026-10-12) come from ladder replays, not from the ASL. A replay records
+  clicks, so times are exact but supply is worked out by `src/lib/replay/buildOrder.ts`. Say
+  "rough guide" wherever supply is shown, and credit cwal.gg wherever the replays are listed.
 - **Branding**: unofficial fan project. No ASL/SOOP/AfreecaTV logos or trade dress. Footer
   carries a "fan project, not affiliated" disclaimer.
 
@@ -128,6 +131,8 @@ Full module map, dependency rules, and data-flow patterns:
 | `Docs/reports/` | Generated output — do not hand-author |
 | `data/source/liquipedia/` | Fetched Liquipedia wikitext and the results parsed from it. Never hand-edit; re-run the scripts |
 | `data/source/youtube/` | Videos the season pages can link as VODs. Never hand-edit; re-run `pnpm stats:vods` |
+| `data/source/cwal/` | The list of replays fetched from cwal.gg. Never hand-edit; re-run `pnpm replays:fetch` |
+| `public/replays/` | The stored replay files, served as they are. Never hand-edit; re-run `pnpm replays:fetch` |
 | `data/source/overrides.json` | Derek's corrections (display names, races). Agents propose, Derek confirms |
 | `data/source/*.xlsx` | The old workbook, kept as a reference copy. Nothing reads it |
 | `data/generated/` | Exporter output. Never hand-edit; re-run `pnpm stats:export` |
@@ -203,6 +208,13 @@ than the overall rating, so they are shown as ratings and never used for chances
 runs the tests before it publishes, so a test that hard-codes the newest series or today's
 ELO fails the moment a match is played. Read expected values from the data.
 
+**[2026-10-12] Replay commands are clicks, not events** — a first build order reader trusted
+every build command and gave one player three Barracks in the first minute. Players spam build
+commands they cannot pay for, and use them to move scouts. Decide what took effect from
+structure first (a larva's last morph attempt, an SCV that stays on the job, the tech tree)
+and from the income model second, and check the output against openings you know (9 Depot,
+11 Barracks; 12 Hatchery, 11 Pool).
+
 ---
 
 ## ROADMAP Status Lifecycle
@@ -246,6 +258,8 @@ draft → approved → in-progress → implemented
 | `pnpm stats:season <n>` | Download one season's page again, for updating a season in progress (network) |
 | `pnpm stats:qualifiers` | Download the qualifier pages into `data/source/liquipedia/qualifiers/` (network, about 5 minutes) |
 | `pnpm stats:vods` | List the English casts on YouTube into `data/source/youtube/videos.json` (network) |
+| `pnpm replays:fetch` | Download the ten newest ladder replays of each chosen pro from cwal.gg into `public/replays/` (network; replaces the stored set) |
+| `pnpm replays:export` | Parse the stored replays → `data/generated/builds.json` (offline) |
 | `pnpm stats:export` | Parse the stored pages → `data/generated/*.json`, prints validation notes (offline) |
 | `pnpm stats:refresh` | Update the season in progress and publish it, or stop if anything looks off. Runs on a schedule: `Docs/tooling-specs/stats-refresh.md` |
 | `pnpm stats:test` | Parser and exporter tests (needs Python 3.12+, standard library only) |

@@ -17,6 +17,7 @@ const NAV_ITEMS = [
   { href: "/races", label: "Race stats" },
   { href: "/maps", label: "Maps" },
   { href: "/records", label: "Records" },
+  { href: "/builds", label: "Build orders" },
   { href: "/markets", label: "Markets" },
   { href: "/leaderboard", label: "Market leaderboard" },
   { href: "/pickem", label: "Pick'em" },

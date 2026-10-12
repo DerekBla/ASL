@@ -9,6 +9,16 @@ const nextConfig: NextConfig = {
   // broken stand-in for its optional `bufferutil` add-on and every ledger write crashes with
   // "b.mask is not a function" (seen on Vercel, 2026-10-07).
   serverExternalPackages: ["ws", "@neondatabase/serverless"],
+  // Replays are binary game files: have browsers save them instead of guessing a type.
+  headers: async () => [
+    {
+      source: "/replays/:path*",
+      headers: [
+        { key: "Content-Type", value: "application/octet-stream" },
+        { key: "Content-Disposition", value: "attachment" },
+      ],
+    },
+  ],
 };
 
 export default nextConfig;
